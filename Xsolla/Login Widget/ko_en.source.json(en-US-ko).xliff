@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-06T07:54:24.5130983Z" original="2152387_1042" source-language="en-US" target-language="ko"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1342" /></header><body>
+<trans-unit id="1068975" approved="yes">
+<source xml:space="preserve">Back</source>
+<target state="translated" xml:space="preserve">뒤로</target></trans-unit>
+<trans-unit id="1068976" approved="yes">
+<source xml:space="preserve">You can close this window</source>
+<target state="translated" xml:space="preserve">창을 닫으세요.</target></trans-unit>
+<trans-unit id="1068977" approved="yes">
+<source xml:space="preserve">To activate account, please use the link we have sent you to your registration email: :email</source>
+<target state="translated" xml:space="preserve">계정을 활성화하시려면 등록 이메일로 보내 드린 링크를 이용하시기 바랍니다. 이메일: :email</target></trans-unit>
+<trans-unit id="1068978" approved="yes">
+<source xml:space="preserve">Validate Access</source>
+<target state="translated" xml:space="preserve">접근 승인</target></trans-unit>
+<trans-unit id="1068979" approved="yes">
+<source xml:space="preserve">Complete registration using the instructions we sent to :email</source>
+<target state="translated" xml:space="preserve">아래 계정으로 보낸 설명을 참조하여 계정 등록을 완료하세요. 이메일: :email</target></trans-unit>
+<trans-unit id="1068980" approved="yes">
+<source xml:space="preserve">Create account</source>
+<target state="translated" xml:space="preserve">계정 만들기</target></trans-unit>
+<trans-unit id="1068981" approved="yes">
+<source xml:space="preserve">Create account</source>
+<target state="translated" xml:space="preserve">계정 만들기</target></trans-unit>
+<trans-unit id="1068982" approved="yes">
+<source xml:space="preserve">It's okay, everyone forgets sometimes. Just change your password using the instructions we sent to</source>
+<target state="translated" xml:space="preserve">괜찮습니다. 누구나 가끔 잊어버릴 때가 있습니다. 아래 이메일로 보내드린 설명에 따라 비밀번호를 변경하세요.</target></trans-unit>
+<trans-unit id="1068983" approved="yes">
+<source xml:space="preserve">Re-send message</source>
+<target state="translated" xml:space="preserve">이메일 다시 보내기</target></trans-unit>
+<trans-unit id="1068984" approved="yes">
+<source xml:space="preserve">Set New Password</source>
+<target state="translated" xml:space="preserve">새 비밀번호 설정</target></trans-unit>
+<trans-unit id="1068985" approved="yes">
+<source xml:space="preserve">Recover password</source>
+<target state="translated" xml:space="preserve">비밀번호 변경</target></trans-unit>
+<trans-unit id="1068986" approved="yes">
+<source xml:space="preserve">Recover password</source>
+<target state="translated" xml:space="preserve">비밀번호 변경</target></trans-unit>
+<trans-unit id="1068987" approved="yes">
+<source xml:space="preserve">Accept</source>
+<target state="translated" xml:space="preserve">승인</target></trans-unit>
+<trans-unit id="1068988" approved="yes">
+<source xml:space="preserve">Decline</source>
+<target state="translated" xml:space="preserve">거부</target></trans-unit>
+<trans-unit id="1068989" approved="yes">
+<source xml:space="preserve">Create an account</source>
+<target state="translated" xml:space="preserve">계정 만들기</target></trans-unit>
+<trans-unit id="1068990" approved="yes">
+<source xml:space="preserve">Forgot password?</source>
+<target state="translated" xml:space="preserve">비밀번호를 잊으셨나요?</target></trans-unit>
+<trans-unit id="1068991" approved="yes">
+<source xml:space="preserve">Already have an account</source>
+<target state="translated" xml:space="preserve">이미 계정이 있습니다.</target></trans-unit>
+<trans-unit id="1068992" approved="yes">
+<source xml:space="preserve">E-mail</source>
+<target state="translated" xml:space="preserve">이메일</target></trans-unit>
+<trans-unit id="1068993" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">로딩 중…</target></trans-unit>
+<trans-unit id="1068994" approved="yes">
+<source xml:space="preserve">Password</source>
+<target state="translated" xml:space="preserve">비밀번호</target></trans-unit>
+<trans-unit id="1068995" approved="yes">
+<source xml:space="preserve">Confirm Password</source>
+<target state="translated" xml:space="preserve">비밀번호 확인</target></trans-unit>
+<trans-unit id="1068996" approved="yes">
+<source xml:space="preserve">Receive game updates</source>
+<target state="translated" xml:space="preserve">게임 업데이트 받기</target></trans-unit>
+<trans-unit id="1068997" approved="yes">
+<source xml:space="preserve">Remember</source>
+<target state="translated" xml:space="preserve">자동 로그인</target></trans-unit>
+<trans-unit id="1068998" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">검색</target></trans-unit>
+<trans-unit id="1068999" approved="yes">
+<source xml:space="preserve">Sign in</source>
+<target state="translated" xml:space="preserve">로그인</target></trans-unit>
+<trans-unit id="1069000" approved="yes">
+<source xml:space="preserve">Submit</source>
+<target state="translated" xml:space="preserve">제출</target></trans-unit>
+<trans-unit id="1069001" approved="yes">
+<source xml:space="preserve">The user canceled the input</source>
+<target state="translated" xml:space="preserve">사용자가 입력을 취소했습니다.</target></trans-unit>
+<trans-unit id="1069002" approved="yes">
+<source xml:space="preserve">Wrong login or password</source>
+<target state="translated" xml:space="preserve">잘못된 로그인 또는 비밀번호</target></trans-unit>
+<trans-unit id="1069003" approved="yes">
+<source xml:space="preserve">User is not found</source>
+<target state="translated" xml:space="preserve">사용자를 찾을 수 없습니다.</target></trans-unit>
+<trans-unit id="1069004" approved="yes">
+<source xml:space="preserve">This user name already exists</source>
+<target state="translated" xml:space="preserve">이 사용자 이름은 이미 있습니다.</target></trans-unit>
+<trans-unit id="1069005" approved="yes">
+<source xml:space="preserve">This e-mail is already registered</source>
+<target state="translated" xml:space="preserve">이 이메일은 이미 등록되어 있습니다.</target></trans-unit>
+<trans-unit id="1069006" approved="yes">
+<source xml:space="preserve">E-mail does not exist</source>
+<target state="translated" xml:space="preserve">이메일이 존재하지 않습니다.</target></trans-unit>
+<trans-unit id="1069007" approved="yes">
+<source xml:space="preserve">User is banned</source>
+<target state="translated" xml:space="preserve">해당 계정을 사용할 수 없습니다.</target></trans-unit>
+<trans-unit id="1069008" approved="yes">
+<source xml:space="preserve">User not activated</source>
+<target state="translated" xml:space="preserve">계정이 활성화되지 않았습니다.</target></trans-unit>
+<trans-unit id="1069009" approved="yes">
+<source xml:space="preserve">Registration error</source>
+<target state="translated" xml:space="preserve">등록 오류</target></trans-unit>
+<trans-unit id="1069010" approved="yes">
+<source xml:space="preserve">This email already exists</source>
+<target state="translated" xml:space="preserve">해당 이메일은 이미 존재합니다.</target></trans-unit>
+<trans-unit id="1069011" approved="yes">
+<source xml:space="preserve">Error sending mail</source>
+<target state="translated" xml:space="preserve">이메일 전송 중 오류 발생</target></trans-unit>
+<trans-unit id="1069012" approved="yes">
+<source xml:space="preserve">E-mail to be confirmed</source>
+<target state="translated" xml:space="preserve">이메일 인증이 필요합니다.</target></trans-unit>
+<trans-unit id="1069013" approved="yes">
+<source xml:space="preserve">Invalid request</source>
+<target state="translated" xml:space="preserve">잘못된 요청</target></trans-unit>
+<trans-unit id="1069014" approved="yes">
+<source xml:space="preserve">Service is temporarily unavailable</source>
+<target state="translated" xml:space="preserve">서비스를 일시적으로 사용할 수 없습니다.</target></trans-unit>
+<trans-unit id="1069015" approved="yes">
+<source xml:space="preserve">You exceeded the rate limit</source>
+<target state="translated" xml:space="preserve">속도 제한을 초과했습니다.</target></trans-unit>
+<trans-unit id="1069016" approved="yes">
+<source xml:space="preserve">In case of unlinking social profile, user has no other methods to login left (except of this social profile)</source>
+<target state="translated" xml:space="preserve">소셜 프로필 연결을 해제하는 경우, 다른 로그인 방법이 없습니다(이 소셜 프로필 제외).</target></trans-unit>
+<trans-unit id="1069017" approved="yes">
+<source xml:space="preserve">Baidu</source>
+<target state="translated" xml:space="preserve">Baidu</target></trans-unit>
+<trans-unit id="1069018" approved="yes">
+<source xml:space="preserve">E-mail</source>
+<target state="translated" xml:space="preserve">이메일</target></trans-unit>
+<trans-unit id="1069019" approved="yes">
+<source xml:space="preserve">Facebook</source>
+<target state="translated" xml:space="preserve">Facebook</target></trans-unit>
+<trans-unit id="1069020" approved="yes">
+<source xml:space="preserve">Google</source>
+<target state="translated" xml:space="preserve">Google</target></trans-unit>
+<trans-unit id="1069021" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">LinkedIn</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">LinkedIn</ph></target></trans-unit>
+<trans-unit id="1069022" approved="yes">
+<source xml:space="preserve">Naver</source>
+<target state="translated" xml:space="preserve">Naver</target></trans-unit>
+<trans-unit id="1069023" approved="yes">
+<source xml:space="preserve">Sorry, we cant find nothing</source>
+<target state="translated" xml:space="preserve">죄송합니다. 해당 계정을 찾을 수 없습니다.</target></trans-unit>
+<trans-unit id="1069024" approved="yes">
+<source xml:space="preserve">Other</source>
+<target state="translated" xml:space="preserve">기타</target></trans-unit>
+<trans-unit id="1069025" approved="yes">
+<source xml:space="preserve">Sign in with :name</source>
+<target state="translated" xml:space="preserve">:name 로 로그인</target></trans-unit>
+<trans-unit id="1069026" approved="yes">
+<source xml:space="preserve">Slack</source>
+<target state="translated" xml:space="preserve">Slack</target></trans-unit>
+<trans-unit id="1069027" approved="yes">
+<source xml:space="preserve">Steam</source>
+<target state="translated" xml:space="preserve">Steam</target></trans-unit>
+<trans-unit id="1069028" approved="yes">
+<source xml:space="preserve">Twitter</source>
+<target state="translated" xml:space="preserve">Twitter</target></trans-unit>
+<trans-unit id="1069029" approved="yes">
+<source xml:space="preserve">VK</source>
+<target state="translated" xml:space="preserve">VK</target></trans-unit>
+<trans-unit id="1069030" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">WeChat</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">WeChat</ph></target></trans-unit>
+<trans-unit id="1069031" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;h1&gt;</ph>Terms of Service<ph id="ph2" ctype="x-smartcat">&lt;/h1&gt;</ph><ph id="ph3" ctype="x-smartcat">&lt;ol&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Limited-License Use<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>These Terms of Use (&amp;quot;Terms&amp;quot;) establish the procedures and rules for using virtual products, virtual currencies, as well as other products (&amp;quot;Proucts&amp;quot;), the <ph id="ph9" ctype="x-smartcat">www.xsolla.com</ph> website and other affiliated websites operating under the Xsolla brand (&amp;quot;Xsolla website&amp;quot;), as well as any software that can be accessed via Xsolla website (&amp;quot;Software&amp;quot;).<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Please review these Terms carefully before using the Xsolla website and software. These Terms contain a legally binding agreement between you and Xsolla.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>By using the Website, you acknowledge that you agree to abide by the rules, guidelines and applicable license agreements set forth in these Terms and Conditions.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>If you do not agree to these Terms, you must close the Xsolla website and immediately stop using the Software.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla does not provide you with any title to any product. When you purchases a product, you are granted limited rights to use the purchased products in online games, virtual worlds, or other media products, or services, and must comply with all other rules (where applicable) stipulated in the terms of the agreement between the provider and the consumer of the products and services.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Changes<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>These Terms are subject to change, so please review them from time to time. The final version of the Terms (including the effective date) is available on the Xsolla Website. If you continue to use the Xsolla Website and Software after the Terms have changed, you are understood to have automatically accepted all the changes.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Terms of Purchase<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>The purchase price depends on the payment method, so you must check the price once again after choosing the payment method.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>All product purchases require using one of the payment methods approved by Xsolla, which include credit card payments or other methods.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>You agree that you will be obligated to provide Xsolla or any other payment method provider with accurate information about your credit card or other payment instrument that you are entitled to use at the time of payment and pay any subsequent fees and taxes. Xsolla shall not be liable for any damages whatsoever arising from the user’s providing inaccurate information.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>All purchases are non-refundable and non-cancelable.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Notwithstanding the foregoing, Xsolla reserves the right to refuse payment without further explanation.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Depending on the service, a maximum or minimum payment amount may apply.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Processing of refused payments and chargebacks requests may take some time. Xsolla accepts no liability for any loss due to the processing of refused payments or delays in chargebacks.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Using the Xsolla website and software<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla may, without notice, take any of the following actions and assume no additional legal liability for this action.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Restrict or permanently suspend Website or Software usage<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Alter or discontinue a Product<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Provide third parties with information about users and their activities when necessary in accordance with applicable laws, court orders, or other legitimate requests, or when deemed necessary for the security of the Xsolla Website or Software.<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>It strictly prohibited to attempt to use the Xsolla Website, Software, or any portion thereof, if your use of the Xsolla Website, the Software, or portions thereof has been already restricted or permanently suspended.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>The Software may be used for personal purposes only. You may not use the Software for commercial, unlawful, or unauthorized purposes.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>You must comply with all laws and regulations governing online conduct when accessing and using the Xsolla Website or Software. In addition to the other provisions of these Terms, you may not use the Xsolla Website or Software to do any of the following or otherwise assist or engage in any of the following activities:<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Infringe the legal rights of other individuals or entities (including, but not limited to, their intellectual property, privacy, and publicity rights)<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Send files containing viruses, spyware, adware, or other harmful code<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Impersonate or misrepresent yourself, another person or group, or affiliation<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Trespass access restrictions, attempt to access software that you are not allowed to access (including password-protected portions of software)<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Collect or allow the collection of IP addresses, e-mail addresses, or other contact information of Xsolla Website users, electronically or otherwise<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Restrict or prohibit access to the Xsolla Websites for others<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Exploit or attempt to exploit Software vulnerabilities<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Change, delete, or remove Xsolla’s or any third party’s information without permission<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>You must comply with the instructions of the Xsolla staff, including Xsolla customer support representatives, while using the Xsolla Website or Software.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Warranty and Liability<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>You agree to indemnify and hold harmless Xsolla and Xsolla’s parent company, and its subsidiaries, for any damages, losses, costs, liabilities and expenses (including legal costs) arising out of access to and use of the Xsolla Website and the Software. You agree to indemnify, defend, and hold harmless the Company, its subsidiaries, directors, officers, employees, shareholders, suppliers, partners, contractors, agents, license providers, or any other persons, against any claims arising from, but not limited, to third party contract terms, policies, and guidelines, as well as related laws and regulations.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>You use the Xsolla Website and Software entirely at your own risk. The Xsolla Website and Software are provided &amp;quot;as is&amp;quot;. If you are not satisfied with the Xsolla Website, Software, or some of the content, you must stop using it. Xsolla makes no warranties, including, but not limited to, implied warranties of merchantability, availability, accuracy, completeness, quality, performance, or fitness for a particular purpose. Xsolla will not be liable for any loss of Internet or other connection errors, delays, or failures caused by using the Xsolla Website and Software. Xsolla assumes no liability for any damages (including, but not limited to, loss of profits, contracts, business, whether direct or indirect, incidental, punitive, or defamation-related) due to the use of the Xsolla Website and Software.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Dispute Resolution<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>These Terms and any claims arising in connection with your use of the Xsolla Website and Software shall be construed in accordance with the laws of the state of California, USA.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>These Terms are not subject to the United Nations Convention on Contracts for the International Sale of Goods.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>You agree to resolve any disputes in the exclusive jurisdiction in appropriate state courts located in the state of California, USA, in connection with any dispute or claim.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph13" ctype="x-smartcat">&lt;/ol&gt;</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;h1&gt;</ph>이용약관<ph id="ph2" ctype="x-smartcat">&lt;/h1&gt;</ph><ph id="ph3" ctype="x-smartcat">&lt;ol&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>제한된 라이센스 사용<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>본 이용 약관 (이하 &amp;quot;약관&amp;quot;)은 가상 상품, 가상 화폐, 기타 품목 ( &amp;quot;제품&amp;quot;) 및 <ph id="ph9" ctype="x-smartcat">www.xsolla.com</ph> 사이트 및 그 사이트에 연동된 다른 사이트, 그리고 Xsolla라는 명칭을 이용하는 타 법인의 웹사이트(이하 &amp;quot;Xsolla 웹 사이트&amp;quot;)와 Xsolla 웹사이트와 연동이 되어있거나 이를 통해 접속할 수 있는 소프트웨어(이하 “소프트웨어”) 사용에 대한 제한적 권리 이전 절차를 규정하고 있습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla 웹 사이트와 소프트웨어를 사용하기 전에 본 약관을 주의 깊게 검토하시기 바랍니다. 본 약관은 사용자와 Xsolla간에 법적 구속력이 있는 계약내용을 포함하고 있습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>사이트를 이용하면 사용자는 본 약관에 명시된 규칙, 지침 및 해당 사용권 계약을 준수 할 것에 동의하였음을 인정하는 것입니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>본 약관에 동의하지 않을 경우에는 Xsolla 웹 사이트를 종료하고, 즉시 소프트웨어 사용을 중단 하여야 합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla는 어떠한 제품에 대해서도 소유권을 부여하지 않습니다. 사용자가 제품을 구매할 경우 사용자는 온라인 게임, 가상세계 혹은 다른 미디어 제품 또는 서비스에서 구매한 제품을 사용할 제한된 권리를 부여 받게 되며 기타 모든 권한들은 (해당사항이 있는 경우) 온라인 게임, 가상세계 혹은 다른 미디어 제품 및 서비스의 제공자와 사용자 간의 계약내 조항에 따라야 합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>변경<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph>&lt;p&gt;본 약관은 변경될 수 있으므로 약관을 정기적으로 검토하시길 바랍니다. 약관의 최종버전(유효일자 포함)은 Xsolla 웹사이트에서 볼 수 있으며 약관이 변경된 후 계속해서 Xsolla 웹사이트와 소프트웨어를 사용하는 경우 모든 변경사항을 철회 불가능한 형태로 동의함을 의미합니다.&lt;/p&gt;<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>구매약관<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>제품 가격은 결제 수단에 따라 결정되므로 결제 수단을 선택한 후에 다시 확인하여야 합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>모든 제품 구매 시에는 Xsolla에서 승인한 결제 가능 신용카드 또는 기타 결제수단이 필요합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>사용자는 결제 시 Xsolla 또는 기타 결제 수단 제공업체에 자신이 사용할 권리를 가지고 있는 신용카드 또는 다른 결제수단의 정확한 정보를 제공하여야 할 의무가 있으며 이후 발생하는  수수료 및 세금을 지불할 것임에 동의함을 의미합니다. Xsolla는 사용자가 정확하지 않은 정보를 제공함으로써 발생하는 어떠한 종류의 손해에 대해서도 책임을 지지 않습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>모든 구매는 환불하거나 취소할 수 없습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>상기 규정에도 불구하고 Xsolla는 부가 설명 없이 결제를 거절할 권리가 있습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>서비스에 따라 최대 혹은 최소 결제 금액이 적용될 수 있습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>결제 거절로 인한 처리 및 환불에는 시간이 소요될 수 있습니다. 결제 거절로 인한 처리 및 환불지연으로 인한 손실에 대해 Xsolla는 어떠한 책임을 지지 않습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>Xsolla 웹사이트 및 소프트웨어 사용<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla는 사전통지없이 다음과 같은 조치를 취할 수 있으며 이 조치에 따른 추가 법적 책임을 지지 않습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>웹사이트 및 소프트웨어 사용권한 제한 및 영구 정지<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>제품 변경 및 판매 중단<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>관련 법률이나 법원 명령 및 기타 합법적인 요청에 따라 필요한 경우, 또는 Xsolla 웹사이트나 소프트웨어의 보안을 위해 필요하다고 판단되는 경우에 사용자 및 사용자의 활동 정보를 제3자에 제공<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>기존에 Xsolla 웹사이트, 소프트웨어 또는 그 일부에 대한 사용권한이 제한되었거나 영구 정지되었음에도 불구하고 Xsolla 웹사이트, 소프트웨어 또는 그 일부를 사용하거나 사용하고자 하는 시도 하는 행위를 엄격하게 금합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>소프트웨어는 개인적인 목적으로 사용할 수 있습니다. 소프트웨어를 상업적 목적 또는 불법적이거나 허가되지 않은 목적으로 사용하여서는 안됩니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla 웹사이트와 소프트웨어를 접속 및 사용 시 온라인 행동 규정과 관련된 모든 법률을 준수해야 합니다. 본 약관의 다른 조항과 더불어, 사용자는 Xsolla의 웹사이트와 소프트웨어를 사용하여 다음과 같은 행위를 하거나 다른 사람들이 다음과 같은 행위를 하는 것을 지원하거나 연관되는 행위를 할 수 없습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>다른 개인 또는 법인의 법적 권리를 침해(지적 재산권, 개인 정보 보호 및 퍼블리시티권을 포함하나 이에 국한되지 않음)<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>바이러스, 스파이웨어, 애드웨어 또는 기타 유해한 코드가 포함 된 파일을 전송<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>자신, 다른 사람 또는 단체를 사칭하거나 귀하의 소속을 허위 진술<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>접속제한 무효화, 접속이 허용되어 있지 않은 소프트웨어접속시도(암호로 보호되고 있는 부분 포함)<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>Xsolla 웹 사이트 사용자의 IP 주소 나 전자 메일 주소 또는 기타 연락처 정보를 전자적 방법 또는 기타 방식으로 수집하거나 수집하는 행위<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>타인의 Xsolla 웹사이트 접속을 제한하거나 금지하는 행위<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>소프트웨어의 취약점을 이용하거나 이용하려고 시도하는 행위<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph>허가없이 Xsolla 또는 제 3 자의 정보를 변경 또는 삭제하거나 변경 또는 삭제를 시도하는 행위<ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>사용자는 Xsolla 웹 사이트 또는 소프트웨어를 사용하는 동안Xsolla의 고객 지원 담당자를 포함한 Xsolla 직원의 지시를 준수해야합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>보증 및 책임의 한계<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>사용자는 Xsolla 웹사이트와 소프트웨어에 접속 및 사용, 오용으로 인해 발생하는 모든 손해, 피해, 발생 비용, 법적 책임 및 추가비용에 대해(법적 비용을 포함하되 이에 국한되지는 않음) Xsolla와 Xsolla의 모회사 및 자회사, 이사, 임원, 직원, 주주, 공급업체, 파트너, 계약자, 대리인, 라이센스 제공자 또는 그 밖의 모든 대표자에게 배상하고, 그들을 보호하고 피해를 주지 않을 것에 동의합니다.(본 이용약관 및 개별 서비스 제공자 및 국내외 Publisher를 퐇마한 제 3자의 계약조건, 정책 및 가이드라인 및 관련법과 규율을 포함하되 이에 국한되지 않음)<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla 웹사이트 및 소프트웨어의 사용은 전적으로 사용자의 책임에 의합니다. Xsolla의 웹사이트 및 소프트웨어는 ‘있는 그대로’ 제공됩니다. Xsolla의 웹사이트와 소프트웨어 또는 컨텐츠의 일부에 만족하지 않는 경우에는 접속 및 사용을 중단하여야 합니다. Xsolla는 상품성, 가용성, 정확성, 완성도, 품질, 성능 및 적합성을 포함한 모든 어떠한 보증도 하지 않습니다. Xsolla는 Xsolla 웹사이트 및 소프트웨어 사용 시 발생하는 인터넷 또는 기타 통신상의 오류, 지연 및 실패로 인한 어떠한 손실에 대해서도 책임지지 않습니다. Xsolla는 Xsolla 웹사이트 및 소프트웨어와 관련된 어떠한 형태의 손해(수익, 이익, 계약, 사업 또는 직/간접적, 우발적, 비상용적 또는 징벌적 손실 및 명예훼손을 포함하며 이에 국한되지 않음)에 대해서도 책임을 지지 않습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;h2&gt;</ph>분쟁해결<ph id="ph6" ctype="x-smartcat">&lt;/h2&gt;</ph><ph id="ph7" ctype="x-smartcat">&lt;ul&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>Xsolla 웹사이트 및 소프트웨어 사용과 관련하여 발생하는 본 약관 및 모든 청구는 미국과 캘리포니아 주법에 따라 해석됩니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>본 약관은 국제 물품 매매 계약에 관한 유엔 협약의 적용을 받지 않습니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph4" ctype="x-smartcat">&lt;li&gt;</ph><ph id="ph8" ctype="x-smartcat">&lt;span&gt;</ph>사용자는 분쟁이나 청구와 관련하여 미국 캘리포니아 주에 위치한 적절한 주 법원에서 독점적 으로 관할 하는 것에 동의합니다.<ph id="ph10" ctype="x-smartcat">&lt;/span&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph12" ctype="x-smartcat">&lt;/ul&gt;</ph><ph id="ph11" ctype="x-smartcat">&lt;/li&gt;</ph><ph id="ph13" ctype="x-smartcat">&lt;/ol&gt;</ph></target></trans-unit>
+<trans-unit id="1069032" approved="yes">
+<source xml:space="preserve">Please, enter correct e-mail</source>
+<target state="translated" xml:space="preserve">올바른 이메일 주소를 입력하세요</target></trans-unit>
+<trans-unit id="1069033" approved="yes">
+<source xml:space="preserve">Min password length of :length characters</source>
+<target state="translated" xml:space="preserve">비밀번호(최소:length 자 이상)</target></trans-unit>
+<trans-unit id="1069034" approved="yes">
+<source xml:space="preserve">The passwords do not match</source>
+<target state="translated" xml:space="preserve">비밀번호가 일치하지 않습니다.</target></trans-unit>
+<trans-unit id="1069035" approved="yes">
+<source xml:space="preserve">Required</source>
+<target state="translated" xml:space="preserve">필수 사항</target></trans-unit></body></file></xliff>
