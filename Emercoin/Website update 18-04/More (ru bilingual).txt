@@ -1,0 +1,353 @@
+№
+Source (EN)
+Target (RU)
+Task
+1
+Back to latest news
+К списку новостей
+Proofreading TM (102%)
+2
+Core Wallet
+Кошелёк
+Proofreading TM (102%)
+3
+Emercoin Basic
+Emercoin Basic
+Proofreading TM (102%)
+4
+Emercoin One
+Emercoin One
+Proofreading TM (102%)
+5
+Emercoin SW
+Emercoin SW
+Proofreading TM (102%)
+6
+Cryptonator
+Cryptonator
+Proofreading TM (102%)
+7
+Paper Wallet
+Бумажный кошелёк
+Proofreading TM (102%)
+8
+All Subscribers
+Все подписчики
+Proofreading TM (102%)
+9
+Thank you!
+Спасибо!
+Proofreading TM (102%)
+10
+We will get back to you as soon as possible, but it also could take upto 2 days.
+Мы постараемся ответить как можно быстрее, но будьте готовы подождать 2 дня.
+Proofreading TM (102%)
+11
+Contact Us about anything related to our company or services.
+Свяжитесь с нами по любым вопросам о нашей компании и услугах.
+Proofreading TM (102%)
+12
+We’ll do our best to get back to you as soon as possible
+Мы постараемся ответить как можно быстрее
+Proofreading TM (102%)
+13
+E-MAIL US ON SUPPORT@EMERCOIN.COM
+НАПИШИТЕ НАМ НА SUPPORT@EMERCOIN.COM
+Proofreading TM (102%)
+14
+Meet the Emercoin Team
+Встречайте: команда Emercoin
+Proofreading TM (102%)
+15
+Oleg Khovayko
+Олег Ховайко
+Proofreading TM (102%)
+16
+Has a strong background in the realm of finance and specializes in the technical aspects of blockchains and cryptography.
+Гуру криптографии и блокчейн-технологий с солидным опытом в финансовой сфере.
+Proofreading TM (102%)
+17
+Eugene Shumilov
+Евгений Шумилов
+Proofreading TM (102%)
+18
+Emercoin's fearless founder has an unstoppable vision for Emercoin to become the global leader in blockchain innovation.
+Бесстрашный основатель Emercoin и непримиримый борец за мировое господство в области блокчейн-инноваций.
+Proofreading TM (102%)
+19
+Stan Polozov
+Станислав Полозов
+Proofreading TM (102%)
+20
+An accomplished career in the technology industry.
+Мастер технологических интеграций.
+Proofreading TM (102%)
+21
+Provides insight into how Emercoin can be integrated with existing architecture.
+Лучше всех знает, как встроить Emercoin в существующие инфраструктуры.
+Proofreading TM (102%)
+22
+Eugene Merenkov
+Евгений Меренков
+Proofreading TM (102%)
+23
+Focuses on improving Emercoin's currency and blockchain offerings through the testing and development of new technology.
+Разработчик и тестировщик, делающий Emercoin лучше и технологичнее день ото дня.
+Proofreading TM (102%)
+24
+Mikhail Voevodskiy
+Михаил Воеводский
+Proofreading TM (102%)
+25
+Integration Architect and co-founder EmerSchool
+Интеграционный архитектор и сооснователь «Школы Emercoin».
+Proofreading TM (102%)
+26
+Spreads information about Emercoin products and technologies.
+Сеет любовь к продуктам и технологии Emercoin по всему миру.
+Proofreading TM (102%)
+27
+Emercoin products integrator.
+Интегрирует продукты Emercoin.
+Proofreading TM (102%)
+28
+Bill Tai
+Билл Тай
+Proofreading TM (102%)
+29
+World renowned venture capitalist, Bill originally trained as a chip designer and joined LSI Logic
+Всемирно известный инвестор, а в прошлом — создатель полупроводниковых чипов.
+Proofreading TM (101%)
+30
+World renowned venture capitalist, Bill originally trained as a chip designer and joined LSI Logic, a seminal Silicon Valley startup formed by the CEO of Fairchild Semiconductor after earning a BSEE with Honors from University of Illinois.
+Ныне всемирно известный инвестор, а в прошлом — создатель полупроводниковых чипов, Билл с отличием окончил Университет Иллиноиса, после чего пришёл работать в легендарный калифорнийский стартап LSI Logic.
+Proofreading TM (99%)
+31
+After completing a MBA at Harvard, he was issued badge #A001 at TSMC, now among the most valuable tech companies in the world.
+Позже он получил MBA в Гарварде и бейдж за №A001 в TSMC, впоследствии ставшей одной из самых крутых хайтек-компаний мира.
+Proofreading TM (101%)
+32
+He has been a venture capitalist since 1991 and today is the Chairman of Treasure Data, a Board Member of Bitfury and Voxer.
+Венчурными инвестициями Билл занимается с 1991 года и сегодня является президентом Treasure Data, а также членом совета директоров Bitfury и Voxer.
+Proofreading TM (102%)
+33
+Bill was Founding Chairman and CEO of iAsiaWorks (IPO via Goldman Sachs & Morgan Stanley) and Founding Chairman of IPinfusion.
+По пути он успел основать компании iAsiaWorks и IPinfusion, первая из которых прошла IPO,
+Proofreading TM (102%)
+34
+He has served as Board Director of 7 publicly listed companies that grew from startups he funded at their formative stages.
+и поработать директором в 7 других , которые также «вырастил» из стартапов в публичные компании.
+Proofreading TM (101%)
+35
+He serves on the World Economic Forum’s Technology Pioneer Committee and is an Adjunct Professor of Innovation at Curtin University.
+В довершение всего, Билл состоит в комитете технологических инноваций Международного экономического форума и преподаёт в университете Кёртин.
+Proofreading TM (99%)
+36
+George Kikvadze
+Джордж Киквадзе
+Proofreading TM (101%)
+37
+George is the Vice Chairman of The BitFury Group, the world's leading Blockchain infrastructure provider and transaction processing company.
+Вице-президент Bitfury Group, крупнейшего провайдера инфраструктуры и обработчика транзакций в сфере блокчейна.
+Proofreading TM (101%)
+38
+George is the Vice Chairman of The BitFury Group, the world's leading Blockchain infrastructure provider and transaction processing company.
+Вице-президент Bitfury Group, крупнейшего провайдера инфраструктуры и обработчика транзакций в сфере блокчейна.
+Proofreading TM (101%)
+39
+He is also a member of the Advisory Committee of GCF, a $6 billion private equity partnership.
+Он также состоит в консультативном комитете Грузинского фонда соинвестирования с капиталом в 6 миллиардов долларов.
+Proofreading TM (101%)
+40
+George has worked for York Capital Management, AFK Sistema and Morgan Stanley.
+Ранее работал в York Capital Management, АФК «Система» и Morgan Stanley.
+Proofreading TM (102%)
+41
+He obtained his MBA at Wharton School, University of Pennsylvania, and his MA at Johns Hopkins School of Advanced International Studies.
+Получил степень MBA в Уортонской школе бизнеса и диплом магистра в Университете Джона Хопкинса.
+Proofreading TM (101%)
+42
+George is a member of Europe One YPO Club.
+Член Организации молодых президентов.
+Proofreading TM (99%)
+43
+Marc van der Chijs
+Марк ван дер Хейс
+Proofreading 
+44
+Founder and Director of First Block Capital, Canada’s first fully registered investment firm that invests in crypto assets.
+Основатель и директор First Block Capital, первой канадской инвестиционной фирмы, инвестирующей средства в криптоактивы.
+Proofreading 
+45
+Founder and Director of First Block Capital, Canada’s first fully registered investment firm that invests in crypto assets.
+Основатель и директор First Block Capital, первой канадской инвестиционной фирмы, инвестирующей средства в криптоактивы.
+Proofreading 
+46
+He has been in active in the blockchain space since early 2013 as partner in venture capital firm CrossPacific Capital and has been working full time on crypto projects since late 2016.
+Начал активность в блокчейн-сфере в начале 2013 года, став партнёром в CrossPacific Capital. Полностю сосредоточился на криптопроектах в конце 2016-го.
+Proofreading 
+47
+He started his career at automotive multinational Daimler in the mid-1990s in several financial controling positions.In 2004 he co-founded China’s largest online video site Tudou.com, that was listed on the NASDAQ in 2011 and later taken private by Alibaba in a multi-billion dollar deal.
+Карьера Марка началась в международном автогиганте Daimler в середине 1990-х, где он занимал ряд позиций, связанных с финансовым контроллингом. В 2004-м он стал сооснователем Tudou.com, крупнейшего китайского видеосайта, который в 2011-м попал на NASDAQ, а затем был приватизирован обратно Alibaba за миллиарды долларов.
+Proofreading 
+48
+He is a big believer that blockchain technology will completely change every aspect of business over the next couple of years and wants to actively support teams that put technology first.
+Марк твёрдо верит, что блокчейн-технологии полностью изменят все аспекты ведения бизнеса в следующие пару лет, и активно поддерживает разработчиков, которые ставят технологии во главу угла.
+Proofreading 
+49
+Morio Kurosaki
+Морио Куросаки
+Proofreading 
+50
+President IT FARM | Emercoin Ambassador in Japan
+Президент IT FARM и посол Emercoin в Японии
+Proofreading 
+51
+Mr. Kurosaki started his business carrier at Intel Japan, and then founded Aisys Corporation in 1988.
+Господин Куросаки начал карьеру в японском филиале Intel, а в 1988 году основал собственную компанию Aisys Corporation.
+Proofreading 
+52
+Mr. Kurosaki started his business carrier at Intel Japan, and then founded Aisys Corporation in 1988.
+Господин Куросаки начал карьеру в японском филиале Intel, а в 1988 году основал Aisys Corporation —
+Proofreading 
+53
+The company has been supporting Silicon Valley start-ups in entering Japanese market.
+компанию, помогающую калифорнийским стартапам выйти на японский рынок.
+Proofreading 
+54
+To incubate startup companies, he provides hands-on support on all phases of establishing operations such as strategic partnerships, local management hiring, business development, etc.
+Помогая стартапам, г-н Куросаки проявляет самое прямое участие на всех бизнеса — от заключения стратегических партнёрств до развития бизнеса.
+Proofreading 
+55
+In 1999, he founded IT-Farm as one of very few hands-on type venture capital in Japan.
+В 1999 году организовал венчурный фонд IT-Farm, один из немногих в Японии, работающих в режиме «hands-on».
+Proofreading 
+56
+Through all his carrier, he has built an incomparable network in both Japanese IT industries and executives in Silicon Valley.
+За свою карьеру г-н Куросаки накопил обширные связи как в японской IT-индустрии, так и в «Кремниевой долине».
+Proofreading 
+57
+Alex Petrov
+Алекс Петров
+Proofreading 
+58
+With over 35 years in IT, Alex Petrov has the expertise in both hardware and software solutions.
+Алекс имеет более 35 лет опыта работы в IT-индустрии — как с «софтом», так и с «железом».
+Proofreading 
+59
+With over 35 years in IT, Alex Petrov has the expertise in both hardware and software solutions.
+Алекс имеет более 35 лет опыта работы в IT-индустрии — как с «софтом», так и с «железом».
+Proofreading 
+60
+He has expertise in high-load systems optimization, databases, big-data analysis, data networking and communications on a large scale.
+Специализируется на оптимизации высоконагруженных систем, базах данных, «больших данных» и масштабных сетях передачи данных.
+Proofreading 
+61
+He is a former IT security auditor, with specialties in business processes optimizations and crisis management.
+В прошлом — аудитор информационной безопасности с упором на оптимизацию бизнес-процессов и кризисное управление.
+Proofreading 
+62
+His track record includes the launch of new successful businesses and global consumer brands.
+За свою карьеру запустил несколько успешных бизнесов и глобальных потребительских брендов.
+Proofreading 
+63
+He has been leading high-performance teams to enable fast and reliable transactions in world-renown cryptocurrencies, creating the ground for future growth with the Bitfury Group.
+Благодаря его помощи многие бизнес-команды смогли наладить быстрые и надёжные транзакции в основных криптовалютах, что создало фундамент для будущего роста Bitfury Group.
+Proofreading 
+64
+Alex will be responsible for overseeing technical advisory efforts for Emercoin.
+Алекс отвечает за координацию технической консультационной деятельности в рамках Emercoin.
+Proofreading 
+65
+Tareq Al-Memari
+Тарек Аль-Мемари
+Proofreading 
+66
+Abu Dhabi Pensions Fund / Emercoin Ambassador MENA
+Пенсионный фонд Абу-Даби / Посол Emercoin на Ближнем Востоке и в Северной Африке
+Proofreading 
+67
+Portfolio Manager, with over 5 years of experience in Financial Market
+Портфолио-менеджер с более чем 5-летним опытом работы на финансовых рынках
+Proofreading 
+68
+Portfolio Manager, MBA graduate, currently working towards the CFA accreditation, with over 5 years of experience in Financial Market, specializing in Portfolio Management, Investment analysis and FX market.
+Портфолио-менеджер со степенью MBA и в процессе получения аккредитации CFA, с более чем 5-летним опытом работы на финансовых рынках. Специализируется на анализе инвестиций и валютных рынков.
+Proofreading 
+69
+Gabriel Abed
+Габриэль Абед
+Proofreading 
+70
+Founder of Bitt Inc. and Digital Asset Fund, is recognized as a leading Caribbean authority on digital currencies, math based protocols and blockchain technology.
+Основатель Bitt Inc. и Digital Asset Fund, считается одним из главных экспертов по цифровым валютам, криптографическим протоколам и блокчейну в странах Карибского бассейна.
+Proofreading 
+71
+Founder of Bitt Inc. and Digital Asset Fund, is recognized as a leading Caribbean authority on digital currencies, math based protocols and blockchain technology.
+Основатель Bitt Inc. и Digital Asset Fund, считается одним из главных экспертов по цифровым валютам, криптографическим протоколам и блокчейну в странах Карибского бассейна.
+Proofreading 
+72
+The Barbados-based entrepreneur is internationally-acknowledged as a pioneer in the digital currency evolution, having led the movement of Central Bank issued Cryptocurrencies and frontiered discussions on the subject of ‘Blockchain Technology’ at the Caribbean Development Bank, the International Monetary Fund and World Bank, the United Nations, the Commonwealth Secretariat, multiple Central Bank forums and other world stages.
+Барбадосский предприниматель — всемирно признанный первопроходец в области цифровых валют. Стоит в авангарде движения за выпуск криптовалют центробанками и ведёт блокчейн-дискуссий в рамках Карибского банка развития, МФВ, Всемирного банка, ООН, Секретариата Содружества Наций и многих других центробанков.
+Proofreading 
+73
+Gabriel's entrepreneurial mindset has allowed him to explore other avenues in the technology space founding new companies such as Digital Asset Fund amongst others.
+Предпринимательская хватка Габриэля позволяет ему исследовать и другие технологические области и основывать новые компании. Одна из них, Digital Asset Fund, —
+Proofreading 
+74
+The Digital Asset Fund, or DAF, is the first Fund in the world to be focused on math based protocols.
+первый в мире фонд, специализирующийся на реализации математических протоколов.
+Proofreading 
+75
+Marc Taverner
+Марк Тавернер
+Proofreading 
+76
+Marc Taverner is head of business development at Bitfury Group.
+Директор по развитию бизнеса в Bitfury Group
+Proofreading 
+77
+He brings 18 years of experience working with market leading, global technology companies to Bitfury.
+с 18-летним опытом работы с крупнейшими технологическими компаниями в мире.
+Proofreading 
+78
+Marc Taverner is head of business development at Bitfury Group.
+Директор по развитию бизнеса в Bitfury Group
+Proofreading 
+79
+He brings 18 years of experience working with market leading, global technology companies to Bitfury.
+с 18-летним опытом работы с крупнейшими технологическими компаниями в мире.
+Proofreading 
+80
+He is also the founder of a successful modem distribution company.
+Кроме того, основатель успешной компании-дистрибюторе модемов.
+Proofreading 
+81
+Marc has held sales leadership roles with many leading technology companies, including the world's largest provider of unified communications services and market leaders in educational technology solutions.
+Марк руководил продажами во многих ведущих хайтек-компаниях, включая крупнейшего в мире телеком-провайдера и ведущих поставщиков технологических решений в области образования.
+Proofreading 
+82
+Marc received his BA Hons in European Business Studies from Brunel University, UK and Ecole supérieure de Commerce de Clermont-Ferrand, France.
+С отличием закончил Университет Брунеля по специальности исследования европейского бизнеса и Высшую школу коммерции в Клермон-Ферран.
+Proofreading 
+83
+Eun Chul Lee
+Юн Чул Ли
+Proofreading 
+84
+Emercoin Ambassador Korea
+Посол Emercoin в Корее
+Proofreading 
+85
+18 years of IT manager experience as a country manager for various Silicon Valley companies including WindRiverSystem, IP Infusion, Treasure Data and Clustrix and have experience as founder of two companies SiliconValleyTech, and IntelRa.
+IT-менеджер с 18-летним опытом, в том числе управления корейскими филиалами различных калифорнийских компаний, таких как WindRiverSystem, IP Infusion, Treasure Data и Clustrix. Также основал две собственные компании — SiliconValleyTech и IntelRa.
+Proofreading 
+86
+Lee has extensive experience and knowledge in laying down the company’s technical foundation for Marketing in Korea with specialty in embedded system, mobile telecommunication, IP Network & Network Security and Big Data Market.
+У г-на Ли — огромный опыт и знания, позволяющие готовить компании к выходу на корейский рынок, в частности в области встроенных систем, мобильной связи, IP-сетей и сетевой безопасности, а также «больших данных».
+Proofreading 
+87
+His past career as successful sportsman, he was 5 times Olympian in Rifle Shooting Events with Gold medal (50m 60shot Prone Event) in Barcelona Olympic in 1992 & World Champion (50m 3 position Event) in Moscow World shooting championship in 1990.
+В прошлом — успешный спортсмен, на счету которого — золото в стрельбе из ружья в на Олимпийских играх 1992 года в Барселоне и бронзу в на Чемпионате мира 1990 года в Москве.
+Proofreading 
+
