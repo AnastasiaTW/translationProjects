@@ -8,7 +8,7 @@ EmerLNX — это пиринговая сеть обмена текстовым
 Proofreading 
 2
 EmerLNX operates under the "lnx" service abbreviation in the EmerNVS.
-EmerLNX работает под кодом lnx в рамках EmerNVS.
+EmerLNX работает под кодом “lnx” в рамках EmerNVS.
 Proofreading 
 3
 Unfortunately the EmerLNX project is temporarily frozen until it can be further developed.
@@ -56,19 +56,19 @@ In the EmerLNX system, a Buyer directly pays each Host for each Visitor.
 Proofreading 
 14
 There is no central agent to set a minimum price, allowed words, etc, and there is no participation fee or commission.
-В системе нет центрального игрока, который мог бы установить минимальную цену, ввести список «запрещённых слова» и т. д., как нет и платы или комиссии за участие.
+В системе нет центрального игрока, который мог бы установить минимальную цену, ввести список «запрещённых слов» и т. д., как нет и платы или комиссии за участие.
 Proofreading 
 15
 All payments go directly from the Buyers to Hosts, without the involvement of any intermediate agent.
-Все платежи идут непосредственно от покупателей хостам, без участия какого-либо промежуточного агента.
+Все платежи идут непосредственно от покупателей к хостам без участия какого-либо промежуточного агента.
 Proofreading 
 16
 An EmerLNX participant can be a Buyer and Host at the same time, i.e. they can show advertising links on their website, and also purchase traffic (visits) from the EmerLNX network.
-Участник сети EmerLNX может одновременно быть и покупателем, и хостом — то есть отображать рекламные ссылки на своём сайте и при этом покупать трафик/посещения через сеть EmerLNX.
+Участник сети EmerLNX может одновременно быть и покупателем, и хостом — то есть показывать рекламные ссылки на своём сайте и при этом покупать трафик (посещения) через сеть EmerLNX.
 Proofreading 
 17
 Hence, they can pay other participants to attract visitors to their site, while earning money for sending visitors to other sites.
-Таким образом каждый участник может одновременно привлекать посетителей на свой сайт, платя за это другим участникам, и зарабатывать, перенаправляя посетителей на другие сайты.
+Таким образом, каждый участник будет одновременно привлекать посетителей на свой сайт, платя за это другим участникам, и зарабатывать, перенаправляя посетителей на другие сайты.
 Proofreading 
 18
 EmerLNX runs on the Emercoin cryptocurrency and uses it in two ways:
@@ -76,23 +76,23 @@ EmerLNX работает на движке Emercoin, а именно:
 Proofreading 
 19
 It uses Emercoin (EMC as the payment unit for pay-per-click actions.
-участники платят друг другу за клики вEMC, и
+участники платят друг другу за клики в криптовалюте EMC;
 Proofreading 
 20
 It uses the EmerNVS as distributed storage for advertising contracts.
-«контракты» на размещение рекламы хранятся внутри EmerNVS.
+«контракты» на размещение рекламы хранятся в EmerNVS.
 Proofreading 
 21
 EmerMAGNET is the storage of BitTorrent magnet links under the "magnet" service abbreviation in the EmerNVS.
-EmerMAGNET — система хранения «магнитных» ссылок BitTorrent. В EmerNVS она отображается под кодом magnet.
+EmerMAGNET — система хранения магнитных ссылок BitTorrent. В EmerNVS отображается под кодом “magnet”.
 Proofreading 
 22
 Emercoin provides a service for storing name->value pairs in its blockchain (Name-Value Storage, or NVS).
-EmerNVS — это сервис для хранения пар имя-значение внутри блокчейна Emercoin.
+EmerNVS — это сервис для хранения пар «имя-значение» внутри блокчейна Emercoin.
 Proofreading 
 23
 The initial concept was inherited from the NameCoincryptocurrency yet while NameCoin is mostly focused on supporting decentralized domain zone *.bit in their extension, Emercoin provides a universal, extensible service to store and maintain name->value pairs without imposing a narrow specialization.
-Изначально идея была перенята у NameCoin. Но если основной целью последней была поддержка распределённой доменной зоны .bit, то в Emercoin появилась универсальная, расширяемая служба для хранения произвольных пар имя-значение.
+Изначально идея была перенята у криптовалюты NameCoin. Но если основной целью той была поддержка распределённой доменной зоны “.bit”, то в Emercoin появилась универсальная, расширяемая служба для хранения произвольных пар «имя-значение».
 Proofreading 
 24
 Of course, Emercoin supports distributed alternative DNS service too, and each Emercoin wallet contains a built-in simple DNS server, supporting the standard RFC1034 UDP DNS protocol.
