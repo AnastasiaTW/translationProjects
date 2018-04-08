@@ -20,7 +20,7 @@ msgstr "התנתק"
 #: ID: 87c9ac979a06a5124078723731f51fb2
 msgctxt "AccountSection"
 msgid "Add another network"
-msgstr "הוסף רשת"
+msgstr "הוסף רשת נוספת"
 
 #: File: launcher_en.ts
 #: ID: 57d79b5b896ef6b87a1dc1b771eb66f9
@@ -44,19 +44,19 @@ msgstr "חפש חברים"
 #: ID: 66380da49317fb3c35edbdb12ff7adb7
 msgctxt "AddUsersToChatWindow"
 msgid "Add"
-msgstr "הוסף"
+msgstr "הוספה"
 
 #: File: launcher_en.ts
 #: ID: babf76dff24b4b4f79f779cc85a6d940
 msgctxt "AddUsersToChatWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: feff76e883cf277ff3017d72e9e233c3
 msgctxt "AdvertisingBanner"
 msgid "Game Servers Problem"
-msgstr "בעיות בשרת המשחקים"
+msgstr "בעיה בשרתי המשחק"
 
 #: File: launcher_en.ts
 #: ID: beeaee330dadc0878a814294399a7e0d
@@ -64,13 +64,13 @@ msgctxt "AdvertisingBanner"
 msgid ""
 "We're experiencing technical problem with game servers. Please click Reload "
 "to check status."
-msgstr "יש לנו בעיה טכנית עם שרתי משחק. נא ללחוץ על \"טען מחדש\" כדי לבדוק סטטוס."
+msgstr "יש לנו בעיה טכנית עם שרתי משחק. יש ללחוץ על \"טען מחדש\" כדי לבדוק סטטוס."
 
 #: File: launcher_en.ts
 #: ID: b49ce5d6f97e4ca330c97df27ffa8e0c
 msgctxt "AdvertisingBanner"
 msgid "Loading characters: "
-msgstr "טוען תווים: "
+msgstr "טוען דמויות: "
 
 #: File: launcher_en.ts
 #: ID: 055686693fe0fa9b5f2c2acd14096055
@@ -82,13 +82,13 @@ msgstr "טוען אזורים: "
 #: ID: 2dcd2c8bc78d105bf2fb430053c38705
 msgctxt "AdvertisingBanner"
 msgid "Game ownership: "
-msgstr "בעלות משחק: "
+msgstr "בעלות על המשחק: "
 
 #: File: launcher_en.ts
 #: ID: e0321ef76f6f1fa3bce16616fd82c772
 msgctxt "AdvertisingBanner"
 msgid "Reload servers"
-msgstr "טען שרתים מחדש"
+msgstr "לטעינת שרתים מחדש"
 
 #: File: launcher_en.ts
 #: ID: e0259f9a53fab39a131959e7c2571d7e
@@ -118,7 +118,7 @@ msgstr "טוען"
 #: ID: 5a4ea096dc5ff07bc303c58f1f8ad9e0
 msgctxt "BasePart"
 msgid "SIGN IN"
-msgstr "הירשם"
+msgstr "כניסה"
 
 #: File: launcher_en.ts
 #: ID: a6bf37ae3a4ad8f9532d24e6350f1e5d
@@ -130,61 +130,61 @@ msgstr "שחקנים"
 #: ID: 82a461b39f1893c2fa8eaa130562a530
 msgctxt "ChangeChar"
 msgid "Change character"
-msgstr "שנה תו"
+msgstr "שינוי דמות"
 
 #: File: launcher_en.ts
 #: ID: 29bd6122ef86557375c667de1a285f4b
 msgctxt "ChangeChatTitleWindow"
 msgid "Edit chat title"
-msgstr "ערוך כותרת צ'אט"
+msgstr "עריכת כותרת צ'אט"
 
 #: File: launcher_en.ts
 #: ID: 63e62ef429a6bd63e48ce295d4a07901
 msgctxt "ChangeChatTitleWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "נא להשתמש ב-5 עד 20 תווים"
+msgstr "יש להשתמש ב-5 עד 20 תווים"
 
 #: File: launcher_en.ts
 #: ID: 1ea05c94a09aeee5a9e7e3508ff4c592
 msgctxt "ChangeChatTitleWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: 87e2282ccf13322e890b8e59190f7a9e
 msgctxt "ChangeChatTitleWindow"
 msgid "Save"
-msgstr "שמור"
+msgstr "שמירה"
 
 #: File: launcher_en.ts
 #: ID: 0ff7e18e31306cd1152a0de3683eb61d
 msgctxt "ChangeUsernameWindow"
 msgid "Edit username"
-msgstr "ערוך שם משתמש"
+msgstr "עריכת שם משתמש"
 
 #: File: launcher_en.ts
 #: ID: c75349eb6668f3c30e6b29bb187b2261
 msgctxt "ChangeUsernameWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "נא להשתמש ב-5 עד 20 תווים"
+msgstr "יש להשתמש ב-5 עד 20 תווים"
 
 #: File: launcher_en.ts
 #: ID: 874cca967eb6ee4338646f28e1761f3f
 msgctxt "ChangeUsernameWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: d72f60c59af114e0bf6a8c461f3637b6
 msgctxt "ChangeUsernameWindow"
 msgid "Save"
-msgstr "שמור"
+msgstr "שמירה"
 
 #: File: launcher_en.ts
 #: ID: e632b002da7332dbab3cdae753f1100d
 msgctxt "CharsWindow"
 msgid "Character Selection"
-msgstr "בחירת תו"
+msgstr "בחירת דמות"
 
 #: File: launcher_en.ts
 #: ID: 3eda054d2cc33860681d26d2641d3ebe
@@ -215,7 +215,7 @@ msgstr "סטטוס"
 #: ID: d4f9cba9efe3f9a933857170ae22d4c7
 msgctxt "CharsWindow"
 msgid "+ Add character"
-msgstr "+ הוסף תו"
+msgstr "+ הוסף דמות"
 
 #: File: launcher_en.ts
 #: ID: d83aea7766e7d77d0b1288fd34bb63d8
@@ -227,7 +227,7 @@ msgstr "בוצע"
 #: ID: bf150ebb1bb618065dd7511ad9cb5af7
 msgctxt "CharsWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: 59ab38e4d4af1a7cee4c8dca2579bb0e
@@ -251,7 +251,7 @@ msgstr "העולם מלא"
 #: ID: ee1edbab8dae1317efc812b2adc45a6f
 msgctxt "ChatWindow"
 msgid "Online"
-msgstr "מקוון"
+msgstr "מחובר"
 
 #: File: launcher_en.ts
 #: ID: b8051527ec50fc405b48cb69fdf9c590
@@ -269,7 +269,7 @@ msgstr "לא נמצא"
 #: ID: cde12b71c10e7602a0bbf3f76a2310da
 msgctxt "ChatWindow"
 msgid "Offline"
-msgstr "לא מקוון"
+msgstr "לא מחובר"
 
 #: File: launcher_en.ts
 #: ID: 92da7d6581cda51652182eead925f587
@@ -317,19 +317,19 @@ msgstr "לעזוב את הקבוצה"
 #: ID: 778005cb576a159a8e82fb4bd6397ea9
 msgctxt "ChatWindow"
 msgid "+ Create chat"
-msgstr "+ צור צ'אט"
+msgstr "+ יצירת צ'אט"
 
 #: File: launcher_en.ts
 #: ID: 70bc3001961ae1353aa0a7a8e3e90685
 msgctxt "ChatWindow"
 msgid "+ Create channel"
-msgstr "+ צור ערוץ"
+msgstr "+ יצירת ערוץ"
 
 #: File: launcher_en.ts
 #: ID: 015b22ef697e04061bc081c53159d2c2
 msgctxt "ChatWindow"
 msgid "Please select chat to start messaging"
-msgstr "נא לבחור צ'אט כדי להתחיל להעביר הודעות"
+msgstr "יש לבחור צ'אט כדי להתחיל לשלוח הודעות"
 
 #: File: launcher_en.ts
 #: ID: 7c9ceab43772e2cdd4d71afd3c059063
@@ -341,13 +341,13 @@ msgstr "חברו את הרשתות החברתיות שלכם כדי למצוא �
 #: ID: 55311e82c16253aa8627393907cdeaaa
 msgctxt "ConnectSocialNetworksWindow"
 msgid "Connect Facebook"
-msgstr "לחבר פייסבוק"
+msgstr "חיבור פייסבוק"
 
 #: File: launcher_en.ts
 #: ID: d5c6f60839161cea0bb85164fa684b29
 msgctxt "ConnectSocialNetworksWindow"
 msgid "Connect VK"
-msgstr "לחבר VK"
+msgstr "חיבור VK"
 
 #: File: launcher_en.ts
 #: ID: 325a8c29eac0c125b539cf41d978b958
@@ -371,7 +371,7 @@ msgstr "דלג"
 #: ID: 1f595cb9c9fa8d35226ad918ddaa9073
 msgctxt "ConversationInfoItem"
 msgid "Back to chat"
-msgstr "חזור לצ'אט"
+msgstr "חזרה לצ'אט"
 
 #: File: launcher_en.ts
 #: ID: a6f94575a792c4fff0e76579a9af3bd6
@@ -408,7 +408,7 @@ msgstr "הסר"
 #: ID: 46e2c6d3f0ed2eb570e6d6962ccdf481
 msgctxt "CreateChatWindow"
 msgid "Create chat"
-msgstr "צור צ'אט"
+msgstr "ליצירת צ'אט"
 
 #: File: launcher_en.ts
 #: ID: f88828461cb006365513964054288a93
@@ -438,19 +438,19 @@ msgstr "קבוצה חדשה"
 #: ID: 99e9019e5b8d74c163827acbf15ce623
 msgctxt "CreateGroupChatWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: 2648f9523a74d36c3c5ccf4320ba733c
 msgctxt "CreateGroupChatWindow"
 msgid "Add friends"
-msgstr "הוסף חברים"
+msgstr "הוספת חברים"
 
 #: File: launcher_en.ts
 #: ID: 0845fae790a3a7ac009bbbf21708b081
 msgctxt "CreateGroupChatWindow"
 msgid "Back"
-msgstr "הקודם"
+msgstr "חזרה"
 
 #: File: launcher_en.ts
 #: ID: f499758c9dbf606ceac3ec0d9ec7ea02
@@ -470,7 +470,7 @@ msgctxt "CreateGroupChatWindow"
 msgid ""
 "Set your group name. Start with a latter. Name should not be longer that 20 "
 "characters."
-msgstr "הגדרת שם לקבוצה שלך. נא להתחיל באות לועזית. השם יכול להכיל עד 20 תווים."
+msgstr "הגדר שם לקבוצה שלך. יש להתחיל באות לועזית. השם יכול להכיל עד 20 תווים."
 
 #: File: launcher_en.ts
 #: ID: d9c8e576b0669e1d9c166683aaedf5b6
@@ -482,7 +482,7 @@ msgstr "שם קבוצת צ'אט"
 #: ID: 6755d93d62b4d271122cabdfc219c403
 msgctxt "CreateGroupChatWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "נא להשתמש ב-5 עד 20 תווים"
+msgstr "יש להשתמש ב-5 עד 20 תווים"
 
 #: File: launcher_en.ts
 #: ID: 8046efef26db778b685a50ea2b09a575
@@ -518,7 +518,7 @@ msgstr "שגיאה"
 #: ID: 7237259c60d51f9739555947d36c6015
 msgctxt "ErrorReportWindow"
 msgid "A fatal error has occured. Application will be closed."
-msgstr "ארעה שגיאה מכרעת. היישום ייסגר."
+msgstr "ארעה שגיאה חמורה. היישום ייסגר."
 
 #: File: launcher_en.ts
 #: ID: ac3d949fa9ea0433bb7f185a95d681ef
@@ -536,7 +536,7 @@ msgstr "דווח על בעיה"
 #: ID: 058e3ae0bc01bc82e107f55bf8e56c7d
 msgctxt "ErrorReportWindow"
 msgid "OK"
-msgstr "או קיי"
+msgstr "בסדר"
 
 #: File: launcher_en.ts
 #: ID: 4feb7e497a6c32d2236e73d903521299
@@ -550,7 +550,7 @@ msgctxt "ErrorWindow"
 msgid ""
 "A fatal error has occured. Thy limbs are weak and sight is blurred. Forget "
 "thy dreams and run in terror. Extraction error."
-msgstr "ארעה שגיאת הרשאה. נא להתחבר שוב."
+msgstr "ארעה שגיאת הרשאה. יש להתחבר שוב."
 
 #: File: launcher_en.ts
 #: ID: a470b709d32bf20b2a35b81f2b1ea57d
@@ -562,13 +562,13 @@ msgstr "שגיאה"
 #: ID: 3dcc6cd2287bf62306f904be8eb167fd
 msgctxt "ErrorWindow"
 msgid "OK"
-msgstr "או קיי"
+msgstr "בסדר"
 
 #: File: launcher_en.ts
 #: ID: 5912c323e7e026c8c8696fc925751b38
 msgctxt "FindFriendComponent"
 msgid "Search friends by nickname"
-msgstr "חפש חברים לפי שמות חיבה"
+msgstr "חיפוש חברים לפי כינוי"
 
 #: File: launcher_en.ts
 #: ID: 02f45958d6b79dcaa444745cd3eef84d
@@ -616,31 +616,31 @@ msgstr "הוזמן"
 #: ID: 17d1e93bb43f7846119aa503b051eea5
 msgctxt "FriendDelegate"
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: File: launcher_en.ts
 #: ID: b95f53a70c57de86f4042e6c7b376b4d
 msgctxt "FriendDelegate"
 msgid "Confirm"
-msgstr "אשר"
+msgstr "אישור"
 
 #: File: launcher_en.ts
 #: ID: b07ac5e95b01f3fd8d3060442f6b9a1d
 msgctxt "FriendDelegate"
 msgid "Cancel request"
-msgstr "בטל בקשה"
+msgstr "ביטול בקשה"
 
 #: File: launcher_en.ts
 #: ID: c5b11db93ad2fabeaf713623cd59a550
 msgctxt "FriendDelegate"
 msgid "Playing Life is Feudal"
-msgstr "משחק Life is Feudal"
+msgstr "משחק/ת Life is Feudal"
 
 #: File: launcher_en.ts
 #: ID: 3d9d7f99894ba61c1a10af97025d70af
 msgctxt "FriendDelegate"
 msgid "Last online: %1 hours ago"
-msgstr "התחבר לאחרונה: לפני %1 שעות"
+msgstr "התחבר/ה לאחרונה: לפני %1 שעות"
 
 #: File: launcher_en.ts
 #: ID: 069a34a189066ad53e2f08a94d7dddab
@@ -658,13 +658,13 @@ msgstr "%1 חברים משותפים"
 #: ID: 9dd345b987f3dc1166c0cb4332c803f6
 msgctxt "FriendsListComponent"
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: File: launcher_en.ts
 #: ID: 48ed41716b49245a550af3c8e8d55383
 msgctxt "FriendsListComponent"
 msgid "Block"
-msgstr "חסום"
+msgstr "חסימה"
 
 #: File: launcher_en.ts
 #: ID: 3936a021c6d33d85ebd116438aff5fb6
@@ -676,13 +676,13 @@ msgstr "התחל צ'אט"
 #: ID: f8b2164517717fdbab302b73154ecf56
 msgctxt "FriendsListComponent"
 msgid "Unblock"
-msgstr "בטל חסימה"
+msgstr "ביטול חסימה"
 
 #: File: launcher_en.ts
 #: ID: 5271a1a84c7ba8e850574246c5ca0c6a
 msgctxt "FriendsWindow"
 msgid "Add a Friend"
-msgstr "הוסף חבר"
+msgstr "הוספת חבר"
 
 #: File: launcher_en.ts
 #: ID: abf91ae93f36129d2ca2373f3e619015
@@ -694,7 +694,7 @@ msgstr "חברים"
 #: ID: f6bf79ba791cc515ee937e4e3decf441
 msgctxt "FriendsWindow"
 msgid "+ Find friends"
-msgstr "+ למצוא חברים"
+msgstr "+ מצא/י חברים"
 
 #: File: launcher_en.ts
 #: ID: 69cb29893c12caf2fd90be3f7bbe79ac
@@ -724,25 +724,25 @@ msgstr "מסיר התקנה: %1 %"
 #: ID: 989caf564d79476eb74eb1aaa6aed4b2
 msgctxt "GameComponent"
 msgid "PLAY"
-msgstr "שחק"
+msgstr "משחק"
 
 #: File: launcher_en.ts
 #: ID: 63427c8d1e056c3b79e6df685ac4e771
 msgctxt "GameComponent"
 msgid "INSTALL"
-msgstr "התקן"
+msgstr "התקנה"
 
 #: File: launcher_en.ts
 #: ID: 07386946df9eacb991b040b728c284cb
 msgctxt "GameComponent"
 msgid "Buy"
-msgstr "קנה"
+msgstr "קנייה"
 
 #: File: launcher_en.ts
 #: ID: 0a404317082c032920f0aa7a51750b5c
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s, peers %4, seeds %5"
-msgstr "מוריד: %1 Mb מ- %2 Mb, ב- %3 kb/לשנייה, עמיתים %4, גרעינים %5"
+msgstr "מוריד: %1 Mb מ- %2 Mb, ב- %3 kb/לשנייה, עמיתים %4, מעלים %5"
 
 #: File: launcher_en.ts
 #: ID: 2492dd98c4f468260d240452244eb86d
@@ -754,7 +754,7 @@ msgstr "מתקן נתונים: נותרו %1 Mb"
 #: ID: 06d37dec99eb496bafb9bc1f621c626a
 msgctxt "GameComponent"
 msgid "Nothing here. King is at loss"
-msgstr "לא ניתן לטעון את רשימת הכרזות - נא לנסות מאוחר יותר"
+msgstr "לא ניתן לטעון את רשימת הכרזות - יש לנסות מאוחר יותר"
 
 #: File: launcher_en.ts
 #: ID: a624dd7bdca92ee259efb88acc0a2d4f
@@ -778,7 +778,7 @@ msgstr "אתר את המשחק"
 #: ID: 21cf59eadbf5a9601258914c898b319d
 msgctxt "GameComponent"
 msgid "Install"
-msgstr "התקן"
+msgstr "התקנה"
 
 #: File: launcher_en.ts
 #: ID: 4eab685ae587ea1c534d02c81250f88c
@@ -790,13 +790,13 @@ msgstr "קהילה"
 #: ID: 583d31df4b07032307d953b7e38f4590
 msgctxt "GameComponent"
 msgid "Repair"
-msgstr "תקן"
+msgstr "תיקון"
 
 #: File: launcher_en.ts
 #: ID: 31fb8c9385db88346c60e980bb2c2b5e
 msgctxt "GameComponent"
 msgid "Uninstall"
-msgstr "הסר התקנה"
+msgstr "הסרת התקנה"
 
 #: File: launcher_en.ts
 #: ID: d882e6660d44cef358bee11a704d08c7
@@ -814,7 +814,7 @@ msgstr "לא ניתן למצוא את המשחק בתיקייה שנבחרה."
 #: ID: fefe0926eb2ff1e1724ff94b3537a47d
 msgctxt "GameComponent"
 msgid "You cannot use selected game for the current region."
-msgstr "באזור הנוכחי לא ניתן להשתמש במשחק שנבחר."
+msgstr "לא ניתן להשתמש במשחק שנבחר באזור הנוכחי."
 
 #: File: launcher_en.ts
 #: ID: 8312c38687ffee4f6780a59285fc5cad
@@ -826,37 +826,37 @@ msgstr "Life is Feudal"
 #: ID: 84523c7df59cae2b701f8b663294f009
 msgctxt "GameInstallWindow"
 msgid "Install Directory"
-msgstr "התקן ספריה"
+msgstr "מיקום התקנה"
 
 #: File: launcher_en.ts
 #: ID: e5b4c24446630e2e11d9bb79b050a8eb
 msgctxt "GameInstallWindow"
 msgid "Change"
-msgstr "שנה"
+msgstr "שינוי"
 
 #: File: launcher_en.ts
 #: ID: 1a257e8b992f1098344fda3d3ea7aa2f
 msgctxt "GameInstallWindow"
 msgid "Disk Space"
-msgstr "שטח דיסק"
+msgstr "שטח כונן"
 
 #: File: launcher_en.ts
 #: ID: c9d1954aaa2147d38d893818cd16df36
 msgctxt "GameInstallWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: b6fa6a98a1dd4d88f8a8a6b850ac0273
 msgctxt "GameInstallWindow"
 msgid "Install"
-msgstr "התקן"
+msgstr "התקנה"
 
 #: File: launcher_en.ts
 #: ID: 86e4f10b691420f957c1150968742631
 msgctxt "GameInstallWindow"
 msgid "Select path for install.."
-msgstr "בחר מסלול להתקנה.."
+msgstr "לבחירת מסלול להתקנה.."
 
 #: File: launcher_en.ts
 #: ID: 4b339f6b8f47a22efe7c0eabe6de6312
@@ -864,7 +864,7 @@ msgctxt "GameInstallWindow"
 msgid ""
 "You cannot use directory to install the game. Please select a different "
 "directory for installation."
-msgstr "לא ניתן להשתמש בספריה זו להתקנת המשחק. נא לבחור ספריה אחרת להתקנה."
+msgstr "לא ניתן להשתמש בתיקייה זו להתקנת המשחק. עליך לבחור תיקייה אחרת להתקנה."
 
 #: File: launcher_en.ts
 #: ID: 4cd129808e5d22cd66116cc85a4cc05d
@@ -894,7 +894,7 @@ msgstr "הורדות"
 #: ID: 48a2302e2e6a57fea16e07aa6159ca72
 msgctxt "GeneralSection"
 msgid "Use p2p connection"
-msgstr "השתמש בחיבור p2p"
+msgstr "השתמש בחיבור עמיתים (p2p)"
 
 #: File: launcher_en.ts
 #: ID: 759d408147c5619d9f3d5a20bc87ddbb
@@ -936,19 +936,19 @@ msgstr "בודק עדכונים"
 #: ID: 83fb6abb5b886f629973d41a52176a70
 msgctxt "LauncherUpdateWindow"
 msgid "Downloading launcher update"
-msgstr "מוריד מפעיל עדכונים"
+msgstr "מוריד עדכון לתוכנת ההרצה"
 
 #: File: launcher_en.ts
 #: ID: b197067fdee3bd74faa38ef519acdaa9
 msgctxt "LauncherUpdateWindow"
 msgid "Unpacking launcher update"
-msgstr "מפרק אריזת עדכון מפעיל"
+msgstr "פורק עדכון לתוכנת ההרצה"
 
 #: File: launcher_en.ts
 #: ID: 612719b9d055e59ede8672c16309ae4a
 msgctxt "LoginContextMenu"
 msgid "Online"
-msgstr "מקוון"
+msgstr "מחובר"
 
 #: File: launcher_en.ts
 #: ID: 6d0de2e15abe6e77438636f8b692a1de
@@ -966,7 +966,7 @@ msgstr "הגדרות"
 #: ID: 1270b8786acd06d1bdd07b6ce2f006fc
 msgctxt "LoginContextMenu"
 msgid "Log Out"
-msgstr "יציאה"
+msgstr "התנתקות"
 
 #: File: launcher_en.ts
 #: ID: 078fbcc30c954132b350c2a71534f69b
@@ -984,43 +984,43 @@ msgstr "שגיאה! רשימת הרשת ריקה!"
 #: ID: 4ccf20723ef26648dcf8f929b4732e0e
 msgctxt "LoginWindow"
 msgid "Sign in with VK"
-msgstr "התחבר באמצעות VK"
+msgstr "התחברות באמצעות VK"
 
 #: File: launcher_en.ts
 #: ID: c466ada413def6fcbb00d72a298e5b8f
 msgctxt "LoginWindow"
 msgid "Sign in with Facebook"
-msgstr "התחבר באמצעות פייסבוק"
+msgstr "התחברות באמצעות Facebook"
 
 #: File: launcher_en.ts
 #: ID: 7291e77b147ce3d6f6e750ee033b2def
 msgctxt "LoginWindow"
 msgid "Sign in with Google"
-msgstr "התחבר באמצעות גוגל"
+msgstr "התחברות באמצעות Google"
 
 #: File: launcher_en.ts
 #: ID: 2b8c630fca7cb1bb7d51b4e4c1196e79
 msgctxt "LoginWindow"
 msgid "Sign in with Steam"
-msgstr "התחבר באמצעות Steam"
+msgstr "התחברות באמצעות Steam"
 
 #: File: launcher_en.ts
 #: ID: b0b480fca69304550b6be705e36705f0
 msgctxt "LoginWindow"
 msgid "Sign in with Twitter"
-msgstr "התחבר באמצעות  טוויטר"
+msgstr "התחברות באמצעות Twitter"
 
 #: File: launcher_en.ts
 #: ID: 72014afb041f6459e022a996c16fa812
 msgctxt "LoginWindow"
 msgid "Sign in with Naver"
-msgstr "התחבר באמצעות Naver"
+msgstr "התחברות באמצעות Naver"
 
 #: File: launcher_en.ts
 #: ID: 6763d7169a38e12362bbc15ecb02d2e1
 msgctxt "LoginWindow"
 msgid "Sign in with Baidu"
-msgstr "התחבר באמצעות Baidu"
+msgstr "התחברות באמצעות Baidu"
 
 #: File: launcher_en.ts
 #: ID: e791627f252543192331fb19bc6a164b
@@ -1044,19 +1044,19 @@ msgstr "אימות באמצעות רשת חברתית נכשל."
 #: ID: 93f2a79e1a866767812b14479a1b71f8
 msgctxt "LoginWindow"
 msgid "There was a problem with your request. Please try again."
-msgstr "הייתה בעיה עם הבקשה שלך. נא לנסות שוב."
+msgstr "הייתה בעיה עם הבקשה שלך. יש לנסות שנית."
 
 #: File: launcher_en.ts
 #: ID: b2a1fd1e013b2c1450b4d0adc218daa7
 msgctxt "LoginWindow"
 msgid "Forgot password?"
-msgstr "שכחת סיסמה?"
+msgstr "שכחת את סיסמך?"
 
 #: File: launcher_en.ts
 #: ID: b026946e7c2915773c4c70cd09b7d718
 msgctxt "LoginWindow"
 msgid "Create an account"
-msgstr "צור חשבון"
+msgstr "יצירת חשבון"
 
 #: File: launcher_en.ts
 #: ID: eb5c554ce1f374186c0fd4866a6f7bc7
@@ -1088,7 +1088,7 @@ msgctxt "MailruLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות ועל תיקוני משחק"
+msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות שלך ועל עדכוני המשחק שלך"
 
 #: File: launcher_en.ts
 #: ID: f20ca7266486a02f4b5b280e484566dc
@@ -1100,7 +1100,7 @@ msgstr "הבא"
 #: ID: 11279877c55fbfca0bd0d0e8e10f44e4
 msgctxt "MailruLoginWindow"
 msgid "Failed gettings characters information"
-msgstr "נכשל בהשגת מידע על הדמויות"
+msgstr "הנסיון להשיג מידע על הדמויות נכשל"
 
 #: File: launcher_en.ts
 #: ID: 63f2a3073a55a33e7990aa7d3a1127bb
@@ -1130,7 +1130,7 @@ msgstr "Life is Feudal"
 #: ID: 0e8c376f02304cae74007b67f1705418
 msgctxt "MainWindow"
 msgid "Game installation failed with error\n"
-msgstr "התקנת המשחק נכשלה עם שגיאה\n"
+msgstr "התקנת המשחק נכשלה עם קוד שגיאה \n"
 
 #: File: launcher_en.ts
 #: ID: b389e1eac12cf345bc2a570c7f1d58ad
@@ -1138,7 +1138,7 @@ msgctxt "MainWindow"
 msgid ""
 "\n"
 "Please, try again."
-msgstr "\n נא לנסות שוב."
+msgstr "\n יש לנסות שנית."
 
 #: File: launcher_en.ts
 #: ID: d9d01aeca11941cc73f21a1da41e9e27
@@ -1192,7 +1192,7 @@ msgstr "מוריד"
 #: ID: 4dbb11e1d775b85599a05af662fc1c38
 msgctxt "MainWindow"
 msgid "Can't close launcher, while game is running"
-msgstr "לא ניתן לסגור את המפעיל בזמן שהמשחק פועל"
+msgstr "לא ניתן לסגור את תוכנת ההרצה בזמן שהמשחק פועל"
 
 #. %1 - Nickname of user invited to chat; %2 - Nickname of user who invited another user
 #: File: launcher_en.ts
@@ -1220,7 +1220,7 @@ msgstr "משתמש %1 הוסר מהצ'אט על ידי %2"
 #: ID: 01507c76d7f770e23d768fb9a7cd067b
 msgctxt "MessageDelegate"
 msgid "User %1 created chat %2"
-msgstr "משתמש %1 יצר צ'אט %2"
+msgstr "משתמש %1 יצר את צ'אט %2"
 
 #. %1 - user's nickname; %2 new chat's title
 #: File: launcher_en.ts
@@ -1233,13 +1233,13 @@ msgstr "משתמש %1 שינה את כותרת הצ'אט ל- %2"
 #: ID: 1501b71844340495af43b3038db9b4e1
 msgctxt "MessageInput"
 msgid "Type a message"
-msgstr "הקלד הודעה"
+msgstr "הקלד/י הודעה"
 
 #: File: launcher_en.ts
 #: ID: fe3e4999d6e6eb3b07a00ab03e113572
 msgctxt "MessageInput"
 msgid "Send"
-msgstr "שלח"
+msgstr "שליחה"
 
 #. %1 - User's nickame
 #: File: launcher_en.ts
@@ -1248,31 +1248,31 @@ msgctxt "MessagesItem"
 msgid ""
 "<font color=\"#ffffff\"><b>%1</b></font> has added you to his friend list. Add "
 "him to your list and proceed to chat."
-msgstr "<font color=\"#ffffff\"><b>%1</b></font> הוסיף/ה אותך לרשימת החברים שלו/ה. נא להוסיף אותו/ה לרשימה שלך והמשך לצ'אט."
+msgstr "<font color=\"#ffffff\"><b>%1</b></font> הוסיף/ה אותך לרשימת החברים שלו/ה. באפשרותך להוסיף אותו/ה לרשימה שלך ולהמשיך לצ'אט."
 
 #: File: launcher_en.ts
 #: ID: 651d8ba8e79118d241490b88cbf60fac
 msgctxt "MessagesItem"
 msgid "Confirm"
-msgstr "אשר"
+msgstr "אישור"
 
 #: File: launcher_en.ts
 #: ID: 50452fc3f25b0de478dfbe67fa6254d9
 msgctxt "MessagesItem"
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: File: launcher_en.ts
 #: ID: f544b0d636234534e8d89df1d3d0a893
 msgctxt "MessagesItem"
 msgid "Please select chat to start messaging"
-msgstr "נא לבחור צ'אט כדי להתחיל להעביר הודעות"
+msgstr "יש לבחור צ'אט כדי להתחיל לשלוח הודעות"
 
 #: File: launcher_en.ts
 #: ID: e6d563920d6c264d464fc9cef2b2051f
 msgctxt "NewsScreen"
 msgid "Oops! Something is missing. Looks like your news is in another castle!"
-msgstr "לא ניתן לטעון את מאמר החדשות. נא לנסות שוב מאוחר יותר."
+msgstr "לא ניתן לטעון את מאמר החדשות. יש לנסות שנית מאוחר יותר."
 
 #: File: launcher_en.ts
 #: ID: 62fadacf8351c83b4bfcee092cdbd2e4
@@ -1280,7 +1280,7 @@ msgctxt "NewsScreen"
 msgid ""
 "We’re off to repair our medieval power generator (aka water wheel) but try "
 "again soon!"
-msgstr "לא ניתן לטעון את רשימת מאמרי החדשות. נא לנסות שוב מאוחר יותר."
+msgstr "לא ניתן לטעון את רשימת מאמרי החדשות. יש לנסות שנית מאוחר יותר."
 
 #: File: launcher_en.ts
 #: ID: b4f5acb486565ee9a112ee14fc6e0429
@@ -1306,25 +1306,25 @@ msgctxt "RegionsComboBox"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות ועל תיקוני משחק"
+msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות שלך ועל עדכוני המשחק שלך"
 
 #: File: launcher_en.ts
 #: ID: 17b8e195ab0393fe563c52c5de67a321
 msgctxt "RequestsComponent"
 msgid "New friend requests"
-msgstr "בקשות לחברים חדשים"
+msgstr "בקשות חברות חדשות"
 
 #: File: launcher_en.ts
 #: ID: 3c605b67a984eb80e1a4b8b2f5453e58
 msgctxt "RequestsComponent"
 msgid "Confirm"
-msgstr "אשר"
+msgstr "אישור"
 
 #: File: launcher_en.ts
 #: ID: f44921d2ef2f45934bf29fd52631bae7
 msgctxt "RequestsComponent"
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: File: launcher_en.ts
 #: ID: 1dc47f2b9f488d0e48abb862851892d0
@@ -1336,13 +1336,13 @@ msgstr "בקשות שנשלחו"
 #: ID: 7c3d4d48c4c332fba203408e59db4faf
 msgctxt "RequestsComponent"
 msgid "Cancel request"
-msgstr "בטל בקשה"
+msgstr "ביטול בקשה"
 
 #: File: launcher_en.ts
 #: ID: 8c6421d92209e1d5c67a5bf801c1cf6c
 msgctxt "SearchFriendWindow"
 msgid "Create username"
-msgstr "צור שם משתמש"
+msgstr "יצירת שם משתמש"
 
 #: File: launcher_en.ts
 #: ID: 74dc6ba5b31ca5ed2ef0322830bfe9b3
@@ -1354,13 +1354,13 @@ msgstr "שלב 1/2"
 #: ID: ea5b764d0a60d36361a187b42b28a5c1
 msgctxt "SearchFriendWindow"
 msgid "Welcome to chat. Set your username so your friends can find you."
-msgstr "ברוך הבא לצ'אט. נא להגדיר את שם המשתמש שלך כדי שהחברים שלך יוכלו למצוא אותך."
+msgstr "ברוך הבא לצ'אט. עליך להגדיר את שם המשתמש שלך כדי שהחברים שלך יוכלו למצוא אותך."
 
 #: File: launcher_en.ts
 #: ID: 8f27adcdd4a13fd1e6af7234d0795b44
 msgctxt "SearchFriendWindow"
 msgid "Add a friend"
-msgstr "הוסף חבר"
+msgstr "הוספת חבר"
 
 #: File: launcher_en.ts
 #: ID: 1aadc1e9bb61888fb6084b2bca8442d1
@@ -1372,13 +1372,13 @@ msgstr "שלב 2/2"
 #: ID: c58db237d9a70919e051595b1cea6dd5
 msgctxt "SearchFriendWindow"
 msgid "Add friend to start messaging. Search by typing email or nickname."
-msgstr "הוסיפו חבר והתחילו להעביר הודעות. חפשו באמצעות הקלדת כתובת אימייל או כינוי החיבה."
+msgstr "באפשרותך להוסיף חברים ולהתחילו לשלוח הודעות. ניתן לחפש חברים באמצעות הקלדת כתובת דוא\"ל או כינוי."
 
 #: File: launcher_en.ts
 #: ID: 00037e7286ee2c0337d55474bebd11aa
 msgctxt "SearchFriendWindow"
 msgid "+ Add"
-msgstr "+הוסף"
+msgstr "+הוספה"
 
 #: File: launcher_en.ts
 #: ID: 5073665ea2c9a4831f0f84bb1b10b327
@@ -1432,7 +1432,7 @@ msgstr "איפוס לברירות מחדל"
 #: ID: 575e9e5a88d3c24606270ec03913fa60
 msgctxt "SettingsWindow"
 msgid "Cancel"
-msgstr "בטל"
+msgstr "ביטול"
 
 #: File: launcher_en.ts
 #: ID: 32a6e9d41ac00d630627a00bf91b5aa1
@@ -1444,7 +1444,7 @@ msgstr "בוצע"
 #: ID: 076010c85dccb141c38f0b83d2da5866
 msgctxt "ShareDialog"
 msgid "Share"
-msgstr "שתף"
+msgstr "שיתוף"
 
 #: File: launcher_en.ts
 #: ID: 98caf46430e689bfc9c175b20ffab836
@@ -1458,14 +1458,14 @@ msgctxt "SocialLinkingWindow"
 msgid ""
 "Connect your social networks\n"
 "and find friends to play with"
-msgstr "התחברו לרשתות החברתיות שלכם\n ומצאו חברים כדי לשחק"
+msgstr "התחברו לרשתות החברתיות שלכם\n ומצאו חברים לשחק עמם"
 
 #. %1 - Social network's name
 #: File: launcher_en.ts
 #: ID: 1675f10c9eb271e8cd64faee4101aae7
 msgctxt "SocialLinkingWindow"
 msgid "Connect %1"
-msgstr "התחבר%1"
+msgstr "התחבר/י%1"
 
 #: File: launcher_en.ts
 #: ID: c17a03e00d3436219a9e1c151a8fc6f4
@@ -1484,14 +1484,14 @@ msgstr "דלג"
 #: ID: b2951d32f01cc8803b4c7383a4ec785f
 msgctxt "SocialLinksComponent"
 msgid "Visit us on: "
-msgstr "בקרו אותנו ב: "
+msgstr "ניתן לבקר אותנו ב: "
 
 #. Find us in social networks groups
 #: File: launcher_en.ts
 #: ID: af0dd16363b560a89206834a63bbbd50
 msgctxt "SocialLinksWindow"
 msgid "Find us on Social Media"
-msgstr "תמצאו אותנו ברשת חברתית"
+msgstr "מצאו אותנו ברשתות החברתיות"
 
 #: File: launcher_en.ts
 #: ID: c03b74d3875c59054798a3c4d9f59b53
@@ -1509,7 +1509,7 @@ msgstr "חיפוש"
 #: ID: 7edf4bd3e2a4385eb55e744d56fba1b4
 msgctxt "SocialNetworkComponent"
 msgid "Search %1 friends by name"
-msgstr "חפש %1 חברים לפי שם"
+msgstr "חיפוש %1 חברים לפי שם"
 
 #: File: launcher_en.ts
 #: ID: c876e026399d098be0c85d547c296938
@@ -1559,7 +1559,7 @@ msgctxt "SteamLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות ועל תיקוני משחק"
+msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות שלך ועל עדכוני המשחק שלך"
 
 #: File: launcher_en.ts
 #: ID: 200825fafba709a27fd5b7a7f4634943
@@ -1571,37 +1571,37 @@ msgstr "הבא"
 #: ID: 1010e6764f412ce3b7267c7e393a920f
 msgctxt "SteamLoginWindow"
 msgid "Enter your email address"
-msgstr "הזן את כתובת האימייל שלך"
+msgstr "הזן את כתובת הדוא\"ל שלך"
 
 #: File: launcher_en.ts
 #: ID: d73e3ee9cf22824d7356cb6b0cd8784e
 msgctxt "SteamLoginWindow"
 msgid "A confirmation email will be sent to the specified email address"
-msgstr "מייל אישור ישלח לכתובת האימייל שצוינה"
+msgstr "מייל אישור ישלח לכתובת הדוא\"ל שצוינה"
 
 #: File: launcher_en.ts
 #: ID: d0d372e63124ad9fcae3857a6b4d7062
 msgctxt "SteamLoginWindow"
 msgid "Send"
-msgstr "שלח"
+msgstr "שליחה"
 
 #: File: launcher_en.ts
 #: ID: 4a2e4acdf95fd0be12da55da43bb2750
 msgctxt "SteamLoginWindow"
 msgid "Invalid email address"
-msgstr "כתובת אימייל לא חוקית"
+msgstr "כתובת הדוא\"ל אינה חוקית"
 
 #: File: launcher_en.ts
 #: ID: b18b01ed68ae1806c11772d006a3d239
 msgctxt "SteamLoginWindow"
 msgid "Email was sent"
-msgstr "האימייל נשלח"
+msgstr "הדוא\"ל נשלח"
 
 #: File: launcher_en.ts
 #: ID: 1fc7e009b34616df3b9038813733161c
 msgctxt "SteamLoginWindow"
 msgid "Please check your email and confirm the registration"
-msgstr "נא לבדוק את הדואר האלקטרוני שלך ולאשר את ההרשמה"
+msgstr "יש לבדוק את הדוא\"ל שלך ולאשר את ההרשמה"
 
 #: File: launcher_en.ts
 #: ID: 6b296e2a5296acfb522a5d27b5f145ac
@@ -1619,7 +1619,7 @@ msgstr "אימות נכשל."
 #: ID: f848d7f909380136bec353ac64e3b371
 msgctxt "SteamLoginWindow"
 msgid "E-mail"
-msgstr "אימייל"
+msgstr "דוא\"ל"
 
 #: File: launcher_en.ts
 #: ID: 6a2f0c9e0fff8c96936bb6ea3792b4c8
@@ -1657,7 +1657,7 @@ msgctxt "StoneLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות ועל תיקוני משחק"
+msgstr "שינוי האזור ישפיע על הקניות שלך במשחק, על הדמויות שלך ועל עדכוני המשחק שלך"
 
 #: File: launcher_en.ts
 #: ID: 67f8091bdc32cb5833b1b683232fd5e6
@@ -1669,37 +1669,37 @@ msgstr "הבא"
 #: ID: c780610b6436f6e86a624de2c8cc0a76
 msgctxt "StoneLoginWindow"
 msgid "Enter your email address"
-msgstr "הזן את כתובת האימייל שלך"
+msgstr "הזן את כתובת הדוא\"ל שלך"
 
 #: File: launcher_en.ts
 #: ID: 37d614139d78706f4523f516ba1008e7
 msgctxt "StoneLoginWindow"
 msgid "A confirmation email will be sent to the specified email address"
-msgstr "מייל אישור ישלח לכתובת האימייל שצוינה"
+msgstr "מייל אישור ישלח לכתובת הדוא\"ל שצוינה"
 
 #: File: launcher_en.ts
 #: ID: 83bbc515fbdecd351fdf3c723382657a
 msgctxt "StoneLoginWindow"
 msgid "Send"
-msgstr "שלח"
+msgstr "שליחה"
 
 #: File: launcher_en.ts
 #: ID: c166837815ae0f69d6728885e7367f50
 msgctxt "StoneLoginWindow"
 msgid "Invalid email address"
-msgstr "כתובת אימייל לא חוקית"
+msgstr "כתובת הדוא\"ל אינה חוקית"
 
 #: File: launcher_en.ts
 #: ID: 0f22f722821f7b0a62c0cb04ec2d2446
 msgctxt "StoneLoginWindow"
 msgid "Email was sent"
-msgstr "האימייל נשלח"
+msgstr "הדוא\"ל נשלח"
 
 #: File: launcher_en.ts
 #: ID: 78a27f49bb350b36413ed465707b8670
 msgctxt "StoneLoginWindow"
 msgid "Please check your email and confirm the registration"
-msgstr "נא לבדוק את הדואר האלקטרוני שלך ולאשר את ההרשמה"
+msgstr "יש לבדוק את הדוא\"ל שלך ולאשר את ההרשמה"
 
 #: File: launcher_en.ts
 #: ID: ace865080fa0eef525ed0777f21242b8
@@ -1717,7 +1717,7 @@ msgstr "אימות נכשל."
 #: ID: 1651ff953f01fa827e53139a511b7e7c
 msgctxt "StoneLoginWindow"
 msgid "E-mail"
-msgstr "אימייל"
+msgstr "דוא\"ל"
 
 #: File: launcher_en.ts
 #: ID: 2b743bf1d251141faefd957557bdd96c
@@ -1759,7 +1759,7 @@ msgstr "Steam overlay הטעינה נכשלה"
 #: ID: 001c5a51c45193586fdc7f74ad53e98c
 msgctxt "StoreScreen"
 msgid "Please wait, now the store will open without using Steam overlay"
-msgstr "נא לחכות, החנות תפתח עכשיו ללא שימוש ב-Steam overlay"
+msgstr "נא להמתין, החנות תיפתח עכשיו ללא שימוש ב-Steam overlay"
 
 #. "Refresh web page"
 #: File: launcher_en.ts
@@ -1780,31 +1780,31 @@ msgstr "העבר"
 #: ID: 98689656d662e464c7a0a34f63222604
 msgctxt "StoreScreen"
 msgid "Back"
-msgstr "הקודם"
+msgstr "חזרה"
 
 #: File: launcher_en.ts
 #: ID: 977584ea93a368893c12466d42f5a4db
 msgctxt "VideoItem"
 msgid "Share"
-msgstr "שתף"
+msgstr "שיתוף"
 
 #: File: launcher_en.ts
 #: ID: c05eb8fa6e6ee079b634553a732a114d
 msgctxt "WorldLoadingWindow"
 msgid "Downloading assets..."
-msgstr "מוריד נכסים.."
+msgstr "מוריד Assets.."
 
 #: File: launcher_en.ts
 #: ID: 50c707b17807b53739c9eacbed99b0ea
 msgctxt "WorldLoadingWindow"
 msgid "Unpacking assets..."
-msgstr "מפרק אריזת נכסים..."
+msgstr "פורק Assets..."
 
 #: File: launcher_en.ts
 #: ID: c35cbd253902c16c868799909d54282e
 msgctxt "WorldLoadingWindow"
 msgid "World is loading"
-msgstr "World בטעינה"
+msgstr "העולם בטעינה"
 
 #: File: launcher_en.ts
 #: ID: 47c0675b061910ba3a5f60552d22b7bf
@@ -1816,5 +1816,5 @@ msgstr "סגור"
 #: ID: 420a4fdf81b0fd5500e8eca7f549a543
 msgctxt "main"
 msgid "Life is Feudal: launcher"
-msgstr "Life is Feudal: מפעיל"
+msgstr "Life is Feudal: תוכנת הרצה"
 

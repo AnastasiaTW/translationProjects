@@ -8,7 +8,7 @@ msgstr "ユーザー名"
 #: ID: daff4af2ca10fab6c99be577cbb73b07
 msgctxt "AccountSection"
 msgid "Edit"
-msgstr "編集"
+msgstr "編集する"
 
 #: File: launcher_en.ts
 #: ID: 4bfa856997f5f12695cd5f5d3f7997da
@@ -106,7 +106,7 @@ msgstr "パスワード"
 #: ID: e9d871b1e711b3ce56e7021535666149
 msgctxt "BasePart"
 msgid "Remember me"
-msgstr "自動ログイン機能"
+msgstr "自動ログイン"
 
 #: File: launcher_en.ts
 #: ID: 2eb626ce89e3e0ca5615e752ce3cb513
@@ -383,7 +383,7 @@ msgstr "メンバー数：%1人"
 #: ID: 47ce769dfa902845d9d6652e679f346e
 msgctxt "ConversationInfoItem"
 msgid "Edit"
-msgstr "編集"
+msgstr "編集する"
 
 #: File: launcher_en.ts
 #: ID: 3d4b81ea4e9e82f014594410caefe96c
@@ -470,7 +470,7 @@ msgctxt "CreateGroupChatWindow"
 msgid ""
 "Set your group name. Start with a latter. Name should not be longer that 20 "
 "characters."
-msgstr "グループ名を設定してください。一文字目は英字を使用し、20文字以内で作成してください。"
+msgstr "グループ名を設定してください。一文字目は半角文字を使用し、20文字以内で作成してください。"
 
 #: File: launcher_en.ts
 #: ID: d9c8e576b0669e1d9c166683aaedf5b6
@@ -712,7 +712,7 @@ msgstr "ダウンロード中：%1 Mb/%2Mb、転送率 %3 Kb/秒 "
 #: ID: f21b98c76b3cc4dc301eb52a30823d77
 msgctxt "GameComponent"
 msgid "Extracting: %1% %2 Mb remaining"
-msgstr "抽出：%1 % 残り %2 Mb"
+msgstr "抽出：%1 % 、残り %2 Mb"
 
 #: File: launcher_en.ts
 #: ID: eeaa02f00295b132f56511a2cc22241d
@@ -882,7 +882,7 @@ msgstr "アカウント"
 #: ID: 44b6682b8cdc4c3dbe7904e3d92abbcd
 msgctxt "GeneralSection"
 msgid "Remember me"
-msgstr "自動ログイン機能"
+msgstr "自動ログイン"
 
 #: File: launcher_en.ts
 #: ID: 5821e0dce3bdf528dd44708c2bf83395
@@ -900,7 +900,7 @@ msgstr "P2P接続を使用する"
 #: ID: 759d408147c5619d9f3d5a20bc87ddbb
 msgctxt "HighlightsScreen"
 msgid "%1 time lapse"
-msgstr "「%1」タイムラプス映像"
+msgstr "タイムラプス映像「%1」"
 
 #: File: launcher_en.ts
 #: ID: f2f0227163b49af8ceb1c1bdff52c48b
@@ -1032,7 +1032,7 @@ msgstr "エラー"
 #: ID: 0e2141584476dccc95d23fb39a776108
 msgctxt "LoginWindow"
 msgid "Failed loading social providers"
-msgstr "ソーシャルプロバイダの読み込みに失敗しました"
+msgstr "ソーシャルネットワークの読み込みに失敗しました"
 
 #: File: launcher_en.ts
 #: ID: 6efbf63ae9ecf60a482be2a49ece7742
@@ -1068,7 +1068,7 @@ msgstr "Enjoy the game"
 #: ID: 30e909b8c72b2e157d23408cac959f05
 msgctxt "MailruLoginWindow"
 msgid "Loading the list of regions - please wait"
-msgstr "地域リストを読み込んでいます - しばらくお待ちください"
+msgstr "地域リストを読み込んでいます ー しばらくお待ちください"
 
 #: File: launcher_en.ts
 #: ID: 0a4a0ef9e6065c9f917c96282d4479ce
@@ -1100,7 +1100,7 @@ msgstr "次へ"
 #: ID: 11279877c55fbfca0bd0d0e8e10f44e4
 msgctxt "MailruLoginWindow"
 msgid "Failed gettings characters information"
-msgstr "キャラクターの詳細の取得に失敗しました"
+msgstr "キャラクター詳細の取得に失敗しました"
 
 #: File: launcher_en.ts
 #: ID: 63f2a3073a55a33e7990aa7d3a1127bb
@@ -1130,7 +1130,7 @@ msgstr "Life is Feudal"
 #: ID: 0e8c376f02304cae74007b67f1705418
 msgctxt "MainWindow"
 msgid "Game installation failed with error\n"
-msgstr "ゲームのインストールがエラーで失敗しました\n"
+msgstr "エラーが起きてゲームのインストールに失敗しました\n"
 
 #: File: launcher_en.ts
 #: ID: b389e1eac12cf345bc2a570c7f1d58ad
@@ -1144,7 +1144,7 @@ msgstr "\n もう一度お試しください。"
 #: ID: d9d01aeca11941cc73f21a1da41e9e27
 msgctxt "MainWindow"
 msgid "%1 time lapse is aviable!"
-msgstr "%1 タイムラプス映像が使えます！"
+msgstr "タイムラプス映像「%1 」が使えます！"
 
 #: File: launcher_en.ts
 #: ID: 6b8c0dfe2e71d187087efe0d541eaa74
@@ -1372,7 +1372,7 @@ msgstr "ステップ 2/2"
 #: ID: c58db237d9a70919e051595b1cea6dd5
 msgctxt "SearchFriendWindow"
 msgid "Add friend to start messaging. Search by typing email or nickname."
-msgstr "友達を追加してメッセージを送信し始めましょう。メールアドレスやニックネームで検索できます。"
+msgstr "友達を追加してメッセージの送信を始めましょう。メールアドレスやニックネームで検索できます。"
 
 #: File: launcher_en.ts
 #: ID: 00037e7286ee2c0337d55474bebd11aa
@@ -1539,7 +1539,7 @@ msgstr "Enjoy the game"
 #: ID: 1e18ed05a10d29a009d62e11c07c57ab
 msgctxt "SteamLoginWindow"
 msgid "Loading the list of regions - please wait"
-msgstr "地域リストを読み込んでいます - しばらくお待ちください"
+msgstr "地域リストを読み込んでいます ー しばらくお待ちください"
 
 #: File: launcher_en.ts
 #: ID: bd80a8de6dd283b7956942eb55b7cf4a
@@ -1637,7 +1637,7 @@ msgstr "Enjoy the game"
 #: ID: f8b5325b5c0c775574442856ee690baa
 msgctxt "StoneLoginWindow"
 msgid "Loading the list of regions - please wait"
-msgstr "地域リストを読み込んでいます - しばらくお待ちください"
+msgstr "地域リストを読み込んでいます ー しばらくお待ちください"
 
 #: File: launcher_en.ts
 #: ID: 69ee50a80f963fadd5d4b210b60953c0
@@ -1798,7 +1798,7 @@ msgstr "アセットをダウンロード中…"
 #: ID: 50c707b17807b53739c9eacbed99b0ea
 msgctxt "WorldLoadingWindow"
 msgid "Unpacking assets..."
-msgstr "アセットを アンパック中…"
+msgstr "アセットをアンパック中…"
 
 #: File: launcher_en.ts
 #: ID: c35cbd253902c16c868799909d54282e

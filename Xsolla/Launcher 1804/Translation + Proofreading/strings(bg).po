@@ -1,5 +1,6 @@
 #: File: launcher_en.ts
 #: ID: 4b270bcebcd3d347e3fbb053f3aa083e
+#, fuzzy
 msgctxt "AccountSection"
 msgid "Username"
 msgstr "Потребителско име"
@@ -8,25 +9,25 @@ msgstr "Потребителско име"
 #: ID: daff4af2ca10fab6c99be577cbb73b07
 msgctxt "AccountSection"
 msgid "Edit"
-msgstr "Редактиране"
+msgstr "Редактирай"
 
 #: File: launcher_en.ts
 #: ID: 4bfa856997f5f12695cd5f5d3f7997da
 msgctxt "AccountSection"
 msgid "Disconnect"
-msgstr "Прекъсване на връзката"
+msgstr "Прекъсни връзката"
 
 #: File: launcher_en.ts
 #: ID: 87c9ac979a06a5124078723731f51fb2
 msgctxt "AccountSection"
 msgid "Add another network"
-msgstr "Добавяне на мрежа"
+msgstr "Добави мрежа"
 
 #: File: launcher_en.ts
 #: ID: 57d79b5b896ef6b87a1dc1b771eb66f9
 msgctxt "AddUsersToChatWindow"
 msgid "Add users"
-msgstr "Добавяне на потребители"
+msgstr "Добави потребители"
 
 #: File: launcher_en.ts
 #: ID: 08841c559726c64fc89dc5506e169b90
@@ -38,25 +39,25 @@ msgstr "Покани приятели в групата"
 #: ID: 8851496d80e7680a868c36fb5003ea86
 msgctxt "AddUsersToChatWindow"
 msgid "Search friends"
-msgstr "Намери приятели"
+msgstr "Търси приятели"
 
 #: File: launcher_en.ts
 #: ID: 66380da49317fb3c35edbdb12ff7adb7
 msgctxt "AddUsersToChatWindow"
 msgid "Add"
-msgstr "Добавяне"
+msgstr "Добави"
 
 #: File: launcher_en.ts
 #: ID: babf76dff24b4b4f79f779cc85a6d940
 msgctxt "AddUsersToChatWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: feff76e883cf277ff3017d72e9e233c3
 msgctxt "AdvertisingBanner"
 msgid "Game Servers Problem"
-msgstr "Проблем с сървърите на играта"
+msgstr "Проблем със сървърите на играта"
 
 #: File: launcher_en.ts
 #: ID: beeaee330dadc0878a814294399a7e0d
@@ -64,7 +65,7 @@ msgctxt "AdvertisingBanner"
 msgid ""
 "We're experiencing technical problem with game servers. Please click Reload "
 "to check status."
-msgstr "Има проблем с сървърите на играта. Моля, натиснете \"Опресни\" за проверка на статуса."
+msgstr "Има технически проблем със сървърите на играта. Моля, натисни \"Опресни\" за проверка на статуса."
 
 #: File: launcher_en.ts
 #: ID: b49ce5d6f97e4ca330c97df27ffa8e0c
@@ -88,7 +89,7 @@ msgstr "Собственик на играта: "
 #: ID: e0321ef76f6f1fa3bce16616fd82c772
 msgctxt "AdvertisingBanner"
 msgid "Reload servers"
-msgstr "Опресняване на сървърите"
+msgstr "Опресни сървърите"
 
 #: File: launcher_en.ts
 #: ID: e0259f9a53fab39a131959e7c2571d7e
@@ -130,25 +131,25 @@ msgstr "играчи"
 #: ID: 82a461b39f1893c2fa8eaa130562a530
 msgctxt "ChangeChar"
 msgid "Change character"
-msgstr "Избор на герой"
+msgstr "Промени герой"
 
 #: File: launcher_en.ts
 #: ID: 29bd6122ef86557375c667de1a285f4b
 msgctxt "ChangeChatTitleWindow"
 msgid "Edit chat title"
-msgstr "Редактирай названието на чата"
+msgstr "Редактирай името на чата"
 
 #: File: launcher_en.ts
 #: ID: 63e62ef429a6bd63e48ce295d4a07901
 msgctxt "ChangeChatTitleWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "Използвайте от 5 до 20 символа"
+msgstr "Използвай от 5 до 20 символа"
 
 #: File: launcher_en.ts
 #: ID: 1ea05c94a09aeee5a9e7e3508ff4c592
 msgctxt "ChangeChatTitleWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: 87e2282ccf13322e890b8e59190f7a9e
@@ -160,19 +161,19 @@ msgstr "Запази"
 #: ID: 0ff7e18e31306cd1152a0de3683eb61d
 msgctxt "ChangeUsernameWindow"
 msgid "Edit username"
-msgstr "Редактиране на името"
+msgstr "Редактирай името"
 
 #: File: launcher_en.ts
 #: ID: c75349eb6668f3c30e6b29bb187b2261
 msgctxt "ChangeUsernameWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "Използвайте от 5 до 20 символа"
+msgstr "Използвай от 5 до 20 символа"
 
 #: File: launcher_en.ts
 #: ID: 874cca967eb6ee4338646f28e1761f3f
 msgctxt "ChangeUsernameWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: d72f60c59af114e0bf6a8c461f3637b6
@@ -227,7 +228,7 @@ msgstr "Готово"
 #: ID: bf150ebb1bb618065dd7511ad9cb5af7
 msgctxt "CharsWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: 59ab38e4d4af1a7cee4c8dca2579bb0e
@@ -245,7 +246,7 @@ msgstr "Недостъпни"
 #: ID: e663c3c560acfd862f1da7dac022858a
 msgctxt "CharsWindow"
 msgid "World is full"
-msgstr "Светът е пълен"
+msgstr "Светът е запълнен"
 
 #: File: launcher_en.ts
 #: ID: ee1edbab8dae1317efc812b2adc45a6f
@@ -293,13 +294,13 @@ msgstr "Търси"
 #: ID: 35dea93b95bb289e6e74d82ae0ed0405
 msgctxt "ChatWindow"
 msgid "Enable notifications"
-msgstr "Включване на уведомленията"
+msgstr "Включи уведомленията"
 
 #: File: launcher_en.ts
 #: ID: 9a154d57966839c7c0ada74b7a05a6a6
 msgctxt "ChatWindow"
 msgid "Disable notifications"
-msgstr "Изключване на уведомленията"
+msgstr "Изключи уведомленията"
 
 #: File: launcher_en.ts
 #: ID: 74da4069fe75d45d96e96f3e0b3c5525
@@ -329,13 +330,13 @@ msgstr "+ Създай канал"
 #: ID: 015b22ef697e04061bc081c53159d2c2
 msgctxt "ChatWindow"
 msgid "Please select chat to start messaging"
-msgstr "Изберете чат"
+msgstr "Избери чат за започване на комуникация"
 
 #: File: launcher_en.ts
 #: ID: 7c9ceab43772e2cdd4d71afd3c059063
 msgctxt "ConnectSocialNetworksWindow"
 msgid "Connect your social networks and find friends to play with"
-msgstr "Свържете социалните си профили и намерете приятели за игра"
+msgstr "Свържи социалните си профили и намери приятели за игра"
 
 #: File: launcher_en.ts
 #: ID: 55311e82c16253aa8627393907cdeaaa
@@ -371,19 +372,19 @@ msgstr "Пропусни"
 #: ID: 1f595cb9c9fa8d35226ad918ddaa9073
 msgctxt "ConversationInfoItem"
 msgid "Back to chat"
-msgstr "Назад към чата"
+msgstr "Обратно към чата"
 
 #: File: launcher_en.ts
 #: ID: a6f94575a792c4fff0e76579a9af3bd6
 msgctxt "ConversationInfoItem"
 msgid "members: %1"
-msgstr "потребители: %1"
+msgstr "участници: %1"
 
 #: File: launcher_en.ts
 #: ID: 47ce769dfa902845d9d6652e679f346e
 msgctxt "ConversationInfoItem"
 msgid "Edit"
-msgstr "Редактиране"
+msgstr "Редактирай"
 
 #: File: launcher_en.ts
 #: ID: 3d4b81ea4e9e82f014594410caefe96c
@@ -402,7 +403,7 @@ msgstr "+ Добави участници"
 #: ID: 81b839969effff7acf54f2ae3736a122
 msgctxt "ConversationInfoItem"
 msgid "Remove"
-msgstr "Премахване"
+msgstr "Премахни"
 
 #: File: launcher_en.ts
 #: ID: 46e2c6d3f0ed2eb570e6d6962ccdf481
@@ -420,7 +421,7 @@ msgstr "Покани приятели в чата"
 #: ID: a8e81fb3636d9d9566a9c3aa55a8c872
 msgctxt "CreateChatWindow"
 msgid "Search friends"
-msgstr "Намери приятели"
+msgstr "Търси приятели"
 
 #: File: launcher_en.ts
 #: ID: 5c3ba8bd1aa341e097efdba670bbf367
@@ -438,7 +439,7 @@ msgstr "Нова група"
 #: ID: 99e9019e5b8d74c163827acbf15ce623
 msgctxt "CreateGroupChatWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: 2648f9523a74d36c3c5ccf4320ba733c
@@ -470,19 +471,19 @@ msgctxt "CreateGroupChatWindow"
 msgid ""
 "Set your group name. Start with a latter. Name should not be longer that 20 "
 "characters."
-msgstr "Изберете име за групата. Името трябва да започва с буква, не по-дълго от 20 символа."
+msgstr "Избери име за групата. Името трябва да започва с буква и да не е по-дълго от 20 символа."
 
 #: File: launcher_en.ts
 #: ID: d9c8e576b0669e1d9c166683aaedf5b6
 msgctxt "CreateGroupChatWindow"
 msgid "Group chat name"
-msgstr "Название на групов чат"
+msgstr "Име на групов чат"
 
 #: File: launcher_en.ts
 #: ID: 6755d93d62b4d271122cabdfc219c403
 msgctxt "CreateGroupChatWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "Използвайте от 5 до 20 символа"
+msgstr "Използвай от 5 до 20 символа"
 
 #: File: launcher_en.ts
 #: ID: 8046efef26db778b685a50ea2b09a575
@@ -494,7 +495,7 @@ msgstr "Покани приятели в групата"
 #: ID: c75ebe5a23b5b5ebead6706bfe40bd7f
 msgctxt "CreateGroupChatWindow"
 msgid "Search friends"
-msgstr "Намери приятели"
+msgstr "Търси приятели"
 
 #: File: launcher_en.ts
 #: ID: 25905607df5eb7e53a1cc538b23990df
@@ -542,7 +543,7 @@ msgstr "ОК"
 #: ID: 4feb7e497a6c32d2236e73d903521299
 msgctxt "ErrorReportWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: 7d82b4d0a72f4e7601f8adf86983fd04
@@ -550,7 +551,7 @@ msgctxt "ErrorWindow"
 msgid ""
 "A fatal error has occured. Thy limbs are weak and sight is blurred. Forget "
 "thy dreams and run in terror. Extraction error."
-msgstr "Грешка на авторизацията. Моля, влезте отново."
+msgstr "Грешка при удостоверяването. Моля, влез отново."
 
 #: File: launcher_en.ts
 #: ID: a470b709d32bf20b2a35b81f2b1ea57d
@@ -568,7 +569,7 @@ msgstr "ОК"
 #: ID: 5912c323e7e026c8c8696fc925751b38
 msgctxt "FindFriendComponent"
 msgid "Search friends by nickname"
-msgstr "Търсене на приятели по име"
+msgstr "Търси приятели по име"
 
 #: File: launcher_en.ts
 #: ID: 02f45958d6b79dcaa444745cd3eef84d
@@ -586,13 +587,13 @@ msgstr "Поканата е изпратена"
 #: ID: e64a831fd3ba442c23c6308a4d623854
 msgctxt "FindFriendComponent"
 msgid "Send request"
-msgstr "Изпращане на покана"
+msgstr "Изпрати покана"
 
 #: File: launcher_en.ts
 #: ID: 5a74522d5a2afee9a80dbc2c32b729b0
 msgctxt "FriendDelegate"
 msgid "Send request"
-msgstr "Изпращане на покана"
+msgstr "Изпрати покана"
 
 #: File: launcher_en.ts
 #: ID: b41aa0dbc1973ed9cfbe0909a9c8cb46
@@ -610,13 +611,13 @@ msgstr "Покани"
 #: ID: 7b88ec52573cb0a7b458721aed07bb7a
 msgctxt "FriendDelegate"
 msgid "Invited"
-msgstr "Очаква потвърждение"
+msgstr "Поканен"
 
 #: File: launcher_en.ts
 #: ID: 17d1e93bb43f7846119aa503b051eea5
 msgctxt "FriendDelegate"
 msgid "Delete"
-msgstr "Изтриване"
+msgstr "Изтрий"
 
 #: File: launcher_en.ts
 #: ID: b95f53a70c57de86f4042e6c7b376b4d
@@ -628,7 +629,7 @@ msgstr "Потвърди"
 #: ID: b07ac5e95b01f3fd8d3060442f6b9a1d
 msgctxt "FriendDelegate"
 msgid "Cancel request"
-msgstr "Отмяна на заявката"
+msgstr "Отмени поканата"
 
 #: File: launcher_en.ts
 #: ID: c5b11db93ad2fabeaf713623cd59a550
@@ -640,13 +641,13 @@ msgstr "Играе Life is Feudal"
 #: ID: 3d9d7f99894ba61c1a10af97025d70af
 msgctxt "FriendDelegate"
 msgid "Last online: %1 hours ago"
-msgstr "Последно влизане преди: %1 часа"
+msgstr "Последно онлайн преди: %1 часа"
 
 #: File: launcher_en.ts
 #: ID: 069a34a189066ad53e2f08a94d7dddab
 msgctxt "FriendDelegate"
 msgid "%1 mutual friend"
-msgstr "%1 общи приятели"
+msgstr "%1 общ приятел"
 
 #: File: launcher_en.ts
 #: ID: 5dd8e467987749c543c718d7a4e3f3ad
@@ -658,7 +659,7 @@ msgstr "%1 общи приятели"
 #: ID: 9dd345b987f3dc1166c0cb4332c803f6
 msgctxt "FriendsListComponent"
 msgid "Delete"
-msgstr "Изтриване"
+msgstr "Изтрий"
 
 #: File: launcher_en.ts
 #: ID: 48ed41716b49245a550af3c8e8d55383
@@ -676,7 +677,7 @@ msgstr "Започни чат"
 #: ID: f8b2164517717fdbab302b73154ecf56
 msgctxt "FriendsListComponent"
 msgid "Unblock"
-msgstr "Разблокирай"
+msgstr "Отблокирай"
 
 #: File: launcher_en.ts
 #: ID: 5271a1a84c7ba8e850574246c5ca0c6a
@@ -706,13 +707,13 @@ msgstr "Покани"
 #: ID: f5f46b14e5905a404fb76d7050070e78
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s"
-msgstr "Изтегляне: %1 мб от %2 мб, скорост: %3 кб/с"
+msgstr "Изтегляне: %1 Mb от %2 Mb, скорост: %3 Kb/s"
 
 #: File: launcher_en.ts
 #: ID: f21b98c76b3cc4dc301eb52a30823d77
 msgctxt "GameComponent"
 msgid "Extracting: %1% %2 Mb remaining"
-msgstr "Извличане: %1%, остават %2 мб"
+msgstr "Извличане: %1%, остават %2 Mb"
 
 #: File: launcher_en.ts
 #: ID: eeaa02f00295b132f56511a2cc22241d
@@ -742,19 +743,19 @@ msgstr "Купи"
 #: ID: 0a404317082c032920f0aa7a51750b5c
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s, peers %4, seeds %5"
-msgstr "Изтегляне: %1 мб от %2 мб, скорост: %3 кб/с, пиъри: %4, сийдъри: %5"
+msgstr "Изтегляне: %1 Mb от %2 Mb, скорост: %3 Kb/s, пиъри: %4, сийдъри: %5"
 
 #: File: launcher_en.ts
 #: ID: 2492dd98c4f468260d240452244eb86d
 msgctxt "GameComponent"
 msgid "Repairing data: %1 Mb remaining"
-msgstr "Възстановяване на данни: остават %1 мб"
+msgstr "Възстановяване на данни: остават %1 Mb"
 
 #: File: launcher_en.ts
 #: ID: 06d37dec99eb496bafb9bc1f621c626a
 msgctxt "GameComponent"
 msgid "Nothing here. King is at loss"
-msgstr "Невъзможно зареждането на списъка с банери. Моля, опитайте по-късно."
+msgstr "Списъкът с банери не може да бъде зареден. Моля, опитай по-късно."
 
 #: File: launcher_en.ts
 #: ID: a624dd7bdca92ee259efb88acc0a2d4f
@@ -766,7 +767,7 @@ msgstr "Поддръжка"
 #: ID: bf0c6f97cc2521fb26f579373d901403
 msgctxt "GameComponent"
 msgid "If the game is already installed"
-msgstr "Ако играта е вече инсталирана"
+msgstr "Ако играта вече е инсталирана"
 
 #: File: launcher_en.ts
 #: ID: 3177ec92464e1972829f13deeb9f3b93
@@ -802,19 +803,19 @@ msgstr "Деинсталирай"
 #: ID: d882e6660d44cef358bee11a704d08c7
 msgctxt "GameComponent"
 msgid "Options"
-msgstr "Настройки"
+msgstr "Опции"
 
 #: File: launcher_en.ts
 #: ID: 238de60ab0b6a0bcc87644772f00bcca
 msgctxt "GameComponent"
 msgid "Can't find game in selected folder."
-msgstr "Играта не бе намерена в избранта папка"
+msgstr "Играта не е намерена в избраната папка."
 
 #: File: launcher_en.ts
 #: ID: fefe0926eb2ff1e1724ff94b3537a47d
 msgctxt "GameComponent"
 msgid "You cannot use selected game for the current region."
-msgstr "Не можете да стартирате избраната игра в вашия регион."
+msgstr "Не можеш да използваш избраната игра за текущия регион."
 
 #: File: launcher_en.ts
 #: ID: 8312c38687ffee4f6780a59285fc5cad
@@ -844,7 +845,7 @@ msgstr "Дисково пространство"
 #: ID: c9d1954aaa2147d38d893818cd16df36
 msgctxt "GameInstallWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: b6fa6a98a1dd4d88f8a8a6b850ac0273
@@ -856,7 +857,7 @@ msgstr "Инсталирай"
 #: ID: 86e4f10b691420f957c1150968742631
 msgctxt "GameInstallWindow"
 msgid "Select path for install.."
-msgstr "Избор на път за инсталиране.."
+msgstr "Избор на път за инсталиране..."
 
 #: File: launcher_en.ts
 #: ID: 4b339f6b8f47a22efe7c0eabe6de6312
@@ -864,7 +865,7 @@ msgctxt "GameInstallWindow"
 msgid ""
 "You cannot use directory to install the game. Please select a different "
 "directory for installation."
-msgstr "Не можете да използвате тази директория за инсталиране на играта. Моля, изберете друга директория."
+msgstr "Не можеш да използваш тази директория за инсталиране на играта. Моля, избери друга директория."
 
 #: File: launcher_en.ts
 #: ID: 4cd129808e5d22cd66116cc85a4cc05d
@@ -918,7 +919,7 @@ msgstr "Последно обновяване: "
 #: ID: beba9f4c27bdf1589e4efece170ab5df
 msgctxt "LauncherUpdateWindow"
 msgid "Update"
-msgstr "Актуализирай"
+msgstr "Обнови"
 
 #: File: launcher_en.ts
 #: ID: 170caa505b12b3fd261bbba95ec08387
@@ -930,19 +931,19 @@ msgstr "Инсталиране: %1% "
 #: ID: 2c7880f827510a3cb50e7ea578bd89e7
 msgctxt "LauncherUpdateWindow"
 msgid "Checking updates"
-msgstr "Търсене на актуализации"
+msgstr "Търсене на обновления"
 
 #: File: launcher_en.ts
 #: ID: 83fb6abb5b886f629973d41a52176a70
 msgctxt "LauncherUpdateWindow"
 msgid "Downloading launcher update"
-msgstr "Изтегляне на актуализация за лаунчера"
+msgstr "Изтегляне на обновление за стартиращата програма"
 
 #: File: launcher_en.ts
 #: ID: b197067fdee3bd74faa38ef519acdaa9
 msgctxt "LauncherUpdateWindow"
 msgid "Unpacking launcher update"
-msgstr "Извличане на актуализацията за лаунчера"
+msgstr "Извличане на обновлението за стартиращата програма"
 
 #: File: launcher_en.ts
 #: ID: 612719b9d055e59ede8672c16309ae4a
@@ -966,7 +967,7 @@ msgstr "Настройки"
 #: ID: 1270b8786acd06d1bdd07b6ce2f006fc
 msgctxt "LoginContextMenu"
 msgid "Log Out"
-msgstr "Излез от профила"
+msgstr "Изход"
 
 #: File: launcher_en.ts
 #: ID: 078fbcc30c954132b350c2a71534f69b
@@ -978,7 +979,7 @@ msgstr "Life is Feudal"
 #: ID: 36f5b363659af4a1106660b5e62a49ae
 msgctxt "LoginWindow"
 msgid "Error! Network list is empty!"
-msgstr "Грешка! Списъка със мрежи е празен!"
+msgstr "Грешка! Списъкът с мрежи е празен!"
 
 #: File: launcher_en.ts
 #: ID: 4ccf20723ef26648dcf8f929b4732e0e
@@ -1038,13 +1039,13 @@ msgstr "Грешка при зареждането на социални мре�
 #: ID: 6efbf63ae9ecf60a482be2a49ece7742
 msgctxt "LoginWindow"
 msgid "Social auth failed."
-msgstr "Грешка при влизане със социален профил."
+msgstr "Грешка при удостоверяването на социален профил."
 
 #: File: launcher_en.ts
 #: ID: 93f2a79e1a866767812b14479a1b71f8
 msgctxt "LoginWindow"
 msgid "There was a problem with your request. Please try again."
-msgstr "Запитването не беше обработено. Моля, опитайте по-късно."
+msgstr "Възникна проблем със заявката. Моля, опитай по-късно."
 
 #: File: launcher_en.ts
 #: ID: b2a1fd1e013b2c1450b4d0adc218daa7
@@ -1056,7 +1057,7 @@ msgstr "Забравена парола?"
 #: ID: b026946e7c2915773c4c70cd09b7d718
 msgctxt "LoginWindow"
 msgid "Create an account"
-msgstr "Създаване на профил"
+msgstr "Създай профил"
 
 #: File: launcher_en.ts
 #: ID: eb5c554ce1f374186c0fd4866a6f7bc7
@@ -1068,7 +1069,7 @@ msgstr "Enjoy the game"
 #: ID: 30e909b8c72b2e157d23408cac959f05
 msgctxt "MailruLoginWindow"
 msgid "Loading the list of regions - please wait"
-msgstr "Зареждане на списъка с региони. Моля, изчакайте."
+msgstr "Зареждане на списъка с региони. Моля, изчакай."
 
 #: File: launcher_en.ts
 #: ID: 0a4a0ef9e6065c9f917c96282d4479ce
@@ -1088,7 +1089,7 @@ msgctxt "MailruLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Промяната на региона ще повлияе на покупките, героите и патчовете в играта"
+msgstr "Промяната на региона ще повлияе на покупките, героите и пачовете в играта"
 
 #: File: launcher_en.ts
 #: ID: f20ca7266486a02f4b5b280e484566dc
@@ -1112,7 +1113,7 @@ msgstr "Life is Feudal"
 #: ID: 4317112bfbca0b692b4a571ef0320ddf
 msgctxt "MailruLoginWindow"
 msgid "Authentication failed."
-msgstr "Грешка при авторизация"
+msgstr "Грешка при удостоверяване."
 
 #: File: launcher_en.ts
 #: ID: f5da6f4548cd10c0996d12abbe6ed3fd
@@ -1130,7 +1131,7 @@ msgstr "Life is Feudal"
 #: ID: 0e8c376f02304cae74007b67f1705418
 msgctxt "MainWindow"
 msgid "Game installation failed with error\n"
-msgstr "Неуспешно инсталиране. Грешка \n"
+msgstr "Неуспешно инсталиране. Грешка: \n"
 
 #: File: launcher_en.ts
 #: ID: b389e1eac12cf345bc2a570c7f1d58ad
@@ -1138,13 +1139,13 @@ msgctxt "MainWindow"
 msgid ""
 "\n"
 "Please, try again."
-msgstr "\n Опитайте отново."
+msgstr "\n Опитай отново."
 
 #: File: launcher_en.ts
 #: ID: d9d01aeca11941cc73f21a1da41e9e27
 msgctxt "MainWindow"
 msgid "%1 time lapse is aviable!"
-msgstr "Таймлапсът %1 е достъпен!"
+msgstr "Таймлапсът %1 е наличен!"
 
 #: File: launcher_en.ts
 #: ID: 6b8c0dfe2e71d187087efe0d541eaa74
@@ -1192,14 +1193,14 @@ msgstr "Изтегляне"
 #: ID: 4dbb11e1d775b85599a05af662fc1c38
 msgctxt "MainWindow"
 msgid "Can't close launcher, while game is running"
-msgstr "Лаунчерът не може да бъде затворен, докато играта работи"
+msgstr "Стартиращата програма не може да бъде затворена, докато играта е пусната"
 
 #. %1 - Nickname of user invited to chat; %2 - Nickname of user who invited another user
 #: File: launcher_en.ts
 #: ID: 41eaf7d3b5fc4da39cfc3be8afbeb311
 msgctxt "MessageDelegate"
 msgid "User %1 invited to chat by %2"
-msgstr "%1 беше поканен в чата от %2"
+msgstr "%1 е поканен в чата от %2"
 
 #. %1 - Nickname of user who removed from chat
 #: File: launcher_en.ts
@@ -1227,13 +1228,13 @@ msgstr "%1 създаде чат %2"
 #: ID: a6d26cc16374a966b325647730f68138
 msgctxt "MessageDelegate"
 msgid "User %1 changed chat title to %2"
-msgstr "%1 смени названието на чата с %2"
+msgstr "%1 смени името на чата на %2"
 
 #: File: launcher_en.ts
 #: ID: 1501b71844340495af43b3038db9b4e1
 msgctxt "MessageInput"
 msgid "Type a message"
-msgstr "Напишете съобщение"
+msgstr "Напиши съобщение"
 
 #: File: launcher_en.ts
 #: ID: fe3e4999d6e6eb3b07a00ab03e113572
@@ -1248,7 +1249,7 @@ msgctxt "MessagesItem"
 msgid ""
 "<font color=\"#ffffff\"><b>%1</b></font> has added you to his friend list. Add "
 "him to your list and proceed to chat."
-msgstr "<font color=\"#ffffff\"><b>%1</b></font> ви добави в списъка си с приятели. Добавете този потребител в своя списък с приятели, и започнете да чатите."
+msgstr "<font color=\"#ffffff\"><b>%1</b></font> те добави в списъка си с приятели. Добави го в своя списък с приятели и започнете да чатите."
 
 #: File: launcher_en.ts
 #: ID: 651d8ba8e79118d241490b88cbf60fac
@@ -1260,19 +1261,19 @@ msgstr "Потвърди"
 #: ID: 50452fc3f25b0de478dfbe67fa6254d9
 msgctxt "MessagesItem"
 msgid "Delete"
-msgstr "Изтриване"
+msgstr "Изтрий"
 
 #: File: launcher_en.ts
 #: ID: f544b0d636234534e8d89df1d3d0a893
 msgctxt "MessagesItem"
 msgid "Please select chat to start messaging"
-msgstr "Изберете чат"
+msgstr "Избери чат за започване на комуникация"
 
 #: File: launcher_en.ts
 #: ID: e6d563920d6c264d464fc9cef2b2051f
 msgctxt "NewsScreen"
 msgid "Oops! Something is missing. Looks like your news is in another castle!"
-msgstr "Упс! Не открихме нищо. Моля, опитайте по-късно."
+msgstr "Разделът с новини не може да бъде зареден. Моля, опитай отново по-късно."
 
 #: File: launcher_en.ts
 #: ID: 62fadacf8351c83b4bfcee092cdbd2e4
@@ -1280,7 +1281,7 @@ msgctxt "NewsScreen"
 msgid ""
 "We’re off to repair our medieval power generator (aka water wheel) but try "
 "again soon!"
-msgstr "Списъкът с новини не може да бъде зареден. Моля, опитайте по-късно."
+msgstr "Списъкът с новини не може да бъде зареден. Моля, опитай отново по-късно."
 
 #: File: launcher_en.ts
 #: ID: b4f5acb486565ee9a112ee14fc6e0429
@@ -1306,7 +1307,7 @@ msgctxt "RegionsComboBox"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Промяната на региона ще повлияе на покупките, героите и патчовете в играта"
+msgstr "Промяната на региона ще повлияе на покупките, героите и пачовете в играта"
 
 #: File: launcher_en.ts
 #: ID: 17b8e195ab0393fe563c52c5de67a321
@@ -1324,7 +1325,7 @@ msgstr "Потвърди"
 #: ID: f44921d2ef2f45934bf29fd52631bae7
 msgctxt "RequestsComponent"
 msgid "Delete"
-msgstr "Изтриване"
+msgstr "Изтрий"
 
 #: File: launcher_en.ts
 #: ID: 1dc47f2b9f488d0e48abb862851892d0
@@ -1336,7 +1337,7 @@ msgstr "изпратени покани"
 #: ID: 7c3d4d48c4c332fba203408e59db4faf
 msgctxt "RequestsComponent"
 msgid "Cancel request"
-msgstr "Отмяна на заявката"
+msgstr "Отмени поканата"
 
 #: File: launcher_en.ts
 #: ID: 8c6421d92209e1d5c67a5bf801c1cf6c
@@ -1348,13 +1349,13 @@ msgstr "Създаване на потребителско име"
 #: ID: 74dc6ba5b31ca5ed2ef0322830bfe9b3
 msgctxt "SearchFriendWindow"
 msgid "Step 1/2"
-msgstr "Стъпка 1 от 2"
+msgstr "Стъпка 1/2"
 
 #: File: launcher_en.ts
 #: ID: ea5b764d0a60d36361a187b42b28a5c1
 msgctxt "SearchFriendWindow"
 msgid "Welcome to chat. Set your username so your friends can find you."
-msgstr "Добре дошли в чата. Изберете си никнейм, за да може приятелите ви да ви намерят."
+msgstr "Добре дошъл в чата. Избери си име, за да може приятелите ти да те намират."
 
 #: File: launcher_en.ts
 #: ID: 8f27adcdd4a13fd1e6af7234d0795b44
@@ -1372,7 +1373,7 @@ msgstr "Стъпка 2/2"
 #: ID: c58db237d9a70919e051595b1cea6dd5
 msgctxt "SearchFriendWindow"
 msgid "Add friend to start messaging. Search by typing email or nickname."
-msgstr "Добавете приятели за да им пишете. Търсете по имейл или име."
+msgstr "Добави приятели, за да им пишеш. Търси по имейл или име."
 
 #: File: launcher_en.ts
 #: ID: 00037e7286ee2c0337d55474bebd11aa
@@ -1432,7 +1433,7 @@ msgstr "Нулиране на настройките"
 #: ID: 575e9e5a88d3c24606270ec03913fa60
 msgctxt "SettingsWindow"
 msgid "Cancel"
-msgstr "Отмяна"
+msgstr "Отмени"
 
 #: File: launcher_en.ts
 #: ID: 32a6e9d41ac00d630627a00bf91b5aa1
@@ -1458,7 +1459,7 @@ msgctxt "SocialLinkingWindow"
 msgid ""
 "Connect your social networks\n"
 "and find friends to play with"
-msgstr "Свържете социалните си профили\n и намерети приятели"
+msgstr "Свържи социалните си профили\n и намери приятели за игра"
 
 #. %1 - Social network's name
 #: File: launcher_en.ts
@@ -1484,14 +1485,14 @@ msgstr "Пропусни"
 #: ID: b2951d32f01cc8803b4c7383a4ec785f
 msgctxt "SocialLinksComponent"
 msgid "Visit us on: "
-msgstr "Посетете ни: "
+msgstr "Посети ни в: "
 
 #. Find us in social networks groups
 #: File: launcher_en.ts
 #: ID: af0dd16363b560a89206834a63bbbd50
 msgctxt "SocialLinksWindow"
 msgid "Find us on Social Media"
-msgstr "Следвайте ни"
+msgstr "Намери ни в социални мрежи"
 
 #: File: launcher_en.ts
 #: ID: c03b74d3875c59054798a3c4d9f59b53
@@ -1539,7 +1540,7 @@ msgstr "Enjoy the game"
 #: ID: 1e18ed05a10d29a009d62e11c07c57ab
 msgctxt "SteamLoginWindow"
 msgid "Loading the list of regions - please wait"
-msgstr "Зареждане на списъка с региони. Моля, изчакайте."
+msgstr "Зареждане на списъка с региони. Моля, изчакай."
 
 #: File: launcher_en.ts
 #: ID: bd80a8de6dd283b7956942eb55b7cf4a
@@ -1559,7 +1560,7 @@ msgctxt "SteamLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Промяната на региона ще повлияе на покупките, героите и патчовете в играта"
+msgstr "Промяната на региона ще повлияе на покупките, героите и пачовете в играта"
 
 #: File: launcher_en.ts
 #: ID: 200825fafba709a27fd5b7a7f4634943
@@ -1571,13 +1572,13 @@ msgstr "Продължи"
 #: ID: 1010e6764f412ce3b7267c7e393a920f
 msgctxt "SteamLoginWindow"
 msgid "Enter your email address"
-msgstr "Въведете имейла си"
+msgstr "Въведи имейла си"
 
 #: File: launcher_en.ts
 #: ID: d73e3ee9cf22824d7356cb6b0cd8784e
 msgctxt "SteamLoginWindow"
 msgid "A confirmation email will be sent to the specified email address"
-msgstr "Имейл за потвърждение беше изпратен на електронната ви поща"
+msgstr "Имейл за потвърждение беше изпратен на посочената електронната поща"
 
 #: File: launcher_en.ts
 #: ID: d0d372e63124ad9fcae3857a6b4d7062
@@ -1589,19 +1590,19 @@ msgstr "Изпрати"
 #: ID: 4a2e4acdf95fd0be12da55da43bb2750
 msgctxt "SteamLoginWindow"
 msgid "Invalid email address"
-msgstr "Невалиден имейл"
+msgstr "Невалиден имейл адрес"
 
 #: File: launcher_en.ts
 #: ID: b18b01ed68ae1806c11772d006a3d239
 msgctxt "SteamLoginWindow"
 msgid "Email was sent"
-msgstr "Писмото беше изпратено успешно"
+msgstr "Имейлът е изпратен"
 
 #: File: launcher_en.ts
 #: ID: 1fc7e009b34616df3b9038813733161c
 msgctxt "SteamLoginWindow"
 msgid "Please check your email and confirm the registration"
-msgstr "Влезте в имейла си и потвърдете регистрацията"
+msgstr "Провери имейла си и потвърди регистрацията"
 
 #: File: launcher_en.ts
 #: ID: 6b296e2a5296acfb522a5d27b5f145ac
@@ -1613,7 +1614,7 @@ msgstr "Life is Feudal"
 #: ID: b56e00fbb356f82a9a7dca89439cec28
 msgctxt "SteamLoginWindow"
 msgid "Authentication failed."
-msgstr "Грешка при авторизация"
+msgstr "Грешка при удостоверяване."
 
 #: File: launcher_en.ts
 #: ID: f848d7f909380136bec353ac64e3b371
@@ -1637,7 +1638,7 @@ msgstr "Enjoy the game"
 #: ID: f8b5325b5c0c775574442856ee690baa
 msgctxt "StoneLoginWindow"
 msgid "Loading the list of regions - please wait"
-msgstr "Зареждане на списъка с региони. Моля, изчакайте."
+msgstr "Зареждане на списъка с региони. Моля, изчакай."
 
 #: File: launcher_en.ts
 #: ID: 69ee50a80f963fadd5d4b210b60953c0
@@ -1657,7 +1658,7 @@ msgctxt "StoneLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Промяната на региона ще повлияе на покупките, героите и патчовете в играта"
+msgstr "Промяната на региона ще повлияе на покупките, героите и пачовете в играта"
 
 #: File: launcher_en.ts
 #: ID: 67f8091bdc32cb5833b1b683232fd5e6
@@ -1669,13 +1670,13 @@ msgstr "Продължи"
 #: ID: c780610b6436f6e86a624de2c8cc0a76
 msgctxt "StoneLoginWindow"
 msgid "Enter your email address"
-msgstr "Въведете имейла си"
+msgstr "Въведи имейла си"
 
 #: File: launcher_en.ts
 #: ID: 37d614139d78706f4523f516ba1008e7
 msgctxt "StoneLoginWindow"
 msgid "A confirmation email will be sent to the specified email address"
-msgstr "Имейл за потвърждение беше изпратен на електронната ви поща"
+msgstr "Имейл за потвърждение беше изпратен на посочената електронната поща"
 
 #: File: launcher_en.ts
 #: ID: 83bbc515fbdecd351fdf3c723382657a
@@ -1687,19 +1688,19 @@ msgstr "Изпрати"
 #: ID: c166837815ae0f69d6728885e7367f50
 msgctxt "StoneLoginWindow"
 msgid "Invalid email address"
-msgstr "Невалиден имейл"
+msgstr "Невалиден имейл адрес"
 
 #: File: launcher_en.ts
 #: ID: 0f22f722821f7b0a62c0cb04ec2d2446
 msgctxt "StoneLoginWindow"
 msgid "Email was sent"
-msgstr "Писмото беше изпратено успешно"
+msgstr "Имейлът е изпратен"
 
 #: File: launcher_en.ts
 #: ID: 78a27f49bb350b36413ed465707b8670
 msgctxt "StoneLoginWindow"
 msgid "Please check your email and confirm the registration"
-msgstr "Влезте в имейла си и потвърдете регистрацията"
+msgstr "Провери имейла си и потвърди регистрацията"
 
 #: File: launcher_en.ts
 #: ID: ace865080fa0eef525ed0777f21242b8
@@ -1711,7 +1712,7 @@ msgstr "Life is Feudal"
 #: ID: 7d41ae6a88c933ae2f427fec72427405
 msgctxt "StoneLoginWindow"
 msgid "Authentication failed."
-msgstr "Грешка при авторизация"
+msgstr "Грешка при удостоверяване."
 
 #: File: launcher_en.ts
 #: ID: 1651ff953f01fa827e53139a511b7e7c
@@ -1741,25 +1742,25 @@ msgstr "Магазинът не беше зареден"
 #: ID: 88a4025becaab8f111bf812d946c4251
 msgctxt "StoreScreen"
 msgid "Refresh page"
-msgstr "Опреснете страницата"
+msgstr "Опресни страницата"
 
 #: File: launcher_en.ts
 #: ID: f6ea1f70bcd5d3d4f7f9f9c2b3f8616f
 msgctxt "StoreScreen"
 msgid "Reopen store"
-msgstr "Отворете магазина отново"
+msgstr "Отвори магазина отново"
 
 #: File: launcher_en.ts
 #: ID: 0f45e718148d31b322a61a4c2f6ac2b5
 msgctxt "StoreScreen"
 msgid "Steam overlay loading failed"
-msgstr "Steam overlay неуспешно зареждане"
+msgstr "Неуспешно зареждане на Steam overlay"
 
 #: File: launcher_en.ts
 #: ID: 001c5a51c45193586fdc7f74ad53e98c
 msgctxt "StoreScreen"
 msgid "Please wait, now the store will open without using Steam overlay"
-msgstr "Моля, изчакайте. Магазинът ще се отвори без използване на Steam overlay"
+msgstr "Моля, изчакай, магазинът ще се отвори без използване на Steam overlay"
 
 #. "Refresh web page"
 #: File: launcher_en.ts
@@ -1816,5 +1817,5 @@ msgstr "Затвори"
 #: ID: 420a4fdf81b0fd5500e8eca7f549a543
 msgctxt "main"
 msgid "Life is Feudal: launcher"
-msgstr "Life is Feudal: лаунчер"
+msgstr "Life is Feudal: стартираща програма"
 

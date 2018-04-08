@@ -70,13 +70,13 @@ msgstr "Chúng tôi đang gặp phải sự cố kỹ thuật với máy chủ t
 #: ID: b49ce5d6f97e4ca330c97df27ffa8e0c
 msgctxt "AdvertisingBanner"
 msgid "Loading characters: "
-msgstr "Tải nhân vật: "
+msgstr "Đang tải nhân vật: "
 
 #: File: launcher_en.ts
 #: ID: 055686693fe0fa9b5f2c2acd14096055
 msgctxt "AdvertisingBanner"
 msgid "Loading regions: "
-msgstr "Tải khu vực: "
+msgstr "Đang tải các vùng: "
 
 #: File: launcher_en.ts
 #: ID: 2dcd2c8bc78d105bf2fb430053c38705
@@ -281,7 +281,7 @@ msgstr "Trò chuyện"
 #: ID: 48a2d12f2aaafd34c966a0b89a92645b
 msgctxt "ChatWindow"
 msgid "No users found"
-msgstr "Không tìm thấy người dùng"
+msgstr "Không tìm thấy người dùng nào"
 
 #: File: launcher_en.ts
 #: ID: 0babb5365cb7839bb76756b0a18077e0
@@ -317,7 +317,7 @@ msgstr "Rời nhóm"
 #: ID: 778005cb576a159a8e82fb4bd6397ea9
 msgctxt "ChatWindow"
 msgid "+ Create chat"
-msgstr "+ Tạo trò chuyện"
+msgstr "+ Tạo cuộc trò chuyện"
 
 #: File: launcher_en.ts
 #: ID: 70bc3001961ae1353aa0a7a8e3e90685
@@ -329,7 +329,7 @@ msgstr "+ Tạo kênh"
 #: ID: 015b22ef697e04061bc081c53159d2c2
 msgctxt "ChatWindow"
 msgid "Please select chat to start messaging"
-msgstr "Chọn một cuộc trò chuyện để bắt đầu nhắn tin"
+msgstr "Hãy chọn một cuộc trò chuyện để bắt đầu nhắn tin"
 
 #: File: launcher_en.ts
 #: ID: 7c9ceab43772e2cdd4d71afd3c059063
@@ -574,7 +574,7 @@ msgstr "Tìm bạn theo bí danh"
 #: ID: 02f45958d6b79dcaa444745cd3eef84d
 msgctxt "FindFriendComponent"
 msgid "No users found"
-msgstr "Không tìm thấy người dùng"
+msgstr "Không tìm thấy người dùng nào"
 
 #: File: launcher_en.ts
 #: ID: b9c234590ea1b6c39fc2258c9e484ea5
@@ -712,7 +712,7 @@ msgstr "Đang tải: %1 Mb trên %2 Mb, tốc độ %3 Kb/s"
 #: ID: f21b98c76b3cc4dc301eb52a30823d77
 msgctxt "GameComponent"
 msgid "Extracting: %1% %2 Mb remaining"
-msgstr "Đang giải nén: %1% %2 Mb còn lại"
+msgstr "Đang giải nén: %1% còn lại %2 Mb"
 
 #: File: launcher_en.ts
 #: ID: eeaa02f00295b132f56511a2cc22241d
@@ -748,7 +748,7 @@ msgstr "Đang tải: %1 Mb trên %2 Mb, tốc độ %3 Kb/s, khách %4, nguồn 
 #: ID: 2492dd98c4f468260d240452244eb86d
 msgctxt "GameComponent"
 msgid "Repairing data: %1 Mb remaining"
-msgstr "Đang khắc phục dữ liệu: %1 Mb còn lại"
+msgstr "Đang khắc phục dữ liệu: còn lại %1 Mb"
 
 #: File: launcher_en.ts
 #: ID: 06d37dec99eb496bafb9bc1f621c626a
@@ -936,7 +936,7 @@ msgstr "Đang kiểm tra cập nhật"
 #: ID: 83fb6abb5b886f629973d41a52176a70
 msgctxt "LauncherUpdateWindow"
 msgid "Downloading launcher update"
-msgstr "Đang tải về cập nhật cho trình khởi chạy"
+msgstr "Đang tải về bản cập nhật cho trình khởi chạy"
 
 #: File: launcher_en.ts
 #: ID: b197067fdee3bd74faa38ef519acdaa9
@@ -1088,7 +1088,7 @@ msgctxt "MailruLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
+msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến các giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
 
 #: File: launcher_en.ts
 #: ID: f20ca7266486a02f4b5b280e484566dc
@@ -1130,7 +1130,7 @@ msgstr "Life is Feudal"
 #: ID: 0e8c376f02304cae74007b67f1705418
 msgctxt "MainWindow"
 msgid "Game installation failed with error\n"
-msgstr "Quá trình cài đặt trò chơi thất bại do gặp lỗi\n"
+msgstr "Không thể cài đặt trò chơi do gặp lỗi\n"
 
 #: File: launcher_en.ts
 #: ID: b389e1eac12cf345bc2a570c7f1d58ad
@@ -1213,7 +1213,7 @@ msgstr "Người dùng %1 đã rời khỏi cuộc trò chuyện"
 #: ID: 8c543cc502752155d9c64d4c882198ab
 msgctxt "MessageDelegate"
 msgid "User %1 removed from chat by %2"
-msgstr "Người dùng %1 bị mời ra khỏi cuộc trò chuyện bởi %2"
+msgstr "Người dùng %1 bị %2 mời ra khỏi cuộc trò chuyện"
 
 #. %1 - Nickname of user who created chat; %2 - Title of just created chat
 #: File: launcher_en.ts
@@ -1266,7 +1266,7 @@ msgstr "Xóa"
 #: ID: f544b0d636234534e8d89df1d3d0a893
 msgctxt "MessagesItem"
 msgid "Please select chat to start messaging"
-msgstr "Chọn một cuộc trò chuyện để bắt đầu nhắn tin"
+msgstr "Hãy chọn một cuộc trò chuyện để bắt đầu nhắn tin"
 
 #: File: launcher_en.ts
 #: ID: e6d563920d6c264d464fc9cef2b2051f
@@ -1280,7 +1280,7 @@ msgctxt "NewsScreen"
 msgid ""
 "We’re off to repair our medieval power generator (aka water wheel) but try "
 "again soon!"
-msgstr "Không thể tải danh mục bản tin — vui lòng thử lại sau"
+msgstr "Không thể tải danh sách bản tin — vui lòng thử lại sau"
 
 #: File: launcher_en.ts
 #: ID: b4f5acb486565ee9a112ee14fc6e0429
@@ -1306,7 +1306,7 @@ msgctxt "RegionsComboBox"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
+msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến các giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
 
 #: File: launcher_en.ts
 #: ID: 17b8e195ab0393fe563c52c5de67a321
@@ -1465,7 +1465,7 @@ msgstr "Liên kết với các mạng xã hội\n để tìm bạn cùng chơi"
 #: ID: 1675f10c9eb271e8cd64faee4101aae7
 msgctxt "SocialLinkingWindow"
 msgid "Connect %1"
-msgstr "Liên kết %1"
+msgstr "Liên kết với %1"
 
 #: File: launcher_en.ts
 #: ID: c17a03e00d3436219a9e1c151a8fc6f4
@@ -1559,7 +1559,7 @@ msgctxt "SteamLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
+msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến các giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
 
 #: File: launcher_en.ts
 #: ID: 200825fafba709a27fd5b7a7f4634943
@@ -1571,7 +1571,7 @@ msgstr "Tiếp tục"
 #: ID: 1010e6764f412ce3b7267c7e393a920f
 msgctxt "SteamLoginWindow"
 msgid "Enter your email address"
-msgstr "Nhập vào địa chỉ email của bạn"
+msgstr "Nhập địa chỉ email của bạn"
 
 #: File: launcher_en.ts
 #: ID: d73e3ee9cf22824d7356cb6b0cd8784e
@@ -1657,7 +1657,7 @@ msgctxt "StoneLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
+msgstr "Thay đổi vùng sẽ làm ảnh hưởng đến các giao dịch mua sắm trong trò chơi, nhân vật và bản vá lỗi trò chơi của bạn"
 
 #: File: launcher_en.ts
 #: ID: 67f8091bdc32cb5833b1b683232fd5e6
@@ -1669,7 +1669,7 @@ msgstr "Tiếp tục"
 #: ID: c780610b6436f6e86a624de2c8cc0a76
 msgctxt "StoneLoginWindow"
 msgid "Enter your email address"
-msgstr "Nhập vào địa chỉ email của bạn"
+msgstr "Nhập địa chỉ email của bạn"
 
 #: File: launcher_en.ts
 #: ID: 37d614139d78706f4523f516ba1008e7

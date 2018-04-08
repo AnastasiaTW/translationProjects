@@ -56,7 +56,7 @@ msgstr "Anulează"
 #: ID: feff76e883cf277ff3017d72e9e233c3
 msgctxt "AdvertisingBanner"
 msgid "Game Servers Problem"
-msgstr "Problemă cu serverele de jocuri"
+msgstr "Problemă cu serverele de joc"
 
 #: File: launcher_en.ts
 #: ID: beeaee330dadc0878a814294399a7e0d
@@ -64,7 +64,7 @@ msgctxt "AdvertisingBanner"
 msgid ""
 "We're experiencing technical problem with game servers. Please click Reload "
 "to check status."
-msgstr "Ne confruntăm cu o problemă tehnică la serverele de jocuri. Te rugăm să dai clic pe „Reîncarcă” pentru a verifica starea."
+msgstr "Ne confruntăm cu o problemă tehnică la serverele de joc. Te rugăm să dai clic pe „Reîncarcă” pentru a verifica statusul."
 
 #: File: launcher_en.ts
 #: ID: b49ce5d6f97e4ca330c97df27ffa8e0c
@@ -106,7 +106,7 @@ msgstr "Parolă"
 #: ID: e9d871b1e711b3ce56e7021535666149
 msgctxt "BasePart"
 msgid "Remember me"
-msgstr "Păstrează-mă autentificat"
+msgstr "Păstrează-mă conectat"
 
 #: File: launcher_en.ts
 #: ID: 2eb626ce89e3e0ca5615e752ce3cb513
@@ -118,7 +118,7 @@ msgstr "SE ÎNCARCĂ"
 #: ID: 5a4ea096dc5ff07bc303c58f1f8ad9e0
 msgctxt "BasePart"
 msgid "SIGN IN"
-msgstr "INTRĂ"
+msgstr "CONECTARE"
 
 #: File: launcher_en.ts
 #: ID: a6bf37ae3a4ad8f9532d24e6350f1e5d
@@ -136,7 +136,7 @@ msgstr "Schimbă personajul"
 #: ID: 29bd6122ef86557375c667de1a285f4b
 msgctxt "ChangeChatTitleWindow"
 msgid "Edit chat title"
-msgstr "Editează numele de chat"
+msgstr "Editează titlul de chat"
 
 #: File: launcher_en.ts
 #: ID: 63e62ef429a6bd63e48ce295d4a07901
@@ -245,13 +245,13 @@ msgstr "Indisponibil"
 #: ID: e663c3c560acfd862f1da7dac022858a
 msgctxt "CharsWindow"
 msgid "World is full"
-msgstr "Lumea e completă"
+msgstr "Lumea e plină"
 
 #: File: launcher_en.ts
 #: ID: ee1edbab8dae1317efc812b2adc45a6f
 msgctxt "ChatWindow"
 msgid "Online"
-msgstr "Online"
+msgstr "Conectat"
 
 #: File: launcher_en.ts
 #: ID: b8051527ec50fc405b48cb69fdf9c590
@@ -269,7 +269,7 @@ msgstr "Inactiv"
 #: ID: cde12b71c10e7602a0bbf3f76a2310da
 msgctxt "ChatWindow"
 msgid "Offline"
-msgstr "Offline"
+msgstr "Deconectat"
 
 #: File: launcher_en.ts
 #: ID: 92da7d6581cda51652182eead925f587
@@ -335,7 +335,7 @@ msgstr "Te rugăm să selectezi chatul ca să începi conversația"
 #: ID: 7c9ceab43772e2cdd4d71afd3c059063
 msgctxt "ConnectSocialNetworksWindow"
 msgid "Connect your social networks and find friends to play with"
-msgstr "Conectează-te cu rețelele tale sociale și găsește prieteni de joc"
+msgstr "Conectează-te cu rețelele tale de socializare și găsește prieteni de joc"
 
 #: File: launcher_en.ts
 #: ID: 55311e82c16253aa8627393907cdeaaa
@@ -426,13 +426,13 @@ msgstr "Caută prieteni"
 #: ID: 5c3ba8bd1aa341e097efdba670bbf367
 msgctxt "CreateChatWindow"
 msgid "New group"
-msgstr "Nou grup"
+msgstr "Grup nou"
 
 #: File: launcher_en.ts
 #: ID: 93d03c985d1f3ccd4eab02cd7079d7c3
 msgctxt "CreateGroupChatWindow"
 msgid "New group"
-msgstr "Nou grup"
+msgstr "Grup nou"
 
 #: File: launcher_en.ts
 #: ID: 99e9019e5b8d74c163827acbf15ce623
@@ -524,7 +524,7 @@ msgstr "A avut loc o eroare fatală. Aplicația va fi închisă."
 #: ID: ac3d949fa9ea0433bb7f185a95d681ef
 msgctxt "ErrorReportWindow"
 msgid "Sending error data"
-msgstr "Trimite informații despre eroare"
+msgstr "Trimitere informații despre eroare"
 
 #: File: launcher_en.ts
 #: ID: 9e090baefd354869d2bc836f2673ee82
@@ -568,7 +568,7 @@ msgstr "OK"
 #: ID: 5912c323e7e026c8c8696fc925751b38
 msgctxt "FindFriendComponent"
 msgid "Search friends by nickname"
-msgstr "Caută prieteni după nickname"
+msgstr "Caută prieteni după poreclă"
 
 #: File: launcher_en.ts
 #: ID: 02f45958d6b79dcaa444745cd3eef84d
@@ -634,7 +634,7 @@ msgstr "Anulează cererea"
 #: ID: c5b11db93ad2fabeaf713623cd59a550
 msgctxt "FriendDelegate"
 msgid "Playing Life is Feudal"
-msgstr "Se joacă Life is Feudal"
+msgstr "Joacă Life is Feudal"
 
 #: File: launcher_en.ts
 #: ID: 3d9d7f99894ba61c1a10af97025d70af
@@ -754,7 +754,7 @@ msgstr "Reparare date: încă %1 Mb"
 #: ID: 06d37dec99eb496bafb9bc1f621c626a
 msgctxt "GameComponent"
 msgid "Nothing here. King is at loss"
-msgstr "Nu e nimic aici."
+msgstr "Nu se poate încărca lista bannerelor — te rugăm să încerci din nou mai târziu"
 
 #: File: launcher_en.ts
 #: ID: a624dd7bdca92ee259efb88acc0a2d4f
@@ -882,7 +882,7 @@ msgstr "Cont"
 #: ID: 44b6682b8cdc4c3dbe7904e3d92abbcd
 msgctxt "GeneralSection"
 msgid "Remember me"
-msgstr "Păstrează-mă autentificat"
+msgstr "Păstrează-mă conectat"
 
 #: File: launcher_en.ts
 #: ID: 5821e0dce3bdf528dd44708c2bf83395
@@ -948,7 +948,7 @@ msgstr "Despachetare actualizare launcher"
 #: ID: 612719b9d055e59ede8672c16309ae4a
 msgctxt "LoginContextMenu"
 msgid "Online"
-msgstr "Online"
+msgstr "Conectat"
 
 #: File: launcher_en.ts
 #: ID: 6d0de2e15abe6e77438636f8b692a1de
@@ -984,43 +984,43 @@ msgstr "Eroare! Lista de rețele este goală!"
 #: ID: 4ccf20723ef26648dcf8f929b4732e0e
 msgctxt "LoginWindow"
 msgid "Sign in with VK"
-msgstr "Intră cu VK"
+msgstr "Conectare cu VK"
 
 #: File: launcher_en.ts
 #: ID: c466ada413def6fcbb00d72a298e5b8f
 msgctxt "LoginWindow"
 msgid "Sign in with Facebook"
-msgstr "Intră cu Facebook"
+msgstr "Conectare cu Facebook"
 
 #: File: launcher_en.ts
 #: ID: 7291e77b147ce3d6f6e750ee033b2def
 msgctxt "LoginWindow"
 msgid "Sign in with Google"
-msgstr "Intră cu Google"
+msgstr "Conectare cu Google"
 
 #: File: launcher_en.ts
 #: ID: 2b8c630fca7cb1bb7d51b4e4c1196e79
 msgctxt "LoginWindow"
 msgid "Sign in with Steam"
-msgstr "Intră cu Steam"
+msgstr "Conectare cu Steam"
 
 #: File: launcher_en.ts
 #: ID: b0b480fca69304550b6be705e36705f0
 msgctxt "LoginWindow"
 msgid "Sign in with Twitter"
-msgstr "Intră cu Twitter"
+msgstr "Conectare cu Twitter"
 
 #: File: launcher_en.ts
 #: ID: 72014afb041f6459e022a996c16fa812
 msgctxt "LoginWindow"
 msgid "Sign in with Naver"
-msgstr "Intră cu Naver"
+msgstr "Conectare cu Naver"
 
 #: File: launcher_en.ts
 #: ID: 6763d7169a38e12362bbc15ecb02d2e1
 msgctxt "LoginWindow"
 msgid "Sign in with Baidu"
-msgstr "Intră cu Baidu"
+msgstr "Conectare cu Baidu"
 
 #: File: launcher_en.ts
 #: ID: e791627f252543192331fb19bc6a164b
@@ -1112,7 +1112,7 @@ msgstr "Life is Feudal"
 #: ID: 4317112bfbca0b692b4a571ef0320ddf
 msgctxt "MailruLoginWindow"
 msgid "Authentication failed."
-msgstr "Autentificare imposibilă."
+msgstr "Autentificarea a eșuat."
 
 #: File: launcher_en.ts
 #: ID: f5da6f4548cd10c0996d12abbe6ed3fd
@@ -1248,7 +1248,7 @@ msgctxt "MessagesItem"
 msgid ""
 "<font color=\"#ffffff\"><b>%1</b></font> has added you to his friend list. Add "
 "him to your list and proceed to chat."
-msgstr "<font color=\"#ffffff\"><b>%1</b></font> te-a adăugat în lista de prieteni. Adaugă-l în lista ta și mergi la chat."
+msgstr "Utilizatorul <font color=\"#ffffff\"><b>%1</b></font> te-a adăugat în lista de prieteni. Adaugă-l în lista ta și mergi la chat."
 
 #: File: launcher_en.ts
 #: ID: 651d8ba8e79118d241490b88cbf60fac
@@ -1272,7 +1272,7 @@ msgstr "Te rugăm să selectezi chatul ca să începi conversația"
 #: ID: e6d563920d6c264d464fc9cef2b2051f
 msgctxt "NewsScreen"
 msgid "Oops! Something is missing. Looks like your news is in another castle!"
-msgstr "Ups! Lipsește ceva. Se pare că noutățile tale sunt în alt castel!"
+msgstr "Nu se poate încărca articolul — te rugăm să încerci din nou mai târziu"
 
 #: File: launcher_en.ts
 #: ID: 62fadacf8351c83b4bfcee092cdbd2e4
@@ -1280,7 +1280,7 @@ msgctxt "NewsScreen"
 msgid ""
 "We’re off to repair our medieval power generator (aka water wheel) but try "
 "again soon!"
-msgstr "Am plecat să ne reparăm generatorul medieval de energie (adică roata morii), dar încearcă din nou în curând!"
+msgstr "Nu se poate încărca lista articolelor — te rugăm să încerci din nou mai târziu"
 
 #: File: launcher_en.ts
 #: ID: b4f5acb486565ee9a112ee14fc6e0429
@@ -1372,7 +1372,7 @@ msgstr "Pasul 2/2"
 #: ID: c58db237d9a70919e051595b1cea6dd5
 msgctxt "SearchFriendWindow"
 msgid "Add friend to start messaging. Search by typing email or nickname."
-msgstr "Adaugă un prieten ca să începi conversația. Caută după e-mail sau nickname."
+msgstr "Adaugă un prieten ca să începi conversația. Caută după e-mail sau poreclă."
 
 #: File: launcher_en.ts
 #: ID: 00037e7286ee2c0337d55474bebd11aa
@@ -1491,7 +1491,7 @@ msgstr "Vizitează-ne pe: "
 #: ID: af0dd16363b560a89206834a63bbbd50
 msgctxt "SocialLinksWindow"
 msgid "Find us on Social Media"
-msgstr "Găsește-ne pe rețelele sociale"
+msgstr "Găsește-ne pe rețelele de socializare"
 
 #: File: launcher_en.ts
 #: ID: c03b74d3875c59054798a3c4d9f59b53
@@ -1613,7 +1613,7 @@ msgstr "Life is Feudal"
 #: ID: b56e00fbb356f82a9a7dca89439cec28
 msgctxt "SteamLoginWindow"
 msgid "Authentication failed."
-msgstr "Autentificare imposibilă."
+msgstr "Autentificarea a eșuat."
 
 #: File: launcher_en.ts
 #: ID: f848d7f909380136bec353ac64e3b371
@@ -1711,7 +1711,7 @@ msgstr "Life is Feudal"
 #: ID: 7d41ae6a88c933ae2f427fec72427405
 msgctxt "StoneLoginWindow"
 msgid "Authentication failed."
-msgstr "Autentificare imposibilă."
+msgstr "Autentificarea a eșuat."
 
 #: File: launcher_en.ts
 #: ID: 1651ff953f01fa827e53139a511b7e7c
@@ -1759,14 +1759,14 @@ msgstr "Încărcare Steam overlay imposibilă"
 #: ID: 001c5a51c45193586fdc7f74ad53e98c
 msgctxt "StoreScreen"
 msgid "Please wait, now the store will open without using Steam overlay"
-msgstr "Te rugăm să aștepți, magazinul se va deschide cu Steam overlay"
+msgstr "Te rugăm să aștepți, magazinul se va deschide fără Steam overlay"
 
 #. "Refresh web page"
 #: File: launcher_en.ts
 #: ID: 6ec722a5bfd62a869880592d510954b0
 msgctxt "StoreScreen"
 msgid "Refresh"
-msgstr "Refresh"
+msgstr "Reîmprospătează"
 
 #. "Go to forward web page"
 #: File: launcher_en.ts

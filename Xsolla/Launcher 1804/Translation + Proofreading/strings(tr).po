@@ -317,25 +317,25 @@ msgstr "Gruptan çık"
 #: ID: 778005cb576a159a8e82fb4bd6397ea9
 msgctxt "ChatWindow"
 msgid "+ Create chat"
-msgstr "+ Sohbet başlat"
+msgstr "+ Sohbet oluştur"
 
 #: File: launcher_en.ts
 #: ID: 70bc3001961ae1353aa0a7a8e3e90685
 msgctxt "ChatWindow"
 msgid "+ Create channel"
-msgstr "+ Kanal aç"
+msgstr "+ Kanal oluştur"
 
 #: File: launcher_en.ts
 #: ID: 015b22ef697e04061bc081c53159d2c2
 msgctxt "ChatWindow"
 msgid "Please select chat to start messaging"
-msgstr "Mesajlaşmayı başlatmak için lütfen sohbet seçin"
+msgstr "Mesajlaşmaya başlamak için lütfen sohbet seçin"
 
 #: File: launcher_en.ts
 #: ID: 7c9ceab43772e2cdd4d71afd3c059063
 msgctxt "ConnectSocialNetworksWindow"
 msgid "Connect your social networks and find friends to play with"
-msgstr "Sosyal ağlarınızı bağlayın ve oyun oynayacak arkadaşlar bulun"
+msgstr "Sosyal ağlarınızı bağlayın ve beraber oynayacak arkadaşlar bulun"
 
 #: File: launcher_en.ts
 #: ID: 55311e82c16253aa8627393907cdeaaa
@@ -408,7 +408,7 @@ msgstr "Çıkar"
 #: ID: 46e2c6d3f0ed2eb570e6d6962ccdf481
 msgctxt "CreateChatWindow"
 msgid "Create chat"
-msgstr "Sohbet başlat"
+msgstr "Sohbet oluştur"
 
 #: File: launcher_en.ts
 #: ID: f88828461cb006365513964054288a93
@@ -470,7 +470,7 @@ msgctxt "CreateGroupChatWindow"
 msgid ""
 "Set your group name. Start with a latter. Name should not be longer that 20 "
 "characters."
-msgstr "Grup adını belirle. Bir harf ile başla. Grup adı 20 karakterden daha uzun olmamalıdır."
+msgstr "Grup adını belirleyin. Bir harf ile başlayın. Grup adı 20 karakterden uzun olmamalıdır."
 
 #: File: launcher_en.ts
 #: ID: d9c8e576b0669e1d9c166683aaedf5b6
@@ -518,7 +518,7 @@ msgstr "Hata"
 #: ID: 7237259c60d51f9739555947d36c6015
 msgctxt "ErrorReportWindow"
 msgid "A fatal error has occured. Application will be closed."
-msgstr "Bir kritik hata oluştu. Uygulama kapanacak."
+msgstr "Kritik bir hata oluştu. Uygulama kapanacak."
 
 #: File: launcher_en.ts
 #: ID: ac3d949fa9ea0433bb7f185a95d681ef
@@ -568,7 +568,7 @@ msgstr "Tamam"
 #: ID: 5912c323e7e026c8c8696fc925751b38
 msgctxt "FindFriendComponent"
 msgid "Search friends by nickname"
-msgstr "Nickname ile arkadaş ara"
+msgstr "Takma ad ile arkadaş ara"
 
 #: File: launcher_en.ts
 #: ID: 02f45958d6b79dcaa444745cd3eef84d
@@ -664,7 +664,7 @@ msgstr "Sil"
 #: ID: 48ed41716b49245a550af3c8e8d55383
 msgctxt "FriendsListComponent"
 msgid "Block"
-msgstr "Blokla"
+msgstr "Engelle"
 
 #: File: launcher_en.ts
 #: ID: 3936a021c6d33d85ebd116438aff5fb6
@@ -676,7 +676,7 @@ msgstr "Sohbet başlat"
 #: ID: f8b2164517717fdbab302b73154ecf56
 msgctxt "FriendsListComponent"
 msgid "Unblock"
-msgstr "Blok kaldır"
+msgstr "Engell"
 
 #: File: launcher_en.ts
 #: ID: 5271a1a84c7ba8e850574246c5ca0c6a
@@ -740,9 +740,10 @@ msgstr "Satın al"
 
 #: File: launcher_en.ts
 #: ID: 0a404317082c032920f0aa7a51750b5c
+#, fuzzy
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s, peers %4, seeds %5"
-msgstr "İndiriliyor: %1 Mb / %2 Mb, indirme hızı %3 Kb/s, %4 peer, %5 seed"
+msgstr "İndiriliyor: %1 Mb / %2 Mb, indirme hızı %3 Kb/s, %4 ortak, %5 eş"
 
 #: File: launcher_en.ts
 #: ID: 2492dd98c4f468260d240452244eb86d
@@ -766,13 +767,13 @@ msgstr "Destek"
 #: ID: bf0c6f97cc2521fb26f579373d901403
 msgctxt "GameComponent"
 msgid "If the game is already installed"
-msgstr "Oyun önceden yüklendiyse"
+msgstr "Oyun halihazırda yüklü ise"
 
 #: File: launcher_en.ts
 #: ID: 3177ec92464e1972829f13deeb9f3b93
 msgctxt "GameComponent"
 msgid "Locate the game"
-msgstr "Oyunu bul"
+msgstr "Oyunun konumunu göster"
 
 #: File: launcher_en.ts
 #: ID: 21cf59eadbf5a9601258914c898b319d
@@ -814,7 +815,7 @@ msgstr "Seçilen klasörde oyun bulunamıyor."
 #: ID: fefe0926eb2ff1e1724ff94b3537a47d
 msgctxt "GameComponent"
 msgid "You cannot use selected game for the current region."
-msgstr "Mevcut bölge için seçilen oyunu kullanamazsın."
+msgstr "Seçilen oyun mevcut bölgede oynanamamaktadır."
 
 #: File: launcher_en.ts
 #: ID: 8312c38687ffee4f6780a59285fc5cad
@@ -856,7 +857,7 @@ msgstr "Yükle"
 #: ID: 86e4f10b691420f957c1150968742631
 msgctxt "GameInstallWindow"
 msgid "Select path for install.."
-msgstr "Yükleme için yol seç.."
+msgstr "Yükleme için yol seçin.."
 
 #: File: launcher_en.ts
 #: ID: 4b339f6b8f47a22efe7c0eabe6de6312
@@ -918,7 +919,7 @@ msgstr "Son güncelleme: "
 #: ID: beba9f4c27bdf1589e4efece170ab5df
 msgctxt "LauncherUpdateWindow"
 msgid "Update"
-msgstr "Güncelle"
+msgstr "Güncelleme"
 
 #: File: launcher_en.ts
 #: ID: 170caa505b12b3fd261bbba95ec08387
@@ -930,19 +931,19 @@ msgstr "İlerleme: %%1 "
 #: ID: 2c7880f827510a3cb50e7ea578bd89e7
 msgctxt "LauncherUpdateWindow"
 msgid "Checking updates"
-msgstr "Güncellemeleri kontrol ediyor"
+msgstr "Güncellemeler kontrol ediliyor"
 
 #: File: launcher_en.ts
 #: ID: 83fb6abb5b886f629973d41a52176a70
 msgctxt "LauncherUpdateWindow"
 msgid "Downloading launcher update"
-msgstr "Başlatıcı güncellemesini indiriyor"
+msgstr "Launcher güncellemesi indiriliyor"
 
 #: File: launcher_en.ts
 #: ID: b197067fdee3bd74faa38ef519acdaa9
 msgctxt "LauncherUpdateWindow"
 msgid "Unpacking launcher update"
-msgstr "Başlatıcı güncellemesini açıyor"
+msgstr "Launcher güncellemesi açılıyor"
 
 #: File: launcher_en.ts
 #: ID: 612719b9d055e59ede8672c16309ae4a
@@ -1080,7 +1081,7 @@ msgstr "Yükleniyor..."
 #: ID: 0ce55b54e97b28083ca9de4947d0ef42
 msgctxt "MailruLoginWindow"
 msgid "Locate the game"
-msgstr "Oyunu bul"
+msgstr "Oyunun konumunu göster"
 
 #: File: launcher_en.ts
 #: ID: a10cabb2680898c20fc571c58268ad80
@@ -1088,7 +1089,7 @@ msgctxt "MailruLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Bölge değiştirmek, oyun içi satın almalarınızı, karakterlerinizi ve oyun yamalarınızı etkileyecektir"
+msgstr "Bölge değiştirmek, oyun içi satın alımlarınızı, karakterlerinizi ve oyun sürümünüzü etkileyecektir"
 
 #: File: launcher_en.ts
 #: ID: f20ca7266486a02f4b5b280e484566dc
@@ -1100,7 +1101,7 @@ msgstr "Sonraki"
 #: ID: 11279877c55fbfca0bd0d0e8e10f44e4
 msgctxt "MailruLoginWindow"
 msgid "Failed gettings characters information"
-msgstr "Karakter bilgisi getirilemedi"
+msgstr "Karakter bilgileri yüklenemedi"
 
 #: File: launcher_en.ts
 #: ID: 63f2a3073a55a33e7990aa7d3a1127bb
@@ -1130,7 +1131,7 @@ msgstr "Life is Feudal"
 #: ID: 0e8c376f02304cae74007b67f1705418
 msgctxt "MainWindow"
 msgid "Game installation failed with error\n"
-msgstr "Oyun yüklemesi \n hatası nedeniyle başarısız oldu."
+msgstr "Oyun kurulumu \n hatası nedeniyle başarısız oldu."
 
 #: File: launcher_en.ts
 #: ID: b389e1eac12cf345bc2a570c7f1d58ad
@@ -1192,42 +1193,42 @@ msgstr "İndiriliyor"
 #: ID: 4dbb11e1d775b85599a05af662fc1c38
 msgctxt "MainWindow"
 msgid "Can't close launcher, while game is running"
-msgstr "Oyun çalışırken başlatıcı kapatılamaz"
+msgstr "Oyun çalışırken launcher kapatılamaz"
 
 #. %1 - Nickname of user invited to chat; %2 - Nickname of user who invited another user
 #: File: launcher_en.ts
 #: ID: 41eaf7d3b5fc4da39cfc3be8afbeb311
 msgctxt "MessageDelegate"
 msgid "User %1 invited to chat by %2"
-msgstr "%1, %2 tarafından sohbete davet edildi "
+msgstr "Kullanıcı %1, %2 tarafından sohbete davet edildi "
 
 #. %1 - Nickname of user who removed from chat
 #: File: launcher_en.ts
 #: ID: 535bfb3f76781c915ecae799ce37ee15
 msgctxt "MessageDelegate"
 msgid "User %1 leaved  from chat"
-msgstr "%1 sohbeti terk etti"
+msgstr "Kullanıcı %1 sohbeti terk etti"
 
 #. %1 - Nickname of user who removed from chat; %2 - Nickname of user who removed 1st user from chat
 #: File: launcher_en.ts
 #: ID: 8c543cc502752155d9c64d4c882198ab
 msgctxt "MessageDelegate"
 msgid "User %1 removed from chat by %2"
-msgstr "%1, %2 tarafından sohbetten çıkarıldı "
+msgstr "Kullanıcı %1, %2 tarafından sohbetten çıkarıldı"
 
 #. %1 - Nickname of user who created chat; %2 - Title of just created chat
 #: File: launcher_en.ts
 #: ID: 01507c76d7f770e23d768fb9a7cd067b
 msgctxt "MessageDelegate"
 msgid "User %1 created chat %2"
-msgstr "%1, %2 başlıklı sohbeti başlattı"
+msgstr "Kullanıcı %1, %2 başlıklı sohbeti başlattı"
 
 #. %1 - user's nickname; %2 new chat's title
 #: File: launcher_en.ts
 #: ID: a6d26cc16374a966b325647730f68138
 msgctxt "MessageDelegate"
 msgid "User %1 changed chat title to %2"
-msgstr "%1, sohbet başlığını %2 olarak değiştirdi"
+msgstr "Kullanıcı %1, sohbet başlığını %2 olarak değiştirdi"
 
 #: File: launcher_en.ts
 #: ID: 1501b71844340495af43b3038db9b4e1
@@ -1248,7 +1249,7 @@ msgctxt "MessagesItem"
 msgid ""
 "<font color=\"#ffffff\"><b>%1</b></font> has added you to his friend list. Add "
 "him to your list and proceed to chat."
-msgstr "<font color=\"#ffffff\"><b>%1</b></font> sizi arkadaş listesine ekledi. Onu listenize ekleyin ve sohbet başlatın."
+msgstr "<font color=\"#ffffff\"><b>%1</b></font> sizi arkadaş listesine ekledi. Onu listenize ekleyin ve sohbete başlayın."
 
 #: File: launcher_en.ts
 #: ID: 651d8ba8e79118d241490b88cbf60fac
@@ -1266,7 +1267,7 @@ msgstr "Sil"
 #: ID: f544b0d636234534e8d89df1d3d0a893
 msgctxt "MessagesItem"
 msgid "Please select chat to start messaging"
-msgstr "Mesajlaşmayı başlatmak için lütfen sohbet seçin"
+msgstr "Mesajlaşmaya başlamak için lütfen sohbet seçin"
 
 #: File: launcher_en.ts
 #: ID: e6d563920d6c264d464fc9cef2b2051f
@@ -1306,7 +1307,7 @@ msgctxt "RegionsComboBox"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Bölge değiştirmek, oyun içi satın almalarınızı, karakterlerinizi ve oyun yamalarınızı etkileyecektir"
+msgstr "Bölge değiştirmek, oyun içi satın alımlarınızı, karakterlerinizi ve oyun sürümünüzü etkileyecektir"
 
 #: File: launcher_en.ts
 #: ID: 17b8e195ab0393fe563c52c5de67a321
@@ -1330,7 +1331,7 @@ msgstr "Sil"
 #: ID: 1dc47f2b9f488d0e48abb862851892d0
 msgctxt "RequestsComponent"
 msgid "sent requests"
-msgstr "Gönderilen istekler"
+msgstr "gönderilen istekler"
 
 #: File: launcher_en.ts
 #: ID: 7c3d4d48c4c332fba203408e59db4faf
@@ -1372,7 +1373,7 @@ msgstr "Adım 2/2"
 #: ID: c58db237d9a70919e051595b1cea6dd5
 msgctxt "SearchFriendWindow"
 msgid "Add friend to start messaging. Search by typing email or nickname."
-msgstr "Mesajlaşmaya başlamak için arkadaş ekle. E-posta veya nickname ile ara."
+msgstr "Mesajlaşmaya başlamak için arkadaş ekle. E-posta veya takma ad ile ara."
 
 #: File: launcher_en.ts
 #: ID: 00037e7286ee2c0337d55474bebd11aa
@@ -1527,7 +1528,7 @@ msgstr "Davet et"
 #: ID: d47626b954c4130dc8a1ce7daecf6216
 msgctxt "SoundSection"
 msgid "Sound section"
-msgstr "Ses bölümü"
+msgstr "Ses ayarları"
 
 #: File: launcher_en.ts
 #: ID: 9bad24bc6fa55f226b5695fd64d98985
@@ -1551,7 +1552,7 @@ msgstr "Yükleniyor..."
 #: ID: 21dd04da7b837ea5bff281fd9d34ea51
 msgctxt "SteamLoginWindow"
 msgid "Locate the game"
-msgstr "Oyunu bul"
+msgstr "Oyunun konumunu göster"
 
 #: File: launcher_en.ts
 #: ID: 3f0a83709136f05d1e47941b0f026066
@@ -1559,7 +1560,7 @@ msgctxt "SteamLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Bölge değiştirmek, oyun içi satın almalarınızı, karakterlerinizi ve oyun yamalarınızı etkileyecektir"
+msgstr "Bölge değiştirmek, oyun içi satın alımlarınızı, karakterlerinizi ve oyun sürümünüzü etkileyecektir"
 
 #: File: launcher_en.ts
 #: ID: 200825fafba709a27fd5b7a7f4634943
@@ -1649,7 +1650,7 @@ msgstr "Yükleniyor..."
 #: ID: bdee124d562546efbc7250cc61aec0c5
 msgctxt "StoneLoginWindow"
 msgid "Locate the game"
-msgstr "Oyunu bul"
+msgstr "Oyunun konumunu göster"
 
 #: File: launcher_en.ts
 #: ID: 439a46f57cef70447838488db6672133
@@ -1657,7 +1658,7 @@ msgctxt "StoneLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "Bölge değiştirmek, oyun içi satın almalarınızı, karakterlerinizi ve oyun yamalarınızı etkileyecektir"
+msgstr "Bölge değiştirmek, oyun içi satın alımlarınızı, karakterlerinizi ve oyun sürümünüzü etkileyecektir"
 
 #: File: launcher_en.ts
 #: ID: 67f8091bdc32cb5833b1b683232fd5e6
@@ -1729,13 +1730,13 @@ msgstr "Hata"
 #: ID: ce0ad56171cb2c91bdb1f3ca499bf73c
 msgctxt "StoreScreen"
 msgid "Something goes wrong..."
-msgstr "Bir sorun var..."
+msgstr "Bir hata oluştu..."
 
 #: File: launcher_en.ts
 #: ID: db9a2171e084ab856ff91fceba311e9e
 msgctxt "StoreScreen"
 msgid "Store loading failed"
-msgstr "Dükkan yüklenemedi"
+msgstr "Mağaza yüklenemedi"
 
 #: File: launcher_en.ts
 #: ID: 88a4025becaab8f111bf812d946c4251
@@ -1759,7 +1760,7 @@ msgstr "Steam overlay yüklemesi başarısız oldu"
 #: ID: 001c5a51c45193586fdc7f74ad53e98c
 msgctxt "StoreScreen"
 msgid "Please wait, now the store will open without using Steam overlay"
-msgstr "Lütfen bekleyin, dükkan Steam overlay kullanmadan açılacak"
+msgstr "Lütfen bekleyin, mağaza Steam overlay kullanmadan açılacak"
 
 #. "Refresh web page"
 #: File: launcher_en.ts
@@ -1792,13 +1793,13 @@ msgstr "Paylaş"
 #: ID: c05eb8fa6e6ee079b634553a732a114d
 msgctxt "WorldLoadingWindow"
 msgid "Downloading assets..."
-msgstr "Varlıkları indiriyor..."
+msgstr "Varlıklar indiriliyor..."
 
 #: File: launcher_en.ts
 #: ID: 50c707b17807b53739c9eacbed99b0ea
 msgctxt "WorldLoadingWindow"
 msgid "Unpacking assets..."
-msgstr "Varlıkları açıyor..."
+msgstr "Varlıklar açılıyor..."
 
 #: File: launcher_en.ts
 #: ID: c35cbd253902c16c868799909d54282e
@@ -1816,5 +1817,5 @@ msgstr "Kapat"
 #: ID: 420a4fdf81b0fd5500e8eca7f549a543
 msgctxt "main"
 msgid "Life is Feudal: launcher"
-msgstr "Life is Feudal: başlatıcı"
+msgstr "Life is Feudal: launcher"
 

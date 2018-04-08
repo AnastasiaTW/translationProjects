@@ -8,7 +8,7 @@ msgstr "اسم المستخدم"
 #: ID: daff4af2ca10fab6c99be577cbb73b07
 msgctxt "AccountSection"
 msgid "Edit"
-msgstr "تحرير"
+msgstr "تعديل"
 
 #: File: launcher_en.ts
 #: ID: 4bfa856997f5f12695cd5f5d3f7997da
@@ -88,7 +88,7 @@ msgstr "ملكية اللعبة: "
 #: ID: e0321ef76f6f1fa3bce16616fd82c772
 msgctxt "AdvertisingBanner"
 msgid "Reload servers"
-msgstr "إعادة تحميل أجهزة الخادم"
+msgstr "إعادة تحميل الخوادم"
 
 #: File: launcher_en.ts
 #: ID: e0259f9a53fab39a131959e7c2571d7e
@@ -112,7 +112,7 @@ msgstr "تذكرني"
 #: ID: 2eb626ce89e3e0ca5615e752ce3cb513
 msgctxt "BasePart"
 msgid "LOADING"
-msgstr "تحميل"
+msgstr "جارِ التحميل"
 
 #: File: launcher_en.ts
 #: ID: 5a4ea096dc5ff07bc303c58f1f8ad9e0
@@ -142,7 +142,7 @@ msgstr "تعديل عنوان المحادثة"
 #: ID: 63e62ef429a6bd63e48ce295d4a07901
 msgctxt "ChangeChatTitleWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "يُرجى استخدام من 5 إلى 20 حرفًا"
+msgstr "يُرجى استخدام من 5 إلى 20 حرفاً."
 
 #: File: launcher_en.ts
 #: ID: 1ea05c94a09aeee5a9e7e3508ff4c592
@@ -166,7 +166,7 @@ msgstr "تعديل اسم المستخدم"
 #: ID: c75349eb6668f3c30e6b29bb187b2261
 msgctxt "ChangeUsernameWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "يُرجى استخدام من 5 إلى 20 حرفًا"
+msgstr "يُرجى استخدام من 5 إلى 20 حرفاً."
 
 #: File: launcher_en.ts
 #: ID: 874cca967eb6ee4338646f28e1761f3f
@@ -275,7 +275,7 @@ msgstr "غير متصل"
 #: ID: 92da7d6581cda51652182eead925f587
 msgctxt "ChatWindow"
 msgid "Chat"
-msgstr "المحادثة"
+msgstr "محادثة"
 
 #: File: launcher_en.ts
 #: ID: 48a2d12f2aaafd34c966a0b89a92645b
@@ -293,13 +293,13 @@ msgstr "بحث"
 #: ID: 35dea93b95bb289e6e74d82ae0ed0405
 msgctxt "ChatWindow"
 msgid "Enable notifications"
-msgstr "تمكين التنبيهات"
+msgstr "تمكين الإشعارات"
 
 #: File: launcher_en.ts
 #: ID: 9a154d57966839c7c0ada74b7a05a6a6
 msgctxt "ChatWindow"
 msgid "Disable notifications"
-msgstr "تعطيل التنبيهات"
+msgstr "تعطيل الإشعارات "
 
 #: File: launcher_en.ts
 #: ID: 74da4069fe75d45d96e96f3e0b3c5525
@@ -383,7 +383,7 @@ msgstr "الأعضاء: %1"
 #: ID: 47ce769dfa902845d9d6652e679f346e
 msgctxt "ConversationInfoItem"
 msgid "Edit"
-msgstr "تحرير"
+msgstr "تعديل"
 
 #: File: launcher_en.ts
 #: ID: 3d4b81ea4e9e82f014594410caefe96c
@@ -450,7 +450,7 @@ msgstr "إضافة أصدقاء"
 #: ID: 0845fae790a3a7ac009bbbf21708b081
 msgctxt "CreateGroupChatWindow"
 msgid "Back"
-msgstr "للخلف"
+msgstr "العودة"
 
 #: File: launcher_en.ts
 #: ID: f499758c9dbf606ceac3ec0d9ec7ea02
@@ -470,7 +470,7 @@ msgctxt "CreateGroupChatWindow"
 msgid ""
 "Set your group name. Start with a latter. Name should not be longer that 20 "
 "characters."
-msgstr "قم بتعيين اسم مجموعتك. يجب أن يبدأ الاسم بحرف أبجدي وألا يزيد طول الاسم عن 20 حرفًا."
+msgstr "قم بتعيين اسم مجموعتك. يجب أن يبدأ الاسم بحرف أبجدي وألا يزيد طول الاسم عن 20 حرفاً."
 
 #: File: launcher_en.ts
 #: ID: d9c8e576b0669e1d9c166683aaedf5b6
@@ -482,7 +482,7 @@ msgstr "اسم المحادثة الجماعية"
 #: ID: 6755d93d62b4d271122cabdfc219c403
 msgctxt "CreateGroupChatWindow"
 msgid "Please use 5 to 20 characters"
-msgstr "يُرجى استخدام من 5 إلى 20 حرفًا"
+msgstr "يُرجى استخدام من 5 إلى 20 حرفاً."
 
 #: File: launcher_en.ts
 #: ID: 8046efef26db778b685a50ea2b09a575
@@ -706,13 +706,13 @@ msgstr "طلبات"
 #: ID: f5f46b14e5905a404fb76d7050070e78
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s"
-msgstr "تنزيل: %1 ميجا بايت من %2 ميجا بايت، بسرعة %3 كيلو بت/ثانية"
+msgstr "تنزيل: %1 ميجابايت من %2 ميجابايت، بسرعة %3 كيلو بت/ثانية"
 
 #: File: launcher_en.ts
 #: ID: f21b98c76b3cc4dc301eb52a30823d77
 msgctxt "GameComponent"
 msgid "Extracting: %1% %2 Mb remaining"
-msgstr "استخراج: %1% %2 ميجا بايت متبقية"
+msgstr "استخراج: %1% %2 ميجابايت  متبقية"
 
 #: File: launcher_en.ts
 #: ID: eeaa02f00295b132f56511a2cc22241d
@@ -742,19 +742,19 @@ msgstr "شراء"
 #: ID: 0a404317082c032920f0aa7a51750b5c
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s, peers %4, seeds %5"
-msgstr "تنزيل: %1 ميجا بايت من %2 ميجا بايت، بسرعة %3 كيلو بت/ثانية، قرناء %4، موزعون %5"
+msgstr "تنزيل: %1 ميجابايت من %2 ميجابايت، بسرعة %3 كيلو بت/ثانية، أقران%4، مشاركون%5"
 
 #: File: launcher_en.ts
 #: ID: 2492dd98c4f468260d240452244eb86d
 msgctxt "GameComponent"
 msgid "Repairing data: %1 Mb remaining"
-msgstr "بيانات الإصلاح: %1 ميجا بايت متبقية"
+msgstr "بيانات الإصلاح: %1 ميجابايت متبقية"
 
 #: File: launcher_en.ts
 #: ID: 06d37dec99eb496bafb9bc1f621c626a
 msgctxt "GameComponent"
 msgid "Nothing here. King is at loss"
-msgstr "يتعذر تحميل قائمة الشعارات، يُرجى المحاولة مرة أخرى لاحقًا"
+msgstr "يتعذر تحميل قائمة الشعارات، يُرجى المحاولة مرة أخرى لاحقاً."
 
 #: File: launcher_en.ts
 #: ID: a624dd7bdca92ee259efb88acc0a2d4f
@@ -814,7 +814,7 @@ msgstr "يتعذر العثور على اللعبة في المجلد المحد
 #: ID: fefe0926eb2ff1e1724ff94b3537a47d
 msgctxt "GameComponent"
 msgid "You cannot use selected game for the current region."
-msgstr "لا يمكنك استخدام لعبة محددة من أجل المنطقة الحالية."
+msgstr "لا يمكنك استخدام اللعبة المختارة في المنطقة الحالية."
 
 #: File: launcher_en.ts
 #: ID: 8312c38687ffee4f6780a59285fc5cad
@@ -906,7 +906,7 @@ msgstr "%1 بتقنية الاختزال الزمني"
 #: ID: f2f0227163b49af8ceb1c1bdff52c48b
 msgctxt "HighlightsScreen"
 msgid "Time Lapse Collection"
-msgstr "مجموعة اختزال الزمن"
+msgstr "مجموعة الاختزال الزمني"
 
 #: File: launcher_en.ts
 #: ID: 3066f69ba0cd5f383a420a6ddace4be2
@@ -924,7 +924,7 @@ msgstr "تحديث"
 #: ID: 170caa505b12b3fd261bbba95ec08387
 msgctxt "LauncherUpdateWindow"
 msgid "Progress: %1% "
-msgstr "التطور: %1% "
+msgstr "التقدم المحرز: %1% "
 
 #: File: launcher_en.ts
 #: ID: 2c7880f827510a3cb50e7ea578bd89e7
@@ -1088,7 +1088,7 @@ msgctxt "MailruLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "تغيير المنطقة سوف يؤثر على العناصر التي اشتريتها من خلال اللعبة والشخصيات وحزم اللعبة"
+msgstr "سوف يؤثر تغيير المنطقة  على العناصر التي اشتريتها من خلال اللعبة والشخصيات والتصحيحات البرمجية  للعبة"
 
 #: File: launcher_en.ts
 #: ID: f20ca7266486a02f4b5b280e484566dc
@@ -1144,7 +1144,7 @@ msgstr "\n يُرجى المحاولة مرة أخرى."
 #: ID: d9d01aeca11941cc73f21a1da41e9e27
 msgctxt "MainWindow"
 msgid "%1 time lapse is aviable!"
-msgstr "%1 بتقنية اختزال الزمن متاح!"
+msgstr "%1 تقنية اختزال الزمن متاحة!"
 
 #: File: launcher_en.ts
 #: ID: 6b8c0dfe2e71d187087efe0d541eaa74
@@ -1272,7 +1272,7 @@ msgstr "يُرجى اختيار محادثة لبدء تبادل الرسائل"
 #: ID: e6d563920d6c264d464fc9cef2b2051f
 msgctxt "NewsScreen"
 msgid "Oops! Something is missing. Looks like your news is in another castle!"
-msgstr "يتعذر تحميل مقالة الأخبار، يُرجى المحاولة مرة أخرى لاحقًا."
+msgstr "يتعذر تحميل مقالة الأخبار، يُرجى المحاولة مرة أخرى لاحقاً."
 
 #: File: launcher_en.ts
 #: ID: 62fadacf8351c83b4bfcee092cdbd2e4
@@ -1280,7 +1280,7 @@ msgctxt "NewsScreen"
 msgid ""
 "We’re off to repair our medieval power generator (aka water wheel) but try "
 "again soon!"
-msgstr "يتعذر تحميل قائمة مقالات الأخبار، يُرجى المحاولة مرة أخرى لاحقًا."
+msgstr "يتعذر تحميل قائمة مقالات الأخبار، يُرجى المحاولة مرة أخرى لاحقاً."
 
 #: File: launcher_en.ts
 #: ID: b4f5acb486565ee9a112ee14fc6e0429
@@ -1306,7 +1306,7 @@ msgctxt "RegionsComboBox"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "تغيير المنطقة سوف يؤثر على العناصر التي اشتريتها من خلال اللعبة والشخصيات وحزم اللعبة"
+msgstr "سوف يؤثر تغيير المنطقة  على العناصر التي اشتريتها من خلال اللعبة والشخصيات والتصحيحات البرمجية  للعبة"
 
 #: File: launcher_en.ts
 #: ID: 17b8e195ab0393fe563c52c5de67a321
@@ -1330,7 +1330,7 @@ msgstr "حذف"
 #: ID: 1dc47f2b9f488d0e48abb862851892d0
 msgctxt "RequestsComponent"
 msgid "sent requests"
-msgstr "إرسال الطلبات"
+msgstr "إرسال الطلبات "
 
 #: File: launcher_en.ts
 #: ID: 7c3d4d48c4c332fba203408e59db4faf
@@ -1354,7 +1354,7 @@ msgstr "الخطوة 1/2"
 #: ID: ea5b764d0a60d36361a187b42b28a5c1
 msgctxt "SearchFriendWindow"
 msgid "Welcome to chat. Set your username so your friends can find you."
-msgstr "مرحبًا بك في المحادثة. قم بتعيين اسم المستخدم الخاص بك حتى يتمكن أصدقائك من العثور عليك."
+msgstr "مرحباً بك في المحادثة. قم بتعيين اسم المستخدم الخاص بك حتى يتمكن أصدقائك من العثور عليك."
 
 #: File: launcher_en.ts
 #: ID: 8f27adcdd4a13fd1e6af7234d0795b44
@@ -1414,7 +1414,7 @@ msgstr "الصوت"
 #: ID: a19e414e7f92070a532eb4de6afe3fd6
 msgctxt "SettingsWindow"
 msgid "Chat"
-msgstr "المحادثة"
+msgstr "محادثة"
 
 #: File: launcher_en.ts
 #: ID: 25d9fb1e0cd92239fee1a3798d1a54e8
@@ -1426,7 +1426,7 @@ msgstr "الحساب"
 #: ID: 0c586877a8d5daf1b6bb20146dcfd7c9
 msgctxt "SettingsWindow"
 msgid "Reset to Defaults"
-msgstr "إعادة تعيين بالقيم الافتراضية"
+msgstr "إعادة تعيين إلى الإعدادات الافتراضية"
 
 #: File: launcher_en.ts
 #: ID: 575e9e5a88d3c24606270ec03913fa60
@@ -1559,7 +1559,7 @@ msgctxt "SteamLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "تغيير المنطقة سوف يؤثر على العناصر التي اشتريتها من خلال اللعبة والشخصيات وحزم اللعبة"
+msgstr "سوف يؤثر تغيير المنطقة  على العناصر التي اشتريتها من خلال اللعبة والشخصيات والتصحيحات البرمجية  للعبة"
 
 #: File: launcher_en.ts
 #: ID: 200825fafba709a27fd5b7a7f4634943
@@ -1657,7 +1657,7 @@ msgctxt "StoneLoginWindow"
 msgid ""
 "Changing region will affect your in-game purchases, characters and game "
 "patches"
-msgstr "تغيير المنطقة سوف يؤثر على العناصر التي اشتريتها من خلال اللعبة والشخصيات وحزم اللعبة"
+msgstr "سوف يؤثر تغيير المنطقة  على العناصر التي اشتريتها من خلال اللعبة والشخصيات والتصحيحات البرمجية  للعبة"
 
 #: File: launcher_en.ts
 #: ID: 67f8091bdc32cb5833b1b683232fd5e6
@@ -1741,7 +1741,7 @@ msgstr "فشل تحميل المتجر"
 #: ID: 88a4025becaab8f111bf812d946c4251
 msgctxt "StoreScreen"
 msgid "Refresh page"
-msgstr "تحديث الصفحة"
+msgstr "إعادة تحميل الصفحة"
 
 #: File: launcher_en.ts
 #: ID: f6ea1f70bcd5d3d4f7f9f9c2b3f8616f
@@ -1766,7 +1766,7 @@ msgstr "يُرجى الانتظار، سيتم فتح المتجر الآن بد
 #: ID: 6ec722a5bfd62a869880592d510954b0
 msgctxt "StoreScreen"
 msgid "Refresh"
-msgstr "تحديث"
+msgstr "إعادة التحميل"
 
 #. "Go to forward web page"
 #: File: launcher_en.ts
@@ -1780,7 +1780,7 @@ msgstr "للأمام"
 #: ID: 98689656d662e464c7a0a34f63222604
 msgctxt "StoreScreen"
 msgid "Back"
-msgstr "للخلف"
+msgstr "العودة"
 
 #: File: launcher_en.ts
 #: ID: 977584ea93a368893c12466d42f5a4db
