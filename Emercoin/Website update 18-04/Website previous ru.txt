@@ -1,0 +1,1865 @@
+№
+Source (EN)
+Target (RU)
+Task
+1
+EN
+RU
+Proofreading 
+2
+Emercoin
+Emercoin
+Proofreading 
+3
+More than a currency
+Больше, чем криптовалюта
+Proofreading 
+4
+Get Emercoin
+Купить Emercoin
+Proofreading 
+5
+Live exchange rate:
+Курс прямо сейчас:
+Proofreading 
+6
+Emercoin Blockchain
+Блокчейн Emercoin
+Proofreading 
+7
+Get Emercoins
+Купить Emercoin
+Proofreading 
+8
+Tech Solutions
+Технологии
+Proofreading 
+9
+Upcoming Events
+События
+Proofreading 
+10
+Community
+Cообщество
+Proofreading 
+11
+Emercoin Blockchain
+Блокчейн Emercoin
+Proofreading 
+12
+The first-ever digital currency, Bitcoin brought a paradigm shift that soon transcended the world of financial services.
+С приходом Bitcoin — первой в мире цифровой валюты — финансовый мир изменился навсегда. Но и не только он.
+Proofreading 
+13
+Ingenious in design and unbeatable in security, it made companies try to create software that would execute on top of its blockchain to bring decentralization to their own projects.
+Соблазнённые гениальной задумкой и беспрецедентной безопасностью, компании начали искать способ дентрализовать собственные проекты, используя биткоиновский блокчейн.
+Proofreading 
+14
+But writing on top of Bitcoin’s blockchain turned out to be a drag:
+Но писать код поверх блокчейна оказалось непросто:
+Proofreading 
+15
+Imagine writing an entire book using only 1’s and 0’s.
+представьте, что вам нужно написать целую книгу, используя только нули и единицы.
+Proofreading 
+16
+Just like such binary code, Bitcoin is good at what it does — but adding extra features is just not something it was designed for.
+Так же как и бинарный код, Bitcoin был хорош для тех целей, ради которых он был задуман, но расширяемость в их список не входила.
+Proofreading 
+17
+Now meet Emercoin.
+Тогда мы придумали Emercoin.
+Proofreading 
+18
+Based on Bitcoin’s original code, it inherits the same security and reliability, but adds flexibility through a number of innovative additions.
+Взяв исходный код Bitcoin, мы сделали нашу валюту такой же безопасной и надёжной, но, благодаря ряду нововведений, гораздо более гибкой.
+Proofreading 
+19
+Flexibility
+Гибкость
+Proofreading 
+20
+Emercoin’s Name-Value Storage is a simple yet powerful concept that allows you to store arbitrary data within the blockchain.
+В основе Emercoin лежит EmerNVS — хранилище пар имя-значение. Эта простая, на мощная идея позволила хранить в блокчейне произвольные данные
+Proofreading 
+21
+This has already allowed a range of distributed services, from a decentralized DNS to a free VoIP service.
+и построить целый ряд распределённых сервисов — от DNS до голосовой телефонии.
+Proofreading 
+22
+Reliability
+Надёжность
+Proofreading 
+23
+Although Emercoin supports traditional PoW mining and merged mining with Bitcoin, its main mechanism is Proof-of-Stake mining.
+Хотя Emercoin поддерживает и традиционный PoW-майнинг, и комайнинг с Bitcoin, основной механизм в нём — PoS-минтинг.
+Proofreading 
+24
+This eliminates the “arms race” for mining capacity — simply holding Emercoin guarantees a 6% per annum return.
+Это исключает «гонку вооружений» за вычислительную мощность и гарантирует доход 6% годовых просто за владение монетами.
+Proofreading 
+25
+Security
+Безопасность
+Proofreading 
+26
+Emercoin will never sacrifice security for flexibility.
+Гибкость Emercoin никогда не идёт в ущерб безопасности.
+Proofreading 
+27
+Unlike “smart” contracts, which have already caused multimillion-dollar scams and compromised security in the past, Emercoin’s NVS logic is not Turing-complete and cannot be used to write malicious code.
+В отличие от «умных» контрактов, которые уже не раз привели к многомиллионным кражам и взломам, логика NVS-контрактов Emercoin не является Тьюринг-полной, и с её помощью нельзя написать вредоносный код.
+Proofreading 
+28
+Read more
+Узнать больше
+Proofreading 
+29
+Still don't have Emercoins?
+У вас ещё нет Emercoin?
+Proofreading 
+30
+Download Wallet
+Скачайте кошелёк
+Proofreading 
+31
+Distributed blockchain services for business and personal use
+Распределённые блокчейн-сервисы для личных и бизнес-целей.
+Proofreading 
+32
+EmerDNS / domain name system
+EmerDNS / система доменных имён
+Proofreading 
+33
+Are you afraid your website could be suspended by authorities?
+Боитесь, что ваш сайт могут заблокировать власти?
+Proofreading 
+34
+With “the screws tightening” around the world, your fears might well be justified.
+Возможно, и не зря, учитывая «закручивание гаек» по всему миру.
+Proofreading 
+35
+EmerDNS is the way out.
+Вам поможет EmerDNS.
+Proofreading 
+36
+Completely decentralized, EmerDNS is safe from any kind of censorship.
+EmerDNS не грозит цензура, ведь это полностью децентрализованная система.
+Proofreading 
+37
+No other user can modify your record — only the record creator can manipulate its content.
+Никто, кроме вас, не сможет изменить созданную вами DNS-запись.
+Proofreading 
+38
+EmerDNS websites can be easily resolved with the help of several browser extensions, by using OpenNIC servers, or via proxies.
+Сайты на EmerDNS легко резолвятся — через браузерные расширения, OpenNIC или прокси.
+Proofreading 
+39
+EmerDNS is a decentralized domain name system supporting the full range of DNS records.
+EmerDNS поддерживает полный набор DNS-записей.
+Proofreading 
+40
+EmerDNS operates under the “dns” service abbreviation in the Emercoin NVS.
+В рамках NVS система работает под абревиатурой dns.
+Proofreading 
+41
+Thanks to Emercoin's secure and distributed blockchain, domain name records are completely decentralized and uncensorable.
+Благодаря безопасному блокчейну Emercoin, записи о доменных именах полностью децентрализованы и нецензурируемы.
+Proofreading 
+42
+They cannot be altered, revoked, or suspended by any authority.
+Никакой регулятор не сможет их изменить, отозвать или заблокировать.
+Proofreading 
+43
+Only the record owner, i.e. the one who controls the private key to the associated payment address, can modify or transfer it to another owner.
+Только владелец записи — тот, у кого есть закрытый ключ от соответствующего платёжного адреса, — может совершать действия над ней.
+Proofreading 
+44
+These actions can be performed using the Emercoin NVS in the Emercoin wallet GUI, or via the name_new or name_update commands in the Emercoin API.
+Работать над записями в NVS можно через GUI-кошелёк Emercoin или используя API-команды name_new/name_update.
+Proofreading 
+45
+DNS records can easily be retrieved from any Emercoin wallet via the Emercoin API using JSON-RPC or the command line, or via the standard RFC1034 DNS protocol built into every Emercoin wallet.
+DNS-записи можно легко получить по API от любого Emercoin-кошелька через JSON-RPC, командную строку, или стандатный RFC1034-протокол, встроенный в каждый кошелёк.
+Proofreading 
+46
+EmerDPO / digital proof of ownership
+EmerDPO / цифровое доказательство владения
+Proofreading 
+47
+If you own pretty much anything, your ownership data are usually stored in centralized databases, open to all kinds of “centralized” manipulation.
+Чем бы вы ни владели, соответствующие данные обычно хранятся в централизованных базах данных — открытые для всевозможного «централизованного» манипулирования.
+Proofreading 
+48
+With EmerDPO, it is not.
+EmerDPO устроен по-другому.
+Proofreading 
+49
+A decentralized ledger of ownership certificates, it can be used across all industries where you can’t entrust the management of ownership data to a single authority.
+Он представляет собой децентрализованную «картотеку» сертификатов собственности, в которой нет единого центра управления.
+Proofreading 
+50
+From land titles to software licenses to vehicle registration data, EmerDPO will keep you assured that whenever something becomes yours, it will stay yours.
+Будь то права собственности на землю, автомобили или софт — с EmerDPO вы можете всегда быть уверенными, что всё, чем вы завладели, останется документированно вашим.
+Proofreading 
+51
+EmerDPO is a decentralized solution for digitally validating the ownership or authenticity of both physical and digital goods and services using the Emercoin blockchain.
+EmerDPO позволяет децентрализованно, при помощи блокчейна Emercoin, подтверждать собственность и достоверность как физических, так и цифровых товаров и услуг.
+Proofreading 
+52
+EmerDPO operates under the “dpo” service abbreviation in the Emercoin NVS.
+В рамках NVS система работает под абревиатурой dpo.
+Proofreading 
+53
+Before blockchain, validating ownership was a drag in many areas: software licenses and subscriptions, land titles, art and jewelry ownership, vehicle registrations, and more.
+Подтверждение собственности — щекотливая тема во многих областях, от софта до недвижимости и от транспорта до искусства.
+Proofreading 
+54
+Authenticating ownership via written records is burdensome and opens up the possibility of fraud, counterfeiting, and even theft.
+Делать это через «бумажные» сертификаты — дело накладное и чреватое мошенничеством, подделками и даже кражами.
+Proofreading 
+55
+With the Emercoin blockchain, the ownership of physical and digital goods can now be immutably assigned to their respective owners.
+Блокчейн Emercoin же позволяет однозначно относить как физические, так и цифровые товары к собственности того или иного владельца.
+Proofreading 
+56
+For more information about verifying item authenticity and ownership with emcDPO, visit emcdpo.info.
+Узнайте больше о подтверждении достоверности и собственности при помощи EmerDPO на сайте emcdpo.info.
+Proofreading 
+57
+EmerSSH / access control & public key infrastructure
+EmerSHH / управление доступом и инфраструктурой открытых ключей
+Proofreading 
+58
+Do you use a server-based PKI?
+Используете серверную PKI?
+Proofreading 
+59
+Don’t ask what happens if the server’s administrator wants to act dirty.
+Представьте, что случится, если вашему администратору захочется пошалить.
+Proofreading 
+60
+With EmerSSH, you’re totally safe.
+С EmerSSH вы в безопасности.
+Proofreading 
+61
+Through its decentralized nature, EmerSSH makes it impossible for anyone to obtain root certificate keys and thus decrypt the data being transmitted.
+Благодаря децентрализации, никто не сможет получить ключ к вашему корневому сертификату и таким образом расшировать передаваемые данные.
+Proofreading 
+62
+EmerSSH can be seamlessly bridged with OpenSSH, giving you flexibility in addition to security.
+EmerSSH можно бесшовно связать с OpenSSH, получив гибкость в дополнение к безопасности.
+Proofreading 
+63
+EmerSSH is a system for managing Public Key Infrastructures (PKI) and Access Control Lists (ACL) using the Emercoin blockchain.
+EmerSSH — система для управления инфраструктурой открытых ключей (PKI) и списками контроля доступа (ACL) на базе блокчейна Emercoin.
+Proofreading 
+64
+EmerSSH can be bridged to OpenSSH, providing a comfortable, safe, and flexible way to log in to multiple servers via SSH.
+Если EmerSSH связать с Open SSH, вы получите удобный, безопасный и гибкий способ SSH-подключения ко многим серверам.
+Proofreading 
+65
+In this case,OpenSSH is configured to refer to the emcssh utility, which queries the Emercoin blockchain and retrieves SSH credentials during the authentication process.
+Для этого в OpenSSH надо указать ссылку на утилиту emcssh, которая будет «общаться» с блокчейном и получать SSH-креды в процессе аутентификации.
+Proofreading 
+66
+With EmerSSH, users can manage their own public keys by submitting and modifying records in the Emercoin blockchain via the GUI or command line.
+Добавлять и изменять записи об открытых ключах в блокчейн можно через GUI или командную строку.
+Proofreading 
+67
+Similarly, admins can manage user groups for their services that may contain references to other groups as well as individual users — allowing for the creation of recursive authentication trees.
+Так же можно управлять группами пользователей, которые могут в свою очередь ссылаться на другие группы или отдельных пользователей. Так можно организовывать рекурсивные деревья для аутентификации.
+Proofreading 
+68
+EmerSSH operates under the “ssh” service abbreviation in the Emercoin NVS.
+В рамках NVS система работает под абревиатурой ssh.
+Proofreading 
+69
+EmerSSL / passwordless authentication
+EmerSSL / беспарольная аутентификация
+Proofreading 
+70
+If you are used to passwordless authentication via SSL certificates, you know how costly these are.
+Если вы используете беспарольную аутентификацию на базе SSL-сертификатов, вы знаете, что это может обойтись в копеечку.
+Proofreading 
+71
+Worst of all, if your certification authority is compromised, you’re screwed.
+Хуже того, если ваш сертификационный центр будет скомпрометирован, вам крышка.
+Proofreading 
+72
+Now meet EmerSSL.
+Но не с EmerSSL.
+Proofreading 
+73
+A totally decentralized infrastructure of SSL certificates, it makes man-in-the-middle attacks impossible.
+Полностью децентрализованная, эта инфраструктура SSL-сертификатов исключает возможность MITM-атаки.
+Proofreading 
+74
+And it’s WAY cheaper than doing it with a central CA.
+И это НАМНОГО дешевле, чем использование централизованного ЦС.
+Proofreading 
+75
+And it’s so easy to use:
+Использовать её — проще просто:
+Proofreading 
+76
+Generate your private certificate once, and enjoy passwordless — and secure — access to selected websites for years.
+один раз сгенерировал закрытый сертификат — и можешь годами пользоваться безопасным беспарольным доступом на поддерживаемые сайты.
+Proofreading 
+77
+EmerSSL is a system for passwordless website authentication that uses the Emercoin blockchain as a decentralized and trusted store of hash sums for client SSL certificates.
+EmerSSL — система беспарольной аутентификации на сайтах, использующая блокчейн Emercoin в качестве децентрализованного хранилища хеш-сумм для клиентских SSL-сертификатов.
+Proofreading 
+78
+Certificates can be generated by users on their own computers, without any central authority, and quickly replaced as needed.
+Сертификаты можно создавать прямо на своём компьютере, без вовлечения какого-либо центра сертификации, и при необходимости легко заменять.
+Proofreading 
+79
+This makes the system effective for both scheduled updates and rapid recalls of compromised certificates.
+Так что ни плановые обновления, ни срочные отзывы скомпрометированных сертификатов не вызовут проблем.
+Proofreading 
+80
+EmerSSL enables the complete decentralization of the system.
+EmerSSL полностью децентрализована —
+Proofreading 
+81
+In other words, there is no single entity controlling the authentication, unlike systems such as Kerberos, OpenID, TeddyID, and the like.
+в отличие от систем типа Kerberos, OpenID, TeddyID и т. д., здесь нет никакого единого органа, который контролирует аутентификацию.
+Proofreading 
+82
+Thus, EmerSSL cannot suffer a system-wide service disruption whether due to technical failure or through a malicious attack on the servers.
+Поэтому EmerSSL не подвержена системным перебоям — будь то из-за технических сбоев или хакерских атак.
+Proofreading 
+83
+Neither can a user’s account be globally suspended at the whim of a single authority.
+И ни один пользовательский аккаунт не может быть заблокирован произволом какой-либо «власти».
+Proofreading 
+84
+Associated with the EmerSSL technology is EmerSSL InfoCard — a “business card” system that complements EmerSSL's passwordless logins with website form autocompletion based on the data residing on the Emercoin blockchain.
+Помимо беспарольного входа, EmerSSL поддерживает автозаполнение форм на базе содержащихся в блокчейне данных. Для этого используется связанная технология EmerSSL Infocard.
+Proofreading 
+85
+ENUMER / ENUM-based IP telephony
+ENUMER / IP-телефония на базе ENUM
+Proofreading 
+86
+ENUM is a great way to experience and provide free VoIP services.
+ENUM — отличный способ бесплатно пользоваться VoIP-услугами.
+Proofreading 
+87
+But its centralized architecture makes it prone to denial of services due to high server load.
+Но из-за централизованной архитектуры эта система подвержена перегрузкам и, как следствие, отказам в обслуживании.
+Proofreading 
+88
+Not so with ENUMER.
+Другое дело — ENUMER.
+Proofreading 
+89
+Deployed over the EmerDNS infrastructure, it is extremely fast due to local query resolution and is infinitely scalable.
+Разворачиваемый на инфраструктуре EmerDNS, ENUMER молниеносно резолвит запросы прямо на локальной машине и бесконечно масштабируем.
+Proofreading 
+90
+And, unlike what had already happened to its centralized counterpart, it won’t let you down if the central authority collapses.
+Ну и, в отличие от своего централизованного «брата», он не подведёт вас, если управляющий центр вдруг канет в небытие.
+Proofreading 
+91
+Because, well, there is none.
+Потому что такого центра здесь нет.
+Proofreading 
+92
+ENUMER is a system for supporting ENUM telephone records on Emercoin's blockchain, stored under the “enum” service abbreviation in the Emercoin NVS.
+ENUMER позволяет хранить ENUM-записи в NVS блокчейна Emercoin, под абревиатурой enum.
+Proofreading 
+93
+ENUM, orE.164 Number to URI Mapping, translates telephone numbers into IP addresses, for use by SIP Proxies, VoIP gateways, and other specialized telephony systems.
+ENUM (E.164 Number to URI Mapping) — система, транслирующая телефонные номера в IP-адреса и используемая в SIP-прокси, VoIP-шлюзах и прочих специализированных телефонных системах.
+Proofreading 
+94
+Show All
+Показать все
+Proofreading 
+95
+Get Emercoin
+Купить Emercoin
+Proofreading 
+96
+Live exchange rate:
+Курс прямо сейчас:
+Proofreading 
+97
+Timeline
+Наш путь
+Proofreading 
+98
+See more
+Узнать больше
+Proofreading 
+99
+Launched in December 2013 as a fork of Peercoin.
+Запущен в декабре 2013 года, как форк Peercoin.
+Proofreading 
+100
+Invented and implemented blockchain-based security services.
+Создание и реализация блокчейн-сервисов в области безопасности.
+Proofreading 
+101
+EmerSSH, decentralized Public Key Infrastructure and Access Control List.
+EmerSSH — децентрализованные инфраструктура открытых ключей и списки контроля доступа.
+Proofreading 
+102
+Emercoin included in RedHat catalog of certified software.
+Emercoin включён в каталог сертифицированного ПО RedHat.
+Proofreading 
+103
+Three-in-one mining mechanism:
+Тройной майнинг:
+Proofreading 
+104
+POS + POW + merged mining.
+PoS + PoW + комайнинг.
+Proofreading 
+105
+Added STUN IP discovery to remove usage centralized commercial served dyndns.org.
+Реализация обнаружения IP через STUN
+Translation 
+106
+Name-Value Storage — a universal platform for external blockchain-based services.
+Name-Value Storage — универсальная платформа для расширения блокчейн-сервисов.
+Proofreading 
+107
+Partnership with Microsoft BaaS program and “Blockchain Engine” app on MS Azure.
+Партнёрство с Microsoft BaaS и приложение Blockchain Engine в каталоге MS Azure.
+Proofreading 
+108
+First real usage of EmerDPO by the Kolionovo farm.
+Первое реальное использование EmerDPO фермой «Колионово».
+Proofreading 
+109
+We will continue implementing new functionality and services and release wallet core 0.7.0, with Segwit support and improved kernel and DNS subsystems.
+Мы будем продолжать реализовывать новые функции и сервисы и выпустим версию 0.7.0 кошелька с поддержкой Segwit и улучшенными ядром и DNS-подсистемой.
+Proofreading 
+110
+Upcoming Events
+События
+Proofreading 
+111
+Show all
+Показать все
+Proofreading TM (0%)
+112
+Latest News
+Последние новости
+Proofreading 
+113
+Read all
+Прочесть все
+Proofreading 
+114
+Read more
+Узнать больше
+Proofreading 
+115
+Subscribe
+Подписаться
+Proofreading 
+116
+to our news and events
+на новости и события
+Proofreading 
+117
+Email
+Почта
+Proofreading 
+118
+Subscribe
+Подписаться
+Proofreading 
+119
+Tweets
+Твиты
+Proofreading 
+120
+Emercoin
+Emercoin
+Proofreading 
+121
+@emercoin_press
+@emercoin_press
+Proofreading 
+122
+Follow Us
+Подписаться
+Proofreading 
+123
+Meet the Emercoin Team
+Встречайте команду Emercoin
+Proofreading TM (101%)
+124
+Oleg Khovayko
+Олег Ховайко
+Proofreading TM (101%)
+125
+Cryptography and Financial Expert
+Эксперт по криптографии и финансовым технологиям
+Proofreading 
+126
+Eugene Shumilov
+Евгений Шумилов
+Proofreading TM (100%)
+127
+Founder and CEO
+Основатель и CEO
+Proofreading 
+128
+Stan Polozov
+Станислав Полозов
+Proofreading TM (100%)
+129
+Blockchain Implementation Specialist
+Спецалист по внедрению блокчейна
+Proofreading 
+130
+Eugene Merenkov
+Евгений Меренков
+Proofreading TM (100%)
+131
+Senior Software Engineer
+Ведущий разработчик
+Proofreading 
+132
+Meet everyone
+Вся команда
+Proofreading 
+133
+Our Advisors
+Наши советники
+Proofreading 
+134
+Bill Tai
+Билл Тай
+Proofreading TM (100%)
+135
+Founder, ACTAI Global
+Основатель ACTAI Global
+Proofreading 
+136
+George Kikvadze
+Джордж Киквадзе
+Proofreading TM (100%)
+137
+Executive Vice Chairman, Bitfury Group
+Исполнительный вице-президент Bitfury Group
+Proofreading 
+138
+Marc van der Chijs
+Марк ван дер Хейс
+Proofreading TM (100%)
+139
+Founder, First Block Capital
+Основатель First Block Capital
+Proofreading 
+140
+Alex Petrov
+Алекс Петров
+Proofreading TM (100%)
+141
+CSO, Bitfury Group
+CSO Bitfury Group
+Proofreading 
+142
+Moe Levin
+Мо Левин
+Proofreading 
+143
+CEO, Keynote
+CEO Keynote
+Proofreading 
+144
+Gabriel Abed
+Габриэль Абед
+Proofreading 
+145
+Founder, Bitt Inc. and Digital Asset Fund
+Основатель Bitt Inc. и Digital Asset Fund
+Proofreading 
+146
+Marc Taverner
+Марк Тавернер
+Proofreading 
+147
+Emercoin Ambassador North America & Europe
+Посол Emercoin в Северной Америке и Европе
+Proofreading 
+148
+RU
+RU
+Proofreading 
+149
+JA
+JA
+Proofreading 
+150
+CN
+CN
+Proofreading 
+151
+KO
+KO
+Proofreading 
+152
+EN
+RU
+Proofreading 
+153
+EmerTech
+EmerTech
+Proofreading 
+154
+Emercoin Blockchain
+Блокчейн Emercoin
+Proofreading 
+155
+Tech Solutions
+Технологии
+Proofreading 
+156
+Specifications
+Спецификации
+Proofreading 
+157
+API references
+Справочник API
+Proofreading 
+158
+General Documentations
+Общая документация
+Proofreading 
+159
+View on GitHub
+Наш GitHub
+Proofreading 
+160
+Emercoins
+Криптовалюта
+Proofreading 
+161
+Benefits
+Почему Emercoin?
+Proofreading 
+162
+Get Emercoin
+Купить Emercoin
+Proofreading 
+163
+Emercoin Exchange Rate
+Обменный курс
+Proofreading 
+164
+Download Wallet
+Скачайте кошелёк
+Proofreading 
+165
+News
+Новости
+Proofreading 
+166
+Road Map
+Планы
+Proofreading 
+167
+Latest News
+Последние новости
+Proofreading 
+168
+Community
+Cообщество
+Proofreading 
+169
+Our Social Communities
+Наши сообщества
+Proofreading 
+170
+Our Team
+Наша команда
+Proofreading 
+171
+Our Contacts
+Связаться с нами
+Proofreading 
+172
+Terms & Conditions
+Условия использования
+Proofreading 
+173
+Privacy Policy
+Политика конфиденциальности
+Proofreading 
+174
+Sitemap
+Карта сайта
+Proofreading 
+175
+Get updates through social media
+Мы в социальных сетях:
+Proofreading 
+176
+Chatbot
+Чатбот
+Proofreading 
+177
+© 2018 Emercoin
+© 2018 Emercoin
+Proofreading 
+178
+RU
+RU
+Proofreading 
+179
+JA
+JA
+Proofreading 
+180
+CN
+CN
+Proofreading 
+181
+KO
+KO
+Proofreading 
+182
+EN
+RU
+Proofreading 
+183
+Our Social Channels
+Мы в соцсетях
+Proofreading 
+184
+Subscribers
+Подписчики
+Proofreading 
+185
+Tweets
+Твиты
+Proofreading 
+186
+Emercoin sold
+Продано Emercoin
+Proofreading 
+187
+Latest updates from Twitter
+Новое в Twitter
+Proofreading 
+188
+Emercoin
+Emercoin
+Proofreading 
+189
+@emercoin_press
+@emercoin_press
+Proofreading 
+190
+More #emercoin tech applications for the real world! @eZuce adopting #blockchain phone and video services!
+More #emercoin tech applications for the real world! @eZuce adopting #blockchain phone and video services!
+Proofreading 
+191
+More #emercoin tech applications for the real world! @eZuce adopting #blockchain phone and video services!
+More #emercoin tech applications for the real world! @eZuce adopting #blockchain phone and video services!
+Proofreading 
+192
+Latest from YouTube
+Новое в YouTube
+Proofreading 
+193
+Join us and Learn more about Emercoin
+Присоединяйтесь и узнайте больше об Emercoin
+Proofreading 
+194
+Facebook
+Facebook
+Proofreading 
+195
+Join us, meet our team and find out the latest news about Emercoin
+Присоединяйтесь, познакомьтесь с командой и будьте в курсе новостей Emercoin
+Proofreading 
+196
+Twitter
+Twitter
+Proofreading 
+197
+Follow us, see the latest tweets from blockchain enthusiasts and industry experts.
+Подпишитесь и следите за последними твитами от блокчейн-энтузиастов и экспертов.
+Proofreading 
+198
+Telegram Community
+Сообщество Telegram
+Proofreading 
+199
+Join our group, ask the questions to our team and learn more about Emercoin
+Присоединяйтесь к нашей группе, задайте вопросы команде и узнайте больше об Emercoin
+Proofreading 
+200
+Telegram News
+Новости в Telegram
+Proofreading 
+201
+Join us and read about the latest events, services, frameworks and solutions.
+Присоединяйтесь к нам и узнайте о последних событиях, услугах, инфраструктурах и решениях.
+Proofreading 
+202
+Youtube
+YouTube
+Proofreading 
+203
+Join our channel, we will share with you the latest presentations, interviews and events.
+Подпишитесь на канал и следите за нашими презентациями, интервью и мероприятиями.
+Proofreading 
+204
+Medium
+Medium
+Proofreading 
+205
+Join us and read about ground-breaking services, frameworks and applications of blockchain solutions
+Присоединяйтесь и читайте о новейших достижениях в области блокчейн-сервисов, технологий и приложений.
+Proofreading 
+206
+Our Chatbots
+Наши чатботы
+Proofreading 
+207
+Chatbot
+Чатбот
+Proofreading 
+208
+Chatbot
+Чатбот
+Proofreading 
+209
+Contact Us
+Напишите нам
+Proofreading 
+210
+Full name
+Полное имя
+Proofreading 
+211
+E-mail
+Почта
+Proofreading 
+212
+Message
+Сообщение
+Proofreading 
+213
+Send
+Отправить
+Proofreading 
+214
+RU
+RU
+Proofreading 
+215
+JA
+JA
+Proofreading 
+216
+CN
+CN
+Proofreading 
+217
+KO
+KO
+Proofreading 
+218
+EN
+RU
+Proofreading 
+219
+Benefits
+Почему Emercoin?
+Proofreading 
+220
+About Emercoin
+Об Emercoin
+Proofreading 
+221
+Emercoin is an emerging leader in secure, distributed blockchain business services.
+Emercoin — новое слово в области распределённых, безопасных блокчейн-сервисов.
+Proofreading 
+222
+With many companies using Emercoin technology, there is a core Emercoin team that maintains and develops services for the public Emercoin Blockchain, which uses the Emercoin cryptocurrency (EMC) to perform a variety of services.
+Многие компании уже пользуются технологиями Emercoin, а основная команда Emercoin поддерживает и развивает сервисы на основе публичного блокчейна Emercoin, в котором различные услуги реализуются при помощи одноимённой криптовалюты (EMC).
+Proofreading 
+223
+Offering some of the most innovative, real-world solutions, the Emercoin Blockchain is the premier public blockchain for secure, decentralized business operations.
+Блокчейн Emercoin предлагает инновационные решения для реальных проблем и является выбором №1 для безопасных, децентрализованных бизнес-приложений.
+Proofreading 
+224
+Lightweight
+Лёгкий
+Proofreading 
+225
+At just above 200 megabytes, Emercoin’s blockchain is ~1000 times smaller than that of major competitors.
+Занимая чуть больше 200 мегабайт, блокчейн Emercoin примерно в 1000 раз легче блокчейнов основных конкурентов.
+Proofreading 
+226
+It’s much easier to maintain and faster to use.
+Он легче обслуживается и быстрее работает.
+Proofreading 
+227
+B2B-focused
+Заточенный под B2B
+Proofreading 
+228
+Emercoin can be used to purchase a whole range of business-focused distributed services for pennies.
+Emercoin позволяет покупать целый ряд бизнес-ориентированных распределённых услуг за гроши.
+Proofreading 
+229
+Guaranteed return
+Гарантированная прибыль
+Proofreading TM (100%)
+230
+Emercoin’s Proof-of-Stake mechanism guarantees a return of 6% per annum.
+Лежащий в основе Emercoin PoS-механизм гарантирует прибыль в 6% годовых.
+Proofreading 
+231
+Purchasing a thousand EMC will likely get you enough “gas” to run the above distributed services using the “interest” alone.
+«Процентов» с купленных 1000 EMC сегодня хватит, чтобы обеспечить себя бесплатным «газом» для использования необходимых распределённых услуг.
+Proofreading 
+232
+Download Wallet
+Скачайте кошелёк
+Proofreading 
+233
+Online Wallet
+Онлайн-кошелёк
+Proofreading 
+234
+Sourceforge
+Sourceforge
+Proofreading 
+235
+Windows       Apple      Linux
+Windows       Apple      Linux
+Proofreading 
+236
+Emercoin GitHub
+Emercoin на GitHub
+Proofreading 
+237
+Windows       Apple      Linux
+Windows       Apple      Linux
+Proofreading 
+238
+Blockchain Engine emcweb wallet (Azure)
+Веб-кошелёк в MS Azure
+Proofreading 
+239
+Windows       Apple      Linux
+Windows       Apple      Linux
+Proofreading 
+240
+Mobile Wallets
+Мобильные кошельки
+Proofreading 
+241
+Online Wallet
+Онлайн-кошелёк
+Proofreading 
+242
+Where to buy
+Где купить
+Proofreading 
+243
+Join us and find out about the latest updates
+Следите за новостями:
+Proofreading 
+244
+Telegram
+Telegram
+Proofreading 
+245
+Twitter
+Twitter
+Proofreading 
+246
+RU
+RU
+Proofreading 
+247
+JA
+JA
+Proofreading 
+248
+CN
+CN
+Proofreading 
+249
+KO
+KO
+Proofreading 
+250
+EN
+RU
+Proofreading 
+251
+Events
+События
+Proofreading 
+252
+Upcoming
+Предстоящие
+Proofreading 
+253
+All events
+Все события
+Proofreading 
+254
+Past
+Прошедшие
+Proofreading 
+255
+All
+Все
+Proofreading 
+256
+Business Development
+Бизнес
+Proofreading 
+257
+Technology
+Технологии
+Proofreading 
+258
+Thank You For Subscribing!
+Спасибо, что подписались!
+Proofreading 
+259
+RU
+RU
+Proofreading 
+260
+JA
+JA
+Proofreading 
+261
+CN
+CN
+Proofreading 
+262
+KO
+KO
+Proofreading 
+263
+EN
+RU
+Proofreading 
+264
+Tech Solutions
+Технологии
+Proofreading 
+265
+About the emercoin blockchain
+О блокчейне Emercoin
+Proofreading 
+266
+The first-ever digital currency, Bitcoin brought a paradigm shift that soon transcended the world of financial services.
+С приходом Bitcoin — первой в мире цифровой валюты — финансовый мир изменился навсегда. Но и не только он.
+Proofreading 
+267
+Ingenious in design and unbeatable in security, it made companies try to create software that would execute on top of its blockchain to bring decentralization to their own projects.
+Соблазнённые гениальной задумкой и беспрецедентной безопасностью, компании начали искать способ дентрализовать собственные проекты, используя биткоиновский блокчейн.
+Proofreading 
+268
+But writing on top of Bitcoin’s blockchain turned out to be a drag:
+Но писать код поверх блокчейна оказалось непросто:
+Proofreading 
+269
+Imagine writing an entire book using only 1’s and 0’s.
+представьте, что вам нужно написать целую книгу, используя только нули и единицы.
+Proofreading 
+270
+Just like such binary code, Bitcoin is good at what it does — but adding extra features is just not something it was designed for.
+Так же как и бинарный код, Bitcoin был хорош для тех целей, ради которых он был задуман, но расширяемость в их список не входила.
+Proofreading 
+271
+The Emercoin Blockchain, on the other hand, is like programming with words.
+Писать же поверх блокчейна Emercoin — это как программировать на высокоуровневом языке.
+Proofreading 
+272
+The Emercoin Blockchain is much easier to code programs on and as a result the Emercoin team has been able to develop a whole suite of programs on top of its blockchain.
+Благодаря этому команда Emercoin смогла разработать целый ряд блокчейн-решений на его основе.
+Proofreading 
+273
+Our Services
+Наши сервисы
+Proofreading 
+274
+Specifications
+Спецификации
+Proofreading 
+275
+API references
+Справочник API
+Proofreading 
+276
+General Documentation
+Общая документация
+Proofreading TM (100%)
+277
+RU
+RU
+Proofreading 
+278
+JA
+JA
+Proofreading 
+279
+CN
+CN
+Proofreading 
+280
+KO
+KO
+Proofreading 
+281
+EN
+RU
+Proofreading 
+282
+Roadmap
+Дорожная карта
+Proofreading 
+283
+All events
+Все события
+Proofreading 
+284
+Launched in December 2013 as a fork of Peercoin.
+Запущен в декабре 2013 года, как форк Peercoin.
+Proofreading 
+285
+March
+Март
+Proofreading 
+286
+Added STUN IP discovery to remove usage centralized commercial served dyndns.org.
+Реализация обнаружения IP через STUN
+Translation 
+287
+March
+Март
+Proofreading 
+288
+Added Name-Value Storage — a universal platform for external blockchain-based services.
+Запуск Name-Value Storage — универсальной платформы для расширения блокчейн-сервисов.
+Proofreading TM (95%)
+289
+Implemented emerDNS, a decentralized domain system that provides irrevocable domain names and robustness to the DNS infrastructure.
+Запуск EmerDNS — децентрализованной, неизменной и надёжной системы доменных имён.
+Proofreading 
+290
+March
+Март
+Proofreading 
+291
+Invented and implemented blockchain-based security services.
+Создание и реализация блокчейн-сервисов в области безопасности.
+Proofreading 
+292
+emerSSH, decentralized Public Key Infrastructure and Access Control List.
+EmerSSH — децентрализованные инфраструктура открытых ключей и списки контроля доступа.
+Proofreading 
+293
+emerSSL, Passwordless identification and secure web-login.
+EmerSSL — беспарольная аутентификация на сайтах.
+Proofreading 
+294
+InfoCard, electronic business-card, works together with EmerSSL.
+InfoCard — подсистема электронных визитных карточек в рамках EmerSSL.
+Proofreading 
+295
+Invented concepts of EmerDPO, EmerTTS, Magnet.
+Начало работы над EmerDPO, EmerTTS, Magnet.
+Proofreading 
+296
+March
+Март
+Proofreading 
+297
+Partnership with Microsoft BaaS program and “Blockchain Engine” app on MS Azure.
+Партнёрство с Microsoft BaaS и приложение Blockchain Engine в каталоге MS Azure.
+Proofreading 
+298
+First real usage of emerDPO by the Kolionovo farm.
+Первое реальное использование EmerDPO фермой «Колионово».
+Proofreading 
+299
+Transaction optimizer — preserves blockchain from unnecessary inflation.
+Оптимизатор транзакций, защищающий блокчейн от «раздувания».
+Proofreading 
+300
+Distributed and dynamic checkpoints.
+Распределённые и динамические контрльные точки.
+Proofreading 
+301
+March
+Март
+Proofreading 
+302
+Emercoin included in RedHat catalog of certified software.
+Emercoin включён в каталог сертифицированного ПО RedHat.
+Proofreading 
+303
+Three-in-one mining mechanism:
+Тройной майнинг:
+Proofreading 
+304
+POS + POW + merged mining.
+PoS + PoW + комайнинг.
+Proofreading 
+305
+Lot of core improvements, including full decentralization.
+Улучшения в ядре, включая полную децентрализацию.
+Proofreading 
+306
+On-the-fly exchange emercoin to other cryptos with external exchanges API (shapeshift, coinreform).
+Мгновенный обмен Emercoin на другие криптовалюты через API внешних обменников (ShapeShift, CoinReform).
+Proofreading 
+307
+Invented and implemented ENUMER, a blockchain-based telecommunications platform.
+Создание и запуск ENUMER, блокчейн-платформы голосовой связи.
+Proofreading 
+308
+Started public testnet with web-explorer.
+Запуск публичного тестового блокчейна с веб-обозревателем.
+Proofreading 
+309
+In 2018, we plan to continue implementing functionality and add new services.
+В 2018 годы мы планируем продолжать расширять функционал и создавать новые сервисы,
+Proofreading 
+310
+We will:
+в частности:
+Proofreading 
+311
+Release core wallet 0.7.0, with implemented Segwit and improved core kernel and DNS subsystem.
+Выпустить версию 0.7.0 кошелька с поддержкой Segwit и улучшенными ядром и DNS-подсистемой.
+Proofreading 
+312
+Complete implementing ATOM — safe protocol to escrow-less peer-to-peer sell NVS-record (dns, land title, etc).
+Завершить внедрение ATOM — безопасного протокола для P2P-продажи NVS-записей (DNS, земельные сертификаты и т. д.).
+Proofreading 
+313
+Implement second generation of Lottery model payment aggregation, Randpay.
+Выпустить второе поколение лотерейной агрегации платежей (Randpay).
+Proofreading 
+314
+Business Development
+Бизнес
+Proofreading 
+315
+Technology
+Технологии
+Proofreading 
+316
+2019-2021
+2019–2021
+Translation 
+317
+In next three years, we plan to:
+В следующие три года мы планируем:
+Proofreading 
+318
+Improve and popularize existing services and develop new products and services.
+Развивать и продвигать существующие сервисы и создавать новые.
+Proofreading 
+319
+Integrate with Bitfury’s Exonum protocol.
+Интегрироваться с протоколом Exonum от Bitfury.
+Proofreading 
+320
+Integrate with Lightning Network.
+Интегрироваться с Lightning Network.
+Proofreading 
+321
+Create our own Certification Authority (or establish a partnership with existing CA) to generate SSL certiﬁcates for WEB-sites, located in the EmerDNS.
+Создать собственный сертификационный центр или стать партнёром существующего для генерации SSL-сертификатов для сайтов в рамках EmerDNS.
+Proofreading 
+322
+Develop our own browser (based on the Chromium engine) to provide a bundle of Emercoin services that are "out of the box" — with a trusted root of our CA, with transparent access to EmerDNS, and more.
+Разработать собственный браузер на движке Chromium с набором встроенных Emercoin-сервисов — доверенным корневым сертификатом нашего СЦ, прозрачным доступом к EmerDNS и т. д.
+Proofreading 
+323
+Redesign EmerLNX advertisement system for a CPA model.
+Доработать EmerLNX для модели CPA.
+Proofreading 
+324
+Have any Questions?
+Вопросы?
+Proofreading 
+325
+Contact Us
+Напишите нам
+Proofreading 
+326
+Events
+События
+Proofreading 
+327
+Upcoming
+Предстоящие
+Proofreading 
+328
+All
+Все
+Proofreading 
+329
+Business Development
+Бизнес
+Proofreading 
+330
+Technology
+Технологии
+Proofreading 
+331
+Past
+Прошедшие
+Proofreading 
+332
+Subscribe
+Подписаться
+Proofreading 
+333
+for our news and events
+на новости и события
+Proofreading TM (86%)
+334
+E-mail
+Почта
+Proofreading 
+335
+Subscribe
+Подписаться
+Proofreading 
+336
+Join us and find out about the latest updates
+Следите за новостями:
+Proofreading 
+337
+Telegram
+Telegram
+Proofreading 
+338
+Twitter
+Twitter
+Proofreading 
+339
+RU
+RU
+Proofreading 
+340
+JA
+JA
+Proofreading 
+341
+CN
+CN
+Proofreading 
+342
+KO
+KO
+Proofreading 
+343
+EN
+RU
+Proofreading 
+344
+Back to Roadmap
+К дорожной карте
+Proofreading 
+345
+Show more
+Узнать больше
+Proofreading 
+346
+Back to Roadmap
+К дорожной карте
+Proofreading 
+347
+Subscribe
+Подписаться
+Proofreading 
+348
+for our news and events
+на новости и события
+Proofreading 
+349
+E-mail
+Почта
+Proofreading 
+350
+Subscribe
+Подписаться
+Proofreading 
+351
+RU
+RU
+Proofreading 
+352
+JA
+JA
+Proofreading 
+353
+CN
+CN
+Proofreading 
+354
+KO
+KO
+Proofreading 
+355
+EN
+RU
+Proofreading 
+356
+News
+Новости
+Proofreading 
+357
+All
+Все
+Proofreading 
+358
+Business
+Бизнес
+Proofreading 
+359
+Technology
+Технологии
+Proofreading 
+360
+Events
+События
+Proofreading 
+361
+Miners
+Для майнеров
+Proofreading 
+362
+Developers
+Для разработчиков
+Translation 
+363
+Investors
+Для инвесторов
+Translation 
+364
+Show more
+Узнать больше
+Proofreading 
+365
+Back
+Назад
+Proofreading 
+366
+Next
+Дальше
+Proofreading 
+367
+Subscribe
+Подписаться
+Proofreading 
+368
+for our news and events
+на новости и события
+Proofreading 
+369
+E-mail
+Почта
+Proofreading 
+370
+Subscribe
+Подписаться
+Proofreading 
+371
+Join us and find out about the latest updates
+Следите за новостями:
+Proofreading 
+372
+Telegram
+Telegram
+Proofreading 
+373
+Twitter
+Twitter
+Proofreading 
+374
+RU
+RU
+Proofreading 
+375
+JA
+JA
+Proofreading 
+376
+CN
+CN
+Proofreading 
+377
+KO
+KO
+Proofreading 
+378
+EN
+RU
+Proofreading 
+379
+Emercoin Blockchain
+Блокчейн Emercoin
+Proofreading 
+380
+About Emercoin
+Об Emercoin
+Proofreading 
+381
+Emercoin is an emerging leader in secure, distributed blockchain business services.
+Emercoin — новое слово в области распределённых, безопасных блокчейн-сервисов.
+Proofreading 
+382
+With many companies using Emercoin technology, there is a core Emercoin team that maintains and develops services for the public Emercoin Blockchain, which uses the Emercoin cryptocurrency (EMC) to perform a variety of services.
+Многие компании уже пользуются технологиями Emercoin, а основная команда Emercoin поддерживает и развивает сервисы на основе публичного блокчейна Emercoin, в котором различные услуги реализуются при помощи одноимённой криптовалюты (EMC).
+Proofreading 
+383
+Offering some of the most innovative, real-world solutions, the Emercoin Blockchain is the premier public blockchain for secure, decentralized business operations.
+Блокчейн Emercoin предлагает инновационные решения для реальных проблем и является выбором №1 для безопасных, децентрализованных бизнес-приложений.
+Proofreading 
+384
+Why should businesses use emercoin blockchain?
+Зачем бизнесу блокчейн Emercoin?
+Proofreading 
+385
+Flexibility
+Гибкость
+Proofreading 
+386
+Emercoin’s Name-Value Storage is a simple yet powerful concept that allows you to store arbitrary data within the blockchain.
+В основе Emercoin лежит EmerNVS — хранилище пар имя-значение. Эта простая, на мощная идея позволила хранить в блокчейне произвольные данные
+Proofreading 
+387
+This has already allowed a range of distributed services, from a decentralized DNS to a free VoIP service.
+и построить целый ряд распределённых сервисов — от DNS до голосовой телефонии.
+Proofreading 
+388
+Reliability
+Надёжность
+Proofreading 
+389
+Although Emercoin supports traditional PoW mining and merged mining with Bitcoin, its main mechanism is Proof-of-Stake mining.
+Хотя Emercoin поддерживает и традиционный PoW-майнинг, и комайнинг с Bitcoin, основной механизм в нём — PoS-минтинг.
+Proofreading 
+390
+This eliminates the “arms race” for mining capacity — simply holding Emercoin guarantees a 6% per annum return.
+Это исключает «гонку вооружений» за вычислительную мощность и гарантирует доход 6% годовых просто за владение монетами.
+Proofreading 
+391
+Security
+Безопасность
+Proofreading 
+392
+Emercoin will never sacrifice security for flexibility.
+Гибкость Emercoin никогда не идёт в ущерб безопасности.
+Proofreading 
+393
+Unlike “smart” contracts, which have already caused multimillion-dollar scams and compromised security in the past, Emercoin’s NVS logic is not Turing-complete and cannot be used to write malicious code.
+В отличие от «умных» контрактов, которые уже не раз привели к многомиллионным кражам и взломам, логика NVS-контрактов Emercoin не является Тьюринг-полной, и с её помощью нельзя написать вредоносный код.
+Proofreading 
+394
+Services available on the emercoin blockchain
+Сервисы на блокчейне Emercoin
+Proofreading 
+395
+Emercoin’s blockchain supports a variety of business operations and services, including:
+Блокчейн Emercoin поддерживает целый ряд бизнес-приложений и сервисов, в том числе:
+Proofreading 
+396
+Show All
+Показать все
+Proofreading 
+397
+How can I use the emercoin blockchain?
+Как я могу использовать блокчейн Emercoin?
+Proofreading 
+398
+The Emercoin Blockchain has its own currency, Emercoins (EMC).
+У блокчейна Emercoin — своя, одноимённая валюта (EMC).
+Proofreading 
+399
+To use any of the services listed above, you would use tiny fractions of EMC.
+Для использования указанных выше сервисов понадобятся дробные части EMC.
+Proofreading 
+400
+What sets Emercoin apart from other service blockchains is that Emercoin has pioneered a groundbreaking data organization system that allows for these services to utilize valuable data without needing immense amounts of storage space and complicated coding languages.
+От других сервис-ориентированных блокчейнов Emercoin отличается тем, что в нём используется инновационная система организации данных. Она позволяет сервисам хранить использовать данные без необходимости приобретения дорогостоящего дискового пространства или использования сложных языков программирования.
+Proofreading 
+401
+To buy Emercoin, you must have compatible wallet software.
+Чтобы купить Emercoin, вам понадобится соответствующий кошелёк.
+Translation 
+402
+Visit our site for wallet links, as well as links to cryptocurrency exchanges that sell Emercoin.
+Ссылки на кошельки, а также криптобиржи, где можно купить Emercoin, вы можете найти на нашем сайте.
+Translation 
+403
+Tech Tree
+Древо технологий
+Translation 
+404
+Companies using emercoin technology
+Компании, использующие технологии Emercoin
+Translation 
+405
+Emercoin can also be found on the Microsoft Azure cloud and RedHat.
+ПО Emercoin также доступно в каталогах Microsoft Azure и RedHat.
+Translation 
+406
+Tech Services and Solutions
+Технологические сервисы и решения
+Translation 
+407
+Specifications
+Спецификации
+Proofreading 
+408
+API references
+Справочник API
+Proofreading 
+409
+General Documentations
+Общая документация
+Proofreading 
+410
+RU
+RU
+Proofreading 
+411
+JA
+JA
+Proofreading 
+412
+CN
+CN
+Proofreading 
+413
+KO
+KO
+Proofreading 
+414
+EN
+RU
+Proofreading 
+415
+Emercoin Exchange Rate
+Обменный курс
+Proofreading 
+416
+Get emercoin
+Купить Emercoin
+Translation 
+417
+Chart
+График
+Translation 
+418
+Market Cap
+Капитализация
+Translation 
+419
+Volume (24h)
+Объём (24 ч)
+Translation 
+420
+Circulating Supply
+Количество в обращении
+Translation 
+421
+Source: coinmarketcap.com
+Источник: coinmarketcap.com
+Translation 
+422
+Emercoin rate
+Курс Emercoin
+Translation 
+423
+1 day
+1 день
+Translation 
+424
+7 days
+7 дней
+Translation 
+425
+30 days
+30 дней
+Translation 
+426
+90 days
+90 дней
+Translation 
+427
+Tuesday, Mar 8 2018. 06:29:43 UTC +02:00
+Вторник, 8 марта 2018 г., 06:29:43 UTC +02:00
+Translation 
+428
+Price (USD):
+Цена (USD):
+Translation 
+429
+0.197944
+0,197944
+Translation 
+430
+Get emercoin
+Купить Emercoin
+Translation 
+431
+Live exchange rate:
+Курс прямо сейчас:
+Proofreading 
+432
+Market Cap
+Капитализация
+Translation 
+433
+1 day
+1 день
+Translation 
+434
+7 days
+7 дней
+Translation 
+435
+30 days
+30 дней
+Translation 
+436
+90 days
+90 дней
+Translation 
+437
+Tuesday, Mar 8 2018. 06:29:43 UTC +02:00
+Вторник, 8 марта 2018 г., 06:29:43 UTC +02:00
+Translation 
+438
+Price (USD):
+Цена (USD):
+Translation 
+439
+0.197944
+0,197944
+Translation 
+440
+Volume
+Объём
+Translation 
+441
+1 day
+1 день
+Translation 
+442
+7 days
+7 дней
+Translation 
+443
+30 days
+30 дней
+Translation 
+444
+90 days
+90 дней
+Translation 
+445
+Tuesday, Mar 8 2018. 06:29:43 UTC +02:00
+Вторник, 8 марта 2018 г., 06:29:43 UTC +02:00
+Translation 
+446
+Price (USD):
+Цена (USD):
+Translation 
+447
+0.197944
+0,197944
+Translation 
+448
+Still don't have Emercoins?
+У вас ещё нет Emercoin?
+Proofreading 
+449
+Download Wallet
+Скачайте кошелёк
+Proofreading 
+450
+RU
+RU
+Proofreading 
+451
+JA
+JA
+Proofreading 
+452
+CN
+CN
+Proofreading 
+453
+KO
+KO
+Proofreading 
+454
+January
+Январь
+Translation 
+455
+February
+Февраль
+Translation 
+456
+March
+Март
+Proofreading 
+457
+April
+Апрель
+Translation 
+458
+May
+Май
+Translation 
+459
+June
+Июнь
+Translation 
+460
+July
+Июль
+Translation 
+461
+August
+Август
+Translation 
+462
+September
+Сентябрь
+Translation 
+463
+October
+Октябрь
+Translation 
+464
+November
+Ноябрь
+Translation 
+465
+December
+Декабрь
+Translation 
+
