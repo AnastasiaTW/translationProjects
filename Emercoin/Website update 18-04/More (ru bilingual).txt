@@ -40,7 +40,7 @@ Thank you!
 Proofreading TM (102%)
 10
 We will get back to you as soon as possible, but it also could take upto 2 days.
-Мы постараемся ответить как можно быстрее, но будьте готовы подождать 2 дня.
+Мы постараемся ответить как можно быстрее, но будьте готовы подождать 1–2 дня.
 Proofreading TM (102%)
 11
 Contact Us about anything related to our company or services.
@@ -56,7 +56,7 @@ E-MAIL US ON SUPPORT@EMERCOIN.COM
 Proofreading TM (102%)
 14
 Meet the Emercoin Team
-Встречайте: команда Emercoin
+Встречайте команду Emercoin
 Proofreading TM (102%)
 15
 Oleg Khovayko
@@ -100,7 +100,7 @@ Mikhail Voevodskiy
 Proofreading TM (102%)
 25
 Integration Architect and co-founder EmerSchool
-Интеграционный архитектор и сооснователь «Школы Emercoin».
+Интеграционный архитектор и сооснователь Школы Emercoin.
 Proofreading TM (102%)
 26
 Spreads information about Emercoin products and technologies.
@@ -116,15 +116,15 @@ Bill Tai
 Proofreading TM (102%)
 29
 World renowned venture capitalist, Bill originally trained as a chip designer and joined LSI Logic
-Всемирно известный инвестор, а в прошлом — создатель полупроводниковых чипов.
+Всемирно известный инвестор, а в прошлом создатель полупроводниковых чипов.
 Proofreading TM (101%)
 30
 World renowned venture capitalist, Bill originally trained as a chip designer and joined LSI Logic, a seminal Silicon Valley startup formed by the CEO of Fairchild Semiconductor after earning a BSEE with Honors from University of Illinois.
-Ныне всемирно известный инвестор, а в прошлом — создатель полупроводниковых чипов, Билл с отличием окончил Университет Иллиноиса, после чего пришёл работать в легендарный калифорнийский стартап LSI Logic.
+Ныне всемирно известный инвестор, а в прошлом создатель полупроводниковых чипов, Билл с отличием окончил Иллинойсский Университет, после чего пришёл работать в легендарный калифорнийский стартап LSI Logic.
 Proofreading TM (99%)
 31
 After completing a MBA at Harvard, he was issued badge #A001 at TSMC, now among the most valuable tech companies in the world.
-Позже он получил MBA в Гарварде и бейдж за №A001 в TSMC, впоследствии ставшей одной из самых крутых хайтек-компаний мира.
+Позже он получил степень MBA в Гарварде и бейдж за номером A001 в TSMC, впоследствии ставшей одной из самых крутых хайтек-компаний мира.
 Proofreading TM (101%)
 32
 He has been a venture capitalist since 1991 and today is the Chairman of Treasure Data, a Board Member of Bitfury and Voxer.
@@ -136,7 +136,7 @@ Bill was Founding Chairman and CEO of iAsiaWorks (IPO via Goldman Sachs & Morgan
 Proofreading TM (102%)
 34
 He has served as Board Director of 7 publicly listed companies that grew from startups he funded at their formative stages.
-и поработать директором в 7 других , которые также «вырастил» из стартапов в публичные компании.
+и в роли директора «вырастить» 7 других стартапов в публичные компании.
 Proofreading TM (101%)
 35
 He serves on the World Economic Forum’s Technology Pioneer Committee and is an Adjunct Professor of Innovation at Curtin University.
@@ -156,7 +156,7 @@ George is the Vice Chairman of The BitFury Group, the world's leading Blockchain
 Proofreading TM (101%)
 39
 He is also a member of the Advisory Committee of GCF, a $6 billion private equity partnership.
-Он также состоит в консультативном комитете Грузинского фонда соинвестирования с капиталом в 6 миллиардов долларов.
+Он также состоит в консультативном комитете Фонда соинвестирования Грузии с капиталом в 6 млрд долларов.
 Proofreading TM (101%)
 40
 George has worked for York Capital Management, AFK Sistema and Morgan Stanley.
@@ -164,7 +164,7 @@ George has worked for York Capital Management, AFK Sistema and Morgan Stanley.
 Proofreading TM (102%)
 41
 He obtained his MBA at Wharton School, University of Pennsylvania, and his MA at Johns Hopkins School of Advanced International Studies.
-Получил степень MBA в Уортонской школе бизнеса и диплом магистра в Университете Джона Хопкинса.
+Получил степень MBA в Уортонской школе бизнеса и диплом магистра в Университете Джонса Хопкинса.
 Proofreading TM (101%)
 42
 George is a member of Europe One YPO Club.
@@ -176,19 +176,19 @@ Marc van der Chijs
 Proofreading 
 44
 Founder and Director of First Block Capital, Canada’s first fully registered investment firm that invests in crypto assets.
-Основатель и директор First Block Capital, первой канадской инвестиционной фирмы, инвестирующей средства в криптоактивы.
+Основатель и директор First Block Capital, первой канадской инвестиционной фирмы, вкладывающей средства в криптоактивы.
 Proofreading 
 45
 Founder and Director of First Block Capital, Canada’s first fully registered investment firm that invests in crypto assets.
-Основатель и директор First Block Capital, первой канадской инвестиционной фирмы, инвестирующей средства в криптоактивы.
+Основатель и директор First Block Capital, первой канадской инвестиционной фирмы, вкладывающей средства в криптоактивы.
 Proofreading 
 46
 He has been in active in the blockchain space since early 2013 as partner in venture capital firm CrossPacific Capital and has been working full time on crypto projects since late 2016.
-Начал активность в блокчейн-сфере в начале 2013 года, став партнёром в CrossPacific Capital. Полностю сосредоточился на криптопроектах в конце 2016-го.
+Начал активность в блокчейн-сфере в начале 2013 года, став партнёром в CrossPacific Capital. Полностью сосредоточился на криптопроектах в конце 2016-го.
 Proofreading 
 47
 He started his career at automotive multinational Daimler in the mid-1990s in several financial controling positions.In 2004 he co-founded China’s largest online video site Tudou.com, that was listed on the NASDAQ in 2011 and later taken private by Alibaba in a multi-billion dollar deal.
-Карьера Марка началась в международном автогиганте Daimler в середине 1990-х, где он занимал ряд позиций, связанных с финансовым контроллингом. В 2004-м он стал сооснователем Tudou.com, крупнейшего китайского видеосайта, который в 2011-м попал на NASDAQ, а затем был приватизирован обратно Alibaba за миллиарды долларов.
+Карьера Марка началась в середине 1990-х в международном автогиганте Daimler, где он занимал ряд позиций, связанных с финансовым контроллингом. В 2004-м он стал сооснователем Tudou, крупнейшего китайского видеохостинга, который в 2011-м попал на NASDAQ, а затем был приватизирован обратно Alibaba за миллиарды долларов.
 Proofreading 
 48
 He is a big believer that blockchain technology will completely change every aspect of business over the next couple of years and wants to actively support teams that put technology first.
@@ -216,15 +216,15 @@ The company has been supporting Silicon Valley start-ups in entering Japanese ma
 Proofreading 
 54
 To incubate startup companies, he provides hands-on support on all phases of establishing operations such as strategic partnerships, local management hiring, business development, etc.
-Помогая стартапам, г-н Куросаки проявляет самое прямое участие на всех бизнеса — от заключения стратегических партнёрств до развития бизнеса.
+Помогая стартапам, г-н Куросаки принимает самое прямое участие во всех ранних стадиях жизненного цикла — от заключения стратегических партнёрств до развития бизнеса.
 Proofreading 
 55
 In 1999, he founded IT-Farm as one of very few hands-on type venture capital in Japan.
-В 1999 году организовал венчурный фонд IT-Farm, один из немногих в Японии, работающих в режиме «hands-on».
+В 1999 году организовал венчурный фонд IT-Farm, один из немногих в Японии, работающих в режиме “hands-on”.
 Proofreading 
 56
 Through all his carrier, he has built an incomparable network in both Japanese IT industries and executives in Silicon Valley.
-За свою карьеру г-н Куросаки накопил обширные связи как в японской IT-индустрии, так и в «Кремниевой долине».
+За свою карьеру г-н Куросаки накопил обширные связи как в японской IT-индустрии, так и в Кремниевой долине.
 Proofreading 
 57
 Alex Petrov
@@ -240,11 +240,11 @@ With over 35 years in IT, Alex Petrov has the expertise in both hardware and sof
 Proofreading 
 60
 He has expertise in high-load systems optimization, databases, big-data analysis, data networking and communications on a large scale.
-Специализируется на оптимизации высоконагруженных систем, базах данных, «больших данных» и масштабных сетях передачи данных.
+Специализируется на оптимизации высоконагруженных систем, базах данных, больших данных и масштабных сетях передачи данных.
 Proofreading 
 61
 He is a former IT security auditor, with specialties in business processes optimizations and crisis management.
-В прошлом — аудитор информационной безопасности с упором на оптимизацию бизнес-процессов и кризисное управление.
+В прошлом аудитор информационной безопасности с упором на оптимизацию бизнес-процессов и кризисное управление.
 Proofreading 
 62
 His track record includes the launch of new successful businesses and global consumer brands.
@@ -264,7 +264,7 @@ Tareq Al-Memari
 Proofreading 
 66
 Abu Dhabi Pensions Fund / Emercoin Ambassador MENA
-Пенсионный фонд Абу-Даби / Посол Emercoin на Ближнем Востоке и в Северной Африке
+Портфолио-менеджер в Пенсионном фонде Абу-Даби и посол Emercoin на Ближнем Востоке и в Северной Африке
 Proofreading 
 67
 Portfolio Manager, with over 5 years of experience in Financial Market
@@ -288,11 +288,11 @@ Founder of Bitt Inc. and Digital Asset Fund, is recognized as a leading Caribbea
 Proofreading 
 72
 The Barbados-based entrepreneur is internationally-acknowledged as a pioneer in the digital currency evolution, having led the movement of Central Bank issued Cryptocurrencies and frontiered discussions on the subject of ‘Blockchain Technology’ at the Caribbean Development Bank, the International Monetary Fund and World Bank, the United Nations, the Commonwealth Secretariat, multiple Central Bank forums and other world stages.
-Барбадосский предприниматель — всемирно признанный первопроходец в области цифровых валют. Стоит в авангарде движения за выпуск криптовалют центробанками и ведёт блокчейн-дискуссий в рамках Карибского банка развития, МФВ, Всемирного банка, ООН, Секретариата Содружества Наций и многих других центробанков.
+Барбадосский предприниматель — всемирно признанный первопроходец в области цифровых валют. Стоит в авангарде движения за выпуск криптовалют центробанками и ведёт блокчейн-дискуссии в рамках Карибского банка развития, МВФ, Всемирного банка, ООН, Секретариата Содружества и многих других мировых финансовых организаций.
 Proofreading 
 73
 Gabriel's entrepreneurial mindset has allowed him to explore other avenues in the technology space founding new companies such as Digital Asset Fund amongst others.
-Предпринимательская хватка Габриэля позволяет ему исследовать и другие технологические области и основывать новые компании. Одна из них, Digital Asset Fund, —
+Предпринимательская хватка Габриэля позволяет ему исследовать разные технологические области и основывать новые компании. Одна из них, Digital Asset Fund, —
 Proofreading 
 74
 The Digital Asset Fund, or DAF, is the first Fund in the world to be focused on math based protocols.
@@ -308,7 +308,7 @@ Marc Taverner is head of business development at Bitfury Group.
 Proofreading 
 77
 He brings 18 years of experience working with market leading, global technology companies to Bitfury.
-с 18-летним опытом работы с крупнейшими технологическими компаниями в мире.
+с 18-летним опытом работы с крупнейшими технологическими компаниями мира.
 Proofreading 
 78
 Marc Taverner is head of business development at Bitfury Group.
@@ -316,23 +316,23 @@ Marc Taverner is head of business development at Bitfury Group.
 Proofreading 
 79
 He brings 18 years of experience working with market leading, global technology companies to Bitfury.
-с 18-летним опытом работы с крупнейшими технологическими компаниями в мире.
+с 18-летним опытом работы с крупнейшими технологическими компаниями мира.
 Proofreading 
 80
 He is also the founder of a successful modem distribution company.
-Кроме того, основатель успешной компании-дистрибюторе модемов.
+В начале карьеры основал успешную компанию-дистрибьютора модемов.
 Proofreading 
 81
 Marc has held sales leadership roles with many leading technology companies, including the world's largest provider of unified communications services and market leaders in educational technology solutions.
-Марк руководил продажами во многих ведущих хайтек-компаниях, включая крупнейшего в мире телеком-провайдера и ведущих поставщиков технологических решений в области образования.
+Позже Марк руководил продажами во многих ведущих хайтек-компаниях, включая крупнейшего в мире телеком-провайдера и ведущих поставщиков технологических решений в области образования.
 Proofreading 
 82
 Marc received his BA Hons in European Business Studies from Brunel University, UK and Ecole supérieure de Commerce de Clermont-Ferrand, France.
-С отличием закончил Университет Брунеля по специальности исследования европейского бизнеса и Высшую школу коммерции в Клермон-Ферран.
+С отличием закончил Университет Брунеля по специальности «Бизнес в Европе» и Высшую школу торговли в Клермон-Ферран.
 Proofreading 
 83
 Eun Chul Lee
-Юн Чул Ли
+Ын Чул Ли
 Proofreading 
 84
 Emercoin Ambassador Korea
@@ -340,14 +340,14 @@ Emercoin Ambassador Korea
 Proofreading 
 85
 18 years of IT manager experience as a country manager for various Silicon Valley companies including WindRiverSystem, IP Infusion, Treasure Data and Clustrix and have experience as founder of two companies SiliconValleyTech, and IntelRa.
-IT-менеджер с 18-летним опытом, в том числе управления корейскими филиалами различных калифорнийских компаний, таких как WindRiverSystem, IP Infusion, Treasure Data и Clustrix. Также основал две собственные компании — SiliconValleyTech и IntelRa.
+IT-менеджер с 18-летним опытом, в том числе управления корейскими филиалами различных калифорнийских компаний, таких как WindRiverSystem, IP Infusion, Treasure Data и Clustrix. Основал две собственные компании — SiliconValleyTech и IntelRa.
 Proofreading 
 86
 Lee has extensive experience and knowledge in laying down the company’s technical foundation for Marketing in Korea with specialty in embedded system, mobile telecommunication, IP Network & Network Security and Big Data Market.
-У г-на Ли — огромный опыт и знания, позволяющие готовить компании к выходу на корейский рынок, в частности в области встроенных систем, мобильной связи, IP-сетей и сетевой безопасности, а также «больших данных».
+У г-на Ли огромный опыт и знания, позволяющие готовить компании к выходу на корейский рынок, в частности в области встроенных систем, мобильной связи, IP-сетей и сетевой безопасности, а также больших данных.
 Proofreading 
 87
 His past career as successful sportsman, he was 5 times Olympian in Rifle Shooting Events with Gold medal (50m 60shot Prone Event) in Barcelona Olympic in 1992 & World Champion (50m 3 position Event) in Moscow World shooting championship in 1990.
-В прошлом — успешный спортсмен, на счету которого — золото в стрельбе из ружья в на Олимпийских играх 1992 года в Барселоне и бронзу в на Чемпионате мира 1990 года в Москве.
+В прошлом успешный спортсмен, на счету которого золото в стрельбе на Олимпийских играх 1992 года в Барселоне и бронза на Чемпионате мира 1990 года в Москве.
 Proofreading 
 
