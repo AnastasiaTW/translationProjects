@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:05.7136263Z" original="2148627_2052" source-language="en" target-language="zh-Hans"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
+<trans-unit id="1049934" approved="yes">
+<source xml:space="preserve">Username</source>
+<target state="translated" xml:space="preserve">用户名</target></trans-unit>
+<trans-unit id="1049935" approved="yes">
+<source xml:space="preserve">Edit</source>
+<target state="translated" xml:space="preserve">编辑</target></trans-unit>
+<trans-unit id="1049936" approved="yes">
+<source xml:space="preserve">Disconnect</source>
+<target state="translated" xml:space="preserve">断开连接</target></trans-unit>
+<trans-unit id="1049937" approved="yes">
+<source xml:space="preserve">Add another network</source>
+<target state="translated" xml:space="preserve">添加社交网络</target></trans-unit>
+<trans-unit id="1049938" approved="yes">
+<source xml:space="preserve">Add users</source>
+<target state="translated" xml:space="preserve">添加用户</target></trans-unit>
+<trans-unit id="1049939" approved="yes">
+<source xml:space="preserve">Invite friends to group</source>
+<target state="translated" xml:space="preserve">邀请好友加入群组</target></trans-unit>
+<trans-unit id="1049940" approved="yes">
+<source xml:space="preserve">Search friends</source>
+<target state="translated" xml:space="preserve">搜索好友</target></trans-unit>
+<trans-unit id="1049941" approved="yes">
+<source xml:space="preserve">Add</source>
+<target state="translated" xml:space="preserve">添加</target></trans-unit>
+<trans-unit id="1049942" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1049943" approved="yes">
+<source xml:space="preserve">Game Servers Problem</source>
+<target state="translated" xml:space="preserve">游戏服务器故障</target></trans-unit>
+<trans-unit id="1049944" approved="yes">
+<source xml:space="preserve">We're experiencing technical problem with game servers. Please click Reload to check status.</source>
+<target state="translated" xml:space="preserve">我们遇到游戏服务器的技术问题，请点击刷新以检查状态。</target></trans-unit>
+<trans-unit id="1049945" approved="yes">
+<source xml:space="preserve">Loading characters:</source>
+<target state="translated" xml:space="preserve">载入人物：</target></trans-unit>
+<trans-unit id="1049946" approved="yes">
+<source xml:space="preserve">Loading regions:</source>
+<target state="translated" xml:space="preserve">载入区域：</target></trans-unit>
+<trans-unit id="1049947" approved="no">
+<source xml:space="preserve">Game ownership:</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1049948" approved="yes">
+<source xml:space="preserve">Reload servers</source>
+<target state="translated" xml:space="preserve">刷新服务器</target></trans-unit>
+<trans-unit id="1049949" approved="yes">
+<source xml:space="preserve">email</source>
+<target state="translated" xml:space="preserve">Email</target></trans-unit>
+<trans-unit id="1049950" approved="yes">
+<source xml:space="preserve">Password</source>
+<target state="translated" xml:space="preserve">密码</target></trans-unit>
+<trans-unit id="1049951" approved="yes">
+<source xml:space="preserve">Remember me</source>
+<target state="translated" xml:space="preserve">记住我</target></trans-unit>
+<trans-unit id="1049952" approved="yes">
+<source xml:space="preserve">LOADING</source>
+<target state="translated" xml:space="preserve">正在加载</target></trans-unit>
+<trans-unit id="1049953" approved="yes">
+<source xml:space="preserve">SIGN IN</source>
+<target state="translated" xml:space="preserve">登录</target></trans-unit>
+<trans-unit id="1049954" approved="yes">
+<source xml:space="preserve">players</source>
+<target state="translated" xml:space="preserve">玩家数量</target></trans-unit>
+<trans-unit id="1049955" approved="yes">
+<source xml:space="preserve">Change character</source>
+<target state="translated" xml:space="preserve">更换角色</target></trans-unit>
+<trans-unit id="1049956" approved="yes">
+<source xml:space="preserve">Edit chat title</source>
+<target state="translated" xml:space="preserve">编辑聊天标题</target></trans-unit>
+<trans-unit id="1049957" approved="yes">
+<source xml:space="preserve">Please use 5 to 20 characters</source>
+<target state="translated" xml:space="preserve">请使用5到20个字符</target></trans-unit>
+<trans-unit id="1049958" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1049959" approved="yes">
+<source xml:space="preserve">Save</source>
+<target state="translated" xml:space="preserve">保存</target></trans-unit>
+<trans-unit id="1049960" approved="yes">
+<source xml:space="preserve">Edit username</source>
+<target state="translated" xml:space="preserve">编辑用户名</target></trans-unit>
+<trans-unit id="1049961" approved="yes">
+<source xml:space="preserve">Please use 5 to 20 characters</source>
+<target state="translated" xml:space="preserve">请使用5到20个字符</target></trans-unit>
+<trans-unit id="1049962" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1049963" approved="yes">
+<source xml:space="preserve">Save</source>
+<target state="translated" xml:space="preserve">保存</target></trans-unit>
+<trans-unit id="1049964" approved="yes">
+<source xml:space="preserve">Character Selection</source>
+<target state="translated" xml:space="preserve">角色选择</target></trans-unit>
+<trans-unit id="1049965" approved="yes">
+<source xml:space="preserve">Name</source>
+<target state="translated" xml:space="preserve">姓名</target></trans-unit>
+<trans-unit id="1049966" approved="yes">
+<source xml:space="preserve">World</source>
+<target state="translated" xml:space="preserve">世界</target></trans-unit>
+<trans-unit id="1049967" approved="yes">
+<source xml:space="preserve">Workload</source>
+<target state="translated" xml:space="preserve">工作量</target></trans-unit>
+<trans-unit id="1049968" approved="yes">
+<source xml:space="preserve">Status</source>
+<target state="translated" xml:space="preserve">状态</target></trans-unit>
+<trans-unit id="1049969" approved="yes">
+<source xml:space="preserve">+ Add character</source>
+<target state="translated" xml:space="preserve">+ 添加角色</target></trans-unit>
+<trans-unit id="1049970" approved="yes">
+<source xml:space="preserve">Done</source>
+<target state="translated" xml:space="preserve">完成</target></trans-unit>
+<trans-unit id="1049971" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1049972" approved="yes">
+<source xml:space="preserve">Available</source>
+<target state="translated" xml:space="preserve">可用</target></trans-unit>
+<trans-unit id="1049973" approved="yes">
+<source xml:space="preserve">Unavailable</source>
+<target state="translated" xml:space="preserve">不可用</target></trans-unit>
+<trans-unit id="1049974" approved="yes">
+<source xml:space="preserve">World is full</source>
+<target state="translated" xml:space="preserve">该游戏世界已满员</target></trans-unit>
+<trans-unit id="1049975" approved="yes">
+<source xml:space="preserve">Online</source>
+<target state="translated" xml:space="preserve">在线</target></trans-unit>
+<trans-unit id="1049976" approved="yes">
+<source xml:space="preserve">In game</source>
+<target state="translated" xml:space="preserve">游戏中</target></trans-unit>
+<trans-unit id="1049977" approved="yes">
+<source xml:space="preserve">Away</source>
+<target state="translated" xml:space="preserve">离开</target></trans-unit>
+<trans-unit id="1049978" approved="yes">
+<source xml:space="preserve">Offline</source>
+<target state="translated" xml:space="preserve">离线</target></trans-unit>
+<trans-unit id="1049979" approved="yes">
+<source xml:space="preserve">Chat</source>
+<target state="translated" xml:space="preserve">聊天</target></trans-unit>
+<trans-unit id="1049980" approved="yes">
+<source xml:space="preserve">No users found</source>
+<target state="translated" xml:space="preserve">找不到用户</target></trans-unit>
+<trans-unit id="1049981" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">搜索</target></trans-unit>
+<trans-unit id="1049982" approved="yes">
+<source xml:space="preserve">Enable notifications</source>
+<target state="translated" xml:space="preserve">启用通知</target></trans-unit>
+<trans-unit id="1049983" approved="yes">
+<source xml:space="preserve">Disable notifications</source>
+<target state="translated" xml:space="preserve">禁用通知</target></trans-unit>
+<trans-unit id="1049984" approved="yes">
+<source xml:space="preserve">Settings</source>
+<target state="translated" xml:space="preserve">设置</target></trans-unit>
+<trans-unit id="1049985" approved="yes">
+<source xml:space="preserve">Leave group</source>
+<target state="translated" xml:space="preserve">退出群组</target></trans-unit>
+<trans-unit id="1049986" approved="yes">
+<source xml:space="preserve">+ Create chat</source>
+<target state="translated" xml:space="preserve">创建聊天</target></trans-unit>
+<trans-unit id="1049987" approved="yes">
+<source xml:space="preserve">+ Create channel</source>
+<target state="translated" xml:space="preserve">+ 创建频道</target></trans-unit>
+<trans-unit id="1049988" approved="yes">
+<source xml:space="preserve">Please select chat to start messaging</source>
+<target state="translated" xml:space="preserve">请选择聊天以开始发送消息</target></trans-unit>
+<trans-unit id="1049989" approved="yes">
+<source xml:space="preserve">Connect your social networks and find friends to play with</source>
+<target state="translated" xml:space="preserve">连接您的社交网络与好友一同游戏</target></trans-unit>
+<trans-unit id="1049990" approved="yes">
+<source xml:space="preserve">Connect Facebook</source>
+<target state="translated" xml:space="preserve">连接Facebook</target></trans-unit>
+<trans-unit id="1049991" approved="no">
+<source xml:space="preserve">Connect VK</source>
+<target state="translated" xml:space="preserve">连接VKontakte</target></trans-unit>
+<trans-unit id="1049992" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">搜索</target></trans-unit>
+<trans-unit id="1049993" approved="yes">
+<source xml:space="preserve">Never show this window again</source>
+<target state="translated" xml:space="preserve">不再显示此窗口</target></trans-unit>
+<trans-unit id="1049994" approved="yes">
+<source xml:space="preserve">Skip</source>
+<target state="translated" xml:space="preserve">跳过</target></trans-unit>
+<trans-unit id="1049995" approved="yes">
+<source xml:space="preserve">Back to chat</source>
+<target state="translated" xml:space="preserve">返回聊天</target></trans-unit>
+<trans-unit id="1049996" approved="yes">
+<source xml:space="preserve">members: <ph id="ph1" ctype="x-smartcat">%1</ph></source>
+<target state="translated" xml:space="preserve">成员：<ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1049997" approved="yes">
+<source xml:space="preserve">Edit</source>
+<target state="translated" xml:space="preserve">编辑</target></trans-unit>
+<trans-unit id="1049998" approved="yes">
+<source xml:space="preserve">Members</source>
+<target state="translated" xml:space="preserve">成员</target></trans-unit>
+<trans-unit id="1049999" approved="yes">
+<source xml:space="preserve">+ Add members</source>
+<target state="translated" xml:space="preserve">添加成员</target></trans-unit>
+<trans-unit id="1050000" approved="yes">
+<source xml:space="preserve">Remove</source>
+<target state="translated" xml:space="preserve">删除</target></trans-unit>
+<trans-unit id="1050001" approved="yes">
+<source xml:space="preserve">Create chat</source>
+<target state="translated" xml:space="preserve">创建聊天</target></trans-unit>
+<trans-unit id="1050002" approved="yes">
+<source xml:space="preserve">Invite your friends to chat</source>
+<target state="translated" xml:space="preserve">邀请好友加入聊天</target></trans-unit>
+<trans-unit id="1050003" approved="yes">
+<source xml:space="preserve">Search friends</source>
+<target state="translated" xml:space="preserve">搜索好友</target></trans-unit>
+<trans-unit id="1050004" approved="yes">
+<source xml:space="preserve">New group</source>
+<target state="translated" xml:space="preserve">新建群组</target></trans-unit>
+<trans-unit id="1050005" approved="yes">
+<source xml:space="preserve">New group</source>
+<target state="translated" xml:space="preserve">新建群组</target></trans-unit>
+<trans-unit id="1050006" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1050007" approved="yes">
+<source xml:space="preserve">Add friends</source>
+<target state="translated" xml:space="preserve">添加好友</target></trans-unit>
+<trans-unit id="1050008" approved="yes">
+<source xml:space="preserve">Back</source>
+<target state="translated" xml:space="preserve">返回</target></trans-unit>
+<trans-unit id="1050009" approved="yes">
+<source xml:space="preserve">Step <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">步骤<ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1050010" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<trans-unit id="1050011" approved="yes">
+<source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
+<target state="translated" xml:space="preserve">以字母开头，名称不得超过20个字符。</target></trans-unit>
+<trans-unit id="1050012" approved="yes">
+<source xml:space="preserve">Group chat name</source>
+<target state="translated" xml:space="preserve">群聊名称</target></trans-unit>
+<trans-unit id="1050013" approved="yes">
+<source xml:space="preserve">Please use 5 to 20 characters</source>
+<target state="translated" xml:space="preserve">请使用5到20个字符</target></trans-unit>
+<trans-unit id="1050014" approved="yes">
+<source xml:space="preserve">Invite friends to group</source>
+<target state="translated" xml:space="preserve">邀请好友加入群组</target></trans-unit>
+<trans-unit id="1050015" approved="yes">
+<source xml:space="preserve">Search friends</source>
+<target state="translated" xml:space="preserve">搜索好友</target></trans-unit>
+<trans-unit id="1050016" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050017" approved="yes">
+<source xml:space="preserve">Error Report</source>
+<target state="translated" xml:space="preserve">错误报告</target></trans-unit>
+<trans-unit id="1050018" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">错误</target></trans-unit>
+<trans-unit id="1050019" approved="yes">
+<source xml:space="preserve">A fatal error has occured. Application will be closed.</source>
+<target state="translated" xml:space="preserve">发生严重错误。应用程序将被关闭。</target></trans-unit>
+<trans-unit id="1050020" approved="yes">
+<source xml:space="preserve">Sending error data</source>
+<target state="translated" xml:space="preserve">正在发送错误数据</target></trans-unit>
+<trans-unit id="1050021" approved="yes">
+<source xml:space="preserve">Report problem</source>
+<target state="translated" xml:space="preserve">报告问题</target></trans-unit>
+<trans-unit id="1050022" approved="yes">
+<source xml:space="preserve">OK</source>
+<target state="translated" xml:space="preserve">确定</target></trans-unit>
+<trans-unit id="1050023" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1050024" approved="yes">
+<source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
+<target state="translated" xml:space="preserve">发生严重错误。四肢无力，视线模糊，梦想抛诸脑后，赶紧开溜吧。</target></trans-unit>
+<trans-unit id="1050025" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">错误</target></trans-unit>
+<trans-unit id="1050026" approved="yes">
+<source xml:space="preserve">OK</source>
+<target state="translated" xml:space="preserve">确定</target></trans-unit>
+<trans-unit id="1050027" approved="yes">
+<source xml:space="preserve">Search friends by nickname</source>
+<target state="translated" xml:space="preserve">根据昵称搜索好友</target></trans-unit>
+<trans-unit id="1050028" approved="yes">
+<source xml:space="preserve">No users found</source>
+<target state="translated" xml:space="preserve">找不到用户</target></trans-unit>
+<trans-unit id="1050029" approved="yes">
+<source xml:space="preserve">Request sent</source>
+<target state="translated" xml:space="preserve">已发送请求</target></trans-unit>
+<trans-unit id="1050030" approved="yes">
+<source xml:space="preserve">Send request</source>
+<target state="translated" xml:space="preserve">发送请求</target></trans-unit>
+<trans-unit id="1050031" approved="yes">
+<source xml:space="preserve">Send request</source>
+<target state="translated" xml:space="preserve">发送请求</target></trans-unit>
+<trans-unit id="1050032" approved="yes">
+<source xml:space="preserve">Request send</source>
+<target state="translated" xml:space="preserve">已发送请求</target></trans-unit>
+<trans-unit id="1050033" approved="yes">
+<source xml:space="preserve">Invite</source>
+<target state="translated" xml:space="preserve">邀请</target></trans-unit>
+<trans-unit id="1050034" approved="yes">
+<source xml:space="preserve">Invited</source>
+<target state="translated" xml:space="preserve">已邀请</target></trans-unit>
+<trans-unit id="1050035" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">删除</target></trans-unit>
+<trans-unit id="1050036" approved="yes">
+<source xml:space="preserve">Confirm</source>
+<target state="translated" xml:space="preserve">确认</target></trans-unit>
+<trans-unit id="1050037" approved="yes">
+<source xml:space="preserve">Cancel request</source>
+<target state="translated" xml:space="preserve">取消请求</target></trans-unit>
+<trans-unit id="1050038" approved="yes">
+<source xml:space="preserve">Playing <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve">正在玩<ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050039" approved="yes">
+<source xml:space="preserve">Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
+<target state="translated" xml:space="preserve">上一次在线：<ph id="ph1" ctype="x-smartcat">%1</ph>小时前</target></trans-unit>
+<trans-unit id="1050040" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friend</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph>个共同好友</target></trans-unit>
+<trans-unit id="1050041" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friends</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph>个共同好友</target></trans-unit>
+<trans-unit id="1050042" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">删除</target></trans-unit>
+<trans-unit id="1050043" approved="yes">
+<source xml:space="preserve">Block</source>
+<target state="translated" xml:space="preserve">加入黑名单</target></trans-unit>
+<trans-unit id="1050044" approved="yes">
+<source xml:space="preserve">Start chat</source>
+<target state="translated" xml:space="preserve">开始聊天</target></trans-unit>
+<trans-unit id="1050045" approved="yes">
+<source xml:space="preserve">Unblock</source>
+<target state="translated" xml:space="preserve">取消阻止</target></trans-unit>
+<trans-unit id="1050046" approved="yes">
+<source xml:space="preserve">Add a Friend</source>
+<target state="translated" xml:space="preserve">添加好友</target></trans-unit>
+<trans-unit id="1050047" approved="yes">
+<source xml:space="preserve">Friends</source>
+<target state="translated" xml:space="preserve">好友</target></trans-unit>
+<trans-unit id="1050048" approved="yes">
+<source xml:space="preserve">+ Find friends</source>
+<target state="translated" xml:space="preserve">查找好友</target></trans-unit>
+<trans-unit id="1050049" approved="yes">
+<source xml:space="preserve">Requests</source>
+<target state="translated" xml:space="preserve">请求</target></trans-unit>
+<trans-unit id="1050050" approved="yes">
+<source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</source>
+<target state="translated" xml:space="preserve">正在下载：<ph id="ph1" ctype="x-smartcat">%1</ph> Mb，共<ph id="ph2" ctype="x-smartcat">%2</ph> Mb，速度为<ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</target></trans-unit>
+<trans-unit id="1050051" approved="yes">
+<source xml:space="preserve">Extracting: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb remaining</source>
+<target state="translated" xml:space="preserve">正在提取：剩余<ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb</target></trans-unit>
+<trans-unit id="1050052" approved="yes">
+<source xml:space="preserve">Uninstalling: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
+<target state="translated" xml:space="preserve">正在卸载：<ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<trans-unit id="1050053" approved="yes">
+<source xml:space="preserve">PLAY</source>
+<target state="translated" xml:space="preserve">开始游戏</target></trans-unit>
+<trans-unit id="1050054" approved="yes">
+<source xml:space="preserve">INSTALL</source>
+<target state="translated" xml:space="preserve">安装</target></trans-unit>
+<trans-unit id="1050055" approved="yes">
+<source xml:space="preserve">Buy</source>
+<target state="translated" xml:space="preserve">购买</target></trans-unit>
+<trans-unit id="1050056" approved="no">
+<source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1050057" approved="yes">
+<source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
+<target state="translated" xml:space="preserve">正在修复数据：剩余<ph id="ph1" ctype="x-smartcat">%1</ph> Mb</target></trans-unit>
+<trans-unit id="1050058" approved="yes">
+<source xml:space="preserve">Nothing here. King is at loss</source>
+<target state="translated" xml:space="preserve">无任何内容。</target></trans-unit>
+<trans-unit id="1050059" approved="yes">
+<source xml:space="preserve">Support</source>
+<target state="translated" xml:space="preserve">支持</target></trans-unit>
+<trans-unit id="1050060" approved="yes">
+<source xml:space="preserve">If the game is already installed</source>
+<target state="translated" xml:space="preserve">如果本游戏已安装</target></trans-unit>
+<trans-unit id="1050061" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<trans-unit id="1050062" approved="yes">
+<source xml:space="preserve">Install</source>
+<target state="translated" xml:space="preserve">安装</target></trans-unit>
+<trans-unit id="1050063" approved="yes">
+<source xml:space="preserve">Community</source>
+<target state="translated" xml:space="preserve">社区</target></trans-unit>
+<trans-unit id="1050064" approved="yes">
+<source xml:space="preserve">Repair</source>
+<target state="translated" xml:space="preserve">修复</target></trans-unit>
+<trans-unit id="1050065" approved="yes">
+<source xml:space="preserve">Uninstall</source>
+<target state="translated" xml:space="preserve">卸载</target></trans-unit>
+<trans-unit id="1050066" approved="yes">
+<source xml:space="preserve">Options</source>
+<target state="translated" xml:space="preserve">选项</target></trans-unit>
+<trans-unit id="1050067" approved="yes">
+<source xml:space="preserve">Can't find game in selected folder.</source>
+<target state="translated" xml:space="preserve">所选文件夹中找不到游戏</target></trans-unit>
+<trans-unit id="1050068" approved="yes">
+<source xml:space="preserve">You cannot use selected game for the current region.</source>
+<target state="translated" xml:space="preserve">当前区域不能使用所选游戏。</target></trans-unit>
+<trans-unit id="1050069" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050070" approved="yes">
+<source xml:space="preserve">Install Directory</source>
+<target state="translated" xml:space="preserve">安装目录</target></trans-unit>
+<trans-unit id="1050071" approved="yes">
+<source xml:space="preserve">Change</source>
+<target state="translated" xml:space="preserve">更改</target></trans-unit>
+<trans-unit id="1050072" approved="yes">
+<source xml:space="preserve">Disk Space</source>
+<target state="translated" xml:space="preserve">硬盘空间</target></trans-unit>
+<trans-unit id="1050073" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1050074" approved="yes">
+<source xml:space="preserve">Install</source>
+<target state="translated" xml:space="preserve">安装</target></trans-unit>
+<trans-unit id="1050075" approved="yes">
+<source xml:space="preserve">Select path for install..</source>
+<target state="translated" xml:space="preserve">选择安装路径..</target></trans-unit>
+<trans-unit id="1050076" approved="yes">
+<source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
+<target state="translated" xml:space="preserve">无法使用该目录安装游戏。请选择其他目录进行安装。</target></trans-unit>
+<trans-unit id="1050077" approved="yes">
+<source xml:space="preserve">Language</source>
+<target state="translated" xml:space="preserve">语言</target></trans-unit>
+<trans-unit id="1050078" approved="yes">
+<source xml:space="preserve">Account</source>
+<target state="translated" xml:space="preserve">帐户</target></trans-unit>
+<trans-unit id="1050079" approved="yes">
+<source xml:space="preserve">Remember me</source>
+<target state="translated" xml:space="preserve">记住我</target></trans-unit>
+<trans-unit id="1050080" approved="yes">
+<source xml:space="preserve">Downloads</source>
+<target state="translated" xml:space="preserve">下载</target></trans-unit>
+<trans-unit id="1050081" approved="yes">
+<source xml:space="preserve">Use p2p connection</source>
+<target state="translated" xml:space="preserve">使用点到点连接</target></trans-unit>
+<trans-unit id="1050082" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph>精彩视频</target></trans-unit>
+<trans-unit id="1050083" approved="yes">
+<source xml:space="preserve">Time Lapse Collection</source>
+<target state="translated" xml:space="preserve">精彩视频合集</target></trans-unit>
+<trans-unit id="1050084" approved="yes">
+<source xml:space="preserve">Last update:</source>
+<target state="translated" xml:space="preserve">上一次更新：</target></trans-unit>
+<trans-unit id="1050085" approved="yes">
+<source xml:space="preserve">Update</source>
+<target state="translated" xml:space="preserve">更新</target></trans-unit>
+<trans-unit id="1050086" approved="yes">
+<source xml:space="preserve">Progress: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
+<target state="translated" xml:space="preserve">进度：<ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<trans-unit id="1050087" approved="yes">
+<source xml:space="preserve">Checking updates</source>
+<target state="translated" xml:space="preserve">正在检查更新</target></trans-unit>
+<trans-unit id="1050088" approved="yes">
+<source xml:space="preserve">Downloading launcher update</source>
+<target state="translated" xml:space="preserve">正在下载启动器更新</target></trans-unit>
+<trans-unit id="1050089" approved="yes">
+<source xml:space="preserve">Unpacking launcher update</source>
+<target state="translated" xml:space="preserve">正在提取启动器更新</target></trans-unit>
+<trans-unit id="1050090" approved="yes">
+<source xml:space="preserve">Online</source>
+<target state="translated" xml:space="preserve">在线</target></trans-unit>
+<trans-unit id="1050091" approved="yes">
+<source xml:space="preserve">Away</source>
+<target state="translated" xml:space="preserve">离开</target></trans-unit>
+<trans-unit id="1050092" approved="yes">
+<source xml:space="preserve">Settings</source>
+<target state="translated" xml:space="preserve">设置</target></trans-unit>
+<trans-unit id="1050093" approved="yes">
+<source xml:space="preserve">Log Out</source>
+<target state="translated" xml:space="preserve">注销</target></trans-unit>
+<trans-unit id="1050094" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050095" approved="yes">
+<source xml:space="preserve">Error! Network list is empty!</source>
+<target state="translated" xml:space="preserve">错误！网络列表为空！</target></trans-unit>
+<trans-unit id="1050096" approved="yes">
+<source xml:space="preserve">Sign in with VK</source>
+<target state="translated" xml:space="preserve">使用 VK 登录</target></trans-unit>
+<trans-unit id="1050097" approved="yes">
+<source xml:space="preserve">Sign in with Facebook</source>
+<target state="translated" xml:space="preserve">使用 Facebook 登录</target></trans-unit>
+<trans-unit id="1050098" approved="yes">
+<source xml:space="preserve">Sign in with Google</source>
+<target state="translated" xml:space="preserve">使用 Google 登录</target></trans-unit>
+<trans-unit id="1050099" approved="yes">
+<source xml:space="preserve">Sign in with Steam</source>
+<target state="translated" xml:space="preserve">使用 Steam 登录</target></trans-unit>
+<trans-unit id="1050100" approved="yes">
+<source xml:space="preserve">Sign in with Twitter</source>
+<target state="translated" xml:space="preserve">使用 Twitter 登录</target></trans-unit>
+<trans-unit id="1050101" approved="yes">
+<source xml:space="preserve">Sign in with Naver</source>
+<target state="translated" xml:space="preserve">使用 Nave 登录</target></trans-unit>
+<trans-unit id="1050102" approved="yes">
+<source xml:space="preserve">Sign in with Baidu</source>
+<target state="translated" xml:space="preserve">使用 Baidu 登录</target></trans-unit>
+<trans-unit id="1050103" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">错误</target></trans-unit>
+<trans-unit id="1050104" approved="yes">
+<source xml:space="preserve">Failed loading social providers</source>
+<target state="translated" xml:space="preserve">加载社交网络供应商信息失败</target></trans-unit>
+<trans-unit id="1050105" approved="yes">
+<source xml:space="preserve">Social auth failed.</source>
+<target state="translated" xml:space="preserve">社交网络帐户认证失败。</target></trans-unit>
+<trans-unit id="1050106" approved="yes">
+<source xml:space="preserve">There was a problem with your request. Please try again.</source>
+<target state="translated" xml:space="preserve">您的请求遇到暂时性问题。请重试。</target></trans-unit>
+<trans-unit id="1050107" approved="yes">
+<source xml:space="preserve">Forgot password?</source>
+<target state="translated" xml:space="preserve">忘记密码？</target></trans-unit>
+<trans-unit id="1050108" approved="yes">
+<source xml:space="preserve">Create an account</source>
+<target state="translated" xml:space="preserve">创建帐户</target></trans-unit>
+<trans-unit id="1050109" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1050110" approved="yes">
+<source xml:space="preserve">Loading the list of regions - please wait</source>
+<target state="translated" xml:space="preserve">正在载入地区列表 - 请稍候</target></trans-unit>
+<trans-unit id="1050111" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<trans-unit id="1050112" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<trans-unit id="1050113" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<trans-unit id="1050114" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<trans-unit id="1050115" approved="yes">
+<source xml:space="preserve">Failed gettings characters information</source>
+<target state="translated" xml:space="preserve">获取角色信息失败</target></trans-unit>
+<trans-unit id="1050116" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050117" approved="yes">
+<source xml:space="preserve">Authentication failed.</source>
+<target state="translated" xml:space="preserve">认证失败</target></trans-unit>
+<trans-unit id="1050118" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">错误</target></trans-unit>
+<trans-unit id="1050119" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050120" approved="yes">
+<source xml:space="preserve">Game installation failed with error<ph id="ph1" ctype="x-smartcat">\n</ph></source>
+<target state="translated" xml:space="preserve">发生错误，游戏安装失败<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
+<trans-unit id="1050121" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph>                            请重试。</target></trans-unit>
+<trans-unit id="1050122" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
+<target state="translated" xml:space="preserve">提供<ph id="ph1" ctype="x-smartcat">%1</ph>精彩视频！</target></trans-unit>
+<trans-unit id="1050123" approved="yes">
+<source xml:space="preserve">Game</source>
+<target state="translated" xml:space="preserve">游戏</target></trans-unit>
+<trans-unit id="1050124" approved="yes">
+<source xml:space="preserve">News</source>
+<target state="translated" xml:space="preserve">新闻</target></trans-unit>
+<trans-unit id="1050125" approved="yes">
+<source xml:space="preserve">Highlights</source>
+<target state="translated" xml:space="preserve">精彩聚焦</target></trans-unit>
+<trans-unit id="1050126" approved="yes">
+<source xml:space="preserve">Store</source>
+<target state="translated" xml:space="preserve">商店</target></trans-unit>
+<trans-unit id="1050127" approved="yes">
+<source xml:space="preserve">Extracting</source>
+<target state="translated" xml:space="preserve">正在提取</target></trans-unit>
+<trans-unit id="1050128" approved="yes">
+<source xml:space="preserve">Repairing</source>
+<target state="translated" xml:space="preserve">正在修复</target></trans-unit>
+<trans-unit id="1050129" approved="yes">
+<source xml:space="preserve">Downloading</source>
+<target state="translated" xml:space="preserve">正在下载</target></trans-unit>
+<trans-unit id="1050130" approved="yes">
+<source xml:space="preserve">Can't close launcher, while game is running</source>
+<target state="translated" xml:space="preserve">游戏运行时无法关闭启动器</target></trans-unit>
+<trans-unit id="1050131" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 被 <ph id="ph2" ctype="x-smartcat">%2</ph> 邀请加入聊天。</target></trans-unit>
+<trans-unit id="1050132" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
+<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 离开聊天</target></trans-unit>
+<trans-unit id="1050133" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 被 <ph id="ph2" ctype="x-smartcat">%2</ph> 从聊天中移除</target></trans-unit>
+<trans-unit id="1050134" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 创建了聊天 <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1050135" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 将聊天标题更改为 <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1050136" approved="yes">
+<source xml:space="preserve">Type a message</source>
+<target state="translated" xml:space="preserve">输入消息</target></trans-unit>
+<trans-unit id="1050137" approved="yes">
+<source xml:space="preserve">Send</source>
+<target state="translated" xml:space="preserve">发送</target></trans-unit>
+<trans-unit id="1050138" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> 已将您加入好友列表。将其也加入到您的好友列表并继续聊天。</target></trans-unit>
+<trans-unit id="1050139" approved="yes">
+<source xml:space="preserve">Confirm</source>
+<target state="translated" xml:space="preserve">确认</target></trans-unit>
+<trans-unit id="1050140" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">删除</target></trans-unit>
+<trans-unit id="1050141" approved="yes">
+<source xml:space="preserve">Please select chat to start messaging</source>
+<target state="translated" xml:space="preserve">请选择聊天以开始发送消息</target></trans-unit>
+<trans-unit id="1050142" approved="yes">
+<source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
+<target state="translated" xml:space="preserve">哎呀！少了点什么。这里似乎没有你的消息！</target></trans-unit>
+<trans-unit id="1050143" approved="yes">
+<source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
+<target state="translated" xml:space="preserve">我们正在修理中世纪发动机（又名水车），请稍后再试！</target></trans-unit>
+<trans-unit id="1050144" approved="yes">
+<source xml:space="preserve">All News</source>
+<target state="translated" xml:space="preserve">全部新闻</target></trans-unit>
+<trans-unit id="1050145" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<trans-unit id="1050146" approved="yes">
+<source xml:space="preserve">Region</source>
+<target state="translated" xml:space="preserve">地区</target></trans-unit>
+<trans-unit id="1050147" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<trans-unit id="1050148" approved="yes">
+<source xml:space="preserve">New friend requests</source>
+<target state="translated" xml:space="preserve">添加好友请求</target></trans-unit>
+<trans-unit id="1050149" approved="yes">
+<source xml:space="preserve">Confirm</source>
+<target state="translated" xml:space="preserve">确认</target></trans-unit>
+<trans-unit id="1050150" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">删除</target></trans-unit>
+<trans-unit id="1050151" approved="yes">
+<source xml:space="preserve">sent requests</source>
+<target state="translated" xml:space="preserve">已发送的请求</target></trans-unit>
+<trans-unit id="1050152" approved="yes">
+<source xml:space="preserve">Cancel request</source>
+<target state="translated" xml:space="preserve">取消请求</target></trans-unit>
+<trans-unit id="1050153" approved="yes">
+<source xml:space="preserve">Create username</source>
+<target state="translated" xml:space="preserve">创建用户名</target></trans-unit>
+<trans-unit id="1050154" approved="yes">
+<source xml:space="preserve">Step 1/2</source>
+<target state="translated" xml:space="preserve">步骤1/2</target></trans-unit>
+<trans-unit id="1050155" approved="yes">
+<source xml:space="preserve">Welcome to chat. Set your username so your friends can find you.</source>
+<target state="translated" xml:space="preserve">欢迎使用聊天。请设置您的用户名以便好友能搜索到您。</target></trans-unit>
+<trans-unit id="1050156" approved="yes">
+<source xml:space="preserve">Add a friend</source>
+<target state="translated" xml:space="preserve">添加好友</target></trans-unit>
+<trans-unit id="1050157" approved="yes">
+<source xml:space="preserve">Step 2/2</source>
+<target state="translated" xml:space="preserve">步骤2/2</target></trans-unit>
+<trans-unit id="1050158" approved="yes">
+<source xml:space="preserve">Add friend to start messaging. Search by typing email or nickname.</source>
+<target state="translated" xml:space="preserve">添加好友开始发送聊天消息。可输入电子邮件或昵称来搜索好友。</target></trans-unit>
+<trans-unit id="1050159" approved="yes">
+<source xml:space="preserve">+ Add</source>
+<target state="translated" xml:space="preserve">添加</target></trans-unit>
+<trans-unit id="1050160" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<trans-unit id="1050161" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050162" approved="yes">
+<source xml:space="preserve">Settings</source>
+<target state="translated" xml:space="preserve">设置</target></trans-unit>
+<trans-unit id="1050163" approved="yes">
+<source xml:space="preserve">General</source>
+<target state="translated" xml:space="preserve">常规</target></trans-unit>
+<trans-unit id="1050164" approved="yes">
+<source xml:space="preserve">Sound</source>
+<target state="translated" xml:space="preserve">声音</target></trans-unit>
+<trans-unit id="1050165" approved="yes">
+<source xml:space="preserve">Chat</source>
+<target state="translated" xml:space="preserve">聊天</target></trans-unit>
+<trans-unit id="1050166" approved="yes">
+<source xml:space="preserve">Account</source>
+<target state="translated" xml:space="preserve">帐户</target></trans-unit>
+<trans-unit id="1050167" approved="yes">
+<source xml:space="preserve">Reset to Defaults</source>
+<target state="translated" xml:space="preserve">重置为默认设置</target></trans-unit>
+<trans-unit id="1050168" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">取消</target></trans-unit>
+<trans-unit id="1050169" approved="yes">
+<source xml:space="preserve">Done</source>
+<target state="translated" xml:space="preserve">完成</target></trans-unit>
+<trans-unit id="1050170" approved="yes">
+<source xml:space="preserve">Share</source>
+<target state="translated" xml:space="preserve">分享</target></trans-unit>
+<trans-unit id="1050171" approved="yes">
+<source xml:space="preserve">Direct link</source>
+<target state="translated" xml:space="preserve">直接链接</target></trans-unit>
+<trans-unit id="1050172" approved="yes">
+<source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
+<target state="translated" xml:space="preserve">连接您的社交网络 <ph id="ph1" ctype="x-smartcat">\n</ph>                            与好友一起玩游戏</target></trans-unit>
+<trans-unit id="1050173" approved="yes">
+<source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
+<target state="translated" xml:space="preserve">连接 <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1050174" approved="yes">
+<source xml:space="preserve">Never show this window again</source>
+<target state="translated" xml:space="preserve">不再显示此窗口</target></trans-unit>
+<trans-unit id="1050175" approved="yes">
+<source xml:space="preserve">Skip</source>
+<target state="translated" xml:space="preserve">跳过</target></trans-unit>
+<trans-unit id="1050176" approved="no">
+<source xml:space="preserve">Visit us on:</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1050177" approved="no">
+<source xml:space="preserve">Find us on Social Media</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1050178" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">搜索</target></trans-unit>
+<trans-unit id="1050179" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">搜索</target></trans-unit>
+<trans-unit id="1050180" approved="yes">
+<source xml:space="preserve">Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
+<target state="translated" xml:space="preserve">根据昵称搜索<ph id="ph1" ctype="x-smartcat">%1</ph>好友</target></trans-unit>
+<trans-unit id="1050181" approved="yes">
+<source xml:space="preserve">Already playing</source>
+<target state="translated" xml:space="preserve">已在游戏中</target></trans-unit>
+<trans-unit id="1050182" approved="yes">
+<source xml:space="preserve">Invite</source>
+<target state="translated" xml:space="preserve">邀请</target></trans-unit>
+<trans-unit id="1050183" approved="yes">
+<source xml:space="preserve">Sound section</source>
+<target state="translated" xml:space="preserve">声音选择</target></trans-unit>
+<trans-unit id="1050184" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1050185" approved="yes">
+<source xml:space="preserve">Loading the list of regions - please wait</source>
+<target state="translated" xml:space="preserve">正在载入地区列表 - 请稍候</target></trans-unit>
+<trans-unit id="1050186" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<trans-unit id="1050187" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<trans-unit id="1050188" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<trans-unit id="1050189" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<trans-unit id="1050190" approved="yes">
+<source xml:space="preserve">Enter your email address</source>
+<target state="translated" xml:space="preserve">输入您的邮件地址</target></trans-unit>
+<trans-unit id="1050191" approved="yes">
+<source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
+<target state="translated" xml:space="preserve">确认邮件将会发送到指定邮箱</target></trans-unit>
+<trans-unit id="1050192" approved="yes">
+<source xml:space="preserve">Send</source>
+<target state="translated" xml:space="preserve">发送</target></trans-unit>
+<trans-unit id="1050193" approved="yes">
+<source xml:space="preserve">Invalid email address</source>
+<target state="translated" xml:space="preserve">邮件地址已被他人使用</target></trans-unit>
+<trans-unit id="1050194" approved="yes">
+<source xml:space="preserve">Email was sent</source>
+<target state="translated" xml:space="preserve">邮件已发送</target></trans-unit>
+<trans-unit id="1050195" approved="yes">
+<source xml:space="preserve">Please check your email and confirm the registration</source>
+<target state="translated" xml:space="preserve">请检查您的邮箱并确认注册</target></trans-unit>
+<trans-unit id="1050196" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050197" approved="yes">
+<source xml:space="preserve">Authentication failed.</source>
+<target state="translated" xml:space="preserve">认证失败</target></trans-unit>
+<trans-unit id="1050198" approved="yes">
+<source xml:space="preserve">E-mail</source>
+<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<trans-unit id="1050199" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">错误</target></trans-unit>
+<trans-unit id="1050200" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1050201" approved="yes">
+<source xml:space="preserve">Loading the list of regions - please wait</source>
+<target state="translated" xml:space="preserve">正在载入地区列表 - 请稍候</target></trans-unit>
+<trans-unit id="1050202" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<trans-unit id="1050203" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<trans-unit id="1050204" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<trans-unit id="1050205" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<trans-unit id="1050206" approved="yes">
+<source xml:space="preserve">Enter your email address</source>
+<target state="translated" xml:space="preserve">输入您的邮件地址</target></trans-unit>
+<trans-unit id="1050207" approved="yes">
+<source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
+<target state="translated" xml:space="preserve">确认邮件将会发送到指定邮箱</target></trans-unit>
+<trans-unit id="1050208" approved="yes">
+<source xml:space="preserve">Send</source>
+<target state="translated" xml:space="preserve">发送</target></trans-unit>
+<trans-unit id="1050209" approved="yes">
+<source xml:space="preserve">Invalid email address</source>
+<target state="translated" xml:space="preserve">邮件地址已被他人使用</target></trans-unit>
+<trans-unit id="1050210" approved="yes">
+<source xml:space="preserve">Email was sent</source>
+<target state="translated" xml:space="preserve">邮件已发送</target></trans-unit>
+<trans-unit id="1050211" approved="yes">
+<source xml:space="preserve">Please check your email and confirm the registration</source>
+<target state="translated" xml:space="preserve">请检查您的邮箱并确认注册</target></trans-unit>
+<trans-unit id="1050212" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1050213" approved="yes">
+<source xml:space="preserve">Authentication failed.</source>
+<target state="translated" xml:space="preserve">认证失败</target></trans-unit>
+<trans-unit id="1050214" approved="yes">
+<source xml:space="preserve">E-mail</source>
+<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<trans-unit id="1050215" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">错误</target></trans-unit>
+<trans-unit id="1050216" approved="yes">
+<source xml:space="preserve">Something goes wrong...</source>
+<target state="translated" xml:space="preserve">出现问题...</target></trans-unit>
+<trans-unit id="1050217" approved="yes">
+<source xml:space="preserve">Store loading failed</source>
+<target state="translated" xml:space="preserve">加载商店失败</target></trans-unit>
+<trans-unit id="1050218" approved="yes">
+<source xml:space="preserve">Refresh page</source>
+<target state="translated" xml:space="preserve">刷新页面</target></trans-unit>
+<trans-unit id="1050219" approved="yes">
+<source xml:space="preserve">Reopen store</source>
+<target state="translated" xml:space="preserve">重新打开商店</target></trans-unit>
+<trans-unit id="1050220" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph> loading failed</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph>加载失败</target></trans-unit>
+<trans-unit id="1050221" approved="yes">
+<source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
+<target state="translated" xml:space="preserve">请稍候，将不使用<ph id="ph1" ctype="x-smartcat">Steam overlay</ph>打开商店</target></trans-unit>
+<trans-unit id="1050222" approved="no">
+<source xml:space="preserve">Refresh</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1050223" approved="no">
+<source xml:space="preserve">Forward</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1050224" approved="yes">
+<source xml:space="preserve">Back</source>
+<target state="translated" xml:space="preserve">返回</target></trans-unit>
+<trans-unit id="1050225" approved="yes">
+<source xml:space="preserve">Share</source>
+<target state="translated" xml:space="preserve">分享</target></trans-unit>
+<trans-unit id="1050226" approved="yes">
+<source xml:space="preserve">Downloading assets...</source>
+<target state="translated" xml:space="preserve">正在下载资源...</target></trans-unit>
+<trans-unit id="1050227" approved="yes">
+<source xml:space="preserve">Unpacking assets...</source>
+<target state="translated" xml:space="preserve">正在解压缩资源...</target></trans-unit>
+<trans-unit id="1050228" approved="yes">
+<source xml:space="preserve">World is loading</source>
+<target state="translated" xml:space="preserve">正在加载游戏世界...</target></trans-unit>
+<trans-unit id="1050229" approved="yes">
+<source xml:space="preserve">Close</source>
+<target state="translated" xml:space="preserve">关闭</target></trans-unit>
+<trans-unit id="1050230" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit></body></file></xliff>
