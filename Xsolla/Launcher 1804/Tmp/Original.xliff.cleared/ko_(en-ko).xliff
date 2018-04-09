@@ -1,1177 +1,886 @@
 <?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:26:41.5103293Z" original="2148619_1042" source-language="en" target-language="ko"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
 <trans-unit id="1048152" approved="yes"><source xml:space="preserve">
 Username</source>
-<target state="translated" xml:space="preserve">
-사용자 이름</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048153" approved="yes"><source xml:space="preserve">
 Edit</source>
-<target state="translated" xml:space="preserve">
-편집</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048154" approved="yes"><source xml:space="preserve">
 Disconnect</source>
-<target state="translated" xml:space="preserve">
-연결 해제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048155" approved="yes"><source xml:space="preserve">
 Add another network</source>
-<target state="translated" xml:space="preserve">
-SNS 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048156" approved="yes"><source xml:space="preserve">
 Add users</source>
-<target state="translated" xml:space="preserve">
-사용자 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048157" approved="yes"><source xml:space="preserve">
 Invite friends to group</source>
-<target state="translated" xml:space="preserve">
-그룹으로 친구 초대</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048158" approved="yes"><source xml:space="preserve">
 Search friends</source>
-<target state="translated" xml:space="preserve">
-친구 검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048159" approved="yes"><source xml:space="preserve">
 Add</source>
-<target state="translated" xml:space="preserve">
-추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048160" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048161" approved="yes"><source xml:space="preserve">
 Game Servers Problem</source>
-<target state="translated" xml:space="preserve">
-게임 서버 문제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048162" approved="yes"><source xml:space="preserve">
 We're experiencing technical problem with game servers. Please click Reload to check status.</source>
-<target state="translated" xml:space="preserve">
-게임 서버에 기술적 문제가 발생했습니다. 다시 로드를 클릭해서 상태를 확인하십시오.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048163" approved="yes"><source xml:space="preserve">
 Loading characters:</source>
-<target state="translated" xml:space="preserve">
-캐릭터 로딩중:</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048164" approved="yes"><source xml:space="preserve">
 Loading regions:</source>
-<target state="translated" xml:space="preserve">
-지역 로딩중:</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048165" approved="no"><source xml:space="preserve">
 Game ownership:</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1048166" approved="yes"><source xml:space="preserve">
 Reload servers</source>
-<target state="translated" xml:space="preserve">
-서버 다시 로드</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048167" approved="yes"><source xml:space="preserve">
 email</source>
-<target state="translated" xml:space="preserve">
-Email</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048168" approved="yes"><source xml:space="preserve">
 Password</source>
-<target state="translated" xml:space="preserve">
-암호</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048169" approved="yes"><source xml:space="preserve">
 Remember me</source>
-<target state="translated" xml:space="preserve">
-자동 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048170" approved="yes"><source xml:space="preserve">
 LOADING</source>
-<target state="translated" xml:space="preserve">
-로드 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048171" approved="yes"><source xml:space="preserve">
 SIGN IN</source>
-<target state="translated" xml:space="preserve">
-로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048172" approved="yes"><source xml:space="preserve">
 players</source>
-<target state="translated" xml:space="preserve">
-플레이어</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048173" approved="yes"><source xml:space="preserve">
 Change character</source>
-<target state="translated" xml:space="preserve">
-캐릭터 변경</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048174" approved="yes"><source xml:space="preserve">
 Edit chat title</source>
-<target state="translated" xml:space="preserve">
-채팅 제목 편집</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048175" approved="yes"><source xml:space="preserve">
 Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">
-5자에서 20자 사이여야 합니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048176" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048177" approved="yes"><source xml:space="preserve">
 Save</source>
-<target state="translated" xml:space="preserve">
-저장</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048178" approved="yes"><source xml:space="preserve">
 Edit username</source>
-<target state="translated" xml:space="preserve">
-사용자 이름 편집</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048179" approved="yes"><source xml:space="preserve">
 Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">
-5자에서 20자 사이여야 합니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048180" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048181" approved="yes"><source xml:space="preserve">
 Save</source>
-<target state="translated" xml:space="preserve">
-저장</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048182" approved="yes"><source xml:space="preserve">
 Character Selection</source>
-<target state="translated" xml:space="preserve">
-캐릭터 선택</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048183" approved="yes"><source xml:space="preserve">
 Name</source>
-<target state="translated" xml:space="preserve">
-이름</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048184" approved="yes"><source xml:space="preserve">
 World</source>
-<target state="translated" xml:space="preserve">
-세계</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048185" approved="yes"><source xml:space="preserve">
 Workload</source>
-<target state="translated" xml:space="preserve">
-워크로드</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048186" approved="yes"><source xml:space="preserve">
 Status</source>
-<target state="translated" xml:space="preserve">
-상태</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048187" approved="yes"><source xml:space="preserve">
 + Add character</source>
-<target state="translated" xml:space="preserve">
-+ 캐릭터 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048188" approved="yes"><source xml:space="preserve">
 Done</source>
-<target state="translated" xml:space="preserve">
-완료</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048189" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048190" approved="yes"><source xml:space="preserve">
 Available</source>
-<target state="translated" xml:space="preserve">
-이용 가능</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048191" approved="yes"><source xml:space="preserve">
 Unavailable</source>
-<target state="translated" xml:space="preserve">
-이용 불가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048192" approved="yes"><source xml:space="preserve">
 World is full</source>
-<target state="translated" xml:space="preserve">
-세계의 정원이 가득 찼습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048193" approved="yes"><source xml:space="preserve">
 Online</source>
-<target state="translated" xml:space="preserve">
-온라인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048194" approved="yes"><source xml:space="preserve">
 In game</source>
-<target state="translated" xml:space="preserve">
-게임 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048195" approved="yes"><source xml:space="preserve">
 Away</source>
-<target state="translated" xml:space="preserve">
-자리비움</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048196" approved="yes"><source xml:space="preserve">
 Offline</source>
-<target state="translated" xml:space="preserve">
-오프라인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048197" approved="yes"><source xml:space="preserve">
 Chat</source>
-<target state="translated" xml:space="preserve">
-채팅</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048198" approved="yes"><source xml:space="preserve">
 No users found</source>
-<target state="translated" xml:space="preserve">
-사용자가 없습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048199" approved="yes"><source xml:space="preserve">
 Search</source>
-<target state="translated" xml:space="preserve">
-검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048200" approved="yes"><source xml:space="preserve">
 Enable notifications</source>
-<target state="translated" xml:space="preserve">
-알림 사용</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048201" approved="yes"><source xml:space="preserve">
 Disable notifications</source>
-<target state="translated" xml:space="preserve">
-알림 사용 안 함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048202" approved="yes"><source xml:space="preserve">
 Settings</source>
-<target state="translated" xml:space="preserve">
-설정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048203" approved="yes"><source xml:space="preserve">
 Leave group</source>
-<target state="translated" xml:space="preserve">
-그룹 나가기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048204" approved="yes"><source xml:space="preserve">
 + Create chat</source>
-<target state="translated" xml:space="preserve">
-채팅 생성</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048205" approved="yes"><source xml:space="preserve">
 + Create channel</source>
-<target state="translated" xml:space="preserve">
-+ 채널 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048206" approved="yes"><source xml:space="preserve">
 Please select chat to start messaging</source>
-<target state="translated" xml:space="preserve">
-메시지를 시작하려면 채팅을 선택하세요.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048207" approved="yes"><source xml:space="preserve">
 Connect your social networks and find friends to play with</source>
-<target state="translated" xml:space="preserve">
-소셜 네트워크를 연결하여 함께 게임할 친구를 찾습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048208" approved="yes"><source xml:space="preserve">
 Connect Facebook</source>
-<target state="translated" xml:space="preserve">
-Facebook 연결</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048209" approved="no"><source xml:space="preserve">
 Connect VK</source>
-<target state="translated" xml:space="preserve">
-VKontakte 연결</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048210" approved="yes"><source xml:space="preserve">
 Search</source>
-<target state="translated" xml:space="preserve">
-검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048211" approved="yes"><source xml:space="preserve">
 Never show this window again</source>
-<target state="translated" xml:space="preserve">
-이 창을 다시 표시하지 않음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048212" approved="yes"><source xml:space="preserve">
 Skip</source>
-<target state="translated" xml:space="preserve">
-건너뛰기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048213" approved="yes"><source xml:space="preserve">
 Back to chat</source>
-<target state="translated" xml:space="preserve">
-채팅으로 돌아가기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048214" approved="yes"><source xml:space="preserve">
 members: <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="translated" xml:space="preserve">
-회원: <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048215" approved="yes"><source xml:space="preserve">
 Edit</source>
-<target state="translated" xml:space="preserve">
-편집</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048216" approved="yes"><source xml:space="preserve">
 Members</source>
-<target state="translated" xml:space="preserve">
-회원</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048217" approved="yes"><source xml:space="preserve">
 + Add members</source>
-<target state="translated" xml:space="preserve">
-회원 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048218" approved="yes"><source xml:space="preserve">
 Remove</source>
-<target state="translated" xml:space="preserve">
-제거</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048219" approved="yes"><source xml:space="preserve">
 Create chat</source>
-<target state="translated" xml:space="preserve">
-채팅 생성</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048220" approved="yes"><source xml:space="preserve">
 Invite your friends to chat</source>
-<target state="translated" xml:space="preserve">
-채팅으로 친구 초대</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048221" approved="yes"><source xml:space="preserve">
 Search friends</source>
-<target state="translated" xml:space="preserve">
-친구 검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048222" approved="yes"><source xml:space="preserve">
 New group</source>
-<target state="translated" xml:space="preserve">
-새 그룹</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048223" approved="yes"><source xml:space="preserve">
 New group</source>
-<target state="translated" xml:space="preserve">
-새 그룹</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048224" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048225" approved="yes"><source xml:space="preserve">
 Add friends</source>
-<target state="translated" xml:space="preserve">
-친구 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048226" approved="yes"><source xml:space="preserve">
 Back</source>
-<target state="translated" xml:space="preserve">
-뒤로</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048227" approved="yes"><source xml:space="preserve">
 Step <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph> 단계</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048228" approved="yes"><source xml:space="preserve">
 Next</source>
-<target state="translated" xml:space="preserve">
-다음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048229" approved="yes"><source xml:space="preserve">
 Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="translated" xml:space="preserve">
-이름은 문자로 시작해야 하며 20자 이하여야 합니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048230" approved="yes"><source xml:space="preserve">
 Group chat name</source>
-<target state="translated" xml:space="preserve">
-그룹 채팅 이름</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048231" approved="yes"><source xml:space="preserve">
 Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">
-5자에서 20자 사이여야 합니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048232" approved="yes"><source xml:space="preserve">
 Invite friends to group</source>
-<target state="translated" xml:space="preserve">
-그룹으로 친구 초대</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048233" approved="yes"><source xml:space="preserve">
 Search friends</source>
-<target state="translated" xml:space="preserve">
-친구 검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048234" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048235" approved="yes"><source xml:space="preserve">
 Error Report</source>
-<target state="translated" xml:space="preserve">
-오류 보고서</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048236" approved="yes"><source xml:space="preserve">
 Error</source>
-<target state="translated" xml:space="preserve">
-오류</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048237" approved="yes"><source xml:space="preserve">
 A fatal error has occured. Application will be closed.</source>
-<target state="translated" xml:space="preserve">
-치명적인 오류가 발생했습니다. 신청서가 닫힙니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048238" approved="yes"><source xml:space="preserve">
 Sending error data</source>
-<target state="translated" xml:space="preserve">
-오류 데이터 전송 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048239" approved="yes"><source xml:space="preserve">
 Report problem</source>
-<target state="translated" xml:space="preserve">
-문제 신고</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048240" approved="yes"><source xml:space="preserve">
 OK</source>
-<target state="translated" xml:space="preserve">
-확인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048241" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048242" approved="yes"><source xml:space="preserve">
 A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="translated" xml:space="preserve">
-치명적인 오류가 발생했습니다. 팔다리가 약해지고 시야가 흐려집니다. 꿈을 잊고 공포에 시달립니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048243" approved="yes"><source xml:space="preserve">
 Error</source>
-<target state="translated" xml:space="preserve">
-오류</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048244" approved="yes"><source xml:space="preserve">
 OK</source>
-<target state="translated" xml:space="preserve">
-확인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048245" approved="yes"><source xml:space="preserve">
 Search friends by nickname</source>
-<target state="translated" xml:space="preserve">
-닉네임으로 친구 검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048246" approved="yes"><source xml:space="preserve">
 No users found</source>
-<target state="translated" xml:space="preserve">
-사용자가 없습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048247" approved="yes"><source xml:space="preserve">
 Request sent</source>
-<target state="translated" xml:space="preserve">
-요청 전송함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048248" approved="yes"><source xml:space="preserve">
 Send request</source>
-<target state="translated" xml:space="preserve">
-요청 전송</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048249" approved="yes"><source xml:space="preserve">
 Send request</source>
-<target state="translated" xml:space="preserve">
-요청 전송</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048250" approved="yes"><source xml:space="preserve">
 Request send</source>
-<target state="translated" xml:space="preserve">
-요청이 전송되었습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048251" approved="yes"><source xml:space="preserve">
 Invite</source>
-<target state="translated" xml:space="preserve">
-초대</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048252" approved="yes"><source xml:space="preserve">
 Invited</source>
-<target state="translated" xml:space="preserve">
-초대되었습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048253" approved="yes"><source xml:space="preserve">
 Delete</source>
-<target state="translated" xml:space="preserve">
-삭제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048254" approved="yes"><source xml:space="preserve">
 Confirm</source>
-<target state="translated" xml:space="preserve">
-확인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048255" approved="yes"><source xml:space="preserve">
 Cancel request</source>
-<target state="translated" xml:space="preserve">
-요청 취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048256" approved="yes"><source xml:space="preserve">
 Playing <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph> 플레이 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048257" approved="yes"><source xml:space="preserve">
 Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
-<target state="translated" xml:space="preserve">
-마지막 접속: <ph id="ph1" ctype="x-smartcat">%1</ph>시간 전</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048258" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 %1</ph> mutual friend</source>
-<target state="translated" xml:space="preserve">
-함께 아는 친구 <ph id="ph1" ctype="x-smartcat">%1</ph>명</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048259" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 %1</ph> mutual friends</source>
-<target state="translated" xml:space="preserve">
-함께 아는 친구 <ph id="ph1" ctype="x-smartcat">%1</ph>명</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048260" approved="yes"><source xml:space="preserve">
 Delete</source>
-<target state="translated" xml:space="preserve">
-삭제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048261" approved="yes"><source xml:space="preserve">
 Block</source>
-<target state="translated" xml:space="preserve">
-차단</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048262" approved="yes"><source xml:space="preserve">
 Start chat</source>
-<target state="translated" xml:space="preserve">
-채팅 시작</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048263" approved="yes"><source xml:space="preserve">
 Unblock</source>
-<target state="translated" xml:space="preserve">
-차단 해제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048264" approved="yes"><source xml:space="preserve">
 Add a Friend</source>
-<target state="translated" xml:space="preserve">
-친구 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048265" approved="yes"><source xml:space="preserve">
 Friends</source>
-<target state="translated" xml:space="preserve">
-친구</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048266" approved="yes"><source xml:space="preserve">
 + Find friends</source>
-<target state="translated" xml:space="preserve">
-친구 검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048267" approved="yes"><source xml:space="preserve">
 Requests</source>
-<target state="translated" xml:space="preserve">
-요청</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048268" approved="yes"><source xml:space="preserve">
 Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</source>
-<target state="translated" xml:space="preserve">
-다운로드: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb / <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, 속도: <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048269" approved="yes"><source xml:space="preserve">
 Extracting: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb remaining</source>
-<target state="translated" xml:space="preserve">
-추출: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb 남음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048270" approved="yes"><source xml:space="preserve">
 Uninstalling: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="translated" xml:space="preserve">
-제거 중: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048271" approved="yes"><source xml:space="preserve">
 PLAY</source>
-<target state="translated" xml:space="preserve">
-플레이</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048272" approved="yes"><source xml:space="preserve">
 INSTALL</source>
-<target state="translated" xml:space="preserve">
-설치</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048273" approved="yes"><source xml:space="preserve">
 Buy</source>
-<target state="translated" xml:space="preserve">
-구매</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048274" approved="no"><source xml:space="preserve">
 Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1048275" approved="yes"><source xml:space="preserve">
 Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
-<target state="translated" xml:space="preserve">
-데이터 보완: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb 남음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048276" approved="yes"><source xml:space="preserve">
 Nothing here. King is at loss</source>
-<target state="translated" xml:space="preserve">
-여긴 아무것도 없습니다. 왕은 상심하고 있습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048277" approved="yes"><source xml:space="preserve">
 Support</source>
-<target state="translated" xml:space="preserve">
-지원</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048278" approved="yes"><source xml:space="preserve">
 If the game is already installed</source>
-<target state="translated" xml:space="preserve">
-게임이 이미 설치된 경우</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048279" approved="yes"><source xml:space="preserve">
 Locate the game</source>
-<target state="translated" xml:space="preserve">
-게임 위치 찾기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048280" approved="yes"><source xml:space="preserve">
 Install</source>
-<target state="translated" xml:space="preserve">
-설치</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048281" approved="yes"><source xml:space="preserve">
 Community</source>
-<target state="translated" xml:space="preserve">
-커뮤니티</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048282" approved="yes"><source xml:space="preserve">
 Repair</source>
-<target state="translated" xml:space="preserve">
-수정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048283" approved="yes"><source xml:space="preserve">
 Uninstall</source>
-<target state="translated" xml:space="preserve">
-제거</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048284" approved="yes"><source xml:space="preserve">
 Options</source>
-<target state="translated" xml:space="preserve">
-옵션</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048285" approved="yes"><source xml:space="preserve">
 Can't find game in selected folder.</source>
-<target state="translated" xml:space="preserve">
-선택한 폴더에서 게임을 찾을 수 없습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048286" approved="yes"><source xml:space="preserve">
 You cannot use selected game for the current region.</source>
-<target state="translated" xml:space="preserve">
-현재 지역에서는 선택한 게임을 사용할 수 없습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048287" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048288" approved="yes"><source xml:space="preserve">
 Install Directory</source>
-<target state="translated" xml:space="preserve">
-설치 디렉터리</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048289" approved="yes"><source xml:space="preserve">
 Change</source>
-<target state="translated" xml:space="preserve">
-변경</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048290" approved="yes"><source xml:space="preserve">
 Disk Space</source>
-<target state="translated" xml:space="preserve">
-디스크 공간</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048291" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048292" approved="yes"><source xml:space="preserve">
 Install</source>
-<target state="translated" xml:space="preserve">
-설치</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048293" approved="yes"><source xml:space="preserve">
 Select path for install..</source>
-<target state="translated" xml:space="preserve">
-설치 경로를 선택하세요..</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048294" approved="yes"><source xml:space="preserve">
 You cannot use directory to install the game. Please select a different directory for installation.</source>
-<target state="translated" xml:space="preserve">
-선택한 디렉토리에 게임을 설치할 수 없습니다. 다른 디렉토리를 선택하여 설치를 진행해 주세요.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048295" approved="yes"><source xml:space="preserve">
 Language</source>
-<target state="translated" xml:space="preserve">
-언어</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048296" approved="yes"><source xml:space="preserve">
 Account</source>
-<target state="translated" xml:space="preserve">
-계정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048297" approved="yes"><source xml:space="preserve">
 Remember me</source>
-<target state="translated" xml:space="preserve">
-자동 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048298" approved="yes"><source xml:space="preserve">
 Downloads</source>
-<target state="translated" xml:space="preserve">
-다운로드</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048299" approved="yes"><source xml:space="preserve">
 Use p2p connection</source>
-<target state="translated" xml:space="preserve">
-p2p 연결 사용</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048300" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 %1</ph> time lapse</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph>의 타임 랩스</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048301" approved="yes"><source xml:space="preserve">
 Time Lapse Collection</source>
-<target state="translated" xml:space="preserve">
-타임 랩스 모음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048302" approved="yes"><source xml:space="preserve">
 Last update:</source>
-<target state="translated" xml:space="preserve">
-마지막 업데이트:</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048303" approved="yes"><source xml:space="preserve">
 Update</source>
-<target state="translated" xml:space="preserve">
-업데이트</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048304" approved="yes"><source xml:space="preserve">
 Progress: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="translated" xml:space="preserve">
-진행 상태: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048305" approved="yes"><source xml:space="preserve">
 Checking updates</source>
-<target state="translated" xml:space="preserve">
-업데이트 확인 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048306" approved="yes"><source xml:space="preserve">
 Downloading launcher update</source>
-<target state="translated" xml:space="preserve">
-런처 업데이트 다운로드 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048307" approved="yes"><source xml:space="preserve">
 Unpacking launcher update</source>
-<target state="translated" xml:space="preserve">
-런처 업데이트 압축 해제 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048308" approved="yes"><source xml:space="preserve">
 Online</source>
-<target state="translated" xml:space="preserve">
-온라인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048309" approved="yes"><source xml:space="preserve">
 Away</source>
-<target state="translated" xml:space="preserve">
-자리비움</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048310" approved="yes"><source xml:space="preserve">
 Settings</source>
-<target state="translated" xml:space="preserve">
-설정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048311" approved="yes"><source xml:space="preserve">
 Log Out</source>
-<target state="translated" xml:space="preserve">
-로그아웃</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048312" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048313" approved="yes"><source xml:space="preserve">
 Error! Network list is empty!</source>
-<target state="translated" xml:space="preserve">
-오류가 발생했습니다! 네트워크 목록이 비어 있습니다!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048314" approved="yes"><source xml:space="preserve">
 Sign in with VK</source>
-<target state="translated" xml:space="preserve">
-VK로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048315" approved="yes"><source xml:space="preserve">
 Sign in with Facebook</source>
-<target state="translated" xml:space="preserve">
-Facebook으로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048316" approved="yes"><source xml:space="preserve">
 Sign in with Google</source>
-<target state="translated" xml:space="preserve">
-Google로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048317" approved="yes"><source xml:space="preserve">
 Sign in with Steam</source>
-<target state="translated" xml:space="preserve">
-Steam으로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048318" approved="yes"><source xml:space="preserve">
 Sign in with Twitter</source>
-<target state="translated" xml:space="preserve">
-Twitter로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048319" approved="yes"><source xml:space="preserve">
 Sign in with Naver</source>
-<target state="translated" xml:space="preserve">
-Naver로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048320" approved="yes"><source xml:space="preserve">
 Sign in with Baidu</source>
-<target state="translated" xml:space="preserve">
-Baidu로 로그인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048321" approved="yes"><source xml:space="preserve">
 Error</source>
-<target state="translated" xml:space="preserve">
-오류</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048322" approved="yes"><source xml:space="preserve">
 Failed loading social providers</source>
-<target state="translated" xml:space="preserve">
-소셜 미디어 로딩하지 못함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048323" approved="yes"><source xml:space="preserve">
 Social auth failed.</source>
-<target state="translated" xml:space="preserve">
-소셜 인증 실패함.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048324" approved="yes"><source xml:space="preserve">
 There was a problem with your request. Please try again.</source>
-<target state="translated" xml:space="preserve">
-요청과 관련하여 일시적인 문제가 있습니다. 다시 시도해 주세요.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048325" approved="yes"><source xml:space="preserve">
 Forgot password?</source>
-<target state="translated" xml:space="preserve">
-암호를 잊으셨나요?</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048326" approved="yes"><source xml:space="preserve">
 Create an account</source>
-<target state="translated" xml:space="preserve">
-계정 만들기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048327" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Enjoy the game</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Enjoy the game</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048328" approved="yes"><source xml:space="preserve">
 Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">
-지역 목록을 로딩 중 - 기다려주세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048329" approved="yes"><source xml:space="preserve">
 Loading...</source>
-<target state="translated" xml:space="preserve">
-로드 중 ...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048330" approved="yes"><source xml:space="preserve">
 Locate the game</source>
-<target state="translated" xml:space="preserve">
-게임 지역 변경</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048331" approved="yes"><source xml:space="preserve">
 Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">
-지역 변경은 게임 내 구매, 캐릭터, 게임 패치에 영향을 줍니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048332" approved="yes"><source xml:space="preserve">
 Next</source>
-<target state="translated" xml:space="preserve">
-다음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048333" approved="yes"><source xml:space="preserve">
 Failed gettings characters information</source>
-<target state="translated" xml:space="preserve">
-캐릭터 정보 가져오지 못함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048334" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048335" approved="yes"><source xml:space="preserve">
 Authentication failed.</source>
-<target state="translated" xml:space="preserve">
-인증에 실패함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048336" approved="yes"><source xml:space="preserve">
 Error</source>
-<target state="translated" xml:space="preserve">
-오류</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048337" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048338" approved="yes"><source xml:space="preserve">
 Game installation failed with error<ph id="ph1" ctype="x-smartcat">\n</ph></source>
-<target state="translated" xml:space="preserve">
-오류가 발생하여 게임을 설치하지 못했습니다<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048339" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 \n</ph> Please, try again.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-\n</ph>                                        다시 시도하십시오.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048340" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 %1</ph> time lapse is aviable!</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph>의 타임 랩스를 이용할 수 있습니다!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048341" approved="yes"><source xml:space="preserve">
 Game</source>
-<target state="translated" xml:space="preserve">
-게임</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048342" approved="yes"><source xml:space="preserve">
 News</source>
-<target state="translated" xml:space="preserve">
-뉴스</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048343" approved="yes"><source xml:space="preserve">
 Highlights</source>
-<target state="translated" xml:space="preserve">
-하이라이트</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048344" approved="yes"><source xml:space="preserve">
 Store</source>
-<target state="translated" xml:space="preserve">
-상점</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048345" approved="yes"><source xml:space="preserve">
 Extracting</source>
-<target state="translated" xml:space="preserve">
-압축 해제 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048346" approved="yes"><source xml:space="preserve">
 Repairing</source>
-<target state="translated" xml:space="preserve">
-보완중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048347" approved="yes"><source xml:space="preserve">
 Downloading</source>
-<target state="translated" xml:space="preserve">
-다운로드 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048348" approved="yes"><source xml:space="preserve">
 Can't close launcher, while game is running</source>
-<target state="translated" xml:space="preserve">
-게임이 실행되는 동안 런처를 종료할 수 없습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048349" approved="yes"><source xml:space="preserve">
 User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> 사용자가 <ph id="ph2" ctype="x-smartcat">%2</ph>에 의해 채팅에 초대되었습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048350" approved="yes"><source xml:space="preserve">
 User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> 사용자가 채팅에서 나갔습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048351" approved="yes"><source xml:space="preserve">
 User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> 사용자가 <ph id="ph2" ctype="x-smartcat">%2</ph>에 의해 채팅에서 제거되었습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048352" approved="yes"><source xml:space="preserve">
 User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> 사용자가 <ph id="ph2" ctype="x-smartcat">%2</ph> 채팅을 생성했습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048353" approved="yes"><source xml:space="preserve">
 User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> 사용자가 채팅 제목을 <ph id="ph2" ctype="x-smartcat">%2</ph>(으)로 변경했습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048354" approved="yes"><source xml:space="preserve">
 Type a message</source>
-<target state="translated" xml:space="preserve">
-메시지 입력</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048355" approved="yes"><source xml:space="preserve">
 Send</source>
-<target state="translated" xml:space="preserve">
-보내기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048356" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 &lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph>이(가) 귀하를 친구 목록에 추가했습니다. 해당 개인을 친구 목록에 추가하여 채팅하십시오.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048357" approved="yes"><source xml:space="preserve">
 Confirm</source>
-<target state="translated" xml:space="preserve">
-확인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048358" approved="yes"><source xml:space="preserve">
 Delete</source>
-<target state="translated" xml:space="preserve">
-삭제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048359" approved="yes"><source xml:space="preserve">
 Please select chat to start messaging</source>
-<target state="translated" xml:space="preserve">
-메시지를 시작하려면 채팅을 선택하세요.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048360" approved="yes"><source xml:space="preserve">
 Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="translated" xml:space="preserve">
-이런! 뭔가 부족합니다. 당신의 소식이 다른 성에 있는 것 같습니다!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048361" approved="yes"><source xml:space="preserve">
 We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="translated" xml:space="preserve">
-중세 발전기(일명 물레방아)를 수리하려고 출발했으나 잠시 후 다시 시도하세요!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048362" approved="yes"><source xml:space="preserve">
 All News</source>
-<target state="translated" xml:space="preserve">
-모든 뉴스</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048363" approved="yes"><source xml:space="preserve">
 Loading...</source>
-<target state="translated" xml:space="preserve">
-로드 중 ...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048364" approved="yes"><source xml:space="preserve">
 Region</source>
-<target state="translated" xml:space="preserve">
-지역</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048365" approved="yes"><source xml:space="preserve">
 Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">
-지역 변경은 게임 내 구매, 캐릭터, 게임 패치에 영향을 줍니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048366" approved="yes"><source xml:space="preserve">
 New friend requests</source>
-<target state="translated" xml:space="preserve">
-새로운 친구 요청</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048367" approved="yes"><source xml:space="preserve">
 Confirm</source>
-<target state="translated" xml:space="preserve">
-확인</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048368" approved="yes"><source xml:space="preserve">
 Delete</source>
-<target state="translated" xml:space="preserve">
-삭제</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048369" approved="yes"><source xml:space="preserve">
 sent requests</source>
-<target state="translated" xml:space="preserve">
-요청 전송</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048370" approved="yes"><source xml:space="preserve">
 Cancel request</source>
-<target state="translated" xml:space="preserve">
-요청 취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048371" approved="yes"><source xml:space="preserve">
 Create username</source>
-<target state="translated" xml:space="preserve">
-사용자 이름 생성</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048372" approved="yes"><source xml:space="preserve">
 Step 1/2</source>
-<target state="translated" xml:space="preserve">
-1/2 단계</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048373" approved="yes"><source xml:space="preserve">
 Welcome to chat. Set your username so your friends can find you.</source>
-<target state="translated" xml:space="preserve">
-채팅에 오신 것을 환영합니다. 친구가 여러분을 찾을 수 있도록 사용자 이름을 설정하세요.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048374" approved="yes"><source xml:space="preserve">
 Add a friend</source>
-<target state="translated" xml:space="preserve">
-친구 추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048375" approved="yes"><source xml:space="preserve">
 Step 2/2</source>
-<target state="translated" xml:space="preserve">
-2/2 단계</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048376" approved="yes"><source xml:space="preserve">
 Add friend to start messaging. Search by typing email or nickname.</source>
-<target state="translated" xml:space="preserve">
-친구를 추가하여 메시지를 주고 받습니다. 이메일이나 닉네임을 입력하여 친구를 검색할 수 있습니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048377" approved="yes"><source xml:space="preserve">
 + Add</source>
-<target state="translated" xml:space="preserve">
-추가</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048378" approved="yes"><source xml:space="preserve">
 Next</source>
-<target state="translated" xml:space="preserve">
-다음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048379" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048380" approved="yes"><source xml:space="preserve">
 Settings</source>
-<target state="translated" xml:space="preserve">
-설정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048381" approved="yes"><source xml:space="preserve">
 General</source>
-<target state="translated" xml:space="preserve">
-일반</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048382" approved="yes"><source xml:space="preserve">
 Sound</source>
-<target state="translated" xml:space="preserve">
-사운드</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048383" approved="yes"><source xml:space="preserve">
 Chat</source>
-<target state="translated" xml:space="preserve">
-채팅</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048384" approved="yes"><source xml:space="preserve">
 Account</source>
-<target state="translated" xml:space="preserve">
-계정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048385" approved="yes"><source xml:space="preserve">
 Reset to Defaults</source>
-<target state="translated" xml:space="preserve">
-기본값으로 재설정</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048386" approved="yes"><source xml:space="preserve">
 Cancel</source>
-<target state="translated" xml:space="preserve">
-취소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048387" approved="yes"><source xml:space="preserve">
 Done</source>
-<target state="translated" xml:space="preserve">
-완료</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048388" approved="yes"><source xml:space="preserve">
 Share</source>
-<target state="translated" xml:space="preserve">
-공유</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048389" approved="yes"><source xml:space="preserve">
 Direct link</source>
-<target state="translated" xml:space="preserve">
-다이렉트 링크</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048390" approved="yes"><source xml:space="preserve">
 Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="translated" xml:space="preserve">
-귀하의 <ph id="ph1" ctype="x-smartcat">\n</ph>                           소셜 네트워크를 연결하고 함께 게임할 친구를 찾아보세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048391" approved="yes"><source xml:space="preserve">
 Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> 연결</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048392" approved="yes"><source xml:space="preserve">
 Never show this window again</source>
-<target state="translated" xml:space="preserve">
-이 창을 다시 표시하지 않음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048393" approved="yes"><source xml:space="preserve">
 Skip</source>
-<target state="translated" xml:space="preserve">
-건너뛰기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048394" approved="no"><source xml:space="preserve">
 Visit us on:</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1048395" approved="no"><source xml:space="preserve">
 Find us on Social Media</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1048396" approved="yes"><source xml:space="preserve">
 Search</source>
-<target state="translated" xml:space="preserve">
-검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048397" approved="yes"><source xml:space="preserve">
 Search</source>
-<target state="translated" xml:space="preserve">
-검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048398" approved="yes"><source xml:space="preserve">
 Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
-<target state="translated" xml:space="preserve">
-닉네임으로 <ph id="ph1" ctype="x-smartcat">%1</ph>의 친구 검색</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048399" approved="yes"><source xml:space="preserve">
 Already playing</source>
-<target state="translated" xml:space="preserve">
-이미 플레이 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048400" approved="yes"><source xml:space="preserve">
 Invite</source>
-<target state="translated" xml:space="preserve">
-초대</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048401" approved="yes"><source xml:space="preserve">
 Sound section</source>
-<target state="translated" xml:space="preserve">
-사운드 섹션</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048402" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Enjoy the game</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Enjoy the game</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048403" approved="yes"><source xml:space="preserve">
 Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">
-지역 목록을 로딩 중 - 기다려주세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048404" approved="yes"><source xml:space="preserve">
 Loading...</source>
-<target state="translated" xml:space="preserve">
-로드 중 ...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048405" approved="yes"><source xml:space="preserve">
 Locate the game</source>
-<target state="translated" xml:space="preserve">
-게임 지역 변경</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048406" approved="yes"><source xml:space="preserve">
 Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">
-지역 변경은 게임 내 구매, 캐릭터, 게임 패치에 영향을 줍니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048407" approved="yes"><source xml:space="preserve">
 Next</source>
-<target state="translated" xml:space="preserve">
-다음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048408" approved="yes"><source xml:space="preserve">
 Enter your email address</source>
-<target state="translated" xml:space="preserve">
-이메일 주소를 입력하세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048409" approved="yes"><source xml:space="preserve">
 A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">
-지정된 이메일 주소로 확인 이메일이 전송됩니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048410" approved="yes"><source xml:space="preserve">
 Send</source>
-<target state="translated" xml:space="preserve">
-보내기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048411" approved="yes"><source xml:space="preserve">
 Invalid email address</source>
-<target state="translated" xml:space="preserve">
-잘못된 이메일 주소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048412" approved="yes"><source xml:space="preserve">
 Email was sent</source>
-<target state="translated" xml:space="preserve">
-이메일이 전송되었습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048413" approved="yes"><source xml:space="preserve">
 Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">
-이메일을 확인하고 등록을 확인해주세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048414" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048415" approved="yes"><source xml:space="preserve">
 Authentication failed.</source>
-<target state="translated" xml:space="preserve">
-인증에 실패함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048416" approved="yes"><source xml:space="preserve">
 E-mail</source>
-<target state="translated" xml:space="preserve">
-E-mail</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048417" approved="yes"><source xml:space="preserve">
 Error</source>
-<target state="translated" xml:space="preserve">
-오류</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048418" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Enjoy the game</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Enjoy the game</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048419" approved="yes"><source xml:space="preserve">
 Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">
-지역 목록을 로딩 중 - 기다려주세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048420" approved="yes"><source xml:space="preserve">
 Loading...</source>
-<target state="translated" xml:space="preserve">
-로드 중 ...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048421" approved="yes"><source xml:space="preserve">
 Locate the game</source>
-<target state="translated" xml:space="preserve">
-게임 지역 변경</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048422" approved="yes"><source xml:space="preserve">
 Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">
-지역 변경은 게임 내 구매, 캐릭터, 게임 패치에 영향을 줍니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048423" approved="yes"><source xml:space="preserve">
 Next</source>
-<target state="translated" xml:space="preserve">
-다음</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048424" approved="yes"><source xml:space="preserve">
 Enter your email address</source>
-<target state="translated" xml:space="preserve">
-이메일 주소를 입력하세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048425" approved="yes"><source xml:space="preserve">
 A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">
-지정된 이메일 주소로 확인 이메일이 전송됩니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048426" approved="yes"><source xml:space="preserve">
 Send</source>
-<target state="translated" xml:space="preserve">
-보내기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048427" approved="yes"><source xml:space="preserve">
 Invalid email address</source>
-<target state="translated" xml:space="preserve">
-잘못된 이메일 주소</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048428" approved="yes"><source xml:space="preserve">
 Email was sent</source>
-<target state="translated" xml:space="preserve">
-이메일이 전송되었습니다</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048429" approved="yes"><source xml:space="preserve">
 Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">
-이메일을 확인하고 등록을 확인해주세요</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048430" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048431" approved="yes"><source xml:space="preserve">
 Authentication failed.</source>
-<target state="translated" xml:space="preserve">
-인증에 실패함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048432" approved="yes"><source xml:space="preserve">
 E-mail</source>
-<target state="translated" xml:space="preserve">
-E-mail</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048433" approved="yes"><source xml:space="preserve">
 Error</source>
-<target state="translated" xml:space="preserve">
-오류</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048434" approved="yes"><source xml:space="preserve">
 Something goes wrong...</source>
-<target state="translated" xml:space="preserve">
-문제가 발생했습니다...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048435" approved="yes"><source xml:space="preserve">
 Store loading failed</source>
-<target state="translated" xml:space="preserve">
-상점 로드 실패</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048436" approved="yes"><source xml:space="preserve">
 Refresh page</source>
-<target state="translated" xml:space="preserve">
-페이지 새로고침</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048437" approved="yes"><source xml:space="preserve">
 Reopen store</source>
-<target state="translated" xml:space="preserve">
-스토어 재개장</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048438" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Steam overlay</ph> loading failed</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Steam overlay</ph> 로딩 실패함</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048439" approved="yes"><source xml:space="preserve">
 Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
-<target state="translated" xml:space="preserve">
-기다려 주십시오. 이제 스토어가 <ph id="ph1" ctype="x-smartcat">Steam overlay</ph> 사용 없이 열립니다.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048440" approved="no"><source xml:space="preserve">
 Refresh</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1048441" approved="no"><source xml:space="preserve">
 Forward</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1048442" approved="yes"><source xml:space="preserve">
 Back</source>
-<target state="translated" xml:space="preserve">
-뒤로</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048443" approved="yes"><source xml:space="preserve">
 Share</source>
-<target state="translated" xml:space="preserve">
-공유</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048444" approved="yes"><source xml:space="preserve">
 Downloading assets...</source>
-<target state="translated" xml:space="preserve">
-리소스 다운로드 중...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048445" approved="yes"><source xml:space="preserve">
 Unpacking assets...</source>
-<target state="translated" xml:space="preserve">
-리소스 압축 푸는 중...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048446" approved="yes"><source xml:space="preserve">
 World is loading</source>
-<target state="translated" xml:space="preserve">
-게임 로딩 중</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048447" approved="yes"><source xml:space="preserve">
 Close</source>
-<target state="translated" xml:space="preserve">
-닫기</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1048448" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
 Life is Feudal</ph>: launcher</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></target></trans-unit></body></file></xliff>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit></body></file></xliff>
