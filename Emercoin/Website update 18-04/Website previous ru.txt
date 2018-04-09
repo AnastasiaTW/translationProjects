@@ -48,7 +48,7 @@ Emercoin Blockchain
 Proofreading 
 12
 The first-ever digital currency, Bitcoin brought a paradigm shift that soon transcended the world of financial services.
-С приходом Bitcoin — первой в мире цифровой валюты — финансовый мир изменился навсегда. Но и не только он.
+С приходом Bitcoin — первой в мире цифровой валюты — финансовый мир изменился навсегда. Но не только он.
 Proofreading 
 13
 Ingenious in design and unbeatable in security, it made companies try to create software that would execute on top of its blockchain to bring decentralization to their own projects.
@@ -136,7 +136,7 @@ Are you afraid your website could be suspended by authorities?
 Proofreading 
 34
 With “the screws tightening” around the world, your fears might well be justified.
-Возможно, и не зря, учитывая «закручивание гаек» по всему миру.
+Возможно, не зря, учитывая «закручивание гаек» по всему миру.
 Proofreading 
 35
 EmerDNS is the way out.
@@ -152,7 +152,7 @@ No other user can modify your record — only the record creator can manipulate 
 Proofreading 
 38
 EmerDNS websites can be easily resolved with the help of several browser extensions, by using OpenNIC servers, or via proxies.
-Сайты на EmerDNS легко резолвятся — через браузерные расширения, сервера OpenNIC или прокси-сервера.
+Сайты на EmerDNS легко резолвятся — через браузерные расширения, серверы OpenNIC или прокси-серверы.
 Proofreading 
 39
 EmerDNS is a decentralized domain name system supporting the full range of DNS records.
@@ -180,7 +180,7 @@ These actions can be performed using the Emercoin NVS in the Emercoin wallet GUI
 Proofreading 
 45
 DNS records can easily be retrieved from any Emercoin wallet via the Emercoin API using JSON-RPC or the command line, or via the standard RFC1034 DNS protocol built into every Emercoin wallet.
-DNS-записи можно легко получить по API от любого Emercoin-кошелька через JSON-RPC, командную строку, или стандатный RFC1034-протокол, встроенный в каждый кошелёк.
+DNS-записи можно легко получить по API от любого Emercoin-кошелька через JSON-RPC, командную строку, или стандартный RFC1034-протокол, встроенный в каждый кошелёк.
 Proofreading 
 46
 EmerDPO / digital proof of ownership
@@ -216,7 +216,7 @@ Before blockchain, validating ownership was a drag in many areas: software licen
 Proofreading 
 54
 Authenticating ownership via written records is burdensome and opens up the possibility of fraud, counterfeiting, and even theft.
-Делать это через «бумажные» сертификаты — дело накладное и чреватое мошенничеством, подделками и даже кражами.
+Делать это через «бумажные» сертификаты накладно и чревато мошенничеством, подделками и даже кражами.
 Proofreading 
 55
 With the Emercoin blockchain, the ownership of physical and digital goods can now be immutably assigned to their respective owners.
@@ -268,7 +268,7 @@ With EmerSSH, users can manage their own public keys by submitting and modifying
 Proofreading 
 67
 Similarly, admins can manage user groups for their services that may contain references to other groups as well as individual users — allowing for the creation of recursive authentication trees.
-Так же можно управлять группами пользователей, которые могут в свою очередь ссылаться на другие группы или отдельных пользователей, организовывая рекурсивные деревья для аутентификации.
+Таким же образом можно управлять группами пользователей, которые могут в свою очередь ссылаться на другие группы или отдельных пользователей, организовывая рекурсивные деревья для аутентификации.
 Proofreading 
 68
 EmerSSH operates under the “ssh” service abbreviation in the Emercoin NVS.
@@ -332,11 +332,11 @@ Thus, EmerSSL cannot suffer a system-wide service disruption whether due to tech
 Proofreading 
 83
 Neither can a user’s account be globally suspended at the whim of a single authority.
-И ни один пользовательский аккаунт не может быть заблокирован произволом какой бы то ни было «власти».
+И ни один пользовательский аккаунт не может быть заблокирован произволом какой-либо «власти».
 Proofreading 
 84
 Associated with the EmerSSL technology is EmerSSL InfoCard — a “business card” system that complements EmerSSL's passwordless logins with website form autocompletion based on the data residing on the Emercoin blockchain.
-Помимо беспарольного входа, EmerSSL поддерживает автозаполнение форм на базе содержащихся в блокчейне данных. Для этого используется связанная технология EmerSSL Infocard.
+Помимо беспарольного входа, EmerSSL поддерживает автозаполнение форм на базе содержащихся в блокчейне данных. Для этого используется связанная технология EmerSSL InfoCard.
 Proofreading 
 85
 ENUMER / ENUM-based IP telephony
@@ -356,7 +356,7 @@ Not so with ENUMER.
 Proofreading 
 89
 Deployed over the EmerDNS infrastructure, it is extremely fast due to local query resolution and is infinitely scalable.
-Разворачиваемый на инфраструктуре EmerDNS, ENUMER молниеносно резолвит запросы прямо на локальной машине и может бесконечно масштабироваться.
+Разворачиваемый на инфраструктуре EmerDNS, ENUMER молниеносно резолвит запросы прямо на локальной машине и может масштабироваться бесконечно.
 Proofreading 
 90
 And, unlike what had already happened to its centralized counterpart, it won’t let you down if the central authority collapses.
@@ -428,7 +428,7 @@ Name-Value Storage — универсальная платформа для ра
 Proofreading 
 107
 Partnership with Microsoft BaaS program and “Blockchain Engine” app on MS Azure.
-Партнёрство с Microsoft BaaS и приложение “Blockchain Engine” в каталоге MS Azure.
+Партнёрство с Microsoft BaaS и появление приложения “Blockchain Engine” в каталоге MS Azure.
 Proofreading 
 108
 First real usage of EmerDPO by the Kolionovo farm.
@@ -820,7 +820,7 @@ Medium
 Proofreading 
 205
 Join us and read about ground-breaking services, frameworks and applications of blockchain solutions
-Присоединяйтесь и читайте о новейших достижениях в области блокчейн-сервисов, технологий и приложений.
+Подпишитесь и следите за новейшими достижениями в области блокчейн-сервисов, технологий и приложений.
 Proofreading 
 206
 Our Chatbots
@@ -912,7 +912,7 @@ B2B-focused
 Proofreading 
 228
 Emercoin can be used to purchase a whole range of business-focused distributed services for pennies.
-Emercoin позволяет покупать целый ряд бизнес-ориентированных распределённых услуг за гроши.
+Emercoin позволяет покупать целый ряд бизнес-ориентированных распределённых услуг за сущие копейки.
 Proofreading 
 229
 Guaranteed return
@@ -924,7 +924,7 @@ Emercoin’s Proof-of-Stake mechanism guarantees a return of 6% per annum.
 Proofreading 
 231
 Purchasing a thousand EMC will likely get you enough “gas” to run the above distributed services using the “interest” alone.
-«Процентов» с купленных сегодня 1000 EMC хватит, чтобы обеспечить себя бесплатным «газом» для использования необходимых распределённых услуг.
+«Процентов» с купленных сегодня 1000 EMC хватит, чтобы обеспечить себя бесплатным «топливом» для необходимых вам распределённых услуг.
 Proofreading 
 232
 Download Wallet
@@ -1064,7 +1064,7 @@ About the emercoin blockchain
 Proofreading 
 266
 The first-ever digital currency, Bitcoin brought a paradigm shift that soon transcended the world of financial services.
-С приходом Bitcoin — первой в мире цифровой валюты — финансовый мир изменился навсегда. Но и не только он.
+С приходом Bitcoin — первой в мире цифровой валюты — финансовый мир изменился навсегда. Но не только он.
 Proofreading 
 267
 Ingenious in design and unbeatable in security, it made companies try to create software that would execute on top of its blockchain to bring decentralization to their own projects.
@@ -1188,7 +1188,7 @@ March
 Proofreading 
 297
 Partnership with Microsoft BaaS program and “Blockchain Engine” app on MS Azure.
-Партнёрство с Microsoft BaaS и приложение “Blockchain Engine” в каталоге MS Azure.
+Партнёрство с Microsoft BaaS и появление приложения “Blockchain Engine” в каталоге MS Azure.
 Proofreading 
 298
 First real usage of emerDPO by the Kolionovo farm.
