@@ -1832,25 +1832,7 @@ You should additionally send the information about Tracking ID in the JSON for g
 
 ### [Example request](#token_receipt_changes_example-request)
 
-        curl -v https://api.xsolla.com/merchant/merchants/{merchant_id}/token \
-        -X POST \
-        -u your_merchant_id:merchant_api_key \
-        -H 'Content-Type:application/json' \
-        -H 'Accept: application/json' \
-        -d '
-        {
-            "user": {
-                "id": {
-                    "value": "1234567"
-                },
-                "tracking_id": {
-                    "value": "trackingID"
-                }
-            },
-            "settings": {
-                "project_id": 14004
-            }
-        }'
+        
 
 All parameters, which are already included in your JSON for token, should remain the same.
 
@@ -1868,8 +1850,7 @@ When the user with a Tracking ID completes the registration process, you should 
 
 ### [Example request](#new_api_method_example-request)
 
-    curl -v 'https://api.xsolla.com/merchant/merchants/{merchant_id}/xsolla_network/
-    user_register/{tracking_id}' \
+     \
     -X PUT \
     -u merchant_id:merchant_api_key
 
@@ -2249,26 +2230,7 @@ Below you can find sample code of how to get a token in PHP with the help of [Xs
     ));
     $token = $xsollaClient->createPaymentUITokenFromRequest($tokenRequest);
 
-        curl -v https://api.xsolla.com/merchant/merchants/{merchant_id}/token \
-        -X POST \
-        -u your_merchant_id:merchant_api_key \
-        -H 'Content-Type:application/json' \
-        -H 'Accept: application/json' \
-        -d '
-        {
-            "user": {
-                "id": {
-                    "value": "1234567"
-                },
-                "email": {
-                    "value": "email@example.com"
-                }
-            },
-            "settings": {
-                "project_id": 14004,
-                "mode": "sandbox"
-            }
-        }'
+        
 
 </div>
 
@@ -2333,22 +2295,7 @@ Request example
         )
     )
 
-    curl -v https://example.com/ \
-    -X POST \
-    -H 'Content-Type:application/json' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f' \
-    -d '
-    {
-        "notification_type": "user_validation",
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "country": "US"
-        }
-    }'
+    
 
 You can find the full list of parameters in the [API Reference](../api_v2.html#validate_user).
 
@@ -2434,73 +2381,7 @@ Request example
         )
     )
 
-    curl -v https://example.com/ \
-    -X POST \
-    -H 'Content-Type:application/json' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f' \
-    -d '
-    {
-        "notification_type": "payment",
-        "purchase": {
-            "virtual_items": {
-                "items": [
-                    {
-                        "sku": "test_item1",
-                        "amount": 1
-                    },
-                    {
-                        "sku": "test_item2",
-                        "amount": 1
-                    },
-                    {
-                        "sku": "test_item3",
-                        "amount": 2
-                    },
-                ]
-            },
-            "total": {
-                "currency": "USD",
-                "amount": 9.99
-            }
-        },
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "country": "US"
-        },
-        "transaction": {
-            "id": 87654321,
-            "payment_date": "2014-09-23T19:25:25+04:00",
-            "payment_method": 1380,
-            "dry_run": 1
-        },
-        "payment_details": {
-            "payment": {
-                "currency": "USD",
-                "amount": 9.99
-            },
-            "vat": {
-                "currency": "USD",
-                "amount": 0
-            },
-            "payout_currency_rate": 1,
-            "payout": {
-                "currency": "USD",
-                "amount": 9.49
-            },
-            "xsolla_fee": {
-                "currency": "USD",
-                "amount": 0.19
-            },
-            "payment_method_fee": {
-                "currency": "USD",
-                "amount": 0.31
-            }
-        }
-    }'
+    
 
 You can find the full list of parameters in the [API Reference](../api_v2.html#payment).
 
@@ -2580,84 +2461,7 @@ Request example
         )
     );
 
-    curl -v https://example.com/ \
-    -X POST \
-    -H 'Content-Type:application/json' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f' \
-    -d '
-    {
-        "notification_type":"refund",
-        "purchase":{
-            "virtual_currency":{
-                "name": "Coins",
-                "quantity":10,
-                "currency":"USD",
-                "amount":100
-            },
-            "subscription":{
-                "plan_id": "b5dac9c8",
-                "subscription_id": "10",
-                "date_create": "2014-09-22T19:25:25+04:00",
-                "currency": "USD",
-                "amount": 9.99
-            },
-            "checkout":{
-                "currency":"USD",
-                "amount":50
-            },
-            "virtual_items":{
-                "items":[
-                    {
-                        "sku": "test_item1",
-                        "amount":1
-                    }
-                ],
-                "currency":"USD",
-                "amount":50
-            },
-            "total":{
-                "currency":"USD",
-                "amount":200
-            }
-        },
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "name": "Xsolla User",
-            "country": "US"
-        },
-        "transaction":{
-            "id":1,
-            "external_id":1,
-            "dry_run":1,
-            "agreement":1
-        },
-        "refund_details":{
-            "code":1,
-            "reason":"Fraud"
-        },
-        "payment_details":{
-            "xsolla_fee":{
-                "currency":"USD",
-                "amount":"10"
-            },
-            "payout":{
-                "currency":"USD",
-                "amount":"200"
-            },
-            "payment_method_fee":{
-                "currency":"USD",
-                "amount":"20"
-            },
-            "payment":{
-                "currency":"USD",
-               "amount":"230"
-            }
-        }
-    }'
+    
 
 You can find the full list of parameters in the [API Reference](../api_v2.html#refund).
 
@@ -3014,145 +2818,7 @@ When processing the API request, make sure that the received signature matches t
 
 **Request example**
 
-    $ curl -v 'https://your.webhook.url?notification_type=friends_list&user=user_id&query=frien&offset=10&limit=20&sign=12dfg3f5gdsf4g5s6dfg2sdg1' \
-    -X GET \
-    -u merchant_id:merchant_api_key
-
-**Response example**
-
-    [
-      {
-      "friends": [
-          {
-            "id": "1",
-            "name": "John Carter",
-            "email": "carter@xsolla.com",
-            "image_url": "https://partner/link/doctor.jpg"
-          },
-          {
-            "id": "2",
-            "name": "John Smith",
-            "email": "smith@xsolla.com",
-            "image_url": "https://partner/link/cook.jpg"
-          }
-        ],
-      "total": 10
-      }
-    ]
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Setting up Webhooks](#setup_webhooks)
-
-Make sure to update the handling of the [Payment webhook](../api_v2.html#payment), which will now pass the new gift.purchase object in its JSON.
-
-**Request example**
-
-    $curl -v 'https://your.hostname/your/uri' \
-    -X POST \
-    -d '{
-        "notification_type":"payment",
-        "purchase":{
-            "virtual_currency":{
-                "name":"Coins",
-                "sku":"test_package1",
-                "quantity":10,
-                "currency":"USD",
-                "amount":100
-            },
-            "subscription":{
-                "plan_id": "b5dac9c8",
-                "subscription_id": "10",
-                "product_id": "Demo Product",
-                "date_create": "2014-09-22T19:25:25+04:00",
-                "date_next_charge": "2014-10-22T19:25:25+04:00",
-                "currency": "USD",
-                "amount": 9.99
-            },
-            "checkout":{
-                "currency":"USD",
-                "amount":50
-            },
-            "virtual_items":{
-                "items":[
-                    {
-                        "sku": "test_item1",
-                        "amount":1
-                    }
-                ],
-                "currency":"USD",
-                "amount":50
-            },
-            "gift":{
-                 "giver_ID":"John Smith",
-                 "receiver_ID":"Ivan Ivanov",
-                 "receiver_email":"example@example.com",
-                 "message":"GG WP",
-                 "hide_giver_from_receiver": true
-            },
-            "total":{
-                "currency":"USD",
-                "amount":200
-            },
-            "promotions":[{
-                "technical_name":"Demo Promotion",
-                "id":"853"
-            }],
-            "coupon":{
-                 "coupon_code":"ICvj45S4FUOyy",
-                 "campaign_code":"1507"
-            }
-        },
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "name": "Xsolla User",
-            "country": "US"
-        },
-        "transaction":{
-            "id":1,
-            "external_id":1,
-            "payment_date":"2014-09-24T20:38:16+04:00",
-            "payment_method":1,
-            "dry_run":1,
-            "agreement":1
-        },
-        "payment_details":{
-            "payment":{
-                "currency":"USD",
-                "amount":230
-            },
-            "vat": {
-                "currency": "USD",
-                "amount": 0
-            },
-            "payout_currency_rate": 1,
-            "payout":{
-                "currency":"USD",
-                "amount":200
-            },
-            "xsolla_fee":{
-                "currency":"USD",
-                "amount":10
-            },
-            "payment_method_fee":{
-                "currency":"USD",
-                "amount":20
-            }
-        },
-        "custom_parameters":{
-            "parameter1":"value1",
-            "parameter2":"value2"
-        }
-    }'
+    $ 
 
 </div>
 
