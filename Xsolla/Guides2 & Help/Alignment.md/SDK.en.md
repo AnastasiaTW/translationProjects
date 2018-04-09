@@ -4,7 +4,7 @@ Xsolla PHP SDK
 
 Overview
 
-Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https://developers.xsolla.com/api_v2.html). [Here](https://github.com/xsolla/xsolla-sdk-php) you can find the link to this project on Github.
+Xsolla PHP SDK is an open source library for interacting with [Xsolla API](1). [Here](1) you can find the link to this project on Github.
 
 Features
 
@@ -18,14 +18,14 @@ Features
 
 Getting started
 
-Please register your [Publisher Account](https://publisher.xsolla.com/signup) and create the project. In order to use the PHP SDK Library you'll need:
+Please register your [Publisher Account](1) and create the project. In order to use the PHP SDK Library you'll need:
 
 1.  MERCHANT_ID
 2.  API_KEY
 3.  PROJECT_ID
 4.  PROJECT_KEY
 
-You can obtain these parameters using the information in your [Company Profile](https://publisher.xsolla.com/company) and [Project Settings](https://publisher.xsolla.com/projects).
+You can obtain these parameters using the information in your [Company Profile](1) and [Project Settings](1).
 
 System Requirements
 
@@ -41,7 +41,7 @@ The recommended way to install Xsolla SDK for PHP is through Composer.
     $ cd /path/to/your/project
     $ composer require xsolla/xsolla-sdk-php
 
-Please visit our [Github project site](https://github.com/xsolla/xsolla-sdk-php#installation) for another ways of installing.
+Please visit our [Github project site](1) for another ways of installing.
 
 Usage
 
@@ -127,7 +127,7 @@ You can use the following code to add the payment UI on your page:
     </body>
     </html>
 
-For more information and examples about Payment UI integration please follow the [link](http://developers.xsolla.com/api_v2.html#paystation_ui).
+For more information and examples about Payment UI integration please follow the [link](1).
 
 Receive Webhooks
 
@@ -263,9 +263,9 @@ In Windows this file can be located in the following paths:
 
 Please check the existence of these files, and set the appropriate CA path.
 
-If you don't have this certificate located in the mentioned places, you can try to use the certificate provided by mozilla, which can be downloaded [here](https://raw.githubusercontent.com/bagder/ca-bundle/master/ca-bundle.crt) (provided by the maintainer of cURL).
+If you don't have this certificate located in the mentioned places, you can try to use the certificate provided by mozilla, which can be downloaded [here](1) (provided by the maintainer of cURL).
 
-In some versions of php for Windows there is a problem with programmatic configuration of certificate paths. In order to solve this problem, download the file [https://curl.haxx.se/ca/cacert.pem](https://curl.haxx.se/ca/cacert.pem) and specify the path to this file directly in php.ini: curl.cainfo=c:/cacert.pem.
+In some versions of php for Windows there is a problem with programmatic configuration of certificate paths. In order to solve this problem, download the file [https://curl.haxx.se/ca/cacert.pem](1) and specify the path to this file directly in php.ini: curl.cainfo=c:/cacert.pem.
 
 * * *
 
@@ -303,15 +303,15 @@ More secure and reliable way is to set your reverse proxy IP address to webhook 
     $webhookServer = WebhookServer::create($callback, PROJECT_KEY);
     $webhookServer->start();
 
-More information is available in [Symfony Documentation](http://symfony.com/doc/current/components/http_foundation/trusting_proxies.html).
+More information is available in [Symfony Documentation](1).
 
 Xsolla Android SDK
 
 Overview
 
-Xsolla created Android Client SDK for accepting payments from your application. You can check its work by downloading [this apk](http://livedemo.xsolla.com/sdk/android/2.2.2/app.apk).
+Xsolla created Android Client SDK for accepting payments from your application. You can check its work by downloading [this apk](1).
 
-Before start, please choose one of the modules listed [here](https://developers.xsolla.com/#getting-started), implement the Webhook handling, create an [access token](https://developers.xsolla.com/api_v2.html#token).
+Before start, please choose one of the modules listed [here](1), implement the Webhook handling, create an [access token](1).
 
 System Requirements
 
@@ -345,11 +345,11 @@ You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
             exclude 'META-INF/NOTICE'
          }
 
-[Here](https://github.com/xsolla/xsolla-sdk-android) you can find the link to this project on Github.
+[Here](1) you can find the link to this project on Github.
 
 Make a Payment
 
-For the proper work of the SDK, please make sure that you have an access token. More information about getting token is available [here](https://developers.xsolla.com/api_v2.html#token).
+For the proper work of the SDK, please make sure that you have an access token. More information about getting token is available [here](1).
 
 Xsolla UI
 
@@ -386,7 +386,7 @@ Overview
 
 Xsolla created Unity SDK for accepting payments in desktop, web or mobile applications.
 
-**Download the latest release of Xsolla Unity SDK from [GitHub.](https://github.com/xsolla/xsolla-unity-sdk)**
+**Download the latest release of Xsolla Unity SDK from [GitHub.](1)**
 
 System Requirements
 
@@ -412,8 +412,8 @@ Main Features:
 
 If you would like to accept payments through Xsolla's payment UI, follow these steps:
 
-1.  Set up webhook processing:[http://developers.xsolla.com/api_v2.html#webhooks](http://developers.xsolla.com/api_v2.html#webhooks)
-2.  Create an Xsolla Access Token to conduct payments with maximum security. You can find documentation on creating a token here: [http://developers.xsolla.com/api_v2.html#payment_ui](http://developers.xsolla.com/api_v2.html#payment_ui)
+1.  Set up webhook processing:[http://developers.xsolla.com/api_v2.html#webhooks](1)
+2.  Create an Xsolla Access Token to conduct payments with maximum security. You can find documentation on creating a token here: [http://developers.xsolla.com/api_v2.html#payment_ui](1)
 3.  Add XsollaSDK script to any object or use prefab from 'Resources -> Prefabs' folder;
 4.  Call _XsollaSDK(instance)_ to generate ready to use payment form.
 5.  Call the method _CreatePaymentForm(token, actionOk(XsollaStatusData), actionError(XsollaError), actionMore(string))_
@@ -438,7 +438,7 @@ If you would like to accept payments through Xsolla's payment UI, follow these s
 
 <td>token</td>
 
-<td>Your purchase token received using [Getting token method](https://developers.xsolla.com/api_v2.html#token)</td>
+<td>Your purchase token received using [Getting token method](1)</td>
 
 </tr>
 
@@ -478,7 +478,7 @@ SDK Response Objects:
 
 Try it!
 
-Please take a look at our [demo](https://livedemo.xsolla.com/sdk/unity/).
+Please take a look at our [demo](1).
 
 We also have test scenes in "XsollaUnitySDK" -> "Resources" -> "_Scenes" folder:
 
