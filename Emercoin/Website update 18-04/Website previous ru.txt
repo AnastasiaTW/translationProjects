@@ -421,7 +421,7 @@ Proofreading
 105
 Added STUN IP discovery to remove usage centralized commercial served dyndns.org.
 Реализация обнаружения IP через STUN
-Translation 
+Proofreading 
 106
 Name-Value Storage — a universal platform for external blockchain-based services.
 Name-Value Storage — универсальная платформа для расширения блокчейн-сервисов.
@@ -1145,7 +1145,7 @@ Proofreading
 286
 Added STUN IP discovery to remove usage centralized commercial served dyndns.org.
 Реализация обнаружения IP через STUN
-Translation 
+Proofreading 
 287
 March
 Март
@@ -1265,7 +1265,7 @@ Proofreading
 316
 2019-2021
 2019–2021
-Translation 
+Proofreading 
 317
 In next three years, we plan to:
 В следующие три года мы планируем:
@@ -1449,11 +1449,11 @@ Proofreading
 362
 Developers
 Для разработчиков
-Translation 
+Proofreading 
 363
 Investors
 Для инвесторов
-Translation 
+Proofreading 
 364
 Show more
 Узнать больше
@@ -1605,27 +1605,27 @@ Proofreading
 401
 To buy Emercoin, you must have compatible wallet software.
 Чтобы купить Emercoin, вам понадобится соответствующий кошелёк.
-Translation 
+Proofreading 
 402
 Visit our site for wallet links, as well as links to cryptocurrency exchanges that sell Emercoin.
 Ссылки на кошельки, а также криптобиржи, где можно купить Emercoin, вы можете найти на нашем сайте.
-Translation 
+Proofreading 
 403
 Tech Tree
 Древо технологий
-Translation 
+Proofreading 
 404
 Companies using emercoin technology
 Компании, использующие технологии Emercoin
-Translation 
+Proofreading 
 405
 Emercoin can also be found on the Microsoft Azure cloud and RedHat.
 ПО Emercoin также доступно в каталогах Microsoft Azure и RedHat.
-Translation 
+Proofreading 
 406
 Tech Services and Solutions
 Технологические сервисы и решения
-Translation 
+Proofreading 
 407
 Specifications
 Спецификации
@@ -1665,63 +1665,63 @@ Proofreading
 416
 Get emercoin
 Купить Emercoin
-Translation 
+Proofreading 
 417
 Chart
 График
-Translation 
+Proofreading 
 418
 Market Cap
 Капитализация
-Translation 
+Proofreading 
 419
 Volume (24h)
 Объём (24 ч)
-Translation 
+Proofreading 
 420
 Circulating Supply
 Количество в обращении
-Translation 
+Proofreading 
 421
 Source: coinmarketcap.com
 Источник: coinmarketcap.com
-Translation 
+Proofreading 
 422
 Emercoin rate
 Курс Emercoin
-Translation 
+Proofreading 
 423
 1 day
 1 день
-Translation 
+Proofreading 
 424
 7 days
 7 дней
-Translation 
+Proofreading 
 425
 30 days
 30 дней
-Translation 
+Proofreading 
 426
 90 days
 90 дней
-Translation 
+Proofreading 
 427
 Tuesday, Mar 8 2018. 06:29:43 UTC +02:00
 Вторник, 8 марта 2018 г., 06:29:43 UTC +02:00
-Translation 
+Proofreading 
 428
 Price (USD):
 Цена (USD):
-Translation 
+Proofreading 
 429
 0.197944
 0,197944
-Translation 
+Proofreading 
 430
 Get emercoin
 Купить Emercoin
-Translation 
+Proofreading 
 431
 Live exchange rate:
 Курс прямо сейчас:
@@ -1729,67 +1729,67 @@ Proofreading
 432
 Market Cap
 Капитализация
-Translation 
+Proofreading 
 433
 1 day
 1 день
-Translation 
+Proofreading 
 434
 7 days
 7 дней
-Translation 
+Proofreading 
 435
 30 days
 30 дней
-Translation 
+Proofreading 
 436
 90 days
 90 дней
-Translation 
+Proofreading 
 437
 Tuesday, Mar 8 2018. 06:29:43 UTC +02:00
 Вторник, 8 марта 2018 г., 06:29:43 UTC +02:00
-Translation 
+Proofreading 
 438
 Price (USD):
 Цена (USD):
-Translation 
+Proofreading 
 439
 0.197944
 0,197944
-Translation 
+Proofreading 
 440
 Volume
 Объём
-Translation 
+Proofreading 
 441
 1 day
 1 день
-Translation 
+Proofreading 
 442
 7 days
 7 дней
-Translation 
+Proofreading 
 443
 30 days
 30 дней
-Translation 
+Proofreading 
 444
 90 days
 90 дней
-Translation 
+Proofreading 
 445
 Tuesday, Mar 8 2018. 06:29:43 UTC +02:00
 Вторник, 8 марта 2018 г., 06:29:43 UTC +02:00
-Translation 
+Proofreading 
 446
 Price (USD):
 Цена (USD):
-Translation 
+Proofreading 
 447
 0.197944
 0,197944
-Translation 
+Proofreading 
 448
 Still don't have Emercoins?
 У вас ещё нет Emercoin?
@@ -1817,11 +1817,11 @@ Proofreading
 454
 January
 Январь
-Translation 
+Proofreading 
 455
 February
 Февраль
-Translation 
+Proofreading 
 456
 March
 Март
@@ -1829,37 +1829,37 @@ Proofreading
 457
 April
 Апрель
-Translation 
+Proofreading 
 458
 May
 Май
-Translation 
+Proofreading 
 459
 June
 Июнь
-Translation 
+Proofreading 
 460
 July
 Июль
-Translation 
+Proofreading 
 461
 August
 Август
-Translation 
+Proofreading 
 462
 September
 Сентябрь
-Translation 
+Proofreading 
 463
 October
 Октябрь
-Translation 
+Proofreading 
 464
 November
 Ноябрь
-Translation 
+Proofreading 
 465
 December
 Декабрь
-Translation 
+Proofreading 
 
