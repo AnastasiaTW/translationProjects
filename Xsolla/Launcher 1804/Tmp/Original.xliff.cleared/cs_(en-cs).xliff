@@ -1,886 +1,892 @@
-<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:26:41.0313126Z" original="2148609_1029" source-language="en" target-language="cs"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
-<trans-unit id="1044885" approved="yes"><source xml:space="preserve">
-Username</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044886" approved="yes"><source xml:space="preserve">
-Edit</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044887" approved="yes"><source xml:space="preserve">
-Disconnect</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044888" approved="yes"><source xml:space="preserve">
-Add another network</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044889" approved="yes"><source xml:space="preserve">
-Add users</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044890" approved="yes"><source xml:space="preserve">
-Invite friends to group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044891" approved="yes"><source xml:space="preserve">
-Search friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044892" approved="yes"><source xml:space="preserve">
-Add</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044893" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044894" approved="yes"><source xml:space="preserve">
-Game Servers Problem</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044895" approved="yes"><source xml:space="preserve">
-We're experiencing technical problem with game servers. Please click Reload to check status.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044896" approved="yes"><source xml:space="preserve">
-Loading characters:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044897" approved="yes"><source xml:space="preserve">
-Loading regions:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044898" approved="no"><source xml:space="preserve">
-Game ownership:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1044899" approved="yes"><source xml:space="preserve">
-Reload servers</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044900" approved="yes"><source xml:space="preserve">
-email</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044901" approved="yes"><source xml:space="preserve">
-Password</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044902" approved="yes"><source xml:space="preserve">
-Remember me</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044903" approved="yes"><source xml:space="preserve">
-LOADING</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044904" approved="yes"><source xml:space="preserve">
-SIGN IN</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044905" approved="yes"><source xml:space="preserve">
-players</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044906" approved="yes"><source xml:space="preserve">
-Change character</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044907" approved="yes"><source xml:space="preserve">
-Edit chat title</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044908" approved="yes"><source xml:space="preserve">
-Please use 5 to 20 characters</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044909" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044910" approved="yes"><source xml:space="preserve">
-Save</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044911" approved="yes"><source xml:space="preserve">
-Edit username</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044912" approved="yes"><source xml:space="preserve">
-Please use 5 to 20 characters</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044913" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044914" approved="yes"><source xml:space="preserve">
-Save</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044915" approved="yes"><source xml:space="preserve">
-Character Selection</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044916" approved="yes"><source xml:space="preserve">
-Name</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044917" approved="yes"><source xml:space="preserve">
-World</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044918" approved="yes"><source xml:space="preserve">
-Workload</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044919" approved="yes"><source xml:space="preserve">
-Status</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044920" approved="yes"><source xml:space="preserve">
-+ Add character</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044921" approved="yes"><source xml:space="preserve">
-Done</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044922" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044923" approved="yes"><source xml:space="preserve">
-Available</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044924" approved="yes"><source xml:space="preserve">
-Unavailable</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044925" approved="yes"><source xml:space="preserve">
-World is full</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044926" approved="yes"><source xml:space="preserve">
-Online</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044927" approved="yes"><source xml:space="preserve">
-In game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044928" approved="yes"><source xml:space="preserve">
-Away</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044929" approved="yes"><source xml:space="preserve">
-Offline</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044930" approved="yes"><source xml:space="preserve">
-Chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044931" approved="yes"><source xml:space="preserve">
-No users found</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044932" approved="yes"><source xml:space="preserve">
-Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044933" approved="yes"><source xml:space="preserve">
-Enable notifications</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044934" approved="yes"><source xml:space="preserve">
-Disable notifications</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044935" approved="yes"><source xml:space="preserve">
-Settings</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044936" approved="yes"><source xml:space="preserve">
-Leave group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044937" approved="yes"><source xml:space="preserve">
-+ Create chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044938" approved="yes"><source xml:space="preserve">
-+ Create channel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044939" approved="yes"><source xml:space="preserve">
-Please select chat to start messaging</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044940" approved="yes"><source xml:space="preserve">
-Connect your social networks and find friends to play with</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044941" approved="yes"><source xml:space="preserve">
-Connect Facebook</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044942" approved="no"><source xml:space="preserve">
-Connect VK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044943" approved="yes"><source xml:space="preserve">
-Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044944" approved="yes"><source xml:space="preserve">
-Never show this window again</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044945" approved="yes"><source xml:space="preserve">
-Skip</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044946" approved="yes"><source xml:space="preserve">
-Back to chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044947" approved="yes"><source xml:space="preserve">
-members: <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044948" approved="yes"><source xml:space="preserve">
-Edit</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044949" approved="yes"><source xml:space="preserve">
-Members</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044950" approved="yes"><source xml:space="preserve">
-+ Add members</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044951" approved="yes"><source xml:space="preserve">
-Remove</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044952" approved="yes"><source xml:space="preserve">
-Create chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044953" approved="yes"><source xml:space="preserve">
-Invite your friends to chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044954" approved="yes"><source xml:space="preserve">
-Search friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044955" approved="yes"><source xml:space="preserve">
-New group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044956" approved="yes"><source xml:space="preserve">
-New group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044957" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044958" approved="yes"><source xml:space="preserve">
-Add friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044959" approved="yes"><source xml:space="preserve">
-Back</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044960" approved="yes"><source xml:space="preserve">
-Step <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044961" approved="yes"><source xml:space="preserve">
-Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044962" approved="yes"><source xml:space="preserve">
-Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044963" approved="yes"><source xml:space="preserve">
-Group chat name</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044964" approved="yes"><source xml:space="preserve">
-Please use 5 to 20 characters</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044965" approved="yes"><source xml:space="preserve">
-Invite friends to group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044966" approved="yes"><source xml:space="preserve">
-Search friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044967" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044968" approved="yes"><source xml:space="preserve">
-Error Report</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044969" approved="yes"><source xml:space="preserve">
-Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044970" approved="yes"><source xml:space="preserve">
-A fatal error has occured. Application will be closed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044971" approved="yes"><source xml:space="preserve">
-Sending error data</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044972" approved="yes"><source xml:space="preserve">
-Report problem</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044973" approved="yes"><source xml:space="preserve">
-OK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044974" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044975" approved="yes"><source xml:space="preserve">
-A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044976" approved="yes"><source xml:space="preserve">
-Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044977" approved="yes"><source xml:space="preserve">
-OK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044978" approved="yes"><source xml:space="preserve">
-Search friends by nickname</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044979" approved="yes"><source xml:space="preserve">
-No users found</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044980" approved="yes"><source xml:space="preserve">
-Request sent</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044981" approved="yes"><source xml:space="preserve">
-Send request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044982" approved="yes"><source xml:space="preserve">
-Send request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044983" approved="yes"><source xml:space="preserve">
-Request send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044984" approved="yes"><source xml:space="preserve">
-Invite</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044985" approved="yes"><source xml:space="preserve">
-Invited</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044986" approved="yes"><source xml:space="preserve">
-Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044987" approved="yes"><source xml:space="preserve">
-Confirm</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044988" approved="yes"><source xml:space="preserve">
-Cancel request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044989" approved="yes"><source xml:space="preserve">
-Playing <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044990" approved="yes"><source xml:space="preserve">
-Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044991" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> mutual friend</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044992" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> mutual friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044993" approved="yes"><source xml:space="preserve">
-Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044994" approved="yes"><source xml:space="preserve">
-Block</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044995" approved="yes"><source xml:space="preserve">
-Start chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044996" approved="yes"><source xml:space="preserve">
-Unblock</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044997" approved="yes"><source xml:space="preserve">
-Add a Friend</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044998" approved="yes"><source xml:space="preserve">
-Friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1044999" approved="yes"><source xml:space="preserve">
-+ Find friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045000" approved="yes"><source xml:space="preserve">
-Requests</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045001" approved="yes"><source xml:space="preserve">
-Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045002" approved="yes"><source xml:space="preserve">
-Extracting: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb remaining</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045003" approved="yes"><source xml:space="preserve">
-Uninstalling: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045004" approved="yes"><source xml:space="preserve">
-PLAY</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045005" approved="yes"><source xml:space="preserve">
-INSTALL</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045006" approved="yes"><source xml:space="preserve">
-Buy</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045007" approved="no"><source xml:space="preserve">
-Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1045008" approved="yes"><source xml:space="preserve">
-Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045009" approved="yes"><source xml:space="preserve">
-Nothing here. King is at loss</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045010" approved="yes"><source xml:space="preserve">
-Support</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045011" approved="yes"><source xml:space="preserve">
-If the game is already installed</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045012" approved="yes"><source xml:space="preserve">
-Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045013" approved="yes"><source xml:space="preserve">
-Install</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045014" approved="yes"><source xml:space="preserve">
-Community</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045015" approved="yes"><source xml:space="preserve">
-Repair</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045016" approved="yes"><source xml:space="preserve">
-Uninstall</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045017" approved="yes"><source xml:space="preserve">
-Options</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045018" approved="yes"><source xml:space="preserve">
-Can't find game in selected folder.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045019" approved="yes"><source xml:space="preserve">
-You cannot use selected game for the current region.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045020" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045021" approved="yes"><source xml:space="preserve">
-Install Directory</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045022" approved="yes"><source xml:space="preserve">
-Change</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045023" approved="yes"><source xml:space="preserve">
-Disk Space</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045024" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045025" approved="yes"><source xml:space="preserve">
-Install</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045026" approved="yes"><source xml:space="preserve">
-Select path for install..</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045027" approved="yes"><source xml:space="preserve">
-You cannot use directory to install the game. Please select a different directory for installation.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045028" approved="yes"><source xml:space="preserve">
-Language</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045029" approved="yes"><source xml:space="preserve">
-Account</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045030" approved="yes"><source xml:space="preserve">
-Remember me</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045031" approved="yes"><source xml:space="preserve">
-Downloads</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045032" approved="yes"><source xml:space="preserve">
-Use p2p connection</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045033" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> time lapse</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045034" approved="yes"><source xml:space="preserve">
-Time Lapse Collection</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045035" approved="yes"><source xml:space="preserve">
-Last update:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045036" approved="yes"><source xml:space="preserve">
-Update</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045037" approved="yes"><source xml:space="preserve">
-Progress: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045038" approved="yes"><source xml:space="preserve">
-Checking updates</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045039" approved="yes"><source xml:space="preserve">
-Downloading launcher update</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045040" approved="yes"><source xml:space="preserve">
-Unpacking launcher update</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045041" approved="yes"><source xml:space="preserve">
-Online</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045042" approved="yes"><source xml:space="preserve">
-Away</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045043" approved="yes"><source xml:space="preserve">
-Settings</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045044" approved="yes"><source xml:space="preserve">
-Log Out</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045045" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045046" approved="yes"><source xml:space="preserve">
-Error! Network list is empty!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045047" approved="yes"><source xml:space="preserve">
-Sign in with VK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045048" approved="yes"><source xml:space="preserve">
-Sign in with Facebook</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045049" approved="yes"><source xml:space="preserve">
-Sign in with Google</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045050" approved="yes"><source xml:space="preserve">
-Sign in with Steam</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045051" approved="yes"><source xml:space="preserve">
-Sign in with Twitter</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045052" approved="yes"><source xml:space="preserve">
-Sign in with Naver</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045053" approved="yes"><source xml:space="preserve">
-Sign in with Baidu</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045054" approved="yes"><source xml:space="preserve">
-Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045055" approved="yes"><source xml:space="preserve">
-Failed loading social providers</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045056" approved="yes"><source xml:space="preserve">
-Social auth failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045057" approved="yes"><source xml:space="preserve">
-There was a problem with your request. Please try again.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045058" approved="yes"><source xml:space="preserve">
-Forgot password?</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045059" approved="yes"><source xml:space="preserve">
-Create an account</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045060" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Enjoy the game</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045061" approved="yes"><source xml:space="preserve">
-Loading the list of regions - please wait</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045062" approved="yes"><source xml:space="preserve">
-Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045063" approved="yes"><source xml:space="preserve">
-Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045064" approved="yes"><source xml:space="preserve">
-Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045065" approved="yes"><source xml:space="preserve">
-Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045066" approved="yes"><source xml:space="preserve">
-Failed gettings characters information</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045067" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045068" approved="yes"><source xml:space="preserve">
-Authentication failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045069" approved="yes"><source xml:space="preserve">
-Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045070" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045071" approved="yes"><source xml:space="preserve">
-Game installation failed with error<ph id="ph1" ctype="x-smartcat">\n</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045072" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-\n</ph> Please, try again.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045073" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-%1</ph> time lapse is aviable!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045074" approved="yes"><source xml:space="preserve">
-Game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045075" approved="yes"><source xml:space="preserve">
-News</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045076" approved="yes"><source xml:space="preserve">
-Highlights</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045077" approved="yes"><source xml:space="preserve">
-Store</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045078" approved="yes"><source xml:space="preserve">
-Extracting</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045079" approved="yes"><source xml:space="preserve">
-Repairing</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045080" approved="yes"><source xml:space="preserve">
-Downloading</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045081" approved="yes"><source xml:space="preserve">
-Can't close launcher, while game is running</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045082" approved="yes"><source xml:space="preserve">
-User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045083" approved="yes"><source xml:space="preserve">
-User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045084" approved="yes"><source xml:space="preserve">
-User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045085" approved="yes"><source xml:space="preserve">
-User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045086" approved="yes"><source xml:space="preserve">
-User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045087" approved="yes"><source xml:space="preserve">
-Type a message</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045088" approved="yes"><source xml:space="preserve">
-Send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045089" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045090" approved="yes"><source xml:space="preserve">
-Confirm</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045091" approved="yes"><source xml:space="preserve">
-Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045092" approved="yes"><source xml:space="preserve">
-Please select chat to start messaging</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045093" approved="yes"><source xml:space="preserve">
-Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045094" approved="yes"><source xml:space="preserve">
-We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045095" approved="yes"><source xml:space="preserve">
-All News</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045096" approved="yes"><source xml:space="preserve">
-Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045097" approved="yes"><source xml:space="preserve">
-Region</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045098" approved="yes"><source xml:space="preserve">
-Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045099" approved="yes"><source xml:space="preserve">
-New friend requests</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045100" approved="yes"><source xml:space="preserve">
-Confirm</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045101" approved="yes"><source xml:space="preserve">
-Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045102" approved="yes"><source xml:space="preserve">
-sent requests</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045103" approved="yes"><source xml:space="preserve">
-Cancel request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045104" approved="yes"><source xml:space="preserve">
-Create username</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045105" approved="yes"><source xml:space="preserve">
-Step 1/2</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045106" approved="yes"><source xml:space="preserve">
-Welcome to chat. Set your username so your friends can find you.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045107" approved="yes"><source xml:space="preserve">
-Add a friend</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045108" approved="yes"><source xml:space="preserve">
-Step 2/2</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045109" approved="yes"><source xml:space="preserve">
-Add friend to start messaging. Search by typing email or nickname.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045110" approved="yes"><source xml:space="preserve">
-+ Add</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045111" approved="yes"><source xml:space="preserve">
-Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045112" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045113" approved="yes"><source xml:space="preserve">
-Settings</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045114" approved="yes"><source xml:space="preserve">
-General</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045115" approved="yes"><source xml:space="preserve">
-Sound</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045116" approved="yes"><source xml:space="preserve">
-Chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045117" approved="yes"><source xml:space="preserve">
-Account</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045118" approved="yes"><source xml:space="preserve">
-Reset to Defaults</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045119" approved="yes"><source xml:space="preserve">
-Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045120" approved="yes"><source xml:space="preserve">
-Done</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045121" approved="yes"><source xml:space="preserve">
-Share</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045122" approved="yes"><source xml:space="preserve">
-Direct link</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045123" approved="yes"><source xml:space="preserve">
-Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045124" approved="yes"><source xml:space="preserve">
-Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045125" approved="yes"><source xml:space="preserve">
-Never show this window again</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045126" approved="yes"><source xml:space="preserve">
-Skip</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045127" approved="no"><source xml:space="preserve">
-Visit us on:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1045128" approved="no"><source xml:space="preserve">
-Find us on Social Media</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1045129" approved="yes"><source xml:space="preserve">
-Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045130" approved="yes"><source xml:space="preserve">
-Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045131" approved="yes"><source xml:space="preserve">
-Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045132" approved="yes"><source xml:space="preserve">
-Already playing</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045133" approved="yes"><source xml:space="preserve">
-Invite</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045134" approved="yes"><source xml:space="preserve">
-Sound section</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045135" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Enjoy the game</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045136" approved="yes"><source xml:space="preserve">
-Loading the list of regions - please wait</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045137" approved="yes"><source xml:space="preserve">
-Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045138" approved="yes"><source xml:space="preserve">
-Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045139" approved="yes"><source xml:space="preserve">
-Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045140" approved="yes"><source xml:space="preserve">
-Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045141" approved="yes"><source xml:space="preserve">
-Enter your email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045142" approved="yes"><source xml:space="preserve">
-A confirmation email will be sent to the specified email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045143" approved="yes"><source xml:space="preserve">
-Send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045144" approved="yes"><source xml:space="preserve">
-Invalid email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045145" approved="yes"><source xml:space="preserve">
-Email was sent</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045146" approved="yes"><source xml:space="preserve">
-Please check your email and confirm the registration</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045147" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045148" approved="yes"><source xml:space="preserve">
-Authentication failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045149" approved="yes"><source xml:space="preserve">
-E-mail</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045150" approved="yes"><source xml:space="preserve">
-Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045151" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Enjoy the game</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045152" approved="yes"><source xml:space="preserve">
-Loading the list of regions - please wait</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045153" approved="yes"><source xml:space="preserve">
-Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045154" approved="yes"><source xml:space="preserve">
-Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045155" approved="yes"><source xml:space="preserve">
-Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045156" approved="yes"><source xml:space="preserve">
-Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045157" approved="yes"><source xml:space="preserve">
-Enter your email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045158" approved="yes"><source xml:space="preserve">
-A confirmation email will be sent to the specified email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045159" approved="yes"><source xml:space="preserve">
-Send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045160" approved="yes"><source xml:space="preserve">
-Invalid email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045161" approved="yes"><source xml:space="preserve">
-Email was sent</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045162" approved="yes"><source xml:space="preserve">
-Please check your email and confirm the registration</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045163" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045164" approved="yes"><source xml:space="preserve">
-Authentication failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045165" approved="yes"><source xml:space="preserve">
-E-mail</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045166" approved="yes"><source xml:space="preserve">
-Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045167" approved="yes"><source xml:space="preserve">
-Something goes wrong...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045168" approved="yes"><source xml:space="preserve">
-Store loading failed</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045169" approved="yes"><source xml:space="preserve">
-Refresh page</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045170" approved="yes"><source xml:space="preserve">
-Reopen store</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045171" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Steam overlay</ph> loading failed</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045172" approved="yes"><source xml:space="preserve">
-Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045173" approved="no"><source xml:space="preserve">
-Refresh</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1045174" approved="no"><source xml:space="preserve">
-Forward</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit><trans-unit id="1045175" approved="yes"><source xml:space="preserve">
-Back</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045176" approved="yes"><source xml:space="preserve">
-Share</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045177" approved="yes"><source xml:space="preserve">
-Downloading assets...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045178" approved="yes"><source xml:space="preserve">
-Unpacking assets...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045179" approved="yes"><source xml:space="preserve">
-World is loading</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045180" approved="yes"><source xml:space="preserve">
-Close</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045181" approved="yes"><source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">
-Life is Feudal</ph>: launcher</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit></body></file></xliff>
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:04.3026989Z" original="2148609_1029" source-language="en" target-language="cs"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
+<trans-unit id="1044885" approved="yes">
+<source xml:space="preserve">Username</source>
+<target state="translated" xml:space="preserve">Uživatelské jméno</target></trans-unit>
+<trans-unit id="1044886" approved="yes">
+<source xml:space="preserve">Edit</source>
+<target state="translated" xml:space="preserve">Upravit</target></trans-unit>
+<trans-unit id="1044887" approved="yes">
+<source xml:space="preserve">Disconnect</source>
+<target state="translated" xml:space="preserve">Zrušit propojení</target></trans-unit>
+<trans-unit id="1044888" approved="yes">
+<source xml:space="preserve">Add another network</source>
+<target state="translated" xml:space="preserve">Propojit se sociální sítí</target></trans-unit>
+<trans-unit id="1044889" approved="yes">
+<source xml:space="preserve">Add users</source>
+<target state="translated" xml:space="preserve">Přidat uživatele</target></trans-unit>
+<trans-unit id="1044890" approved="yes">
+<source xml:space="preserve">Invite friends to group</source>
+<target state="translated" xml:space="preserve">Pozvat přátele do skupiny</target></trans-unit>
+<trans-unit id="1044891" approved="yes">
+<source xml:space="preserve">Search friends</source>
+<target state="translated" xml:space="preserve">Vyhledat přátele</target></trans-unit>
+<trans-unit id="1044892" approved="yes">
+<source xml:space="preserve">Add</source>
+<target state="translated" xml:space="preserve">Přidat</target></trans-unit>
+<trans-unit id="1044893" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1044894" approved="yes">
+<source xml:space="preserve">Game Servers Problem</source>
+<target state="translated" xml:space="preserve">Problémy s herními servery</target></trans-unit>
+<trans-unit id="1044895" approved="yes">
+<source xml:space="preserve">We're experiencing technical problem with game servers. Please click Reload to check status.</source>
+<target state="translated" xml:space="preserve">Dochází k technickému problému s herními servery. Klepnutím na tlačítko Obnovit zkontroluješ stav.</target></trans-unit>
+<trans-unit id="1044896" approved="yes">
+<source xml:space="preserve">Loading characters:</source>
+<target state="translated" xml:space="preserve">Načítání postav:</target></trans-unit>
+<trans-unit id="1044897" approved="yes">
+<source xml:space="preserve">Loading regions:</source>
+<target state="translated" xml:space="preserve">Načítání oblastí:</target></trans-unit>
+<trans-unit id="1044898" approved="no">
+<source xml:space="preserve">Game ownership:</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1044899" approved="yes">
+<source xml:space="preserve">Reload servers</source>
+<target state="translated" xml:space="preserve">Obnovit servery</target></trans-unit>
+<trans-unit id="1044900" approved="yes">
+<source xml:space="preserve">email</source>
+<target state="translated" xml:space="preserve">Email</target></trans-unit>
+<trans-unit id="1044901" approved="yes">
+<source xml:space="preserve">Password</source>
+<target state="translated" xml:space="preserve">Heslo</target></trans-unit>
+<trans-unit id="1044902" approved="yes">
+<source xml:space="preserve">Remember me</source>
+<target state="translated" xml:space="preserve">Pamatovat si mě</target></trans-unit>
+<trans-unit id="1044903" approved="yes">
+<source xml:space="preserve">LOADING</source>
+<target state="translated" xml:space="preserve">NAČÍTÁNÍ</target></trans-unit>
+<trans-unit id="1044904" approved="yes">
+<source xml:space="preserve">SIGN IN</source>
+<target state="translated" xml:space="preserve">PŘIHLÁSIT SE</target></trans-unit>
+<trans-unit id="1044905" approved="yes">
+<source xml:space="preserve">players</source>
+<target state="translated" xml:space="preserve">hráči</target></trans-unit>
+<trans-unit id="1044906" approved="yes">
+<source xml:space="preserve">Change character</source>
+<target state="translated" xml:space="preserve">Změnit postavu</target></trans-unit>
+<trans-unit id="1044907" approved="yes">
+<source xml:space="preserve">Edit chat title</source>
+<target state="translated" xml:space="preserve">Upravit název chatu</target></trans-unit>
+<trans-unit id="1044908" approved="yes">
+<source xml:space="preserve">Please use 5 to 20 characters</source>
+<target state="translated" xml:space="preserve">Použijte 5 až 20 písmen</target></trans-unit>
+<trans-unit id="1044909" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1044910" approved="yes">
+<source xml:space="preserve">Save</source>
+<target state="translated" xml:space="preserve">Uložit</target></trans-unit>
+<trans-unit id="1044911" approved="yes">
+<source xml:space="preserve">Edit username</source>
+<target state="translated" xml:space="preserve">Upravit uživatelské jméno</target></trans-unit>
+<trans-unit id="1044912" approved="yes">
+<source xml:space="preserve">Please use 5 to 20 characters</source>
+<target state="translated" xml:space="preserve">Použijte 5 až 20 písmen</target></trans-unit>
+<trans-unit id="1044913" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1044914" approved="yes">
+<source xml:space="preserve">Save</source>
+<target state="translated" xml:space="preserve">Uložit</target></trans-unit>
+<trans-unit id="1044915" approved="yes">
+<source xml:space="preserve">Character Selection</source>
+<target state="translated" xml:space="preserve">Vybrat postavu</target></trans-unit>
+<trans-unit id="1044916" approved="yes">
+<source xml:space="preserve">Name</source>
+<target state="translated" xml:space="preserve">Jméno</target></trans-unit>
+<trans-unit id="1044917" approved="yes">
+<source xml:space="preserve">World</source>
+<target state="translated" xml:space="preserve">Svět</target></trans-unit>
+<trans-unit id="1044918" approved="yes">
+<source xml:space="preserve">Workload</source>
+<target state="translated" xml:space="preserve">Zátěž</target></trans-unit>
+<trans-unit id="1044919" approved="yes">
+<source xml:space="preserve">Status</source>
+<target state="translated" xml:space="preserve">Stav</target></trans-unit>
+<trans-unit id="1044920" approved="yes">
+<source xml:space="preserve">+ Add character</source>
+<target state="translated" xml:space="preserve">+ Přidat postavu</target></trans-unit>
+<trans-unit id="1044921" approved="yes">
+<source xml:space="preserve">Done</source>
+<target state="translated" xml:space="preserve">Hotovo</target></trans-unit>
+<trans-unit id="1044922" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1044923" approved="yes">
+<source xml:space="preserve">Available</source>
+<target state="translated" xml:space="preserve">Dostupné</target></trans-unit>
+<trans-unit id="1044924" approved="yes">
+<source xml:space="preserve">Unavailable</source>
+<target state="translated" xml:space="preserve">Nedostupné</target></trans-unit>
+<trans-unit id="1044925" approved="yes">
+<source xml:space="preserve">World is full</source>
+<target state="translated" xml:space="preserve">Svět je plný</target></trans-unit>
+<trans-unit id="1044926" approved="yes">
+<source xml:space="preserve">Online</source>
+<target state="translated" xml:space="preserve">Online</target></trans-unit>
+<trans-unit id="1044927" approved="yes">
+<source xml:space="preserve">In game</source>
+<target state="translated" xml:space="preserve">Ve hře</target></trans-unit>
+<trans-unit id="1044928" approved="yes">
+<source xml:space="preserve">Away</source>
+<target state="translated" xml:space="preserve">Pryč</target></trans-unit>
+<trans-unit id="1044929" approved="yes">
+<source xml:space="preserve">Offline</source>
+<target state="translated" xml:space="preserve">Offline</target></trans-unit>
+<trans-unit id="1044930" approved="yes">
+<source xml:space="preserve">Chat</source>
+<target state="translated" xml:space="preserve">Chat</target></trans-unit>
+<trans-unit id="1044931" approved="yes">
+<source xml:space="preserve">No users found</source>
+<target state="translated" xml:space="preserve">Uživatel nenalezen</target></trans-unit>
+<trans-unit id="1044932" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">Hledat</target></trans-unit>
+<trans-unit id="1044933" approved="yes">
+<source xml:space="preserve">Enable notifications</source>
+<target state="translated" xml:space="preserve">Zapnout upozornění</target></trans-unit>
+<trans-unit id="1044934" approved="yes">
+<source xml:space="preserve">Disable notifications</source>
+<target state="translated" xml:space="preserve">Vypnout upozornění</target></trans-unit>
+<trans-unit id="1044935" approved="yes">
+<source xml:space="preserve">Settings</source>
+<target state="translated" xml:space="preserve">Nastavení</target></trans-unit>
+<trans-unit id="1044936" approved="yes">
+<source xml:space="preserve">Leave group</source>
+<target state="translated" xml:space="preserve">Opustit skupinu</target></trans-unit>
+<trans-unit id="1044937" approved="yes">
+<source xml:space="preserve">+ Create chat</source>
+<target state="translated" xml:space="preserve">Vytvořit chat</target></trans-unit>
+<trans-unit id="1044938" approved="yes">
+<source xml:space="preserve">+ Create channel</source>
+<target state="translated" xml:space="preserve">+ Vytvořit kanál</target></trans-unit>
+<trans-unit id="1044939" approved="yes">
+<source xml:space="preserve">Please select chat to start messaging</source>
+<target state="translated" xml:space="preserve">Zvolte chat pro zahájení konverzace</target></trans-unit>
+<trans-unit id="1044940" approved="yes">
+<source xml:space="preserve">Connect your social networks and find friends to play with</source>
+<target state="translated" xml:space="preserve">Propojte si s účty na sociálních sítích a najděte nové spoluhráče</target></trans-unit>
+<trans-unit id="1044941" approved="yes">
+<source xml:space="preserve">Connect Facebook</source>
+<target state="translated" xml:space="preserve">Propojit s Facebook</target></trans-unit>
+<trans-unit id="1044942" approved="no">
+<source xml:space="preserve">Connect VK</source>
+<target state="translated" xml:space="preserve">Propojit s VKontakte</target></trans-unit>
+<trans-unit id="1044943" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">Hledat</target></trans-unit>
+<trans-unit id="1044944" approved="yes">
+<source xml:space="preserve">Never show this window again</source>
+<target state="translated" xml:space="preserve">Už nikdy nezobrazovat toto sdělení</target></trans-unit>
+<trans-unit id="1044945" approved="yes">
+<source xml:space="preserve">Skip</source>
+<target state="translated" xml:space="preserve">Přeskočit</target></trans-unit>
+<trans-unit id="1044946" approved="yes">
+<source xml:space="preserve">Back to chat</source>
+<target state="translated" xml:space="preserve">Zpět do chatu</target></trans-unit>
+<trans-unit id="1044947" approved="yes">
+<source xml:space="preserve">members: <ph id="ph1" ctype="x-smartcat">%1</ph></source>
+<target state="translated" xml:space="preserve">členové: <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1044948" approved="yes">
+<source xml:space="preserve">Edit</source>
+<target state="translated" xml:space="preserve">Upravit</target></trans-unit>
+<trans-unit id="1044949" approved="yes">
+<source xml:space="preserve">Members</source>
+<target state="translated" xml:space="preserve">Členové</target></trans-unit>
+<trans-unit id="1044950" approved="yes">
+<source xml:space="preserve">+ Add members</source>
+<target state="translated" xml:space="preserve">Přidat členy</target></trans-unit>
+<trans-unit id="1044951" approved="yes">
+<source xml:space="preserve">Remove</source>
+<target state="translated" xml:space="preserve">Odstranit</target></trans-unit>
+<trans-unit id="1044952" approved="yes">
+<source xml:space="preserve">Create chat</source>
+<target state="translated" xml:space="preserve">Vytvořit chat</target></trans-unit>
+<trans-unit id="1044953" approved="yes">
+<source xml:space="preserve">Invite your friends to chat</source>
+<target state="translated" xml:space="preserve">Pozvat přátele do chatu</target></trans-unit>
+<trans-unit id="1044954" approved="yes">
+<source xml:space="preserve">Search friends</source>
+<target state="translated" xml:space="preserve">Vyhledat přátele</target></trans-unit>
+<trans-unit id="1044955" approved="yes">
+<source xml:space="preserve">New group</source>
+<target state="translated" xml:space="preserve">Nová skupina</target></trans-unit>
+<trans-unit id="1044956" approved="yes">
+<source xml:space="preserve">New group</source>
+<target state="translated" xml:space="preserve">Nová skupina</target></trans-unit>
+<trans-unit id="1044957" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1044958" approved="yes">
+<source xml:space="preserve">Add friends</source>
+<target state="translated" xml:space="preserve">Přidat přátele</target></trans-unit>
+<trans-unit id="1044959" approved="yes">
+<source xml:space="preserve">Back</source>
+<target state="translated" xml:space="preserve">Zpět</target></trans-unit>
+<trans-unit id="1044960" approved="yes">
+<source xml:space="preserve">Step <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">Krok <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1044961" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">Další</target></trans-unit>
+<trans-unit id="1044962" approved="yes">
+<source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
+<target state="translated" xml:space="preserve">Název musí začínat písmenem a nesmí přesáhnout 20 znaků.</target></trans-unit>
+<trans-unit id="1044963" approved="yes">
+<source xml:space="preserve">Group chat name</source>
+<target state="translated" xml:space="preserve">Název skupinového chatu</target></trans-unit>
+<trans-unit id="1044964" approved="yes">
+<source xml:space="preserve">Please use 5 to 20 characters</source>
+<target state="translated" xml:space="preserve">Použijte 5 až 20 písmen</target></trans-unit>
+<trans-unit id="1044965" approved="yes">
+<source xml:space="preserve">Invite friends to group</source>
+<target state="translated" xml:space="preserve">Pozvat přátele do skupiny</target></trans-unit>
+<trans-unit id="1044966" approved="yes">
+<source xml:space="preserve">Search friends</source>
+<target state="translated" xml:space="preserve">Vyhledat přátele</target></trans-unit>
+<trans-unit id="1044967" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1044968" approved="yes">
+<source xml:space="preserve">Error Report</source>
+<target state="translated" xml:space="preserve">Chybové hlášení</target></trans-unit>
+<trans-unit id="1044969" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">Chyba</target></trans-unit>
+<trans-unit id="1044970" approved="yes">
+<source xml:space="preserve">A fatal error has occured. Application will be closed.</source>
+<target state="translated" xml:space="preserve">Došlo k závažné chybě. Aplikace se zavře.</target></trans-unit>
+<trans-unit id="1044971" approved="yes">
+<source xml:space="preserve">Sending error data</source>
+<target state="translated" xml:space="preserve">Probíhá odesílání dat o chybě</target></trans-unit>
+<trans-unit id="1044972" approved="yes">
+<source xml:space="preserve">Report problem</source>
+<target state="translated" xml:space="preserve">Nahlásit problém</target></trans-unit>
+<trans-unit id="1044973" approved="yes">
+<source xml:space="preserve">OK</source>
+<target state="translated" xml:space="preserve">OK</target></trans-unit>
+<trans-unit id="1044974" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1044975" approved="yes">
+<source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
+<target state="translated" xml:space="preserve">Došlo k fatální chybě. Ztrácíš sílu a mlží se ti před očima. Zapomeň na hrdinství a rychle vypadni.</target></trans-unit>
+<trans-unit id="1044976" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">Chyba</target></trans-unit>
+<trans-unit id="1044977" approved="yes">
+<source xml:space="preserve">OK</source>
+<target state="translated" xml:space="preserve">OK</target></trans-unit>
+<trans-unit id="1044978" approved="yes">
+<source xml:space="preserve">Search friends by nickname</source>
+<target state="translated" xml:space="preserve">Hledat přátele podle přezdívky</target></trans-unit>
+<trans-unit id="1044979" approved="yes">
+<source xml:space="preserve">No users found</source>
+<target state="translated" xml:space="preserve">Uživatel nenalezen</target></trans-unit>
+<trans-unit id="1044980" approved="yes">
+<source xml:space="preserve">Request sent</source>
+<target state="translated" xml:space="preserve">Žádost odeslána</target></trans-unit>
+<trans-unit id="1044981" approved="yes">
+<source xml:space="preserve">Send request</source>
+<target state="translated" xml:space="preserve">Poslat žádost</target></trans-unit>
+<trans-unit id="1044982" approved="yes">
+<source xml:space="preserve">Send request</source>
+<target state="translated" xml:space="preserve">Poslat žádost</target></trans-unit>
+<trans-unit id="1044983" approved="yes">
+<source xml:space="preserve">Request send</source>
+<target state="translated" xml:space="preserve">Žádost odeslána</target></trans-unit>
+<trans-unit id="1044984" approved="yes">
+<source xml:space="preserve">Invite</source>
+<target state="translated" xml:space="preserve">Pozvat</target></trans-unit>
+<trans-unit id="1044985" approved="yes">
+<source xml:space="preserve">Invited</source>
+<target state="translated" xml:space="preserve">Pozván</target></trans-unit>
+<trans-unit id="1044986" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">Odstranit</target></trans-unit>
+<trans-unit id="1044987" approved="yes">
+<source xml:space="preserve">Confirm</source>
+<target state="translated" xml:space="preserve">Potvrdit</target></trans-unit>
+<trans-unit id="1044988" approved="yes">
+<source xml:space="preserve">Cancel request</source>
+<target state="translated" xml:space="preserve">Zrušit žádost</target></trans-unit>
+<trans-unit id="1044989" approved="yes">
+<source xml:space="preserve">Playing <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve">Hraje <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1044990" approved="yes">
+<source xml:space="preserve">Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
+<target state="translated" xml:space="preserve">Naposledy online:  <ph id="ph1" ctype="x-smartcat">%1</ph> hodinami</target></trans-unit>
+<trans-unit id="1044991" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friend</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> společný přítel</target></trans-unit>
+<trans-unit id="1044992" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friends</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> společných přátel</target></trans-unit>
+<trans-unit id="1044993" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">Odstranit</target></trans-unit>
+<trans-unit id="1044994" approved="yes">
+<source xml:space="preserve">Block</source>
+<target state="translated" xml:space="preserve">Blokovat</target></trans-unit>
+<trans-unit id="1044995" approved="yes">
+<source xml:space="preserve">Start chat</source>
+<target state="translated" xml:space="preserve">Zahájit chat</target></trans-unit>
+<trans-unit id="1044996" approved="yes">
+<source xml:space="preserve">Unblock</source>
+<target state="translated" xml:space="preserve">Odblokovat</target></trans-unit>
+<trans-unit id="1044997" approved="yes">
+<source xml:space="preserve">Add a Friend</source>
+<target state="translated" xml:space="preserve">Přidat přítele</target></trans-unit>
+<trans-unit id="1044998" approved="yes">
+<source xml:space="preserve">Friends</source>
+<target state="translated" xml:space="preserve">Přátelé</target></trans-unit>
+<trans-unit id="1044999" approved="yes">
+<source xml:space="preserve">+ Find friends</source>
+<target state="translated" xml:space="preserve">Najít přátele</target></trans-unit>
+<trans-unit id="1045000" approved="yes">
+<source xml:space="preserve">Requests</source>
+<target state="translated" xml:space="preserve">Žádosti</target></trans-unit>
+<trans-unit id="1045001" approved="yes">
+<source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</source>
+<target state="translated" xml:space="preserve">Stahování: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb z <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, rychlostí <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</target></trans-unit>
+<trans-unit id="1045002" approved="yes">
+<source xml:space="preserve">Extracting: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb remaining</source>
+<target state="translated" xml:space="preserve">Extrahování: <ph id="ph1" ctype="x-smartcat">%1</ph> %, zbývá <ph id="ph2" ctype="x-smartcat">%2</ph> Mb</target></trans-unit>
+<trans-unit id="1045003" approved="yes">
+<source xml:space="preserve">Uninstalling: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
+<target state="translated" xml:space="preserve">Odinstalovat: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<trans-unit id="1045004" approved="yes">
+<source xml:space="preserve">PLAY</source>
+<target state="translated" xml:space="preserve">HRÁT</target></trans-unit>
+<trans-unit id="1045005" approved="yes">
+<source xml:space="preserve">INSTALL</source>
+<target state="translated" xml:space="preserve">INSTALOVAT</target></trans-unit>
+<trans-unit id="1045006" approved="yes">
+<source xml:space="preserve">Buy</source>
+<target state="translated" xml:space="preserve">Koupit</target></trans-unit>
+<trans-unit id="1045007" approved="no">
+<source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1045008" approved="yes">
+<source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
+<target state="translated" xml:space="preserve">Opravování dat: zbývá <ph id="ph1" ctype="x-smartcat">%1</ph> Mb</target></trans-unit>
+<trans-unit id="1045009" approved="yes">
+<source xml:space="preserve">Nothing here. King is at loss</source>
+<target state="translated" xml:space="preserve">Zde nic není. Král neví</target></trans-unit>
+<trans-unit id="1045010" approved="yes">
+<source xml:space="preserve">Support</source>
+<target state="translated" xml:space="preserve">Podpora</target></trans-unit>
+<trans-unit id="1045011" approved="yes">
+<source xml:space="preserve">If the game is already installed</source>
+<target state="translated" xml:space="preserve">Pokud je hra již nainstalovaná</target></trans-unit>
+<trans-unit id="1045012" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">Najít hru</target></trans-unit>
+<trans-unit id="1045013" approved="yes">
+<source xml:space="preserve">Install</source>
+<target state="translated" xml:space="preserve">Nainstalovat</target></trans-unit>
+<trans-unit id="1045014" approved="yes">
+<source xml:space="preserve">Community</source>
+<target state="translated" xml:space="preserve">Komunita</target></trans-unit>
+<trans-unit id="1045015" approved="yes">
+<source xml:space="preserve">Repair</source>
+<target state="translated" xml:space="preserve">Opravit</target></trans-unit>
+<trans-unit id="1045016" approved="yes">
+<source xml:space="preserve">Uninstall</source>
+<target state="translated" xml:space="preserve">Odinstalovat</target></trans-unit>
+<trans-unit id="1045017" approved="yes">
+<source xml:space="preserve">Options</source>
+<target state="translated" xml:space="preserve">Možnosti</target></trans-unit>
+<trans-unit id="1045018" approved="yes">
+<source xml:space="preserve">Can't find game in selected folder.</source>
+<target state="translated" xml:space="preserve">Ve vybrané složce nelze hru najít.</target></trans-unit>
+<trans-unit id="1045019" approved="yes">
+<source xml:space="preserve">You cannot use selected game for the current region.</source>
+<target state="translated" xml:space="preserve">Hru nelze vybrat ve stávajícím regionu.</target></trans-unit>
+<trans-unit id="1045020" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045021" approved="yes">
+<source xml:space="preserve">Install Directory</source>
+<target state="translated" xml:space="preserve">Instaluj adresář</target></trans-unit>
+<trans-unit id="1045022" approved="yes">
+<source xml:space="preserve">Change</source>
+<target state="translated" xml:space="preserve">Změnit</target></trans-unit>
+<trans-unit id="1045023" approved="yes">
+<source xml:space="preserve">Disk Space</source>
+<target state="translated" xml:space="preserve">Místo na disku</target></trans-unit>
+<trans-unit id="1045024" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1045025" approved="yes">
+<source xml:space="preserve">Install</source>
+<target state="translated" xml:space="preserve">Nainstalovat</target></trans-unit>
+<trans-unit id="1045026" approved="yes">
+<source xml:space="preserve">Select path for install..</source>
+<target state="translated" xml:space="preserve">Zvolit cestu instalace..</target></trans-unit>
+<trans-unit id="1045027" approved="yes">
+<source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
+<target state="translated" xml:space="preserve">Zvolený soubor nelze použít k instalaci hry. Zvolte, prosím, jiný soubor.</target></trans-unit>
+<trans-unit id="1045028" approved="yes">
+<source xml:space="preserve">Language</source>
+<target state="translated" xml:space="preserve">Jazyk</target></trans-unit>
+<trans-unit id="1045029" approved="yes">
+<source xml:space="preserve">Account</source>
+<target state="translated" xml:space="preserve">Účet</target></trans-unit>
+<trans-unit id="1045030" approved="yes">
+<source xml:space="preserve">Remember me</source>
+<target state="translated" xml:space="preserve">Pamatovat si mě</target></trans-unit>
+<trans-unit id="1045031" approved="yes">
+<source xml:space="preserve">Downloads</source>
+<target state="translated" xml:space="preserve">Ke stažení</target></trans-unit>
+<trans-unit id="1045032" approved="yes">
+<source xml:space="preserve">Use p2p connection</source>
+<target state="translated" xml:space="preserve">Použít připojení p2p</target></trans-unit>
+<trans-unit id="1045033" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse</source>
+<target state="translated" xml:space="preserve">Časosběr gildy <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1045034" approved="yes">
+<source xml:space="preserve">Time Lapse Collection</source>
+<target state="translated" xml:space="preserve">Časosběrná kolekce</target></trans-unit>
+<trans-unit id="1045035" approved="yes">
+<source xml:space="preserve">Last update:</source>
+<target state="translated" xml:space="preserve">Poslední aktualizace:</target></trans-unit>
+<trans-unit id="1045036" approved="yes">
+<source xml:space="preserve">Update</source>
+<target state="translated" xml:space="preserve">Aktualizovat</target></trans-unit>
+<trans-unit id="1045037" approved="yes">
+<source xml:space="preserve">Progress: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
+<target state="translated" xml:space="preserve">Postup: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<trans-unit id="1045038" approved="yes">
+<source xml:space="preserve">Checking updates</source>
+<target state="translated" xml:space="preserve">Kontrola aktualizací</target></trans-unit>
+<trans-unit id="1045039" approved="yes">
+<source xml:space="preserve">Downloading launcher update</source>
+<target state="translated" xml:space="preserve">Stahování aktualizace spouštěcího nástroje</target></trans-unit>
+<trans-unit id="1045040" approved="yes">
+<source xml:space="preserve">Unpacking launcher update</source>
+<target state="translated" xml:space="preserve">Rozbalování aktualizace spouštěcího nástroje</target></trans-unit>
+<trans-unit id="1045041" approved="yes">
+<source xml:space="preserve">Online</source>
+<target state="translated" xml:space="preserve">Online</target></trans-unit>
+<trans-unit id="1045042" approved="yes">
+<source xml:space="preserve">Away</source>
+<target state="translated" xml:space="preserve">Pryč</target></trans-unit>
+<trans-unit id="1045043" approved="yes">
+<source xml:space="preserve">Settings</source>
+<target state="translated" xml:space="preserve">Nastavení</target></trans-unit>
+<trans-unit id="1045044" approved="yes">
+<source xml:space="preserve">Log Out</source>
+<target state="translated" xml:space="preserve">Odhlásit se</target></trans-unit>
+<trans-unit id="1045045" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045046" approved="yes">
+<source xml:space="preserve">Error! Network list is empty!</source>
+<target state="translated" xml:space="preserve">Chyba! Seznam sítí prázdný!</target></trans-unit>
+<trans-unit id="1045047" approved="yes">
+<source xml:space="preserve">Sign in with VK</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem VK</target></trans-unit>
+<trans-unit id="1045048" approved="yes">
+<source xml:space="preserve">Sign in with Facebook</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem Facebook</target></trans-unit>
+<trans-unit id="1045049" approved="yes">
+<source xml:space="preserve">Sign in with Google</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem Google</target></trans-unit>
+<trans-unit id="1045050" approved="yes">
+<source xml:space="preserve">Sign in with Steam</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem Steam</target></trans-unit>
+<trans-unit id="1045051" approved="yes">
+<source xml:space="preserve">Sign in with Twitter</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem Twitter</target></trans-unit>
+<trans-unit id="1045052" approved="yes">
+<source xml:space="preserve">Sign in with Naver</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem Nave</target></trans-unit>
+<trans-unit id="1045053" approved="yes">
+<source xml:space="preserve">Sign in with Baidu</source>
+<target state="translated" xml:space="preserve">Přihlásit se účtem Baidu</target></trans-unit>
+<trans-unit id="1045054" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">Chyba</target></trans-unit>
+<trans-unit id="1045055" approved="yes">
+<source xml:space="preserve">Failed loading social providers</source>
+<target state="translated" xml:space="preserve">Nepodařilo se zapojit služby sociálních sítí</target></trans-unit>
+<trans-unit id="1045056" approved="yes">
+<source xml:space="preserve">Social auth failed.</source>
+<target state="translated" xml:space="preserve">Sociální integrace se nezdařila.</target></trans-unit>
+<trans-unit id="1045057" approved="yes">
+<source xml:space="preserve">There was a problem with your request. Please try again.</source>
+<target state="translated" xml:space="preserve">U vašeho požadavku se vyskytl dočasný problém. Zkuste to prosím znovu.</target></trans-unit>
+<trans-unit id="1045058" approved="yes">
+<source xml:space="preserve">Forgot password?</source>
+<target state="translated" xml:space="preserve">Zapomněli jste heslo?</target></trans-unit>
+<trans-unit id="1045059" approved="yes">
+<source xml:space="preserve">Create an account</source>
+<target state="translated" xml:space="preserve">Vytvořit účet</target></trans-unit>
+<trans-unit id="1045060" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1045061" approved="yes">
+<source xml:space="preserve">Loading the list of regions - please wait</source>
+<target state="translated" xml:space="preserve">Načítá se seznam oblastí – čekejte prosím</target></trans-unit>
+<trans-unit id="1045062" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">Nahrávám...</target></trans-unit>
+<trans-unit id="1045063" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">Najít hru</target></trans-unit>
+<trans-unit id="1045064" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">Změna regionu ovlivní vaše platby ve hře, postavy a herní aktualizace</target></trans-unit>
+<trans-unit id="1045065" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">Další</target></trans-unit>
+<trans-unit id="1045066" approved="yes">
+<source xml:space="preserve">Failed gettings characters information</source>
+<target state="translated" xml:space="preserve">Nepodařilo se získat údaje o postavách</target></trans-unit>
+<trans-unit id="1045067" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045068" approved="yes">
+<source xml:space="preserve">Authentication failed.</source>
+<target state="translated" xml:space="preserve">Přihlášení se nepovedlo</target></trans-unit>
+<trans-unit id="1045069" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">Chyba</target></trans-unit>
+<trans-unit id="1045070" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045071" approved="yes">
+<source xml:space="preserve">Game installation failed with error<ph id="ph1" ctype="x-smartcat">\n</ph></source>
+<target state="translated" xml:space="preserve">Instalace hry se nezdařila z důvodu chyby<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
+<trans-unit id="1045072" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph>                                        Zkuste to znovu.</target></trans-unit>
+<trans-unit id="1045073" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
+<target state="translated" xml:space="preserve">Časosběr <ph id="ph1" ctype="x-smartcat">%1</ph> je nyní přístupný!</target></trans-unit>
+<trans-unit id="1045074" approved="yes">
+<source xml:space="preserve">Game</source>
+<target state="translated" xml:space="preserve">Hra</target></trans-unit>
+<trans-unit id="1045075" approved="yes">
+<source xml:space="preserve">News</source>
+<target state="translated" xml:space="preserve">Novinky</target></trans-unit>
+<trans-unit id="1045076" approved="yes">
+<source xml:space="preserve">Highlights</source>
+<target state="translated" xml:space="preserve">Vrcholové okamžiky</target></trans-unit>
+<trans-unit id="1045077" approved="yes">
+<source xml:space="preserve">Store</source>
+<target state="translated" xml:space="preserve">Obchod</target></trans-unit>
+<trans-unit id="1045078" approved="yes">
+<source xml:space="preserve">Extracting</source>
+<target state="translated" xml:space="preserve">Probíhá extrakce</target></trans-unit>
+<trans-unit id="1045079" approved="yes">
+<source xml:space="preserve">Repairing</source>
+<target state="translated" xml:space="preserve">Opravování</target></trans-unit>
+<trans-unit id="1045080" approved="yes">
+<source xml:space="preserve">Downloading</source>
+<target state="translated" xml:space="preserve">Probíhá stahování</target></trans-unit>
+<trans-unit id="1045081" approved="yes">
+<source xml:space="preserve">Can't close launcher, while game is running</source>
+<target state="translated" xml:space="preserve">Nelze zavřít launcher, dokud je hra spuštěna</target></trans-unit>
+<trans-unit id="1045082" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">Uživatel <ph id="ph1" ctype="x-smartcat">%1</ph> byl pozván do chatu uživatelem <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1045083" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
+<target state="translated" xml:space="preserve">Uživatel <ph id="ph1" ctype="x-smartcat">%1</ph> opustil chat</target></trans-unit>
+<trans-unit id="1045084" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">Uživatel <ph id="ph1" ctype="x-smartcat">%1</ph> byl odebrán z chatu uživatelem <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1045085" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">Uživatel <ph id="ph1" ctype="x-smartcat">%1</ph> vytvořil chat <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1045086" approved="yes">
+<source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
+<target state="translated" xml:space="preserve">Uživatel <ph id="ph1" ctype="x-smartcat">%1</ph> upravil název chatu na <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1045087" approved="yes">
+<source xml:space="preserve">Type a message</source>
+<target state="translated" xml:space="preserve">Napište zprávu</target></trans-unit>
+<trans-unit id="1045088" approved="yes">
+<source xml:space="preserve">Send</source>
+<target state="translated" xml:space="preserve">Odeslat</target></trans-unit>
+<trans-unit id="1045089" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
+<target state="translated" xml:space="preserve">Uživatel <ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> si tě přidal mezi své přátele. Přidej si ho také a můžete spolu chatovat.</target></trans-unit>
+<trans-unit id="1045090" approved="yes">
+<source xml:space="preserve">Confirm</source>
+<target state="translated" xml:space="preserve">Potvrdit</target></trans-unit>
+<trans-unit id="1045091" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">Odstranit</target></trans-unit>
+<trans-unit id="1045092" approved="yes">
+<source xml:space="preserve">Please select chat to start messaging</source>
+<target state="translated" xml:space="preserve">Zvolte chat pro zahájení konverzace</target></trans-unit>
+<trans-unit id="1045093" approved="yes">
+<source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
+<target state="translated" xml:space="preserve">Jé, něco chybí! Vaše zpráva je asi v jiném hradě!</target></trans-unit>
+<trans-unit id="1045094" approved="yes">
+<source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
+<target state="translated" xml:space="preserve">Šli jsme si opravit středověký generátor elektřiny (mlýnské kolo), ale přijďte zas!</target></trans-unit>
+<trans-unit id="1045095" approved="yes">
+<source xml:space="preserve">All News</source>
+<target state="translated" xml:space="preserve">Všechny novinky</target></trans-unit>
+<trans-unit id="1045096" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">Nahrávám...</target></trans-unit>
+<trans-unit id="1045097" approved="yes">
+<source xml:space="preserve">Region</source>
+<target state="translated" xml:space="preserve">Oblast</target></trans-unit>
+<trans-unit id="1045098" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">Změna regionu ovlivní vaše platby ve hře, postavy a herní aktualizace</target></trans-unit>
+<trans-unit id="1045099" approved="yes">
+<source xml:space="preserve">New friend requests</source>
+<target state="translated" xml:space="preserve">Nové žádosti o přátelství</target></trans-unit>
+<trans-unit id="1045100" approved="yes">
+<source xml:space="preserve">Confirm</source>
+<target state="translated" xml:space="preserve">Potvrdit</target></trans-unit>
+<trans-unit id="1045101" approved="yes">
+<source xml:space="preserve">Delete</source>
+<target state="translated" xml:space="preserve">Odstranit</target></trans-unit>
+<trans-unit id="1045102" approved="yes">
+<source xml:space="preserve">sent requests</source>
+<target state="translated" xml:space="preserve">Odeslané žádosti</target></trans-unit>
+<trans-unit id="1045103" approved="yes">
+<source xml:space="preserve">Cancel request</source>
+<target state="translated" xml:space="preserve">Zrušit žádost</target></trans-unit>
+<trans-unit id="1045104" approved="yes">
+<source xml:space="preserve">Create username</source>
+<target state="translated" xml:space="preserve">Vytvořit uživatelské jméno</target></trans-unit>
+<trans-unit id="1045105" approved="yes">
+<source xml:space="preserve">Step 1/2</source>
+<target state="translated" xml:space="preserve">Krok 1/2</target></trans-unit>
+<trans-unit id="1045106" approved="yes">
+<source xml:space="preserve">Welcome to chat. Set your username so your friends can find you.</source>
+<target state="translated" xml:space="preserve">Vítáme tě v chatu. Nastav si uživatelské jméno, aby tě tvoje přátele mohli najít.</target></trans-unit>
+<trans-unit id="1045107" approved="yes">
+<source xml:space="preserve">Add a friend</source>
+<target state="translated" xml:space="preserve">Přidat přítele</target></trans-unit>
+<trans-unit id="1045108" approved="yes">
+<source xml:space="preserve">Step 2/2</source>
+<target state="translated" xml:space="preserve">Krok 2/2</target></trans-unit>
+<trans-unit id="1045109" approved="yes">
+<source xml:space="preserve">Add friend to start messaging. Search by typing email or nickname.</source>
+<target state="translated" xml:space="preserve">Pozvi přítele, abyste mohli zahájit konverzaci. Pro vyhledávání začni psát e-mailovou adresu nebo přezdívku.</target></trans-unit>
+<trans-unit id="1045110" approved="yes">
+<source xml:space="preserve">+ Add</source>
+<target state="translated" xml:space="preserve">Přidat</target></trans-unit>
+<trans-unit id="1045111" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">Další</target></trans-unit>
+<trans-unit id="1045112" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045113" approved="yes">
+<source xml:space="preserve">Settings</source>
+<target state="translated" xml:space="preserve">Nastavení</target></trans-unit>
+<trans-unit id="1045114" approved="yes">
+<source xml:space="preserve">General</source>
+<target state="translated" xml:space="preserve">Obecná</target></trans-unit>
+<trans-unit id="1045115" approved="yes">
+<source xml:space="preserve">Sound</source>
+<target state="translated" xml:space="preserve">Zvuk</target></trans-unit>
+<trans-unit id="1045116" approved="yes">
+<source xml:space="preserve">Chat</source>
+<target state="translated" xml:space="preserve">Chat</target></trans-unit>
+<trans-unit id="1045117" approved="yes">
+<source xml:space="preserve">Account</source>
+<target state="translated" xml:space="preserve">Účet</target></trans-unit>
+<trans-unit id="1045118" approved="yes">
+<source xml:space="preserve">Reset to Defaults</source>
+<target state="translated" xml:space="preserve">Obnovit výchozí</target></trans-unit>
+<trans-unit id="1045119" approved="yes">
+<source xml:space="preserve">Cancel</source>
+<target state="translated" xml:space="preserve">Zrušit</target></trans-unit>
+<trans-unit id="1045120" approved="yes">
+<source xml:space="preserve">Done</source>
+<target state="translated" xml:space="preserve">Hotovo</target></trans-unit>
+<trans-unit id="1045121" approved="yes">
+<source xml:space="preserve">Share</source>
+<target state="translated" xml:space="preserve">Sdílet</target></trans-unit>
+<trans-unit id="1045122" approved="yes">
+<source xml:space="preserve">Direct link</source>
+<target state="translated" xml:space="preserve">Přimý odkaz</target></trans-unit>
+<trans-unit id="1045123" approved="yes">
+<source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
+<target state="translated" xml:space="preserve">Propojte si účty sociálních sítích<ph id="ph1" ctype="x-smartcat">\n</ph>                           a najděte nové spoluhráče</target></trans-unit>
+<trans-unit id="1045124" approved="yes">
+<source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
+<target state="translated" xml:space="preserve">Propojit s <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1045125" approved="yes">
+<source xml:space="preserve">Never show this window again</source>
+<target state="translated" xml:space="preserve">Už nikdy nezobrazovat toto sdělení</target></trans-unit>
+<trans-unit id="1045126" approved="yes">
+<source xml:space="preserve">Skip</source>
+<target state="translated" xml:space="preserve">Přeskočit</target></trans-unit>
+<trans-unit id="1045127" approved="no">
+<source xml:space="preserve">Visit us on:</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1045128" approved="no">
+<source xml:space="preserve">Find us on Social Media</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1045129" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">Hledat</target></trans-unit>
+<trans-unit id="1045130" approved="yes">
+<source xml:space="preserve">Search</source>
+<target state="translated" xml:space="preserve">Hledat</target></trans-unit>
+<trans-unit id="1045131" approved="yes">
+<source xml:space="preserve">Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
+<target state="translated" xml:space="preserve">Hledat přátele na <ph id="ph1" ctype="x-smartcat">%1</ph> podle přezdívky</target></trans-unit>
+<trans-unit id="1045132" approved="yes">
+<source xml:space="preserve">Already playing</source>
+<target state="translated" xml:space="preserve">Už je ve hře</target></trans-unit>
+<trans-unit id="1045133" approved="yes">
+<source xml:space="preserve">Invite</source>
+<target state="translated" xml:space="preserve">Pozvat</target></trans-unit>
+<trans-unit id="1045134" approved="yes">
+<source xml:space="preserve">Sound section</source>
+<target state="translated" xml:space="preserve">Nastavení zvuku</target></trans-unit>
+<trans-unit id="1045135" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1045136" approved="yes">
+<source xml:space="preserve">Loading the list of regions - please wait</source>
+<target state="translated" xml:space="preserve">Načítá se seznam oblastí – čekejte prosím</target></trans-unit>
+<trans-unit id="1045137" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">Nahrávám...</target></trans-unit>
+<trans-unit id="1045138" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">Najít hru</target></trans-unit>
+<trans-unit id="1045139" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">Změna regionu ovlivní vaše platby ve hře, postavy a herní aktualizace</target></trans-unit>
+<trans-unit id="1045140" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">Další</target></trans-unit>
+<trans-unit id="1045141" approved="yes">
+<source xml:space="preserve">Enter your email address</source>
+<target state="translated" xml:space="preserve">Zadejte svou e-mailovou adresu</target></trans-unit>
+<trans-unit id="1045142" approved="yes">
+<source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
+<target state="translated" xml:space="preserve">Na zadanou e-mailovou adresu bude zaslán potvrzovací e-mail</target></trans-unit>
+<trans-unit id="1045143" approved="yes">
+<source xml:space="preserve">Send</source>
+<target state="translated" xml:space="preserve">Odeslat</target></trans-unit>
+<trans-unit id="1045144" approved="yes">
+<source xml:space="preserve">Invalid email address</source>
+<target state="translated" xml:space="preserve">Neplatný e-mail</target></trans-unit>
+<trans-unit id="1045145" approved="yes">
+<source xml:space="preserve">Email was sent</source>
+<target state="translated" xml:space="preserve">E-mail byl odeslán</target></trans-unit>
+<trans-unit id="1045146" approved="yes">
+<source xml:space="preserve">Please check your email and confirm the registration</source>
+<target state="translated" xml:space="preserve">Zkontrolujte prosím svou e-mailovou schránku a potvrďte registraci</target></trans-unit>
+<trans-unit id="1045147" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045148" approved="yes">
+<source xml:space="preserve">Authentication failed.</source>
+<target state="translated" xml:space="preserve">Přihlášení se nepovedlo</target></trans-unit>
+<trans-unit id="1045149" approved="yes">
+<source xml:space="preserve">E-mail</source>
+<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<trans-unit id="1045150" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">Chyba</target></trans-unit>
+<trans-unit id="1045151" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1045152" approved="yes">
+<source xml:space="preserve">Loading the list of regions - please wait</source>
+<target state="translated" xml:space="preserve">Načítá se seznam oblastí – čekejte prosím</target></trans-unit>
+<trans-unit id="1045153" approved="yes">
+<source xml:space="preserve">Loading...</source>
+<target state="translated" xml:space="preserve">Nahrávám...</target></trans-unit>
+<trans-unit id="1045154" approved="yes">
+<source xml:space="preserve">Locate the game</source>
+<target state="translated" xml:space="preserve">Najít hru</target></trans-unit>
+<trans-unit id="1045155" approved="yes">
+<source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
+<target state="translated" xml:space="preserve">Změna regionu ovlivní vaše platby ve hře, postavy a herní aktualizace</target></trans-unit>
+<trans-unit id="1045156" approved="yes">
+<source xml:space="preserve">Next</source>
+<target state="translated" xml:space="preserve">Další</target></trans-unit>
+<trans-unit id="1045157" approved="yes">
+<source xml:space="preserve">Enter your email address</source>
+<target state="translated" xml:space="preserve">Zadejte svou e-mailovou adresu</target></trans-unit>
+<trans-unit id="1045158" approved="yes">
+<source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
+<target state="translated" xml:space="preserve">Na zadanou e-mailovou adresu bude zaslán potvrzovací e-mail</target></trans-unit>
+<trans-unit id="1045159" approved="yes">
+<source xml:space="preserve">Send</source>
+<target state="translated" xml:space="preserve">Odeslat</target></trans-unit>
+<trans-unit id="1045160" approved="yes">
+<source xml:space="preserve">Invalid email address</source>
+<target state="translated" xml:space="preserve">Neplatný e-mail</target></trans-unit>
+<trans-unit id="1045161" approved="yes">
+<source xml:space="preserve">Email was sent</source>
+<target state="translated" xml:space="preserve">E-mail byl odeslán</target></trans-unit>
+<trans-unit id="1045162" approved="yes">
+<source xml:space="preserve">Please check your email and confirm the registration</source>
+<target state="translated" xml:space="preserve">Zkontrolujte prosím svou e-mailovou schránku a potvrďte registraci</target></trans-unit>
+<trans-unit id="1045163" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1045164" approved="yes">
+<source xml:space="preserve">Authentication failed.</source>
+<target state="translated" xml:space="preserve">Přihlášení se nepovedlo</target></trans-unit>
+<trans-unit id="1045165" approved="yes">
+<source xml:space="preserve">E-mail</source>
+<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<trans-unit id="1045166" approved="yes">
+<source xml:space="preserve">Error</source>
+<target state="translated" xml:space="preserve">Chyba</target></trans-unit>
+<trans-unit id="1045167" approved="yes">
+<source xml:space="preserve">Something goes wrong...</source>
+<target state="translated" xml:space="preserve">Něco se pokazilo...</target></trans-unit>
+<trans-unit id="1045168" approved="yes">
+<source xml:space="preserve">Store loading failed</source>
+<target state="translated" xml:space="preserve">Načítání obchodu se nezdařilo</target></trans-unit>
+<trans-unit id="1045169" approved="yes">
+<source xml:space="preserve">Refresh page</source>
+<target state="translated" xml:space="preserve">Aktualizovat stránku</target></trans-unit>
+<trans-unit id="1045170" approved="yes">
+<source xml:space="preserve">Reopen store</source>
+<target state="translated" xml:space="preserve">Znovu otevřít obchod</target></trans-unit>
+<trans-unit id="1045171" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph> loading failed</source>
+<target state="translated" xml:space="preserve">Nepodařilo se načíst <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></target></trans-unit>
+<trans-unit id="1045172" approved="yes">
+<source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
+<target state="translated" xml:space="preserve">Počkej prosím, obchod se nyní otevře bez použití <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></target></trans-unit>
+<trans-unit id="1045173" approved="no">
+<source xml:space="preserve">Refresh</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1045174" approved="no">
+<source xml:space="preserve">Forward</source>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<trans-unit id="1045175" approved="yes">
+<source xml:space="preserve">Back</source>
+<target state="translated" xml:space="preserve">Zpět</target></trans-unit>
+<trans-unit id="1045176" approved="yes">
+<source xml:space="preserve">Share</source>
+<target state="translated" xml:space="preserve">Sdílet</target></trans-unit>
+<trans-unit id="1045177" approved="yes">
+<source xml:space="preserve">Downloading assets...</source>
+<target state="translated" xml:space="preserve">Stahování zásob...</target></trans-unit>
+<trans-unit id="1045178" approved="yes">
+<source xml:space="preserve">Unpacking assets...</source>
+<target state="translated" xml:space="preserve">Rozbalování zásob...</target></trans-unit>
+<trans-unit id="1045179" approved="yes">
+<source xml:space="preserve">World is loading</source>
+<target state="translated" xml:space="preserve">Spuštění světa</target></trans-unit>
+<trans-unit id="1045180" approved="yes">
+<source xml:space="preserve">Close</source>
+<target state="translated" xml:space="preserve">Zavřít</target></trans-unit>
+<trans-unit id="1045181" approved="yes">
+<source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit></body></file></xliff>
