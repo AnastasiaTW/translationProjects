@@ -1,12 +1,12 @@
 
 
-# [Xsolla PHP SDK](#php_sdk)
+Xsolla PHP SDK
 
-## [Overview](#overview)
+Overview
 
 Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https://developers.xsolla.com/api_v2.html). [Here](https://github.com/xsolla/xsolla-sdk-php) you can find the link to this project on Github.
 
-## [Features](#features)
+Features
 
 1.  Full customization of Payment UI with the help of different methods of getting token.
 2.  Client for all API methods, making your integration easy and convenient. You can use it for setting up and updating virtual currency, items and subscription plans, for managing the users balance, for checking the finance information with the help of Report API and so on.
@@ -16,7 +16,7 @@ Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https
     3.  Full customization of notification processing logic, if standard server class doesn't suit you.
 4.  SDK is built on Guzzle v3, and utilizes many of its features, including persistent connections, parallel requests, events and plugins (via Symfony2 EventDispatcher), service descriptions, over-the-wire logging, caching, flexible batching, and request retrying with truncated exponential back off.
 
-## [Getting started](#getting_started)
+Getting started
 
 Please register your [Publisher Account](https://publisher.xsolla.com/signup) and create the project. In order to use the PHP SDK Library you'll need:
 
@@ -27,14 +27,14 @@ Please register your [Publisher Account](https://publisher.xsolla.com/signup) an
 
 You can obtain these parameters using the information in your [Company Profile](https://publisher.xsolla.com/company) and [Project Settings](https://publisher.xsolla.com/projects).
 
-## [System Requirements](#system_requirements)
+System Requirements
 
 1.  PHP 5.3.9+
 2.  The following PHP extensions are required:
     1.  curl
     2.  json
 
-## [Installing](#installing)
+Installing
 
 The recommended way to install Xsolla SDK for PHP is through Composer.
 
@@ -43,9 +43,9 @@ The recommended way to install Xsolla SDK for PHP is through Composer.
 
 Please visit our [Github project site](https://github.com/xsolla/xsolla-sdk-php#installation) for another ways of installing.
 
-## [Usage](#usage)
+Usage
 
-##### [Get Token](#usage_get-token)
+Get Token
 
 To integrate Payment UI into your game you should obtain an access token. An access token is a string that identifies game, user and purchase parameters.
 
@@ -112,7 +112,7 @@ If you want to use some custom parameters for opening Payment UI (for example, "
     $response = $xsollaClient->CreatePaymentUIToken(array('request' => $tokenContent));
     $token = $response['token'];
 
-##### [Integrate Payment UI (Pay Station)](#usage_integrate-payment-ui-pay-station)
+Integrate Payment UI (Pay Station)
 
 You can use the following code to add the payment UI on your page:
 
@@ -129,7 +129,7 @@ You can use the following code to add the payment UI on your page:
 
 For more information and examples about Payment UI integration please follow the [link](http://developers.xsolla.com/api_v2.html#paystation_ui).
 
-##### [Receive Webhooks](#usage_receive-webhooks)
+Receive Webhooks
 
 There is a build in server class to help you to handle the webhooks.
 
@@ -222,11 +222,11 @@ Once you've finished the handling of notifications on your server, please set up
 
 After passing the tests in Testing tab, you're ready to go live. Please don't forget to remove the sandbox parameters from the code, if you have used them.
 
-## [Troubleshooting](#php_troubleshooting)
+Troubleshooting
 
 Here you can find some tips for handling and preventing the most frequently encountered errors returned by the Xsolla PHP SDK.
 
-##### [[curl] 77: error setting certificate verify locations: CAfile](#php_troubleshooting_[curl]-77:error-setting-certificate-verify-locations:-cafile)
+[curl
 
 You may see this kind of error when you send the request to our server using Xsolla PHP SDK, for example when getting token.
 
@@ -269,7 +269,7 @@ In some versions of php for Windows there is a problem with programmatic configu
 
 * * *
 
-##### ["INVALID_SIGNATURE" error code with message "Authorization header not found in Xsolla webhook request"](#php_troubleshooting_invalid_signature-error-code-with-message-authorization-header-not-found-in-xsolla-webhook-request)
+"INVALID_SIGNATURE" error code with message "Authorization header not found in Xsolla webhook request"
 
 php-cgi under Apache does not pass HTTP Basic user/pass to PHP by default.
 
@@ -281,7 +281,7 @@ In order to get this working you need to add the following line to .htaccess or 
 
 * * *
 
-##### ["INVALID_CLIENT_IP" error code in your Webhook server](#php_troubleshooting_invalid_client_ip-error-code-in-your-webhook-server)
+"INVALID_CLIENT_IP" error code in your Webhook server
 
 By default Xsolla PHP SDK is checking the IPs from which the webhook was send for security reasons. The error code "INVALID_CLIENT_IP" can be returned if you test your webhook server from a localhost in development environment, or your application server works behind some sort of proxy - like a load balancer - on production. If you are behind a proxy, you should manually whitelist your proxy.
 
@@ -305,20 +305,20 @@ More secure and reliable way is to set your reverse proxy IP address to webhook 
 
 More information is available in [Symfony Documentation](http://symfony.com/doc/current/components/http_foundation/trusting_proxies.html).
 
-# [Xsolla Android SDK](#android_sdk)
+Xsolla Android SDK
 
-## [Overview](#overview)
+Overview
 
 Xsolla created Android Client SDK for accepting payments from your application. You can check its work by downloading [this apk](http://livedemo.xsolla.com/sdk/android/2.2.2/app.apk).
 
 Before start, please choose one of the modules listed [here](https://developers.xsolla.com/#getting-started), implement the Webhook handling, create an [access token](https://developers.xsolla.com/api_v2.html#token).
 
-## [System Requirements](#system_requirements)
+System Requirements
 
 1.  Minimum required Android OS version: 4.0
 2.  Internet Connection is essential for the Xsolla Android SDK
 
-## [Download](#download)
+Download
 
   Download via Jcentral:  
 
@@ -332,7 +332,7 @@ Before start, please choose one of the modules listed [here](https://developers.
 
  `compile 'com.xsolla.android:xsollasdk:2.2.2'` 
 
-## [Installing](#installing)
+Installing
 
 You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
 
@@ -347,11 +347,11 @@ You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
 
 [Here](https://github.com/xsolla/xsolla-sdk-android) you can find the link to this project on Github.
 
-## [Make a Payment](#make_payment)
+Make a Payment
 
 For the proper work of the SDK, please make sure that you have an access token. More information about getting token is available [here](https://developers.xsolla.com/api_v2.html#token).
 
-##### [Xsolla UI](#make_payment_xsolla-ui)
+Xsolla UI
 
 Let's take as an example the simple application that has a payment button, when clicked our Shop UI is opened.
 
@@ -380,19 +380,19 @@ Let's take as an example the simple application that has a payment button, when 
 
 Once the payment has been processed, your application can get a result in OnActivityResult. Also we will send a webhook on your server, even if the application has been closed.
 
-# [Xsolla Unity SDK](#unity_sdk)
+Xsolla Unity SDK
 
-## [Overview](#overview)
+Overview
 
 Xsolla created Unity SDK for accepting payments in desktop, web or mobile applications.
 
 **Download the latest release of Xsolla Unity SDK from [GitHub.](https://github.com/xsolla/xsolla-unity-sdk)**
 
-## [System Requirements](#system_requirements)
+System Requirements
 
 Xsolla Unity SDK works with Unity 5.0 and above.
 
-## [Integration](#integration)
+Integration
 
 Main Features:
 
@@ -476,7 +476,7 @@ SDK Response Objects:
         public Dictionary<string, object> purchases;
     }
 
-## [Try it!](#try_it)
+Try it!
 
 Please take a look at our [demo](https://livedemo.xsolla.com/sdk/unity/).
 
