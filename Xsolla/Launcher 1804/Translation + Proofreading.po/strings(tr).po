@@ -676,7 +676,7 @@ msgstr "Sohbet başlat"
 #: ID: f8b2164517717fdbab302b73154ecf56
 msgctxt "FriendsListComponent"
 msgid "Unblock"
-msgstr "Engell"
+msgstr "Engellemeyi kaldır"
 
 #: File: launcher_en.ts
 #: ID: 5271a1a84c7ba8e850574246c5ca0c6a
@@ -740,7 +740,6 @@ msgstr "Satın al"
 
 #: File: launcher_en.ts
 #: ID: 0a404317082c032920f0aa7a51750b5c
-#, fuzzy
 msgctxt "GameComponent"
 msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s, peers %4, seeds %5"
 msgstr "İndiriliyor: %1 Mb / %2 Mb, indirme hızı %3 Kb/s, %4 ortak, %5 eş"
@@ -919,7 +918,7 @@ msgstr "Son güncelleme: "
 #: ID: beba9f4c27bdf1589e4efece170ab5df
 msgctxt "LauncherUpdateWindow"
 msgid "Update"
-msgstr "Güncelleme"
+msgstr "Güncelle"
 
 #: File: launcher_en.ts
 #: ID: 170caa505b12b3fd261bbba95ec08387
@@ -1169,7 +1168,7 @@ msgstr "Öne çıkanlar"
 #: ID: 298622aa37d4eaa19a0e0b4a3763eae1
 msgctxt "MainWindow"
 msgid "Store"
-msgstr "Dükkan"
+msgstr "Mağaza"
 
 #: File: launcher_en.ts
 #: ID: 3e293ede62ee54c062cd32596b4a067c
@@ -1748,7 +1747,7 @@ msgstr "Sayfayı yenile"
 #: ID: f6ea1f70bcd5d3d4f7f9f9c2b3f8616f
 msgctxt "StoreScreen"
 msgid "Reopen store"
-msgstr "Dükkanı yeniden aç"
+msgstr "Mağazayı yeniden aç"
 
 #: File: launcher_en.ts
 #: ID: 0f45e718148d31b322a61a4c2f6ac2b5
@@ -1817,5 +1816,5 @@ msgstr "Kapat"
 #: ID: 420a4fdf81b0fd5500e8eca7f549a543
 msgctxt "main"
 msgid "Life is Feudal: launcher"
-msgstr "Life is Feudal: launcher"
+msgstr "Life is Feudal: başlatılıyor"
 
