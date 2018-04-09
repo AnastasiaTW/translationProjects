@@ -1,30 +1,19 @@
-<div class="content">
 
-<div class="section-content">
 
-<div class="section-description">
 
 # [Xsolla PHP SDK](#php_sdk)
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Overview](#overview)
 
 Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https://developers.xsolla.com/api_v2.html). [Here](https://github.com/xsolla/xsolla-sdk-php) you can find the link to this project on Github.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Features](#features)
 
@@ -36,13 +25,9 @@ Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https
     3.  Full customization of notification processing logic, if standard server class doesn't suit you.
 4.  SDK is built on Guzzle v3, and utilizes many of its features, including persistent connections, parallel requests, events and plugins (via Symfony2 EventDispatcher), service descriptions, over-the-wire logging, caching, flexible batching, and request retrying with truncated exponential back off.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Getting started](#getting_started)
 
@@ -55,13 +40,9 @@ Please register your [Publisher Account](https://publisher.xsolla.com/signup) an
 
 You can obtain these parameters using the information in your [Company Profile](https://publisher.xsolla.com/company) and [Project Settings](https://publisher.xsolla.com/projects).
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [System Requirements](#system_requirements)
 
@@ -70,13 +51,9 @@ You can obtain these parameters using the information in your [Company Profile](
     1.  curl
     2.  json
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Installing](#installing)
 
@@ -87,13 +64,9 @@ The recommended way to install Xsolla SDK for PHP is through Composer.
 
 Please visit our [Github project site](https://github.com/xsolla/xsolla-sdk-php#installation) for another ways of installing.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Usage](#usage)
 
@@ -274,13 +247,9 @@ Once you've finished the handling of notifications on your server, please set up
 
 After passing the tests in Testing tab, you're ready to go live. Please don't forget to remove the sandbox parameters from the code, if you have used them.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Troubleshooting](#php_troubleshooting)
 
@@ -365,23 +334,15 @@ More secure and reliable way is to set your reverse proxy IP address to webhook 
 
 More information is available in [Symfony Documentation](http://symfony.com/doc/current/components/http_foundation/trusting_proxies.html).
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 # [Xsolla Android SDK](#android_sdk)
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Overview](#overview)
 
@@ -389,26 +350,18 @@ Xsolla created Android Client SDK for accepting payments from your application. 
 
 Before start, please choose one of the modules listed [here](https://developers.xsolla.com/#getting-started), implement the Webhook handling, create an [access token](https://developers.xsolla.com/api_v2.html#token).
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [System Requirements](#system_requirements)
 
 1.  Minimum required Android OS version: 4.0
 2.  Internet Connection is essential for the Xsolla Android SDK
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Download](#download)
 
@@ -424,13 +377,9 @@ Before start, please choose one of the modules listed [here](https://developers.
 
  `compile 'com.xsolla.android:xsollasdk:2.2.2'` 
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Installing](#installing)
 
@@ -447,13 +396,9 @@ You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
 
 [Here](https://github.com/xsolla/xsolla-sdk-android) you can find the link to this project on Github.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Make a Payment](#make_payment)
 
@@ -488,23 +433,15 @@ Let's take as an example the simple application that has a payment button, when 
 
 Once the payment has been processed, your application can get a result in OnActivityResult. Also we will send a webhook on your server, even if the application has been closed.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 # [Xsolla Unity SDK](#unity_sdk)
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Overview](#overview)
 
@@ -512,25 +449,17 @@ Xsolla created Unity SDK for accepting payments in desktop, web or mobile applic
 
 **Download the latest release of Xsolla Unity SDK from [GitHub.](https://github.com/xsolla/xsolla-unity-sdk)**
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [System Requirements](#system_requirements)
 
 Xsolla Unity SDK works with Unity 5.0 and above.
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Integration](#integration)
 
@@ -616,13 +545,9 @@ SDK Response Objects:
         public Dictionary<string, object> purchases;
     }
 
-</div>
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
 ## [Try it!](#try_it)
 
@@ -633,8 +558,6 @@ We also have test scenes in "XsollaUnitySDK" -> "Resources" -> "_Scenes" folder:
 1.  XsollaFarmFreshScene - emulates item shop.
 2.  XollaTokenTestScene - you can test your token here.
 
-</div>
 
-</div>
 
 </div>
