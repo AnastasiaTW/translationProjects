@@ -1,32 +1,10 @@
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Login](#xsolla_login)
+Xsolla Login
 
 Xsolla Login — система, предназначенная для разработчиков игр и приложений. В рамках подключения к Xsolla Login создается специальное приложение, позволяющее упростить процесс регистрации новых пользователей в игре, если они уже имеют учетную запись в социальных сетях. Кроме этого, с согласия пользователей, возможно получить доступ к информации из профиля в социальной сети для более глубокой интеграции с проектом.
 
-</div>
+Руководство по интеграции
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Руководство по интеграции](#integration_guide)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Подготовка к работе](#getting_started)
+Подготовка к работе
 
 Для начала работы необходимо зарегистрировать приложение, написав письмо на [bizdev@xsolla.com](mailto:bizdev@xsolla.com).
 
@@ -49,23 +27,14 @@ Xsolla Login — система, предназначенная для разр�
 
 <aside class="warning">Обратите внимание, вызовы методов Xsolla Login можно осуществлять только на страницах с URL, принадлежащим базовому домену.</aside>
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Виджет аутентификации](#xlwidget)
+Виджет аутентификации
 
 Рассмотренный ниже пример добавляет виджет аутентификации стандартного вида. Вы можете настроить внешний вид блоков при помощи css. Шаблон SCSS доступен для скачивания по [ссылке](../files/xl-scss.zip).
 
 По умолчанию ширина блока 400px, высота зависит от аутентификационных опций.
 
-[![Example of a default design](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png "Example of a default design") [ ![Example of a custom design](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png "Example of a custom design") [ ![Example of a custom design](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png)](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png "Example of a custom design")
-
-### [Подключение виджета](#xlwidget_подключение-виджета)
+[![Example of a default design](1)
+Подключение виджета
 
 Для добавления виджета аутентификации Xsolla Login в игру, выполните следующие шаги:
 
@@ -85,92 +54,92 @@ Xsolla Login — система, предназначенная для разр�
          });
     </script>
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">**Название**</th>
 
-<th style="text-align:left">**Тип**</th>
 
-<th style="text-align:left">**Описание**</th>
 
-</tr>
+**Название**
 
-</thead>
+**Тип**
 
-<tbody>
+**Описание**
 
-<tr>
 
-<td style="text-align:left">projectId</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Идентификатор приложения. **Обязательный**.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">locale</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Локаль пользователя в формате <language code>_<country code>, где:
+projectId
+
+string
+
+Идентификатор приложения. **Обязательный**.
+
+
+
+
+
+locale
+
+string
+
+Локаль пользователя в формате <language code>_<country code>, где:
 
 *   _language code:_ код языка в формате [ISO 639 alpha-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes);
 *   _country code:_ код страны (региона) в формате [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
 
-</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">redirectUrl</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](#server_side)</td>
 
-</tr>
+redirectUrl
 
-<tr>
+string
 
-<td style="text-align:left">onlyWidgets</td>
+Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](#server_side)
 
-<td style="text-align:left">boolean</td>
 
-<td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">preloader</td>
+onlyWidgets
 
-<td style="text-align:left">string</td>
+boolean
 
-<td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td>
+Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">fields</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. **Обязательный**</td>
+preloader
 
-</tr>
+string
 
-</tbody>
+Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.
 
-</table>
+
+
+
+
+fields
+
+string
+
+Данные, которые необходимо получить от пользователя. Допустимое значение: email. **Обязательный**
+
+
+
+
+
+
 
 1.  Добавьте элемент DIV, в котором будет отображаться виджет, задайте ему уникальный id, и добавьте после него код инициализации виджета.
 
@@ -184,125 +153,79 @@ Xsolla Login — система, предназначенная для разр�
     XL.AuthWidget(element_id, options);
     </script>
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">**Название**</th>
 
-<th style="text-align:left">**Тип**</th>
 
-<th style="text-align:left">**Описание**</th>
 
-</tr>
+**Название**
 
-</thead>
+**Тип**
 
-<tbody>
+**Описание**
 
-<tr>
 
-<td style="text-align:left">element_id</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">id элемента-контейнера для блока аутентификации. **Обязательный**</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">options</td>
 
-<td style="text-align:left">object</td>
 
-<td style="text-align:left">Настройки блока с виджетом.</td>
+element_id
 
-</tr>
+string
 
-<tr>
+id элемента-контейнера для блока аутентификации. **Обязательный**
 
-<td style="text-align:left">options.width</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Ширина блока.</td>
 
-</tr>
 
-<tr>
+options
 
-<td style="text-align:left">options.height</td>
+object
 
-<td style="text-align:left">string</td>
+Настройки блока с виджетом.
 
-<td style="text-align:left">Высота блока.</td>
 
-</tr>
 
-</tbody>
 
-</table>
 
-</div>
+options.width
 
-</div>
+string
 
-<div class="section-content">
+Ширина блока.
 
-<div class="section-description">
 
-## [Xsolla Login Server Side](#server_side)
 
-### [Схема взаимодействия](#server_side_схема-взаимодействия)
 
-<div class="scheme login">
 
-<div class="left-side">
+options.height
 
-<div class="block_1 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.3bce9008a7.png) <span class="xsolla-login-title">user redirected to redirecUrl</span></div>
+string
+
+Высота блока.
+
+
+
+
+
+
+
+Xsolla Login Server Side
+
+Схема взаимодействия
 
 <button class="scheme-toggler" id="scheme_toggler">Показать всю схему</button>
 
-<div class="scheme-wrapper">
-
-<div class="block_2 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.f3e1760e13.png) <span class="xsolla-login-title">redirectUrl?token=<token></span></div>
-
-<div class="block_3 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">token exist?</span><span class="true-text">true</span><span class="false-text">false</span></div>
-
-<div class="block_4 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">token valid?</span><span class="true-text">true</span> <span class="false-text">false</span></div>
-
-<div class="block_5 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">user exist?</span><span class="true-text">true</span> <span class="false-text">false</span>
-
-<div class="create-user">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create user</span></div>
-
-<div class="form-error">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">form errorUrl</span></div>
-
-</div>
-
-<div class="block_6 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create successUrl</span></div>
-
-<div class="block_7 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create domain specific user session</span></div>
-
-<div class="block_8 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png) <span class="xsolla-login-title">redirect user to successUrl</span>
-
-<div class="redirect-error">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.c98e3ebd52.png) <span class="xsolla-login-title">redirect user to errorUrl</span></div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-### [Callback URL](#server_side_callback-url)
+Callback URL
 
 URL, на который происходит перенаправление пользователя в браузере в конце процесса аутенификации.
 
-### [Прохождение аутентификации. Успех](#server_side_прохождение-аутентификации.-успех)
+Прохождение аутентификации. Успех
 
 В случае успеха пользователь будет переадресован на Ваш callback URL со следующим параметром:
 
@@ -310,49 +233,49 @@ URL, на который происходит перенаправление п�
 
 `GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">Параметр</th>
 
-<th style="text-align:left">Тип</th>
 
-<th style="text-align:left">Описание</th>
 
-</tr>
+Параметр
 
-</thead>
+Тип
 
-<tbody>
+Описание
 
-<tr>
 
-<td style="text-align:left">token</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">[JWT-token](https://en.wikipedia.org/wiki/JSON_Web_Token). Вы можете [дешифровать его](https://jwt.io), используя секретный ключ.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">is_linking</td>
 
-<td style="text-align:left">boolean</td>
 
-<td style="text-align:left">Пользователь прилинковал аккаунт.</td>
+token
 
-</tr>
+string
 
-</tbody>
+[JWT-token](https://en.wikipedia.org/wiki/JSON_Web_Token). Вы можете [дешифровать его](https://jwt.io), используя секретный ключ.
 
-</table>
 
-#### [Пример дешифрованного токена](#server_side_пример-дешифрованного-токена)
+
+
+
+is_linking
+
+boolean
+
+Пользователь прилинковал аккаунт.
+
+
+
+
+
+
+
+Пример дешифрованного токена
 
     {
       "exp": 1471071785,
@@ -366,185 +289,183 @@ URL, на который происходит перенаправление п�
       "xsolla_login_access_key": "s4dGNSPKinUxkSRI8rhPhZRElHj2yusqEeqgLIgn"
     }
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">Параметр</th>
 
-<th style="text-align:left">Тип</th>
 
-<th style="text-align:left">Описание</th>
 
-</tr>
+Параметр
 
-</thead>
+Тип
 
-<tbody>
+Описание
 
-<tr>
 
-<td style="text-align:left">exp</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Дата окончания действия токена. (Unix time)</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">iss</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Указание, кто выдал JWT-token.</td>
+exp
 
-</tr>
+string
 
-<tr>
+Дата окончания действия токена. (Unix time)
 
-<td style="text-align:left">iat</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Дата создания. (Unix time)</td>
 
-</tr>
 
-<tr>
+iss
 
-<td style="text-align:left">id</td>
+string
 
-<td style="text-align:left">string</td>
+Указание, кто выдал JWT-token.
 
-<td style="text-align:left">Идентификатор пользователя.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">name</td>
 
-<td style="text-align:left">string</td>
+iat
 
-<td style="text-align:left">Полное имя пользователя.</td>
+string
 
-</tr>
+Дата создания. (Unix time)
 
-<tr>
 
-<td style="text-align:left">email</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">email пользователя.</td>
 
-</tr>
+id
 
-<tr>
+string
 
-<td style="text-align:left">type</td>
+Идентификатор пользователя.
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Тип аутентификации. Допустимые значения: "proxy" — проксированная аутентификация; "social" — вход через социальную сеть.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">provider</td>
+name
 
-<td style="text-align:left">string</td>
+string
 
-<td style="text-align:left">Название социальной сети. Список допустимых значений: "vk", "facebook", "twitter", "steam", "baidu", "naver", "qq", "github", "microsoft", "linkedin", "google".</td>
+Полное имя пользователя.
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">xsolla_login_access_key</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Ключ доступа для вызова методов от имени пользователя.</td>
+email
 
-</tr>
+string
 
-</tbody>
+email пользователя.
 
-</table>
 
-### [Прохождение аутентификации. Ошибка](#server_side_прохождение-аутентификации.-ошибка)
 
-В случае ошибки, пользователь будет перенаправлен на Ваш callback URL со следующими [параметрами:](../api_v2.html#login_error)
 
+
+type
+
+string
+
+Тип аутентификации. Допустимые значения: "proxy" — проксированная аутентификация; "social" — вход через социальную сеть.
+
+
+
+
+
+provider
+
+string
+
+Название социальной сети. Список допустимых значений: "vk", "facebook", "twitter", "steam", "baidu", "naver", "qq", "github", "microsoft", "linkedin", "google".
+
+
+
+
+
+xsolla_login_access_key
+
+string
+
+Ключ доступа для вызова методов от имени пользователя.
+
+
+
+
+
+
+
+Прохождение аутентификации. Ошибка
+
+В случае ошибки, пользователь будет перенаправлен на Ваш callback URL со следующими [параметрами:](1)
 **HTTP запрос**
 
 `GET https://callBackUrl.php?error=003-002&error_description=User+not+found&redirect_url=https://site.com/fail_url`
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">Параметр</th>
 
-<th style="text-align:left">Тип</th>
 
-<th style="text-align:left">Описание</th>
 
-</tr>
+Параметр
 
-</thead>
+Тип
 
-<tbody>
+Описание
 
-<tr>
 
-<td style="text-align:left">error</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Группа кодов ошибок.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">error_description</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Описание ошибки.</td>
+error
 
-</tr>
+string
 
-<tr>
+Группа кодов ошибок.
 
-<td style="text-align:left">redirect_url</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Callback URL проекта.</td>
 
-</tr>
 
-</tbody>
+error_description
 
-</table>
+string
 
-### [Дополнительные методы API](#server_side_дополнительные-методы-api)
+Описание ошибки.
+
+
+
+
+
+redirect_url
+
+string
+
+Callback URL проекта.
+
+
+
+
+
+
+
+Дополнительные методы API
 
 Проксированная аутентификация может быть использована в том случае, если у Вас уже есть база пользователей. В этом случае необходимо реализовать следующие методы:
 
-Xsolla Login будет вызывать методы с адресов [https://login.xsolla.com/](https://login.xsolla.com/) и [https://test-login.xsolla.com/](https://test-login.xsolla.com/)
-
-#### [Проверка логина/пароля](#server_side_проверка-логина-пароля)
+Xsolla Login будет вызывать методы с адресов [https://login.xsolla.com/](1)
+Проверка логина/пароля
 
 *   Тип: POST
 *   Content-type: application/json
@@ -552,7 +473,7 @@ Xsolla Login будет вызывать методы с адресов [https:/
 *   Успех: _{Ok 200}_
 *   Неудачный запрос: _{"error": {"code": “003-001”, "description": "" }}_
 
-#### [Регистрация](#server_side_регистрация)
+Регистрация
 
 *   Тип: POST
 *   Content-type: application/json
@@ -560,7 +481,7 @@ Xsolla Login будет вызывать методы с адресов [https:/
 *   Успех: _{Ok 200}_
 *   Неудачный запрос: _{error: {code: “003-003|004”, description: “” }}_
 
-#### [Сброс пароля](#server_side_сброс-пароля)
+Сброс пароля
 
 *   Тип: POST
 *   Content-type: application/json
@@ -568,1089 +489,866 @@ Xsolla Login будет вызывать методы с адресов [https:/
 *   Успех: _{Ok 200}_
 *   Неудачный запрос: _{"error": {"code": “003-002”, "description": ""}}_
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Data Portal на базе Slemma](#data-portal-intro)
+Xsolla Data Portal на базе Slemma
 
 Этот гайд поможет вам ориентироваться в нашем [демо-примере](https://slemma.com/demo/xsolla-payments), и лучше понимать, как вы можете использовать данные отчеты при работе с вашей платежной аналитикой в [Личном Кабинете](https://publisher.xsolla.com). Ниже представлена информация о том как анализировать [дашборды](#dashboards), описания ко всем разделам, определения для различных [метрик](#dataset-measures) и [измерений](#dataset_dimensions), а также список [Вопросов](#faq_data_portal). Если у вас возникнут вопросы, напишите нам на [dataportal@xsolla.com](mailto:dataportal@xsolla.com)!
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/JSoLff-hv4A" frameborder="0" allowfullscreen="" class="video"></iframe></div>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Дашборды](#dashboards)
+Дашборды
 
 Дашборд — это набор графиков и диаграмм, дающих вам возможность глубже анализировать конкретную проблему. Каждый из дашбордов позволит вам увеличить значения о какой-либо области деятельности вашей компании и принимать решения на основе анализируемых данных.
 
-[![Общая информаци](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview.6fffd7990b.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png "Общая информаци") [ ![Банки-эмитенты](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks.2b9cf765ca.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png "Банки-эмитенты") [ ![Информация о доходе и трендах](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends.56c78e2f03.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png "Информация о доходе и трендах") [ ![Данные о способах оплаты](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue.63fb89cbeb.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png "Данные о способах оплаты") [ ![Диаграмма платящих пользователей](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users.46cd6a1f7c.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png "Диаграмма платящих пользователей") [ ![Доход в разрезе валют](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies.e3b123289f.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png "Доход в разрезе валют") [ ![Конверсия кредитных карт](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion.7f5cce99c0.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png "Конверсия кредитных карт") [ ![Причины отмен платежей](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons.5d5b82ea61.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png "Причины отмен платежей") [ ![Платящие пользователи в разрезе операционных систем](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users.3b99bfe06e.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png "Платящие пользователи в разрезе операционных систем") [ ![Пузырьковая диаграмма по странам](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles.cbf6168677.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png "Пузырьковая диаграмма по странам") [ ![Данные о кредитных картах](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights.83a176fbe8.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png "Данные о кредитных картах") [ ![Конверсия способов оплаты](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion.8f9d26abe3.png)](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png "Конверсия способов оплаты")
+[![Общая информаци](1)
+Основные понятия
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Основные понятия](#dashboards-concepts)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Фильтры](#-)
+Фильтры
 
 Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным [измерениям](#dataset_dimensions). Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре **User Country** выбрать _United States_, то на дашборде будут показаны данные о платежах только из _United States_. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Значения показателей роста](#-)
+Значения показателей роста
 
 Показатели роста сравнивают текущее состояние выбранных [метрик](#dataset_measures) с метриками за предыдущий период такой же длины. Зеленые, направленные вверх стрелки указывают на рост по сравнению с предыдущим периодом, а красные, направленные вниз стрелки означают падение.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Значения по выбранному периоду](#-)
+Значения по выбранному периоду
 
 В отличие от значений, которые показывают лишь агрегированные данные за выбранный период, эти значения корректируются на основе периода времени, установленного в фильтре **Date**. Используйте этот фильтр для изменения агрегированного периода времени на дашборде, и эти значения также изменятся.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Среднесуточные значения](#-)
+Среднесуточные значения
 
 В отличие от обычных значений, среднесуточные значения не будут увеличиваться при увеличении периода. Например, **ARPPU** будет расти при увеличении периода, потому что те же пользователи будут продолжать платить. Усредненный доход на платящего ежедневно активного пользователя (ARPPDAU) не будет расти, так как это среднее значение от всех средних значений за период, а не от общего количества платежей и среднего количества платящих пользователей.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Агрегация по неделям и месяцам](#-)
+Агрегация по неделям и месяцам
 
 Если вы выберите определенный период в фильтре **Date**, например 4 недели, то данные будут показаны, разделенные по неделям и показывать 4 недели. Агрегация данных за эти недели будет на основе всей активности за эти недели, а не средней от средних данных за день, которая будет показана, когда выбран фильтр по дням.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Параллельный период](#-)
+Параллельный период
 
 Графики параллельного периода позволят вам сделать анализ тренда.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Скользящая средняя](#-)
+Скользящая средняя
 
 Скользящая средняя является еще одним способом анализа тенденций. Временные рамки, используемые в расчетах, отображаются в названии метрик. Естественно, длительные временные отрезки дадут меньшую волатильность и покажут общую тенденцию рассматриваемого периода. Мы используем простую скользящую среднюю.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Скачать любой график в excel](#-excel)
+Скачать любой график в excel
 
 При необходимости вы можете загрузить данные непосредственно из диаграммы. Щелкните правой кнопкой мыши по графику и загрузите данные в формате CSV, XLS, а также в PNG для использования в презентациях.
 
-</div>
+Справочник дашбордов
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Справочник дашбордов](#dashboards-reference)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Обзорный](#-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-) [(demo)](https://slemma.com/share/3c42a1225b24aed8882b23874b8b827c4e8811b6)
+Обзорный
 
 Обзорный дашборд содержит KPI вашей игры, идеален для ежедневного анализа, а также для показа на вашем офисном TV. Включает **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices** и **Average Payment Amount**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Игры](#-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-) [(demo)](https://slemma.com/share/57107d069f10200b7cc0fae2a514052350b9dbec)
+Игры
 
 Игровой дашборд создан для анализа различных платежных ситуаций в ваших играх. Метрики заложены вместе с регулярными фильтрами, так что вы можете определить приоритеты и оценить разницу между вашими проектами.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Платежные системы](#-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-) [(demo)](https://slemma.com/share/d761565a4d0a355ac3be414e5c3330f8f98f792f)
+Платежные системы
 
 Понимание того, как платят ваши пользователи может быть столь же важным, как и ответ на вопрос: "почему?". Данный дашборд должен помочь вам понять как различные подгруппы ваших пользователей совершают платежи и как вы можете оптимизировать свой сайт, показывая наиболее подходящие и наиболее популярные платежные системы.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Кредитные карты](#-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-) [(demo)](https://slemma.com/share/b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc)
+Кредитные карты
 
 Дашборд кредитных карт полностью посвящен данным о кредитных картах. Анализ конверсии, причины отказа, а также информация о том как много пользователей разрешили Xsolla сохранить их платежные данные для будущих покупок (надежный индикатор их намерения еще вернуться в игру)!
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Revenue](#revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-) [(demo)](https://slemma.com/share/279ee8a542f1f79b6d637d28ebcd0228bacc2869)
+Revenue
 
 Revenue-дашборд предлагает несколько различных способов анализа тенденций. В данный дашборд включены параллельные периоды, средняя скользящая и диаграммы роста, все они могут помочь вам строить прогнозы. Также дашборд содержит лист валют; вы можете убедиться, что предлагаете все валюты, соответствующие областям присутствия ваших проектов.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Платящие пользователи](#-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-) [(demo)](https://slemma.com/share/63c1084fc0efc9dd57e95bd7ce1050015e93fe4d)
+Платящие пользователи
 
 Paying Users дашборд — это способ понять характеристики вашего **Revenue**. Если **Revenue** увеличивается вы можете задать вопрос: новые пользователи становятся **Paying Users** или **Existing Paying Users** платят больше?
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [ARPPU](#arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-) [(demo)](https://slemma.com/share/504433146eb4d07cbcb67ad2f0467f29aed6f17e)
+ARPPU
 
 Average Revenue Per Paying User (ARPPU) это еще один способ увидеть характерное платежное поведение ваших пользователей. Данный дашборд также включает единичные значения Average Revenue Per Paying Daily Active User, который не увеличивается с течением времени от пользователей, совершивших единичный платеж.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Виртуальная валюта](#-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-) [(demo)](https://slemma.com/share/d185809a81a17fa74c872926a2cb66367ecd636c)
+Виртуальная валюта
 
 Дашборд виртуальной валюты будет информировать вас о том как много пользователей совершили покупки, расплатившись внутриигровой валютой. Также вы можете загрузить ваши внутриигровые данные о потраченной игровой валюте, создать сравнительный дашборд и проверить здоровье вашей внутриигровой экономики.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [География](#-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-) [(demo)](https://slemma.com/share/1e3730294de65cf1904c2985dd815f836a6d2a77)
+География
 
 Дашборд поможет понять разницу между платежными привычками пользователей в зависимости от их местоположения. Каждый лист сгруппирован по различным признакам, включая такие как: **Countries**, **Regions**, **Languages**, **Business Regions** и **Timezones**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Девайсы](#-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-) [(demo)](https://slemma.com/share/e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8)
+Девайсы
 
 Дашборд включает информацию об опыте пользователя в вашем интерфейсе. Вы можете использовать данную информацию для оптимизации вашего сайта для наиболее популярных девайсов и быть уверенным, что он работает в самых распространенных браузерах.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Отмены](#-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-) [(demo)](https://slemma.com/share/4ba43a6b1671d29c9004991fe337ec62c82aaa0b)
+Отмены
 
 Дашборд позволит вам следить за фродом в вашей игре. Обзор листов будет показывать число отмен в **Cancellation Date**, **Payment Date**, как в процентах, так и географически. Список причин даст вам возможность увидеть распределение причин отмены для каждой отмены.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Dataset](#xsolla-dataset)
+Xsolla Dataset
 
 Все эти предустановленные дашборды действительно хороши, но что если вы хотите создать свой собственный? Вы можете сделать это с помощью предоставленного Xsolla Dataset! Вы можете создать неограниченное количество дашбордов с вашим [Slemma](https://slemma.com)-аккаунтом и вашими данными; постройте любой график с любыми метриками или измерениями.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Измерения](#dataset_dimensions)
+Измерения
 
 Измерения отличаются от данных. Это не сами значения, но определенные категории значений. Всякий раз, когда вы используете фильтр, вы фильтруете данные по измерению.
 
 Примеры измерений: **Countr**y, **Credit Card Type**, **Date**, и.т.д.
 
-<table>
 
-<thead>
 
-<tr>
 
-<th>Группа</th>
 
-<th>Название</th>
 
-<th>Описание</th>
 
-</tr>
+Группа
 
-</thead>
+Название
 
-<tbody>
+Описание
 
-<tr>
 
-<td>DateTime</td>
 
-<td><nobr>**Date**</nobr></td>
 
-<td>Дата по умолчанию для всех графиков в часовом поясе формата UTC. Данная дата основывается на последнем обновлении платежного статуса (invoice, payment, cancellation). Пример: когда вы хотите добавить платежи или отмены на единую временную шкалу, платежи будут агрегироваться по дате платежа, отмены — по дате отмены.</td>
 
-</tr>
 
-<tr>
 
-<td>DateTime</td>
 
-<td><nobr>**Invoice Date**</nobr></td>
 
-<td>Дата создания заявки в UTC .</td>
+DateTime
 
-</tr>
+**Date**
 
-<tr>
+Дата по умолчанию для всех графиков в часовом поясе формата UTC. Данная дата основывается на последнем обновлении платежного статуса (invoice, payment, cancellation). Пример: когда вы хотите добавить платежи или отмены на единую временную шкалу, платежи будут агрегироваться по дате платежа, отмены — по дате отмены.
 
-<td>DateTime</td>
 
-<td><nobr>**Payment Date**</nobr></td>
 
-<td>Дата подтверждения платежа в UTC. Данная дата доступна только для завершенных платежей и не доступна для неоплаченных заявок.</td>
 
-</tr>
 
-<tr>
+DateTime
 
-<td>DateTime</td>
+**Invoice Date**
 
-<td><nobr>**Cancellation Date**</nobr></td>
+Дата создания заявки в UTC .
 
-<td>Дата отмены платежа в UTC. Данные доступны для отмененных платежей.</td>
 
-</tr>
 
-<tr>
 
-<td>Projects</td>
 
-<td><nobr>**Project**</nobr></td>
+DateTime
 
-<td>ID пректа и название проекта</td>
+**Payment Date**
 
-</tr>
+Дата подтверждения платежа в UTC. Данная дата доступна только для завершенных платежей и не доступна для неоплаченных заявок.
 
-<tr>
 
-<td>Payment System</td>
 
-<td><nobr>**Payment System Group**</nobr></td>
 
-<td>Группа платежных систем, например: _Cash Payments_, _Bank Transfer_</td>
 
-</tr>
+DateTime
 
-<tr>
+**Cancellation Date**
 
-<td>Payment System</td>
+Дата отмены платежа в UTC. Данные доступны для отмененных платежей.
 
-<td><nobr>**Payment System**</nobr></td>
 
-<td>ID платежной системы и название, например: _24\. Paypal_, _57\. PaySafeCard_</td>
 
-</tr>
 
-<tr>
 
-<td>Geography</td>
+Projects
 
-<td><nobr>**User Country**</nobr></td>
+**Project**
 
-<td>Страна пользователя, определена системой Xsolla. Вычисленная страна является наиболее точной и подходящей. IP-адрес пользователя, страна мобильного оператора, страна банка, выпустившего кредитную карту и другие атрибуты используются для определения страны. Данная страна используется для внутренних вычислений VAT.</td>
+ID пректа и название проекта
 
-</tr>
 
-<tr>
 
-<td>Geography</td>
 
-<td><nobr>**Language**</nobr></td>
 
-<td>Язык. Используется 2-буквенный код, вида _EN_, _PT_, _RU_</td>
+Payment System
 
-</tr>
+**Payment System Group**
 
-<tr>
+Группа платежных систем, например: _Cash Payments_, _Bank Transfer_
 
-<td>Geography</td>
 
-<td><nobr>**IP Address Geography**</nobr></td>
 
-<td>Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о _Region_ и _Country_ с _Country Subdivision_ и _City_.</td>
 
-</tr>
 
-<tr>
+Payment System
 
-<td>Geography</td>
+**Payment System**
 
-<td><nobr>**Timezone**</nobr></td>
+ID платежной системы и название, например: _24\. Paypal_, _57\. PaySafeCard_
 
-<td>Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: _Europe/Berlin_, _America/Chicago_</td>
 
-</tr>
 
-<tr>
 
-<td>Geography</td>
 
-<td><nobr>**Business Region**</nobr></td>
+Geography
 
-<td>Бизнес-регион в **User Country**, например: _European Union_, _Latin America_</td>
+**User Country**
 
-</tr>
+Страна пользователя, определена системой Xsolla. Вычисленная страна является наиболее точной и подходящей. IP-адрес пользователя, страна мобильного оператора, страна банка, выпустившего кредитную карту и другие атрибуты используются для определения страны. Данная страна используется для внутренних вычислений VAT.
 
-<tr>
 
-<td>Geography</td>
 
-<td><nobr>**Payment System Country**</nobr></td>
 
-<td>Страна происхождения платежной системы</td>
 
-</tr>
+Geography
 
-<tr>
+**Language**
 
-<td>Geography</td>
+Язык. Используется 2-буквенный код, вида _EN_, _PT_, _RU_
 
-<td><nobr>**Issuing Bank Country**</nobr></td>
 
-<td>Страна банка, выпустившего карту польззователя</td>
 
-</tr>
 
-<tr>
 
-<td>Currencies</td>
+Geography
 
-<td><nobr>**Payment Currency**</nobr></td>
+**IP Address Geography**
 
-<td>Валюта платежа пользователя, 3-буквенное обозначение, вида: _USD_, _EUR_</td>
+Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о _Region_ и _Country_ с _Country Subdivision_ и _City_.
 
-</tr>
 
-<tr>
 
-<td>Currencies</td>
 
-<td><nobr>**Payout Currency**</nobr></td>
 
-<td>Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: _USD_, _EUR_</td>
+Geography
 
-</tr>
+**Timezone**
 
-<tr>
+Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: _Europe/Berlin_, _America/Chicago_
 
-<td>Purchase</td>
 
-<td><nobr>**Purchase Type**</nobr></td>
 
-<td>Модуль Xsolla, использованный для совершения платежа: _Virtual Items_, _Virtual Currency_</td>
 
-</tr>
 
-<tr>
+Geography
 
-<td>Purchase</td>
+**Business Region**
 
-<td><nobr>**Is First Payment**</nobr></td>
+Бизнес-регион в **User Country**, например: _European Union_, _Latin America_
 
-<td>_True_, если это первый платеж для данного юзера, _false_ в противном случае</td>
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Is Credit Card**</nobr></td>
+Geography
 
-<td>_True_, если платеж совершен через кредитную карту, _false_ в противном случае</td>
+**Payment System Country**
 
-</tr>
+Страна происхождения платежной системы
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Issuing Bank**</nobr></td>
 
-<td>Банк, выпустивший кредитную карту</td>
 
-</tr>
+Geography
 
-<tr>
+**Issuing Bank Country**
 
-<td>Credit Cards</td>
+Страна банка, выпустившего карту польззователя
 
-<td><nobr>**Credit Card Brand**</nobr></td>
 
-<td>e.g _VISA_, _MasterCard_</td>
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
+Currencies
 
-<td><nobr>**Credit Card Type**</nobr></td>
+**Payment Currency**
 
-<td>e.g. _CREDIT_, _DEBIT_</td>
+Валюта платежа пользователя, 3-буквенное обозначение, вида: _USD_, _EUR_
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Credit Card Category**</nobr></td>
 
-<td>e.g. _CLASSIC_, _GOLD_, _PLATINUM_</td>
+Currencies
 
-</tr>
+**Payout Currency**
 
-<tr>
+Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: _USD_, _EUR_
 
-<td>Credit Cards</td>
 
-<td><nobr>**Is Payment Account Saved**</nobr></td>
 
-<td>_True_ если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, _false_ в противном случае</td>
 
-</tr>
 
-<tr>
+Purchase
 
-<td>Credit Cards</td>
+**Purchase Type**
 
-<td><nobr>**Is Payment From Saved Account**</nobr></td>
+Модуль Xsolla, использованный для совершения платежа: _Virtual Items_, _Virtual Currency_
 
-<td>_True_, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, _false_ в противном случае</td>
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Is Credit Card Rejected**</nobr></td>
+Purchase
 
-<td>_True_, если кредитная карта была отклонена во время процесса оплаты, _false_ в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**</td>
+**Is First Payment**
 
-</tr>
+_True_, если это первый платеж для данного юзера, _false_ в противном случае
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Credit Card Reject Reason**</nobr></td>
 
-<td>e.g. _Insufficient Funds_, _Did not pass validation 3D-secure_</td>
 
-</tr>
+Credit Cards
 
-<tr>
+**Is Credit Card**
 
-<td>Recurring Payments</td>
+_True_, если платеж совершен через кредитную карту, _false_ в противном случае
 
-<td><nobr>**Is Recurrent Plan Created**</nobr></td>
 
-<td>_True_, если из платежа была создана рекуррентная подписка, _false_ в противном случае</td>
 
-</tr>
 
-<tr>
 
-<td>Recurring Payments</td>
+Credit Cards
 
-<td><nobr>**Is Recurrent Payment**</nobr></td>
+**Issuing Bank**
 
-<td>_True_, если списание с карты было совершено для оплаты рекуррентной подписки, _false_ в противном случае</td>
+Банк, выпустивший кредитную карту
 
-</tr>
 
-<tr>
 
-<td>User Agent</td>
 
-<td><nobr>**OS**</nobr></td>
 
-<td>Операционная система на девайсе пользователя, например: _Windows 8_, _MacOS_, _Android_</td>
+Credit Cards
 
-</tr>
+**Credit Card Brand**
 
-<tr>
+e.g _VISA_, _MasterCard_
 
-<td>User Agent</td>
 
-<td><nobr>**Browser**</nobr></td>
 
-<td>Браузер пользователя, например: _Firefox_, _Chrome Mobile_</td>
 
-</tr>
 
-<tr>
+Credit Cards
 
-<td>User Agent</td>
+**Credit Card Type**
 
-<td><nobr>**Device**</nobr></td>
+e.g. _CREDIT_, _DEBIT_
 
-<td>Модель мобильного устройства пользователя, например: _IPhone_, _Nokia Lumia_</td>
 
-</tr>
 
-<tr>
 
-<td>User Agent</td>
 
-<td><nobr>**Screen Size**</nobr></td>
+Credit Cards
 
-<td>Разрешение экрана девайса пользователя</td>
+**Credit Card Category**
 
-</tr>
+e.g. _CLASSIC_, _GOLD_, _PLATINUM_
 
-<tr>
 
-<td>User Agent</td>
 
-<td><nobr>**UI**</nobr></td>
 
-<td>Интерфейс Xsolla, через который был совершен платеж, например: _PayStation_, _Smartphone Version_</td>
 
-</tr>
+Credit Cards
 
-<tr>
+**Is Payment Account Saved**
 
-<td>Developers</td>
+_True_ если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, _false_ в противном случае
 
-<td><nobr>**Payment Notification Delivery**</nobr></td>
 
-<td>Продолжительность обработки платежа на стороне Xsolla, например: _1-3 seconds_, _1-10 minutes_</td>
 
-</tr>
 
-<tr>
 
-<td>Developers</td>
+Credit Cards
 
-<td><nobr>**Payment System Delay**</nobr></td>
+**Is Payment From Saved Account**
 
-<td>Продолжительность обработки платежа на стороне платежной системы, например: _1-3 seconds_, _1-10 minutes_</td>
+_True_, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, _false_ в противном случае
 
-</tr>
 
-<tr>
 
-<td>Developers</td>
 
-<td><nobr>**Payment Flow**</nobr></td>
 
-<td>Общая продолжительностьобработки платежа, например: _1-3 seconds_, _1-10 minutes_</td>
+Credit Cards
 
-</tr>
+**Is Credit Card Rejected**
 
-<tr>
+_True_, если кредитная карта была отклонена во время процесса оплаты, _false_ в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**
 
-<td>Cancellations</td>
 
-<td><nobr>**Is Cancelled**</nobr></td>
 
-<td>_True_, если платеж отменен, _false_ в противном случае. Причины отмены можно найти в измерении **Cancellation Type**</td>
 
-</tr>
 
-<tr>
+Credit Cards
 
-<td>Cancellations</td>
+**Credit Card Reject Reason**
 
-<td><nobr>**Cancellation Type**</nobr></td>
+e.g. _Insufficient Funds_, _Did not pass validation 3D-secure_
 
-<td>Причины отмены транзакции, например: _Refund_, _Chargeback_</td>
 
-</tr>
 
-</tbody>
 
-</table>
 
-</div>
+Recurring Payments
 
-</div>
+**Is Recurrent Plan Created**
 
-<div class="section-content">
+_True_, если из платежа была создана рекуррентная подписка, _false_ в противном случае
 
-<div class="section-description">
 
-# [Метрики](#dataset_measures)
+
+
+
+Recurring Payments
+
+**Is Recurrent Payment**
+
+_True_, если списание с карты было совершено для оплаты рекуррентной подписки, _false_ в противном случае
+
+
+
+
+
+User Agent
+
+**OS**
+
+Операционная система на девайсе пользователя, например: _Windows 8_, _MacOS_, _Android_
+
+
+
+
+
+User Agent
+
+**Browser**
+
+Браузер пользователя, например: _Firefox_, _Chrome Mobile_
+
+
+
+
+
+User Agent
+
+**Device**
+
+Модель мобильного устройства пользователя, например: _IPhone_, _Nokia Lumia_
+
+
+
+
+
+User Agent
+
+**Screen Size**
+
+Разрешение экрана девайса пользователя
+
+
+
+
+
+User Agent
+
+**UI**
+
+Интерфейс Xsolla, через который был совершен платеж, например: _PayStation_, _Smartphone Version_
+
+
+
+
+
+Developers
+
+**Payment Notification Delivery**
+
+Продолжительность обработки платежа на стороне Xsolla, например: _1-3 seconds_, _1-10 minutes_
+
+
+
+
+
+Developers
+
+**Payment System Delay**
+
+Продолжительность обработки платежа на стороне платежной системы, например: _1-3 seconds_, _1-10 minutes_
+
+
+
+
+
+Developers
+
+**Payment Flow**
+
+Общая продолжительностьобработки платежа, например: _1-3 seconds_, _1-10 minutes_
+
+
+
+
+
+Cancellations
+
+**Is Cancelled**
+
+_True_, если платеж отменен, _false_ в противном случае. Причины отмены можно найти в измерении **Cancellation Type**
+
+
+
+
+
+Cancellations
+
+**Cancellation Type**
+
+Причины отмены транзакции, например: _Refund_, _Chargeback_
+
+
+
+
+
+
+
+Метрики
 
 Метрики, в отличие измерений, представляют собой значения, которые отображаются на графиках. Примеры метрик: **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.
 
-<table>
 
-<thead>
 
-<tr>
 
-<th>Группа</th>
 
-<th>Название</th>
 
-<th>Описание</th>
 
-</tr>
+Группа
 
-</thead>
+Название
 
-<tbody>
+Описание
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**Revenue**</nobr></td>
 
-<td>Сумма до вычета комиссий. Сумма конвертируется в валюту метрики по актуальному на дату уведомления проекта курсу .</td>
 
-</tr>
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**Average Payment Amount**</nobr></td>
 
-<td>**Revenue**, деленное количество **Payments**</td>
+Measures
 
-</tr>
+**Revenue**
 
-<tr>
+Сумма до вычета комиссий. Сумма конвертируется в валюту метрики по актуальному на дату уведомления проекта курсу .
 
-<td>Measures</td>
 
-<td><nobr>**Gross Revenue**</nobr></td>
 
-<td>Сумма дохода **Revenue** без учета **Cancellations Revenue** за текущий период</td>
 
-</tr>
 
-<tr>
+Measures
 
-<td>Measures</td>
+**Average Payment Amount**
 
-<td><nobr>**Payments**</nobr></td>
+**Revenue**, деленное количество **Payments**
 
-<td>Общая сумма завершенных платежей. Платежи могут быть отменены в будущих периодах.</td>
 
-</tr>
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**Virtual Currency Amount**</nobr></td>
+Measures
 
-<td>Количество приобретенной виртуальной валюты. Доступно в модуле _Virtual Currency_</td>
+**Gross Revenue**
 
-</tr>
+Сумма дохода **Revenue** без учета **Cancellations Revenue** за текущий период
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**ARPPU**</nobr></td>
 
-<td>Average Revenue Per Paying User: **Revenue**, деленное на количество уникальных **Paying Users**. При использовании недельной или месячной агрегации **ARPPU** значительно возрастает, так как один пользователь может иметь несколько **Payments** за один период.</td>
 
-</tr>
+Measures
 
-<tr>
+**Payments**
 
-<td>Measures</td>
+Общая сумма завершенных платежей. Платежи могут быть отменены в будущих периодах.
 
-<td><nobr>**Payments per Paying User**</nobr></td>
 
-<td>Общее количество **Payments**, деленное на количество уникальных **Paying users**. Используется в еженедельных и ежемесячных агрегациях для аналитики частоты платежей.</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
+Measures
 
-<td><nobr>**Invoices**</nobr></td>
+**Virtual Currency Amount**
 
-<td>Общее количество созданных заявок.</td>
+Количество приобретенной виртуальной валюты. Доступно в модуле _Virtual Currency_
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Users**</nobr></td>
 
-<td>Общее количество пользователей, создавших **Invoice**. Пользователи, не завершившие платеж, также включены.</td>
+Measures
 
-</tr>
+**ARPPU**
 
-<tr>
+Average Revenue Per Paying User: **Revenue**, деленное на количество уникальных **Paying Users**. При использовании недельной или месячной агрегации **ARPPU** значительно возрастает, так как один пользователь может иметь несколько **Payments** за один период.
 
-<td>Measures</td>
 
-<td><nobr>**Paying Users**</nobr></td>
 
-<td>Количество уникальных пользователей, совершивших как минимум один **Payment**в рассматриваемый период</td>
 
-</tr>
 
-<tr>
+Measures
 
-<td>Conversion</td>
+**Payments per Paying User**
 
-<td><nobr>**Paying Users Percent**</nobr></td>
+Общее количество **Payments**, деленное на количество уникальных **Paying users**. Используется в еженедельных и ежемесячных агрегациях для аналитики частоты платежей.
 
-<td>Процент пользователей, завершивших платеж от общего числа пользователей, создавших заявку. **Paying Users Percent** более точное преобразование метрики (по сравнению с **Paid Invoices Percent**), так как пользователь может попробовать несколько способов оплаты, прежде чем завершит платеж.</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Paid Invoices Percent**</nobr></td>
+Conversion
 
-<td>Процент завершенных **Payments** по отношению к общему числу **Invoices**</td>
+**Invoices**
 
-</tr>
+Общее количество созданных заявок.
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Churn Users**</nobr></td>
 
-<td>Количество пользователей создавших, но не оплативших заявку.</td>
 
-</tr>
+Conversion
 
-<tr>
+**Users**
 
-<td>Conversion</td>
+Общее количество пользователей, создавших **Invoice**. Пользователи, не завершившие платеж, также включены.
 
-<td><nobr>**Churn Users Percent**</nobr></td>
 
-<td>Процент пользователей создавших, но не оплативших заявку.</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
+Measures
 
-<td><nobr>**Unpaid Invoices**</nobr></td>
+**Paying Users**
 
-<td>Количество заявок, которые не были завершены пользователем и не подтверждены платежной системой.</td>
+Количество уникальных пользователей, совершивших как минимум один **Payment**в рассматриваемый период
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Unpaid Invoices Percent**</nobr></td>
 
-<td>Процент **Unpaid Invoices** по отношению к общему количеству заявок</td>
+Conversion
 
-</tr>
+**Paying Users Percent**
 
-<tr>
+Процент пользователей, завершивших платеж от общего числа пользователей, создавших заявку. **Paying Users Percent** более точное преобразование метрики (по сравнению с **Paid Invoices Percent**), так как пользователь может попробовать несколько способов оплаты, прежде чем завершит платеж.
 
-<td>Conversion</td>
 
-<td><nobr>**New Paying Users**</nobr></td>
 
-<td>Количество уникальных **Paying users**, совершивших первый платеж в рассматриваемый период.</td>
 
-</tr>
 
-<tr>
+Conversion
 
-<td>Conversion</td>
+**Paid Invoices Percent**
 
-<td><nobr>**New Paying Users Percent**</nobr></td>
+Процент завершенных **Payments** по отношению к общему числу **Invoices**
 
-<td>Процент **New Paying Users** по отношению к общему числу **Paying Users**</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Existing Paying Users**</nobr></td>
+Conversion
 
-<td>Количество уникальных **Paying Users**, совершивших не первый платеж</td>
+**Churn Users**
 
-</tr>
+Количество пользователей создавших, но не оплативших заявку.
 
-<tr>
 
-<td>Cancellations</td>
 
-<td><nobr>**Cancellations**</nobr></td>
 
-<td>Количество **Payments** которые были возвращены или отменены</td>
 
-</tr>
+Conversion
 
-<tr>
+**Churn Users Percent**
 
-<td>Cancellations</td>
+Процент пользователей создавших, но не оплативших заявку.
 
-<td><nobr>**Cancellations Percent**</nobr></td>
 
-<td>Процент **Cancellations** по отношению к общему числу **Payments**.</td>
 
-</tr>
 
-<tr>
 
-<td>Cancellations</td>
+Conversion
 
-<td><nobr>**Cancellations Revenue**</nobr></td>
+**Unpaid Invoices**
 
-<td>Количество отмененных **Payments**.</td>
+Количество заявок, которые не были завершены пользователем и не подтверждены платежной системой.
 
-</tr>
 
-<tr>
 
-<td>Cancellations</td>
 
-<td><nobr>**Cancellations Revenue Percent**</nobr></td>
 
-<td>Процент **Cancellations Revenue** по отношению к общему **Revenue**.</td>
+Conversion
 
-</tr>
+**Unpaid Invoices Percent**
 
-<tr>
+Процент **Unpaid Invoices** по отношению к общему количеству заявок
 
-<td>Developers</td>
 
-<td><nobr>**Payment Notification Delivery, Seconds**</nobr></td>
 
-<td>Продолжительность обработки платежа на стороне Xsolla</td>
 
-</tr>
 
-<tr>
+Conversion
 
-<td>Developers</td>
+**New Paying Users**
 
-<td><nobr>**Payment System Delay, Seconds**</nobr></td>
+Количество уникальных **Paying users**, совершивших первый платеж в рассматриваемый период.
 
-<td>Продолжительность обработки платежа на стороне платежной системы</td>
 
-</tr>
 
-<tr>
 
-<td>Developers</td>
 
-<td><nobr>**Payment Flow, Seconds**</nobr></td>
+Conversion
 
-<td>Общая продолжительность обработки платежа</td>
+**New Paying Users Percent**
 
-</tr>
+Процент **New Paying Users** по отношению к общему числу **Paying Users**
 
-</tbody>
 
-</table>
+
+
+
+Conversion
+
+**Existing Paying Users**
+
+Количество уникальных **Paying Users**, совершивших не первый платеж
+
+
+
+
+
+Cancellations
+
+**Cancellations**
+
+Количество **Payments** которые были возвращены или отменены
+
+
+
+
+
+Cancellations
+
+**Cancellations Percent**
+
+Процент **Cancellations** по отношению к общему числу **Payments**.
+
+
+
+
+
+Cancellations
+
+**Cancellations Revenue**
+
+Количество отмененных **Payments**.
+
+
+
+
+
+Cancellations
+
+**Cancellations Revenue Percent**
+
+Процент **Cancellations Revenue** по отношению к общему **Revenue**.
+
+
+
+
+
+Developers
+
+**Payment Notification Delivery, Seconds**
+
+Продолжительность обработки платежа на стороне Xsolla
+
+
+
+
+
+Developers
+
+**Payment System Delay, Seconds**
+
+Продолжительность обработки платежа на стороне платежной системы
+
+
+
+
+
+Developers
+
+**Payment Flow, Seconds**
+
+Общая продолжительность обработки платежа
+
+
+
+
+
+
 
 Метрики могут быть агрегированы различными способами. Ниже приведено описание каждого типа агрегации, который вы увидите на ваших дашбордах:
 
-<table>
 
-<thead>
 
-<tr>
 
-<th></th>
 
-<th></th>
 
-</tr>
 
-</thead>
 
-<tbody>
 
-<tr>
 
-<td>**Count**</td>
 
-<td>Сколько раз произошло отслеживаемое событие. По умолчанию используется для **Invoices**, **Paying Users**, и.т.д.</td>
 
-</tr>
 
-<tr>
 
-<td>**Sum**</td>
 
-<td>Какова общая сумма числовых значений, связанных с отслеживаемым событием. По умолчанию используется для **Gross Revenue**, **Virtual Currency Amount**, и.т.д.</td>
 
-</tr>
 
-<tr>
 
-<td>**Average**</td>
 
-<td>Каково среднее значение метрики. Это будет использоваться для метрик, содержащих процентные отношения, поэтому не имеет смысла использовать такую агрегацию для метрик вида **Sum**. По умолчанию используется для **Average Payment Amount**, **Churn Users Percent**, и.т.д.</td>
+**Count**
 
-</tr>
+Сколько раз произошло отслеживаемое событие. По умолчанию используется для **Invoices**, **Paying Users**, и.т.д.
 
-<tr>
 
-<td>**Maximum**</td>
 
-<td>Каково было максимальное значение данной метрики</td>
 
-</tr>
 
-<tr>
+**Sum**
 
-<td>**Minimum**</td>
+Какова общая сумма числовых значений, связанных с отслеживаемым событием. По умолчанию используется для **Gross Revenue**, **Virtual Currency Amount**, и.т.д.
 
-<td>Каково было минимальное значение данной метрики</td>
 
-</tr>
 
-</tbody>
 
-</table>
 
-</div>
+**Average**
 
-</div>
+Каково среднее значение метрики. Это будет использоваться для метрик, содержащих процентные отношения, поэтому не имеет смысла использовать такую агрегацию для метрик вида **Sum**. По умолчанию используется для **Average Payment Amount**, **Churn Users Percent**, и.т.д.
 
-<div class="section-content">
 
-<div class="section-description">
 
-# [FAQ](#faq_data_portal)
+
+
+**Maximum**
+
+Каково было максимальное значение данной метрики
+
+
+
+
+
+**Minimum**
+
+Каково было минимальное значение данной метрики
+
+
+
+
+
+
+
+FAQ
 
 **Q.** Сколько это стоит?
 
@@ -1660,8 +1358,7 @@ Average Revenue Per Paying User (ARPPU) это еще один способ ув
 
 **Q.** Как я могу активировать data portal для моего аккаунта?
 
-**A.** Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](https://publisher.xsolla.com)
-
+**A.** Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](1)
 * * *
 
 **Q.** В каких валютах данные?
@@ -1672,8 +1369,7 @@ Average Revenue Per Paying User (ARPPU) это еще один способ ув
 
 **Q.** Как я могу загрузить свои собственные данные в [Slemma](https://slemma.com)?
 
-**A.** Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](http://support.slemma.com)
-
+**A.** Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](1)
 * * *
 
 **Q.** Я обеспокоен конфиденциальностью и сохранностью моих данных.
@@ -1684,8 +1380,7 @@ Average Revenue Per Paying User (ARPPU) это еще один способ ув
 
 **Q.** В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](https://publisher.xsolla.com). Как я могу получить их в [Slemma](https://slemma.com)?
 
-**A.** Отправьте запрос на email [dataportal@xsolla.com](mailto:dataportal@xsolla.com)
-
+**A.** Отправьте запрос на email [dataportal@xsolla.com](1)
 * * *
 
 **Q.** Возможна ли выгрузка данных из [Slemma](https://slemma.com)?
@@ -1744,27 +1439,13 @@ Average Revenue Per Paying User (ARPPU) это еще один способ ув
 
 **Q.** Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](https://slemma.com)?
 
-**A.** Свяжитесь с [dataportal@xsolla.com](mailto:dataportal@xsolla.com)
-
+**A.** Свяжитесь с [dataportal@xsolla.com](1)
 * * *
 
 **Q.** Я не могу найти свой вопрос в данном списке…
 
-**A.** Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](mailto:dataportal@xsolla.com)
-
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Network](#xsolla_network)
+**A.** Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)
+Xsolla Network
 
 Xsolla Network — глобальное решение, которое помогает создать бренд игры, найти новых пользователей и распространить игру через доступ к десяткам аффилированных сетей, миллионам инфлюенсеров и сотням игровых медиа-порталов из одного места. Revenue Share или кампании, основанные на CPA легко настраиваются и запускаются за несколько минут, и, поскольку Xsolla интегрирована со всеми аффилированными лицами, разработчику игры не требуется дополнительно интегрироваться. Разработчик игр могут распространять свои предложения или сообщения для инфлюенсеров и игровых платформ и платить прямо из Личного Кабинета Xsolla, без необходимости подписания соглашения с каждым из них, экономя время, деньги и ресурсы R&D.
 
@@ -1779,17 +1460,7 @@ Xsolla Network — глобальное решение, которое помо�
 
 Xsolla Network — это часть продуктовой линейки Xsolla, и может быть использована вместе с Pay Station, Mobile Pay Station и/или Pay2Play. Для использования данного продукта необходимо реализовать подключение с одним из [модулей](http://developers.xsolla.com/).
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Схема взаимодействия](#interaction_diagram)
-
-<div class="getting-started">![Xsolla Network](https://cdn.xsolla.net/developers.xsolla.com/images/network_scheme.4b806ebea8.png)</div>
+Схема взаимодействия
 
 1) Пользователь кликает на рекламный баннер и переходит на прокси-страницу в Xsolla, на которую передается информация об игре. Xsolla сохраняет utm-параметры из URL, включая уникальный ID события (например, Click ID), и создает универсальный параметр Tracking ID для дальнейшего взаимодействия.
 
@@ -1803,130 +1474,75 @@ Xsolla Network — это часть продуктовой линейки Xsoll
 
 6) Информация, собранная на первом шаге, плюс данные об уникальном ID события (например, Click ID) передаются источнику трафика.
 
-</div>
+Руководство по интеграции
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Руководство по интеграции](#integration_guide)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Изменения в получении токена](#token_receipt_changes)
+Изменения в получении токена
 
 Вам необходимо дополнительно передавать информацию о Tracking ID в JSON для получения токена. Tracking ID передается внутри объекта "user".
 
-### [Пример запроса](#token_receipt_changes_пример-запроса)
+Пример запроса
 
-        curl -v https://api.xsolla.com/merchant/merchants/{merchant_id}/token \
-        -X POST \
-        -u your_merchant_id:merchant_api_key \
-        -H 'Content-Type:application/json' \
-        -H 'Accept: application/json' \
-        -d '
-        {
-            "user": {
-                "id": {
-                    "value": "1234567"
-                },
-                "tracking_id": {
-                    "value": "trackingID"
-                }
-            },
-            "settings": {
-                "project_id": 14004
-            }
-        }'
+        
 
 Все параметры, которые уже присутствовали в JSON для получения токена, должны остаться без изменений.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Новый метод API](#new_api_method)
+Новый метод API
 
 Когда пользователь с Tracking ID успешно регистрируется в игре, игра должна прислать запрос при помощи API метода.
 
-### [Пример запроса](#new_api_method_пример-запроса)
+Пример запроса
 
-    curl -v 'https://api.xsolla.com/merchant/merchants/{merchant_id}/xsolla_network/
-    user_register/{tracking_id}' \
+     \
     -X PUT \
     -u merchant_id:merchant_api_key
 
-<table>
 
-<thead>
 
-<tr>
 
-<th>Параметр</th>
 
-<th>Тип</th>
 
-<th>Описание</th>
 
-</tr>
+Параметр
 
-</thead>
+Тип
 
-<tbody>
+Описание
 
-<tr>
 
-<td>merchant_id</td>
 
-<td>int</td>
 
-<td>ID мерчанта.</td>
 
-</tr>
 
-<tr>
 
-<td>tracking_id</td>
 
-<td>string</td>
 
-<td>Tracking ID.</td>
+merchant_id
 
-</tr>
+int
 
-</tbody>
+ID мерчанта.
 
-</table>
 
-### [Пример успешного ответа](#new_api_method_пример-успешного-ответа)
+
+
+
+tracking_id
+
+string
+
+Tracking ID.
+
+
+
+
+
+
+
+Пример успешного ответа
 
     HTTP/1.1 204 No Content
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Pay2Play](#pay2play)
+Pay2Play
 
 Модуль **Pay2Play** позволяет разработчикам игр продавать пин-коды напрямую с сайта игры. Для перехода в магазин используется виджет Pay2Play. Модуль имеет несколько вариантов интеграции и предлагает следующие возможности:
 
@@ -1935,58 +1551,31 @@ Xsolla Network — это часть продуктовой линейки Xsoll
 *   Выбор размера и цветовой темы виджета
 *   Чаевые разработчику
 
-</div>
+Пользовательский сценарий
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Пользовательский сценарий](#user_flow)
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_userflow.5827dbc490.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Варианты интеграции](#integration_types)
+![](1)
+Варианты интеграции
 
 Возможны два варианта интеграции модуля — базовая и расширенная.
 
-### [Базовая интеграция](#integration_types_базовая-интеграция-basic_integration)
+Базовая интеграция
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_basic.6fbae1f6dc.png)
-
+![](1)
 Особенности базовой интеграции:
 
 *   Быстрый запуск модуля
 *   Не требует генерации токена и наличия серверной части
 *   Подходит для продажи игры без предварительной авторизации пользователя
 
-### [Расширенная интеграция](#integration_types_расширенная-интеграция-advanced_integration)
+Расширенная интеграция
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_adv.1bfcc4e872.png)
-
+![](1)
 Особенности расширенной интеграции:
 
 *   Позволяет безопасно передать данные пользователя для дальнейшей привязки покупки на стороне игры
 *   Требует реализации серверной части
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Руководство по базовой интеграции](#basic_integration_guide)
+Руководство по базовой интеграции
 
 Для базовой интеграции модуля необходимо:
 
@@ -2003,15 +1592,7 @@ Xsolla Network — это часть продуктовой линейки Xsoll
 
 <aside class="notise2">Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в [справочнике API](../api_v2.html). Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта.</aside>
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Создание проекта](#basic_create_project)
+Создание проекта
 
 1.  Перейдите в раздел **Проекты** и нажмите кнопку **Создать проект**.
 2.  В настройках проекта:  
@@ -2020,15 +1601,7 @@ Xsolla Network — это часть продуктовой линейки Xsoll
     *   Установите переключатель **Беcсерверная интеграция** в положение **Вкл.**
     *   Включите модуль **Pay2Play**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Настройка модуля](#basic_create_module)
+Настройка модуля
 
 1.  Перейдите в настройки модуля **Pay2Play** и задайте базовые настройки игры:
     *   Название.
@@ -2044,15 +1617,7 @@ Xsolla Network — это часть продуктовой линейки Xsoll
 4.  Установите переключатель **Загруженные коды** в положение **Вкл.**
 5.  Загрузите пин-коды для выбранных DRM.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Тестирование процесса оплаты](#basic_testing)
+Тестирование процесса оплаты
 
 Xsolla Sandbox (“песочница”) — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр _"settings.mode" = "sandbox"_ в объекте **access_data**. Параметры и структура JSON внутри объекта **access_data** идентичны JSON в запросе на получение [токена](../api_v2.html#token).
 
@@ -2065,35 +1630,14 @@ Xsolla Sandbox (“песочница”) — это автономная раб
 3.  Выберите группу способов оплаты **Банковские карты**.
 4.  Введите реквизиты тестовой карты. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.
 
-[Список банковских карт для тестирования](../api_v2.html#test_cards)
-
+[Список банковских карт для тестирования](1)
 **Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Интеграция виджета Pay2Play](#basic_widget)
+Интеграция виджета Pay2Play
 
 [Виджет Pay2Play](https://github.com/xsolla/pay2play-widget) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку **Опубликовать**. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.
 
 Пример асинхронной загрузки
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang" data-lang="html">HTML</div>
-
-</div>
-
-</div>
 
      <script>
          var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};
@@ -2113,17 +1657,7 @@ Xsolla Sandbox (“песочница”) — это автономная раб
 
 <aside class="notise2">**Обратите внимание!** Чтобы начать принимать реальные платежи, необходимо подписать договор.</aside>
 
-</div>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Руководство по расширенной интеграции](#advanced_integration_guide)
+Руководство по расширенной интеграции
 
 Для расширенной интеграции модуля необходимо:
 
@@ -2144,15 +1678,7 @@ Xsolla Sandbox (“песочница”) — это автономная раб
 
 <aside class="notise2">Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в [справочнике API](../api_v2.html). Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта.</aside>
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Создание проекта](#advanced_create_project)
+Создание проекта
 
 1.  Перейдите в раздел **Проекты** и нажмите кнопку **Создать проект**.
 2.  В настройках проекта:
@@ -2162,15 +1688,7 @@ Xsolla Sandbox (“песочница”) — это автономная раб
     *   Установите переключатель **Беcсерверная интеграция** в положение **Выкл.**
     *   Включите модуль **Pay2Play**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Настройка модуля](#advanced_create_module)
+Настройка модуля
 
 1.  Перейдите в настройки модуля **Pay2Play** и задайте базовые настройки игры:
     *   Название.
@@ -2186,15 +1704,7 @@ Xsolla Sandbox (“песочница”) — это автономная раб
 4.  Установите переключатель **Загруженные коды** в положение **Вкл.**
 5.  Загрузите пин-коды для выбранных DRM.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Получение токена магазина](#advanced_get_token)
+Получение токена магазина
 
 Для интеграции магазина необходимо получить токен. Токен — это строка, в которой содержится информация об игре, пользователе и параметрах платежа. Xsolla API использует Basic HTTP-аутентификацию. Укажите свой ID мерчанта в качестве username и ключ API в качестве password.
 
@@ -2207,20 +1717,6 @@ URL получения токена:
 В HTTP POST запросе вы можете указать параметры, которые нужно передать на платежный интерфейс. Запрос и ответ передаются в JSON формате.
 
 Ниже указан пример получения токена на PHP с использованием [Xsolla PHP SDK](../sdk.html). Если вы разрабатываете на другом языке, можно использовать _CURL_ пример (нажмите на кнопку CURL).
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     <?php
 
@@ -2240,40 +1736,11 @@ URL получения токена:
     ));
     $token = $xsollaClient->createPaymentUITokenFromRequest($tokenRequest);
 
-        curl -v https://api.xsolla.com/merchant/merchants/{merchant_id}/token \
-        -X POST \
-        -u your_merchant_id:merchant_api_key \
-        -H 'Content-Type:application/json' \
-        -H 'Accept: application/json' \
-        -d '
-        {
-            "user": {
-                "id": {
-                    "value": "1234567"
-                },
-                "email": {
-                    "value": "email@example.com"
-                }
-            },
-            "settings": {
-                "project_id": 14004,
-                "mode": "sandbox"
-            }
-        }'
-
-</div>
+        
 
 Полный список параметров доступен в [справочнике API](../api_v2.html#token).
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Настройка оповещений](#advanced_setup_webhooks)
+Настройка оповещений
 
 Xsolla отправляет проекту следующие типы оповещений (webhooks):
 
@@ -2283,7 +1750,7 @@ Xsolla отправляет проекту следующие типы опов�
 
 Чтобы подтвердить получение оповещения, ваш сервер должен вернуть 204 HTTP код без тела сообщения. Механизм работы оповещений с примерами обработки подробно описан в [справочнике API](../api_v2.html#webhooks).
 
-### [Формирование подписи](#advanced_setup_webhooks_формирование-подписи)
+Формирование подписи
 
 Процесс формирования подписи включает следующие шаги:
 
@@ -2293,25 +1760,11 @@ Xsolla отправляет проекту следующие типы опов�
 
 При обработке оповещения необходимо проверить, что полученная подпись и подпись, переданная в Signature заголовке, совпадают.
 
-### [Проверка существования пользователя](#advanced_setup_webhooks_проверка-существования-пользователя)
+Проверка существования пользователя
 
 Сервер Xsolla посылает запрос на URL оповещений проекта, чтобы проверить существование персонажа в игре.
 
 Пример запроса
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     $request = array(
         'notification_type' => 'user_validation',
@@ -2324,44 +1777,15 @@ Xsolla отправляет проекту следующие типы опов�
         )
     )
 
-    curl -v https://example.com/ \
-    -X POST \
-    -H 'Content-Type:application/json' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f' \
-    -d '
-    {
-        "notification_type": "user_validation",
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "country": "US"
-        }
-    }'
+    
 
 Полный список параметров доступен в [справочнике API](../api_v2.html#validate_user).
 
-### [Успешный платеж](#advanced_setup_webhooks_успешный-платеж)
+Успешный платеж
 
 Когда пользователь завершает процесс оплаты, сервер Xsolla отправляет проекту оповещение с информацией о платеже.
 
 Пример запроса
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     $request = array(
         'notification_type' => 'payment',
@@ -2425,95 +1849,15 @@ Xsolla отправляет проекту следующие типы опов�
         )
     )
 
-    curl -v https://example.com/ \
-    -X POST \
-    -H 'Content-Type:application/json' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f' \
-    -d '
-    {
-        "notification_type": "payment",
-        "purchase": {
-            "virtual_items": {
-                "items": [
-                    {
-                        "sku": "test_item1",
-                        "amount": 1
-                    },
-                    {
-                        "sku": "test_item2",
-                        "amount": 1
-                    },
-                    {
-                        "sku": "test_item3",
-                        "amount": 2
-                    },
-                ]
-            },
-            "total": {
-                "currency": "USD",
-                "amount": 9.99
-            }
-        },
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "country": "US"
-        },
-        "transaction": {
-            "id": 87654321,
-            "payment_date": "2014-09-23T19:25:25+04:00",
-            "payment_method": 1380,
-            "dry_run": 1
-        },
-        "payment_details": {
-            "payment": {
-                "currency": "USD",
-                "amount": 9.99
-            },
-            "vat": {
-                "currency": "USD",
-                "amount": 0
-            },
-            "payout_currency_rate": 1,
-            "payout": {
-                "currency": "USD",
-                "amount": 9.49
-            },
-            "xsolla_fee": {
-                "currency": "USD",
-                "amount": 0.19
-            },
-            "payment_method_fee": {
-                "currency": "USD",
-                "amount": 0.31
-            }
-        }
-    }'
+    
 
 Полный список параметров доступен в [справочнике API](../api_v2.html#payment).
 
-### [Отмена платежа](#advanced_setup_webhooks_отмена-платежа)
+Отмена платежа
 
 Если пользователь отменяет платеж, сервер Xsolla отправляет проекту оповещение с информацией о платеже.
 
 Пример запроса
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     $request = array(
         'notification_type' => 'refund',
@@ -2571,90 +1915,11 @@ Xsolla отправляет проекту следующие типы опов�
         )
     );
 
-    curl -v https://example.com/ \
-    -X POST \
-    -H 'Content-Type:application/json' \
-    -H 'Accept: application/json' \
-    -H 'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f' \
-    -d '
-    {
-        "notification_type":"refund",
-        "purchase":{
-            "virtual_currency":{
-                "name": "Coins",
-                "quantity":10,
-                "currency":"USD",
-                "amount":100
-            },
-            "subscription":{
-                "plan_id": "b5dac9c8",
-                "subscription_id": "10",
-                "date_create": "2014-09-22T19:25:25+04:00",
-                "currency": "USD",
-                "amount": 9.99
-            },
-            "checkout":{
-                "currency":"USD",
-                "amount":50
-            },
-            "virtual_items":{
-                "items":[
-                    {
-                        "sku": "test_item1",
-                        "amount":1
-                    }
-                ],
-                "currency":"USD",
-                "amount":50
-            },
-            "total":{
-                "currency":"USD",
-                "amount":200
-            }
-        },
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "name": "Xsolla User",
-            "country": "US"
-        },
-        "transaction":{
-            "id":1,
-            "external_id":1,
-            "dry_run":1,
-            "agreement":1
-        },
-        "refund_details":{
-            "code":1,
-            "reason":"Fraud"
-        },
-        "payment_details":{
-            "xsolla_fee":{
-                "currency":"USD",
-                "amount":"10"
-            },
-            "payout":{
-                "currency":"USD",
-                "amount":"200"
-            },
-            "payment_method_fee":{
-                "currency":"USD",
-                "amount":"20"
-            },
-            "payment":{
-                "currency":"USD",
-               "amount":"230"
-            }
-        }
-    }'
-
-</div>
+    
 
 Полный список параметров доступен в [справочнике API](../api_v2.html#refund).
 
-### [Тестирование оповещений](#advanced_setup_webhooks_тестирование-оповещений)
+Тестирование оповещений
 
 Чтобы протестировать обработчик оповещений:
 
@@ -2663,7 +1928,7 @@ Xsolla отправляет проекту следующие типы опов�
 3.  Введите тестовые данные и нажмите кнопку **Запустить тесты**: сервер Xsolla отправит все типы оповещений.
 4.  Если скрипт вернул корректный ответ, тест помечается зеленым цветом, в случае ошибки — красным.
 
-## [Тестирование процесса оплаты](#advanced_testing)
+Тестирование процесса оплаты
 
 Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр _"mode" = "sandbox"_ при [получении токена](../api_v2.html#token).
 
@@ -2676,27 +1941,14 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 3.  Выберите группу способов оплаты **Банковские карты**.
 4.  Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.
 
-[Список банковских карт для тестирования](../api_v2.html#test_cards)
-
+[Список банковских карт для тестирования](1)
 **Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.
 
-## [Интеграция виджета Pay2Play](#advanced_widget)
+Интеграция виджета Pay2Play
 
 [Виджет Pay2Play](https://github.com/xsolla/pay2play-widget) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку **Опубликовать**. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.
 
 Пример асинхронной загрузки
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang" data-lang="html">HTML</div>
-
-</div>
-
-</div>
 
      <script>
          var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};
@@ -2716,74 +1968,27 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 
 <aside class="notise2">**Обратите внимание!** Чтобы начать принимать реальные платежи, необходимо подписать договор.</aside>
 
-</div>
+Дополнительные возможности
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Дополнительные возможности](#additional_features)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Чаевые разработчику](#tips)
+Чаевые разработчику
 
 Проект может получать чаевые с каждой покупки. Для включения опции откройте настройки цен аддона и установите переключатель **Использовать чаевые в виджете Pay2Play** в положение **Вкл**. Для каждой добавленной валюты доступны три предустановленные суммы чаевых.
 
 Пользователь сможет выбрать сумму чаевых перед переходом в магазин, чаевые будут добавлены к стоимости покупки.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Доставка пин-кодов пользователю по API](#api_pin_codes)
+Доставка пин-кодов пользователю по API
 
 Вы можете отправлять пин-коды при каждой покупке игры вместо загрузки файла с пин-кодами. Для включения опции необходимо:
 
 *   реализовать обработку оповещения [Получение пин-кода](../api_v2.html#get_pin_code);
 *   в настройках аддона на вкладке **Загрузка кодов** установить переключатель **По требованию** в положение **Вкл.**, переключатель **Загруженные коды** — в положение **Выкл.**
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Ограничение продаж пин-кодов](#limit_sales)
+Ограничение продаж пин-кодов
 
 Проект может ограничить количество доступных к продаже пин-кодов. По мере продажи пин-кодов вы будете получать уведомления по электронной почте. Первое уведомление будет отправлено, когда в продаже останется не более 100 пин-кодов, второе — когда все пин-коды будут проданы. При попытке приобрести пин-коды сверх лимита проведение платежа блокируется.
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/sold_out.58a2e21c8c.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Региональные ограничения продаж](#regional_sale_restrictions)
+![](1)
+Региональные ограничения продаж
 
 Модуль **Pay2Play** позволяет настроить региональные ограничения продажи пин-кодов:
 
@@ -2792,8 +1997,7 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 
 После выполнения необходимых настроек при покупке пин-кода пользователь увидит предупреждение (если страна пользователя попадает под заданные ограничения). В странах, для которых продажа пин-кодов запрещена, проведение платежа блокируется.
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/reglock.4effd3ed91.png)
-
+![](1)
 Для подключения опции обратитесь к аккаунт-менеджеру проекта. По каждой платформе, для которой необходимо настроить региональные ограничения, вам потребуется следующая информация:
 
 *   Тип ограничения:
@@ -2812,19 +2016,7 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 
 **Обратите внимание!** Если активация пин-кодов и запуск игры выполняются на вашей стороне или на стороне платформы, в день релиза игры необходимо загружать пин-коды с уже настроенными региональными ограничениями.
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Подарок другу](#gifting)
+Подарок другу
 
 Вы можете дать возможность пользователям приобретать пакеты виртуальной валюты, виртуальные товары или ключи доступа в качестве подарка друзьям в игре. После успешной оплаты покупателю отправляется чек, получателю - письмо с информацией о подарке. Покупатель подарка также может скрыть свои данные и отправить подарок анонимно.
 
@@ -2836,76 +2028,26 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 
 Опция доступна только для проектов, у которых отключено хранение данных пользователей на стороне Xsolla.
 
-</div>
+Сценарии взаимодействия
 
-</div>
+Передача списка друзей в токене
 
-<div class="section-content">
+![](1)
+Передача списка друзей через API
 
-<div class="section-description">
-
-# [Сценарии взаимодействия](#-)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Передача списка друзей в токене](#-)
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/type1_03.140efdf180.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Передача списка друзей через API](#-api)
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/type2_03.166b51efde.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Руководство по интеграции](#integration_guide)
+![](1)
+Руководство по интеграции
 
 В зависимости от модулей, которые включены для вашего проекта, доступны следующие варианты интеграции:
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Модуль Pay2Play](#pay2play_module)
+Модуль Pay2Play
 
 Для подключения модуля необходимо:
 
 1.  [Настроить](./pay2play.html) модуль Pay2Play.
 2.  Связаться с аккаунт-менеджером проекта для включения опции.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Модуль виртуальной валюты, модуль виртуальных товаров или модуль реальной валюты](#virtual_items_virtual_currency_payment_wall_modules)
+Модуль виртуальной валюты, модуль виртуальных товаров или модуль реальной валюты
 
 Для подключения опции необходимо:
 
@@ -2914,27 +2056,11 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 3.  Реализовать [обработку оповещения](#setup_webhooks) об успешной оплате с добавленными данными о подарке.
 4.  Связаться с аккаунт-менеджером проекта для включения опции.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Настройка модуля](#create_module)
+Настройка модуля
 
 Для подключения опции необходимо запустить модуль виртуальной валюты, виртуальных товаров или модуль виртуальной валюты.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Передача списка друзей в токене](#friend_via_token)
+Передача списка друзей в токене
 
 При необходимости в запрос можно добавить массив со списком друзей пользователя. Если массив содержит всего один элемент, переданный друг автоматически определяется как получатель подарка. В [запросе на получение токена](./api_v2.html#token) можно передавать не более 100 друзей. В запрос также можно включить объект с данными о подарке.
 
@@ -2978,15 +2104,7 @@ Xsolla Sandbox ("песочница") — это автономная рабоч
 
     }
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Передача списка друзей по запросу к API](#friend_via_api)
+Передача списка друзей по запросу к API
 
 Xsolla отправляет проекту [запрос на получение списка друзей](./api_v2.html#friends_list) по адресу, указанному в качестве webhook URL в настройках проекта.
 
@@ -3001,163 +2119,13 @@ Xsolla отправляет проекту [запрос на получение
 
 При обработке запроса к API необходимо проверить, что полученная подпись и подпись, переданная в параметре sign, совпадают.
 
-### [Получение списка друзей](#friend_via_api_получение-списка-друзей)
+Получение списка друзей
 
 **Пример запроса**
 
-    $ curl -v 'https://your.webhook.url?notification_type=friends_list&user=user_id&query=frien&offset=10&limit=20&sign=12dfg3f5gdsf4g5s6dfg2sdg1' \
-    -X GET \
-    -u merchant_id:merchant_api_key
+    $ 
 
-**Пример ответа**
-
-    [
-      {
-      "friends": [
-          {
-            "id": "1",
-            "name": "John Carter",
-            "email": "carter@xsolla.com",
-            "image_url": "https://partner/link/doctor.jpg"
-          },
-          {
-            "id": "2",
-            "name": "John Smith",
-            "email": "smith@xsolla.com",
-            "image_url": "https://partner/link/cook.jpg"
-          }
-        ],
-      "total": 10
-      }
-    ]
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Настройка оповещений](#setup_webhooks)
-
-При включении модулей виртуальной валюты и виртуальных товаров обязательным шагом является обработка [оповещения Payments](./api_v2.html#payment). При включении опции Подарок другу в JSON оповещения добавляется новый объект gift.purchase.
-
-**Пример запроса**
-
-    $curl -v 'https://your.hostname/your/uri' \
-    -X POST \
-    -d '{
-        "notification_type":"payment",
-        "purchase":{
-            "virtual_currency":{
-                "name":"Coins",
-                "sku":"test_package1",
-                "quantity":10,
-                "currency":"USD",
-                "amount":100
-            },
-            "subscription":{
-                "plan_id": "b5dac9c8",
-                "subscription_id": "10",
-                "product_id": "Demo Product",
-                "date_create": "2014-09-22T19:25:25+04:00",
-                "date_next_charge": "2014-10-22T19:25:25+04:00",
-                "currency": "USD",
-                "amount": 9.99
-            },
-            "checkout":{
-                "currency":"USD",
-                "amount":50
-            },
-            "virtual_items":{
-                "items":[
-                    {
-                        "sku": "test_item1",
-                        "amount":1
-                    }
-                ],
-                "currency":"USD",
-                "amount":50
-            },
-            "gift":{
-                 "giver_ID":"John Smith",
-                 "receiver_ID":"Ivan Ivanov",
-                 "receiver_email":"example@example.com",
-                 "message":"GG WP",
-                 "hide_giver_from_receiver": true
-            },
-            "total":{
-                "currency":"USD",
-                "amount":200
-            },
-            "promotions":[{
-                "technical_name":"Demo Promotion",
-                "id":"853"
-            }],
-            "coupon":{
-                 "coupon_code":"ICvj45S4FUOyy",
-                 "campaign_code":"1507"
-            }
-        },
-        "user": {
-            "ip": "127.0.0.1",
-            "phone": "18777976552",
-            "email": "email@example.com",
-            "id": "1234567",
-            "name": "Xsolla User",
-            "country": "US"
-        },
-        "transaction":{
-            "id":1,
-            "external_id":1,
-            "payment_date":"2014-09-24T20:38:16+04:00",
-            "payment_method":1,
-            "dry_run":1,
-            "agreement":1
-        },
-        "payment_details":{
-            "payment":{
-                "currency":"USD",
-                "amount":230
-            },
-            "vat": {
-                "currency": "USD",
-                "amount": 0
-            },
-            "payout_currency_rate": 1,
-            "payout":{
-                "currency":"USD",
-                "amount":200
-            },
-            "xsolla_fee":{
-                "currency":"USD",
-                "amount":10
-            },
-            "payment_method_fee":{
-                "currency":"USD",
-                "amount":20
-            }
-        },
-        "custom_parameters":{
-            "parameter1":"value1",
-            "parameter2":"value2"
-        }
-    }'
-
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Запуск Pay Station на домене игры](#paystation_domain)
+Запуск Pay Station на домене игры
 
 1.  Зарегистрировать новое доменное имя вида **secure.yourdomain.com**. При регистрации следует указать текущий IP-адрес домена **secure.xsolla.com** (запись типа A), либо указать алиас на **secure.xsolla.com** (запись типа CNAME).
 2.  Выпустить валидный сертификат SSL для данного домена — **secure.yourdomain.com**.
@@ -3176,9 +2144,5 @@ Xsolla отправляет проекту [запрос на получение
 
 5.  Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](mailto:sysadmins@xsolla.com) с темой письма: **[Ваша игра]: SSL Certificate**.
 6.  При интеграции через **Pay Station Embed** необходимо указать в параметре "host" ссылку на интерфейс оплаты.
-
-</div>
-
-</div>
 
 </div>
