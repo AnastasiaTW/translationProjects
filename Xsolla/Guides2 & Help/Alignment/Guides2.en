@@ -1,34 +1,12 @@
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Login](#xsolla_login)
+Xsolla Login
 
 Xsolla Login lets players log into any game using their social network accounts. Allowing them to start playing instantly and easily. In addition, Xsolla Login stores players’ payment data enabling convenient one-click purchases in future. Developers can completely customize Xsolla Login to make it appear as a part of their game.
 
-</div>
+Integration Guide
 
-</div>
+Getting Started
 
-<div class="section-content">
-
-<div class="section-description">
-
-# [Integration Guide](#integration_guide)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Getting Started](#getting_started)
-
-Register your app by emailing us at [bizdev@xsolla.com](mailto:bizdev@xsolla.com)
+Register your app by emailing us at [bizdev@xsolla.com](1)
 
 With the following info:
 
@@ -50,33 +28,25 @@ In the last case, let us know which social networks you want to use for authenti
 
 We’ll reply with your _projectID_ and _secretKey_.
 
-</div>
+Authentication Widget
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Authentication Widget](#xlwidget)
-
-Using the example below, add a standard authentication widget to your project. Download the SCSS template [here](files/xl-scss.zip).
+Using the example below, add a standard authentication widget to your project. Download the SCSS template [here](1).
 
 The default block width is 400 px; the height depends on the authentication options.
 
-[![Example of a default design](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png "Example of a default design") [ ![Example of a custom design](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png "Example of a custom design") [ ![Example of a custom design](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/changelog-18-05-17_widget-wechat.ecee53c872.png)](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png "Example of a custom design")
+[![Example of a default design](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png "Example of a default design") [ ![Example of a custom design](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png "Example of a custom design") [ ![Example of a custom design](1)](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png "Example of a custom design")
 
-### [Installing the Widget](#xlwidget_installing-the-widget)
+Installing the Widget
 
 To add an Xsolla Login widget to your game, follow these steps:
 
-#### [Step 1](#xlwidget_step-1)
+Step 1
 
 Enable xl.min.js in the <head> tag:
 
     <script src="https://static.xsolla.com/xsolla-login/1.1.1/xl.min.js"></script>
 
-#### [Step 2](#xlwidget_step-2)
+Step 2
 
 Add the initialization code in the <body> tag:
 
@@ -90,226 +60,170 @@ Add the initialization code in the <body> tag:
          });
     </script>
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">**Name**</th>
 
-<th style="text-align:left">**Type**</th>
 
-<th style="text-align:left">**Description**</th>
 
-</tr>
+**Name**
 
-</thead>
+**Type**
 
-<tbody>
+**Description**
 
-<tr>
 
-<td style="text-align:left">projectId</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">App id. **Required**.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">locale</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">User locale specified as <language code>_<country code>, where:
+projectId
 
-*   _language code_ is the language code according to [ISO 639 alpha-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes);
-*   _country code_ is the country (region) code according to [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+string
 
-</td>
+App id. **Required**.
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">redirectUrl</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">URL to send the user to after authentication. [Sent within a JWT token.](#server_side)</td>
+locale
 
-</tr>
+string
 
-<tr>
+User locale specified as <language code>_<country code>, where:
 
-<td style="text-align:left">onlyWidgets</td>
+*   _language code_ is the language code according to [ISO 639 alpha-2](1);
+*   _country code_ is the country (region) code according to [ISO 3166-1 alpha-2](1).
 
-<td style="text-align:left">boolean</td>
 
-<td style="text-align:left">Initialize Xsolla Login for widgets only. 'True' by default.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">preloader</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Preloader to be shown while the widget is being loaded. Specify the element’s HTML code.</td>
+redirectUrl
 
-</tr>
+string
 
-<tr>
+URL to send the user to after authentication. [Sent within a JWT token.](1)
 
-<td style="text-align:left">fields</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Data to be requested from the user. Allowed value: 'email'. **Required.**</td>
 
-</tr>
 
-</tbody>
+onlyWidgets
 
-</table>
+boolean
 
-#### [Step 3](#xlwidget_step-3)
+Initialize Xsolla Login for widgets only. 'True' by default.
+
+
+
+
+
+preloader
+
+string
+
+Preloader to be shown while the widget is being loaded. Specify the element’s HTML code.
+
+
+
+
+
+fields
+
+string
+
+Data to be requested from the user. Allowed value: 'email'. **Required.**
+
+
+
+
+
+
+
+Step 3
 
 Add a DIV element to contain the widget, give it a unique id, and add the widget initialization code after it.
 
-    <div id="xl_auth"></div>
-    <script type="text/javascript">
-    var element_id = 'xl_auth';
-    var options = {
-        width: '200px',
-        height: '200px'
-    };
-    XL.AuthWidget(element_id, options);
-    </script>
+    
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">**Name**</th>
 
-<th style="text-align:left">**Type**</th>
+**Name**
 
-<th style="text-align:left">**Description**</th>
+**Type**
 
-</tr>
+**Description**
 
-</thead>
 
-<tbody>
 
-<tr>
 
-<td style="text-align:left">element_id</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Id of the authentication container element. **Required.**</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">options</td>
+element_id
 
-<td style="text-align:left">object</td>
+string
 
-<td style="text-align:left">Widget block settings.</td>
+Id of the authentication container element. **Required.**
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">options.width</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Width of a block.</td>
+options
 
-</tr>
+object
 
-<tr>
+Widget block settings.
 
-<td style="text-align:left">options.height</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Height of a block.</td>
 
-</tr>
 
-</tbody>
+options.width
 
-</table>
+string
 
-</div>
+Width of a block.
 
-</div>
 
-<div class="section-content">
 
-<div class="section-description">
 
-## [Xsolla Login Server Side](#server_side)
 
-#### [How it Works](#server_side_how-it-works)
+options.height
 
-<div class="scheme login">
+string
 
-<div class="left-side">
+Height of a block.
 
-<div class="block_1 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.3bce9008a7.png) <span class="xsolla-login-title">user redirected to redirectURL</span></div>
+
+
+
+
+
+
+Xsolla Login Server Side
+
+How it Works
 
 <button class="scheme-toggler" id="scheme_toggler">Show</button>
 
-<div class="scheme-wrapper">
-
-<div class="block_2 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.f3e1760e13.png) <span class="xsolla-login-title">redirectUrl?token=<token></span></div>
-
-<div class="block_3 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">token exist?</span><span class="true-text">true</span><span class="false-text">false</span></div>
-
-<div class="block_4 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">token valid?</span><span class="true-text">true</span> <span class="false-text">false</span></div>
-
-<div class="block_5 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">user exist?</span><span class="true-text">true</span> <span class="false-text">false</span>
-
-<div class="create-user">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create user</span></div>
-
-<div class="form-error">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">form errorUrl</span></div>
-
-</div>
-
-<div class="block_6 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create successUrl</span></div>
-
-<div class="block_7 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create domain specific user session</span></div>
-
-<div class="block_8 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png) <span class="xsolla-login-title">redirect user to successUrl</span>
-
-<div class="redirect-error">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.c98e3ebd52.png) <span class="xsolla-login-title">redirect user to errorUrl</span></div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-#### [Callback URL](#server_side_callback-url)
+Callback URL
 
 Redirects the user to this URL after authentication.
 
-#### [Successful Authentication](#server_side_successful-authentication)
+Successful Authentication
 
 If the authentication is successful, we’ll redirect the user to your callback URL with the following parameters:
 
@@ -317,49 +231,49 @@ If the authentication is successful, we’ll redirect the user to your callback 
 
 `GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">Parameter</th>
 
-<th style="text-align:left">Type</th>
 
-<th style="text-align:left">Description</th>
 
-</tr>
+Parameter
 
-</thead>
+Type
 
-<tbody>
+Description
 
-<tr>
 
-<td style="text-align:left">token</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">[JWT](https://en.wikipedia.org/wiki/JSON_Web_Token). You can [decrypt it](https://jwt.io) using the secret key.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">is_linking</td>
 
-<td style="text-align:left">boolean</td>
 
-<td style="text-align:left">The user has linked an account.</td>
+token
 
-</tr>
+string
 
-</tbody>
+[JWT](1). You can [decrypt it](1) using the secret key.
 
-</table>
 
-### [Decrypted token (example)](#server_side_decrypted-token-example)
+
+
+
+is_linking
+
+boolean
+
+The user has linked an account.
+
+
+
+
+
+
+
+Decrypted token (example)
 
     {
       "exp": 1471071785,
@@ -373,185 +287,185 @@ If the authentication is successful, we’ll redirect the user to your callback 
       "xsolla_login_access_key": "s4dGNSPKinUxkSRI8rhPhZRElHj2yusqEeqgLIgn"
     }
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">Parameter</th>
 
-<th style="text-align:left">Type</th>
 
-<th style="text-align:left">Description</th>
 
-</tr>
+Parameter
 
-</thead>
+Type
 
-<tbody>
+Description
 
-<tr>
 
-<td style="text-align:left">exp</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Token expiry date (Unix timestamp).</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">iss</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">JWT issuer.</td>
+exp
 
-</tr>
+string
 
-<tr>
+Token expiry date (Unix timestamp).
 
-<td style="text-align:left">iat</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Creation date (Unix timestamp).</td>
 
-</tr>
 
-<tr>
+iss
 
-<td style="text-align:left">id</td>
+string
 
-<td style="text-align:left">string</td>
+JWT issuer.
 
-<td style="text-align:left">User id.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">name</td>
 
-<td style="text-align:left">string</td>
+iat
 
-<td style="text-align:left">User’s full name.</td>
+string
 
-</tr>
+Creation date (Unix timestamp).
 
-<tr>
 
-<td style="text-align:left">email</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">User email.</td>
 
-</tr>
+id
 
-<tr>
+string
 
-<td style="text-align:left">type</td>
+User id.
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Type of authentication. Can be "proxy" (authenticated via proxy) or "social" (login via a social network).</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">provider</td>
+name
 
-<td style="text-align:left">string</td>
+string
 
-<td style="text-align:left">Social network name. Can be one of the following: "vk," "facebook," "twitter," "steam," "baidu," "naver," "qq," "github," "microsoft," "linkedin," "google".</td>
+User’s full name.
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">xsolla_login_access_key</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Access key to call methods on behalf of the user.</td>
+email
 
-</tr>
+string
 
-</tbody>
+User email.
 
-</table>
 
-#### [Failed Authentication](#server_side_failed-authentication)
 
-If the authentication fails, we’ll redirect the user to your callback URL with the following [parameters:](../api_v2.html#login_error)
+
+
+type
+
+string
+
+Type of authentication. Can be "proxy" (authenticated via proxy) or "social" (login via a social network).
+
+
+
+
+
+provider
+
+string
+
+Social network name. Can be one of the following: "vk," "facebook," "twitter," "steam," "baidu," "naver," "qq," "github," "microsoft," "linkedin," "google".
+
+
+
+
+
+xsolla_login_access_key
+
+string
+
+Access key to call methods on behalf of the user.
+
+
+
+
+
+
+
+Failed Authentication
+
+If the authentication fails, we’ll redirect the user to your callback URL with the following [parameters:](1)
 
 **HTTP Request**
 
 `GET https://callBackUrl.php?error=003-002&error_description=User+not+found&redirect_url=https://site.com/fail_url`
 
-<table>
 
-<thead>
 
-<tr>
 
-<th style="text-align:left">Parameter</th>
 
-<th style="text-align:left">Type</th>
 
-<th style="text-align:left">Description</th>
 
-</tr>
+Parameter
 
-</thead>
+Type
 
-<tbody>
+Description
 
-<tr>
 
-<td style="text-align:left">error</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Error code group.</td>
 
-</tr>
 
-<tr>
 
-<td style="text-align:left">error_description</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Error description.</td>
+error
 
-</tr>
+string
 
-<tr>
+Error code group.
 
-<td style="text-align:left">redirect_url</td>
 
-<td style="text-align:left">string</td>
 
-<td style="text-align:left">Callback URL for the project.</td>
 
-</tr>
 
-</tbody>
+error_description
 
-</table>
+string
 
-#### [Additional API Methods](#server_side_additional-api-methods)
+Error description.
+
+
+
+
+
+redirect_url
+
+string
+
+Callback URL for the project.
+
+
+
+
+
+
+
+Additional API Methods
 
 If you already have users, you can use authentication via proxy. In this case, implement the following methods:
 
-Xsolla Login calls the methods from [https://login.xsolla.com/](https://login.xsolla.com/) and [https://test-login.xsolla.com/](https://test-login.xsolla.com/)
+Xsolla Login calls the methods from [https://login.xsolla.com/](1) and [https://test-login.xsolla.com/](1)
 
-### [Login/Password Check](#server_side_login-password-check)
+Login/Password Check
 
 *   Type: POST
 *   Content-type: application/json
@@ -559,7 +473,7 @@ Xsolla Login calls the methods from [https://login.xsolla.com/](https://login.xs
 *   Success: _{Ok 200}_
 *   Failure: _{"error": {"code": "003-001", "description": "" }}_
 
-### [Signup](#server_side_signup)
+Signup
 
 *   Type: POST
 *   Content-type: application/json
@@ -567,7 +481,7 @@ Xsolla Login calls the methods from [https://login.xsolla.com/](https://login.xs
 *   Success: _{Ok 200}_
 *   Failure: _{error: {code: "003-003|004", description: "" }}_
 
-### [Password Reset](#server_side_password-reset)
+Password Reset
 
 *   Type: POST
 *   Content-type: application/json
@@ -575,1087 +489,865 @@ Xsolla Login calls the methods from [https://login.xsolla.com/](https://login.xs
 *   Success: _{Ok 200}_
 *   Failure: _{"error": {"code": "003-002", "description": ""}}_
 
-</div>
+Xsolla Data Portal Powered by Slemma
 
-</div>
+This guide will help you navigate through our [demo](1), and understand how you can use these reports when you activate your own payment analytics in [Publisher Account](1). Below is information on how to read the [dashboards](1), description of each of their contents, definitions for the different [metrics](1) and [dimensions](1), and a list of [FAQ](1). If you have any further questions, ask us to clarify at [dataportal@xsolla.com](1)!
 
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Data Portal Powered by Slemma](#xsolla-data-portal-powered-by-slemma)
-
-This guide will help you navigate through our [demo](https://slemma.com/demo/xsolla-payments), and understand how you can use these reports when you activate your own payment analytics in [Publisher Account](https://publisher.xsolla.com). Below is information on how to read the [dashboards](#dashboards), description of each of their contents, definitions for the different [metrics](#dataset_measures) and [dimensions](#dataset_dimensions), and a list of [FAQ](#faq_data_portal). If you have any further questions, ask us to clarify at [dataportal@xsolla.com](mailto:dataportal@xsolla.com)!
-
-<div class="video-container"><iframe src="https://www.youtube.com/embed/JSoLff-hv4A" frameborder="0" allowfullscreen="" class="video"></iframe></div>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Dashboards](#dashboards)
+Dashboards
 
 A dashboard is a collection of charts and graphs that give you insights into a specific topic. Each one will allow you to increase awareness on a different part of your company and help you make data-driven decisions.
 
-[![Overview dashboard](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview.6fffd7990b.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png "Overview dashboard") [ ![Banks issued user credit cards](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks.2b9cf765ca.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png "Banks issued user credit cards") [ ![Revenue single values and trends charts](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends.56c78e2f03.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png "Revenue single values and trends charts") [ ![Payment methods groups columns and heatmap](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue.63fb89cbeb.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png "Payment methods groups columns and heatmap") [ ![Paying users charts](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users.46cd6a1f7c.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png "Paying users charts") [ ![Revenue by currencies](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies.e3b123289f.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png "Revenue by currencies") [ ![Credit cards conversion rate](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion.7f5cce99c0.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png "Credit cards conversion rate") [ ![Payment cancellations reasons](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons.5d5b82ea61.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png "Payment cancellations reasons") [ ![Paying users by operating systems](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users.3b99bfe06e.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png "Paying users by operating systems") [ ![Countries bubble chart](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles.cbf6168677.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png "Countries bubble chart") [ ![Credit cards insights](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights.83a176fbe8.png) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png "Credit cards insights") [ ![Payment systems conversion](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion.8f9d26abe3.png)](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png "Payment systems conversion")
+[![Overview dashboard](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png "Overview dashboard") [ ![Banks issued user credit cards](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png "Banks issued user credit cards") [ ![Revenue single values and trends charts](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png "Revenue single values and trends charts") [ ![Payment methods groups columns and heatmap](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png "Payment methods groups columns and heatmap") [ ![Paying users charts](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png "Paying users charts") [ ![Revenue by currencies](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png "Revenue by currencies") [ ![Credit cards conversion rate](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png "Credit cards conversion rate") [ ![Payment cancellations reasons](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png "Payment cancellations reasons") [ ![Paying users by operating systems](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png "Paying users by operating systems") [ ![Countries bubble chart](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png "Countries bubble chart") [ ![Credit cards insights](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png "Credit cards insights") [ ![Payment systems conversion](1)](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png "Payment systems conversion")
 
-</div>
+Main concepts
 
-</div>
+Filters
 
-<div class="section-content">
+Each dashboard has several filters, located at the top, to allow you to filter your data through the many [dimensions](1). To utilize these filters, select one and check the boxes of the dimensions through which you would like to limit the data. For instance, under a **User Country** Filter you could select the _United States_ so the data of the dashboard will only include that which came from users located in the _United States_. You can switch to ‘Exclude' by pressing the three dots to the right of the filter name when hovering. Be sure to take advantage of these filters to dig deeper into your games' data.
 
-<div class="section-description">
+Single values growth indicators
 
-# [Main concepts](#main-concepts)
+Growth indicators will compare the current status of the shown [metric](1) with that of the previous period of the same length. Green and upward-facing arrows indicate a rise from the previous period while red, downward-facing arrows indicate a drop.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Filters](#filters)
-
-Each dashboard has several filters, located at the top, to allow you to filter your data through the many [dimensions](#dataset_dimensions). To utilize these filters, select one and check the boxes of the dimensions through which you would like to limit the data. For instance, under a **User Country** Filter you could select the _United States_ so the data of the dashboard will only include that which came from users located in the _United States_. You can switch to ‘Exclude' by pressing the three dots to the right of the filter name when hovering. Be sure to take advantage of these filters to dig deeper into your games' data.
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Single values growth indicators](#single-values-growth-indicators)
-
-Growth indicators will compare the current status of the shown [metric](#dataset_measures) with that of the previous period of the same length. Green and upward-facing arrows indicate a rise from the previous period while red, downward-facing arrows indicate a drop.
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Selected period single values](#selected-period-single-values)
+Selected period single values
 
 Unlike some values which will only display the aggregation of the indicated period, these values will adjust based on the length of time set in the **Date** filter. Use this filter to change the aggregated time period of the dashboard and these values will adjust as well.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Daily average single values](#daily-average-single-values)
+Daily average single values
 
 In contrast to regular single values, daily average single values will not increase as the period increases. For example, **ARPPU** will rise as the period rises because of the same users making repeated payments. Average Revenue Per Paying Daily Average User (ARPPDAU) will not because it is the average of all the daily averages of the period, not the total payments and total paying users.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Aggregation by weeks and months](#aggregation-by-weeks-and-months)
+Aggregation by weeks and months
 
 If you select a certain period, such as four weeks, with the **Date** filter, the data will show up segmented by weeks and display four. The aggregation for these weeks will be for all activity in that week, not the average of all the daily averages that are displayed when the graph is showing daily.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Parallel period](#parallel-period)
+Parallel period
 
 Parallel Period graphs will allow you to do trend analysis. If the x-axis is displaying days, then the 28D ago line will be the value recorded 28D ago. The same goes for 14D ago and 7D ago. The lighter the line, the farther back the period.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Moving average](#moving-average)
+Moving average
 
 Moving averages are another way to conduct trend analysis. The time frame used in the calculations is displayed in the metric name. Understandably, longer timeframes will show a less volatility and show you the overall trend of the period. We use a simple moving average.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Download any chart to excel](#download-any-chart-to-excel)
+Download any chart to excel
 
 If you would like to download data directly from charts you may do so. Simply right click on the chart and you can download the data as CSV, XLS, and for use in presentations, PNG.
 
-</div>
+Dashboards Reference
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Dashboards Reference](#dashboards-reference)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Overview](#overview-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-) [(demo)](https://slemma.com/share/3c42a1225b24aed8882b23874b8b827c4e8811b6)
+Overview
 
 The Overview dashboard contains KPI's for your game and is perfect for daily analysis and to be displayed on your office TV. It includes **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices**, and **Average Payment Amount**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Games](#games-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-) [(demo)](https://slemma.com/share/57107d069f10200b7cc0fae2a514052350b9dbec)
+Games
 
 The Games dashboard is built for you to analyze the different payment situations of your different games. The metrics are laid side by side with all of the regular filters so you can prioritize your efforts and understand the differences between your projects.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Payment Systems](#payment-systems-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-) [(demo)](https://slemma.com/share/d761565a4d0a355ac3be414e5c3330f8f98f792f)
+Payment Systems
 
 Understanding how your users are paying can be just as valuable as knowing why. This dashboard will help you understand how different subgroups of your payers pay so you can optimize your site with the most popular payment systems displayed most conveniently.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Credit Cards](#credit-cards-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-) [(demo)](https://slemma.com/share/b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc)
+Credit Cards
 
 The Credit Cards dashboard is entirely devoted to the payment data from credit cards. Analyze conversion, reasons for rejections, and how many users asked Xsolla to save their payment data for a later purchase (hopefully indicating their intent to make another for your game)!
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Revenue](#revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-) [(demo)](https://slemma.com/share/279ee8a542f1f79b6d637d28ebcd0228bacc2869)
+Revenue
 
 The Revenue dashboards offers several different ways to perform trend analysis. Included in this dashboard are parallel period, moving average, and growth charts which can all help you understand where the data is going. It also contains a currencies sheet so you can make sure you are offering all of the currencies for the areas in which you operate.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Paying Users](#paying-users-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-) [(demo)](https://slemma.com/share/63c1084fc0efc9dd57e95bd7ce1050015e93fe4d)
+Paying Users
 
 The Paying Users dashboard is a way to understand the characteristics of your **Revenue**. If **Revenue** increases you can answer the question: Are new users converting to **Paying Users**, or are **Existing Paying Users** paying more?
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [ARPPU](#arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-) [(demo)](https://slemma.com/share/504433146eb4d07cbcb67ad2f0467f29aed6f17e)
+ARPPU
 
 Average Revenue Per Paying User is yet another way to look at the paying habits of your users. This dashboard also contains single values of Average Revenue Per Paying Daily Active User which does not increase over time from single users making more than one payment.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Virtual Currency](#virtual-currency-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-) [(demo)](https://slemma.com/share/d185809a81a17fa74c872926a2cb66367ecd636c)
+Virtual Currency
 
 The Virtual Currency dashboard will inform you on how many users have purchased your in game currency. Also you can upload your in-game data of spent game currency, create comparison dashboards, and check health of your in-game economy.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Geography](#geography-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-) [(demo)](https://slemma.com/share/1e3730294de65cf1904c2985dd815f836a6d2a77)
+Geography
 
 The Geography dashboard will help provide insights into the different paying habits of users depending on their location. Each sheet divides by a different grouping including: **Countries**, **Regions**, **Languages**, **Business Regions**, and **Timezones**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Devices](#devices-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-) [(demo)](https://slemma.com/share/e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8)
+Devices
 
 The Devices dashboard contains information on your users frontend experience. You can use this information to optimize your site for the most appropriate devices and makes sure that it works on the most common browsers.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Cancellations](#cancellations-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-) [(demo)](https://slemma.com/share/4ba43a6b1671d29c9004991fe337ec62c82aaa0b)
+Cancellations
 
 The Cancellations dashboard will allow you to keep tabs on fraud in your game. The overview sheet will show the number of cancellations by **Cancellation Date**, **Payment Date**, as a percent, and geographically. The reasons sheet gives you the ability to see the distribution of reasons for each cancellation.
 
-</div>
+Xsolla Dataset
 
-</div>
+All of these pre-defined dashboards are great, but what if you want to create your own? You can do this with the provided Xsolla Dataset! You can create an unlimited amount of dashboards with your [Slemma](1) account around your data; build any chart with any of the dimensions and measures.
 
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Dataset](#xsolla-dataset)
-
-All of these pre-defined dashboards are great, but what if you want to create your own? You can do this with the provided Xsolla Dataset! You can create an unlimited amount of dashboards with your [Slemma](https://slemma.com) account around your data; build any chart with any of the dimensions and measures.
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Dimensions](#dataset_dimensions)
+Dimensions
 
 Dimensions are how data is separated. These are not the values themselves, but a certain category of values. Every time you use a filter you are filtering by a dimension of the data. Examples of dimensions are **Countr**y, **Credit Card Type**, **Date**, etc.
 
-<table>
 
-<thead>
 
-<tr>
 
-<th>Group</th>
 
-<th>Name</th>
 
-<th>Description</th>
 
-</tr>
+Group
 
-</thead>
+Name
 
-<tbody>
+Description
 
-<tr>
 
-<td>DateTime</td>
 
-<td><nobr>**Date**</nobr></td>
 
-<td>Default date for all charts is in UTC timezone. This date is based on last payment status update(invoice, payment, cancellation). Example: when you want to add payments and cancellations count to one timeline payments will be aggregated by payment date and cancellations aggregated by cancellation date.</td>
 
-</tr>
 
-<tr>
 
-<td>DateTime</td>
 
-<td><nobr>**Invoice Date**</nobr></td>
 
-<td>Date of invoice in UTC timezone.</td>
+DateTime
 
-</tr>
+**Date**
 
-<tr>
+Default date for all charts is in UTC timezone. This date is based on last payment status update(invoice, payment, cancellation). Example: when you want to add payments and cancellations count to one timeline payments will be aggregated by payment date and cancellations aggregated by cancellation date.
 
-<td>DateTime</td>
 
-<td><nobr>**Payment Date**</nobr></td>
 
-<td>Date of payment confirmation in UTC timezone. This date is available only for completed payments and not available for unpaid invoices.</td>
 
-</tr>
 
-<tr>
+DateTime
 
-<td>DateTime</td>
+**Invoice Date**
 
-<td><nobr>**Cancellation Date**</nobr></td>
+Date of invoice in UTC timezone.
 
-<td>Date of payment cancellation in UTC timezone. This date available only for cancelled payments.</td>
 
-</tr>
 
-<tr>
 
-<td>Projects</td>
 
-<td><nobr>**Project**</nobr></td>
+DateTime
 
-<td>Project ID and Project Name</td>
+**Payment Date**
 
-</tr>
+Date of payment confirmation in UTC timezone. This date is available only for completed payments and not available for unpaid invoices.
 
-<tr>
 
-<td>Payment System</td>
 
-<td><nobr>**Payment System Group**</nobr></td>
 
-<td>Payment System Group e.g. _Cash Payments_, _Bank Transfer_</td>
 
-</tr>
+DateTime
 
-<tr>
+**Cancellation Date**
 
-<td>Payment System</td>
+Date of payment cancellation in UTC timezone. This date available only for cancelled payments.
 
-<td><nobr>**Payment System**</nobr></td>
 
-<td>Payment system ID and name, e.g. _24\. Paypal_, _57\. PaySafeCard_</td>
 
-</tr>
 
-<tr>
 
-<td>Geography</td>
+Projects
 
-<td><nobr>**User Country**</nobr></td>
+**Project**
 
-<td>User country detected by Xsolla system. This country is most accurate and complete. User IP, mobile operator country, credit card issiung bank country and other attributes are used for this lookup. This country is used internally in country selection for VAT calculation.</td>
+Project ID and Project Name
 
-</tr>
 
-<tr>
 
-<td>Geography</td>
 
-<td><nobr>**Language**</nobr></td>
 
-<td>Language 2-letter code, e.g. _EN_, _PT_, _RU_</td>
+Payment System
 
-</tr>
+**Payment System Group**
 
-<tr>
+Payment System Group e.g. _Cash Payments_, _Bank Transfer_
 
-<td>Geography</td>
 
-<td><nobr>**IP Address Geography**</nobr></td>
 
-<td>User location based on IP address lookup. This hierarchy contains accurate geo information from _Region_ and _Country_ to _Country Subdivision_ and _City_.</td>
 
-</tr>
 
-<tr>
+Payment System
 
-<td>Geography</td>
+**Payment System**
 
-<td><nobr>**Timezone**</nobr></td>
+Payment system ID and name, e.g. _24\. Paypal_, _57\. PaySafeCard_
 
-<td>User timezone detected based on user IP address, e.g. _Europe/Berlin_, _America/Chicago_</td>
 
-</tr>
 
-<tr>
 
-<td>Geography</td>
 
-<td><nobr>**Business Region**</nobr></td>
+Geography
 
-<td>Business Region of **User Country**, e.g. _European Union_, _Latin America_</td>
+**User Country**
 
-</tr>
+User country detected by Xsolla system. This country is most accurate and complete. User IP, mobile operator country, credit card issiung bank country and other attributes are used for this lookup. This country is used internally in country selection for VAT calculation.
 
-<tr>
 
-<td>Geography</td>
 
-<td><nobr>**Payment System Country**</nobr></td>
 
-<td>Payment system country of origin</td>
 
-</tr>
+Geography
 
-<tr>
+**Language**
 
-<td>Geography</td>
+Language 2-letter code, e.g. _EN_, _PT_, _RU_
 
-<td><nobr>**Issuing Bank Country**</nobr></td>
 
-<td>Country of the bank that issued user's card</td>
 
-</tr>
 
-<tr>
 
-<td>Currencies</td>
+Geography
 
-<td><nobr>**Payment Currency**</nobr></td>
+**IP Address Geography**
 
-<td>Currency which is used in user payment in 3-letter code, e.g. _USD_, _EUR_</td>
+User location based on IP address lookup. This hierarchy contains accurate geo information from _Region_ and _Country_ to _Country Subdivision_ and _City_.
 
-</tr>
 
-<tr>
 
-<td>Currencies</td>
 
-<td><nobr>**Payout Currency**</nobr></td>
 
-<td>Currency which is used in transfer to partner bank account in 3-letter code, e.g. _USD_, _EUR_</td>
+Geography
 
-</tr>
+**Timezone**
 
-<tr>
+User timezone detected based on user IP address, e.g. _Europe/Berlin_, _America/Chicago_
 
-<td>Purchase</td>
 
-<td><nobr>**Purchase Type**</nobr></td>
 
-<td>Xsolla module used for this payment, e.g _Virtual Items_, _Virtual Currency_</td>
 
-</tr>
 
-<tr>
+Geography
 
-<td>Purchase</td>
+**Business Region**
 
-<td><nobr>**Is First Payment**</nobr></td>
+Business Region of **User Country**, e.g. _European Union_, _Latin America_
 
-<td>_True_ if first payment for current user, _false_ otherwise</td>
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Is Credit Card**</nobr></td>
+Geography
 
-<td>_True_ if payment made by credit card, _false_ otherwise</td>
+**Payment System Country**
 
-</tr>
+Payment system country of origin
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Issuing Bank**</nobr></td>
 
-<td>Bank issued user credit card</td>
 
-</tr>
+Geography
 
-<tr>
+**Issuing Bank Country**
 
-<td>Credit Cards</td>
+Country of the bank that issued user's card
 
-<td><nobr>**Credit Card Brand**</nobr></td>
 
-<td>e.g _VISA_, _MasterCard_</td>
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
+Currencies
 
-<td><nobr>**Credit Card Type**</nobr></td>
+**Payment Currency**
 
-<td>e.g. _CREDIT_, _DEBIT_</td>
+Currency which is used in user payment in 3-letter code, e.g. _USD_, _EUR_
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Credit Card Category**</nobr></td>
 
-<td>e.g. _CLASSIC_, _GOLD_, _PLATINUM_</td>
+Currencies
 
-</tr>
+**Payout Currency**
 
-<tr>
+Currency which is used in transfer to partner bank account in 3-letter code, e.g. _USD_, _EUR_
 
-<td>Credit Cards</td>
 
-<td><nobr>**Is Payment Account Saved**</nobr></td>
 
-<td>_True_ if user requested Xsolla save his/her payment system account credentials, _false_ othewise</td>
 
-</tr>
 
-<tr>
+Purchase
 
-<td>Credit Cards</td>
+**Purchase Type**
 
-<td><nobr>**Is Payment From Saved Account**</nobr></td>
+Xsolla module used for this payment, e.g _Virtual Items_, _Virtual Currency_
 
-<td>_True_ if payment was made from account credentials previously saved in Xsolla system, _false_ otherwise</td>
 
-</tr>
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Is Credit Card Rejected**</nobr></td>
+Purchase
 
-<td>_True_ if credit card is rejected from payment processing, _false_ othewise. Reject reason can be reviewed in **Credit Card Reject Reason** dimension</td>
+**Is First Payment**
 
-</tr>
+_True_ if first payment for current user, _false_ otherwise
 
-<tr>
 
-<td>Credit Cards</td>
 
-<td><nobr>**Credit Card Reject Reason**</nobr></td>
 
-<td>e.g. _Insufficient Funds_, _Did not pass validation 3D-secure_</td>
 
-</tr>
+Credit Cards
 
-<tr>
+**Is Credit Card**
 
-<td>Recurring Payments</td>
+_True_ if payment made by credit card, _false_ otherwise
 
-<td><nobr>**Is Recurrent Plan Created**</nobr></td>
 
-<td>_True_ if recurring subscription is created from payment, _false_ otherwise</td>
 
-</tr>
 
-<tr>
 
-<td>Recurring Payments</td>
+Credit Cards
 
-<td><nobr>**Is Recurrent Payment**</nobr></td>
+**Issuing Bank**
 
-<td>_True_ if card was recharged because of recurring subscription, _false_ otherwise</td>
+Bank issued user credit card
 
-</tr>
 
-<tr>
 
-<td>User Agent</td>
 
-<td><nobr>**OS**</nobr></td>
 
-<td>User device operating system, e.g. _Windows 8_, _MacOS_, _Android_</td>
+Credit Cards
 
-</tr>
+**Credit Card Brand**
 
-<tr>
+e.g _VISA_, _MasterCard_
 
-<td>User Agent</td>
 
-<td><nobr>**Browser**</nobr></td>
 
-<td>User browser, e.g. _Firefox_, _Chrome Mobile_</td>
 
-</tr>
 
-<tr>
+Credit Cards
 
-<td>User Agent</td>
+**Credit Card Type**
 
-<td><nobr>**Device**</nobr></td>
+e.g. _CREDIT_, _DEBIT_
 
-<td>Model of the user mobile device, e.g. _IPhone_, _Nokia Lumia_</td>
 
-</tr>
 
-<tr>
 
-<td>User Agent</td>
 
-<td><nobr>**Screen Size**</nobr></td>
+Credit Cards
 
-<td>User device screen size resolution</td>
+**Credit Card Category**
 
-</tr>
+e.g. _CLASSIC_, _GOLD_, _PLATINUM_
 
-<tr>
 
-<td>User Agent</td>
 
-<td><nobr>**UI**</nobr></td>
 
-<td>Xsolla User Interface used for payment, e.g. _PayStation_, _Smartphone Version_</td>
 
-</tr>
+Credit Cards
 
-<tr>
+**Is Payment Account Saved**
 
-<td>Developers</td>
+_True_ if user requested Xsolla save his/her payment system account credentials, _false_ othewise
 
-<td><nobr>**Payment Notification Delivery**</nobr></td>
 
-<td>Duration of payment processing time on Xsolla side e.g. _1-3 seconds_, _1-10 minutes_</td>
 
-</tr>
 
-<tr>
 
-<td>Developers</td>
+Credit Cards
 
-<td><nobr>**Payment System Delay**</nobr></td>
+**Is Payment From Saved Account**
 
-<td>Duration of payment processing time on payment system side, e.g. _1-3 seconds_, _1-10 minutes_</td>
+_True_ if payment was made from account credentials previously saved in Xsolla system, _false_ otherwise
 
-</tr>
 
-<tr>
 
-<td>Developers</td>
 
-<td><nobr>**Payment Flow**</nobr></td>
 
-<td>Total duration of payment processing e.g. _1-3 seconds_, _1-10 minutes_</td>
+Credit Cards
 
-</tr>
+**Is Credit Card Rejected**
 
-<tr>
+_True_ if credit card is rejected from payment processing, _false_ othewise. Reject reason can be reviewed in **Credit Card Reject Reason** dimension
 
-<td>Cancellations</td>
 
-<td><nobr>**Is Cancelled**</nobr></td>
 
-<td>_True_ if payment is cancelled, _false_ otherwise. Cancellation reason can be reviewed in **Cancellation Type** dimension</td>
 
-</tr>
 
-<tr>
+Credit Cards
 
-<td>Cancellations</td>
+**Credit Card Reject Reason**
 
-<td><nobr>**Cancellation Type**</nobr></td>
+e.g. _Insufficient Funds_, _Did not pass validation 3D-secure_
 
-<td>Reason for transaction cancellation, e.g. _Refund_, _Chargeback_</td>
 
-</tr>
 
-</tbody>
 
-</table>
 
-</div>
+Recurring Payments
 
-</div>
+**Is Recurrent Plan Created**
 
-<div class="section-content">
+_True_ if recurring subscription is created from payment, _false_ otherwise
 
-<div class="section-description">
 
-# [Measures](#dataset_measures)
+
+
+
+Recurring Payments
+
+**Is Recurrent Payment**
+
+_True_ if card was recharged because of recurring subscription, _false_ otherwise
+
+
+
+
+
+User Agent
+
+**OS**
+
+User device operating system, e.g. _Windows 8_, _MacOS_, _Android_
+
+
+
+
+
+User Agent
+
+**Browser**
+
+User browser, e.g. _Firefox_, _Chrome Mobile_
+
+
+
+
+
+User Agent
+
+**Device**
+
+Model of the user mobile device, e.g. _IPhone_, _Nokia Lumia_
+
+
+
+
+
+User Agent
+
+**Screen Size**
+
+User device screen size resolution
+
+
+
+
+
+User Agent
+
+**UI**
+
+Xsolla User Interface used for payment, e.g. _PayStation_, _Smartphone Version_
+
+
+
+
+
+Developers
+
+**Payment Notification Delivery**
+
+Duration of payment processing time on Xsolla side e.g. _1-3 seconds_, _1-10 minutes_
+
+
+
+
+
+Developers
+
+**Payment System Delay**
+
+Duration of payment processing time on payment system side, e.g. _1-3 seconds_, _1-10 minutes_
+
+
+
+
+
+Developers
+
+**Payment Flow**
+
+Total duration of payment processing e.g. _1-3 seconds_, _1-10 minutes_
+
+
+
+
+
+Cancellations
+
+**Is Cancelled**
+
+_True_ if payment is cancelled, _false_ otherwise. Cancellation reason can be reviewed in **Cancellation Type** dimension
+
+
+
+
+
+Cancellations
+
+**Cancellation Type**
+
+Reason for transaction cancellation, e.g. _Refund_, _Chargeback_
+
+
+
+
+
+
+
+Measures
 
 Measures, in contrast to dimensions, are the values that are actually graphed on your charts. Examples of measures are **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.
 
-<table>
 
-<thead>
 
-<tr>
 
-<th>Group</th>
 
-<th>Name</th>
 
-<th>Description</th>
 
-</tr>
+Group
 
-</thead>
+Name
 
-<tbody>
+Description
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**Revenue**</nobr></td>
 
-<td>The amount of the successful user **Payment**. The sum before deduction of commissions. The amount is converted into the currency of the metric with exchange rate on the date of project notification.</td>
 
-</tr>
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**Average Payment Amount**</nobr></td>
 
-<td>**Revenue** divided by **Payments** count</td>
+Measures
 
-</tr>
+**Revenue**
 
-<tr>
+The amount of the successful user **Payment**. The sum before deduction of commissions. The amount is converted into the currency of the metric with exchange rate on the date of project notification.
 
-<td>Measures</td>
 
-<td><nobr>**Gross Revenue**</nobr></td>
 
-<td>Amount of income **Revenue** excluding **Cancellations Revenue** for the same period</td>
 
-</tr>
 
-<tr>
+Measures
 
-<td>Measures</td>
+**Average Payment Amount**
 
-<td><nobr>**Payments**</nobr></td>
+**Revenue** divided by **Payments** count
 
-<td>Total count of completed payments. Payments may be cancelled in future periods</td>
 
-</tr>
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**Virtual Currency Amount**</nobr></td>
+Measures
 
-<td>Amount of purchased virtual currency. Available in _Virtual Currency_ integration module</td>
+**Gross Revenue**
 
-</tr>
+Amount of income **Revenue** excluding **Cancellations Revenue** for the same period
 
-<tr>
 
-<td>Measures</td>
 
-<td><nobr>**ARPPU**</nobr></td>
 
-<td>Average Revenue Per Paying User: **Revenue** divided to unique **Paying Users**. When you use weekly or monthly aggregation, **ARPPU** grows significantly because one user can have multiple **Payments** in one time period</td>
 
-</tr>
+Measures
 
-<tr>
+**Payments**
 
-<td>Measures</td>
+Total count of completed payments. Payments may be cancelled in future periods
 
-<td><nobr>**Payments per Paying User**</nobr></td>
 
-<td>Total **Payments** count divided by unique **Paying users** count. Useful in weekly and monthly aggregation for payments frequency analysis</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
+Measures
 
-<td><nobr>**Invoices**</nobr></td>
+**Virtual Currency Amount**
 
-<td>Total count of created invoices</td>
+Amount of purchased virtual currency. Available in _Virtual Currency_ integration module
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Users**</nobr></td>
 
-<td>Total users count who created an **Invoice**. Users who did not complete payments are included.</td>
+Measures
 
-</tr>
+**ARPPU**
 
-<tr>
+Average Revenue Per Paying User: **Revenue** divided to unique **Paying Users**. When you use weekly or monthly aggregation, **ARPPU** grows significantly because one user can have multiple **Payments** in one time period
 
-<td>Measures</td>
 
-<td><nobr>**Paying Users**</nobr></td>
 
-<td>Count of unique users that made a **Payment** at least once in the considered period</td>
 
-</tr>
 
-<tr>
+Measures
 
-<td>Conversion</td>
+**Payments per Paying User**
 
-<td><nobr>**Paying Users Percent**</nobr></td>
+Total **Payments** count divided by unique **Paying users** count. Useful in weekly and monthly aggregation for payments frequency analysis
 
-<td>The percentage of the users who complete payment according to the total count of users who create invoice. **Paying Users Percent** is more accurate conversion metric (comparing with **Paid Invoices Percent**), since user can try a few payment options before they make an actual payment</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Paid Invoices Percent**</nobr></td>
+Conversion
 
-<td>The percentage of the complete **Payments** according to the total count of **Invoices**</td>
+**Invoices**
 
-</tr>
+Total count of created invoices
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Churn Users**</nobr></td>
 
-<td>Count of the users that created invoices but did not pay for it</td>
 
-</tr>
+Conversion
 
-<tr>
+**Users**
 
-<td>Conversion</td>
+Total users count who created an **Invoice**. Users who did not complete payments are included.
 
-<td><nobr>**Churn Users Percent**</nobr></td>
 
-<td>The percentage of the user created invoice but didn't pay for it</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
+Measures
 
-<td><nobr>**Unpaid Invoices**</nobr></td>
+**Paying Users**
 
-<td>Count of invoices which were not completed by the user and not confirmed by payment system</td>
+Count of unique users that made a **Payment** at least once in the considered period
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Unpaid Invoices Percent**</nobr></td>
 
-<td>The percentage of the **Unpaid Invoices** according to the total count of invoices</td>
+Conversion
 
-</tr>
+**Paying Users Percent**
 
-<tr>
+The percentage of the users who complete payment according to the total count of users who create invoice. **Paying Users Percent** is more accurate conversion metric (comparing with **Paid Invoices Percent**), since user can try a few payment options before they make an actual payment
 
-<td>Conversion</td>
 
-<td><nobr>**New Paying Users**</nobr></td>
 
-<td>Count of unique **Paying users**, who made their first payment in the current period</td>
 
-</tr>
 
-<tr>
+Conversion
 
-<td>Conversion</td>
+**Paid Invoices Percent**
 
-<td><nobr>**New Paying Users Percent**</nobr></td>
+The percentage of the complete **Payments** according to the total count of **Invoices**
 
-<td>The percentage of the **New Paying Users** according to the total count of **Paying Users**</td>
 
-</tr>
 
-<tr>
 
-<td>Conversion</td>
 
-<td><nobr>**Existing Paying Users**</nobr></td>
+Conversion
 
-<td>Count of unique **Paying Users**, who complete non-first payment</td>
+**Churn Users**
 
-</tr>
+Count of the users that created invoices but did not pay for it
 
-<tr>
 
-<td>Cancellations</td>
 
-<td><nobr>**Cancellations**</nobr></td>
 
-<td>Count of **Payments** which were refunded or canceled</td>
 
-</tr>
+Conversion
 
-<tr>
+**Churn Users Percent**
 
-<td>Cancellations</td>
+The percentage of the user created invoice but didn't pay for it
 
-<td><nobr>**Cancellations Percent**</nobr></td>
 
-<td>The percentage of the **Cancellations** to the total count of **Payments**.</td>
 
-</tr>
 
-<tr>
 
-<td>Cancellations</td>
+Conversion
 
-<td><nobr>**Cancellations Revenue**</nobr></td>
+**Unpaid Invoices**
 
-<td>Amount of the canceled **Payments**.</td>
+Count of invoices which were not completed by the user and not confirmed by payment system
 
-</tr>
 
-<tr>
 
-<td>Cancellations</td>
 
-<td><nobr>**Cancellations Revenue Percent**</nobr></td>
 
-<td>The percentage of the **Cancellations Revenue** to total **Revenue**.</td>
+Conversion
 
-</tr>
+**Unpaid Invoices Percent**
 
-<tr>
+The percentage of the **Unpaid Invoices** according to the total count of invoices
 
-<td>Developers</td>
 
-<td><nobr>**Payment Notification Delivery, Seconds**</nobr></td>
 
-<td>Duration of payment processing time on Xsolla side</td>
 
-</tr>
 
-<tr>
+Conversion
 
-<td>Developers</td>
+**New Paying Users**
 
-<td><nobr>**Payment System Delay, Seconds**</nobr></td>
+Count of unique **Paying users**, who made their first payment in the current period
 
-<td>Duration of payment processing time on payment system side</td>
 
-</tr>
 
-<tr>
 
-<td>Developers</td>
 
-<td><nobr>**Payment Flow, Seconds**</nobr></td>
+Conversion
 
-<td>Total duration of payment processing</td>
+**New Paying Users Percent**
 
-</tr>
+The percentage of the **New Paying Users** according to the total count of **Paying Users**
 
-</tbody>
 
-</table>
+
+
+
+Conversion
+
+**Existing Paying Users**
+
+Count of unique **Paying Users**, who complete non-first payment
+
+
+
+
+
+Cancellations
+
+**Cancellations**
+
+Count of **Payments** which were refunded or canceled
+
+
+
+
+
+Cancellations
+
+**Cancellations Percent**
+
+The percentage of the **Cancellations** to the total count of **Payments**.
+
+
+
+
+
+Cancellations
+
+**Cancellations Revenue**
+
+Amount of the canceled **Payments**.
+
+
+
+
+
+Cancellations
+
+**Cancellations Revenue Percent**
+
+The percentage of the **Cancellations Revenue** to total **Revenue**.
+
+
+
+
+
+Developers
+
+**Payment Notification Delivery, Seconds**
+
+Duration of payment processing time on Xsolla side
+
+
+
+
+
+Developers
+
+**Payment System Delay, Seconds**
+
+Duration of payment processing time on payment system side
+
+
+
+
+
+Developers
+
+**Payment Flow, Seconds**
+
+Total duration of payment processing
+
+
+
+
+
+
 
 Measures can be aggregated in different ways. Here are descriptions of each type of aggregation you will see when viewing your dashboards:
 
-<table>
 
-<thead>
 
-<tr>
 
-<th></th>
 
-<th></th>
 
-</tr>
 
-</thead>
 
-<tbody>
 
-<tr>
 
-<td>**Count**</td>
 
-<td>How many of the tracked event occurred. Default for **Invoices**, **Paying Users**, etc.</td>
 
-</tr>
 
-<tr>
 
-<td>**Sum**</td>
 
-<td>What was the total sum of the numeric values associated with the event being tracked. Default for **Gross Revenue**, **Virtual Currency Amount**, etc.</td>
 
-</tr>
 
-<tr>
 
-<td>**Average**</td>
 
-<td>What was the average value of the measure. This will be used for measure such as percentages because it would not make sense to use **Sum**. Default for **Average Payment Amount**, **Churn Users Percent**, etc.</td>
+**Count**
 
-</tr>
+How many of the tracked event occurred. Default for **Invoices**, **Paying Users**, etc.
 
-<tr>
 
-<td>**Maximum**</td>
 
-<td>What was the highest value that occurred for the measure.</td>
 
-</tr>
 
-<tr>
+**Sum**
 
-<td>**Minimum**</td>
+What was the total sum of the numeric values associated with the event being tracked. Default for **Gross Revenue**, **Virtual Currency Amount**, etc.
 
-<td>What was the lowest value that occurred for the measure.</td>
 
-</tr>
 
-</tbody>
 
-</table>
 
-</div>
+**Average**
 
-</div>
+What was the average value of the measure. This will be used for measure such as percentages because it would not make sense to use **Sum**. Default for **Average Payment Amount**, **Churn Users Percent**, etc.
 
-<div class="section-content">
 
-<div class="section-description">
 
-# [FAQ](#faq_data_portal)
+
+
+**Maximum**
+
+What was the highest value that occurred for the measure.
+
+
+
+
+
+**Minimum**
+
+What was the lowest value that occurred for the measure.
+
+
+
+
+
+
+
+FAQ
 
 **Q.** How much is it?
 
@@ -1665,7 +1357,7 @@ Measures can be aggregated in different ways. Here are descriptions of each type
 
 **Q.** How can I activate data portal for my account?
 
-**A.** You need to have an active project with completed payments. You can activate the data portal in [Publisher Account](https://publisher.xsolla.com)
+**A.** You need to have an active project with completed payments. You can activate the data portal in [Publisher Account](1)
 
 * * *
 
@@ -1675,27 +1367,27 @@ Measures can be aggregated in different ways. Here are descriptions of each type
 
 * * *
 
-**Q.** How can I upload my own data to [Slemma](https://slemma.com)?
+**Q.** How can I upload my own data to [Slemma](1)?
 
-**A.** You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database. You can learn more at the [Slemma knowledge base](http://support.slemma.com)
+**A.** You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database. You can learn more at the [Slemma knowledge base](1)
 
 * * *
 
 **Q.** I'm concerned about my data privacy and security.
 
-**A.** We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud. All data transferred in and out of the warehouse is through TLS encrypted connections. Raw payments data is not available in [Slemma](https://slemma.com). Only aggregated data without personal user information is available. We applied principles of least privilege, firewalls, encryption, and other technical and operating approaches to keep your data safe.
+**A.** We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud. All data transferred in and out of the warehouse is through TLS encrypted connections. Raw payments data is not available in [Slemma](1). Only aggregated data without personal user information is available. We applied principles of least privilege, firewalls, encryption, and other technical and operating approaches to keep your data safe.
 
 * * *
 
-**Q.** This analytics lacks some data available in [Publisher Account](https://publisher.xsolla.com). How can I get it in [Slemma](https://slemma.com)?
+**Q.** This analytics lacks some data available in [Publisher Account](1). How can I get it in [Slemma](1)?
 
-**A.** Send us a feature request via email [dataportal@xsolla.com](mailto:dataportal@xsolla.com)
+**A.** Send us a feature request via email [dataportal@xsolla.com](1)
 
 * * *
 
-**Q.** Is it possible to download data from [Slemma](https://slemma.com)?
+**Q.** Is it possible to download data from [Slemma](1)?
 
-**A.** You can download charts and their data in different formats from [Slemma](https://slemma.com) by right clicking on the object and selecting the file type. You can also download entire dashboards as PDFs and PNGs. If you need raw data, you can use [Xsolla Reports API](http://developers.xsolla.com/api_v2.html#reports)
+**A.** You can download charts and their data in different formats from [Slemma](1) by right clicking on the object and selecting the file type. You can also download entire dashboards as PDFs and PNGs. If you need raw data, you can use [Xsolla Reports API](1)
 
 * * *
 
@@ -1717,15 +1409,15 @@ Measures can be aggregated in different ways. Here are descriptions of each type
 
 * * *
 
-**Q.** [Slemma](https://slemma.com) and analytics [Publisher Account](https://publisher.xsolla.com) show different numbers. Why?
+**Q.** [Slemma](1) and analytics [Publisher Account](1) show different numbers. Why?
 
-**A.** The data in [Slemma](https://slemma.com) is in the UTC timezone, while the data in [Publisher Account](https://publisher.xsolla.com) is in the UTC+3 timezone. We are going to change this behavior in future and show all data in the UTC timezone.
+**A.** The data in [Slemma](1) is in the UTC timezone, while the data in [Publisher Account](1) is in the UTC+3 timezone. We are going to change this behavior in future and show all data in the UTC timezone.
 
 * * *
 
 **Q.** How can I invite other users for collaboration?
 
-**A.** When you activate the analytics in [Publisher Account](https://publisher.xsolla.com) you can choose members of your team to invite (all members by default). When logged in to [Slemma](https://slemma.com), you can invite new users in [Users and groups](https://slemma.com/team) settings.
+**A.** When you activate the analytics in [Publisher Account](1) you can choose members of your team to invite (all members by default). When logged in to [Slemma](1), you can invite new users in [Users and groups](1) settings.
 
 * * *
 
@@ -1735,41 +1427,29 @@ Measures can be aggregated in different ways. Here are descriptions of each type
 
 * * *
 
-**Q.** What team features does [Slemma](https://slemma.com) provide?
+**Q.** What team features does [Slemma](1) provide?
 
 **A.** Team sharing of dashboards, commenting, annotations, permission control, and dashboard automated deliveries.
 
 * * *
 
-**Q.** I have another question about [Slemma](https://slemma.com)…
+**Q.** I have another question about [Slemma](1)…
 
-**A.** Use the ‘Click here for help' widget on the left bottom side in [Slemma](https://slemma.com) to access their knowledge base or contact support with the same widget.
+**A.** Use the ‘Click here for help' widget on the left bottom side in [Slemma](1) to access their knowledge base or contact support with the same widget.
 
 * * *
 
-**Q.** How do I to link several xsolla publisher accounts together in [Slemma](https://slemma.com)?
+**Q.** How do I to link several xsolla publisher accounts together in [Slemma](1)?
 
-**A.** Contact us at [dataportal@xsolla.com](mailto:dataportal@xsolla.com)
+**A.** Contact us at [dataportal@xsolla.com](1)
 
 * * *
 
 **Q.** I didn't find my question in this list…
 
-**A.** Feel free to contact us with any questions at [dataportal@xsolla.com](mailto:dataportal@xsolla.com)
+**A.** Feel free to contact us with any questions at [dataportal@xsolla.com](1)
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Xsolla Network](#xsolla_network)
+Xsolla Network
 
 Xsolla Network is a global solution that helps build a game’s brand, acquire new users, and distribute the game through dozens affiliate networks, millions influencers, and hundreds of gaming media portals from one place. Game developers can easily configure and start revenue-sharing or CPA-based campaigns in mere minutes, and, since Xsolla is integrated with all the affiliates, they don’t need to make all those integrations from scratch. Game developers can distribute their offers or messages to influencers and gaming platforms, and pay them right from their Xsolla publisher account, without signing agreements with each of them, thus saving time, money, and R&D resources.
 
@@ -1782,19 +1462,9 @@ Xsolla Network is a global solution that helps build a game’s brand, acquire n
 *   Performance tracking and analytics allow you to analyze your user acquisition campaigns using trackable links, promotional codes, and product activation keys.
 *   If you are already integrated with Xsolla Login, you can go without the basic integration offering.
 
-Xsolla Network is a part of Xsolla product ecosystem and can be used alongside Pay Station, Mobile Pay Station and/or Pay2Play. Before start please implement our [billing and payments solution](http://developers.xsolla.com/).
+Xsolla Network is a part of Xsolla product ecosystem and can be used alongside Pay Station, Mobile Pay Station and/or Pay2Play. Before start please implement our [billing and payments solution](1).
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Interaction Diagram](#interaction_diagram)
-
-<div class="getting-started">![Xsolla Network](https://cdn.xsolla.net/developers.xsolla.com/images/network_scheme.4b806ebea8.png)</div>
+Interaction Diagram
 
 1) The user clicks on the advertising banner and is taken to the Xsolla Proxy page with the information about the game. Xsolla collects all utm parameters from url, including unique event ID (such as Click ID), and generate universal Tracking ID parameter for further communications.
 
@@ -1808,111 +1478,75 @@ Xsolla Network is a part of Xsolla product ecosystem and can be used alongside P
 
 6) The information that was kept on the first step is sent back with unique user action.
 
-</div>
+Integration Guide
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Integration Guide](#integration_guide)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Changes in token request](#token_receipt_changes)
+Changes in token request
 
 You should additionally send the information about Tracking ID in the JSON for getting token. Tracking ID is the part of "user" object.
 
-### [Example request](#token_receipt_changes_example-request)
+Example request
 
         
 
 All parameters, which are already included in your JSON for token, should remain the same.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [New API request](#new_api_method)
+New API request
 
 When the user with a Tracking ID completes the registration process, you should send us the request via API.
 
-### [Example request](#new_api_method_example-request)
+Example request
 
      \
     -X PUT \
     -u merchant_id:merchant_api_key
 
-<table>
 
-<thead>
 
-<tr>
 
-<th>Parameter</th>
 
-<th>Type</th>
 
-<th>Description</th>
 
-</tr>
+Parameter
 
-</thead>
+Type
 
-<tbody>
+Description
 
-<tr>
 
-<td>merchant_id</td>
 
-<td>int</td>
 
-<td>ID merchant.</td>
 
-</tr>
 
-<tr>
 
-<td>tracking_id</td>
 
-<td>string</td>
 
-<td>Tracking ID.</td>
+merchant_id
 
-</tr>
+int
 
-</tbody>
+ID merchant.
 
-</table>
 
-### [Example response](#new_api_method_example-response)
+
+
+
+tracking_id
+
+string
+
+Tracking ID.
+
+
+
+
+
+
+
+Example response
 
     HTTP/1.1 204 No Content
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Pay2Play](#pay2play)
+Pay2Play
 
 The **Pay2Play** module allows game developers to sell PIN codes directly from a game's website. Users can access the store using the Pay2Play widget. The module has several integration options and allows developers to:
 
@@ -1921,33 +1555,17 @@ The **Pay2Play** module allows game developers to sell PIN codes directly from a
 *   Configure widget size and color theme
 *   Pay tips to the developer
 
-</div>
+User Flow
 
-</div>
+![](1)
 
-<div class="section-content">
-
-<div class="section-description">
-
-# [User Flow](#user_flow)
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_userflow.5827dbc490.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Integration Options](#integration_types)
+Integration Options
 
 You can integrate the module in either advanced or basic mode.
 
-### [Basic Integration](#integration_types_basic-integration-basic_integration)
+Basic Integration
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_basic.6fbae1f6dc.png)
+![](1)
 
 Basic integration:
 
@@ -1955,49 +1573,33 @@ Basic integration:
 *   Does not require token generation or server implementation, and
 *   Works well for games not requiring user pre-authorization.
 
-### [Advanced Integration](#integration_types_advanced-integration-advanced_integration)
+Advanced Integration
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_adv.1bfcc4e872.png)
+![](1)
 
 Advanced integration:
 
 *   Allows you to securely transfer user and purchase data for its further linking on the game side, and
 *   Requires server-side implementation.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Basic Integration Guide](#basic_integration_guide)
+Basic Integration Guide
 
 To implement basic integration:
 
-1.  Register an [Xsolla Publisher Account](https://publisher.xsolla.com/).
-2.  [Create a project](../pay2play.html#basic_create_project).
-3.  [Set up the module](../pay2play.html#basic_create_module).
-4.  [Test](../pay2play.html#basic_testing) the payment process.
-5.  Add the [Pay2Play widget](../pay2play.html#basic_widget) to the game page.
+1.  Register an [Xsolla Publisher Account](1).
+2.  [Create a project](1).
+3.  [Set up the module](1).
+4.  [Test](1) the payment process.
+5.  Add the [Pay2Play widget](1) to the game page.
 6.  Sign an agreement.
 
 The following parameters are required for the integration:
 
 *   **Project ID** — shown in the Publisher Account URL when viewing project settings: _<span>ht</span>tps://publisher.xsolla.com/{merchant_id}/projects/{project_id}/_.
 
-<aside class="notise2">This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](../api_v2.html). In case of any questions, please contact your account manager.</aside>
+<aside class="notise2">This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](1). In case of any questions, please contact your account manager.</aside>
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Creating a Project](#basic_create_project)
+Creating a Project
 
 1.  Go to **Projects** and click **Create new project**.
 2.  In set up mode:  
@@ -2006,15 +1608,7 @@ The following parameters are required for the integration:
     *   Set **Serverless integration** to **On**.
     *   Turn on the **Pay2Play** module.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Setting Up the Module](#basic_create_module)
+Setting Up the Module
 
 1.  Go to the **Pay2Play** module settings and configure the following parameters for the game:
     *   Name.
@@ -2030,17 +1624,9 @@ The following parameters are required for the integration:
 4.  Set **Uploaded codes** to **On**.
 5.  Upload PIN codes for the selected DRM platforms.
 
-</div>
+Testing Payment Process
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Testing Payment Process](#basic_testing)
-
-Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"settings.mode" = "sandbox"_ within the _access_data_ object. The JSON structure and parameters in _access_data_ are the same as in the [Token](../api_v2.html#token) request.
+Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"settings.mode" = "sandbox"_ within the _access_data_ object. The JSON structure and parameters in _access_data_ are the same as in the [Token](1) request.
 
 <aside class="notise2">Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment.</aside>
 
@@ -2051,35 +1637,15 @@ To test a bank card payment:
 3.  Choose the **Credit/debit cards** group of payment methods.
 4.  Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.
 
-[List of bank cards to be used for testing](../api_v2.html#test_cards)
+[List of bank cards to be used for testing](1)
 
 **Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.
 
-</div>
+Integrating the Pay2Play Widget
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Integrating the Pay2Play Widget](#basic_widget)
-
-The [Pay2Play widget](https://github.com/xsolla/pay2play-widget) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.
+The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.
 
 Asynchronous loading example
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang" data-lang="html">HTML</div>
-
-</div>
-
-</div>
 
      <script>
          var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};
@@ -2095,31 +1661,21 @@ Asynchronous loading example
          head.appendChild(s);
      </script>
 
-You can find the complete list of widget initialization parameters in the [API Reference](../api_v2.html#pay2play_widget) and its installation instructions on [GitHub](https://github.com/xsolla/pay2play-widget).
+You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).
 
 <aside class="notise2">**Important!** You need to sign an agreement before you can accept real payments.</aside>
 
-</div>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Advanced Integration Guide](#advanced_integration_guide)
+Advanced Integration Guide
 
 To implement advanced integration:
 
-1.  Register an [Xsolla Publisher Account](https://publisher.xsolla.com/).
-2.  [Create a project](../pay2play.html#advanced_create_project).
-3.  [Set up the module](../pay2play.html#advanced_create_module).
-4.  [Get a token](../pay2play.html#advanced_get_token).
-5.  [Set up webhook handling](../pay2play.html#advanced_setup_webhooks).
-6.  [Test](../pay2play.html#advanced_testing) the payment process.
-7.  Add the [Pay2Play widget](../pay2play.html#advanced_widget) to the game page and sign the agreement.
+1.  Register an [Xsolla Publisher Account](1).
+2.  [Create a project](1).
+3.  [Set up the module](1).
+4.  [Get a token](1).
+5.  [Set up webhook handling](1).
+6.  [Test](1) the payment process.
+7.  Add the [Pay2Play widget](1) to the game page and sign the agreement.
 
 The following parameters are required for the integration:
 
@@ -2128,17 +1684,9 @@ The following parameters are required for the integration:
 *   **Project ID** — shown in the Publisher Account URL when viewing project settings: _<span>ht</span>tps://publisher.xsolla.com/{merchant_id}/projects/{project_id}/_.
 *   **Project secret key** — generated in project settings.
 
-<aside class="notise2">This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](../api_v2.html). In case of any questions, please contact your account manager.</aside>
+<aside class="notise2">This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](1). In case of any questions, please contact your account manager.</aside>
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Creating a Project](#advanced_create_project)
+Creating a Project
 
 1.  Go to **Projects** and click **Create new project**.
 2.  In the project settings:
@@ -2148,15 +1696,7 @@ The following parameters are required for the integration:
     *   Set **Serverless integration** to **Off**.
     *   Turn on the **Pay2Play** module.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Setting Up the Module](#advanced_create_module)
+Setting Up the Module
 
 1.  Go to the **Pay2Play** module settings and configure the following parameters for the game:
     *   Name.
@@ -2172,15 +1712,7 @@ The following parameters are required for the integration:
 4.  Set **Uploaded codes** to **On**.
 5.  Upload PIN codes for the selected DRM platforms.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Get Token to Open Store](#advanced_get_token)
+Get Token to Open Store
 
 To integrate the store UI into your game, you will need an access token. An access token is a string that identifies the game, user and purchase parameters.
 
@@ -2190,27 +1722,13 @@ Set the value to "mode":"sandbox" to test the payment process.
 
 Token endpoint URL:
 
-`[https://api.xsolla.com/merchant/merchants/{merchant_id}/token](https://api.xsolla.com/merchant/merchants/{merchant_id}/token)`
+`[https://api.xsolla.com/merchant/merchants/{merchant_id}/token](1)`
 
 In an HTTP POST request, you can use parameters for store UI. Request and response payloads are formatted as JSON.
 
 Example Request
 
-Below you can find sample code of how to get a token in PHP with the help of [Xsolla PHP SDK](../sdk.html). If you're using another programming language, please take a look at the _CURL_ example by clicking on the CURL tab.
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
+Below you can find sample code of how to get a token in PHP with the help of [Xsolla PHP SDK](1). If you're using another programming language, please take a look at the _CURL_ example by clicking on the CURL tab.
 
     <?php
 
@@ -2232,19 +1750,9 @@ Below you can find sample code of how to get a token in PHP with the help of [Xs
 
         
 
-</div>
+You can find the full list of parameters in the [API Reference](1).
 
-You can find the full list of parameters in the [API Reference](../api_v2.html#token).
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Setting up Webhooks](#advanced_setup_webhooks)
+Setting up Webhooks
 
 Xsolla sends the following webhooks to your project:
 
@@ -2252,9 +1760,9 @@ Xsolla sends the following webhooks to your project:
 *   Payment
 *   Refund
 
-To acknowledge that you received webhook notifications without any problem, your server should return a 204 HTTP status code without body. The full description of webhook mechanism with samples is described in detail in the [API Reference](../api_v2.html#webhooks).
+To acknowledge that you received webhook notifications without any problem, your server should return a 204 HTTP status code without body. The full description of webhook mechanism with samples is described in detail in the [API Reference](1).
 
-### [Creating a Signature](#advanced_setup_webhooks_creating-a-signature)
+Creating a Signature
 
 To create a signature:
 
@@ -2264,25 +1772,11 @@ To create a signature:
 
 When handling a webhook, make sure that the signature received matches the one set in the Signature header.
 
-### [User Validation](#advanced_setup_webhooks_user-validation)
+User Validation
 
 The Xsolla server sends a request to the project’s webhook URL to verify that a user exists in the game.
 
 Request example
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     $request = array(
         'notification_type' => 'user_validation',
@@ -2297,27 +1791,13 @@ Request example
 
     
 
-You can find the full list of parameters in the [API Reference](../api_v2.html#validate_user).
+You can find the full list of parameters in the [API Reference](1).
 
-### [Payment](#advanced_setup_webhooks_payment)
+Payment
 
 The Xsolla server sends a webhook including payment details whenever a user completes a payment.
 
 Request example
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     $request = array(
         'notification_type' => 'payment',
@@ -2383,27 +1863,13 @@ Request example
 
     
 
-You can find the full list of parameters in the [API Reference](../api_v2.html#payment).
+You can find the full list of parameters in the [API Reference](1).
 
-### [Refund](#advanced_setup_webhooks_refund)
+Refund
 
 If the user cancels the payment, the Xsolla server sends a webhook notification with information about the payment.
 
 Request example
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
 
     $request = array(
         'notification_type' => 'refund',
@@ -2463,9 +1929,9 @@ Request example
 
     
 
-You can find the full list of parameters in the [API Reference](../api_v2.html#refund).
+You can find the full list of parameters in the [API Reference](1).
 
-### [Testing Webhooks](#advanced_setup_webhooks_testing-webhooks)
+Testing Webhooks
 
 To test the webhook handler:
 
@@ -2474,9 +1940,9 @@ To test the webhook handler:
 3.  Enter the test data and click **Test**. The Xsolla server will send all possible webhooks.
 4.  The test is marked green in case of a valid response and red in case of an error.
 
-## [Testing Payment Process](#advanced_testing)
+Testing Payment Process
 
-Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"mode" = "sandbox"_ when [getting the token](../api_v2.html#token).
+Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"mode" = "sandbox"_ when [getting the token](1).
 
 <aside class="notise2">Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment.</aside>
 
@@ -2487,27 +1953,15 @@ To test a bank card payment:
 3.  Click **Credit/debit cards**.
 4.  Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.
 
-[List of bank cards to be used for testing](../api_v2.html#test_cards)
+[List of bank cards to be used for testing](1)
 
 **Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.
 
-## [Integrating the Pay2Play Widget](#advanced_widget)
+Integrating the Pay2Play Widget
 
-The [Pay2Play widget](https://github.com/xsolla/pay2play-widget) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.
+The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.
 
 Asynchronous loading example
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang" data-lang="html">HTML</div>
-
-</div>
-
-</div>
 
      <script>
          var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};
@@ -2523,80 +1977,32 @@ Asynchronous loading example
          head.appendChild(s);
      </script>
 
-You can find the complete list of widget initialization parameters in the [API Reference](../api_v2.html#pay2play_widget) and its installation instructions on [GitHub](https://github.com/xsolla/pay2play-widget).
+You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).
 
 <aside class="notise2">**Important!** You need to sign an agreement before you can accept real payments.</aside>
 
-</div>
+Additional Features
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Additional Features](#additional_features)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Tips to the Developer](#tips)
+Tips to the Developer
 
 A project can receive tips from each purchase. To enable the option, open Pay2Play price settings and set **Use Tips in the Pay2Play widget** to **On**. Three pre-defined tip amounts are available for each currency you add.
 
 The user will be able to choose the tip amount before entering the store. The tips will be added to the purchase price.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Delivering PIN Codes via API](#api_pin_codes)
+Delivering PIN Codes via API
 
 You can send PIN codes after each purchase instead of uploading the list of PIN codes in a file. To enable the feature:
 
-*   Implement the [Get PIN code](../api_v2.html#get_pin_code) webhook.
+*   Implement the [Get PIN code](1) webhook.
 *   In Pay2Play settings, go to **Upload codes**, set **On demand** to **On** and **Uploaded codes** to **Off**.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Restricting PIN Code Sales](#limit_sales)
+Restricting PIN Code Sales
 
 You can limit the number of PIN codes that can be sold for a project. You will get two email notifications: one when 100 or fewer PIN codes are left, and another one when none are. If the limit is exceeded, users won’t be able to execute payment.
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/sold_out.58a2e21c8c.png)
+![](1)
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Restricting Sales by Regions](#regional_sale_restrictions)
+Restricting Sales by Regions
 
 The **Pay2Play** module allows you to configure regional restrictions on PIN code sales. In particular, you can:
 
@@ -2605,7 +2011,7 @@ The **Pay2Play** module allows you to configure regional restrictions on PIN cod
 
 Once you have properly configured the project, a user trying to purchase a PIN code in a restricted country will see a corresponding warning. In countries for which PIN code sales are prohibited, payment is not possible.
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/reglock.4effd3ed91.png)
+![](1)
 
 To enable the feature, contact your account manager. We will need the following information for each platform that you want to be subject to regional restrictions:
 
@@ -2625,19 +2031,7 @@ For any single platform, a country can belong either to a different-price group 
 
 **Important!** If PIN code activation and game launching are made on your or the DRM platform’s side, then, on the release date, make sure to upload PIN codes with regional restrictions already configured.
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Gifting](#gifting)
+Gifting
 
 With in-game gifting, you can enable players to purchase in-game items as gifts for their friends & family who may enjoy playing a new game. Recipients of a gift will get an email with gift information and gift givers will get a receipt. They can also opt to hide their identity to send the gift anonymously. In either case, enabling gifting can drive both re-engagement and incremental revenue.
 
@@ -2647,109 +2041,45 @@ This feature has various integration options and allows game projects to sell th
 *   Virtual items
 *   Game activation keys
 
-The option is only available for projects that have disabled Xsolla-side storage of user-data. Go to your [Publisher Account](https://publisher.xsolla.com/projects/settings) to configure and manage user-data storage settings.
+The option is only available for projects that have disabled Xsolla-side storage of user-data. Go to your [Publisher Account](1) to configure and manage user-data storage settings.
 
-</div>
+Interaction Scenarios
 
-</div>
+Sending the Friend List in a Token
 
-<div class="section-content">
+![](1)
 
-<div class="section-description">
+Sending Friends via the API
 
-# [Interaction Scenarios](#interaction-scenarios)
+![](1)
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Sending the Friend List in a Token](#sending-the-friend-list-in-a-token)
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/type1_03.140efdf180.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Sending Friends via the API](#sending-friends-via-the-api)
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/type2_03.166b51efde.png)
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Integration Guide](#integration_guide)
+Integration Guide
 
 The following integration options are available depending on the modules enabled for your project:
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Pay2Play Module](#pay2play_module)
+Pay2Play Module
 
 To enable the feature:
 
-1.  [Set up](../pay2play.html) the Pay2Play module.
+1.  [Set up](1) the Pay2Play module.
 2.  Contact your account manager to enable the feature.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Virtual Items, Virtual Currency, or Payment Wall Modules](#virtual_items_virtual_currency_payment_wall_modules)
+Virtual Items, Virtual Currency, or Payment Wall Modules
 
 To enable the feature:
 
-1.  Set up the [Virtual Items](../virtual_items.html), [Virtual Currency](../virtual_currency.html), or [Payment Wall](../payment_wall.html) module(s), respectively.
-2.  Implement the [API method](#friend_via_api) to send the friend list to Xsolla, or add an object with friend data to the [token](#friend_via_token) request.
-3.  Implement the [handling of the webhook](#setup_webhooks) confirming a successful payment and containing the gift data.
+1.  Set up the [Virtual Items](1), [Virtual Currency](1), or [Payment Wall](1) module(s), respectively.
+2.  Implement the [API method](1) to send the friend list to Xsolla, or add an object with friend data to the [token](1) request.
+3.  Implement the [handling of the webhook](1) confirming a successful payment and containing the gift data.
 4.  Contact your account manager to enable the feature.
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Setting up the Module](#create_module)
+Setting up the Module
 
 To enable the feature, you must have the Virtual Items, Virtual Currency, or Payment Wall module(s) set up and turned on.
 
-</div>
+Sending the Friend List in the Token Request
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Sending the Friend List in the Token Request](#friend_via_token)
-
-If necessary, you can add an array with the user’s friend list to the [request for token](../api_v2.html#token). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.
+If necessary, you can add an array with the user’s friend list to the [request for token](1). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.
 
 **Request example**
 
@@ -2791,17 +2121,9 @@ If necessary, you can add an array with the user’s friend list to the [request
 
     }
 
-</div>
+Sending the Friend List via the API
 
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-## [Sending the Friend List via the API](#friend_via_api)
-
-In this case, Xsolla sends a [request for the friend list](../api_v2.html#friends_list) to the project’s webhook URL, which is configured in project settings.
+In this case, Xsolla sends a [request for the friend list](1) to the project’s webhook URL, which is configured in project settings.
 
 **Creating a signature**
 
@@ -2814,25 +2136,13 @@ To create a signature:
 
 When processing the API request, make sure that the received signature matches the one sent in the 'sign' parameter.
 
-### [Getting the List of Friends](#friend_via_api_getting-the-list-of-friends)
+Getting the List of Friends
 
 **Request example**
 
     $ 
 
-</div>
-
-</div>
-
-</div>
-
-<div class="content">
-
-<div class="section-content">
-
-<div class="section-description">
-
-# [Launch Pay Station on your game domain](#paystation_domain)
+Launch Pay Station on your game domain
 
 1.  Register a new domain name of **secure.yourdomain.com**, where **yourdomain.com** is your domain name. Then specify either the current IP address of **secure.xsolla.com** as an A record or an alias to **secure.xsolla.com** as a CNAME record.
 2.  Issue a new valid SSL certificate for your domain name (**secure.yourdomain.com**).
@@ -2845,15 +2155,11 @@ When processing the API request, make sure that the received signature matches t
 
     **Important!** Make sure to specify your domain name (**secure.yourdomain.com**) in the **Common Name** field.
 
-4.  Go to any website that issues certificates (e.g. [GoDaddy](https://www.godaddy.com/web-security/ssl-certificate)) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.
+4.  Go to any website that issues certificates (e.g. [GoDaddy](1)) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.
 
     After the registrar verifies the domain owner, you will receive a signed certificate.
 
-5.  Send your key and certificate to Xsolla at [sysadmins@xsolla.com](mailto:sysadmins@xsolla.com) with the following email subject: **[Your game]: SSL Certificate**.
+5.  Send your key and certificate to Xsolla at [sysadmins@xsolla.com](1) with the following email subject: **[Your game]: SSL Certificate**.
 6.  While setting up the integration via **Pay Station Embed**, make sure to specify the link to your payment UI in the "host" parameter.
-
-</div>
-
-</div>
 
 </div>
