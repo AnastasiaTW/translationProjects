@@ -1,19 +1,10 @@
 
 
-
 # [Xsolla PHP SDK](#php_sdk)
-
-
-
-
 
 ## [Overview](#overview)
 
 Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https://developers.xsolla.com/api_v2.html). [Here](https://github.com/xsolla/xsolla-sdk-php) you can find the link to this project on Github.
-
-
-
-
 
 ## [Features](#features)
 
@@ -24,10 +15,6 @@ Xsolla PHP SDK is an open source library for interacting with [Xsolla API](https
     2.  All security checking already implemented: signature authentication and IP whitelisting.
     3.  Full customization of notification processing logic, if standard server class doesn't suit you.
 4.  SDK is built on Guzzle v3, and utilizes many of its features, including persistent connections, parallel requests, events and plugins (via Symfony2 EventDispatcher), service descriptions, over-the-wire logging, caching, flexible batching, and request retrying with truncated exponential back off.
-
-
-
-
 
 ## [Getting started](#getting_started)
 
@@ -40,20 +27,12 @@ Please register your [Publisher Account](https://publisher.xsolla.com/signup) an
 
 You can obtain these parameters using the information in your [Company Profile](https://publisher.xsolla.com/company) and [Project Settings](https://publisher.xsolla.com/projects).
 
-
-
-
-
 ## [System Requirements](#system_requirements)
 
 1.  PHP 5.3.9+
 2.  The following PHP extensions are required:
     1.  curl
     2.  json
-
-
-
-
 
 ## [Installing](#installing)
 
@@ -63,10 +42,6 @@ The recommended way to install Xsolla SDK for PHP is through Composer.
     $ composer require xsolla/xsolla-sdk-php
 
 Please visit our [Github project site](https://github.com/xsolla/xsolla-sdk-php#installation) for another ways of installing.
-
-
-
-
 
 ## [Usage](#usage)
 
@@ -247,10 +222,6 @@ Once you've finished the handling of notifications on your server, please set up
 
 After passing the tests in Testing tab, you're ready to go live. Please don't forget to remove the sandbox parameters from the code, if you have used them.
 
-
-
-
-
 ## [Troubleshooting](#php_troubleshooting)
 
 Here you can find some tips for handling and preventing the most frequently encountered errors returned by the Xsolla PHP SDK.
@@ -334,15 +305,7 @@ More secure and reliable way is to set your reverse proxy IP address to webhook 
 
 More information is available in [Symfony Documentation](http://symfony.com/doc/current/components/http_foundation/trusting_proxies.html).
 
-
-
-
-
 # [Xsolla Android SDK](#android_sdk)
-
-
-
-
 
 ## [Overview](#overview)
 
@@ -350,18 +313,10 @@ Xsolla created Android Client SDK for accepting payments from your application. 
 
 Before start, please choose one of the modules listed [here](https://developers.xsolla.com/#getting-started), implement the Webhook handling, create an [access token](https://developers.xsolla.com/api_v2.html#token).
 
-
-
-
-
 ## [System Requirements](#system_requirements)
 
 1.  Minimum required Android OS version: 4.0
 2.  Internet Connection is essential for the Xsolla Android SDK
-
-
-
-
 
 ## [Download](#download)
 
@@ -377,10 +332,6 @@ Before start, please choose one of the modules listed [here](https://developers.
 
  `compile 'com.xsolla.android:xsollasdk:2.2.2'` 
 
-
-
-
-
 ## [Installing](#installing)
 
 You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
@@ -395,10 +346,6 @@ You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
          }
 
 [Here](https://github.com/xsolla/xsolla-sdk-android) you can find the link to this project on Github.
-
-
-
-
 
 ## [Make a Payment](#make_payment)
 
@@ -433,15 +380,7 @@ Let's take as an example the simple application that has a payment button, when 
 
 Once the payment has been processed, your application can get a result in OnActivityResult. Also we will send a webhook on your server, even if the application has been closed.
 
-
-
-
-
 # [Xsolla Unity SDK](#unity_sdk)
-
-
-
-
 
 ## [Overview](#overview)
 
@@ -449,17 +388,9 @@ Xsolla created Unity SDK for accepting payments in desktop, web or mobile applic
 
 **Download the latest release of Xsolla Unity SDK from [GitHub.](https://github.com/xsolla/xsolla-unity-sdk)**
 
-
-
-
-
 ## [System Requirements](#system_requirements)
 
 Xsolla Unity SDK works with Unity 5.0 and above.
-
-
-
-
 
 ## [Integration](#integration)
 
@@ -545,10 +476,6 @@ SDK Response Objects:
         public Dictionary<string, object> purchases;
     }
 
-
-
-
-
 ## [Try it!](#try_it)
 
 Please take a look at our [demo](https://livedemo.xsolla.com/sdk/unity/).
@@ -557,7 +484,5 @@ We also have test scenes in "XsollaUnitySDK" -> "Resources" -> "_Scenes" folder:
 
 1.  XsollaFarmFreshScene - emulates item shop.
 2.  XollaTokenTestScene - you can test your token here.
-
-
 
 </div>
