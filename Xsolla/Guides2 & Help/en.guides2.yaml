@@ -1,0 +1,1042 @@
+guides_back_to_docs:
+  other: Back to Docs
+
+guides_login:
+  other: Login
+guides_xsolla_login:
+  other: Xsolla Login
+guides_login_overview:
+  other: Xsolla Login lets players log into any game using their social network accounts. Allowing them to start playing instantly and easily. In addition, Xsolla Login stores players' payment data enabling convenient one-click purchases in future. Developers can completely customize Xsolla Login to make it appear as a part of their game.
+
+guides_network:
+  other: Network
+guides_xsolla_network:
+  other: Xsolla Network
+guides_xsolla_network_overview_desc1:
+  other: Xsolla Network is a global solution that helps build a game’s brand, acquire new users, and distribute the game through dozens affiliate networks, millions influencers, and hundreds of gaming media portals from one place. Game developers can easily configure and start revenue-sharing or CPA-based campaigns in more minutes, and, since Xsolla is integrated with all the affiliates, they don’t need to make all those integrations from scratch. Game developers can distribute their offers or messages to influencers and gaming platforms, and pay them right from their Xsolla Publisher Account, without signing agreements with each of them, thus saving time, money, and R&D resources.
+guides_xsolla_network_overview_desc2:
+  other: |-
+    * User acquisition at no up-front charge
+    * You can set the level of advertising at your own discretion, depending on the percentage you’re willing to pay
+    * Xsolla Network has already proven effective in the Life is Feudal success story
+    * 4M Influencers on over 10 the most popular influencing platforms
+    * Up to 100 Affiliate Networks
+    * News Distribution over all Gaming Media
+    * Performance tracking and analytics allow you to analyze your user acquisition campaigns using trackable links, promotional codes, and product activation keys
+    * If you are already integrated with Xsolla Login, you can go without the basic integration offering
+guides_xsolla_network_overview_desc3:
+  other: Xsolla Network is a part of Xsolla product ecosystem and can be used alongside Pay Station, Mobile Pay Station and/or Pay2Play. Before start please implement our [billing and payments solution](1).
+guides_gifting:
+  other: Gifting
+guides_gifting_overview_desc1:
+  other: With in-game gifting, you can enable players to purchase in-game items as gifts for their friends & family who may enjoy playing a new game. Recipients of a gift will get an email with gift information and gift givers will get a receipt. They can also opt to hide their identity to send the gift anonymously. In either case, enabling gifting can drive both re-engagement and incremental revenue.
+guides_gifting_overview_desc2:
+  other: |-
+    This feature has various integration options and allows game projects to sell the following in-game items as gifts:
+
+      * Virtual currency packages
+      * Virtual items
+      * Game activation keys
+guides_gifting_overview_desc3:
+  other: The option is only available for projects that have disabled Xsolla-side storage of user-data. Go to your [Publisher Account](1) to configure and manage user-data storage settings.
+
+# Guides Table
+
+guides_table_param:
+  other: Parameter
+guides_table_type:
+  other: Type
+guides_table_desc:
+  other: Description
+
+guides_table_param_merchant_id:
+  other: merchant_id
+guides_table_param_tracking_id:
+  other: tracking_id
+guides_table_type_int:
+  other: int
+guides_table_type_string:
+  other: string
+guides_table_desc_merchant_id:
+  other: Merchant ID
+guides_table_desc_tracking_id:
+  other: Tracking ID
+
+# Getting Started
+
+guides_login_getting_started:
+  other: Getting Started
+guides_login_getting_started_desc1:
+  other: |-
+    Register your app by emailing us at [bizdev@xsolla.com](1) with the following info:
+
+    * **Site** - The website to connect to Xsolla Login (e.g. http://mysite.com)
+    * **Domain** - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same *projectID*
+    * **Authentication methods**. Supported methods are:
+      * Login/password
+      * SMS
+      * Social networks (Facebook, Twitter, Steam, Twitch, VK, Naver, etc.)
+      * i-PIN (BETA)
+      * Multi-factor authentication (BETA)
+      * Certificate (BETA)
+      * Local social network authentication (BETA)
+    * **Social networks** you want to use for authentication
+guides_login_getting_started_desc2:
+  other: We’ll reply with your *projectID* and *secretKey*.
+guides_login_auth_widget:
+  other: Authentication Widget
+guides_login_auth_widget_desc1:
+  other: Using the example below, add a standard authentication widget to your project. Download the SCSS template [here](1).
+guides_login_auth_widget_desc2:
+  other: The default block width is 400 px; the height depends on the authentication options.
+guides_login_auth_widget_install:
+  other: Installing the Widget
+guides_login_auth_widget_install_desc1:
+  other: |-
+    To add an Xsolla Login widget to your game, follow these steps:
+guides_login_auth_widget_install_step1:
+  other: Step 1
+guides_login_auth_widget_install_step1_desc1:
+  other: |-
+    Enable xl.min.js in the <head> tag:
+guides_login_auth_widget_install_step2:
+  other: Step 2
+guides_login_auth_widget_install_step2_desc1:
+  other: |-
+    Add the initialization code in the <body> tag:
+guides_login_widget_param_project_id:
+  other: projectId
+guides_login_widget_param_project_id_desc:
+  other: App ID.
+guides_login_widget_param_locale:
+  other: locale
+guides_login_widget_param_locale_desc:
+  other: |-
+    User regional settings specified as \<language code>\[\_\<country code>\][\_\<variant code>\], where:
+
+    * *language code*: language code in the [ISO 639](1) format;
+    * *country code*: country/region code in the [ISO 3166-1 alpha-2](2) format;
+    * *variant code*: OS/browser version and other additional info to uniquely identify the regional settings.
+guides_login_widget_param_redirect_url:
+  other: redirectUrl
+guides_login_widget_param_redirect_url_desc:
+  other: URL to send the user to after authentication. Sent within a JWT token.
+guides_login_widget_param_only_widgets:
+  other: onlyWidgets
+guides_login_widget_param_only_widgets_desc:
+  other: Initialize Xsolla Login for widgets only. 'True' by default.
+guides_login_widget_param_preloader:
+  other: preloader
+guides_login_widget_param_preloader_desc:
+  other: Preloader to be shown while the widget is being loaded. Specify the element’s HTML code.
+guides_login_widget_param_fields:
+  other: fields
+guides_login_widget_param_fields_desc:
+  other: |-
+    Data to be requested from the user. Allowed value: 'email'.
+guides_login_auth_widget_install_step3:
+  other: Step 3
+guides_login_auth_widget_install_step3_desc1:
+  other: Add a DIV element to contain the widget, give it a unique id, and add the widget initialization code after it.
+guides_login_widget_param_element_id:
+  other: element_id
+guides_login_widget_param_element_id_desc:
+  other: ID of the authentication container element.
+guides_login_widget_param_options:
+  other: options
+guides_login_widget_param_options_desc:
+  other: Widget block settings.
+guides_login_widget_param_options_width:
+  other: options.width
+guides_login_widget_param_options_width_desc:
+  other: Width of a block.
+guides_login_widget_param_options_height:
+  other: options.height
+guides_login_widget_param_options_height_desc:
+  other: Height of a block.
+guides_login_server_side:
+  other: Xsolla Login Server Side
+guides_login_server_side_how_it_works:
+  other: How it Works
+guides_login_server_side_callback_url:
+  other: Callback URL
+guides_login_server_side_callback_url_desc1:
+  other: Redirects the user to this URL after authentication.
+guides_login_server_side_successful_auth:
+  other:  Successful Authentication
+guides_login_server_side_successful_auth_desc1:
+  other: |-
+    If the authentication is successful, we’ll redirect the user to your callback URL with the following parameters:
+guides_login_server_side_param_token:
+  other: token
+guides_login_server_side_param_token_desc:
+  other: |-
+    [JWT](1). You can [decrypt it](2) using the secret key.
+guides_login_server_side_param_is_linking:
+  other: is_linking
+guides_login_server_side_param_is_linking_desc:
+  other: The user has linked an account.
+guides_login_server_side_successful_auth_desc2:
+  other: |-
+    Example of the decrypted token:
+guides_login_server_side_param_exp:
+  other: exp
+guides_login_server_side_param_exp_desc:
+  other: Token expiry date (Unix timestamp).
+guides_login_server_side_param_iss:
+  other: iss
+guides_login_server_side_param_iss_desc:
+  other: JWT issuer.
+guides_login_server_side_param_iat:
+  other: iat
+guides_login_server_side_param_iat_desc:
+  other: Creation date (Unix timestamp).
+guides_login_server_side_param_id:
+  other: id
+guides_login_server_side_param_id_desc:
+  other: User ID.
+guides_login_server_side_param_name:
+  other: name
+guides_login_server_side_param_name_desc:
+  other: User’s full name.
+guides_login_server_side_param_email:
+  other: email
+guides_login_server_side_param_email_desc:
+  other: User email.
+guides_login_server_side_param_type:
+  other: type
+guides_login_server_side_param_type_desc:
+  other: Type of authentication. Can be "proxy" (authenticated via proxy) or "social" (login via a social network).
+guides_login_server_side_param_provider:
+  other: provider
+guides_login_server_side_param_provider_desc:
+  other: |-
+    Social network name. Can be one of the following: "vk," "facebook," "twitter," "steam," "baidu," "naver," "qq," "github," "microsoft," "linkedin," "google".
+guides_login_server_side_param_access_key:
+  other: xsolla_login_access_key
+guides_login_server_side_param_access_key_desc:
+  other: Access key to call methods on behalf of the user.
+guides_login_server_side_failed_auth:
+  other: Failed Authentication
+guides_login_server_side_failed_auth_desc1:
+  other: |-
+    If the authentication fails, we’ll redirect the user to your callback URL with the following parameters:
+guides_login_server_side_param_error:
+  other: error
+guides_login_server_side_param_error_desc:
+  other: Error code group.
+guides_login_server_side_param_error_description:
+  other: error_description
+guides_login_server_side_param_error_description_desc:
+  other: Error description.
+guides_login_server_side_param_redirect_url:
+  other: redirect_url
+guides_login_server_side_param_redirect_url_desc:
+  other: Callback URL for the project.
+guides_login_server_side_additional_api_methods:
+  other: Additional API Methods
+guides_login_server_side_additional_api_methods_desc1:
+  other: If you already have users, you can use authentication via proxy. In this case, implement the following methods. Xsolla Login calls the methods from https://login.xsolla.com/ and https://test-login.xsolla.com/.
+guides_login_server_side_additional_api_methods_login_pass_check:
+  other: Login/Password Check
+guides_login_server_side_additional_api_methods_login_pass_check_desc1:
+  other: |-
+    * Type: POST
+    * Content-type: application/json
+    * Request body: {"username":"ХХХХ", "password":"ХХХХ"}
+    * Success: {Ok 200}
+    * Failure: {"error": {"code": "003-001", "description": "" }}
+guides_login_server_side_additional_api_methods_signup:
+  other: Signup
+guides_login_server_side_additional_api_methods_signup_desc1:
+  other: |-
+    * Type: POST
+    * Content-type: application/json
+    * Request body: {"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}
+    * Success: {Ok 200}
+    * Failure: {error: {code: "003-003|004", description: "" }}
+guides_login_server_side_additional_api_methods_pass_reset:
+  other: Password Reset
+guides_login_server_side_additional_api_methods_pass_reset_desc1:
+  other: |-
+    * Type: POST
+    * Content-type: application/json
+    * Request body: {"email":"ХХХХ"}
+    * Success: {Ok 200}
+    * Failure: {"error": {"code": "003-002", "description": ""}}
+
+# Analytics
+
+guides_analytics:
+  other: Analytics
+guides_analytics_overview:
+  other: Xsolla Data Portal Powered by Slemma
+guides_analytics_overview_desc:
+  other: This guide will help you navigate through our [demo](1), and understand how you can use these reports when you activate your own payment analytics in [Publisher Account](2). Below is information on how to read the [dashboards](3), description of each of their contents, definitions for the different [metrics](4) and [dimensions](5), and a list of [FAQ](6). If you have any further questions, ask us to clarify at [dataportal@xsolla.com](7).
+guides_analytics_dashboards:
+  other: Dashboards
+guides_analytics_dashboards_desc1:
+  other: A dashboard is a collection of charts and graphs that give you insights into a specific topic. Each one will allow you to increase awareness on a different part of your company and help you make data-driven decisions.
+guides_analytics_dashboards_main_concepts:
+  other: Main Concepts
+guides_analytics_dashboards_main_concepts_filters:
+  other: Filters
+guides_analytics_dashboards_main_concepts_filters_desc1:
+  other: Each dashboard has several filters, located at the top, to allow you to filter your data through the many [dimensions](1). To utilize these filters, select one and check the boxes of the dimensions through which you would like to limit the data. For instance, under a **User Country** filter you could select the *United States* so the data of the dashboard will only include that which came from users located in the *United States*.
+guides_analytics_dashboards_main_concepts_filters_desc2:
+  other: You can switch to ‘Exclude' by pressing the three dots to the right of the filter name when hovering. Be sure to take advantage of these filters to dig deeper into your games' data.
+guides_analytics_dashboards_main_concepts_single_values_growth_indicators:
+  other: Single Values Growth Indicators
+guides_analytics_dashboards_main_concepts_single_values_growth_indicators_desc1:
+  other: Growth indicators will compare the current status of the shown [metric](1) with that of the previous period of the same length. Green and upward-facing arrows indicate a rise from the previous period while red, downward-facing arrows indicate a drop.
+guides_analytics_dashboards_main_concepts_selected_period_single_values:
+  other: Selected Period Single Values
+guides_analytics_dashboards_main_concepts_selected_period_single_values_desc1:
+  other: Unlike some values which will only display the aggregation of the indicated period, these values will adjust based on the length of time set in the **Date** filter. Use this filter to change the aggregated time period of the dashboard and these values will adjust as well.
+guides_analytics_dashboards_main_concepts_daily_average_single_values:
+  other: Daily Average Single Values
+guides_analytics_dashboards_main_concepts_daily_average_single_values_desc1:
+  other: In contrast to regular single values, daily average single values will not increase as the period increases. For example, **ARPPU** will rise as the period rises because of the same users making repeated payments. Average Revenue Per Paying Daily Average User (ARPPDAU) will not because it is the average of all the daily averages of the period, not the total payments and total paying users.
+guides_analytics_dashboards_main_concepts_aggregation_by_weeks_and_months:
+  other: Aggregation by Weeks and Months
+guides_analytics_dashboards_main_concepts_aggregation_by_weeks_and_months_desc1:
+  other: If you select a certain period, such as four weeks, with the **Date** filter, the data will show up segmented by weeks and display four. The aggregation for these weeks will be for all activity in that week, not the average of all the daily averages that are displayed when the graph is showing daily.
+guides_analytics_dashboards_main_concepts_parallel_period:
+  other: Parallel Period
+guides_analytics_dashboards_main_concepts_parallel_period_desc1:
+  other: Parallel Period graphs will allow you to do trend analysis. If the x-axis is displaying days, then the 28D ago line will be the value recorded 28D ago. The same goes for 14D ago and 7D ago. The lighter the line, the farther back the period.
+guides_analytics_dashboards_main_concepts_moving_average:
+  other: Moving Average
+guides_analytics_dashboards_main_concepts_moving_average_desc1:
+  other: Moving averages are another way to conduct trend analysis. The time frame used in the calculations is displayed in the metric name. Understandably, longer timeframes will show a less volatility and show you the overall trend of the period. We use a simple moving average.
+guides_analytics_dashboards_main_concepts_download_any_chart_to_excel:
+  other: Download Any Chart to Excel
+guides_analytics_dashboards_main_concepts_download_any_chart_to_excel_desc1:
+  other: If you would like to download data directly from charts you may do so. Simply right click on the chart and you can download the data as CSV, XLS, and for use in presentations, PNG.
+guides_analytics_dashboards_reference:
+  other: Dashboards Reference
+guides_analytics_dashboards_reference_overview:
+  other: Overview
+guides_analytics_dashboards_reference_overview_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_overview_desc2:
+  other: The Overview dashboard contains KPI's for your game and is perfect for daily analysis and to be displayed on your office TV. It includes **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices**, and **Average Payment Amount**.
+guides_analytics_dashboards_reference_games:
+  other: Games
+guides_analytics_dashboards_reference_games_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_games_desc2:
+  other: The Games dashboard is built for you to analyze the different payment situations of your different games. The metrics are laid side by side with all of the regular filters so you can prioritize your efforts and understand the differences between your projects.
+guides_analytics_dashboards_reference_payment_systems:
+  other: Payment Systems
+guides_analytics_dashboards_reference_payment_systems_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_payment_systems_desc2:
+  other: Understanding how your users are paying can be just as valuable as knowing why. This dashboard will help you understand how different subgroups of your payers pay so you can optimize your site with the most popular payment systems displayed most conveniently.
+guides_analytics_dashboards_reference_credit_cards:
+  other: Credit Cards
+guides_analytics_dashboards_reference_credit_cards_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_credit_cards_desc2:
+  other: The Credit Cards dashboard is entirely devoted to the payment data from credit cards. Analyze conversion, reasons for rejections, and how many users asked Xsolla to save their payment data for a later purchase (hopefully indicating their intent to make another for your game)!
+guides_analytics_dashboards_reference_revenue:
+  other: Revenue
+guides_analytics_dashboards_reference_revenue_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_revenue_desc2:
+  other: The Revenue dashboards offers several different ways to perform trend analysis. Included in this dashboard are parallel period, moving average, and growth charts which can all help you understand where the data is going. It also contains a currencies sheet so you can make sure you are offering all of the currencies for the areas in which you operate.
+guides_analytics_dashboards_reference_paying_users:
+  other: Paying Users
+guides_analytics_dashboards_reference_paying_users_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_paying_users_desc2:
+  other: |-
+    The Paying Users dashboard is a way to understand the characteristics of your **Revenue**. If **Revenue** increases you can answer the question: Are new users converting to **Paying Users**, or are **Existing Paying Users** paying more?
+guides_analytics_dashboards_reference_arppu:
+  other: ARPPU
+guides_analytics_dashboards_reference_arppu_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_arppu_desc2:
+  other: Average Revenue Per Paying User is yet another way to look at the paying habits of your users. This dashboard also contains single values of Average Revenue Per Paying Daily Active User which does not increase over time from single users making more than one payment.
+guides_analytics_dashboards_reference_virtual_currency:
+  other: Virtual Currency
+guides_analytics_dashboards_reference_virtual_currency_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_virtual_currency_desc2:
+  other: The Virtual Currency dashboard will inform you on how many users have purchased your in game currency. Also you can upload your in-game data of spent game currency, create comparison dashboards, and check health of your in-game economy.
+guides_analytics_dashboards_reference_geography:
+  other: Geography
+guides_analytics_dashboards_reference_geography_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_geography_desc2:
+  other: |-
+    The Geography dashboard will help provide insights into the different paying habits of users depending on their location. Each sheet divides by a different grouping including: **Countries**, **Regions**, **Languages**, **Business Regions**, and **Timezones**.
+guides_analytics_dashboards_reference_devices:
+  other: Devices
+guides_analytics_dashboards_reference_devices_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_devices_desc2:
+  other: The Devices dashboard contains information on your users frontend experience. You can use this information to optimize your site for the most appropriate devices and makes sure that it works on the most common browsers.
+guides_analytics_dashboards_reference_cancellations:
+  other: Cancellations
+guides_analytics_dashboards_reference_cancellations_desc1:
+  other: |-
+    [Demo](1)
+guides_analytics_dashboards_reference_cancellations_desc2:
+  other: The Cancellations dashboard will allow you to keep tabs on fraud in your game. The overview sheet will show the number of cancellations by **Cancellation Date**, **Payment Date**, as a percent, and geographically. The reasons sheet gives you the ability to see the distribution of reasons for each cancellation.
+guides_analytics_dataset:
+  other: Xsolla Dataset
+guides_analytics_dataset_desc1:
+  other: All of these pre-defined dashboards are great, but what if you want to create your own? You can do this with the provided Xsolla Dataset! You can create an unlimited amount of dashboards with your [Slemma](1) account around your data; build any chart with any of the dimensions and measures.
+guides_analytics_dataset_dimensions:
+  other: Dimensions
+guides_analytics_dataset_dimensions_desc1:
+  other: Dimensions are how data is separated. These are not the values themselves, but a certain category of values. Every time you use a filter you are filtering by a dimension of the data. Examples of dimensions are **Countr**y, **Credit Card Type**, **Date**, etc.
+guides_analytics_dataset_measures:
+  other: Measures
+guides_analytics_dataset_measures_desc1:
+  other: Measures, in contrast to dimensions, are the values that are actually graphed on your charts. Examples of measures are **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.
+guides_analytics_dataset_measures_desc2:
+  other: |-
+    Measures can be aggregated in different ways. Here are descriptions of each type of aggregation you will see when viewing your dashboards:
+
+# Dataset Dimensions Table
+
+guides_analytics_table_header_group:
+  other: Group
+guides_analytics_table_header_name:
+  other: Name
+guides_analytics_table_header_desc:
+  other: Description
+guides_analytics_dimensions_group_datetime:
+  other: DateTime
+guides_analytics_dimensions_group_date:
+  other: |-
+    **Date**
+guides_analytics_dimensions_group_date_desc:
+  other: |-
+    Default date for all charts is in UTC timezone. This date is based on last payment status update(invoice, payment, cancellation). Example: when you want to add payments and cancellations count to one timeline payments will be aggregated by payment date and cancellations aggregated by cancellation date.
+guides_analytics_dimensions_group_invoice_date:
+  other: |-
+    **Invoice Date**
+guides_analytics_dimensions_group_invoice_date_desc:
+  other: Date of invoice in UTC timezone.
+guides_analytics_dimensions_group_payment_date:
+  other: |-
+    **Payment Date**
+guides_analytics_dimensions_group_payment_date_desc:
+  other: Date of payment confirmation in UTC timezone. This date is available only for completed payments and not available for unpaid invoices.
+guides_analytics_dimensions_group_cancellation_date:
+  other: |-
+    **Cancellation Date**
+guides_analytics_dimensions_group_cancellation_date_desc:
+  other: Date of payment cancellation in UTC timezone. This date available only for cancelled payments.
+guides_analytics_dimensions_group_projects:
+  other: Projects
+guides_analytics_dimensions_group_project:
+  other: |-
+    **Project**
+guides_analytics_dimensions_group_project_desc:
+  other: Project ID and Project Name.
+guides_analytics_dimensions_group_payment_system:
+  other: Payment System
+guides_analytics_dimensions_group_payment_system_group:
+  other: |-
+    **Payment System Group**
+guides_analytics_dimensions_group_payment_system_group_desc:
+  other: Payment System Group e.g. *Cash Payments*, *Bank Transfer*.
+guides_analytics_dimensions_group_payment_system_name:
+  other: |-
+    **Payment System**
+guides_analytics_dimensions_group_payment_system_name_desc:
+  other: Payment system ID and name, e.g. *24. Paypal*, *57. PaySafeCard*.
+guides_analytics_dimensions_group_geography:
+  other: Geography
+guides_analytics_dimensions_group_user_country:
+  other: |-
+    **User Country**
+guides_analytics_dimensions_group_user_country_desc:
+  other: User country detected by Xsolla system. This country is most accurate and complete. User IP, mobile operator country, credit card issiung bank country and other attributes are used for this lookup. This country is used internally in country selection for VAT calculation.
+guides_analytics_dimensions_group_language:
+  other: |-
+    **Language**
+guides_analytics_dimensions_group_language_desc:
+  other: Language 2-letter code, e.g. *EN*, *PT*, *RU*.
+guides_analytics_dimensions_group_ip_address_geography:
+  other: |-
+    **IP Address Geography**
+guides_analytics_dimensions_group_ip_address_geography_desc:
+  other: User location based on IP address lookup. This hierarchy contains accurate geo information from *Region* and *Country* to *Country Subdivision* and *City*.
+guides_analytics_dimensions_group_timezone:
+  other: |-
+    **Timezone**
+guides_analytics_dimensions_group_timezone_desc:
+  other: User timezone detected based on user IP address, e.g. *Europe/Berlin*, *America/Chicago*.
+guides_analytics_dimensions_group_business_region:
+  other: |-
+    **Business Region**
+guides_analytics_dimensions_group_business_region_desc:
+  other: Business Region of **User Country**, e.g. *European Union*, *Latin America*.
+guides_analytics_dimensions_group_payment_system_country:
+  other: |-
+    **Payment System Country**
+guides_analytics_dimensions_group_payment_system_country_desc:
+  other: Payment system country of origin.
+guides_analytics_dimensions_group_issuing_bank_country:
+  other: |-
+    **Issuing Bank Country**
+guides_analytics_dimensions_group_issuing_bank_country_desc:
+  other: Country of the bank that issued user's card.
+guides_analytics_dimensions_group_currencies:
+  other: Currencies
+guides_analytics_dimensions_group_payment_currency:
+  other: |-
+    **Payment Currency**
+guides_analytics_dimensions_group_payment_currency_desc:
+  other: Currency which is used in user payment in 3-letter code, e.g. *USD*, *EUR*.
+guides_analytics_dimensions_group_payout_currency:
+  other: |-
+    **Payout Currency**
+guides_analytics_dimensions_group_payout_currency_desc:
+  other: Currency which is used in transfer to partner bank account in 3-letter code, e.g. *USD*, *EUR*.
+guides_analytics_dimensions_group_purchase:
+  other: Purchase
+guides_analytics_dimensions_group_purchase_type:
+  other: |-
+    **Purchase Type**
+guides_analytics_dimensions_group_purchase_type_desc:
+  other: Xsolla module used for this payment, e.g *Virtual Items*, *Virtual Currency*.
+guides_analytics_dimensions_group_is_first_payment:
+  other: |-
+    **Is First Payment**
+guides_analytics_dimensions_group_is_first_payment_desc:
+  other: |-
+    *True* if first payment for current user, *false* otherwise.
+guides_analytics_dimensions_group_credit_cards:
+  other: Credit Cards
+guides_analytics_dimensions_group_is_credit_card:
+  other: |-
+    **Is Credit Card**
+guides_analytics_dimensions_group_is_credit_card_desc:
+  other: |-
+    *True* if payment made by credit card, *false* otherwise.
+guides_analytics_dimensions_group_issuing_bank:
+  other: |-
+    **Issuing Bank**
+guides_analytics_dimensions_group_issuing_bank_desc:
+  other: Bank issued user credit card.
+guides_analytics_dimensions_group_credit_card_brand:
+  other: |-
+    **Credit Card Brand**
+guides_analytics_dimensions_group_credit_card_brand_desc:
+  other: e.g *VISA*, *MasterCard*
+guides_analytics_dimensions_group_credit_card_type:
+  other: |-
+    **Credit Card Type**
+guides_analytics_dimensions_group_credit_card_type_desc:
+  other: e.g. *CREDIT*, *DEBIT*
+guides_analytics_dimensions_group_credit_card_category:
+  other: |-
+    **Credit Card Category**
+guides_analytics_dimensions_group_credit_card_category_desc:
+  other: e.g. *CLASSIC*, *GOLD*, *PLATINUM*
+guides_analytics_dimensions_group_is_payment_account_saved:
+  other: |-
+    **Is Payment Account Saved**
+guides_analytics_dimensions_group_is_payment_account_saved_desc:
+  other: |-
+    *True* if user requested Xsolla save his/her payment system account credentials, *false* othewise.
+guides_analytics_dimensions_group_is_payment_from_saved_account:
+  other: |-
+    **Is Payment From Saved Account**
+guides_analytics_dimensions_group_is_payment_from_saved_account_desc:
+  other: |-
+    *True* if payment was made from account credentials previously saved in Xsolla system, *false* otherwise.
+guides_analytics_dimensions_group_is_credit_card_rejected:
+  other: |-
+    **Is Credit Card Rejected**
+guides_analytics_dimensions_group_is_credit_card_rejected_desc:
+  other: |-
+    *True* if credit card is rejected from payment processing, *false* othewise. Reject reason can be reviewed in **Credit Card Reject Reason** dimension.
+guides_analytics_dimensions_group_credit_card_reject_reason:
+  other: |-
+    **Credit Card Reject Reason**
+guides_analytics_dimensions_group_credit_card_reject_reason_desc:
+  other: e.g. *Insufficient Funds*, *Did not pass validation 3D-secure*.
+guides_analytics_dimensions_group_recurring_payments:
+  other: Recurring Payments
+guides_analytics_dimensions_group_is_recurrent_plan_created:
+  other: |-
+    **Is Recurrent Plan Created**
+guides_analytics_dimensions_group_is_recurrent_plan_created_desc:
+  other: |-
+    *True* if recurring subscription is created from payment, *false* otherwise.
+guides_analytics_dimensions_group_is_recurrent_payment:
+  other: |-
+    **Is Recurrent Payment**
+guides_analytics_dimensions_group_is_recurrent_payment_desc:
+  other: |-
+    *True* if card was recharged because of recurring subscription, *false* otherwise.
+guides_analytics_dimensions_group_user_agent:
+  other: User Agent
+guides_analytics_dimensions_group_os:
+  other: |-
+    **OS**
+guides_analytics_dimensions_group_os_desc:
+  other: User device operating system, e.g. *Windows 8*, *MacOS*, *Android*.
+guides_analytics_dimensions_group_browser:
+  other: |-
+    **Browser**
+guides_analytics_dimensions_group_browser_desc:
+  other: User browser, e.g. *Firefox*, *Chrome Mobile*.
+guides_analytics_dimensions_group_device:
+  other: |-
+    **Device**
+guides_analytics_dimensions_group_device_desc:
+  other: Model of the user mobile device, e.g. *IPhone*, *Nokia Lumia*.
+guides_analytics_dimensions_group_screen_size:
+  other: |-
+    **Screen Size**
+guides_analytics_dimensions_group_screen_size_desc:
+  other: User device screen size resolution.
+guides_analytics_dimensions_group_ui:
+  other: |-
+    **UI**
+guides_analytics_dimensions_group_ui_desc:
+  other: Xsolla User Interface used for payment, e.g. *PayStation*, *Smartphone Version*.
+guides_analytics_dimensions_group_developers:
+  other: Developers
+guides_analytics_dimensions_group_payment_notification_delivery:
+  other: |-
+    **Payment Notification Delivery**
+guides_analytics_dimensions_group_payment_notification_delivery_desc:
+  other: Duration of payment processing time on Xsolla side, e.g. *1-3 seconds*, *1-10 minutes*.
+guides_analytics_dimensions_group_payment_system_delay:
+  other: |-
+    **Payment System Delay**
+guides_analytics_dimensions_group_payment_system_delay_desc:
+  other: Duration of payment processing time on payment system side, e.g. *1-3 seconds*, *1-10 minutes*.
+guides_analytics_dimensions_group_payment_flow:
+  other: |-
+    **Payment Flow**
+guides_analytics_dimensions_group_payment_flow_desc:
+  other: Total duration of payment processing, e.g. *1-3 seconds*, *1-10 minutes*.
+guides_analytics_dimensions_group_cancellations:
+  other: Cancellations
+guides_analytics_dimensions_group_is_cancelled:
+  other: |-
+    **Is Cancelled**
+guides_analytics_dimensions_group_is_cancelled_desc:
+  other: |-
+    *True* if payment is cancelled, *false* otherwise. Cancellation reason can be reviewed in **Cancellation Type** dimension.
+guides_analytics_dimensions_group_cancellation_type:
+  other: |-
+    **Cancellation Type**
+guides_analytics_dimensions_group_cancellation_type_desc:
+  other: Reason for transaction cancellation, e.g. *Refund*, *Chargeback*.
+
+# Dataset Measures Table
+
+guides_analytics_measures_group_measures:
+  other: Measures
+guides_analytics_measures_group_revenue:
+  other: |-
+    **Revenue**
+guides_analytics_measures_group_revenue_desc:
+  other: The amount of the successful user **Payment**. The sum before deduction of commissions. The amount is converted into the currency of the metric with exchange rate on the date of project notification.
+guides_analytics_measures_group_average_payment_amount:
+  other: |-
+    **Average Payment Amount**
+guides_analytics_measures_group_average_payment_amount_desc:
+  other: |-
+    **Revenue** divided by **Payments** count.
+guides_analytics_measures_group_gross_revenue:
+  other: |-
+    **Gross Revenue**
+guides_analytics_measures_group_gross_revenue_desc:
+  other: Amount of income **Revenue** excluding **Cancellations Revenue** for the same period.
+guides_analytics_measures_group_payments:
+  other: |-
+    **Payments**
+guides_analytics_measures_group_payments_desc:
+  other: Total count of completed payments. Payments may be cancelled in future periods.
+guides_analytics_measures_group_virtual_currency_amount:
+  other: |-
+    **Virtual Currency Amount**
+guides_analytics_measures_group_virtual_currency_amount_desc:
+  other: Amount of purchased virtual currency. Available in *Virtual Currency* integration module.
+guides_analytics_measures_group_arppu:
+  other: |-
+    **ARPPU**
+guides_analytics_measures_group_arppu_desc:
+  other: |-
+    Average Revenue Per Paying User: **Revenue** divided to unique **Paying Users**. When you use weekly or monthly aggregation, **ARPPU** grows significantly because one user can have multiple **Payments** in one time period.
+guides_analytics_measures_group_payments_per_paying_user:
+  other: |-
+    **Payments per Paying User**
+guides_analytics_measures_group_payments_per_paying_user_desc:
+  other: Total **Payments** count divided by unique **Paying users** count. Useful in weekly and monthly aggregation for payments frequency analysis.
+guides_analytics_measures_group_conversion:
+  other: Conversion
+guides_analytics_measures_group_invoices:
+  other: |-
+    **Invoices**
+guides_analytics_measures_group_invoices_desc:
+  other: Total count of created invoices.
+guides_analytics_measures_group_users:
+  other: |-
+    **Users**
+guides_analytics_measures_group_users_desc:
+  other: Total users count who created an **Invoice**. Users who did not complete payments are included.
+guides_analytics_measures_group_paying_users:
+  other: |-
+    **Paying Users**
+guides_analytics_measures_group_paying_users_desc:
+  other: Count of unique users that made a **Payment** at least once in the considered period.
+guides_analytics_measures_group_paying_users_percent:
+  other: |-
+    **Paying Users Percent**
+guides_analytics_measures_group_paying_users_percent_desc:
+  other: The percentage of the users who complete payment according to the total count of users who create invoice. **Paying Users Percent** is more accurate conversion metric (comparing with **Paid Invoices Percent**), since user can try a few payment options before they make an actual payment.
+guides_analytics_measures_group_paid_invoices_percent:
+  other: |-
+    **Paid Invoices Percent**
+guides_analytics_measures_group_paid_invoices_percent_desc:
+  other: The percentage of the complete **Payments** according to the total count of **Invoices**.
+guides_analytics_measures_group_churn_users:
+  other: |-
+    **Churn Users**
+guides_analytics_measures_group_churn_users_desc:
+  other: Count of the users that created invoices but did not pay for it.
+guides_analytics_measures_group_churn_users_percent:
+  other: |-
+    **Churn Users Percent**
+guides_analytics_measures_group_churn_users_percent_desc:
+  other: The percentage of the user created invoice but didn't pay for it.
+guides_analytics_measures_group_unpaid_invoices:
+  other: |-
+    **Unpaid Invoices**
+guides_analytics_measures_group_unpaid_invoices_desc:
+  other: Count of invoices which were not completed by the user and not confirmed by payment system.
+guides_analytics_measures_group_unpaid_invoices_percent:
+  other: |-
+    **Unpaid Invoices Percent**
+guides_analytics_measures_group_unpaid_invoices_percent_desc:
+  other: The percentage of the **Unpaid Invoices** according to the total count of invoices.
+guides_analytics_measures_group_new_paying_users:
+  other: |-
+    **New Paying Users**
+guides_analytics_measures_group_new_paying_users_desc:
+  other: Count of unique **Paying users**, who made their first payment in the current period.
+guides_analytics_measures_group_new_paying_users_percent:
+  other: |-
+    **New Paying Users Percent**
+guides_analytics_measures_group_new_paying_users_percent_desc:
+  other: The percentage of the **New Paying Users** according to the total count of **Paying Users**.
+guides_analytics_measures_group_existing_paying_users:
+  other: |-
+    **Existing Paying Users**
+guides_analytics_measures_group_existing_paying_users_desc:
+  other: Count of unique **Paying Users**, who complete non-first payment.
+guides_analytics_measures_group_cancellations:
+  other: Cancellations
+guides_analytics_measures_group_cancellations_name:
+  other: |-
+    **Cancellations**
+guides_analytics_measures_group_cancellations_name_desc:
+  other: Count of **Payments** which were refunded or canceled.
+guides_analytics_measures_group_cancellations_percent:
+  other: |-
+    **Cancellations Percent**
+guides_analytics_measures_group_cancellations_percent_desc:
+  other: The percentage of the **Cancellations** to the total count of **Payments**.
+guides_analytics_measures_group_cancellations_revenue:
+  other: |-
+    **Cancellations Revenue**
+guides_analytics_measures_group_cancellations_revenue_desc:
+  other: Amount of the canceled **Payments**.
+guides_analytics_measures_group_cancellations_revenue_percent:
+  other: |-
+    **Cancellations Revenue Percent**
+guides_analytics_measures_group_cancellations_revenue_percent_desc:
+  other: The percentage of the **Cancellations Revenue** to total **Revenue**.
+guides_analytics_measures_group_developers:
+  other: Developers
+guides_analytics_measures_group_payment_notification_delivery:
+  other: |-
+    **Payment Notification Delivery, Seconds**
+guides_analytics_measures_group_payment_notification_delivery_desc:
+  other: Duration of payment processing time on Xsolla side.
+guides_analytics_measures_group_payment_system_delay:
+  other: |-
+    **Payment System Delay, Seconds**
+guides_analytics_measures_group_payment_system_delay_desc:
+  other: Duration of payment processing time on payment system side.
+guides_analytics_measures_group_payment_flow:
+  other: |-
+    **Payment Flow, Seconds**
+guides_analytics_measures_group_payment_flow_desc:
+  other: Total duration of payment processing.
+
+# Measures Types Table
+
+guides_analytics_table_header_type:
+  other: Type
+guides_analytics_measures_type_count:
+  other: |-
+    **Count**
+guides_analytics_measures_type_count_desc:
+  other: How many of the tracked event occurred. Default for **Invoices**, **Paying Users**, etc.
+guides_analytics_measures_type_sum:
+  other: |-
+    **Sum**
+guides_analytics_measures_type_sum_desc:
+  other: What was the total sum of the numeric values associated with the event being tracked. Default for **Gross Revenue**, **Virtual Currency Amount**, etc.
+guides_analytics_measures_type_average:
+  other: |-
+    **Average**
+guides_analytics_measures_type_average_desc:
+  other: What was the average value of the measure. This will be used for measure such as percentages because it would not make sense to use **Sum**. Default for **Average Payment Amount**, **Churn Users Percent**, etc.
+guides_analytics_measures_type_maximum:
+  other: |-
+    **Maximum**
+guides_analytics_measures_type_maximum_desc:
+  other: What was the highest value that occurred for the measure.
+guides_analytics_measures_type_minimum:
+  other: |-
+    **Minimum**
+guides_analytics_measures_type_minimum_desc:
+  other: What was the lowest value that occurred for the measure.
+
+# Analytics FAQ
+
+guides_analytics_faq:
+  other: FAQ
+faq_q_1:
+  other: |-
+    **How much is it?**
+faq_a_1:
+  other: It's free for all Xsolla customers.
+faq_q_2:
+  other: |-
+    **How can I activate data portal for my account?**
+faq_a_2:
+  other: You need to have an active project with completed payments. You can activate the data portal in [Publisher Account](1).
+faq_q_3:
+  other: |-
+    **What currency is the data in?**
+faq_a_3:
+  other: |-
+    There are three currencies available: US dollar, Euro and Russian ruble. There is also an option to filter data in the payment currency.
+faq_q_4:
+  other: |-
+    **How can I upload my own data to Slemma?**
+faq_a_4:
+  other: |-
+    You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database. You can learn more at the [Slemma knowledge base](1).
+faq_q_5:
+  other: |-
+    **I'm concerned about my data privacy and security.**
+faq_a_5:
+  other: We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud. All data transferred in and out of the warehouse is through TLS encrypted connections. Raw payments data is not available in [Slemma](1). Only aggregated data without personal user information is available. We applied principles of least privilege, firewalls, encryption, and other technical and operating approaches to keep your data safe.
+faq_q_6:
+  other: |-
+    **This analytics lacks some data available in Publisher Account. How can I get it in Slemma?**
+faq_a_6:
+  other: Send us a feature request via email [dataportal@xsolla.com](1).
+faq_q_7:
+  other: |-
+    **Is it possible to download data from Slemma?**
+faq_a_7:
+  other: You can download charts and their data in different formats from [Slemma](1) by right clicking on the object and selecting the file type. You can also download entire dashboards as PDFs and PNGs. If you need raw data, you can use [Xsolla Reports API](2).
+faq_q_8:
+  other: |-
+    **Can I use this analytics for verifying or financial reports?**
+faq_a_8:
+  other: No, the data might be not 100% accurate since it's using average daily exchange rates.
+faq_q_9:
+  other: |-
+    **How often is the data updated?**
+faq_a_9:
+  other: The data gets updated daily at 2:00 AM UTC.
+faq_q_10:
+  other: |-
+    **How precise are the metrics?**
+faq_a_10:
+  other: We fetch all metrics on-the-fly from raw data stored in our data warehouse. This approach guarantees accuracy for metrics with any combination of grouping and filtering, especially for distinct-count and average metrics, for instance **Paying Users** and **Average Payment Amount**. However, we don't provide totally accurate finance data because we convert payment amounts to different currencies with daily average exchange rates and apply two digit rounding to resulting values. That being said, the end difference is rarely greater than $0.01.
+faq_q_11:
+  other: |-
+    **Slemma and analytics Publisher Account show different numbers. Why?**
+faq_a_11:
+  other: The data in [Slemma](1) is in the UTC timezone, while the data in [Publisher Account](2) is in the UTC+3 timezone. We are going to change this behavior in future and show all data in the UTC timezone.
+faq_q_12:
+  other: |-
+    **How can I invite other users for collaboration?**
+faq_a_12:
+  other: When you activate the analytics in [Publisher Account](1) you can choose members of your team to invite (all members by default). When logged in to [Slemma](2), you can invite new users in [Users and groups](3) settings.
+faq_q_13:
+  other: |-
+    **Can I create my own reports?**
+faq_a_13:
+  other: Yes you definitely can!
+faq_q_14:
+  other: |-
+    **What team features does Slemma provide?**
+faq_a_14:
+  other: Team sharing of dashboards, commenting, annotations, permission control, and dashboard automated deliveries.
+faq_q_15:
+  other: |-
+    **I have another question about Slemma...**
+faq_a_15:
+  other: Use the ‘Click here for help' widget on the left bottom side in [Slemma](1) to access their knowledge base or contact support with the same widget.
+faq_q_16:
+  other: |-
+    **How do I to link several Xsolla Publisher accounts together in Slemma?**
+faq_a_16:
+  other: Contact us at [dataportal@xsolla.com](1).
+faq_q_17:
+  other: |-
+    **I didn't find my question in this list...**
+faq_a_17:
+  other: Feel free to contact us with any questions at [dataportal@xsolla.com](1).
+
+# Interaction Diagram
+
+guides_interaction_diagram:
+  other: Interaction Diagram
+guides_network_interaction_diagram_desc:
+  other: |-
+    1. The user clicks on the advertising banner and is taken to the Xsolla Proxy page with the information about the game. Xsolla collects all utm parameters from url, including unique event ID (such as Click ID), and generate universal Tracking ID parameter for further communications.
+    2. With the Tracking ID, saved in users' cookie, the user goes on the Game Landing page.
+    3. The user starts the registration process in the game. You should save the users' Tracking ID in the game database.
+    4. You send the information about user registration into Xsolla via API.
+    5. You should send the users' Tracking ID in the parameters for getting token. When the payment is completed, we save this information in our database.
+    6. The information that was kept on the first step is sent back with unique user action.
+
+# Changes in Token Request
+
+guides_network_changes_in_token_request:
+  other: Changes in Token Request
+guides_network_changes_in_token_request_desc1:
+  other: You should additionally send the information about **Tracking ID** in the JSON for getting token. Tracking ID is the part of "user" object.
+guides_network_changes_in_token_request_desc2:
+  other: All parameters, which are already included in your JSON for token, should remain the same.
+
+# New API Request
+
+guides_network_new_api_request:
+  other: New API Request
+guides_network_new_api_request_desc:
+  other: When the user with a **Tracking ID** completes the registration process, you should send us the request via API.
+
+# Interaction Scenarios
+
+guides_interaction_scenarios:
+  other: Interaction Scenarios
+
+# Sending the Friend List in the Token Request
+
+guides_gifting_send_friends_in_token:
+  other: Sending the Friend List in a Token
+guides_gifting_send_friends_in_token_request:
+  other: Sending the Friend List in the Token Request
+guides_gifting_send_friends_in_token_request_desc:
+  other: If necessary, you can add an array with the user’s friend list to the [request for token](1). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.
+
+# Sending the Friend List via the API
+
+guides_gifting_send_friends_via_api:
+  other: Sending Friends via the API
+guides_gifting_send_friend_list_via_api:
+  other: Sending the Friend List via the API
+guides_gifting_send_friend_list_via_api_desc:
+  other: In this case, Xsolla sends a [request for the friend list](1) to the project’s webhook URL, which is configured in project settings.
+
+# Integration Guide
+
+guides_gifting_integration_options:
+  other: |-
+    The following integration options are available depending on the modules enabled for your project:
+
+# Pay2Play Module
+
+guides_pay2play_module:
+  other: Pay2Play Module
+guides_gifting_pay2play_module_steps:
+  other: |-
+    1. [Set up](1) the Pay2Play module.
+    2. Contact your account manager to enable the feature.
+
+# Virtual Items, Virtual Currency, or Payment Wall Modules
+
+guides_items_currency_wall_modules:
+  other: Virtual Items, Virtual Currency, or Payment Wall Modules
+guides_items_currency_wall_modules_steps:
+  other: |-
+    To enable the feature:
+
+      1. Set up the [Virtual Items](1), [Virtual Currency](2), or [Payment Wall](3) module(s), respectively.
+      2. Implement the [API method](4) to send the friend list to Xsolla, or add an object with friend data to the [token](5) request.
+      3. Implement the [handling of the webhook](6) confirming a successful payment and containing the gift data.
+      4. Contact your account manager to enable the feature.
+
+# Setting Up the Module
+
+guides_gifting_setup_module_desc:
+  other: To enable the feature, you must have the Virtual Items, Virtual Currency, or Payment Wall module(s) set up and turned on.
+
+# Setting Up Webhooks
+
+guides_gifting_create_signature_steps:
+  other: |-
+    To create a signature:
+
+      1. Order the parameters received from the Xsolla server in alphabetic order.
+      2. Concatenate the parameter values and the project’s secret key, as generated in project settings.
+      3. Hash the resulting string using the SHA1 algorithm.
+      4. Send the result in the 'sign' parameter.
+guides_gifting_create_signature_desc:
+  other: When processing the API request, make sure that the received signature matches the one sent in the **sign** parameter.
+
+# Getting the List of Friends
+
+guides_get_friends_list:
+  other: Getting the List of Friends
+
+# Setting up Webhooks
+
+guides_gifting_handling_webhook:
+  other: Make sure to update the handling of the [Payment webhook](1), which will now pass the new **gift.purchase** object in its JSON.
+
+# Pay Station Domain
+
+guides_paystation_domain:
+  other: |-
+    Launch Pay Station on Your Game Domain
+guides_paystation_domain_launch_steps_part1:
+  other: |-
+    1. Register a new domain name of **secure.yourdomain.com**, where **yourdomain.com** is your domain name. Then specify either the current IP address of **secure.xsolla.com** as an A record or an alias to **secure.xsolla.com** as a CNAME record.
+    2. Issue a new valid SSL certificate for your domain name (**secure.yourdomain.com**).
+    3. Generate a new key and Certificate Signing Request (CSR) by running openssl in the command line:
+      * **Generate a new key:** *openssl genrsa -out server.key 2048*
+      * **Generate a new CSR:** *openssl req -new -key server.key -out server.csr*
+
+        Answer the questions the system asks in the process.
+
+        **Important!** Make sure to specify your domain name (**secure.yourdomain.com**) in the **Common Name** field.
+
+    4. Go to any website that issues certificates (e.g. [GoDaddy](1)</a>) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.
+
+        After the registrar verifies the domain owner, you will receive a signed certificate.
+    5. Send your key and certificate to Xsolla at [sysadmins@xsolla.com](2) with the following email subject: **[Your game]: SSL Certificate**.
+    6. While setting up the integration via **Pay Station Embed**, make sure to specify the link to your payment UI in the "host" parameter.

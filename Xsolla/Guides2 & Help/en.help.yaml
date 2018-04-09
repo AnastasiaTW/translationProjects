@@ -1,0 +1,730 @@
+# FAQ
+
+faq:
+  other: FAQ
+faq_question:
+  other: |-
+    **Q.**
+faq_answer:
+  other: |-
+    **A.**
+faq_overview:
+  other: |-
+    If you didn't find the answer here, we will be happy to help you over one of the following channels:
+
+      * LiveChat
+      * Email ([integration@xsolla.com](1))
+      * Account manager
+      * Integration specialist via Basecamp
+
+# FAQ Integration
+
+faq_integration:
+  other: Integration
+faq_integration_q_open_paystation_iframe:
+  other: |-
+    **How can I open Pay Station in an iframe?**
+faq_integration_a_open_paystation_iframe_desc1:
+  other: |-
+    We recommend opening Pay Station in a lightbox using the [Pay Station Embed](1) script, which:
+
+    * Automatically determines Pay Station size and device type (desktop vs mobile)
+    * Automatically receives events from the Payment UI
+    * Allows you to change the UI theme
+faq_integration_a_open_paystation_iframe_desc2:
+  other: |-
+    If you still want to open the Payment UI inside an iframe, you must:
+
+    * Specify the device type (desktop vs mobile) and send it within the token’s **settings.ui.version** parameter
+    * Implement the postMessage mechanism receiving events from the Payment UI
+    * [Get a token](1)
+    * Send the Pay Station window size in the token:
+faq_integration_a_open_paystation_iframe_desc3:
+  other: |-
+    To open the Pay Station UI in an iframe, use the following link: *https://secure.xsolla.com/paystation2/?access_token=ACCESS_TOKEN*, where *ACCESS_TOKEN* is the Payment UI token.
+faq_integration_a_open_paystation_iframe_table_header1:
+  other: Pay Station Size
+faq_integration_a_open_paystation_iframe_table_header2:
+  other: Iframe Width
+faq_integration_a_open_paystation_iframe_table_row1_column1:
+  other: large (default)
+faq_integration_a_open_paystation_iframe_table_row1_column2:
+  other: 670–850px
+faq_integration_a_open_paystation_iframe_table_row2_column1:
+  other: medium
+faq_integration_a_open_paystation_iframe_table_row2_column2:
+  other: 590–740px
+faq_integration_a_open_paystation_iframe_table_row3_column1:
+  other: small
+faq_integration_a_open_paystation_iframe_table_row3_column2:
+  other: 510–630px
+faq_integration_q_supported_browsers:
+  other: |-
+    **What browsers do the Pay Station UI and the Publisher Account support?**
+faq_integration_a_supported_browsers:
+  other: |-
+    Correct operation of the Pay Station UI and the Publisher Account is guaranteed in the following browsers:
+
+    * Google Chrome 49 and above
+    * Mozilla Firefox 45 and above
+    * Opera 36 and above
+    * Internet Explorer 11
+    * Microsoft Edge 12 and above
+    * Safari 9 and above
+    * Android Browser 49 and above
+faq_integration_q_ip_whitelist:
+  other: |-
+    **What are the Xsolla network IP addresses that I need to whitelist?**
+faq_integration_a_ip_whitelist:
+  other: |-
+    You must be able to accept and process webhooks from the following IP addresses: 185.30.20.0/24, 185.30.21.0/24.
+faq_integration_q_new_xsolla_products:
+  other: |-
+    **How can I integrate Xsolla Network / Storefront / Login or some other new or auxiliary Xsolla products?**
+faq_integration_a_new_xsolla_products:
+  other: To integrate Xsolla products, please contact us at [integration@xsolla.com](1) and we will assist you.
+faq_integration_q_purchase_description_value:
+  other: |-
+    **How can I set purchase.description.value with PHP SDK?**
+faq_integration_a_purchase_description_value:
+  other: The purchase description is used in the Pay Station UI and email receipts. You can set the value in the token.
+faq_integration_q_php_library_isnot_work:
+  other: |-
+    **Why isn't the PHP library working on my site?**
+faq_integration_a_php_library_isnot_work:
+  other: Please check that you have installed all of the required files and that the relative paths are valid. You can find more information on the setup on [GitHub](1).
+faq_integration_q_paysafecard:
+  other: |-
+    **How can I add Paysafecard to my payment methods?**
+faq_integration_a_paysafecard:
+  other: To add a new payment method, please contact us at [integration@xsolla.com](1).
+faq_integration_q_other_sdk:
+  other: |-
+    **Do you have SDK for Node.JS/C#.NET/Ruby/Java/ASP, etc.?**
+faq_integration_a_other_sdk:
+  other: Currently, we have SDK for PHP and Android. You can build your own SDK using any language/platform, as long as it has [HTTPS request](1) functionality.
+
+# FAQ Launcher Integration
+
+faq_integration_launcher:
+  other: Xsolla Launcher
+faq_integration_launcher_q_launcher_and_game:
+  other: |-
+    **How does the game integrate with Launcher?**
+faq_integration_launcher_a_launcher_and_game:
+  other: Launcher integration is quite simple. Upload your game and assets with our utility, we wrap everything into Launcher and send it back to you for further distribution. You will be able to do it yourself as no coding is required. Launcher executes the game using built-in programming, while design changes can be made in Launcher configuration files. Soon, you will have the option to integrate via web interface inside the Xsolla Publisher Account.
+faq_integration_launcher_q_ipc_solution:
+  other: |-
+    **Is there some kind of IPC solution in the SDK?**
+faq_integration_launcher_a_ipc_solution:
+  other: There is no IPC for now, as Launcher doesn’t have features that require IPC communication. We will be adding more features in the future, such as live streaming, and a game store in the overlay that will require IPC (via SDK), so we do have plans to add it.
+faq_integration_launcher_q_launcher_running:
+  other: |-
+    **Does the game require Launcher to be running in order to work?**
+faq_integration_launcher_a_launcher_running:
+  other: By default, Launcher is always running. When it launches your game, it hides in the system tray so it’s not using up resources. A gamer can shut down Launcher process and the game will still be running as there is no connection during the actual gameplay session.
+faq_integration_launcher_q_steam_release:
+  other: |-
+    **When released on Steam, will everything be downloaded from Launcher? Or will the upload to Steam be the full game + Launcher, and then additional updates fetched from Launcher?**
+faq_integration_launcher_a_steam_release:
+  other: Launcher can do any of the above. You can wrap the latest version of your game into Launcher and then distribute it on Steam, so there are no additional downloads needed (**Game delivery costs** will be on Steam). If you want to quickly deliver an update, you can use Launcher as a fast delivery solution without the need to wrap the game into Launcher, and upload it into Steam again. So it’s up to you.
+faq_integration_launcher_q_separate_builds:
+  other: |-
+    **Does a developer need to maintain two separate builds for Steam and for a standalone? Or is it the same build that gets uploaded to Steam?**
+faq_integration_launcher_a_separate_builds:
+  other: No, you won’t need two separate builds. Moreover, if you have both stand-alone and Steam  methods of delivery, then Launcher will serve you well by collecting your users from both platforms into one database. There is a feature that we call "seamless registration", which allows new users who run the game for the first time in Steam to seamlessly pass the registration process as we don’t ask them anything, but at the same time they can go to your official website outside of Steam ecosystem, log in there using **Steam OpenID**, and become a part of an official/centralized community (e.g. communicate on the forums, discover new games, read news, etc).
+
+# FAQ User Validation
+
+faq_validation:
+  other: User Validation
+faq_validation_q_user_id:
+  other: |-
+    **What's the user ID? How should we do the user validation?**
+faq_validation_a_user_id:
+  other: The **user ID** is a way of identifying a user in your game. You can use a database to store your user IDs. If an invalid **user ID** is being used, you should throw an exception. You can find an example of how to handle user validation on [GitHub](1).
+faq_validation_q_successful_validation:
+  other: |-
+    **After validation is completed, what data should be returned? For example, what should be returned if user validation succeeds or fails?**
+faq_validation_a_successful_validation:
+  other: If user validation succeeds, you should send a 200 response. If it fails, send a 400 response with the error code INVALID_USER.
+
+# FAQ Project Settings
+
+faq_project_settings:
+  other: Project Settings
+faq_project_settings_q_launch_modules:
+  other: |-
+    **How do I launch the modules I activated in the Publisher Account?**
+faq_project_settings_a_launch_modules:
+  other: You will have to configure and test the modules before launching them. For details, refer to the [Integration Guides](1). If you are experiencing problems receiving webhooks, check whether the [webhook server](2) is installed correctly. If the issue persists, contact us at [integration@xsolla.com](3).
+faq_project_settings_q_environments:
+  other: |-
+    **Do we need to create new project IDs for every environment — QA, staging, production?**
+faq_project_settings_a_environments:
+  other: We recommend using separate projects so that the production environment project isn’t affected.
+faq_project_settings_q_key_difference:
+  other: |-
+    **What's the difference between the secret key, project key, and API key?**
+faq_project_settings_a_key_difference:
+  other: The **secret key** and **project key** are the same. The secret key is used for digital signature required for secure payments. We concatenate the request's JSON body with your project's secret key and apply SHA-1 hashing to the resulting string. The **API key** is the same for all projects in your account. **API key** is used for API calls that sent to the Xsolla server. The **API key** must be held on your own server, never inside your game binaries or frontends.
+faq_project_settings_q_url_difference:
+  other: |-
+    **What's the difference between Webhook URL and Return URL?**
+faq_project_settings_a_url_difference:
+  other: The **Webhook URL** is the url of your webhook server. The **Return URL** is where the user is redirected after completing a payment.
+faq_project_settings_q_find_id:
+  other: |-
+    **Where can I find my Project ID / Merchant ID / Publisher ID?**
+faq_project_settings_a_find_id:
+  other: |-
+    Your **project ID** is the number beside the name of your project in the [Publisher Account](1). It is also the number found in the following URL: *https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/*. The **Merchant ID** and **Publisher ID** are actually the same. It is the number in the following URL: *https://publisher.xsolla.com/{merchant_id}/*.
+faq_project_settings_q_payment_wall_module:
+  other: |-
+    **Why can't I find Payment Wall module that is mentioned in documentation?**
+faq_project_settings_a_payment_wall_module:
+  other: The **Payment Wall** module is also known as **Simple Checkout**.
+faq_project_settings_q_api_key:
+  other: |-
+    **Where can I find the API Key?**
+faq_project_settings_a_api_key:
+  other: To generate your API key, go to **Settings** section > **Company** tab in the [Publisher Account](1).
+faq_project_settings_q_invite_members:
+  other: |-
+    **How can I invite members of my company to have access to my Publisher Account?**
+faq_project_settings_a_invite_members:
+  other: You can invite additional members under **Settings > Users** in your Publisher Account.
+faq_project_settings_q_mobile_game_publisher:
+  other: |-
+    **I am a mobile game publisher, what should I fill in for the Website field on the project settings page?**
+faq_project_settings_a_mobile_game_publisher:
+  other: You can fill in the URL of the game’s website or the URL of your company’s website.
+
+# FAQ Buycraft Project Settings
+
+faq_project_settings_buycraft:
+  other: Buycraft Project Settings
+faq_project_settings_buycraft_q_parameters:
+  other: |-
+    **Where can I find my Project ID / Merchant ID / API Key / Secret Key parameters for Buycraft projects?**
+faq_project_settings_buycraft_a_parameters:
+  other: Use the [guide](1) to find these parameters and set up your project.
+faq_project_settings_buycraft_q_game_title:
+  other: |-
+    **What should I enter for the Game Title in the Agreement Info section in Buycraft settings?**
+faq_project_settings_buycraft_a_game_title:
+  other: Enter the name of your server.
+
+# FAQ Webhook Settings
+
+faq_webhook_settings:
+  other: Webhook Settings
+faq_webhook_settings_q_http_for_protocol:
+  other: |-
+    **Do I use https for Webhook Protocol?**
+faq_webhook_settings_a_http_for_protocol:
+  other: Yes, because the Xsolla API uses HTTP Basic Authentication.
+faq_webhook_settings_q_notifications:
+  other: |-
+    **Why the webhook URL did not receive your notification?**
+faq_webhook_settings_a_notifications:
+  other: Please make sure that you have included all of the required files and that your webhook server is set up to handle required types of webhook requests.
+faq_webhook_settings_q_mobile_webhooks:
+  other: |-
+    **Why aren't webhooks sending to my mobile app?**
+faq_webhook_settings_a_mobile_webhooks:
+  other: Webhooks are only sent to a single URL endpoint, defined in your project’s settings. As such, they are server-to-server and cannot be sent to a wide variety of URLs. If you would like to enable notifications to your game, website, or mobile app, we recommend building a messaging solution in your server, which can pass data between Xsolla and your game.
+
+# FAQ Customization
+
+faq_customization:
+  other: Customization
+faq_customization_q_paystation_theme:
+  other: |-
+    **Can we customize the Pay Station theme?**
+faq_customization_a_paystation_theme:
+  other: You can opt for a darker theme by sending *settings.ui.theme = dark* in the token. The dark theme also allows you to set the background to an image or color of your choice (see [example](1)). To change other settings, please contact your account manager.
+faq_customization_q_messages:
+  other: |-
+    **Can we change the appearance of messages sent to users?**
+faq_customization_a_messages:
+  other: Please contact your account manager for custom email themes. The layout of email elements cannot be changed, as they are part of a standard template. This is required according to the licensing agreement with Xsolla, which acts as a legal Merchant of Record.
+
+# FAQ Testing
+
+faq_testing:
+  other: Testing
+faq_testing_q_test_cards:
+  other: |-
+    **Do you have a dummy credit/debit card I can use to test payments?**
+faq_testing_a_test_cards:
+  other: Yes, you can use one of our [test cards](1) in the Sandbox mode.
+faq_testing_q_paypal:
+  other: |-
+    **Can we test the PayPal flow in the Sandbox mode?**
+faq_testing_a_paypal:
+  other: Unfortunately, PayPal payments cannot be tested in the Sandbox mode at the moment.
+faq_testing_q_refund:
+  other: |-
+    **How do I emulate a refund?**
+faq_testing_a_refund:
+  other: You can use [Refund](1) webhook or the [Transaction search](2) section in the Publisher Account.
+faq_testing_q_invoice_id:
+  other: |-
+    **What is the Xsolla Invoice ID and Invoice ID in the Testing tab of my project?**
+faq_testing_a_invoice_id:
+  other: |-
+    The **Xsolla ID** is your transaction ID in Xsolla. The **Invoice ID** is the optional transaction ID in your game. For testing, you can use any numeric value.
+faq_testing_q_buycraft:
+  other: |-
+    **Why can’t I pass the testing for Buycraft project?**
+faq_testing_a_buycraft:
+  other: |-
+    Buycraft partners will get INVALID_SIGNATURE if their **API key**, **Merchant ID**, **Project ID** or **secret key** weren’t correctly entered into their Buycraft account.
+
+
+# FAQ Payments
+
+faq_payments:
+  other: Payments
+faq_payments_q_validate_request:
+  other: |-
+    **How do I validate a payment request received in a webhook?**
+faq_payments_a_validate_request:
+  other: Check the **User ID** to make sure it exists in your project and return code 200 to validate the payment.
+faq_payments_q_check_last_account:
+  other: |-
+    **How do I check the last payment account used?**
+faq_payments_a_check_last_account:
+  other: Such a check is not possible at the moment.
+faq_payments_q_redirect_payment_method:
+  other: |-
+    **Can we redirect the user to certain payment method right away?**
+faq_payments_a_redirect_payment_method:
+  other: Yes, by sending the **settings.payment_method** parameter when opening the store UI. The user will be immediately redirected to a payment form of the chosen payment method. You can find the list of payment method IDs in the Publisher Account’s [Payment systems](1) section or using the [Get Payment Methods](2) method.
+faq_payments_q_redirect_payment_page:
+  other: |-
+    **Can we automatically redirect the user to a successful/failed payment page right after processing the payment depending on the outcome?**
+faq_payments_a_redirect_payment_page:
+  other: |-
+    Yes:
+
+    1. Enter the URL to redirect the user to in project settings.
+    2. Go to **Additional options**.
+    3. Specify the redirect conditions.
+faq_payments_q_external_id:
+  other: |-
+    **Our billing system automatically sets the order_id for each order. Can we use order_id instead of user_id when receiving the token?**
+faq_payments_a_external_id:
+  other: |-
+    You can send the order_id value in the external_id parameter. To enable the parameter:
+
+      1. In **Settings**, go to **Advanced settings**.
+      2. Set **External ID** to **On**.
+faq_payments_q_override_webhook:
+  other: |-
+    **Can we override the webhook URL for every transaction?**
+faq_payments_a_override_webhook:
+  other: No, the webhook URL is only set in the [Publisher Account](1) for all transactions.
+faq_payments_q_failed_transactions:
+  other: |-
+    **Will you send us the details of failed transactions?**
+faq_payments_a_failed_transactions:
+  other: No, we only send webhooks in case of successful transactions. If you received the webhook, it means the transaction was successful.
+faq_payments_q_vat:
+  other: |-
+    **How do I add the VAT to the payment total?**
+faq_payments_a_vat:
+  other: VAT settings are configured at Xsolla side. If you want to charge users with the VAT instead of paying it yourself, which is the default configuration, please contact your account manager, and we will change the settings.
+faq_payments_q_pid:
+  other: |-
+    **What does PID mean?**
+faq_payments_a_pid:
+  other: PID is the payment system identifier at Xsolla side.
+faq_payments_q_update_balance:
+  other: |-
+    **How can we update a user’s virtual currency balance?**
+faq_payments_a_update_balance:
+  other: You can use the [Update Balance](1) API method.
+faq_payments_q_new_transaction_external_id:
+  other: |-
+    **Is the External ID is our custom ID for our game / platform? Should we make a new External ID for every transaction?**
+faq_payments_a_new_transaction_external_id:
+  other: The **External ID** is the invoice ID that you have in your systems. There can only be one payment with a given **external_id** at any time, so you should send a new one each time a user makes a payment.
+faq_payments_q_external_payment_id_method:
+  other: |-
+    **What value should I set for the setExternalPaymentId method?**
+faq_payments_a_external_payment_id_method:
+  other: Set the **external_id** value, if have the one.
+faq_payments_q_purchase_description:
+  other: |-
+    **How can I set purchase.description.value up with your PHP SDK?**
+faq_payments_a_purchase_description:
+  other: The purchase description is used in the Pay Station UI and email receipts. You can set the value in the [token](1).
+faq_payments_q_gateways:
+  other: |-
+    **What are gateways?**
+faq_payments_a_gateways:
+  other: The **Gateways** section in your [Publisher Account](1) is for our partners who have an existing account with a payment system and would like to receive payments to that account. You would be bypassing Xsolla.
+faq_payments_q_buycraft_payout_methods:
+  other: |-
+    **What payout methods do you offer for Buycraft projects?**
+faq_payments_a_buycraft_payout_methods:
+  other: We offer Paypal and bank transfer for Buycraft projects.
+
+# FAQ Coupons
+
+faq_coupons:
+  other: Coupons
+faq_coupons_q_campaign_isnot_work:
+  other: |-
+    **Why isn't my coupon campaign working for my promotion?**
+faq_coupons_a_campaign_isnot_work:
+  other: It’s likely because it’s a standalone coupon, which does not require a purchase. In the **Coupon Campaign** settings, you must leave the **Coupon Contents** section blank in order for it to work with a Promotion.
+faq_coupons_q_difference:
+  other: |-
+    **What's the difference between standalone coupons, and coupons used for promotions?**
+faq_coupons_a_difference:
+  other: A standalone coupon can be used to grant free items upon redeeming the coupon code. If you make a promotion valid for purchases with a coupon code, you can get purchase discounts and bonuses.
+
+# FAQ Subscriptions
+
+faq_subscriptions:
+  other: Subscriptions
+faq_subscriptions_q_product_id:
+  other: |-
+    **What is the product_id in Subscriptions?**
+faq_subscriptions_a_product_id:
+  other: This parameter can be used when a user has multiple paid subscriptions to different things. The product_id would distinguish a user’s multiple subscriptions.
+
+# FAQ Error Messages
+
+faq_error_messages:
+  other: Error Messages
+faq_error_messages_q_paystation:
+  other: |-
+    **When I open the Pay Station UI, I’m getting Error code: 0004-0008. What does it mean?**
+faq_error_messages_a_paystation:
+  other: You’re using an incorrect URL for the Sandbox mode. If you want to make a real payment, use *secure.xsolla.com*. If you want to make a test payment, use *sandbox-secure.xsolla.com*. You can learn more about possible errors is available in the [API Reference](1).
+faq_error_messages_q_php_sdk:
+  other: |-
+    **Xsolla PHP SDK returns the INVALID_CLIENT_IP error. What should I do?**
+faq_error_messages_a_php_sdk:
+  other: You must add your [reverse proxy IP address](1) to the webhook server.
+faq_error_messages_q_user_id_error:
+  other: |-
+    **What does the 2205 or 2207 error mean (user ID error)?**
+faq_error_messages_a_user_id_error:
+  other: These errors mean that a valid user ID is required. Please check that you are using a **user ID** from your database.
+faq_error_messages_g_activate_module:
+  other: |-
+    **What does the 1000-0003 error mean?**
+faq_error_messages_a_activate_module:
+  other: You need to activate the module for your project. Or for **Simple Checkout**, you may be missing the purchase parameter.
+faq_error_messages_q_sign_agreement:
+  other: |-
+    **What does the 0002-0004 error mean?**
+faq_error_messages_a_sign_agreement:
+  other: This error means that you need to sign the agreement with us in order to receive your payouts. Please contact your account manager or [onboarding@xsolla.com](1) for assistance.
+faq_error_messages_q_auth_header:
+  other: |-
+    **Why the Authorization header was not found in webhook request?**
+faq_error_messages_a_auth_header:
+  other: You need to edit your *.htaccess* or *httpd.conf* Apache file. Follow our [developer's guide](1) for more information.
+faq_error_messages_q_ssl_issue:
+  other: |-
+    **I suppose that I can't get the token string because of an SSL issue. Is your interface mandatory to verify SSL?**
+faq_error_messages_a_ssl_issue:
+  other: By default we enable SSL certificate verification and use the default CA bundle provided by operating system. You can find more information on how to troubleshoot SSL issues on our [developer’s page](1).
+
+# SDK
+
+sdk:
+  other: SDK
+xsolla_sdk:
+  other: Xsolla SDK
+
+# PHP SDK
+
+php_sdk:
+  other: PHP SDK
+php_sdk_overview:
+  other: Xsolla PHP SDK is an open source library for interacting with [Xsolla Publisher API](1). [Here](2) you can find the link to this project on GitHub.
+
+# PHP SDK Features
+
+php_sdk_features:
+  other: Features
+php_sdk_features_desc:
+  other: |-
+    1. Full customization of Payment UI with the help of different methods of getting token.
+    2. Client for all API methods, making your integration easy and convenient. You can use it for setting up and updating virtual currency, items and subscription plans, for managing the users balance, for checking the finance information with the help of Report API and so on.
+    3. Convenient webhook server:
+      1. To start you need only one callback function.
+      2. All security checking already implemented: signature authentication and IP whitelisting.
+      3. Full customization of notification processing logic, if standard server class doesn't suit you.
+    4. SDK is built on Guzzle v3, and utilizes many of its features, including persistent connections, parallel requests, events and plugins (via Symfony2 EventDispatcher), service descriptions, over-the-wire logging, caching, flexible batching, and request retrying with truncated exponential back off.
+
+# PHP SDK Getting Started
+
+php_sdk_getting_started:
+  other: Getting Started
+php_sdk_features_desc1:
+  other: |-
+    Please register your [Publisher Account](1) and create the project. In order to use the PHP SDK Library you'll need:
+
+    * MERCHANT_ID
+    * API_KEY
+    * PROJECT_ID
+    * PROJECT_KEY
+php_sdk_features_desc2:
+  other: You can obtain these parameters using the information in your [Company Profile](1) and [Project Settings](2).
+
+# PHP SDK System Requirements
+
+php_sdk_system_requirements:
+  other: System Requirements
+php_sdk_system_requirements_desc:
+  other: |-
+    * PHP 5.3.9+
+    * The following PHP extensions are required:
+      * curl
+      * json
+
+# PHP SDK installing
+
+php_sdk_installing:
+  other: Installing
+php_sdk_installing_desc1:
+  other: The recommended way to install Xsolla SDK for PHP is through Composer.
+php_sdk_installing_desc2:
+  other: Please visit our [GitHub project site](1) for another ways of installing.
+
+# PHP SDK Usage
+
+php_sdk_usage:
+  other: Usage
+php_sdk_get_token:
+  other: Get Token
+php_sdk_get_token_desc1:
+  other: To integrate Payment UI into your game you should obtain an access token. An access token is a string that identifies game, user and purchase parameters.
+php_sdk_get_token_desc2:
+  other: |-
+    There are number of ways for getting token. The easiest one is to use the *createCommonPaymentUIToken* method, you will need to pass only ID of project in Xsolla system and ID of the user in your game:
+php_sdk_get_token_desc3:
+  other: |-
+    You can pass more parameters in JSON for token:
+php_sdk_get_token_desc4:
+  other: |-
+    If you want to use some custom parameters for opening Payment UI (for example, "settings.ui.theme"), you can use this example:
+php_sdk_open_payment_ui:
+  other: Integrate Payment UI (Pay Station)
+php_sdk_open_payment_ui_desc1:
+  other: |-
+    You can use the following code to add the payment UI on your page:
+php_sdk_open_payment_ui_desc2:
+  other: For more information and examples about Payment UI integration please follow the [link](1).
+php_sdk_webhooks_handling:
+  other: Receive Webhooks
+php_sdk_webhooks_handling_desc1:
+  other: There is a build in server class to help you to handle the webhooks.
+php_sdk_webhooks_handling_desc2:
+  other: |-
+    If standard server class does not suit you, you can create your own:
+php_sdk_webhooks_handling_desc3:
+  other: Once you've finished the handling of notifications on your server, please set up the URL that will receive all webhook notifications on the Settings page for your project.
+php_sdk_webhooks_handling_desc4:
+  other: After passing the tests in Testing tab, you're ready to go live. Please don't forget to remove the sandbox parameters from the code, if you have used them.
+
+# PHP SDK Troubleshooting
+
+php_sdk_troubleshooting:
+  other: Troubleshooting
+php_sdk_troubleshooting_desc1:
+  other: Here you can find some tips for handling and preventing the most frequently encountered errors returned by the Xsolla PHP SDK.
+php_sdk_troubleshooting_error_setting_certificate:
+  other: |-
+    [curl] 77: error setting certificate verify locations: CAfile
+php_sdk_troubleshooting_error_setting_certificate_desc1:
+  other: You may see this kind of error when you send the request to our server using Xsolla PHP SDK, for example when getting token. By default we enable SSL certificate verification and use the default CA bundle provided by operating system. However not all system's have a known CA bundle on disk. For example, Windows and OS X do not have a single common location for CA bundles.
+php_sdk_troubleshooting_error_setting_certificate_desc2:
+  other: There are several ways, how this problem can be resolved.
+php_sdk_troubleshooting_error_setting_certificate_desc3:
+  other: |-
+    **Development**. You can disable the certificate verification, when you're in development mode. Please mention, that you will need additional testing of this issue on Production environment.
+php_sdk_troubleshooting_error_setting_certificate_desc4:
+  other: |-
+    **Production**. More secure and reliable way is to provide the correct CA bundle. You can specify the CA path to the file using the following code:
+php_sdk_troubleshooting_error_setting_certificate_desc5:
+  other: |-
+    In Windows this file can be located in the following paths:
+
+    * C:\windows\system32\curl-ca-bundle.crt
+    * C:\windows\curl-ca-bundle.crt
+php_sdk_troubleshooting_error_setting_certificate_desc6:
+  other: Please check the existence of these files, and set the appropriate CA path.
+php_sdk_troubleshooting_error_setting_certificate_desc7:
+  other: If you don't have this certificate located in the mentioned places, you can try to use the certificate provided by Mozilla, which can be downloaded [here](1) (provided by the maintainer of cURL).
+php_sdk_troubleshooting_error_setting_certificate_desc8:
+  other: |-
+    In some versions of PHP for Windows there is a problem with programmatic configuration of certificate paths. In order to solve this problem, download the file [cacert.pem](1) and specify the path to this file directly in php.ini: curl.cainfo=c:/cacert.pem.
+php_sdk_troubleshooting_invalid_signature:
+  other: |-
+    "INVALID_SIGNATURE" error code with message "Authorization header not found in Xsolla webhook request"
+php_sdk_troubleshooting_invalid_signature_desc1:
+  other: |-
+    Php-cgi under Apache does not pass HTTP Basic user/pass to PHP by default. In order to get this working you need to add the following line to .htaccess or httpd.conf Apache file:
+php_sdk_troubleshooting_invalid_client_ip:
+  other: |-
+    "INVALID_CLIENT_IP" error code in your webhook server
+php_sdk_troubleshooting_invalid_client_ip_desc1:
+  other: |-
+    By default Xsolla PHP SDK is checking the IPs from which the webhook was send for security reasons. The error code "INVALID_CLIENT_IP" can be returned if you test your webhook server from a localhost in development environment, or your application server works behind some sort of proxy - like a load balancer - on production.
+php_sdk_troubleshooting_invalid_client_ip_desc2:
+  other: If you are behind a proxy, you should manually whitelist your proxy.
+php_sdk_troubleshooting_invalid_client_ip_desc3:
+  other: |-
+    If you are in development environment, you can disable the IP checking using the following code:
+php_sdk_troubleshooting_invalid_client_ip_desc4:
+  other: |-
+    More secure and reliable way is to set your reverse proxy IP address to webhook server:
+php_sdk_troubleshooting_invalid_client_ip_desc5:
+  other: More information is available in [Symfony Documentation](1).
+
+# Android SDK
+
+android_sdk:
+  other: Android SDK
+android_sdk_overview_desc1:
+  other: Xsolla created Android Client SDK for accepting payments from your application. You can check its work by downloading [this apk](1).
+android_sdk_overview_desc2:
+  other: Before start, please choose one of the modules listed [here](1), implement the Webhook handling, and create an [access token](2).
+
+# Android SDK System Requirements
+
+android_sdk_system_requirements:
+  other: System Requirements
+android_sdk_system_requirements_desc1:
+  other: |-
+    * Minimum required Android OS version: 4.0
+    * Internet Connection is essential for the Xsolla Android SDK
+
+# Android SDK Download
+
+android_sdk_download:
+  other: Download
+android_sdk_download_desc1:
+  other: |-
+    Download via Jcentral:
+android_sdk_download_desc2:
+  other: |-
+    or Gradle:
+
+# Android SDK Installing
+
+android_sdk_installing:
+  other: Installing
+android_sdk_installing_desc1:
+  other: |-
+    You can add our Xsolla Android SDK in Android Studio. Please follow this steps:
+
+    1. Import module - File > Import Module > xsollasdk
+    2. Add dependency - File > Project Structure > Your App Module > Dependency > + > Module Dependency > xsollasdk
+    3. Add to your build gradlew in android section the following:
+android_sdk_installing_desc2:
+  other: |-
+    [Here](1) you can find the link to this project on GitHub.
+
+# Android SDK Make a Payment
+
+android_sdk_make_payment:
+  other: Make a Payment
+android_sdk_make_payment_desc1:
+  other: For the proper work of the SDK, please make sure that you have an access token. More information about getting token is available [here](1).
+android_sdk_make_payment_desc2:
+  other: Let's take as an example the simple application that has a payment button, when clicked our Shop UI is opened.
+android_sdk_make_payment_desc3:
+  other: Once the payment has been processed, your application can get a result in OnActivityResult. Also we will send a webhook on your server, even if the application has been closed.
+
+# Unity SDK
+
+unity_sdk:
+  other: Unity SDK
+unity_sdk_overview_desc1:
+  other: Xsolla created Unity SDK for accepting payments in desktop, web or mobile applications.
+unity_sdk_overview_desc2:
+  other: Download the latest release of Xsolla Unity SDK from [GitHub](1).
+
+# Unity SDK System Requirements
+
+unity_sdk_system_requirements:
+  other: System Requirements
+unity_sdk_system_requirements_desc1:
+  other: Xsolla Unity SDK works with Unity 5.0 and above.
+
+# Unity SDK Integration
+
+unity_sdk_integration:
+  other: Integration
+unity_sdk_integration_desc1:
+  other: |-
+    Main Features:
+
+     * Saved payment methods
+     * Purchase of virtual currency
+     * Purchase of virtual items
+     * Purchase of subscriptions
+     * Promotions
+     * Redeem coupon
+     * User's payment history
+unity_sdk_integration_desc2:
+  other: |-
+    If you would like to accept payments through Xsolla's payment UI, follow these steps:
+
+    * [Set up webhook handling](1)
+    * [Get an access token](2) to conduct payments with maximum security
+    * Add Xsolla SDK script to any object or use prefab from **Resources -> Prefabs** folder
+    * Call *XsollaSDK(instance)* to generate ready to use payment form
+    * Call the method *CreatePaymentForm(token, actionOk(XsollaStatusData), actionError(XsollaError), actionMore(string))*
+unity_sdk_integration_desc3:
+  other: You can also use *XsollaSDK.InitPaystation(string token)* to launch the payment UI in the native browser.
+unity_sdk_integration_desc4:
+  other: If you want to have your own payment UI, you should write own class which extends XsollaPaystation class. As example you can use *XsollaPaystationController*.
+unity_sdk_integration_desc5:
+  other: |-
+    SDK Response Objects:
+
+# Unity SDK Integration Table
+
+unity_sdk_table_header_parameter:
+  other: Parameter
+unity_sdk_table_header_description:
+  other: Description
+unity_sdk_table_row1_column1:
+  other: token
+unity_sdk_table_row1_column2:
+  other: Your purchase token received using [Get Token](1) method.
+unity_sdk_table_row2_column1:
+  other: actionOk
+unity_sdk_table_row2_column2:
+  other: Is called when the payment process is completed. Insert your payment accepting function here.
+unity_sdk_table_row3_column1:
+  other: actionError
+unity_sdk_table_row3_column2:
+  other: Is called when the payment process is canceled or failed for any reason. Insert your event handling function here.
+
+# Unity SDK Try It
+
+unity_sdk_try_it:
+  other: Try it!
+unity_sdk_try_it_desc1:
+  other: |-
+    Please take a look at our [demo](1). We also have test scenes in **XsollaUnitySDK -> Resources -> _Scenes** folder:
+
+    * **XsollaFarmFreshScene** - emulates item shop
+    * **XsollaTokenTestScene** - you can test your token here
+
+# Support
+
+support:
+  other: Support
