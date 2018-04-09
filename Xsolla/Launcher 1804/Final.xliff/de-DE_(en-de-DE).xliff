@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:04.3847034Z" original="2148610_1031" source-language="en" target-language="de-DE"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:45:11.638939Z" original="2148610_1031" source-language="en" target-language="de-DE"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
 <trans-unit id="1045182" approved="yes">
 <source xml:space="preserve">Username</source>
 <target state="translated" xml:space="preserve">Benutzername</target></trans-unit>
@@ -10,7 +10,7 @@
 <target state="translated" xml:space="preserve">Trennen</target></trans-unit>
 <trans-unit id="1045185" approved="yes">
 <source xml:space="preserve">Add another network</source>
-<target state="translated" xml:space="preserve">Soziales Netzwerk hinzufügen</target></trans-unit>
+<target state="translated" xml:space="preserve">Netzwerk hinzufügen</target></trans-unit>
 <trans-unit id="1045186" approved="yes">
 <source xml:space="preserve">Add users</source>
 <target state="translated" xml:space="preserve">Nutzer hinzufügen</target></trans-unit>
@@ -31,46 +31,46 @@
 <target state="translated" xml:space="preserve">Spieleserver-Problem</target></trans-unit>
 <trans-unit id="1045192" approved="yes">
 <source xml:space="preserve">We're experiencing technical problem with game servers. Please click Reload to check status.</source>
-<target state="translated" xml:space="preserve">Es liegt ein technisches Problem mit den Spielservern vor. Bitte klicken Sie auf "Server neu laden", um den Status zu überprüfen.</target></trans-unit>
+<target state="translated" xml:space="preserve">Es liegt ein technisches Problem mit den Spieleservern vor. Bitte klicken Sie auf "Server neu laden", um den Status zu überprüfen.</target></trans-unit>
 <trans-unit id="1045193" approved="yes">
 <source xml:space="preserve">Loading characters:</source>
 <target state="translated" xml:space="preserve">Laden der Charaktere:</target></trans-unit>
 <trans-unit id="1045194" approved="yes">
 <source xml:space="preserve">Loading regions:</source>
 <target state="translated" xml:space="preserve">Laden der Regionen:</target></trans-unit>
-<trans-unit id="1045195" approved="no">
+<trans-unit id="1045195" approved="yes">
 <source xml:space="preserve">Game ownership:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Spieleeigentum</target></trans-unit>
 <trans-unit id="1045196" approved="yes">
 <source xml:space="preserve">Reload servers</source>
 <target state="translated" xml:space="preserve">Server neu laden</target></trans-unit>
 <trans-unit id="1045197" approved="yes">
 <source xml:space="preserve">email</source>
-<target state="translated" xml:space="preserve">Email</target></trans-unit>
+<target state="translated" xml:space="preserve">E-Mail</target></trans-unit>
 <trans-unit id="1045198" approved="yes">
 <source xml:space="preserve">Password</source>
 <target state="translated" xml:space="preserve">Passwort</target></trans-unit>
 <trans-unit id="1045199" approved="yes">
 <source xml:space="preserve">Remember me</source>
-<target state="translated" xml:space="preserve">Anmeldung merken</target></trans-unit>
+<target state="translated" xml:space="preserve">Angemeldet bleiben</target></trans-unit>
 <trans-unit id="1045200" approved="yes">
 <source xml:space="preserve">LOADING</source>
-<target state="translated" xml:space="preserve">WIRD GELADEN</target></trans-unit>
+<target state="translated" xml:space="preserve">LADEN</target></trans-unit>
 <trans-unit id="1045201" approved="yes">
 <source xml:space="preserve">SIGN IN</source>
 <target state="translated" xml:space="preserve">ANMELDEN</target></trans-unit>
 <trans-unit id="1045202" approved="yes">
 <source xml:space="preserve">players</source>
-<target state="translated" xml:space="preserve">spieler</target></trans-unit>
+<target state="translated" xml:space="preserve">Spieler</target></trans-unit>
 <trans-unit id="1045203" approved="yes">
 <source xml:space="preserve">Change character</source>
-<target state="translated" xml:space="preserve">Spielercharakter ändern</target></trans-unit>
+<target state="translated" xml:space="preserve">Charakter ändern</target></trans-unit>
 <trans-unit id="1045204" approved="yes">
 <source xml:space="preserve">Edit chat title</source>
 <target state="translated" xml:space="preserve">Chatbetreff bearbeiten</target></trans-unit>
 <trans-unit id="1045205" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">Bitte nutze 5 bis 20 Zeichen</target></trans-unit>
+<target state="translated" xml:space="preserve">5 bis 20 Zeichen verwenden</target></trans-unit>
 <trans-unit id="1045206" approved="yes">
 <source xml:space="preserve">Cancel</source>
 <target state="translated" xml:space="preserve">Abbrechen</target></trans-unit>
@@ -82,7 +82,7 @@
 <target state="translated" xml:space="preserve">Benutzername ändern</target></trans-unit>
 <trans-unit id="1045209" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">Bitte nutze 5 bis 20 Zeichen</target></trans-unit>
+<target state="translated" xml:space="preserve">5 bis 20 Zeichen verwenden</target></trans-unit>
 <trans-unit id="1045210" approved="yes">
 <source xml:space="preserve">Cancel</source>
 <target state="translated" xml:space="preserve">Abbrechen</target></trans-unit>
@@ -91,7 +91,7 @@
 <target state="translated" xml:space="preserve">Speichern</target></trans-unit>
 <trans-unit id="1045212" approved="yes">
 <source xml:space="preserve">Character Selection</source>
-<target state="translated" xml:space="preserve">Char Auswahl</target></trans-unit>
+<target state="translated" xml:space="preserve">Charakter-Auswahl</target></trans-unit>
 <trans-unit id="1045213" approved="yes">
 <source xml:space="preserve">Name</source>
 <target state="translated" xml:space="preserve">Name</target></trans-unit>
@@ -106,7 +106,7 @@
 <target state="translated" xml:space="preserve">Status</target></trans-unit>
 <trans-unit id="1045217" approved="yes">
 <source xml:space="preserve">+ Add character</source>
-<target state="translated" xml:space="preserve">+ Char hinzufügen</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Charakter hinzufügen</target></trans-unit>
 <trans-unit id="1045218" approved="yes">
 <source xml:space="preserve">Done</source>
 <target state="translated" xml:space="preserve">Fertig</target></trans-unit>
@@ -127,7 +127,7 @@
 <target state="translated" xml:space="preserve">Online</target></trans-unit>
 <trans-unit id="1045224" approved="yes">
 <source xml:space="preserve">In game</source>
-<target state="translated" xml:space="preserve">Im Spiel</target></trans-unit>
+<target state="translated" xml:space="preserve">Ingame</target></trans-unit>
 <trans-unit id="1045225" approved="yes">
 <source xml:space="preserve">Away</source>
 <target state="translated" xml:space="preserve">Abwesend</target></trans-unit>
@@ -157,22 +157,22 @@
 <target state="translated" xml:space="preserve">Gruppe verlassen</target></trans-unit>
 <trans-unit id="1045234" approved="yes">
 <source xml:space="preserve">+ Create chat</source>
-<target state="translated" xml:space="preserve">Chat erstellen</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Chat erstellen</target></trans-unit>
 <trans-unit id="1045235" approved="yes">
 <source xml:space="preserve">+ Create channel</source>
 <target state="translated" xml:space="preserve">+ Kanal erstellen</target></trans-unit>
 <trans-unit id="1045236" approved="yes">
 <source xml:space="preserve">Please select chat to start messaging</source>
-<target state="translated" xml:space="preserve">Bitte wähle einen Chat aus, um fortzufahren</target></trans-unit>
+<target state="translated" xml:space="preserve">Wähle einen Chat aus, um zu kommunizieren</target></trans-unit>
 <trans-unit id="1045237" approved="yes">
 <source xml:space="preserve">Connect your social networks and find friends to play with</source>
 <target state="translated" xml:space="preserve">Verbinde deine sozialen Netzwerke und finde Freunde zum Spielen</target></trans-unit>
 <trans-unit id="1045238" approved="yes">
 <source xml:space="preserve">Connect Facebook</source>
 <target state="translated" xml:space="preserve">Facebook verbinden</target></trans-unit>
-<trans-unit id="1045239" approved="no">
+<trans-unit id="1045239" approved="yes">
 <source xml:space="preserve">Connect VK</source>
-<target state="translated" xml:space="preserve">VKontakte verbinden</target></trans-unit>
+<target state="translated" xml:space="preserve">VK verbinden</target></trans-unit>
 <trans-unit id="1045240" approved="yes">
 <source xml:space="preserve">Search</source>
 <target state="translated" xml:space="preserve">Suchen</target></trans-unit>
@@ -196,7 +196,7 @@
 <target state="translated" xml:space="preserve">Teilnehmer</target></trans-unit>
 <trans-unit id="1045247" approved="yes">
 <source xml:space="preserve">+ Add members</source>
-<target state="translated" xml:space="preserve">Teilnehmer hinzufügen</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Teilnehmer hinzufügen</target></trans-unit>
 <trans-unit id="1045248" approved="yes">
 <source xml:space="preserve">Remove</source>
 <target state="translated" xml:space="preserve">Entfernen</target></trans-unit>
@@ -232,13 +232,13 @@
 <target state="translated" xml:space="preserve">Weiter</target></trans-unit>
 <trans-unit id="1045259" approved="yes">
 <source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="translated" xml:space="preserve">Der Name sollte mit einem Buchstaben beginnen und darf maximal 20 Zeichen enthalten.</target></trans-unit>
+<target state="translated" xml:space="preserve">Der Gruppenname muss mit einem Buchstaben beginnen und darf maximal 20 Zeichen enthalten.</target></trans-unit>
 <trans-unit id="1045260" approved="yes">
 <source xml:space="preserve">Group chat name</source>
 <target state="translated" xml:space="preserve">Name des Gruppenchats</target></trans-unit>
 <trans-unit id="1045261" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">Bitte nutze 5 bis 20 Zeichen</target></trans-unit>
+<target state="translated" xml:space="preserve">5 bis 20 Zeichen verwenden</target></trans-unit>
 <trans-unit id="1045262" approved="yes">
 <source xml:space="preserve">Invite friends to group</source>
 <target state="translated" xml:space="preserve">Freunde zur Gruppe einladen</target></trans-unit>
@@ -259,7 +259,7 @@
 <target state="translated" xml:space="preserve">Ein schwerwiegender Fehler ist aufgetreten. Die Anwendung wird geschlossen.</target></trans-unit>
 <trans-unit id="1045268" approved="yes">
 <source xml:space="preserve">Sending error data</source>
-<target state="translated" xml:space="preserve">Sende Fehlerdaten</target></trans-unit>
+<target state="translated" xml:space="preserve">Fehlerdaten senden</target></trans-unit>
 <trans-unit id="1045269" approved="yes">
 <source xml:space="preserve">Report problem</source>
 <target state="translated" xml:space="preserve">Problem melden</target></trans-unit>
@@ -271,7 +271,7 @@
 <target state="translated" xml:space="preserve">Abbrechen</target></trans-unit>
 <trans-unit id="1045272" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="translated" xml:space="preserve">Ein schwerwiegender Fehler ist aufgetreten. Deine Glieder sind schwach und dein Blick ist verschwommen. Hör auf zu träumen und renne so schnell du kannst.</target></trans-unit>
+<target state="translated" xml:space="preserve">Authorisierungs-Fehler. Versuche erneut, dich einzuloggen.</target></trans-unit>
 <trans-unit id="1045273" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">Fehler</target></trans-unit>
@@ -280,7 +280,7 @@
 <target state="translated" xml:space="preserve">OK</target></trans-unit>
 <trans-unit id="1045275" approved="yes">
 <source xml:space="preserve">Search friends by nickname</source>
-<target state="translated" xml:space="preserve">Freunde mittels Spitznamen finden</target></trans-unit>
+<target state="translated" xml:space="preserve">Freunde mittels Benutzernamen finden</target></trans-unit>
 <trans-unit id="1045276" approved="yes">
 <source xml:space="preserve">No users found</source>
 <target state="translated" xml:space="preserve">Keine Benutzer gefunden</target></trans-unit>
@@ -316,10 +316,10 @@
 <target state="translated" xml:space="preserve">Spielt "<ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>"</target></trans-unit>
 <trans-unit id="1045287" approved="yes">
 <source xml:space="preserve">Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
-<target state="translated" xml:space="preserve">Letztmalig online: Vor <ph id="ph1" ctype="x-smartcat">%1</ph> Stunden</target></trans-unit>
+<target state="translated" xml:space="preserve">Letztmalig online: vor <ph id="ph1" ctype="x-smartcat">%1</ph> Stunden</target></trans-unit>
 <trans-unit id="1045288" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friend</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> gemeinsamen Freund</target></trans-unit>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> gemeinsamer Freund</target></trans-unit>
 <trans-unit id="1045289" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friends</source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> gemeinsame Freunde</target></trans-unit>
@@ -331,7 +331,7 @@
 <target state="translated" xml:space="preserve">Blockieren</target></trans-unit>
 <trans-unit id="1045292" approved="yes">
 <source xml:space="preserve">Start chat</source>
-<target state="translated" xml:space="preserve">Chatten</target></trans-unit>
+<target state="translated" xml:space="preserve">Chat aufrufen</target></trans-unit>
 <trans-unit id="1045293" approved="yes">
 <source xml:space="preserve">Unblock</source>
 <target state="translated" xml:space="preserve">Blockierung aufheben</target></trans-unit>
@@ -343,7 +343,7 @@
 <target state="translated" xml:space="preserve">Freunde</target></trans-unit>
 <trans-unit id="1045296" approved="yes">
 <source xml:space="preserve">+ Find friends</source>
-<target state="translated" xml:space="preserve">Freunde finden</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Freunde finden</target></trans-unit>
 <trans-unit id="1045297" approved="yes">
 <source xml:space="preserve">Requests</source>
 <target state="translated" xml:space="preserve">Anfragen</target></trans-unit>
@@ -365,15 +365,15 @@
 <trans-unit id="1045303" approved="yes">
 <source xml:space="preserve">Buy</source>
 <target state="translated" xml:space="preserve">Kaufen</target></trans-unit>
-<trans-unit id="1045304" approved="no">
+<trans-unit id="1045304" approved="yes">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Herunterladen: <ph id="ph1" ctype="x-smartcat">%1</ph> MB von <ph id="ph2" ctype="x-smartcat">%2</ph> MB, mit <ph id="ph3" ctype="x-smartcat">%3</ph> KB/s, Peers <ph id="ph4" ctype="x-smartcat">%4</ph>, Seeds <ph id="ph5" ctype="x-smartcat">%5</ph></target></trans-unit>
 <trans-unit id="1045305" approved="yes">
 <source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
 <target state="translated" xml:space="preserve">Datenreparatur: <ph id="ph1" ctype="x-smartcat">%1</ph> MB verbleibend</target></trans-unit>
 <trans-unit id="1045306" approved="yes">
 <source xml:space="preserve">Nothing here. King is at loss</source>
-<target state="translated" xml:space="preserve">Hier ist nichts. König ratlos</target></trans-unit>
+<target state="translated" xml:space="preserve">Nothing here. King is at loss</target></trans-unit>
 <trans-unit id="1045307" approved="yes">
 <source xml:space="preserve">Support</source>
 <target state="translated" xml:space="preserve">Support</target></trans-unit>
@@ -424,7 +424,7 @@
 <target state="translated" xml:space="preserve">Installieren</target></trans-unit>
 <trans-unit id="1045323" approved="yes">
 <source xml:space="preserve">Select path for install..</source>
-<target state="translated" xml:space="preserve">Installationspfad wählen ..</target></trans-unit>
+<target state="translated" xml:space="preserve">Installationspfad wählen</target></trans-unit>
 <trans-unit id="1045324" approved="yes">
 <source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
 <target state="translated" xml:space="preserve">Du kannst das Spiel nicht in dem Ordner installieren. Bitte wähle einen anderen Ordner für die Installation aus.</target></trans-unit>
@@ -436,7 +436,7 @@
 <target state="translated" xml:space="preserve">Konto</target></trans-unit>
 <trans-unit id="1045327" approved="yes">
 <source xml:space="preserve">Remember me</source>
-<target state="translated" xml:space="preserve">Anmeldung merken</target></trans-unit>
+<target state="translated" xml:space="preserve">Angemeldet bleiben</target></trans-unit>
 <trans-unit id="1045328" approved="yes">
 <source xml:space="preserve">Downloads</source>
 <target state="translated" xml:space="preserve">Downloads</target></trans-unit>
@@ -478,7 +478,7 @@
 <target state="translated" xml:space="preserve">Einstellungen</target></trans-unit>
 <trans-unit id="1045341" approved="yes">
 <source xml:space="preserve">Log Out</source>
-<target state="translated" xml:space="preserve">Log Out</target></trans-unit>
+<target state="translated" xml:space="preserve">Abmelden</target></trans-unit>
 <trans-unit id="1045342" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
@@ -514,10 +514,10 @@
 <target state="translated" xml:space="preserve">Sozialen Netzwerke konnten nicht geladen werden</target></trans-unit>
 <trans-unit id="1045353" approved="yes">
 <source xml:space="preserve">Social auth failed.</source>
-<target state="translated" xml:space="preserve">Social auth fehlgeschlagen.</target></trans-unit>
+<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen.</target></trans-unit>
 <trans-unit id="1045354" approved="yes">
 <source xml:space="preserve">There was a problem with your request. Please try again.</source>
-<target state="translated" xml:space="preserve">Es gab ein vorübergehendes Problem mit Ihrer Anfrage. Bitte versuchen Sie es erneut.</target></trans-unit>
+<target state="translated" xml:space="preserve">Bei deiner Anfrage ist ein Problem aufgetreten. Bitte versuche es erneut.</target></trans-unit>
 <trans-unit id="1045355" approved="yes">
 <source xml:space="preserve">Forgot password?</source>
 <target state="translated" xml:space="preserve">Passwort vergessen?</target></trans-unit>
@@ -529,7 +529,7 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1045358" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Lädt die Liste der Regionen - bitte warten Sie</target></trans-unit>
+<target state="translated" xml:space="preserve">Liste der Regionen wird geladen – einen Moment Geduld</target></trans-unit>
 <trans-unit id="1045359" approved="yes">
 <source xml:space="preserve">Loading...</source>
 <target state="translated" xml:space="preserve">Laden...</target></trans-unit>
@@ -538,7 +538,7 @@
 <target state="translated" xml:space="preserve">Das Spiel finden</target></trans-unit>
 <trans-unit id="1045361" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Einkäufe im Spiel, Charaktere und Spiel-Patches aus</target></trans-unit>
+<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Ingame-Einkäufe, Charaktere und Spiel-Patches aus</target></trans-unit>
 <trans-unit id="1045362" approved="yes">
 <source xml:space="preserve">Next</source>
 <target state="translated" xml:space="preserve">Weiter</target></trans-unit>
@@ -550,7 +550,7 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1045365" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen</target></trans-unit>
+<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen.</target></trans-unit>
 <trans-unit id="1045366" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">Fehler</target></trans-unit>
@@ -562,7 +562,7 @@
 <target state="translated" xml:space="preserve">Installation des Spiels aufgrund eine Fehlers fehlgeschlagen<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
 <trans-unit id="1045369" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph>                                        Bitte erneut versuchen.</target></trans-unit>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Versuche es erneut.</target></trans-unit>
 <trans-unit id="1045370" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph>-Zeitraffer ist verfügbar!</target></trans-unit>
@@ -580,10 +580,10 @@
 <target state="translated" xml:space="preserve">Store</target></trans-unit>
 <trans-unit id="1045375" approved="yes">
 <source xml:space="preserve">Extracting</source>
-<target state="translated" xml:space="preserve">Wird extrahiert</target></trans-unit>
+<target state="translated" xml:space="preserve">Extrahieren</target></trans-unit>
 <trans-unit id="1045376" approved="yes">
 <source xml:space="preserve">Repairing</source>
-<target state="translated" xml:space="preserve">Reparatur läuft</target></trans-unit>
+<target state="translated" xml:space="preserve">Reparieren</target></trans-unit>
 <trans-unit id="1045377" approved="yes">
 <source xml:space="preserve">Downloading</source>
 <target state="translated" xml:space="preserve">Wird heruntergeladen</target></trans-unit>
@@ -622,13 +622,13 @@
 <target state="translated" xml:space="preserve">Löschen</target></trans-unit>
 <trans-unit id="1045389" approved="yes">
 <source xml:space="preserve">Please select chat to start messaging</source>
-<target state="translated" xml:space="preserve">Bitte wähle einen Chat aus, um fortzufahren</target></trans-unit>
+<target state="translated" xml:space="preserve">Wähle einen Chat aus, um zu kommunizieren</target></trans-unit>
 <trans-unit id="1045390" approved="yes">
 <source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="translated" xml:space="preserve">Hoppla, etwas fehlt. Sieht aus, als wären deine News in einer anderen Burg!</target></trans-unit>
+<target state="translated" xml:space="preserve">Hoppla, etwas fehlt. Sieht aus, als wären deine Neuigkeiten in einer anderen Burg!</target></trans-unit>
 <trans-unit id="1045391" approved="yes">
 <source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="translated" xml:space="preserve">Wir reparieren gerade unser Uraltkraftwerk (d. h. Wasserrad), aber probier es wieder!</target></trans-unit>
+<target state="translated" xml:space="preserve">Wir reparieren gerade unseren mittelalterlichen Stromerzeuger (bzw. das Wasserrad), aber versuche es später nochmal.</target></trans-unit>
 <trans-unit id="1045392" approved="yes">
 <source xml:space="preserve">All News</source>
 <target state="translated" xml:space="preserve">Alle Neuigkeiten</target></trans-unit>
@@ -640,7 +640,7 @@
 <target state="translated" xml:space="preserve">Region</target></trans-unit>
 <trans-unit id="1045395" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Einkäufe im Spiel, Charaktere und Spiel-Patches aus</target></trans-unit>
+<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Ingame-Einkäufe, Charaktere und Spiel-Patches aus</target></trans-unit>
 <trans-unit id="1045396" approved="yes">
 <source xml:space="preserve">New friend requests</source>
 <target state="translated" xml:space="preserve">Neue Freundesanfragen</target></trans-unit>
@@ -676,7 +676,7 @@
 <target state="translated" xml:space="preserve">Füge einen Freund hinzu, um zu chatten. Finde Freunde, indem du deren E-Mail oder Spitznamen eingibst.</target></trans-unit>
 <trans-unit id="1045407" approved="yes">
 <source xml:space="preserve">+ Add</source>
-<target state="translated" xml:space="preserve">Hinzufügen</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Hinzufügen</target></trans-unit>
 <trans-unit id="1045408" approved="yes">
 <source xml:space="preserve">Next</source>
 <target state="translated" xml:space="preserve">Weiter</target></trans-unit>
@@ -715,7 +715,7 @@
 <target state="translated" xml:space="preserve">Direktlink</target></trans-unit>
 <trans-unit id="1045420" approved="yes">
 <source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="translated" xml:space="preserve">Verbinde deine Social Media-Profile<ph id="ph1" ctype="x-smartcat">\n</ph>                           und lade so deine Freunde zum Spielen ein</target></trans-unit>
+<target state="translated" xml:space="preserve">Verbinde deine Social Media-Profile<ph id="ph1" ctype="x-smartcat">\n</ph> und lade so deine Freunde zum Spielen ein</target></trans-unit>
 <trans-unit id="1045421" approved="yes">
 <source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
 <target state="translated" xml:space="preserve">Verbinden <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
@@ -725,12 +725,12 @@
 <trans-unit id="1045423" approved="yes">
 <source xml:space="preserve">Skip</source>
 <target state="translated" xml:space="preserve">Überspringen</target></trans-unit>
-<trans-unit id="1045424" approved="no">
+<trans-unit id="1045424" approved="yes">
 <source xml:space="preserve">Visit us on:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045425" approved="no">
+<target state="translated" xml:space="preserve">Besuche uns auf:</target></trans-unit>
+<trans-unit id="1045425" approved="yes">
 <source xml:space="preserve">Find us on Social Media</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Finde uns auf Social Media</target></trans-unit>
 <trans-unit id="1045426" approved="yes">
 <source xml:space="preserve">Search</source>
 <target state="translated" xml:space="preserve">Suchen</target></trans-unit>
@@ -754,7 +754,7 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1045433" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Lädt die Liste der Regionen - bitte warten Sie</target></trans-unit>
+<target state="translated" xml:space="preserve">Liste der Regionen wird geladen – einen Moment Geduld</target></trans-unit>
 <trans-unit id="1045434" approved="yes">
 <source xml:space="preserve">Loading...</source>
 <target state="translated" xml:space="preserve">Laden...</target></trans-unit>
@@ -763,16 +763,16 @@
 <target state="translated" xml:space="preserve">Das Spiel finden</target></trans-unit>
 <trans-unit id="1045436" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Einkäufe im Spiel, Charaktere und Spiel-Patches aus</target></trans-unit>
+<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Ingame-Einkäufe, Charaktere und Spiel-Patches aus</target></trans-unit>
 <trans-unit id="1045437" approved="yes">
 <source xml:space="preserve">Next</source>
 <target state="translated" xml:space="preserve">Weiter</target></trans-unit>
 <trans-unit id="1045438" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">Geben Sie Ihre E-Mail-Adresse ein</target></trans-unit>
+<target state="translated" xml:space="preserve">Gib deine E-Mail-Adresse ein</target></trans-unit>
 <trans-unit id="1045439" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">Eine Bestätigungsmail wird an die angegebene E-Mail-Adresse gesendet</target></trans-unit>
+<target state="translated" xml:space="preserve">Eine Bestätigungs-E-Mail wird an die angegebene E-Mail-Adresse gesendet</target></trans-unit>
 <trans-unit id="1045440" approved="yes">
 <source xml:space="preserve">Send</source>
 <target state="translated" xml:space="preserve">Senden</target></trans-unit>
@@ -784,16 +784,16 @@
 <target state="translated" xml:space="preserve">E-Mail wurde versendet</target></trans-unit>
 <trans-unit id="1045443" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">Bitte überprüfen Sie Ihre E-Mails und bestätigen Sie die Registrierung</target></trans-unit>
+<target state="translated" xml:space="preserve">Überprüfe deine E-Mails und bestätige die Registrierung</target></trans-unit>
 <trans-unit id="1045444" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1045445" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen</target></trans-unit>
+<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen.</target></trans-unit>
 <trans-unit id="1045446" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<target state="translated" xml:space="preserve">E-Mail</target></trans-unit>
 <trans-unit id="1045447" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">Fehler</target></trans-unit>
@@ -802,7 +802,7 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1045449" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Lädt die Liste der Regionen - bitte warten Sie</target></trans-unit>
+<target state="translated" xml:space="preserve">Liste der Regionen wird geladen – einen Moment Geduld</target></trans-unit>
 <trans-unit id="1045450" approved="yes">
 <source xml:space="preserve">Loading...</source>
 <target state="translated" xml:space="preserve">Laden...</target></trans-unit>
@@ -811,16 +811,16 @@
 <target state="translated" xml:space="preserve">Das Spiel finden</target></trans-unit>
 <trans-unit id="1045452" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Einkäufe im Spiel, Charaktere und Spiel-Patches aus</target></trans-unit>
+<target state="translated" xml:space="preserve">Das Ändern der Region wirkt sich auf Ingame-Einkäufe, Charaktere und Spiel-Patches aus</target></trans-unit>
 <trans-unit id="1045453" approved="yes">
 <source xml:space="preserve">Next</source>
 <target state="translated" xml:space="preserve">Weiter</target></trans-unit>
 <trans-unit id="1045454" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">Geben Sie Ihre E-Mail-Adresse ein</target></trans-unit>
+<target state="translated" xml:space="preserve">Gib deine E-Mail-Adresse ein</target></trans-unit>
 <trans-unit id="1045455" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">Eine Bestätigungsmail wird an die angegebene E-Mail-Adresse gesendet</target></trans-unit>
+<target state="translated" xml:space="preserve">Eine Bestätigungs-E-Mail wird an die angegebene E-Mail-Adresse gesendet</target></trans-unit>
 <trans-unit id="1045456" approved="yes">
 <source xml:space="preserve">Send</source>
 <target state="translated" xml:space="preserve">Senden</target></trans-unit>
@@ -832,16 +832,16 @@
 <target state="translated" xml:space="preserve">E-Mail wurde versendet</target></trans-unit>
 <trans-unit id="1045459" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">Bitte überprüfen Sie Ihre E-Mails und bestätigen Sie die Registrierung</target></trans-unit>
+<target state="translated" xml:space="preserve">Überprüfe deine E-Mails und bestätige die Registrierung</target></trans-unit>
 <trans-unit id="1045460" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1045461" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen</target></trans-unit>
+<target state="translated" xml:space="preserve">Authentifizierung fehlgeschlagen.</target></trans-unit>
 <trans-unit id="1045462" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<target state="translated" xml:space="preserve">E-Mail</target></trans-unit>
 <trans-unit id="1045463" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">Fehler</target></trans-unit>
@@ -856,19 +856,19 @@
 <target state="translated" xml:space="preserve">Seite neu laden</target></trans-unit>
 <trans-unit id="1045467" approved="yes">
 <source xml:space="preserve">Reopen store</source>
-<target state="translated" xml:space="preserve">Store wiedereröffnen</target></trans-unit>
+<target state="translated" xml:space="preserve">Store erneut öffnen</target></trans-unit>
 <trans-unit id="1045468" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph> loading failed</source>
 <target state="translated" xml:space="preserve">Laden von <ph id="ph1" ctype="x-smartcat">Steam overlay</ph> fehlgeschlagen</target></trans-unit>
 <trans-unit id="1045469" approved="yes">
 <source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
 <target state="translated" xml:space="preserve">Bitte warten, der Store öffnet jetzt ohne Verwendung von <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></target></trans-unit>
-<trans-unit id="1045470" approved="no">
+<trans-unit id="1045470" approved="yes">
 <source xml:space="preserve">Refresh</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1045471" approved="no">
+<target state="translated" xml:space="preserve">Aktualisieren</target></trans-unit>
+<trans-unit id="1045471" approved="yes">
 <source xml:space="preserve">Forward</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Weiter</target></trans-unit>
 <trans-unit id="1045472" approved="yes">
 <source xml:space="preserve">Back</source>
 <target state="translated" xml:space="preserve">Zurück</target></trans-unit>
@@ -877,10 +877,10 @@
 <target state="translated" xml:space="preserve">Teilen</target></trans-unit>
 <trans-unit id="1045474" approved="yes">
 <source xml:space="preserve">Downloading assets...</source>
-<target state="translated" xml:space="preserve">Ingame-Inhalte werden heruntergeladen...</target></trans-unit>
+<target state="translated" xml:space="preserve">Inhalte werden heruntergeladen...</target></trans-unit>
 <trans-unit id="1045475" approved="yes">
 <source xml:space="preserve">Unpacking assets...</source>
-<target state="translated" xml:space="preserve">Ingame-Inhalte werden entpackt...</target></trans-unit>
+<target state="translated" xml:space="preserve">Inhalte werden entpackt...</target></trans-unit>
 <trans-unit id="1045476" approved="yes">
 <source xml:space="preserve">World is loading</source>
 <target state="translated" xml:space="preserve">Spielwelt wird geladen</target></trans-unit>
@@ -889,4 +889,4 @@
 <target state="translated" xml:space="preserve">Schließen</target></trans-unit>
 <trans-unit id="1045478" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit></body></file></xliff>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: Launcher</target></trans-unit></body></file></xliff>

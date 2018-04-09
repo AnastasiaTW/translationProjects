@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:05.7136263Z" original="2148627_2052" source-language="en" target-language="zh-Hans"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:45:12.7170898Z" original="2148627_2052" source-language="en" target-language="zh-Hans"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
 <trans-unit id="1049934" approved="yes">
 <source xml:space="preserve">Username</source>
 <target state="translated" xml:space="preserve">用户名</target></trans-unit>
@@ -10,7 +10,7 @@
 <target state="translated" xml:space="preserve">断开连接</target></trans-unit>
 <trans-unit id="1049937" approved="yes">
 <source xml:space="preserve">Add another network</source>
-<target state="translated" xml:space="preserve">添加社交网络</target></trans-unit>
+<target state="translated" xml:space="preserve">添加其他网络</target></trans-unit>
 <trans-unit id="1049938" approved="yes">
 <source xml:space="preserve">Add users</source>
 <target state="translated" xml:space="preserve">添加用户</target></trans-unit>
@@ -31,22 +31,22 @@
 <target state="translated" xml:space="preserve">游戏服务器故障</target></trans-unit>
 <trans-unit id="1049944" approved="yes">
 <source xml:space="preserve">We're experiencing technical problem with game servers. Please click Reload to check status.</source>
-<target state="translated" xml:space="preserve">我们遇到游戏服务器的技术问题，请点击刷新以检查状态。</target></trans-unit>
+<target state="translated" xml:space="preserve">我们遇到游戏服务器技术问题，请点击重载以检查状态。</target></trans-unit>
 <trans-unit id="1049945" approved="yes">
 <source xml:space="preserve">Loading characters:</source>
-<target state="translated" xml:space="preserve">载入人物：</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载角色：</target></trans-unit>
 <trans-unit id="1049946" approved="yes">
 <source xml:space="preserve">Loading regions:</source>
-<target state="translated" xml:space="preserve">载入区域：</target></trans-unit>
-<trans-unit id="1049947" approved="no">
+<target state="translated" xml:space="preserve">正在加载区域：</target></trans-unit>
+<trans-unit id="1049947" approved="yes">
 <source xml:space="preserve">Game ownership:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">游戏所有权：</target></trans-unit>
 <trans-unit id="1049948" approved="yes">
 <source xml:space="preserve">Reload servers</source>
-<target state="translated" xml:space="preserve">刷新服务器</target></trans-unit>
+<target state="translated" xml:space="preserve">重载服务器</target></trans-unit>
 <trans-unit id="1049949" approved="yes">
 <source xml:space="preserve">email</source>
-<target state="translated" xml:space="preserve">Email</target></trans-unit>
+<target state="translated" xml:space="preserve">电子邮件</target></trans-unit>
 <trans-unit id="1049950" approved="yes">
 <source xml:space="preserve">Password</source>
 <target state="translated" xml:space="preserve">密码</target></trans-unit>
@@ -61,7 +61,7 @@
 <target state="translated" xml:space="preserve">登录</target></trans-unit>
 <trans-unit id="1049954" approved="yes">
 <source xml:space="preserve">players</source>
-<target state="translated" xml:space="preserve">玩家数量</target></trans-unit>
+<target state="translated" xml:space="preserve">玩家</target></trans-unit>
 <trans-unit id="1049955" approved="yes">
 <source xml:space="preserve">Change character</source>
 <target state="translated" xml:space="preserve">更换角色</target></trans-unit>
@@ -94,13 +94,13 @@
 <target state="translated" xml:space="preserve">角色选择</target></trans-unit>
 <trans-unit id="1049965" approved="yes">
 <source xml:space="preserve">Name</source>
-<target state="translated" xml:space="preserve">姓名</target></trans-unit>
+<target state="translated" xml:space="preserve">名称</target></trans-unit>
 <trans-unit id="1049966" approved="yes">
 <source xml:space="preserve">World</source>
-<target state="translated" xml:space="preserve">世界</target></trans-unit>
+<target state="translated" xml:space="preserve">游戏世界</target></trans-unit>
 <trans-unit id="1049967" approved="yes">
 <source xml:space="preserve">Workload</source>
-<target state="translated" xml:space="preserve">工作量</target></trans-unit>
+<target state="translated" xml:space="preserve">负载</target></trans-unit>
 <trans-unit id="1049968" approved="yes">
 <source xml:space="preserve">Status</source>
 <target state="translated" xml:space="preserve">状态</target></trans-unit>
@@ -157,7 +157,7 @@
 <target state="translated" xml:space="preserve">退出群组</target></trans-unit>
 <trans-unit id="1049986" approved="yes">
 <source xml:space="preserve">+ Create chat</source>
-<target state="translated" xml:space="preserve">创建聊天</target></trans-unit>
+<target state="translated" xml:space="preserve">+ 创建聊天</target></trans-unit>
 <trans-unit id="1049987" approved="yes">
 <source xml:space="preserve">+ Create channel</source>
 <target state="translated" xml:space="preserve">+ 创建频道</target></trans-unit>
@@ -166,13 +166,13 @@
 <target state="translated" xml:space="preserve">请选择聊天以开始发送消息</target></trans-unit>
 <trans-unit id="1049989" approved="yes">
 <source xml:space="preserve">Connect your social networks and find friends to play with</source>
-<target state="translated" xml:space="preserve">连接您的社交网络与好友一同游戏</target></trans-unit>
+<target state="translated" xml:space="preserve">连接您的社交网络与好友一起玩游戏</target></trans-unit>
 <trans-unit id="1049990" approved="yes">
 <source xml:space="preserve">Connect Facebook</source>
 <target state="translated" xml:space="preserve">连接Facebook</target></trans-unit>
-<trans-unit id="1049991" approved="no">
+<trans-unit id="1049991" approved="yes">
 <source xml:space="preserve">Connect VK</source>
-<target state="translated" xml:space="preserve">连接VKontakte</target></trans-unit>
+<target state="translated" xml:space="preserve">连接VK</target></trans-unit>
 <trans-unit id="1049992" approved="yes">
 <source xml:space="preserve">Search</source>
 <target state="translated" xml:space="preserve">搜索</target></trans-unit>
@@ -196,7 +196,7 @@
 <target state="translated" xml:space="preserve">成员</target></trans-unit>
 <trans-unit id="1049999" approved="yes">
 <source xml:space="preserve">+ Add members</source>
-<target state="translated" xml:space="preserve">添加成员</target></trans-unit>
+<target state="translated" xml:space="preserve">+ 添加成员</target></trans-unit>
 <trans-unit id="1050000" approved="yes">
 <source xml:space="preserve">Remove</source>
 <target state="translated" xml:space="preserve">删除</target></trans-unit>
@@ -229,10 +229,10 @@
 <target state="translated" xml:space="preserve">步骤<ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
 <trans-unit id="1050010" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<target state="translated" xml:space="preserve">向后</target></trans-unit>
 <trans-unit id="1050011" approved="yes">
 <source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="translated" xml:space="preserve">以字母开头，名称不得超过20个字符。</target></trans-unit>
+<target state="translated" xml:space="preserve">设置您的群组名称。以字母开头，名称不得超过20个字符。</target></trans-unit>
 <trans-unit id="1050012" approved="yes">
 <source xml:space="preserve">Group chat name</source>
 <target state="translated" xml:space="preserve">群聊名称</target></trans-unit>
@@ -256,7 +256,7 @@
 <target state="translated" xml:space="preserve">错误</target></trans-unit>
 <trans-unit id="1050019" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Application will be closed.</source>
-<target state="translated" xml:space="preserve">发生严重错误。应用程序将被关闭。</target></trans-unit>
+<target state="translated" xml:space="preserve">发生严重错误。应用程序将关闭。</target></trans-unit>
 <trans-unit id="1050020" approved="yes">
 <source xml:space="preserve">Sending error data</source>
 <target state="translated" xml:space="preserve">正在发送错误数据</target></trans-unit>
@@ -271,7 +271,7 @@
 <target state="translated" xml:space="preserve">取消</target></trans-unit>
 <trans-unit id="1050024" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="translated" xml:space="preserve">发生严重错误。四肢无力，视线模糊，梦想抛诸脑后，赶紧开溜吧。</target></trans-unit>
+<target state="translated" xml:space="preserve">认证错误。请重新登录。</target></trans-unit>
 <trans-unit id="1050025" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">错误</target></trans-unit>
@@ -328,7 +328,7 @@
 <target state="translated" xml:space="preserve">删除</target></trans-unit>
 <trans-unit id="1050043" approved="yes">
 <source xml:space="preserve">Block</source>
-<target state="translated" xml:space="preserve">加入黑名单</target></trans-unit>
+<target state="translated" xml:space="preserve">阻止</target></trans-unit>
 <trans-unit id="1050044" approved="yes">
 <source xml:space="preserve">Start chat</source>
 <target state="translated" xml:space="preserve">开始聊天</target></trans-unit>
@@ -343,7 +343,7 @@
 <target state="translated" xml:space="preserve">好友</target></trans-unit>
 <trans-unit id="1050048" approved="yes">
 <source xml:space="preserve">+ Find friends</source>
-<target state="translated" xml:space="preserve">查找好友</target></trans-unit>
+<target state="translated" xml:space="preserve">+ 查找好友</target></trans-unit>
 <trans-unit id="1050049" approved="yes">
 <source xml:space="preserve">Requests</source>
 <target state="translated" xml:space="preserve">请求</target></trans-unit>
@@ -365,24 +365,24 @@
 <trans-unit id="1050055" approved="yes">
 <source xml:space="preserve">Buy</source>
 <target state="translated" xml:space="preserve">购买</target></trans-unit>
-<trans-unit id="1050056" approved="no">
+<trans-unit id="1050056" approved="yes">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">正在下载：<ph id="ph1" ctype="x-smartcat">%1</ph> Mb，共<ph id="ph2" ctype="x-smartcat">%2</ph> Mb，速度为<ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s，客户端数 <ph id="ph4" ctype="x-smartcat">%4</ph>，种子数 <ph id="ph5" ctype="x-smartcat">%5</ph></target></trans-unit>
 <trans-unit id="1050057" approved="yes">
 <source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
 <target state="translated" xml:space="preserve">正在修复数据：剩余<ph id="ph1" ctype="x-smartcat">%1</ph> Mb</target></trans-unit>
 <trans-unit id="1050058" approved="yes">
 <source xml:space="preserve">Nothing here. King is at loss</source>
-<target state="translated" xml:space="preserve">无任何内容。</target></trans-unit>
+<target state="translated" xml:space="preserve">无法加载横幅列表，请稍后重试。</target></trans-unit>
 <trans-unit id="1050059" approved="yes">
 <source xml:space="preserve">Support</source>
 <target state="translated" xml:space="preserve">支持</target></trans-unit>
 <trans-unit id="1050060" approved="yes">
 <source xml:space="preserve">If the game is already installed</source>
-<target state="translated" xml:space="preserve">如果本游戏已安装</target></trans-unit>
+<target state="translated" xml:space="preserve">如果已安装游戏</target></trans-unit>
 <trans-unit id="1050061" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<target state="translated" xml:space="preserve">查找游戏位置</target></trans-unit>
 <trans-unit id="1050062" approved="yes">
 <source xml:space="preserve">Install</source>
 <target state="translated" xml:space="preserve">安装</target></trans-unit>
@@ -415,7 +415,7 @@
 <target state="translated" xml:space="preserve">更改</target></trans-unit>
 <trans-unit id="1050072" approved="yes">
 <source xml:space="preserve">Disk Space</source>
-<target state="translated" xml:space="preserve">硬盘空间</target></trans-unit>
+<target state="translated" xml:space="preserve">磁盘空间</target></trans-unit>
 <trans-unit id="1050073" approved="yes">
 <source xml:space="preserve">Cancel</source>
 <target state="translated" xml:space="preserve">取消</target></trans-unit>
@@ -424,7 +424,7 @@
 <target state="translated" xml:space="preserve">安装</target></trans-unit>
 <trans-unit id="1050075" approved="yes">
 <source xml:space="preserve">Select path for install..</source>
-<target state="translated" xml:space="preserve">选择安装路径..</target></trans-unit>
+<target state="translated" xml:space="preserve">选择安装路径</target></trans-unit>
 <trans-unit id="1050076" approved="yes">
 <source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
 <target state="translated" xml:space="preserve">无法使用该目录安装游戏。请选择其他目录进行安装。</target></trans-unit>
@@ -442,7 +442,7 @@
 <target state="translated" xml:space="preserve">下载</target></trans-unit>
 <trans-unit id="1050081" approved="yes">
 <source xml:space="preserve">Use p2p connection</source>
-<target state="translated" xml:space="preserve">使用点到点连接</target></trans-unit>
+<target state="translated" xml:space="preserve">使用p2p连接</target></trans-unit>
 <trans-unit id="1050082" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse</source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph>精彩视频</target></trans-unit>
@@ -487,25 +487,25 @@
 <target state="translated" xml:space="preserve">错误！网络列表为空！</target></trans-unit>
 <trans-unit id="1050096" approved="yes">
 <source xml:space="preserve">Sign in with VK</source>
-<target state="translated" xml:space="preserve">使用 VK 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用VK帐户登录</target></trans-unit>
 <trans-unit id="1050097" approved="yes">
 <source xml:space="preserve">Sign in with Facebook</source>
-<target state="translated" xml:space="preserve">使用 Facebook 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用Facebook帐户登录</target></trans-unit>
 <trans-unit id="1050098" approved="yes">
 <source xml:space="preserve">Sign in with Google</source>
-<target state="translated" xml:space="preserve">使用 Google 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用Google帐户登录</target></trans-unit>
 <trans-unit id="1050099" approved="yes">
 <source xml:space="preserve">Sign in with Steam</source>
-<target state="translated" xml:space="preserve">使用 Steam 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用Steam帐户登录</target></trans-unit>
 <trans-unit id="1050100" approved="yes">
 <source xml:space="preserve">Sign in with Twitter</source>
-<target state="translated" xml:space="preserve">使用 Twitter 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用Twitter帐户登录</target></trans-unit>
 <trans-unit id="1050101" approved="yes">
 <source xml:space="preserve">Sign in with Naver</source>
-<target state="translated" xml:space="preserve">使用 Nave 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用Naver帐户登录</target></trans-unit>
 <trans-unit id="1050102" approved="yes">
 <source xml:space="preserve">Sign in with Baidu</source>
-<target state="translated" xml:space="preserve">使用 Baidu 登录</target></trans-unit>
+<target state="translated" xml:space="preserve">使用百度帐户登录</target></trans-unit>
 <trans-unit id="1050103" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">错误</target></trans-unit>
@@ -517,7 +517,7 @@
 <target state="translated" xml:space="preserve">社交网络帐户认证失败。</target></trans-unit>
 <trans-unit id="1050106" approved="yes">
 <source xml:space="preserve">There was a problem with your request. Please try again.</source>
-<target state="translated" xml:space="preserve">您的请求遇到暂时性问题。请重试。</target></trans-unit>
+<target state="translated" xml:space="preserve">您的请求发生问题。请重试。</target></trans-unit>
 <trans-unit id="1050107" approved="yes">
 <source xml:space="preserve">Forgot password?</source>
 <target state="translated" xml:space="preserve">忘记密码？</target></trans-unit>
@@ -529,19 +529,19 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1050110" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">正在载入地区列表 - 请稍候</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载区域列表 - 请稍候</target></trans-unit>
 <trans-unit id="1050111" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载...</target></trans-unit>
 <trans-unit id="1050112" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<target state="translated" xml:space="preserve">查找游戏位置</target></trans-unit>
 <trans-unit id="1050113" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<target state="translated" xml:space="preserve">更改区域将会影响您在游戏中购买的物品、角色和游戏补丁</target></trans-unit>
 <trans-unit id="1050114" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<target state="translated" xml:space="preserve">向后</target></trans-unit>
 <trans-unit id="1050115" approved="yes">
 <source xml:space="preserve">Failed gettings characters information</source>
 <target state="translated" xml:space="preserve">获取角色信息失败</target></trans-unit>
@@ -550,7 +550,7 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1050117" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">认证失败</target></trans-unit>
+<target state="translated" xml:space="preserve">认证失败。</target></trans-unit>
 <trans-unit id="1050118" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">错误</target></trans-unit>
@@ -562,7 +562,7 @@
 <target state="translated" xml:space="preserve">发生错误，游戏安装失败<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
 <trans-unit id="1050121" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph>                            请重试。</target></trans-unit>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> 请重试。</target></trans-unit>
 <trans-unit id="1050122" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
 <target state="translated" xml:space="preserve">提供<ph id="ph1" ctype="x-smartcat">%1</ph>精彩视频！</target></trans-unit>
@@ -592,19 +592,19 @@
 <target state="translated" xml:space="preserve">游戏运行时无法关闭启动器</target></trans-unit>
 <trans-unit id="1050131" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 被 <ph id="ph2" ctype="x-smartcat">%2</ph> 邀请加入聊天。</target></trans-unit>
+<target state="translated" xml:space="preserve">用户<ph id="ph1" ctype="x-smartcat">%1</ph>被<ph id="ph2" ctype="x-smartcat">%2</ph>邀请加入聊天。</target></trans-unit>
 <trans-unit id="1050132" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
-<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 离开聊天</target></trans-unit>
+<target state="translated" xml:space="preserve">用户<ph id="ph1" ctype="x-smartcat">%1</ph>已离开聊天</target></trans-unit>
 <trans-unit id="1050133" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 被 <ph id="ph2" ctype="x-smartcat">%2</ph> 从聊天中移除</target></trans-unit>
+<target state="translated" xml:space="preserve">用户<ph id="ph1" ctype="x-smartcat">%1</ph>被<ph id="ph2" ctype="x-smartcat">%2</ph>从聊天中移除</target></trans-unit>
 <trans-unit id="1050134" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 创建了聊天 <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<target state="translated" xml:space="preserve">用户<ph id="ph1" ctype="x-smartcat">%1</ph>创建了聊天<ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
 <trans-unit id="1050135" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve">用户 <ph id="ph1" ctype="x-smartcat">%1</ph> 将聊天标题更改为 <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<target state="translated" xml:space="preserve">用户<ph id="ph1" ctype="x-smartcat">%1</ph>将聊天标题更改为<ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
 <trans-unit id="1050136" approved="yes">
 <source xml:space="preserve">Type a message</source>
 <target state="translated" xml:space="preserve">输入消息</target></trans-unit>
@@ -613,7 +613,7 @@
 <target state="translated" xml:space="preserve">发送</target></trans-unit>
 <trans-unit id="1050138" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> 已将您加入好友列表。将其也加入到您的好友列表并继续聊天。</target></trans-unit>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph>已将您加入好友列表。也将其加入您的好友列表并继续聊天。</target></trans-unit>
 <trans-unit id="1050139" approved="yes">
 <source xml:space="preserve">Confirm</source>
 <target state="translated" xml:space="preserve">确认</target></trans-unit>
@@ -625,22 +625,22 @@
 <target state="translated" xml:space="preserve">请选择聊天以开始发送消息</target></trans-unit>
 <trans-unit id="1050142" approved="yes">
 <source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="translated" xml:space="preserve">哎呀！少了点什么。这里似乎没有你的消息！</target></trans-unit>
+<target state="translated" xml:space="preserve">无法加载新闻，请稍后重试！</target></trans-unit>
 <trans-unit id="1050143" approved="yes">
 <source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="translated" xml:space="preserve">我们正在修理中世纪发动机（又名水车），请稍后再试！</target></trans-unit>
+<target state="translated" xml:space="preserve">无法加载新闻列表，请稍后重试！</target></trans-unit>
 <trans-unit id="1050144" approved="yes">
 <source xml:space="preserve">All News</source>
 <target state="translated" xml:space="preserve">全部新闻</target></trans-unit>
 <trans-unit id="1050145" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载...</target></trans-unit>
 <trans-unit id="1050146" approved="yes">
 <source xml:space="preserve">Region</source>
-<target state="translated" xml:space="preserve">地区</target></trans-unit>
+<target state="translated" xml:space="preserve">区域</target></trans-unit>
 <trans-unit id="1050147" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<target state="translated" xml:space="preserve">更改区域将会影响您在游戏中购买的物品、角色和游戏补丁</target></trans-unit>
 <trans-unit id="1050148" approved="yes">
 <source xml:space="preserve">New friend requests</source>
 <target state="translated" xml:space="preserve">添加好友请求</target></trans-unit>
@@ -664,7 +664,7 @@
 <target state="translated" xml:space="preserve">步骤1/2</target></trans-unit>
 <trans-unit id="1050155" approved="yes">
 <source xml:space="preserve">Welcome to chat. Set your username so your friends can find you.</source>
-<target state="translated" xml:space="preserve">欢迎使用聊天。请设置您的用户名以便好友能搜索到您。</target></trans-unit>
+<target state="translated" xml:space="preserve">欢迎使用聊天。请设置您的用户名以便好友可通过它搜索到您。</target></trans-unit>
 <trans-unit id="1050156" approved="yes">
 <source xml:space="preserve">Add a friend</source>
 <target state="translated" xml:space="preserve">添加好友</target></trans-unit>
@@ -676,10 +676,10 @@
 <target state="translated" xml:space="preserve">添加好友开始发送聊天消息。可输入电子邮件或昵称来搜索好友。</target></trans-unit>
 <trans-unit id="1050159" approved="yes">
 <source xml:space="preserve">+ Add</source>
-<target state="translated" xml:space="preserve">添加</target></trans-unit>
+<target state="translated" xml:space="preserve">+ 添加</target></trans-unit>
 <trans-unit id="1050160" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<target state="translated" xml:space="preserve">向后</target></trans-unit>
 <trans-unit id="1050161" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
@@ -715,22 +715,22 @@
 <target state="translated" xml:space="preserve">直接链接</target></trans-unit>
 <trans-unit id="1050172" approved="yes">
 <source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="translated" xml:space="preserve">连接您的社交网络 <ph id="ph1" ctype="x-smartcat">\n</ph>                            与好友一起玩游戏</target></trans-unit>
+<target state="translated" xml:space="preserve">连接您的社交网络<ph id="ph1" ctype="x-smartcat">\n</ph>                            与好友一起玩游戏</target></trans-unit>
 <trans-unit id="1050173" approved="yes">
 <source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="translated" xml:space="preserve">连接 <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<target state="translated" xml:space="preserve">连接<ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
 <trans-unit id="1050174" approved="yes">
 <source xml:space="preserve">Never show this window again</source>
 <target state="translated" xml:space="preserve">不再显示此窗口</target></trans-unit>
 <trans-unit id="1050175" approved="yes">
 <source xml:space="preserve">Skip</source>
 <target state="translated" xml:space="preserve">跳过</target></trans-unit>
-<trans-unit id="1050176" approved="no">
+<trans-unit id="1050176" approved="yes">
 <source xml:space="preserve">Visit us on:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1050177" approved="no">
+<target state="translated" xml:space="preserve">在社交网络上关注我们：</target></trans-unit>
+<trans-unit id="1050177" approved="yes">
 <source xml:space="preserve">Find us on Social Media</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">在社交媒体上找到我们</target></trans-unit>
 <trans-unit id="1050178" approved="yes">
 <source xml:space="preserve">Search</source>
 <target state="translated" xml:space="preserve">搜索</target></trans-unit>
@@ -739,7 +739,7 @@
 <target state="translated" xml:space="preserve">搜索</target></trans-unit>
 <trans-unit id="1050180" approved="yes">
 <source xml:space="preserve">Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
-<target state="translated" xml:space="preserve">根据昵称搜索<ph id="ph1" ctype="x-smartcat">%1</ph>好友</target></trans-unit>
+<target state="translated" xml:space="preserve">根据昵称搜<ph id="ph1" ctype="x-smartcat">%1</ph>好友</target></trans-unit>
 <trans-unit id="1050181" approved="yes">
 <source xml:space="preserve">Already playing</source>
 <target state="translated" xml:space="preserve">已在游戏中</target></trans-unit>
@@ -748,28 +748,28 @@
 <target state="translated" xml:space="preserve">邀请</target></trans-unit>
 <trans-unit id="1050183" approved="yes">
 <source xml:space="preserve">Sound section</source>
-<target state="translated" xml:space="preserve">声音选择</target></trans-unit>
+<target state="translated" xml:space="preserve">声音设置</target></trans-unit>
 <trans-unit id="1050184" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1050185" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">正在载入地区列表 - 请稍候</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载区域列表 - 请稍候</target></trans-unit>
 <trans-unit id="1050186" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载...</target></trans-unit>
 <trans-unit id="1050187" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<target state="translated" xml:space="preserve">查找游戏位置</target></trans-unit>
 <trans-unit id="1050188" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<target state="translated" xml:space="preserve">更改区域将会影响您在游戏中购买的物品、角色和游戏补丁</target></trans-unit>
 <trans-unit id="1050189" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<target state="translated" xml:space="preserve">向后</target></trans-unit>
 <trans-unit id="1050190" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">输入您的邮件地址</target></trans-unit>
+<target state="translated" xml:space="preserve">输入您的电子邮件地址</target></trans-unit>
 <trans-unit id="1050191" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
 <target state="translated" xml:space="preserve">确认邮件将会发送到指定邮箱</target></trans-unit>
@@ -778,7 +778,7 @@
 <target state="translated" xml:space="preserve">发送</target></trans-unit>
 <trans-unit id="1050193" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="translated" xml:space="preserve">邮件地址已被他人使用</target></trans-unit>
+<target state="translated" xml:space="preserve">邮件地址无效</target></trans-unit>
 <trans-unit id="1050194" approved="yes">
 <source xml:space="preserve">Email was sent</source>
 <target state="translated" xml:space="preserve">邮件已发送</target></trans-unit>
@@ -790,10 +790,10 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1050197" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">认证失败</target></trans-unit>
+<target state="translated" xml:space="preserve">认证失败。</target></trans-unit>
 <trans-unit id="1050198" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<target state="translated" xml:space="preserve">电子邮件</target></trans-unit>
 <trans-unit id="1050199" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">错误</target></trans-unit>
@@ -802,22 +802,22 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1050201" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">正在载入地区列表 - 请稍候</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载区域列表 - 请稍候</target></trans-unit>
 <trans-unit id="1050202" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">正在载入......</target></trans-unit>
+<target state="translated" xml:space="preserve">正在加载...</target></trans-unit>
 <trans-unit id="1050203" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">定位游戏</target></trans-unit>
+<target state="translated" xml:space="preserve">查找游戏位置</target></trans-unit>
 <trans-unit id="1050204" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">更改地区将会影响您的游戏内购、角色和游戏补丁</target></trans-unit>
+<target state="translated" xml:space="preserve">更改区域将会影响您在游戏中购买的物品、角色和游戏补丁</target></trans-unit>
 <trans-unit id="1050205" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">下一个</target></trans-unit>
+<target state="translated" xml:space="preserve">向后</target></trans-unit>
 <trans-unit id="1050206" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">输入您的邮件地址</target></trans-unit>
+<target state="translated" xml:space="preserve">输入您的电子邮件地址</target></trans-unit>
 <trans-unit id="1050207" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
 <target state="translated" xml:space="preserve">确认邮件将会发送到指定邮箱</target></trans-unit>
@@ -826,7 +826,7 @@
 <target state="translated" xml:space="preserve">发送</target></trans-unit>
 <trans-unit id="1050209" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="translated" xml:space="preserve">邮件地址已被他人使用</target></trans-unit>
+<target state="translated" xml:space="preserve">邮件地址无效</target></trans-unit>
 <trans-unit id="1050210" approved="yes">
 <source xml:space="preserve">Email was sent</source>
 <target state="translated" xml:space="preserve">邮件已发送</target></trans-unit>
@@ -838,16 +838,16 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1050213" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">认证失败</target></trans-unit>
+<target state="translated" xml:space="preserve">认证失败。</target></trans-unit>
 <trans-unit id="1050214" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<target state="translated" xml:space="preserve">电子邮件</target></trans-unit>
 <trans-unit id="1050215" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">错误</target></trans-unit>
 <trans-unit id="1050216" approved="yes">
 <source xml:space="preserve">Something goes wrong...</source>
-<target state="translated" xml:space="preserve">出现问题...</target></trans-unit>
+<target state="translated" xml:space="preserve">发生了错误...</target></trans-unit>
 <trans-unit id="1050217" approved="yes">
 <source xml:space="preserve">Store loading failed</source>
 <target state="translated" xml:space="preserve">加载商店失败</target></trans-unit>
@@ -863,12 +863,12 @@
 <trans-unit id="1050221" approved="yes">
 <source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
 <target state="translated" xml:space="preserve">请稍候，将不使用<ph id="ph1" ctype="x-smartcat">Steam overlay</ph>打开商店</target></trans-unit>
-<trans-unit id="1050222" approved="no">
+<trans-unit id="1050222" approved="yes">
 <source xml:space="preserve">Refresh</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1050223" approved="no">
+<target state="translated" xml:space="preserve">刷新</target></trans-unit>
+<trans-unit id="1050223" approved="yes">
 <source xml:space="preserve">Forward</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">向前</target></trans-unit>
 <trans-unit id="1050224" approved="yes">
 <source xml:space="preserve">Back</source>
 <target state="translated" xml:space="preserve">返回</target></trans-unit>
@@ -889,4 +889,4 @@
 <target state="translated" xml:space="preserve">关闭</target></trans-unit>
 <trans-unit id="1050230" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit></body></file></xliff>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>：启动器</target></trans-unit></body></file></xliff>

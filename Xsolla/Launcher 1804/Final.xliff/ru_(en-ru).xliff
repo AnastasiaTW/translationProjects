@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:05.47466Z" original="2148623_25" source-language="en" target-language="ru"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:45:12.4670892Z" original="2148623_25" source-language="en" target-language="ru"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
 <trans-unit id="1048746" approved="yes">
 <source xml:space="preserve">Username</source>
 <target state="translated" xml:space="preserve">Логин</target></trans-unit>
@@ -19,7 +19,7 @@
 <target state="translated" xml:space="preserve">Пригласить друзей в группу</target></trans-unit>
 <trans-unit id="1048752" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="translated" xml:space="preserve">Поиск друзей</target></trans-unit>
+<target state="translated" xml:space="preserve">Найти друзей</target></trans-unit>
 <trans-unit id="1048753" approved="yes">
 <source xml:space="preserve">Add</source>
 <target state="translated" xml:space="preserve">Добавить</target></trans-unit>
@@ -38,15 +38,15 @@
 <trans-unit id="1048758" approved="yes">
 <source xml:space="preserve">Loading regions:</source>
 <target state="translated" xml:space="preserve">Загрузка регионов:</target></trans-unit>
-<trans-unit id="1048759" approved="no">
+<trans-unit id="1048759" approved="yes">
 <source xml:space="preserve">Game ownership:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Владелец игры:</target></trans-unit>
 <trans-unit id="1048760" approved="yes">
 <source xml:space="preserve">Reload servers</source>
 <target state="translated" xml:space="preserve">Обновить серверы</target></trans-unit>
 <trans-unit id="1048761" approved="yes">
 <source xml:space="preserve">email</source>
-<target state="translated" xml:space="preserve">Email</target></trans-unit>
+<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
 <trans-unit id="1048762" approved="yes">
 <source xml:space="preserve">Password</source>
 <target state="translated" xml:space="preserve">Пароль</target></trans-unit>
@@ -73,7 +73,7 @@
 <target state="translated" xml:space="preserve">Введите от 5 до 20 символов</target></trans-unit>
 <trans-unit id="1048770" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Отменить</target></trans-unit>
+<target state="translated" xml:space="preserve">Отмена</target></trans-unit>
 <trans-unit id="1048771" approved="yes">
 <source xml:space="preserve">Save</source>
 <target state="translated" xml:space="preserve">Сохранить</target></trans-unit>
@@ -85,7 +85,7 @@
 <target state="translated" xml:space="preserve">Введите от 5 до 20 символов</target></trans-unit>
 <trans-unit id="1048774" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Отменить</target></trans-unit>
+<target state="translated" xml:space="preserve">Отмена</target></trans-unit>
 <trans-unit id="1048775" approved="yes">
 <source xml:space="preserve">Save</source>
 <target state="translated" xml:space="preserve">Сохранить</target></trans-unit>
@@ -109,7 +109,7 @@
 <target state="translated" xml:space="preserve">+ Добавить персонажа</target></trans-unit>
 <trans-unit id="1048782" approved="yes">
 <source xml:space="preserve">Done</source>
-<target state="translated" xml:space="preserve">OK</target></trans-unit>
+<target state="translated" xml:space="preserve">Готово</target></trans-unit>
 <trans-unit id="1048783" approved="yes">
 <source xml:space="preserve">Cancel</source>
 <target state="translated" xml:space="preserve">Отмена</target></trans-unit>
@@ -157,7 +157,7 @@
 <target state="translated" xml:space="preserve">Покинуть группу</target></trans-unit>
 <trans-unit id="1048798" approved="yes">
 <source xml:space="preserve">+ Create chat</source>
-<target state="translated" xml:space="preserve">Создать чат</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Создать чат</target></trans-unit>
 <trans-unit id="1048799" approved="yes">
 <source xml:space="preserve">+ Create channel</source>
 <target state="translated" xml:space="preserve">+ Создать канал</target></trans-unit>
@@ -166,7 +166,7 @@
 <target state="translated" xml:space="preserve">Выберите чат, чтобы начать общение</target></trans-unit>
 <trans-unit id="1048801" approved="yes">
 <source xml:space="preserve">Connect your social networks and find friends to play with</source>
-<target state="translated" xml:space="preserve">Добавьте аккаунты в социальных сетях и найдите игроков среди друзей</target></trans-unit>
+<target state="translated" xml:space="preserve">Добавьте аккаунты в социальных сетях и играйте с друзьями</target></trans-unit>
 <trans-unit id="1048802" approved="yes">
 <source xml:space="preserve">Connect Facebook</source>
 <target state="translated" xml:space="preserve">Добавить аккаунт Facebook</target></trans-unit>
@@ -196,7 +196,7 @@
 <target state="translated" xml:space="preserve">Участники</target></trans-unit>
 <trans-unit id="1048811" approved="yes">
 <source xml:space="preserve">+ Add members</source>
-<target state="translated" xml:space="preserve">Добавить участников</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Добавить участников</target></trans-unit>
 <trans-unit id="1048812" approved="yes">
 <source xml:space="preserve">Remove</source>
 <target state="translated" xml:space="preserve">Удалить</target></trans-unit>
@@ -205,10 +205,10 @@
 <target state="translated" xml:space="preserve">Создать чат</target></trans-unit>
 <trans-unit id="1048814" approved="yes">
 <source xml:space="preserve">Invite your friends to chat</source>
-<target state="translated" xml:space="preserve">пригласить друзей в чат</target></trans-unit>
+<target state="translated" xml:space="preserve">Пригласите друзей в чат</target></trans-unit>
 <trans-unit id="1048815" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="translated" xml:space="preserve">Поиск друзей</target></trans-unit>
+<target state="translated" xml:space="preserve">Найти друзей</target></trans-unit>
 <trans-unit id="1048816" approved="yes">
 <source xml:space="preserve">New group</source>
 <target state="translated" xml:space="preserve">Новая группа</target></trans-unit>
@@ -232,7 +232,7 @@
 <target state="translated" xml:space="preserve">Продолжить</target></trans-unit>
 <trans-unit id="1048823" approved="yes">
 <source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="translated" xml:space="preserve">Первый символ должен быть буквой. Максимальная длина — 20 символов.</target></trans-unit>
+<target state="translated" xml:space="preserve">Первый символ должен быть буквой латинского алфавита. Максимальная длина — 20 символов.</target></trans-unit>
 <trans-unit id="1048824" approved="yes">
 <source xml:space="preserve">Group chat name</source>
 <target state="translated" xml:space="preserve">Название чата</target></trans-unit>
@@ -244,7 +244,7 @@
 <target state="translated" xml:space="preserve">Пригласить друзей в группу</target></trans-unit>
 <trans-unit id="1048827" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="translated" xml:space="preserve">Поиск друзей</target></trans-unit>
+<target state="translated" xml:space="preserve">Найти друзей</target></trans-unit>
 <trans-unit id="1048828" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
@@ -271,7 +271,7 @@
 <target state="translated" xml:space="preserve">Отмена</target></trans-unit>
 <trans-unit id="1048836" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="translated" xml:space="preserve">Случилось непоправимое: твои руки и ноги ослабли, а зрение затуманилось. Забудь свои мечты и беги в ужасе!</target></trans-unit>
+<target state="translated" xml:space="preserve">Ошибка авторизации. Пожалуйста, авторизуйтесь повторно.</target></trans-unit>
 <trans-unit id="1048837" approved="yes">
 <source xml:space="preserve">Error</source>
 <target state="translated" xml:space="preserve">Ошибка</target></trans-unit>
@@ -343,7 +343,7 @@
 <target state="translated" xml:space="preserve">Друзья</target></trans-unit>
 <trans-unit id="1048860" approved="yes">
 <source xml:space="preserve">+ Find friends</source>
-<target state="translated" xml:space="preserve">Найти друзей</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Найти друзей</target></trans-unit>
 <trans-unit id="1048861" approved="yes">
 <source xml:space="preserve">Requests</source>
 <target state="translated" xml:space="preserve">Запросы</target></trans-unit>
@@ -361,19 +361,19 @@
 <target state="translated" xml:space="preserve">ИГРАТЬ</target></trans-unit>
 <trans-unit id="1048866" approved="yes">
 <source xml:space="preserve">INSTALL</source>
-<target state="translated" xml:space="preserve">УСТАНОВКА</target></trans-unit>
+<target state="translated" xml:space="preserve">УСТАНОВИТЬ</target></trans-unit>
 <trans-unit id="1048867" approved="yes">
 <source xml:space="preserve">Buy</source>
 <target state="translated" xml:space="preserve">Купить</target></trans-unit>
-<trans-unit id="1048868" approved="no">
+<trans-unit id="1048868" approved="yes">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Загрузка: <ph id="ph1" ctype="x-smartcat">%1</ph> из <ph id="ph2" ctype="x-smartcat">%2</ph> Мбайт на скорости <ph id="ph3" ctype="x-smartcat">%3</ph> Кбайт/с, пиров: <ph id="ph4" ctype="x-smartcat">%4</ph>, сидов: <ph id="ph5" ctype="x-smartcat">%5</ph></target></trans-unit>
 <trans-unit id="1048869" approved="yes">
 <source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
 <target state="translated" xml:space="preserve">Восстановление данных: остаётся <ph id="ph1" ctype="x-smartcat">%1</ph> Мбайт</target></trans-unit>
 <trans-unit id="1048870" approved="yes">
 <source xml:space="preserve">Nothing here. King is at loss</source>
-<target state="translated" xml:space="preserve">Здесь ничего нет. Король в недоумении</target></trans-unit>
+<target state="translated" xml:space="preserve">Не могу загрузить список баннеров. Попробуйте позже.</target></trans-unit>
 <trans-unit id="1048871" approved="yes">
 <source xml:space="preserve">Support</source>
 <target state="translated" xml:space="preserve">Поддержка</target></trans-unit>
@@ -382,7 +382,7 @@
 <target state="translated" xml:space="preserve">Если игра уже установлена</target></trans-unit>
 <trans-unit id="1048873" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Выбрать игру</target></trans-unit>
+<target state="translated" xml:space="preserve">Указать путь к игре</target></trans-unit>
 <trans-unit id="1048874" approved="yes">
 <source xml:space="preserve">Install</source>
 <target state="translated" xml:space="preserve">Установить</target></trans-unit>
@@ -424,7 +424,7 @@
 <target state="translated" xml:space="preserve">Установить</target></trans-unit>
 <trans-unit id="1048887" approved="yes">
 <source xml:space="preserve">Select path for install..</source>
-<target state="translated" xml:space="preserve">Выберите путь для установки..</target></trans-unit>
+<target state="translated" xml:space="preserve">Выберите путь для установки...</target></trans-unit>
 <trans-unit id="1048888" approved="yes">
 <source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
 <target state="translated" xml:space="preserve">Невозможно установить игру в данную папку. Пожалуйста, выберите другую папку для установки.</target></trans-unit>
@@ -442,7 +442,7 @@
 <target state="translated" xml:space="preserve">Загрузки</target></trans-unit>
 <trans-unit id="1048893" approved="yes">
 <source xml:space="preserve">Use p2p connection</source>
-<target state="translated" xml:space="preserve">Использовать P2P соединение</target></trans-unit>
+<target state="translated" xml:space="preserve">Использовать P2P-соединение</target></trans-unit>
 <trans-unit id="1048894" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse</source>
 <target state="translated" xml:space="preserve">Таймлапс <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
@@ -484,7 +484,7 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
 <trans-unit id="1048907" approved="yes">
 <source xml:space="preserve">Error! Network list is empty!</source>
-<target state="translated" xml:space="preserve">Ошибка! Список социальных сетей пуст!</target></trans-unit>
+<target state="translated" xml:space="preserve">Ошибка: список социальных сетей пуст!</target></trans-unit>
 <trans-unit id="1048908" approved="yes">
 <source xml:space="preserve">Sign in with VK</source>
 <target state="translated" xml:space="preserve">Войти через VK</target></trans-unit>
@@ -511,16 +511,16 @@
 <target state="translated" xml:space="preserve">Ошибка</target></trans-unit>
 <trans-unit id="1048916" approved="yes">
 <source xml:space="preserve">Failed loading social providers</source>
-<target state="translated" xml:space="preserve">Не удалось загрузить список социальных платформ</target></trans-unit>
+<target state="translated" xml:space="preserve">Не удалось загрузить список социальных сетей</target></trans-unit>
 <trans-unit id="1048917" approved="yes">
 <source xml:space="preserve">Social auth failed.</source>
 <target state="translated" xml:space="preserve">Ошибка авторизации в социальной сети.</target></trans-unit>
 <trans-unit id="1048918" approved="yes">
 <source xml:space="preserve">There was a problem with your request. Please try again.</source>
-<target state="translated" xml:space="preserve">Произошла ошибка при обработке вашего запроса. Пожалуйста, повторите попытку.</target></trans-unit>
+<target state="translated" xml:space="preserve">Ошибка при обработке запроса. Пожалуйста, повторите попытку.</target></trans-unit>
 <trans-unit id="1048919" approved="yes">
 <source xml:space="preserve">Forgot password?</source>
-<target state="translated" xml:space="preserve">Забыли ваш пароль?</target></trans-unit>
+<target state="translated" xml:space="preserve">Забыли пароль?</target></trans-unit>
 <trans-unit id="1048920" approved="yes">
 <source xml:space="preserve">Create an account</source>
 <target state="translated" xml:space="preserve">Создать аккаунт</target></trans-unit>
@@ -529,13 +529,13 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1048922" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Загружается список регионов, пожалуйста, подождите</target></trans-unit>
+<target state="translated" xml:space="preserve">Загружается список регионов. Пожалуйста, подождите</target></trans-unit>
 <trans-unit id="1048923" approved="yes">
 <source xml:space="preserve">Loading...</source>
 <target state="translated" xml:space="preserve">Загрузка...</target></trans-unit>
 <trans-unit id="1048924" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Выбрать игру</target></trans-unit>
+<target state="translated" xml:space="preserve">Указать путь к игре</target></trans-unit>
 <trans-unit id="1048925" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
 <target state="translated" xml:space="preserve">Смена региона повлияет на внутриигровые покупки, персонажей и патчи игры</target></trans-unit>
@@ -562,7 +562,7 @@
 <target state="translated" xml:space="preserve">Ошибка при установке игры<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
 <trans-unit id="1048933" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph>                                        Пожалуйста, повторите попытку.</target></trans-unit>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Пожалуйста, повторите попытку.</target></trans-unit>
 <trans-unit id="1048934" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
 <target state="translated" xml:space="preserve">Доступен таймлапс <ph id="ph1" ctype="x-smartcat">%1</ph>!</target></trans-unit>
@@ -625,10 +625,10 @@
 <target state="translated" xml:space="preserve">Выберите чат, чтобы начать общение</target></trans-unit>
 <trans-unit id="1048954" approved="yes">
 <source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="translated" xml:space="preserve">Ой! Ничего нет. Похоже ваши новости в другом замке!</target></trans-unit>
+<target state="translated" xml:space="preserve">Не могу загрузить новость. Пожалуйста, попробуйте позже.</target></trans-unit>
 <trans-unit id="1048955" approved="yes">
 <source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="translated" xml:space="preserve">В данный момент мы чиним наш средневековый генератор (водяное колесо), но вскоре вы можете повторить попытку снова!</target></trans-unit>
+<target state="translated" xml:space="preserve">Не могут загрузить список новостей. Пожалуйста, попробуйте позже.</target></trans-unit>
 <trans-unit id="1048956" approved="yes">
 <source xml:space="preserve">All News</source>
 <target state="translated" xml:space="preserve">Все новости</target></trans-unit>
@@ -664,7 +664,7 @@
 <target state="translated" xml:space="preserve">Шаг 1/2</target></trans-unit>
 <trans-unit id="1048967" approved="yes">
 <source xml:space="preserve">Welcome to chat. Set your username so your friends can find you.</source>
-<target state="translated" xml:space="preserve">Добро пожаловать в чат! Укажите логин, чтобы друзья могли вас найти.</target></trans-unit>
+<target state="translated" xml:space="preserve">Добро пожаловать в чат! Укажите свой ник, чтобы друзья могли вас найти.</target></trans-unit>
 <trans-unit id="1048968" approved="yes">
 <source xml:space="preserve">Add a friend</source>
 <target state="translated" xml:space="preserve">Добавить друга</target></trans-unit>
@@ -673,10 +673,10 @@
 <target state="translated" xml:space="preserve">Шаг 2/2</target></trans-unit>
 <trans-unit id="1048970" approved="yes">
 <source xml:space="preserve">Add friend to start messaging. Search by typing email or nickname.</source>
-<target state="translated" xml:space="preserve">Добавьте друга, чтобы начать общение. Введите email или ник для поиска.</target></trans-unit>
+<target state="translated" xml:space="preserve">Добавьте друга, чтобы начать общение. Введите e-mail или ник для поиска.</target></trans-unit>
 <trans-unit id="1048971" approved="yes">
 <source xml:space="preserve">+ Add</source>
-<target state="translated" xml:space="preserve">Добавить</target></trans-unit>
+<target state="translated" xml:space="preserve">+ Добавить</target></trans-unit>
 <trans-unit id="1048972" approved="yes">
 <source xml:space="preserve">Next</source>
 <target state="translated" xml:space="preserve">Продолжить</target></trans-unit>
@@ -706,7 +706,7 @@
 <target state="translated" xml:space="preserve">Отмена</target></trans-unit>
 <trans-unit id="1048981" approved="yes">
 <source xml:space="preserve">Done</source>
-<target state="translated" xml:space="preserve">OK</target></trans-unit>
+<target state="translated" xml:space="preserve">Готово</target></trans-unit>
 <trans-unit id="1048982" approved="yes">
 <source xml:space="preserve">Share</source>
 <target state="translated" xml:space="preserve">Поделиться</target></trans-unit>
@@ -715,7 +715,7 @@
 <target state="translated" xml:space="preserve">Ссылка</target></trans-unit>
 <trans-unit id="1048984" approved="yes">
 <source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="translated" xml:space="preserve">Подключите свои аккаунты в социальных сетях<ph id="ph1" ctype="x-smartcat">\n</ph>                           и играйте с друзьями</target></trans-unit>
+<target state="translated" xml:space="preserve">Подключите свои аккаунты в социальных сетях<ph id="ph1" ctype="x-smartcat">\n</ph> и играйте с друзьями</target></trans-unit>
 <trans-unit id="1048985" approved="yes">
 <source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
 <target state="translated" xml:space="preserve">Подключить: <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
@@ -725,12 +725,12 @@
 <trans-unit id="1048987" approved="yes">
 <source xml:space="preserve">Skip</source>
 <target state="translated" xml:space="preserve">Пропустить</target></trans-unit>
-<trans-unit id="1048988" approved="no">
+<trans-unit id="1048988" approved="yes">
 <source xml:space="preserve">Visit us on:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1048989" approved="no">
+<target state="translated" xml:space="preserve">Следите за обновлениями в:</target></trans-unit>
+<trans-unit id="1048989" approved="yes">
 <source xml:space="preserve">Find us on Social Media</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Мы в социальных сетях</target></trans-unit>
 <trans-unit id="1048990" approved="yes">
 <source xml:space="preserve">Search</source>
 <target state="translated" xml:space="preserve">Поиск</target></trans-unit>
@@ -754,13 +754,13 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1048997" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Загружается список регионов, пожалуйста, подождите</target></trans-unit>
+<target state="translated" xml:space="preserve">Загружается список регионов. Пожалуйста, подождите</target></trans-unit>
 <trans-unit id="1048998" approved="yes">
 <source xml:space="preserve">Loading...</source>
 <target state="translated" xml:space="preserve">Загрузка...</target></trans-unit>
 <trans-unit id="1048999" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Выбрать игру</target></trans-unit>
+<target state="translated" xml:space="preserve">Указать путь к игре</target></trans-unit>
 <trans-unit id="1049000" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
 <target state="translated" xml:space="preserve">Смена региона повлияет на внутриигровые покупки, персонажей и патчи игры</target></trans-unit>
@@ -769,22 +769,22 @@
 <target state="translated" xml:space="preserve">Продолжить</target></trans-unit>
 <trans-unit id="1049002" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">Введите email</target></trans-unit>
+<target state="translated" xml:space="preserve">Введите свой e-mail</target></trans-unit>
 <trans-unit id="1049003" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">Письмо с подтверждением регистрации будет отправлено на указанный email</target></trans-unit>
+<target state="translated" xml:space="preserve">Мы отправим на него письмо для подтверждения регистрации</target></trans-unit>
 <trans-unit id="1049004" approved="yes">
 <source xml:space="preserve">Send</source>
 <target state="translated" xml:space="preserve">Отправить</target></trans-unit>
 <trans-unit id="1049005" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="translated" xml:space="preserve">Указан неверный email</target></trans-unit>
+<target state="translated" xml:space="preserve">Указан неверный e-mail</target></trans-unit>
 <trans-unit id="1049006" approved="yes">
 <source xml:space="preserve">Email was sent</source>
-<target state="translated" xml:space="preserve">Письмо было отправлено</target></trans-unit>
+<target state="translated" xml:space="preserve">Письмо отправлено</target></trans-unit>
 <trans-unit id="1049007" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">Пожалуйста, проверьте Ваш email и подтвердите регистрацию</target></trans-unit>
+<target state="translated" xml:space="preserve">Пожалуйста, проверьте вашу почту и подтвердите регистрацию</target></trans-unit>
 <trans-unit id="1049008" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
@@ -802,13 +802,13 @@
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
 <trans-unit id="1049013" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Загружается список регионов, пожалуйста, подождите</target></trans-unit>
+<target state="translated" xml:space="preserve">Загружается список регионов. Пожалуйста, подождите</target></trans-unit>
 <trans-unit id="1049014" approved="yes">
 <source xml:space="preserve">Loading...</source>
 <target state="translated" xml:space="preserve">Загрузка...</target></trans-unit>
 <trans-unit id="1049015" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Выбрать игру</target></trans-unit>
+<target state="translated" xml:space="preserve">Указать путь к игре</target></trans-unit>
 <trans-unit id="1049016" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
 <target state="translated" xml:space="preserve">Смена региона повлияет на внутриигровые покупки, персонажей и патчи игры</target></trans-unit>
@@ -817,22 +817,22 @@
 <target state="translated" xml:space="preserve">Продолжить</target></trans-unit>
 <trans-unit id="1049018" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">Введите email</target></trans-unit>
+<target state="translated" xml:space="preserve">Введите свой e-mail</target></trans-unit>
 <trans-unit id="1049019" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">Письмо с подтверждением регистрации будет отправлено на указанный email</target></trans-unit>
+<target state="translated" xml:space="preserve">Мы отправим на него письмо для подтверждения регистрации</target></trans-unit>
 <trans-unit id="1049020" approved="yes">
 <source xml:space="preserve">Send</source>
 <target state="translated" xml:space="preserve">Отправить</target></trans-unit>
 <trans-unit id="1049021" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="translated" xml:space="preserve">Указан неверный email</target></trans-unit>
+<target state="translated" xml:space="preserve">Указан неверный e-mail</target></trans-unit>
 <trans-unit id="1049022" approved="yes">
 <source xml:space="preserve">Email was sent</source>
-<target state="translated" xml:space="preserve">Письмо было отправлено</target></trans-unit>
+<target state="translated" xml:space="preserve">Письмо отправлено</target></trans-unit>
 <trans-unit id="1049023" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">Пожалуйста, проверьте Ваш email и подтвердите регистрацию</target></trans-unit>
+<target state="translated" xml:space="preserve">Пожалуйста, проверьте вашу почту и подтвердите регистрацию</target></trans-unit>
 <trans-unit id="1049024" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
 <target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
@@ -863,12 +863,12 @@
 <trans-unit id="1049033" approved="yes">
 <source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
 <target state="translated" xml:space="preserve">Загрузка магазина без <ph id="ph1" ctype="x-smartcat">Steam overlay</ph> — пожалуйста, подождите...</target></trans-unit>
-<trans-unit id="1049034" approved="no">
+<trans-unit id="1049034" approved="yes">
 <source xml:space="preserve">Refresh</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049035" approved="no">
+<target state="translated" xml:space="preserve">Обновить</target></trans-unit>
+<trans-unit id="1049035" approved="yes">
 <source xml:space="preserve">Forward</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
+<target state="translated" xml:space="preserve">Вперед</target></trans-unit>
 <trans-unit id="1049036" approved="yes">
 <source xml:space="preserve">Back</source>
 <target state="translated" xml:space="preserve">Назад</target></trans-unit>
@@ -883,10 +883,10 @@
 <target state="translated" xml:space="preserve">Распаковка ресурсов...</target></trans-unit>
 <trans-unit id="1049040" approved="yes">
 <source xml:space="preserve">World is loading</source>
-<target state="translated" xml:space="preserve">Мир загружается</target></trans-unit>
+<target state="translated" xml:space="preserve">Загрузка мира</target></trans-unit>
 <trans-unit id="1049041" approved="yes">
 <source xml:space="preserve">Close</source>
 <target state="translated" xml:space="preserve">Закрыть</target></trans-unit>
 <trans-unit id="1049042" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit></body></file></xliff>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: запуск</target></trans-unit></body></file></xliff>

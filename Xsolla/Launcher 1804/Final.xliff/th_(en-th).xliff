@@ -1,892 +1,892 @@
-<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:05.5516594Z" original="2148624_30" source-language="en" target-language="th"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
-<trans-unit id="1049043" approved="no">
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:45:12.5295895Z" original="2148624_30" source-language="en" target-language="th"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
+<trans-unit id="1049043" approved="yes">
 <source xml:space="preserve">Username</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049044" approved="no">
+<target state="translated" xml:space="preserve">ชื่อผู้ใช้</target></trans-unit>
+<trans-unit id="1049044" approved="yes">
 <source xml:space="preserve">Edit</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049045" approved="no">
+<target state="translated" xml:space="preserve">แก้ไข</target></trans-unit>
+<trans-unit id="1049045" approved="yes">
 <source xml:space="preserve">Disconnect</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049046" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิกการเชื่อมต่อ</target></trans-unit>
+<trans-unit id="1049046" approved="yes">
 <source xml:space="preserve">Add another network</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049047" approved="no">
+<target state="translated" xml:space="preserve">เพิ่มเครือข่ายอื่น</target></trans-unit>
+<trans-unit id="1049047" approved="yes">
 <source xml:space="preserve">Add users</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049048" approved="no">
+<target state="translated" xml:space="preserve">เพิ่มผู้ใช้</target></trans-unit>
+<trans-unit id="1049048" approved="yes">
 <source xml:space="preserve">Invite friends to group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049049" approved="no">
+<target state="translated" xml:space="preserve">ชวนเพื่อนเข้ากลุ่ม</target></trans-unit>
+<trans-unit id="1049049" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049050" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาเพื่อน</target></trans-unit>
+<trans-unit id="1049050" approved="yes">
 <source xml:space="preserve">Add</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049051" approved="no">
+<target state="translated" xml:space="preserve">เพิ่ม</target></trans-unit>
+<trans-unit id="1049051" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049052" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049052" approved="yes">
 <source xml:space="preserve">Game Servers Problem</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049053" approved="no">
+<target state="translated" xml:space="preserve">เซิร์ฟเวอร์เกมมีปัญหา</target></trans-unit>
+<trans-unit id="1049053" approved="yes">
 <source xml:space="preserve">We're experiencing technical problem with game servers. Please click Reload to check status.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049054" approved="no">
+<target state="translated" xml:space="preserve">เรากำลังมีปัญหาทางเทคนิคกับเซิร์ฟเวอร์เกม โปรดคลิกรีโหลดเพื่อตรวจสอบสถานะ</target></trans-unit>
+<trans-unit id="1049054" approved="yes">
 <source xml:space="preserve">Loading characters:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049055" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลดตัวละคร:</target></trans-unit>
+<trans-unit id="1049055" approved="yes">
 <source xml:space="preserve">Loading regions:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049056" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลดภูมิภาค:</target></trans-unit>
+<trans-unit id="1049056" approved="yes">
 <source xml:space="preserve">Game ownership:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049057" approved="no">
+<target state="translated" xml:space="preserve">ความเป็นเจ้าของเกม:</target></trans-unit>
+<trans-unit id="1049057" approved="yes">
 <source xml:space="preserve">Reload servers</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049058" approved="no">
+<target state="translated" xml:space="preserve">รีโหลดเซิร์ฟเวอร์</target></trans-unit>
+<trans-unit id="1049058" approved="yes">
 <source xml:space="preserve">email</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049059" approved="no">
+<target state="translated" xml:space="preserve">อีเมล</target></trans-unit>
+<trans-unit id="1049059" approved="yes">
 <source xml:space="preserve">Password</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049060" approved="no">
+<target state="translated" xml:space="preserve">รหัสผ่าน</target></trans-unit>
+<trans-unit id="1049060" approved="yes">
 <source xml:space="preserve">Remember me</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049061" approved="no">
+<target state="translated" xml:space="preserve">จดจำฉัน</target></trans-unit>
+<trans-unit id="1049061" approved="yes">
 <source xml:space="preserve">LOADING</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049062" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลด</target></trans-unit>
+<trans-unit id="1049062" approved="yes">
 <source xml:space="preserve">SIGN IN</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049063" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้</target></trans-unit>
+<trans-unit id="1049063" approved="yes">
 <source xml:space="preserve">players</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049064" approved="no">
+<target state="translated" xml:space="preserve">ผู้เล่น</target></trans-unit>
+<trans-unit id="1049064" approved="yes">
 <source xml:space="preserve">Change character</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049065" approved="no">
+<target state="translated" xml:space="preserve">เปลี่ยนตัวละคร</target></trans-unit>
+<trans-unit id="1049065" approved="yes">
 <source xml:space="preserve">Edit chat title</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049066" approved="no">
+<target state="translated" xml:space="preserve">แก้ไขหัวข้อสนทนา</target></trans-unit>
+<trans-unit id="1049066" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049067" approved="no">
+<target state="translated" xml:space="preserve">โปรดใช้ 5 ถึง 20 ตัวอักษร</target></trans-unit>
+<trans-unit id="1049067" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049068" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049068" approved="yes">
 <source xml:space="preserve">Save</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049069" approved="no">
+<target state="translated" xml:space="preserve">บันทึก</target></trans-unit>
+<trans-unit id="1049069" approved="yes">
 <source xml:space="preserve">Edit username</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049070" approved="no">
+<target state="translated" xml:space="preserve">แก้ไขชื่อผู้ใช้</target></trans-unit>
+<trans-unit id="1049070" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049071" approved="no">
+<target state="translated" xml:space="preserve">โปรดใช้ 5 ถึง 20 ตัวอักษร</target></trans-unit>
+<trans-unit id="1049071" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049072" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049072" approved="yes">
 <source xml:space="preserve">Save</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049073" approved="no">
+<target state="translated" xml:space="preserve">บันทึก</target></trans-unit>
+<trans-unit id="1049073" approved="yes">
 <source xml:space="preserve">Character Selection</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049074" approved="no">
+<target state="translated" xml:space="preserve">การเลือกตัวละคร</target></trans-unit>
+<trans-unit id="1049074" approved="yes">
 <source xml:space="preserve">Name</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049075" approved="no">
+<target state="translated" xml:space="preserve">ชื่อ</target></trans-unit>
+<trans-unit id="1049075" approved="yes">
 <source xml:space="preserve">World</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049076" approved="no">
+<target state="translated" xml:space="preserve">โลก</target></trans-unit>
+<trans-unit id="1049076" approved="yes">
 <source xml:space="preserve">Workload</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049077" approved="no">
+<target state="translated" xml:space="preserve">จำนวนงาน</target></trans-unit>
+<trans-unit id="1049077" approved="yes">
 <source xml:space="preserve">Status</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049078" approved="no">
+<target state="translated" xml:space="preserve">สถานะ</target></trans-unit>
+<trans-unit id="1049078" approved="yes">
 <source xml:space="preserve">+ Add character</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049079" approved="no">
+<target state="translated" xml:space="preserve">+ เพิ่มตัวละคร</target></trans-unit>
+<trans-unit id="1049079" approved="yes">
 <source xml:space="preserve">Done</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049080" approved="no">
+<target state="translated" xml:space="preserve">เสร็จ</target></trans-unit>
+<trans-unit id="1049080" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049081" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049081" approved="yes">
 <source xml:space="preserve">Available</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049082" approved="no">
+<target state="translated" xml:space="preserve">ว่าง</target></trans-unit>
+<trans-unit id="1049082" approved="yes">
 <source xml:space="preserve">Unavailable</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049083" approved="no">
+<target state="translated" xml:space="preserve">ไม่ว่าง</target></trans-unit>
+<trans-unit id="1049083" approved="yes">
 <source xml:space="preserve">World is full</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049084" approved="no">
+<target state="translated" xml:space="preserve">โลกเต็ม</target></trans-unit>
+<trans-unit id="1049084" approved="yes">
 <source xml:space="preserve">Online</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049085" approved="no">
+<target state="translated" xml:space="preserve">ออนไลน์</target></trans-unit>
+<trans-unit id="1049085" approved="yes">
 <source xml:space="preserve">In game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049086" approved="no">
+<target state="translated" xml:space="preserve">อยู่ในเกม</target></trans-unit>
+<trans-unit id="1049086" approved="yes">
 <source xml:space="preserve">Away</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049087" approved="no">
+<target state="translated" xml:space="preserve">ไม่อยู่</target></trans-unit>
+<trans-unit id="1049087" approved="yes">
 <source xml:space="preserve">Offline</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049088" approved="no">
+<target state="translated" xml:space="preserve">ออฟไลน์</target></trans-unit>
+<trans-unit id="1049088" approved="yes">
 <source xml:space="preserve">Chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049089" approved="no">
+<target state="translated" xml:space="preserve">สนทนา</target></trans-unit>
+<trans-unit id="1049089" approved="yes">
 <source xml:space="preserve">No users found</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049090" approved="no">
+<target state="translated" xml:space="preserve">ไม่พบผู้ใช้</target></trans-unit>
+<trans-unit id="1049090" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049091" approved="no">
+<target state="translated" xml:space="preserve">ค้นหา</target></trans-unit>
+<trans-unit id="1049091" approved="yes">
 <source xml:space="preserve">Enable notifications</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049092" approved="no">
+<target state="translated" xml:space="preserve">เปิดใช้งานการแจ้งเตือน</target></trans-unit>
+<trans-unit id="1049092" approved="yes">
 <source xml:space="preserve">Disable notifications</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049093" approved="no">
+<target state="translated" xml:space="preserve">ปิดการใช้งานการแจ้งเตือน</target></trans-unit>
+<trans-unit id="1049093" approved="yes">
 <source xml:space="preserve">Settings</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049094" approved="no">
+<target state="translated" xml:space="preserve">การตั้งค่า</target></trans-unit>
+<trans-unit id="1049094" approved="yes">
 <source xml:space="preserve">Leave group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049095" approved="no">
+<target state="translated" xml:space="preserve">ออกจากกลุ่ม</target></trans-unit>
+<trans-unit id="1049095" approved="yes">
 <source xml:space="preserve">+ Create chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049096" approved="no">
+<target state="translated" xml:space="preserve">+ สร้างการสนทนา</target></trans-unit>
+<trans-unit id="1049096" approved="yes">
 <source xml:space="preserve">+ Create channel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049097" approved="no">
+<target state="translated" xml:space="preserve">+ สร้างช่อง</target></trans-unit>
+<trans-unit id="1049097" approved="yes">
 <source xml:space="preserve">Please select chat to start messaging</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049098" approved="no">
+<target state="translated" xml:space="preserve">โปรดเลือกการสนทนาเพื่อเริ่มส่งข้อความ</target></trans-unit>
+<trans-unit id="1049098" approved="yes">
 <source xml:space="preserve">Connect your social networks and find friends to play with</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049099" approved="no">
+<target state="translated" xml:space="preserve">เชื่อมต่อกับเครือข่ายโซเชียลของคุณ และค้นหาเพื่อนเล่น</target></trans-unit>
+<trans-unit id="1049099" approved="yes">
 <source xml:space="preserve">Connect Facebook</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049100" approved="no">
+<target state="translated" xml:space="preserve">เชื่อมต่อกับ Facebook</target></trans-unit>
+<trans-unit id="1049100" approved="yes">
 <source xml:space="preserve">Connect VK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049101" approved="no">
+<target state="translated" xml:space="preserve">เชื่อมต่อกับ VK</target></trans-unit>
+<trans-unit id="1049101" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049102" approved="no">
+<target state="translated" xml:space="preserve">ค้นหา</target></trans-unit>
+<trans-unit id="1049102" approved="yes">
 <source xml:space="preserve">Never show this window again</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049103" approved="no">
+<target state="translated" xml:space="preserve">ไม่ต้องแสดงหน้าต่างนี้อีก</target></trans-unit>
+<trans-unit id="1049103" approved="yes">
 <source xml:space="preserve">Skip</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049104" approved="no">
+<target state="translated" xml:space="preserve">ข้าม</target></trans-unit>
+<trans-unit id="1049104" approved="yes">
 <source xml:space="preserve">Back to chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049105" approved="no">
+<target state="translated" xml:space="preserve">กลับไปที่การสนทนา</target></trans-unit>
+<trans-unit id="1049105" approved="yes">
 <source xml:space="preserve">members: <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049106" approved="no">
+<target state="translated" xml:space="preserve">สมาชิก: <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1049106" approved="yes">
 <source xml:space="preserve">Edit</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049107" approved="no">
+<target state="translated" xml:space="preserve">แก้ไข</target></trans-unit>
+<trans-unit id="1049107" approved="yes">
 <source xml:space="preserve">Members</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049108" approved="no">
+<target state="translated" xml:space="preserve">สมาชิก</target></trans-unit>
+<trans-unit id="1049108" approved="yes">
 <source xml:space="preserve">+ Add members</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049109" approved="no">
+<target state="translated" xml:space="preserve">+ เพิ่มสมาชิก</target></trans-unit>
+<trans-unit id="1049109" approved="yes">
 <source xml:space="preserve">Remove</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049110" approved="no">
+<target state="translated" xml:space="preserve">ลบ</target></trans-unit>
+<trans-unit id="1049110" approved="yes">
 <source xml:space="preserve">Create chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049111" approved="no">
+<target state="translated" xml:space="preserve">สร้างการสนทนา</target></trans-unit>
+<trans-unit id="1049111" approved="yes">
 <source xml:space="preserve">Invite your friends to chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049112" approved="no">
+<target state="translated" xml:space="preserve">ชวนเพื่อนเข้าร่วมการสนทนา</target></trans-unit>
+<trans-unit id="1049112" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049113" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาเพื่อน</target></trans-unit>
+<trans-unit id="1049113" approved="yes">
 <source xml:space="preserve">New group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049114" approved="no">
+<target state="translated" xml:space="preserve">กลุ่มใหม่</target></trans-unit>
+<trans-unit id="1049114" approved="yes">
 <source xml:space="preserve">New group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049115" approved="no">
+<target state="translated" xml:space="preserve">กลุ่มใหม่</target></trans-unit>
+<trans-unit id="1049115" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049116" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049116" approved="yes">
 <source xml:space="preserve">Add friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049117" approved="no">
+<target state="translated" xml:space="preserve">เพิ่มเพื่อน</target></trans-unit>
+<trans-unit id="1049117" approved="yes">
 <source xml:space="preserve">Back</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049118" approved="no">
+<target state="translated" xml:space="preserve">ย้อนกลับ</target></trans-unit>
+<trans-unit id="1049118" approved="yes">
 <source xml:space="preserve">Step <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049119" approved="no">
+<target state="translated" xml:space="preserve">ขั้นตอนที่ <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1049119" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049120" approved="no">
+<target state="translated" xml:space="preserve">ถัดไป</target></trans-unit>
+<trans-unit id="1049120" approved="yes">
 <source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049121" approved="no">
+<target state="translated" xml:space="preserve">ตั้งชื่อกลุ่มของคุณ โดยเริ่มด้นด้วยตัวอักษร ชื่อไม่ควรยาวกว่า 20 ตัวอักษร</target></trans-unit>
+<trans-unit id="1049121" approved="yes">
 <source xml:space="preserve">Group chat name</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049122" approved="no">
+<target state="translated" xml:space="preserve">ชื่อกลุ่มสนทนา</target></trans-unit>
+<trans-unit id="1049122" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049123" approved="no">
+<target state="translated" xml:space="preserve">โปรดใช้ 5 ถึง 20 ตัวอักษร</target></trans-unit>
+<trans-unit id="1049123" approved="yes">
 <source xml:space="preserve">Invite friends to group</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049124" approved="no">
+<target state="translated" xml:space="preserve">ชวนเพื่อนเข้ากลุ่ม</target></trans-unit>
+<trans-unit id="1049124" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049125" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาเพื่อน</target></trans-unit>
+<trans-unit id="1049125" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049126" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049126" approved="yes">
 <source xml:space="preserve">Error Report</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049127" approved="no">
+<target state="translated" xml:space="preserve">รายงานข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049127" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049128" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049128" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Application will be closed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049129" approved="no">
+<target state="translated" xml:space="preserve">มีข้อผิดพลาดร้ายแรงเกิดขึ้น แอปพลิเคชันจะปิดตัวลง</target></trans-unit>
+<trans-unit id="1049129" approved="yes">
 <source xml:space="preserve">Sending error data</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049130" approved="no">
+<target state="translated" xml:space="preserve">กำลังส่งข้อมูลข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049130" approved="yes">
 <source xml:space="preserve">Report problem</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049131" approved="no">
+<target state="translated" xml:space="preserve">รายงานปัญหา</target></trans-unit>
+<trans-unit id="1049131" approved="yes">
 <source xml:space="preserve">OK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049132" approved="no">
+<target state="translated" xml:space="preserve">ตกลง</target></trans-unit>
+<trans-unit id="1049132" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049133" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049133" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049134" approved="no">
+<target state="translated" xml:space="preserve">มีข้อผิดพลาดร้ายแรงเกิดขึ้น การรับรองสิทธิการใช้งานผิดพลาด โปรดเข้าสู่ระบบอีกครั้ง</target></trans-unit>
+<trans-unit id="1049134" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049135" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049135" approved="yes">
 <source xml:space="preserve">OK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049136" approved="no">
+<target state="translated" xml:space="preserve">ตกลง</target></trans-unit>
+<trans-unit id="1049136" approved="yes">
 <source xml:space="preserve">Search friends by nickname</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049137" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาเพื่อนด้วยชื่อเล่น</target></trans-unit>
+<trans-unit id="1049137" approved="yes">
 <source xml:space="preserve">No users found</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049138" approved="no">
+<target state="translated" xml:space="preserve">ไม่พบผู้ใช้</target></trans-unit>
+<trans-unit id="1049138" approved="yes">
 <source xml:space="preserve">Request sent</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049139" approved="no">
+<target state="translated" xml:space="preserve">ส่งคำขอแล้ว</target></trans-unit>
+<trans-unit id="1049139" approved="yes">
 <source xml:space="preserve">Send request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049140" approved="no">
+<target state="translated" xml:space="preserve">ส่งคำขอ</target></trans-unit>
+<trans-unit id="1049140" approved="yes">
 <source xml:space="preserve">Send request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049141" approved="no">
+<target state="translated" xml:space="preserve">ส่งคำขอ</target></trans-unit>
+<trans-unit id="1049141" approved="yes">
 <source xml:space="preserve">Request send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049142" approved="no">
+<target state="translated" xml:space="preserve">ส่งคำขอแล้ว</target></trans-unit>
+<trans-unit id="1049142" approved="yes">
 <source xml:space="preserve">Invite</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049143" approved="no">
+<target state="translated" xml:space="preserve">ชวน</target></trans-unit>
+<trans-unit id="1049143" approved="yes">
 <source xml:space="preserve">Invited</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049144" approved="no">
+<target state="translated" xml:space="preserve">ชวนแล้ว</target></trans-unit>
+<trans-unit id="1049144" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049145" approved="no">
+<target state="translated" xml:space="preserve">ลบ</target></trans-unit>
+<trans-unit id="1049145" approved="yes">
 <source xml:space="preserve">Confirm</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049146" approved="no">
+<target state="translated" xml:space="preserve">ยืนยัน</target></trans-unit>
+<trans-unit id="1049146" approved="yes">
 <source xml:space="preserve">Cancel request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049147" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิกคำขอ</target></trans-unit>
+<trans-unit id="1049147" approved="yes">
 <source xml:space="preserve">Playing <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049148" approved="no">
+<target state="translated" xml:space="preserve">กำลังเล่น <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049148" approved="yes">
 <source xml:space="preserve">Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049149" approved="no">
+<target state="translated" xml:space="preserve">ออนไลน์ล่าสุด: <ph id="ph1" ctype="x-smartcat">%1</ph> ชั่วโมงที่แล้ว</target></trans-unit>
+<trans-unit id="1049149" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friend</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049150" approved="no">
+<target state="translated" xml:space="preserve">เพื่อนที่มีร่วมกัน <ph id="ph1" ctype="x-smartcat">%1</ph> คน</target></trans-unit>
+<trans-unit id="1049150" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049151" approved="no">
+<target state="translated" xml:space="preserve">เพื่อนที่มีร่วมกัน <ph id="ph1" ctype="x-smartcat">%1</ph> คน</target></trans-unit>
+<trans-unit id="1049151" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049152" approved="no">
+<target state="translated" xml:space="preserve">ลบ</target></trans-unit>
+<trans-unit id="1049152" approved="yes">
 <source xml:space="preserve">Block</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049153" approved="no">
+<target state="translated" xml:space="preserve">บล็อก</target></trans-unit>
+<trans-unit id="1049153" approved="yes">
 <source xml:space="preserve">Start chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049154" approved="no">
+<target state="translated" xml:space="preserve">เริ่มสนทนา</target></trans-unit>
+<trans-unit id="1049154" approved="yes">
 <source xml:space="preserve">Unblock</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049155" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิกการบล็อก</target></trans-unit>
+<trans-unit id="1049155" approved="yes">
 <source xml:space="preserve">Add a Friend</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049156" approved="no">
+<target state="translated" xml:space="preserve">เพิ่มเพื่อน</target></trans-unit>
+<trans-unit id="1049156" approved="yes">
 <source xml:space="preserve">Friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049157" approved="no">
+<target state="translated" xml:space="preserve">เพื่อน</target></trans-unit>
+<trans-unit id="1049157" approved="yes">
 <source xml:space="preserve">+ Find friends</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049158" approved="no">
+<target state="translated" xml:space="preserve">+ ค้นหาเพื่อน</target></trans-unit>
+<trans-unit id="1049158" approved="yes">
 <source xml:space="preserve">Requests</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049159" approved="no">
+<target state="translated" xml:space="preserve">คำขอ</target></trans-unit>
+<trans-unit id="1049159" approved="yes">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049160" approved="no">
+<target state="translated" xml:space="preserve">กำลังดาวน์โหลด: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb จาก <ph id="ph2" ctype="x-smartcat">%2</ph> Mb ที่ความเร็ว <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</target></trans-unit>
+<trans-unit id="1049160" approved="yes">
 <source xml:space="preserve">Extracting: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb remaining</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049161" approved="no">
+<target state="translated" xml:space="preserve">กำลังคลายไฟล์: เหลืออีก <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb</target></trans-unit>
+<trans-unit id="1049161" approved="yes">
 <source xml:space="preserve">Uninstalling: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049162" approved="no">
+<target state="translated" xml:space="preserve">กำลังยกเลิกการติดตั้ง: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<trans-unit id="1049162" approved="yes">
 <source xml:space="preserve">PLAY</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049163" approved="no">
+<target state="translated" xml:space="preserve">เล่น</target></trans-unit>
+<trans-unit id="1049163" approved="yes">
 <source xml:space="preserve">INSTALL</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049164" approved="no">
+<target state="translated" xml:space="preserve">ติดตั้ง</target></trans-unit>
+<trans-unit id="1049164" approved="yes">
 <source xml:space="preserve">Buy</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049165" approved="no">
+<target state="translated" xml:space="preserve">ซื้อ</target></trans-unit>
+<trans-unit id="1049165" approved="yes">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049166" approved="no">
+<target state="translated" xml:space="preserve">กำลังดาวน์โหลด: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb จาก <ph id="ph2" ctype="x-smartcat">%2</ph> Mb ที่ความเร็ว <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></target></trans-unit>
+<trans-unit id="1049166" approved="yes">
 <source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049167" approved="no">
+<target state="translated" xml:space="preserve">กำลังซ่อมแซมข้อมูล: เหลืออีก <ph id="ph1" ctype="x-smartcat">%1</ph> Mb</target></trans-unit>
+<trans-unit id="1049167" approved="yes">
 <source xml:space="preserve">Nothing here. King is at loss</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049168" approved="no">
+<target state="translated" xml:space="preserve">ไม่สามารถโหลดรายการแบนเนอร์ โปรดลองอีกครั้งภายหลัง</target></trans-unit>
+<trans-unit id="1049168" approved="yes">
 <source xml:space="preserve">Support</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049169" approved="no">
+<target state="translated" xml:space="preserve">สนับสนุน</target></trans-unit>
+<trans-unit id="1049169" approved="yes">
 <source xml:space="preserve">If the game is already installed</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049170" approved="no">
+<target state="translated" xml:space="preserve">หากติดตั้งเกมเรียบร้อยแล้ว</target></trans-unit>
+<trans-unit id="1049170" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049171" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาที่ตั้งเกม</target></trans-unit>
+<trans-unit id="1049171" approved="yes">
 <source xml:space="preserve">Install</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049172" approved="no">
+<target state="translated" xml:space="preserve">ติดตั้ง</target></trans-unit>
+<trans-unit id="1049172" approved="yes">
 <source xml:space="preserve">Community</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049173" approved="no">
+<target state="translated" xml:space="preserve">ชุมชน</target></trans-unit>
+<trans-unit id="1049173" approved="yes">
 <source xml:space="preserve">Repair</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049174" approved="no">
+<target state="translated" xml:space="preserve">ซ่อมแซม</target></trans-unit>
+<trans-unit id="1049174" approved="yes">
 <source xml:space="preserve">Uninstall</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049175" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิกการติดตั้ง</target></trans-unit>
+<trans-unit id="1049175" approved="yes">
 <source xml:space="preserve">Options</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049176" approved="no">
+<target state="translated" xml:space="preserve">ตัวเลือก</target></trans-unit>
+<trans-unit id="1049176" approved="yes">
 <source xml:space="preserve">Can't find game in selected folder.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049177" approved="no">
+<target state="translated" xml:space="preserve">ไม่พบเกมในโฟลเดอร์ที่เลือก</target></trans-unit>
+<trans-unit id="1049177" approved="yes">
 <source xml:space="preserve">You cannot use selected game for the current region.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049178" approved="no">
+<target state="translated" xml:space="preserve">คุณไม่สามารถใช้เกมที่เลือกสำหรับภูมิภาคปัจจุบัน</target></trans-unit>
+<trans-unit id="1049178" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049179" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049179" approved="yes">
 <source xml:space="preserve">Install Directory</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049180" approved="no">
+<target state="translated" xml:space="preserve">ไดเรกทอรีที่ติดตั้ง</target></trans-unit>
+<trans-unit id="1049180" approved="yes">
 <source xml:space="preserve">Change</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049181" approved="no">
+<target state="translated" xml:space="preserve">เปลี่ยน</target></trans-unit>
+<trans-unit id="1049181" approved="yes">
 <source xml:space="preserve">Disk Space</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049182" approved="no">
+<target state="translated" xml:space="preserve">พื้นที่ดิสก์</target></trans-unit>
+<trans-unit id="1049182" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049183" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049183" approved="yes">
 <source xml:space="preserve">Install</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049184" approved="no">
+<target state="translated" xml:space="preserve">ติดตั้ง</target></trans-unit>
+<trans-unit id="1049184" approved="yes">
 <source xml:space="preserve">Select path for install..</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049185" approved="no">
+<target state="translated" xml:space="preserve">เลือกเส้นทางสำหรับการติดตั้ง..</target></trans-unit>
+<trans-unit id="1049185" approved="yes">
 <source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049186" approved="no">
+<target state="translated" xml:space="preserve">คุณไม่สามารถใช้ไดเรกทอรีนี้เพื่อติดตั้งเกม โปรดเลือกไดเรกทอรีอื่นสำหรับการติดตั้ง</target></trans-unit>
+<trans-unit id="1049186" approved="yes">
 <source xml:space="preserve">Language</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049187" approved="no">
+<target state="translated" xml:space="preserve">ภาษา</target></trans-unit>
+<trans-unit id="1049187" approved="yes">
 <source xml:space="preserve">Account</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049188" approved="no">
+<target state="translated" xml:space="preserve">บัญชี</target></trans-unit>
+<trans-unit id="1049188" approved="yes">
 <source xml:space="preserve">Remember me</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049189" approved="no">
+<target state="translated" xml:space="preserve">จดจำฉัน</target></trans-unit>
+<trans-unit id="1049189" approved="yes">
 <source xml:space="preserve">Downloads</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049190" approved="no">
+<target state="translated" xml:space="preserve">ดาวน์โหลด</target></trans-unit>
+<trans-unit id="1049190" approved="yes">
 <source xml:space="preserve">Use p2p connection</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049191" approved="no">
+<target state="translated" xml:space="preserve">ใช้การเชื่อมต่อ p2p</target></trans-unit>
+<trans-unit id="1049191" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049192" approved="no">
+<target state="translated" xml:space="preserve">ช่วงหน่วงเวลา <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1049192" approved="yes">
 <source xml:space="preserve">Time Lapse Collection</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049193" approved="no">
+<target state="translated" xml:space="preserve">ชุดข้อมูลช่วงหน่วงเวลา</target></trans-unit>
+<trans-unit id="1049193" approved="yes">
 <source xml:space="preserve">Last update:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049194" approved="no">
+<target state="translated" xml:space="preserve">อัปเดตล่าสุด:</target></trans-unit>
+<trans-unit id="1049194" approved="yes">
 <source xml:space="preserve">Update</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049195" approved="no">
+<target state="translated" xml:space="preserve">อัปเดต</target></trans-unit>
+<trans-unit id="1049195" approved="yes">
 <source xml:space="preserve">Progress: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049196" approved="no">
+<target state="translated" xml:space="preserve">ความคืบหน้า: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<trans-unit id="1049196" approved="yes">
 <source xml:space="preserve">Checking updates</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049197" approved="no">
+<target state="translated" xml:space="preserve">กำลังตรวจสอบการอัปเดต</target></trans-unit>
+<trans-unit id="1049197" approved="yes">
 <source xml:space="preserve">Downloading launcher update</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049198" approved="no">
+<target state="translated" xml:space="preserve">กำลังดาวน์โหลดการอัปเดตตัวเปิดใช้</target></trans-unit>
+<trans-unit id="1049198" approved="yes">
 <source xml:space="preserve">Unpacking launcher update</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049199" approved="no">
+<target state="translated" xml:space="preserve">กำลังคลายอัปเดตตัวเปิดใช้</target></trans-unit>
+<trans-unit id="1049199" approved="yes">
 <source xml:space="preserve">Online</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049200" approved="no">
+<target state="translated" xml:space="preserve">ออนไลน์</target></trans-unit>
+<trans-unit id="1049200" approved="yes">
 <source xml:space="preserve">Away</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049201" approved="no">
+<target state="translated" xml:space="preserve">ไม่อยู่</target></trans-unit>
+<trans-unit id="1049201" approved="yes">
 <source xml:space="preserve">Settings</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049202" approved="no">
+<target state="translated" xml:space="preserve">การตั้งค่า</target></trans-unit>
+<trans-unit id="1049202" approved="yes">
 <source xml:space="preserve">Log Out</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049203" approved="no">
+<target state="translated" xml:space="preserve">ออกจากระบบ</target></trans-unit>
+<trans-unit id="1049203" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049204" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049204" approved="yes">
 <source xml:space="preserve">Error! Network list is empty!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049205" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด! รายการเครือข่ายว่างเปล่า!</target></trans-unit>
+<trans-unit id="1049205" approved="yes">
 <source xml:space="preserve">Sign in with VK</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049206" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย VK</target></trans-unit>
+<trans-unit id="1049206" approved="yes">
 <source xml:space="preserve">Sign in with Facebook</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049207" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย Facebook</target></trans-unit>
+<trans-unit id="1049207" approved="yes">
 <source xml:space="preserve">Sign in with Google</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049208" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย Google</target></trans-unit>
+<trans-unit id="1049208" approved="yes">
 <source xml:space="preserve">Sign in with Steam</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049209" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย Steam</target></trans-unit>
+<trans-unit id="1049209" approved="yes">
 <source xml:space="preserve">Sign in with Twitter</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049210" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย Twitter</target></trans-unit>
+<trans-unit id="1049210" approved="yes">
 <source xml:space="preserve">Sign in with Naver</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049211" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย Naver</target></trans-unit>
+<trans-unit id="1049211" approved="yes">
 <source xml:space="preserve">Sign in with Baidu</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049212" approved="no">
+<target state="translated" xml:space="preserve">ลงชื่อเข้าใช้ด้วย Baidu</target></trans-unit>
+<trans-unit id="1049212" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049213" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049213" approved="yes">
 <source xml:space="preserve">Failed loading social providers</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049214" approved="no">
+<target state="translated" xml:space="preserve">การโหลดผู้ให้บริการโซเชียลล้มเหลว</target></trans-unit>
+<trans-unit id="1049214" approved="yes">
 <source xml:space="preserve">Social auth failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049215" approved="no">
+<target state="translated" xml:space="preserve">การรับรองความถูกต้องของโซเชียลล้มเหลว</target></trans-unit>
+<trans-unit id="1049215" approved="yes">
 <source xml:space="preserve">There was a problem with your request. Please try again.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049216" approved="no">
+<target state="translated" xml:space="preserve">มีปัญหาบางอย่างกับคำขอของคุณ โปรดลองอีกครั้ง</target></trans-unit>
+<trans-unit id="1049216" approved="yes">
 <source xml:space="preserve">Forgot password?</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049217" approved="no">
+<target state="translated" xml:space="preserve">ลืมรหัสผ่าน?</target></trans-unit>
+<trans-unit id="1049217" approved="yes">
 <source xml:space="preserve">Create an account</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049218" approved="no">
+<target state="translated" xml:space="preserve">สร้างบัญชี</target></trans-unit>
+<trans-unit id="1049218" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049219" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1049219" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049220" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลดรายการภูมิภาค โปรดรอ</target></trans-unit>
+<trans-unit id="1049220" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049221" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลด...</target></trans-unit>
+<trans-unit id="1049221" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049222" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาที่ตั้งเกม</target></trans-unit>
+<trans-unit id="1049222" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049223" approved="no">
+<target state="translated" xml:space="preserve">การเปลี่ยนภูมิภาคจะส่งผลต่อการซื้อของในเกม ตัวละคร และแพทช์เกมของคุณ</target></trans-unit>
+<trans-unit id="1049223" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049224" approved="no">
+<target state="translated" xml:space="preserve">ถัดไป</target></trans-unit>
+<trans-unit id="1049224" approved="yes">
 <source xml:space="preserve">Failed gettings characters information</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049225" approved="no">
+<target state="translated" xml:space="preserve">การเรียกข้อมูลตัวละครล้มเหลว</target></trans-unit>
+<trans-unit id="1049225" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049226" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049226" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049227" approved="no">
+<target state="translated" xml:space="preserve">การรับรองความถูกต้องล้มเหลว</target></trans-unit>
+<trans-unit id="1049227" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049228" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049228" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049229" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049229" approved="yes">
 <source xml:space="preserve">Game installation failed with error<ph id="ph1" ctype="x-smartcat">\n</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049230" approved="no">
+<target state="translated" xml:space="preserve">การติดตั้งเกมล้มเหลวเนื่องจากมีข้อผิดพลาด<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
+<trans-unit id="1049230" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049231" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> โปรดลองอีกครั้ง</target></trans-unit>
+<trans-unit id="1049231" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049232" approved="no">
+<target state="translated" xml:space="preserve">ช่วงหน่วงเวลา <ph id="ph1" ctype="x-smartcat">%1</ph> พร้อมใช้งาน!</target></trans-unit>
+<trans-unit id="1049232" approved="yes">
 <source xml:space="preserve">Game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049233" approved="no">
+<target state="translated" xml:space="preserve">เกม</target></trans-unit>
+<trans-unit id="1049233" approved="yes">
 <source xml:space="preserve">News</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049234" approved="no">
+<target state="translated" xml:space="preserve">ข่าว</target></trans-unit>
+<trans-unit id="1049234" approved="yes">
 <source xml:space="preserve">Highlights</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049235" approved="no">
+<target state="translated" xml:space="preserve">ไฮไลต์</target></trans-unit>
+<trans-unit id="1049235" approved="yes">
 <source xml:space="preserve">Store</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049236" approved="no">
+<target state="translated" xml:space="preserve">ร้านค้า</target></trans-unit>
+<trans-unit id="1049236" approved="yes">
 <source xml:space="preserve">Extracting</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049237" approved="no">
+<target state="translated" xml:space="preserve">กำลังคลาย</target></trans-unit>
+<trans-unit id="1049237" approved="yes">
 <source xml:space="preserve">Repairing</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049238" approved="no">
+<target state="translated" xml:space="preserve">กำลังซ่อมแซม</target></trans-unit>
+<trans-unit id="1049238" approved="yes">
 <source xml:space="preserve">Downloading</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049239" approved="no">
+<target state="translated" xml:space="preserve">กำลังดาวน์โหลด</target></trans-unit>
+<trans-unit id="1049239" approved="yes">
 <source xml:space="preserve">Can't close launcher, while game is running</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049240" approved="no">
+<target state="translated" xml:space="preserve">ไม่สามารถปิดตัวเปิดใช้ ขณะที่เกมกำลังเปิดอยู่</target></trans-unit>
+<trans-unit id="1049240" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049241" approved="no">
+<target state="translated" xml:space="preserve">ผู้ใช้ <ph id="ph1" ctype="x-smartcat">%1</ph> ได้รับเชิญให้เข้าร่วมการสนทนาโดย <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1049241" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049242" approved="no">
+<target state="translated" xml:space="preserve">ผู้ใช้ <ph id="ph1" ctype="x-smartcat">%1</ph> ออกจากการสนทนา</target></trans-unit>
+<trans-unit id="1049242" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049243" approved="no">
+<target state="translated" xml:space="preserve">ผู้ใช้ <ph id="ph1" ctype="x-smartcat">%1</ph> ถูกลบออกจากการสนทนาโดย <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1049243" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049244" approved="no">
+<target state="translated" xml:space="preserve">ผู้ใช้ <ph id="ph1" ctype="x-smartcat">%1</ph> ได้สร้างการสนทนา <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1049244" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049245" approved="no">
+<target state="translated" xml:space="preserve">ผู้ใช้ <ph id="ph1" ctype="x-smartcat">%1</ph> ได้เปลี่ยนหัวข้อสนทนาเป็น <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<trans-unit id="1049245" approved="yes">
 <source xml:space="preserve">Type a message</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049246" approved="no">
+<target state="translated" xml:space="preserve">พิมพ์ข้อความ</target></trans-unit>
+<trans-unit id="1049246" approved="yes">
 <source xml:space="preserve">Send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049247" approved="no">
+<target state="translated" xml:space="preserve">ส่ง</target></trans-unit>
+<trans-unit id="1049247" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049248" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> ได้เพิ่มคุณในรายชื่อเพื่อน คุณสามารถเพิ่มเขาในรายชื่อเพื่อนของคุณ และเริ่มต้นการสนทนา</target></trans-unit>
+<trans-unit id="1049248" approved="yes">
 <source xml:space="preserve">Confirm</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049249" approved="no">
+<target state="translated" xml:space="preserve">ยืนยัน</target></trans-unit>
+<trans-unit id="1049249" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049250" approved="no">
+<target state="translated" xml:space="preserve">ลบ</target></trans-unit>
+<trans-unit id="1049250" approved="yes">
 <source xml:space="preserve">Please select chat to start messaging</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049251" approved="no">
+<target state="translated" xml:space="preserve">โปรดเลือกการสนทนาเพื่อเริ่มส่งข้อความ</target></trans-unit>
+<trans-unit id="1049251" approved="yes">
 <source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049252" approved="no">
+<target state="translated" xml:space="preserve">ไม่สามารถโหลดบทความข่าวได้ โปรดลองอีกครั้งภายหลัง</target></trans-unit>
+<trans-unit id="1049252" approved="yes">
 <source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049253" approved="no">
+<target state="translated" xml:space="preserve">ไม่สามารถโหลดรายการบทความข่าวได้ โปรดลองอีกครั้งภายหลัง</target></trans-unit>
+<trans-unit id="1049253" approved="yes">
 <source xml:space="preserve">All News</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049254" approved="no">
+<target state="translated" xml:space="preserve">ข่าวทั้งหมด</target></trans-unit>
+<trans-unit id="1049254" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049255" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลด...</target></trans-unit>
+<trans-unit id="1049255" approved="yes">
 <source xml:space="preserve">Region</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049256" approved="no">
+<target state="translated" xml:space="preserve">ภูมิภาค</target></trans-unit>
+<trans-unit id="1049256" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049257" approved="no">
+<target state="translated" xml:space="preserve">การเปลี่ยนภูมิภาคจะส่งผลต่อการซื้อของในเกม ตัวละคร และแพทช์เกมของคุณ</target></trans-unit>
+<trans-unit id="1049257" approved="yes">
 <source xml:space="preserve">New friend requests</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049258" approved="no">
+<target state="translated" xml:space="preserve">คำขอเป็นเพื่อนใหม่</target></trans-unit>
+<trans-unit id="1049258" approved="yes">
 <source xml:space="preserve">Confirm</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049259" approved="no">
+<target state="translated" xml:space="preserve">ยืนยัน</target></trans-unit>
+<trans-unit id="1049259" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049260" approved="no">
+<target state="translated" xml:space="preserve">ลบ</target></trans-unit>
+<trans-unit id="1049260" approved="yes">
 <source xml:space="preserve">sent requests</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049261" approved="no">
+<target state="translated" xml:space="preserve">คำขอที่ส่ง</target></trans-unit>
+<trans-unit id="1049261" approved="yes">
 <source xml:space="preserve">Cancel request</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049262" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิกคำขอ</target></trans-unit>
+<trans-unit id="1049262" approved="yes">
 <source xml:space="preserve">Create username</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049263" approved="no">
+<target state="translated" xml:space="preserve">สร้างชื่อผู้ใช้</target></trans-unit>
+<trans-unit id="1049263" approved="yes">
 <source xml:space="preserve">Step 1/2</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049264" approved="no">
+<target state="translated" xml:space="preserve">ขั้นตอนที่ 1/2</target></trans-unit>
+<trans-unit id="1049264" approved="yes">
 <source xml:space="preserve">Welcome to chat. Set your username so your friends can find you.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049265" approved="no">
+<target state="translated" xml:space="preserve">ยินดีต้อนรับสู่การสนทนา ตั้งชื่อผู้ใช้ของคุณเพื่อให้เพื่อนสามารถค้นหาคุณได้</target></trans-unit>
+<trans-unit id="1049265" approved="yes">
 <source xml:space="preserve">Add a friend</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049266" approved="no">
+<target state="translated" xml:space="preserve">เพิ่มเพื่อน</target></trans-unit>
+<trans-unit id="1049266" approved="yes">
 <source xml:space="preserve">Step 2/2</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049267" approved="no">
+<target state="translated" xml:space="preserve">ขั้นตอนที่ 2/2</target></trans-unit>
+<trans-unit id="1049267" approved="yes">
 <source xml:space="preserve">Add friend to start messaging. Search by typing email or nickname.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049268" approved="no">
+<target state="translated" xml:space="preserve">เพิ่มเพื่อนเพื่อเริ่มส่งข้อความ สามารถค้นหาเพื่อนโดยการพิมพ์อีเมลหรือชื่อเล่น</target></trans-unit>
+<trans-unit id="1049268" approved="yes">
 <source xml:space="preserve">+ Add</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049269" approved="no">
+<target state="translated" xml:space="preserve">+ เพิ่ม</target></trans-unit>
+<trans-unit id="1049269" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049270" approved="no">
+<target state="translated" xml:space="preserve">ถัดไป</target></trans-unit>
+<trans-unit id="1049270" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049271" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049271" approved="yes">
 <source xml:space="preserve">Settings</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049272" approved="no">
+<target state="translated" xml:space="preserve">การตั้งค่า</target></trans-unit>
+<trans-unit id="1049272" approved="yes">
 <source xml:space="preserve">General</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049273" approved="no">
+<target state="translated" xml:space="preserve">ทั่วไป</target></trans-unit>
+<trans-unit id="1049273" approved="yes">
 <source xml:space="preserve">Sound</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049274" approved="no">
+<target state="translated" xml:space="preserve">เสียง</target></trans-unit>
+<trans-unit id="1049274" approved="yes">
 <source xml:space="preserve">Chat</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049275" approved="no">
+<target state="translated" xml:space="preserve">สนทนา</target></trans-unit>
+<trans-unit id="1049275" approved="yes">
 <source xml:space="preserve">Account</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049276" approved="no">
+<target state="translated" xml:space="preserve">บัญชี</target></trans-unit>
+<trans-unit id="1049276" approved="yes">
 <source xml:space="preserve">Reset to Defaults</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049277" approved="no">
+<target state="translated" xml:space="preserve">รีเซ็ตเป็นค่าเริ่มต้น</target></trans-unit>
+<trans-unit id="1049277" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049278" approved="no">
+<target state="translated" xml:space="preserve">ยกเลิก</target></trans-unit>
+<trans-unit id="1049278" approved="yes">
 <source xml:space="preserve">Done</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049279" approved="no">
+<target state="translated" xml:space="preserve">เสร็จ</target></trans-unit>
+<trans-unit id="1049279" approved="yes">
 <source xml:space="preserve">Share</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049280" approved="no">
+<target state="translated" xml:space="preserve">แชร์</target></trans-unit>
+<trans-unit id="1049280" approved="yes">
 <source xml:space="preserve">Direct link</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049281" approved="no">
+<target state="translated" xml:space="preserve">ลิงก์ตรง</target></trans-unit>
+<trans-unit id="1049281" approved="yes">
 <source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049282" approved="no">
+<target state="translated" xml:space="preserve">เชื่อมต่อเครือข่ายโซเชียลของคุณ<ph id="ph1" ctype="x-smartcat">\n</ph> และค้นหาเพื่อนเล่น</target></trans-unit>
+<trans-unit id="1049282" approved="yes">
 <source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049283" approved="no">
+<target state="translated" xml:space="preserve">เชื่อมต่อ <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<trans-unit id="1049283" approved="yes">
 <source xml:space="preserve">Never show this window again</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049284" approved="no">
+<target state="translated" xml:space="preserve">ไม่ต้องแสดงหน้าต่างนี้อีก</target></trans-unit>
+<trans-unit id="1049284" approved="yes">
 <source xml:space="preserve">Skip</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049285" approved="no">
+<target state="translated" xml:space="preserve">ข้าม</target></trans-unit>
+<trans-unit id="1049285" approved="yes">
 <source xml:space="preserve">Visit us on:</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049286" approved="no">
+<target state="translated" xml:space="preserve">เยี่ยมชมเราที่:</target></trans-unit>
+<trans-unit id="1049286" approved="yes">
 <source xml:space="preserve">Find us on Social Media</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049287" approved="no">
+<target state="translated" xml:space="preserve">ติดตามเราบนเครือข่ายโซเชียล</target></trans-unit>
+<trans-unit id="1049287" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049288" approved="no">
+<target state="translated" xml:space="preserve">ค้นหา</target></trans-unit>
+<trans-unit id="1049288" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049289" approved="no">
+<target state="translated" xml:space="preserve">ค้นหา</target></trans-unit>
+<trans-unit id="1049289" approved="yes">
 <source xml:space="preserve">Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049290" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาเพื่อน <ph id="ph1" ctype="x-smartcat">%1</ph> ด้วยชื่อ</target></trans-unit>
+<trans-unit id="1049290" approved="yes">
 <source xml:space="preserve">Already playing</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049291" approved="no">
+<target state="translated" xml:space="preserve">กำลังเล่นอยู่</target></trans-unit>
+<trans-unit id="1049291" approved="yes">
 <source xml:space="preserve">Invite</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049292" approved="no">
+<target state="translated" xml:space="preserve">ชวน</target></trans-unit>
+<trans-unit id="1049292" approved="yes">
 <source xml:space="preserve">Sound section</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049293" approved="no">
+<target state="translated" xml:space="preserve">ส่วนเสียง</target></trans-unit>
+<trans-unit id="1049293" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049294" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1049294" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049295" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลดรายการภูมิภาค โปรดรอ</target></trans-unit>
+<trans-unit id="1049295" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049296" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลด...</target></trans-unit>
+<trans-unit id="1049296" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049297" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาที่ตั้งเกม</target></trans-unit>
+<trans-unit id="1049297" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049298" approved="no">
+<target state="translated" xml:space="preserve">การเปลี่ยนภูมิภาคจะส่งผลต่อการซื้อของในเกม ตัวละคร และแพทช์เกมของคุณ</target></trans-unit>
+<trans-unit id="1049298" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049299" approved="no">
+<target state="translated" xml:space="preserve">ถัดไป</target></trans-unit>
+<trans-unit id="1049299" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049300" approved="no">
+<target state="translated" xml:space="preserve">ใส่อีเมลของคุณ</target></trans-unit>
+<trans-unit id="1049300" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049301" approved="no">
+<target state="translated" xml:space="preserve">อีเมลยืนยันจะส่งไปยังอีเมลที่ระบุ</target></trans-unit>
+<trans-unit id="1049301" approved="yes">
 <source xml:space="preserve">Send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049302" approved="no">
+<target state="translated" xml:space="preserve">ส่ง</target></trans-unit>
+<trans-unit id="1049302" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049303" approved="no">
+<target state="translated" xml:space="preserve">อีเมลไม่ถูกต้อง</target></trans-unit>
+<trans-unit id="1049303" approved="yes">
 <source xml:space="preserve">Email was sent</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049304" approved="no">
+<target state="translated" xml:space="preserve">ส่งอีเมลแล้ว</target></trans-unit>
+<trans-unit id="1049304" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049305" approved="no">
+<target state="translated" xml:space="preserve">โปรดตรวจสอบอีเมลของคุณและยืนยันการลงทะเบียน</target></trans-unit>
+<trans-unit id="1049305" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049306" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049306" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049307" approved="no">
+<target state="translated" xml:space="preserve">การรับรองความถูกต้องล้มเหลว</target></trans-unit>
+<trans-unit id="1049307" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049308" approved="no">
+<target state="translated" xml:space="preserve">อีเมล</target></trans-unit>
+<trans-unit id="1049308" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049309" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049309" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049310" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<trans-unit id="1049310" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049311" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลดรายการภูมิภาค โปรดรอ</target></trans-unit>
+<trans-unit id="1049311" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049312" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลด...</target></trans-unit>
+<trans-unit id="1049312" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049313" approved="no">
+<target state="translated" xml:space="preserve">ค้นหาที่ตั้งเกม</target></trans-unit>
+<trans-unit id="1049313" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049314" approved="no">
+<target state="translated" xml:space="preserve">การเปลี่ยนภูมิภาคจะส่งผลต่อการซื้อของในเกม ตัวละคร และแพทช์เกมของคุณ</target></trans-unit>
+<trans-unit id="1049314" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049315" approved="no">
+<target state="translated" xml:space="preserve">ถัดไป</target></trans-unit>
+<trans-unit id="1049315" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049316" approved="no">
+<target state="translated" xml:space="preserve">ใส่อีเมลของคุณ</target></trans-unit>
+<trans-unit id="1049316" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049317" approved="no">
+<target state="translated" xml:space="preserve">อีเมลยืนยันจะส่งไปยังอีเมลที่ระบุ</target></trans-unit>
+<trans-unit id="1049317" approved="yes">
 <source xml:space="preserve">Send</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049318" approved="no">
+<target state="translated" xml:space="preserve">ส่ง</target></trans-unit>
+<trans-unit id="1049318" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049319" approved="no">
+<target state="translated" xml:space="preserve">อีเมลไม่ถูกต้อง</target></trans-unit>
+<trans-unit id="1049319" approved="yes">
 <source xml:space="preserve">Email was sent</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049320" approved="no">
+<target state="translated" xml:space="preserve">ส่งอีเมลแล้ว</target></trans-unit>
+<trans-unit id="1049320" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049321" approved="no">
+<target state="translated" xml:space="preserve">โปรดตรวจสอบอีเมลของคุณและยืนยันการลงทะเบียน</target></trans-unit>
+<trans-unit id="1049321" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049322" approved="no">
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<trans-unit id="1049322" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049323" approved="no">
+<target state="translated" xml:space="preserve">การรับรองความถูกต้องล้มเหลว</target></trans-unit>
+<trans-unit id="1049323" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049324" approved="no">
+<target state="translated" xml:space="preserve">อีเมล</target></trans-unit>
+<trans-unit id="1049324" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049325" approved="no">
+<target state="translated" xml:space="preserve">ข้อผิดพลาด</target></trans-unit>
+<trans-unit id="1049325" approved="yes">
 <source xml:space="preserve">Something goes wrong...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049326" approved="no">
+<target state="translated" xml:space="preserve">มีบางอย่างผิดพลาด...</target></trans-unit>
+<trans-unit id="1049326" approved="yes">
 <source xml:space="preserve">Store loading failed</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049327" approved="no">
+<target state="translated" xml:space="preserve">การโหลดร้านค้าล้มเหลว</target></trans-unit>
+<trans-unit id="1049327" approved="yes">
 <source xml:space="preserve">Refresh page</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049328" approved="no">
+<target state="translated" xml:space="preserve">รีเฟรชหน้า</target></trans-unit>
+<trans-unit id="1049328" approved="yes">
 <source xml:space="preserve">Reopen store</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049329" approved="no">
+<target state="translated" xml:space="preserve">เปิดร้านค้าอีกครั้ง</target></trans-unit>
+<trans-unit id="1049329" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph> loading failed</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049330" approved="no">
+<target state="translated" xml:space="preserve">การโหลด <ph id="ph1" ctype="x-smartcat">Steam overlay</ph> ล้มเหลว</target></trans-unit>
+<trans-unit id="1049330" approved="yes">
 <source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049331" approved="no">
+<target state="translated" xml:space="preserve">โปรดรอ ขณะนี้ร้านค้าจะเปิดโดยไม่ใช้ <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></target></trans-unit>
+<trans-unit id="1049331" approved="yes">
 <source xml:space="preserve">Refresh</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049332" approved="no">
+<target state="translated" xml:space="preserve">รีเฟรช</target></trans-unit>
+<trans-unit id="1049332" approved="yes">
 <source xml:space="preserve">Forward</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049333" approved="no">
+<target state="translated" xml:space="preserve">ส่งต่อ</target></trans-unit>
+<trans-unit id="1049333" approved="yes">
 <source xml:space="preserve">Back</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049334" approved="no">
+<target state="translated" xml:space="preserve">ย้อนกลับ</target></trans-unit>
+<trans-unit id="1049334" approved="yes">
 <source xml:space="preserve">Share</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049335" approved="no">
+<target state="translated" xml:space="preserve">แชร์</target></trans-unit>
+<trans-unit id="1049335" approved="yes">
 <source xml:space="preserve">Downloading assets...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049336" approved="no">
+<target state="translated" xml:space="preserve">กำลังดาวน์โหลดทรัพยากร...</target></trans-unit>
+<trans-unit id="1049336" approved="yes">
 <source xml:space="preserve">Unpacking assets...</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049337" approved="no">
+<target state="translated" xml:space="preserve">กำลังคลายทรัพยากร...</target></trans-unit>
+<trans-unit id="1049337" approved="yes">
 <source xml:space="preserve">World is loading</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049338" approved="no">
+<target state="translated" xml:space="preserve">กำลังโหลดโลก</target></trans-unit>
+<trans-unit id="1049338" approved="yes">
 <source xml:space="preserve">Close</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit>
-<trans-unit id="1049339" approved="no">
+<target state="translated" xml:space="preserve">ปิด</target></trans-unit>
+<trans-unit id="1049339" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
-<target state="needs-translation" xml:space="preserve"></target></trans-unit></body></file></xliff>
+<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: ตัวเปิดใช้</target></trans-unit></body></file></xliff>
