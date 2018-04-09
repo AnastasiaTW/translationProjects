@@ -1,0 +1,1820 @@
+#: File: launcher_en.ts
+#: ID: 4b270bcebcd3d347e3fbb053f3aa083e
+msgctxt "AccountSection"
+msgid "Username"
+msgstr "Username"
+
+#: File: launcher_en.ts
+#: ID: daff4af2ca10fab6c99be577cbb73b07
+msgctxt "AccountSection"
+msgid "Edit"
+msgstr "Edit"
+
+#: File: launcher_en.ts
+#: ID: 4bfa856997f5f12695cd5f5d3f7997da
+msgctxt "AccountSection"
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: File: launcher_en.ts
+#: ID: 87c9ac979a06a5124078723731f51fb2
+msgctxt "AccountSection"
+msgid "Add another network"
+msgstr "Add another network"
+
+#: File: launcher_en.ts
+#: ID: 57d79b5b896ef6b87a1dc1b771eb66f9
+msgctxt "AddUsersToChatWindow"
+msgid "Add users"
+msgstr "Add users"
+
+#: File: launcher_en.ts
+#: ID: 08841c559726c64fc89dc5506e169b90
+msgctxt "AddUsersToChatWindow"
+msgid "Invite friends to group"
+msgstr "Invite friends to group"
+
+#: File: launcher_en.ts
+#: ID: 8851496d80e7680a868c36fb5003ea86
+msgctxt "AddUsersToChatWindow"
+msgid "Search friends"
+msgstr "Find friends"
+
+#: File: launcher_en.ts
+#: ID: 66380da49317fb3c35edbdb12ff7adb7
+msgctxt "AddUsersToChatWindow"
+msgid "Add"
+msgstr "Add"
+
+#: File: launcher_en.ts
+#: ID: babf76dff24b4b4f79f779cc85a6d940
+msgctxt "AddUsersToChatWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: feff76e883cf277ff3017d72e9e233c3
+msgctxt "AdvertisingBanner"
+msgid "Game Servers Problem"
+msgstr "Game server issue"
+
+#: File: launcher_en.ts
+#: ID: beeaee330dadc0878a814294399a7e0d
+msgctxt "AdvertisingBanner"
+msgid ""
+"We're experiencing technical problem with game servers. Please click Reload "
+"to check status."
+msgstr "We’re experiencing technical issues with the game server. Please click Reload to check the status."
+
+#: File: launcher_en.ts
+#: ID: b49ce5d6f97e4ca330c97df27ffa8e0c
+msgctxt "AdvertisingBanner"
+msgid "Loading characters: "
+msgstr "Loading characters: "
+
+#: File: launcher_en.ts
+#: ID: 055686693fe0fa9b5f2c2acd14096055
+msgctxt "AdvertisingBanner"
+msgid "Loading regions: "
+msgstr "Loading regions: "
+
+#: File: launcher_en.ts
+#: ID: 2dcd2c8bc78d105bf2fb430053c38705
+msgctxt "AdvertisingBanner"
+msgid "Game ownership: "
+msgstr "Game ownership: "
+
+#: File: launcher_en.ts
+#: ID: e0321ef76f6f1fa3bce16616fd82c772
+msgctxt "AdvertisingBanner"
+msgid "Reload servers"
+msgstr "Reload servers"
+
+#: File: launcher_en.ts
+#: ID: e0259f9a53fab39a131959e7c2571d7e
+msgctxt "BasePart"
+msgid "email"
+msgstr "email"
+
+#: File: launcher_en.ts
+#: ID: d2441b5f8bcaf5a38322246ffb0b66ec
+msgctxt "BasePart"
+msgid "Password"
+msgstr "Password"
+
+#: File: launcher_en.ts
+#: ID: e9d871b1e711b3ce56e7021535666149
+msgctxt "BasePart"
+msgid "Remember me"
+msgstr "Remember me"
+
+#: File: launcher_en.ts
+#: ID: 2eb626ce89e3e0ca5615e752ce3cb513
+msgctxt "BasePart"
+msgid "LOADING"
+msgstr "LOADING"
+
+#: File: launcher_en.ts
+#: ID: 5a4ea096dc5ff07bc303c58f1f8ad9e0
+msgctxt "BasePart"
+msgid "SIGN IN"
+msgstr "SIGN IN"
+
+#: File: launcher_en.ts
+#: ID: a6bf37ae3a4ad8f9532d24e6350f1e5d
+msgctxt "ChangeChar"
+msgid "players"
+msgstr "players"
+
+#: File: launcher_en.ts
+#: ID: 82a461b39f1893c2fa8eaa130562a530
+msgctxt "ChangeChar"
+msgid "Change character"
+msgstr "Change character"
+
+#: File: launcher_en.ts
+#: ID: 29bd6122ef86557375c667de1a285f4b
+msgctxt "ChangeChatTitleWindow"
+msgid "Edit chat title"
+msgstr "Edit chat title"
+
+#: File: launcher_en.ts
+#: ID: 63e62ef429a6bd63e48ce295d4a07901
+msgctxt "ChangeChatTitleWindow"
+msgid "Please use 5 to 20 characters"
+msgstr "Please use 5 to 20 characters"
+
+#: File: launcher_en.ts
+#: ID: 1ea05c94a09aeee5a9e7e3508ff4c592
+msgctxt "ChangeChatTitleWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: 87e2282ccf13322e890b8e59190f7a9e
+msgctxt "ChangeChatTitleWindow"
+msgid "Save"
+msgstr "Save"
+
+#: File: launcher_en.ts
+#: ID: 0ff7e18e31306cd1152a0de3683eb61d
+msgctxt "ChangeUsernameWindow"
+msgid "Edit username"
+msgstr "Edit username"
+
+#: File: launcher_en.ts
+#: ID: c75349eb6668f3c30e6b29bb187b2261
+msgctxt "ChangeUsernameWindow"
+msgid "Please use 5 to 20 characters"
+msgstr "Please use 5 to 20 characters"
+
+#: File: launcher_en.ts
+#: ID: 874cca967eb6ee4338646f28e1761f3f
+msgctxt "ChangeUsernameWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: d72f60c59af114e0bf6a8c461f3637b6
+msgctxt "ChangeUsernameWindow"
+msgid "Save"
+msgstr "Save"
+
+#: File: launcher_en.ts
+#: ID: e632b002da7332dbab3cdae753f1100d
+msgctxt "CharsWindow"
+msgid "Character Selection"
+msgstr "Choose character"
+
+#: File: launcher_en.ts
+#: ID: 3eda054d2cc33860681d26d2641d3ebe
+msgctxt "CharsWindow"
+msgid "Name"
+msgstr "Name"
+
+#: File: launcher_en.ts
+#: ID: 79e8291b14787949a65a54413c49c964
+msgctxt "CharsWindow"
+msgid "World"
+msgstr "World"
+
+#. Workload of game servers
+#: File: launcher_en.ts
+#: ID: 3757305c21519d55895b714c9f7b69c3
+msgctxt "CharsWindow"
+msgid "Workload"
+msgstr "Server load"
+
+#: File: launcher_en.ts
+#: ID: e51989c1083ec99ec43b08bf13cec1a4
+msgctxt "CharsWindow"
+msgid "Status"
+msgstr "Status"
+
+#: File: launcher_en.ts
+#: ID: d4f9cba9efe3f9a933857170ae22d4c7
+msgctxt "CharsWindow"
+msgid "+ Add character"
+msgstr "+ Add character"
+
+#: File: launcher_en.ts
+#: ID: d83aea7766e7d77d0b1288fd34bb63d8
+msgctxt "CharsWindow"
+msgid "Done"
+msgstr "Done"
+
+#: File: launcher_en.ts
+#: ID: bf150ebb1bb618065dd7511ad9cb5af7
+msgctxt "CharsWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: 59ab38e4d4af1a7cee4c8dca2579bb0e
+msgctxt "CharsWindow"
+msgid "Available"
+msgstr "Available"
+
+#: File: launcher_en.ts
+#: ID: db2a000087a5ef428103154663e61a15
+msgctxt "CharsWindow"
+msgid "Unavailable"
+msgstr "Unavailable"
+
+#: File: launcher_en.ts
+#: ID: e663c3c560acfd862f1da7dac022858a
+msgctxt "CharsWindow"
+msgid "World is full"
+msgstr "World is full"
+
+#: File: launcher_en.ts
+#: ID: ee1edbab8dae1317efc812b2adc45a6f
+msgctxt "ChatWindow"
+msgid "Online"
+msgstr "Online"
+
+#: File: launcher_en.ts
+#: ID: b8051527ec50fc405b48cb69fdf9c590
+msgctxt "ChatWindow"
+msgid "In game"
+msgstr "In game"
+
+#: File: launcher_en.ts
+#: ID: a395339eb273f56fe3928171efdd84c9
+msgctxt "ChatWindow"
+msgid "Away"
+msgstr "Away"
+
+#: File: launcher_en.ts
+#: ID: cde12b71c10e7602a0bbf3f76a2310da
+msgctxt "ChatWindow"
+msgid "Offline"
+msgstr "Offline"
+
+#: File: launcher_en.ts
+#: ID: 92da7d6581cda51652182eead925f587
+msgctxt "ChatWindow"
+msgid "Chat"
+msgstr "Chat"
+
+#: File: launcher_en.ts
+#: ID: 48a2d12f2aaafd34c966a0b89a92645b
+msgctxt "ChatWindow"
+msgid "No users found"
+msgstr "No users found"
+
+#: File: launcher_en.ts
+#: ID: 0babb5365cb7839bb76756b0a18077e0
+msgctxt "ChatWindow"
+msgid "Search"
+msgstr "Search"
+
+#: File: launcher_en.ts
+#: ID: 35dea93b95bb289e6e74d82ae0ed0405
+msgctxt "ChatWindow"
+msgid "Enable notifications"
+msgstr "Enable notifications"
+
+#: File: launcher_en.ts
+#: ID: 9a154d57966839c7c0ada74b7a05a6a6
+msgctxt "ChatWindow"
+msgid "Disable notifications"
+msgstr "Disable notifications"
+
+#: File: launcher_en.ts
+#: ID: 74da4069fe75d45d96e96f3e0b3c5525
+msgctxt "ChatWindow"
+msgid "Settings"
+msgstr "Settings"
+
+#: File: launcher_en.ts
+#: ID: 77e514be60c9ac4db8a712d3e955b9da
+msgctxt "ChatWindow"
+msgid "Leave group"
+msgstr "Leave group"
+
+#: File: launcher_en.ts
+#: ID: 778005cb576a159a8e82fb4bd6397ea9
+msgctxt "ChatWindow"
+msgid "+ Create chat"
+msgstr "+ Create chat"
+
+#: File: launcher_en.ts
+#: ID: 70bc3001961ae1353aa0a7a8e3e90685
+msgctxt "ChatWindow"
+msgid "+ Create channel"
+msgstr "+ Create channel"
+
+#: File: launcher_en.ts
+#: ID: 015b22ef697e04061bc081c53159d2c2
+msgctxt "ChatWindow"
+msgid "Please select chat to start messaging"
+msgstr "Select a chat to start messaging"
+
+#: File: launcher_en.ts
+#: ID: 7c9ceab43772e2cdd4d71afd3c059063
+msgctxt "ConnectSocialNetworksWindow"
+msgid "Connect your social networks and find friends to play with"
+msgstr "Connect your social profiles to play with your friends"
+
+#: File: launcher_en.ts
+#: ID: 55311e82c16253aa8627393907cdeaaa
+msgctxt "ConnectSocialNetworksWindow"
+msgid "Connect Facebook"
+msgstr "Connect Facebook"
+
+#: File: launcher_en.ts
+#: ID: d5c6f60839161cea0bb85164fa684b29
+msgctxt "ConnectSocialNetworksWindow"
+msgid "Connect VK"
+msgstr "Connect VK"
+
+#: File: launcher_en.ts
+#: ID: 325a8c29eac0c125b539cf41d978b958
+msgctxt "ConnectSocialNetworksWindow"
+msgid "Search"
+msgstr "Search"
+
+#: File: launcher_en.ts
+#: ID: a9a2f609d395b23e728cd086f0835be4
+msgctxt "ConnectSocialNetworksWindow"
+msgid "Never show this window again"
+msgstr "Don’t show this window again"
+
+#: File: launcher_en.ts
+#: ID: 16fe461fd291c1cb18cb79f2879fc988
+msgctxt "ConnectSocialNetworksWindow"
+msgid "Skip"
+msgstr "Skip"
+
+#: File: launcher_en.ts
+#: ID: 1f595cb9c9fa8d35226ad918ddaa9073
+msgctxt "ConversationInfoItem"
+msgid "Back to chat"
+msgstr "Back to chat"
+
+#: File: launcher_en.ts
+#: ID: a6f94575a792c4fff0e76579a9af3bd6
+msgctxt "ConversationInfoItem"
+msgid "members: %1"
+msgstr "members: %1"
+
+#: File: launcher_en.ts
+#: ID: 47ce769dfa902845d9d6652e679f346e
+msgctxt "ConversationInfoItem"
+msgid "Edit"
+msgstr "Edit"
+
+#: File: launcher_en.ts
+#: ID: 3d4b81ea4e9e82f014594410caefe96c
+msgctxt "ConversationInfoItem"
+msgid "Members"
+msgstr "Members"
+
+#: File: launcher_en.ts
+#: ID: 4af4480f1cd6e0233f6ac9e4babd6d90
+msgctxt "ConversationInfoItem"
+msgid "+ Add members"
+msgstr "+ Add members"
+
+#. Remove member from group chat
+#: File: launcher_en.ts
+#: ID: 81b839969effff7acf54f2ae3736a122
+msgctxt "ConversationInfoItem"
+msgid "Remove"
+msgstr "Remove"
+
+#: File: launcher_en.ts
+#: ID: 46e2c6d3f0ed2eb570e6d6962ccdf481
+msgctxt "CreateChatWindow"
+msgid "Create chat"
+msgstr "Create chat"
+
+#: File: launcher_en.ts
+#: ID: f88828461cb006365513964054288a93
+msgctxt "CreateChatWindow"
+msgid "Invite your friends to chat"
+msgstr "Invite your friends to chat"
+
+#: File: launcher_en.ts
+#: ID: a8e81fb3636d9d9566a9c3aa55a8c872
+msgctxt "CreateChatWindow"
+msgid "Search friends"
+msgstr "Find friends"
+
+#: File: launcher_en.ts
+#: ID: 5c3ba8bd1aa341e097efdba670bbf367
+msgctxt "CreateChatWindow"
+msgid "New group"
+msgstr "New group"
+
+#: File: launcher_en.ts
+#: ID: 93d03c985d1f3ccd4eab02cd7079d7c3
+msgctxt "CreateGroupChatWindow"
+msgid "New group"
+msgstr "New group"
+
+#: File: launcher_en.ts
+#: ID: 99e9019e5b8d74c163827acbf15ce623
+msgctxt "CreateGroupChatWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: 2648f9523a74d36c3c5ccf4320ba733c
+msgctxt "CreateGroupChatWindow"
+msgid "Add friends"
+msgstr "Add friends"
+
+#: File: launcher_en.ts
+#: ID: 0845fae790a3a7ac009bbbf21708b081
+msgctxt "CreateGroupChatWindow"
+msgid "Back"
+msgstr "Back"
+
+#: File: launcher_en.ts
+#: ID: f499758c9dbf606ceac3ec0d9ec7ea02
+msgctxt "CreateGroupChatWindow"
+msgid "Step %1/%2"
+msgstr "Step %1/%2"
+
+#: File: launcher_en.ts
+#: ID: b0fb0a2856386f78764dddaad4da7620
+msgctxt "CreateGroupChatWindow"
+msgid "Next"
+msgstr "Next"
+
+#: File: launcher_en.ts
+#: ID: c751ab446f872dafee9ca19f73274d2d
+msgctxt "CreateGroupChatWindow"
+msgid ""
+"Set your group name. Start with a latter. Name should not be longer that 20 "
+"characters."
+msgstr "Set your group name. The name must start with a Latin letter and be no longer than 20 characters."
+
+#: File: launcher_en.ts
+#: ID: d9c8e576b0669e1d9c166683aaedf5b6
+msgctxt "CreateGroupChatWindow"
+msgid "Group chat name"
+msgstr "Group chat name"
+
+#: File: launcher_en.ts
+#: ID: 6755d93d62b4d271122cabdfc219c403
+msgctxt "CreateGroupChatWindow"
+msgid "Please use 5 to 20 characters"
+msgstr "Please use 5 to 20 characters"
+
+#: File: launcher_en.ts
+#: ID: 8046efef26db778b685a50ea2b09a575
+msgctxt "CreateGroupChatWindow"
+msgid "Invite friends to group"
+msgstr "Invite friends to group"
+
+#: File: launcher_en.ts
+#: ID: c75ebe5a23b5b5ebead6706bfe40bd7f
+msgctxt "CreateGroupChatWindow"
+msgid "Search friends"
+msgstr "Find friends"
+
+#: File: launcher_en.ts
+#: ID: 25905607df5eb7e53a1cc538b23990df
+msgctxt "ErrorReportWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: c4d693f8fba1715341b555b93293d085
+msgctxt "ErrorReportWindow"
+msgid "Error Report"
+msgstr "Error report"
+
+#: File: launcher_en.ts
+#: ID: 7eed5e6e7f57eccc4aeacf4549b1cde5
+msgctxt "ErrorReportWindow"
+msgid "Error"
+msgstr "Error"
+
+#: File: launcher_en.ts
+#: ID: 7237259c60d51f9739555947d36c6015
+msgctxt "ErrorReportWindow"
+msgid "A fatal error has occured. Application will be closed."
+msgstr "A fatal error has occured. The application will be closed."
+
+#: File: launcher_en.ts
+#: ID: ac3d949fa9ea0433bb7f185a95d681ef
+msgctxt "ErrorReportWindow"
+msgid "Sending error data"
+msgstr "Sending error data"
+
+#: File: launcher_en.ts
+#: ID: 9e090baefd354869d2bc836f2673ee82
+msgctxt "ErrorReportWindow"
+msgid "Report problem"
+msgstr "Report an issue"
+
+#: File: launcher_en.ts
+#: ID: 058e3ae0bc01bc82e107f55bf8e56c7d
+msgctxt "ErrorReportWindow"
+msgid "OK"
+msgstr "OK"
+
+#: File: launcher_en.ts
+#: ID: 4feb7e497a6c32d2236e73d903521299
+msgctxt "ErrorReportWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: 7d82b4d0a72f4e7601f8adf86983fd04
+msgctxt "ErrorWindow"
+msgid ""
+"A fatal error has occured. Thy limbs are weak and sight is blurred. Forget "
+"thy dreams and run in terror. Extraction error."
+msgstr "Authorization error. Please log in once again."
+
+#: File: launcher_en.ts
+#: ID: a470b709d32bf20b2a35b81f2b1ea57d
+msgctxt "ErrorWindow"
+msgid "Error"
+msgstr "Error"
+
+#: File: launcher_en.ts
+#: ID: 3dcc6cd2287bf62306f904be8eb167fd
+msgctxt "ErrorWindow"
+msgid "OK"
+msgstr "OK"
+
+#: File: launcher_en.ts
+#: ID: 5912c323e7e026c8c8696fc925751b38
+msgctxt "FindFriendComponent"
+msgid "Search friends by nickname"
+msgstr "Search friends by nickname"
+
+#: File: launcher_en.ts
+#: ID: 02f45958d6b79dcaa444745cd3eef84d
+msgctxt "FindFriendComponent"
+msgid "No users found"
+msgstr "No users found"
+
+#: File: launcher_en.ts
+#: ID: b9c234590ea1b6c39fc2258c9e484ea5
+msgctxt "FindFriendComponent"
+msgid "Request sent"
+msgstr "Request sent"
+
+#: File: launcher_en.ts
+#: ID: e64a831fd3ba442c23c6308a4d623854
+msgctxt "FindFriendComponent"
+msgid "Send request"
+msgstr "Send request"
+
+#: File: launcher_en.ts
+#: ID: 5a74522d5a2afee9a80dbc2c32b729b0
+msgctxt "FriendDelegate"
+msgid "Send request"
+msgstr "Send request"
+
+#: File: launcher_en.ts
+#: ID: b41aa0dbc1973ed9cfbe0909a9c8cb46
+msgctxt "FriendDelegate"
+msgid "Request send"
+msgstr "Request sent"
+
+#: File: launcher_en.ts
+#: ID: a85a0dbf34b30ce0646c7d88367aeed4
+msgctxt "FriendDelegate"
+msgid "Invite"
+msgstr "Invite"
+
+#: File: launcher_en.ts
+#: ID: 7b88ec52573cb0a7b458721aed07bb7a
+msgctxt "FriendDelegate"
+msgid "Invited"
+msgstr "Invited"
+
+#: File: launcher_en.ts
+#: ID: 17d1e93bb43f7846119aa503b051eea5
+msgctxt "FriendDelegate"
+msgid "Delete"
+msgstr "Delete"
+
+#: File: launcher_en.ts
+#: ID: b95f53a70c57de86f4042e6c7b376b4d
+msgctxt "FriendDelegate"
+msgid "Confirm"
+msgstr "Confirm"
+
+#: File: launcher_en.ts
+#: ID: b07ac5e95b01f3fd8d3060442f6b9a1d
+msgctxt "FriendDelegate"
+msgid "Cancel request"
+msgstr "Cancel request"
+
+#: File: launcher_en.ts
+#: ID: c5b11db93ad2fabeaf713623cd59a550
+msgctxt "FriendDelegate"
+msgid "Playing Life is Feudal"
+msgstr "Playing Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: 3d9d7f99894ba61c1a10af97025d70af
+msgctxt "FriendDelegate"
+msgid "Last online: %1 hours ago"
+msgstr "Last seen: %1 hours ago"
+
+#: File: launcher_en.ts
+#: ID: 069a34a189066ad53e2f08a94d7dddab
+msgctxt "FriendDelegate"
+msgid "%1 mutual friend"
+msgstr "%1 mutual friend"
+
+#: File: launcher_en.ts
+#: ID: 5dd8e467987749c543c718d7a4e3f3ad
+msgctxt "FriendDelegate"
+msgid "%1 mutual friends"
+msgstr "%1 mutual friends"
+
+#: File: launcher_en.ts
+#: ID: 9dd345b987f3dc1166c0cb4332c803f6
+msgctxt "FriendsListComponent"
+msgid "Delete"
+msgstr "Delete"
+
+#: File: launcher_en.ts
+#: ID: 48ed41716b49245a550af3c8e8d55383
+msgctxt "FriendsListComponent"
+msgid "Block"
+msgstr "Block"
+
+#: File: launcher_en.ts
+#: ID: 3936a021c6d33d85ebd116438aff5fb6
+msgctxt "FriendsListComponent"
+msgid "Start chat"
+msgstr "Start chat"
+
+#: File: launcher_en.ts
+#: ID: f8b2164517717fdbab302b73154ecf56
+msgctxt "FriendsListComponent"
+msgid "Unblock"
+msgstr "Unblock"
+
+#: File: launcher_en.ts
+#: ID: 5271a1a84c7ba8e850574246c5ca0c6a
+msgctxt "FriendsWindow"
+msgid "Add a Friend"
+msgstr "Add a Friend"
+
+#: File: launcher_en.ts
+#: ID: abf91ae93f36129d2ca2373f3e619015
+msgctxt "FriendsWindow"
+msgid "Friends"
+msgstr "Friends"
+
+#: File: launcher_en.ts
+#: ID: f6bf79ba791cc515ee937e4e3decf441
+msgctxt "FriendsWindow"
+msgid "+ Find friends"
+msgstr "+ Find friends"
+
+#: File: launcher_en.ts
+#: ID: 69cb29893c12caf2fd90be3f7bbe79ac
+msgctxt "FriendsWindow"
+msgid "Requests"
+msgstr "Requests"
+
+#: File: launcher_en.ts
+#: ID: f5f46b14e5905a404fb76d7050070e78
+msgctxt "GameComponent"
+msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s"
+msgstr "Downloading: %1 of %2 Mb, at %3 kB/s"
+
+#: File: launcher_en.ts
+#: ID: f21b98c76b3cc4dc301eb52a30823d77
+msgctxt "GameComponent"
+msgid "Extracting: %1% %2 Mb remaining"
+msgstr "Extracting: %1%, %2 MB remaining"
+
+#: File: launcher_en.ts
+#: ID: eeaa02f00295b132f56511a2cc22241d
+msgctxt "GameComponent"
+msgid "Uninstalling: %1%"
+msgstr "Uninstalling: %1%"
+
+#: File: launcher_en.ts
+#: ID: 989caf564d79476eb74eb1aaa6aed4b2
+msgctxt "GameComponent"
+msgid "PLAY"
+msgstr "PLAY"
+
+#: File: launcher_en.ts
+#: ID: 63427c8d1e056c3b79e6df685ac4e771
+msgctxt "GameComponent"
+msgid "INSTALL"
+msgstr "INSTALL"
+
+#: File: launcher_en.ts
+#: ID: 07386946df9eacb991b040b728c284cb
+msgctxt "GameComponent"
+msgid "Buy"
+msgstr "Buy"
+
+#: File: launcher_en.ts
+#: ID: 0a404317082c032920f0aa7a51750b5c
+msgctxt "GameComponent"
+msgid "Downloading: %1 Mb from %2 Mb, at %3 Kb/s, peers %4, seeds %5"
+msgstr "Downloading: %1 of %2 MB at %3 kB/s, peers: %4, seeds: %5"
+
+#: File: launcher_en.ts
+#: ID: 2492dd98c4f468260d240452244eb86d
+msgctxt "GameComponent"
+msgid "Repairing data: %1 Mb remaining"
+msgstr "Repairing data: %1 MB remaining"
+
+#: File: launcher_en.ts
+#: ID: 06d37dec99eb496bafb9bc1f621c626a
+msgctxt "GameComponent"
+msgid "Nothing here. King is at loss"
+msgstr "Cannot load the list of banners. Please try again later"
+
+#: File: launcher_en.ts
+#: ID: a624dd7bdca92ee259efb88acc0a2d4f
+msgctxt "GameComponent"
+msgid "Support"
+msgstr "Support"
+
+#: File: launcher_en.ts
+#: ID: bf0c6f97cc2521fb26f579373d901403
+msgctxt "GameComponent"
+msgid "If the game is already installed"
+msgstr "If the game is already installed"
+
+#: File: launcher_en.ts
+#: ID: 3177ec92464e1972829f13deeb9f3b93
+msgctxt "GameComponent"
+msgid "Locate the game"
+msgstr "Locate the game"
+
+#: File: launcher_en.ts
+#: ID: 21cf59eadbf5a9601258914c898b319d
+msgctxt "GameComponent"
+msgid "Install"
+msgstr "Install"
+
+#: File: launcher_en.ts
+#: ID: 4eab685ae587ea1c534d02c81250f88c
+msgctxt "GameComponent"
+msgid "Community"
+msgstr "Community"
+
+#: File: launcher_en.ts
+#: ID: 583d31df4b07032307d953b7e38f4590
+msgctxt "GameComponent"
+msgid "Repair"
+msgstr "Repair"
+
+#: File: launcher_en.ts
+#: ID: 31fb8c9385db88346c60e980bb2c2b5e
+msgctxt "GameComponent"
+msgid "Uninstall"
+msgstr "Uninstall"
+
+#: File: launcher_en.ts
+#: ID: d882e6660d44cef358bee11a704d08c7
+msgctxt "GameComponent"
+msgid "Options"
+msgstr "Options"
+
+#: File: launcher_en.ts
+#: ID: 238de60ab0b6a0bcc87644772f00bcca
+msgctxt "GameComponent"
+msgid "Can't find game in selected folder."
+msgstr "Can’t find the game in the selected folder."
+
+#: File: launcher_en.ts
+#: ID: fefe0926eb2ff1e1724ff94b3537a47d
+msgctxt "GameComponent"
+msgid "You cannot use selected game for the current region."
+msgstr "You cannot play this game in this region."
+
+#: File: launcher_en.ts
+#: ID: 8312c38687ffee4f6780a59285fc5cad
+msgctxt "GameInstallWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: 84523c7df59cae2b701f8b663294f009
+msgctxt "GameInstallWindow"
+msgid "Install Directory"
+msgstr "Installation path"
+
+#: File: launcher_en.ts
+#: ID: e5b4c24446630e2e11d9bb79b050a8eb
+msgctxt "GameInstallWindow"
+msgid "Change"
+msgstr "Change"
+
+#: File: launcher_en.ts
+#: ID: 1a257e8b992f1098344fda3d3ea7aa2f
+msgctxt "GameInstallWindow"
+msgid "Disk Space"
+msgstr "Disk space"
+
+#: File: launcher_en.ts
+#: ID: c9d1954aaa2147d38d893818cd16df36
+msgctxt "GameInstallWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: b6fa6a98a1dd4d88f8a8a6b850ac0273
+msgctxt "GameInstallWindow"
+msgid "Install"
+msgstr "Install"
+
+#: File: launcher_en.ts
+#: ID: 86e4f10b691420f957c1150968742631
+msgctxt "GameInstallWindow"
+msgid "Select path for install.."
+msgstr "Select the installation path"
+
+#: File: launcher_en.ts
+#: ID: 4b339f6b8f47a22efe7c0eabe6de6312
+msgctxt "GameInstallWindow"
+msgid ""
+"You cannot use directory to install the game. Please select a different "
+"directory for installation."
+msgstr "You cannot install the game in this folder. Please choose a different folder."
+
+#: File: launcher_en.ts
+#: ID: 4cd129808e5d22cd66116cc85a4cc05d
+msgctxt "GeneralSection"
+msgid "Language"
+msgstr "Language"
+
+#: File: launcher_en.ts
+#: ID: 86eace740487969d61cf799e8620d2e6
+msgctxt "GeneralSection"
+msgid "Account"
+msgstr "Account"
+
+#: File: launcher_en.ts
+#: ID: 44b6682b8cdc4c3dbe7904e3d92abbcd
+msgctxt "GeneralSection"
+msgid "Remember me"
+msgstr "Remember me"
+
+#: File: launcher_en.ts
+#: ID: 5821e0dce3bdf528dd44708c2bf83395
+msgctxt "GeneralSection"
+msgid "Downloads"
+msgstr "Downloads"
+
+#: File: launcher_en.ts
+#: ID: 48a2302e2e6a57fea16e07aa6159ca72
+msgctxt "GeneralSection"
+msgid "Use p2p connection"
+msgstr "Use a P2P connection"
+
+#: File: launcher_en.ts
+#: ID: 759d408147c5619d9f3d5a20bc87ddbb
+msgctxt "HighlightsScreen"
+msgid "%1 time lapse"
+msgstr "Time lapse %1"
+
+#: File: launcher_en.ts
+#: ID: f2f0227163b49af8ceb1c1bdff52c48b
+msgctxt "HighlightsScreen"
+msgid "Time Lapse Collection"
+msgstr "Time lapse collection"
+
+#: File: launcher_en.ts
+#: ID: 3066f69ba0cd5f383a420a6ddace4be2
+msgctxt "HighlightsScreen"
+msgid "Last update: "
+msgstr "Last update: "
+
+#: File: launcher_en.ts
+#: ID: beba9f4c27bdf1589e4efece170ab5df
+msgctxt "LauncherUpdateWindow"
+msgid "Update"
+msgstr "Update"
+
+#: File: launcher_en.ts
+#: ID: 170caa505b12b3fd261bbba95ec08387
+msgctxt "LauncherUpdateWindow"
+msgid "Progress: %1% "
+msgstr "Progress: %1% "
+
+#: File: launcher_en.ts
+#: ID: 2c7880f827510a3cb50e7ea578bd89e7
+msgctxt "LauncherUpdateWindow"
+msgid "Checking updates"
+msgstr "Checking for updates"
+
+#: File: launcher_en.ts
+#: ID: 83fb6abb5b886f629973d41a52176a70
+msgctxt "LauncherUpdateWindow"
+msgid "Downloading launcher update"
+msgstr "Downloading launcher update"
+
+#: File: launcher_en.ts
+#: ID: b197067fdee3bd74faa38ef519acdaa9
+msgctxt "LauncherUpdateWindow"
+msgid "Unpacking launcher update"
+msgstr "Unpacking launcher update"
+
+#: File: launcher_en.ts
+#: ID: 612719b9d055e59ede8672c16309ae4a
+msgctxt "LoginContextMenu"
+msgid "Online"
+msgstr "Online"
+
+#: File: launcher_en.ts
+#: ID: 6d0de2e15abe6e77438636f8b692a1de
+msgctxt "LoginContextMenu"
+msgid "Away"
+msgstr "Away"
+
+#: File: launcher_en.ts
+#: ID: 0c5bd7d1362beb94e9bd3202287df145
+msgctxt "LoginContextMenu"
+msgid "Settings"
+msgstr "Settings"
+
+#: File: launcher_en.ts
+#: ID: 1270b8786acd06d1bdd07b6ce2f006fc
+msgctxt "LoginContextMenu"
+msgid "Log Out"
+msgstr "Log out"
+
+#: File: launcher_en.ts
+#: ID: 078fbcc30c954132b350c2a71534f69b
+msgctxt "LoginWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: 36f5b363659af4a1106660b5e62a49ae
+msgctxt "LoginWindow"
+msgid "Error! Network list is empty!"
+msgstr "Error: The network list is empty!"
+
+#: File: launcher_en.ts
+#: ID: 4ccf20723ef26648dcf8f929b4732e0e
+msgctxt "LoginWindow"
+msgid "Sign in with VK"
+msgstr "Sign in with VK"
+
+#: File: launcher_en.ts
+#: ID: c466ada413def6fcbb00d72a298e5b8f
+msgctxt "LoginWindow"
+msgid "Sign in with Facebook"
+msgstr "Sign in with Facebook"
+
+#: File: launcher_en.ts
+#: ID: 7291e77b147ce3d6f6e750ee033b2def
+msgctxt "LoginWindow"
+msgid "Sign in with Google"
+msgstr "Sign in with Google"
+
+#: File: launcher_en.ts
+#: ID: 2b8c630fca7cb1bb7d51b4e4c1196e79
+msgctxt "LoginWindow"
+msgid "Sign in with Steam"
+msgstr "Sign in with Steam"
+
+#: File: launcher_en.ts
+#: ID: b0b480fca69304550b6be705e36705f0
+msgctxt "LoginWindow"
+msgid "Sign in with Twitter"
+msgstr "Sign in with Twitter"
+
+#: File: launcher_en.ts
+#: ID: 72014afb041f6459e022a996c16fa812
+msgctxt "LoginWindow"
+msgid "Sign in with Naver"
+msgstr "Sign in with Naver"
+
+#: File: launcher_en.ts
+#: ID: 6763d7169a38e12362bbc15ecb02d2e1
+msgctxt "LoginWindow"
+msgid "Sign in with Baidu"
+msgstr "Sign in with Baidu"
+
+#: File: launcher_en.ts
+#: ID: e791627f252543192331fb19bc6a164b
+msgctxt "LoginWindow"
+msgid "Error"
+msgstr "Error"
+
+#: File: launcher_en.ts
+#: ID: 0e2141584476dccc95d23fb39a776108
+msgctxt "LoginWindow"
+msgid "Failed loading social providers"
+msgstr "Failed loading the list of social networks"
+
+#: File: launcher_en.ts
+#: ID: 6efbf63ae9ecf60a482be2a49ece7742
+msgctxt "LoginWindow"
+msgid "Social auth failed."
+msgstr "Social authentication failed."
+
+#: File: launcher_en.ts
+#: ID: 93f2a79e1a866767812b14479a1b71f8
+msgctxt "LoginWindow"
+msgid "There was a problem with your request. Please try again."
+msgstr "There was a problem with your request. Please try again."
+
+#: File: launcher_en.ts
+#: ID: b2a1fd1e013b2c1450b4d0adc218daa7
+msgctxt "LoginWindow"
+msgid "Forgot password?"
+msgstr "Forgot your password?"
+
+#: File: launcher_en.ts
+#: ID: b026946e7c2915773c4c70cd09b7d718
+msgctxt "LoginWindow"
+msgid "Create an account"
+msgstr "Create an account"
+
+#: File: launcher_en.ts
+#: ID: eb5c554ce1f374186c0fd4866a6f7bc7
+msgctxt "MailruLoginWindow"
+msgid "Enjoy the game"
+msgstr "Enjoy the game"
+
+#: File: launcher_en.ts
+#: ID: 30e909b8c72b2e157d23408cac959f05
+msgctxt "MailruLoginWindow"
+msgid "Loading the list of regions - please wait"
+msgstr "Loading the list of regions — please wait"
+
+#: File: launcher_en.ts
+#: ID: 0a4a0ef9e6065c9f917c96282d4479ce
+msgctxt "MailruLoginWindow"
+msgid "Loading..."
+msgstr "Loading..."
+
+#: File: launcher_en.ts
+#: ID: 0ce55b54e97b28083ca9de4947d0ef42
+msgctxt "MailruLoginWindow"
+msgid "Locate the game"
+msgstr "Locate the game"
+
+#: File: launcher_en.ts
+#: ID: a10cabb2680898c20fc571c58268ad80
+msgctxt "MailruLoginWindow"
+msgid ""
+"Changing region will affect your in-game purchases, characters and game "
+"patches"
+msgstr "Changing the region will affect your in-game purchases, characters, and game patches"
+
+#: File: launcher_en.ts
+#: ID: f20ca7266486a02f4b5b280e484566dc
+msgctxt "MailruLoginWindow"
+msgid "Next"
+msgstr "Next"
+
+#: File: launcher_en.ts
+#: ID: 11279877c55fbfca0bd0d0e8e10f44e4
+msgctxt "MailruLoginWindow"
+msgid "Failed gettings characters information"
+msgstr "Failed getting information about characters"
+
+#: File: launcher_en.ts
+#: ID: 63f2a3073a55a33e7990aa7d3a1127bb
+msgctxt "MailruLoginWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: 4317112bfbca0b692b4a571ef0320ddf
+msgctxt "MailruLoginWindow"
+msgid "Authentication failed."
+msgstr "Authentication failed."
+
+#: File: launcher_en.ts
+#: ID: f5da6f4548cd10c0996d12abbe6ed3fd
+msgctxt "MailruLoginWindow"
+msgid "Error"
+msgstr "Error"
+
+#: File: launcher_en.ts
+#: ID: 95a68e056955989b7241d61f6cde5d99
+msgctxt "MainWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: 0e8c376f02304cae74007b67f1705418
+msgctxt "MainWindow"
+msgid "Game installation failed with error\n"
+msgstr "Game installation failed with an error\n"
+
+#: File: launcher_en.ts
+#: ID: b389e1eac12cf345bc2a570c7f1d58ad
+msgctxt "MainWindow"
+msgid ""
+"\n"
+"Please, try again."
+msgstr "\n Please try again."
+
+#: File: launcher_en.ts
+#: ID: d9d01aeca11941cc73f21a1da41e9e27
+msgctxt "MainWindow"
+msgid "%1 time lapse is aviable!"
+msgstr "Time lapse %1 is available!"
+
+#: File: launcher_en.ts
+#: ID: 6b8c0dfe2e71d187087efe0d541eaa74
+msgctxt "MainWindow"
+msgid "Game"
+msgstr "Game"
+
+#: File: launcher_en.ts
+#: ID: 286cc30465c59c49b96ab2d6d34634a6
+msgctxt "MainWindow"
+msgid "News"
+msgstr "News"
+
+#: File: launcher_en.ts
+#: ID: 5efbac08a26126fb097fb6139aeadc88
+msgctxt "MainWindow"
+msgid "Highlights"
+msgstr "Highlights"
+
+#: File: launcher_en.ts
+#: ID: 298622aa37d4eaa19a0e0b4a3763eae1
+msgctxt "MainWindow"
+msgid "Store"
+msgstr "Store"
+
+#: File: launcher_en.ts
+#: ID: 3e293ede62ee54c062cd32596b4a067c
+msgctxt "MainWindow"
+msgid "Extracting"
+msgstr "Extracting"
+
+#: File: launcher_en.ts
+#: ID: 294893a291c704a019012418023eb9d6
+msgctxt "MainWindow"
+msgid "Repairing"
+msgstr "Repairing"
+
+#: File: launcher_en.ts
+#: ID: 414179952faee622d9adae7fbb9f6c19
+msgctxt "MainWindow"
+msgid "Downloading"
+msgstr "Downloading"
+
+#: File: launcher_en.ts
+#: ID: 4dbb11e1d775b85599a05af662fc1c38
+msgctxt "MainWindow"
+msgid "Can't close launcher, while game is running"
+msgstr "Can’t close the launcher while the game is running"
+
+#. %1 - Nickname of user invited to chat; %2 - Nickname of user who invited another user
+#: File: launcher_en.ts
+#: ID: 41eaf7d3b5fc4da39cfc3be8afbeb311
+msgctxt "MessageDelegate"
+msgid "User %1 invited to chat by %2"
+msgstr "User %1 invited to chat by %2"
+
+#. %1 - Nickname of user who removed from chat
+#: File: launcher_en.ts
+#: ID: 535bfb3f76781c915ecae799ce37ee15
+msgctxt "MessageDelegate"
+msgid "User %1 leaved  from chat"
+msgstr "User %1 left the chat"
+
+#. %1 - Nickname of user who removed from chat; %2 - Nickname of user who removed 1st user from chat
+#: File: launcher_en.ts
+#: ID: 8c543cc502752155d9c64d4c882198ab
+msgctxt "MessageDelegate"
+msgid "User %1 removed from chat by %2"
+msgstr "User %1 removed from chat by %2"
+
+#. %1 - Nickname of user who created chat; %2 - Title of just created chat
+#: File: launcher_en.ts
+#: ID: 01507c76d7f770e23d768fb9a7cd067b
+msgctxt "MessageDelegate"
+msgid "User %1 created chat %2"
+msgstr "User %1 created chat %2"
+
+#. %1 - user's nickname; %2 new chat's title
+#: File: launcher_en.ts
+#: ID: a6d26cc16374a966b325647730f68138
+msgctxt "MessageDelegate"
+msgid "User %1 changed chat title to %2"
+msgstr "User %1 changed chat title to %2"
+
+#: File: launcher_en.ts
+#: ID: 1501b71844340495af43b3038db9b4e1
+msgctxt "MessageInput"
+msgid "Type a message"
+msgstr "Type a message"
+
+#: File: launcher_en.ts
+#: ID: fe3e4999d6e6eb3b07a00ab03e113572
+msgctxt "MessageInput"
+msgid "Send"
+msgstr "Send"
+
+#. %1 - User's nickame
+#: File: launcher_en.ts
+#: ID: 96fa2daa21ca88d6a14a391903c7ce1e
+msgctxt "MessagesItem"
+msgid ""
+"<font color=\"#ffffff\"><b>%1</b></font> has added you to his friend list. Add "
+"him to your list and proceed to chat."
+msgstr "<font color=\"#ffffff\"><b>%1</b></font> has added you to their friend list. Add them to your list to start chatting."
+
+#: File: launcher_en.ts
+#: ID: 651d8ba8e79118d241490b88cbf60fac
+msgctxt "MessagesItem"
+msgid "Confirm"
+msgstr "Confirm"
+
+#: File: launcher_en.ts
+#: ID: 50452fc3f25b0de478dfbe67fa6254d9
+msgctxt "MessagesItem"
+msgid "Delete"
+msgstr "Delete"
+
+#: File: launcher_en.ts
+#: ID: f544b0d636234534e8d89df1d3d0a893
+msgctxt "MessagesItem"
+msgid "Please select chat to start messaging"
+msgstr "Select a chat to start messaging"
+
+#: File: launcher_en.ts
+#: ID: e6d563920d6c264d464fc9cef2b2051f
+msgctxt "NewsScreen"
+msgid "Oops! Something is missing. Looks like your news is in another castle!"
+msgstr "Cannot load the news article — please try again later."
+
+#: File: launcher_en.ts
+#: ID: 62fadacf8351c83b4bfcee092cdbd2e4
+msgctxt "NewsScreen"
+msgid ""
+"We’re off to repair our medieval power generator (aka water wheel) but try "
+"again soon!"
+msgstr "Cannot load the list of news articles — please try again later."
+
+#: File: launcher_en.ts
+#: ID: b4f5acb486565ee9a112ee14fc6e0429
+msgctxt "OneNewsScreen"
+msgid "All News"
+msgstr "All news"
+
+#: File: launcher_en.ts
+#: ID: 3cf8538e26a85d0af44f270b1cb3042b
+msgctxt "RegionsComboBox"
+msgid "Loading..."
+msgstr "Loading..."
+
+#: File: launcher_en.ts
+#: ID: 75bc64e7aa4b68eaadf6737a42565a47
+msgctxt "RegionsComboBox"
+msgid "Region"
+msgstr "Region"
+
+#: File: launcher_en.ts
+#: ID: 81698d62cb77c52570ba2c9e36a89ea6
+msgctxt "RegionsComboBox"
+msgid ""
+"Changing region will affect your in-game purchases, characters and game "
+"patches"
+msgstr "Changing the region will affect your in-game purchases, characters, and game patches"
+
+#: File: launcher_en.ts
+#: ID: 17b8e195ab0393fe563c52c5de67a321
+msgctxt "RequestsComponent"
+msgid "New friend requests"
+msgstr "New friend requests"
+
+#: File: launcher_en.ts
+#: ID: 3c605b67a984eb80e1a4b8b2f5453e58
+msgctxt "RequestsComponent"
+msgid "Confirm"
+msgstr "Confirm"
+
+#: File: launcher_en.ts
+#: ID: f44921d2ef2f45934bf29fd52631bae7
+msgctxt "RequestsComponent"
+msgid "Delete"
+msgstr "Delete"
+
+#: File: launcher_en.ts
+#: ID: 1dc47f2b9f488d0e48abb862851892d0
+msgctxt "RequestsComponent"
+msgid "sent requests"
+msgstr "sent requests"
+
+#: File: launcher_en.ts
+#: ID: 7c3d4d48c4c332fba203408e59db4faf
+msgctxt "RequestsComponent"
+msgid "Cancel request"
+msgstr "Cancel request"
+
+#: File: launcher_en.ts
+#: ID: 8c6421d92209e1d5c67a5bf801c1cf6c
+msgctxt "SearchFriendWindow"
+msgid "Create username"
+msgstr "Create username"
+
+#: File: launcher_en.ts
+#: ID: 74dc6ba5b31ca5ed2ef0322830bfe9b3
+msgctxt "SearchFriendWindow"
+msgid "Step 1/2"
+msgstr "Step 1/2"
+
+#: File: launcher_en.ts
+#: ID: ea5b764d0a60d36361a187b42b28a5c1
+msgctxt "SearchFriendWindow"
+msgid "Welcome to chat. Set your username so your friends can find you."
+msgstr "Welcome to the chat. Set your nickname so your friends can find you."
+
+#: File: launcher_en.ts
+#: ID: 8f27adcdd4a13fd1e6af7234d0795b44
+msgctxt "SearchFriendWindow"
+msgid "Add a friend"
+msgstr "Add a friend"
+
+#: File: launcher_en.ts
+#: ID: 1aadc1e9bb61888fb6084b2bca8442d1
+msgctxt "SearchFriendWindow"
+msgid "Step 2/2"
+msgstr "Step 2/2"
+
+#: File: launcher_en.ts
+#: ID: c58db237d9a70919e051595b1cea6dd5
+msgctxt "SearchFriendWindow"
+msgid "Add friend to start messaging. Search by typing email or nickname."
+msgstr "Add friend to start messaging. Search by typing their email or nickname."
+
+#: File: launcher_en.ts
+#: ID: 00037e7286ee2c0337d55474bebd11aa
+msgctxt "SearchFriendWindow"
+msgid "+ Add"
+msgstr "+ Add"
+
+#: File: launcher_en.ts
+#: ID: 5073665ea2c9a4831f0f84bb1b10b327
+msgctxt "SearchFriendWindow"
+msgid "Next"
+msgstr "Next"
+
+#: File: launcher_en.ts
+#: ID: d9f5cd81a26527a28c76a78b2a44a9b5
+msgctxt "SettingsWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: d000a9eae68aa15aa298c15c7f43eea0
+msgctxt "SettingsWindow"
+msgid "Settings"
+msgstr "Settings"
+
+#: File: launcher_en.ts
+#: ID: 5cebe38c7df98e6aa33421795598ba83
+msgctxt "SettingsWindow"
+msgid "General"
+msgstr "General"
+
+#: File: launcher_en.ts
+#: ID: aaf90f0fd270cca0a29f8e2e5a04eb63
+msgctxt "SettingsWindow"
+msgid "Sound"
+msgstr "Sound"
+
+#: File: launcher_en.ts
+#: ID: a19e414e7f92070a532eb4de6afe3fd6
+msgctxt "SettingsWindow"
+msgid "Chat"
+msgstr "Chat"
+
+#: File: launcher_en.ts
+#: ID: 25d9fb1e0cd92239fee1a3798d1a54e8
+msgctxt "SettingsWindow"
+msgid "Account"
+msgstr "Account"
+
+#: File: launcher_en.ts
+#: ID: 0c586877a8d5daf1b6bb20146dcfd7c9
+msgctxt "SettingsWindow"
+msgid "Reset to Defaults"
+msgstr "Reset to defaults"
+
+#: File: launcher_en.ts
+#: ID: 575e9e5a88d3c24606270ec03913fa60
+msgctxt "SettingsWindow"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: File: launcher_en.ts
+#: ID: 32a6e9d41ac00d630627a00bf91b5aa1
+msgctxt "SettingsWindow"
+msgid "Done"
+msgstr "Done"
+
+#: File: launcher_en.ts
+#: ID: 076010c85dccb141c38f0b83d2da5866
+msgctxt "ShareDialog"
+msgid "Share"
+msgstr "Share"
+
+#: File: launcher_en.ts
+#: ID: 98caf46430e689bfc9c175b20ffab836
+msgctxt "ShareDialog"
+msgid "Direct link"
+msgstr "Direct link"
+
+#: File: launcher_en.ts
+#: ID: 4d70088de72e5718beff8b73e40876b1
+msgctxt "SocialLinkingWindow"
+msgid ""
+"Connect your social networks\n"
+"and find friends to play with"
+msgstr "Connect your social network profiles\n to play with friends"
+
+#. %1 - Social network's name
+#: File: launcher_en.ts
+#: ID: 1675f10c9eb271e8cd64faee4101aae7
+msgctxt "SocialLinkingWindow"
+msgid "Connect %1"
+msgstr "Connect %1"
+
+#: File: launcher_en.ts
+#: ID: c17a03e00d3436219a9e1c151a8fc6f4
+msgctxt "SocialLinkingWindow"
+msgid "Never show this window again"
+msgstr "Don’t show this window again"
+
+#: File: launcher_en.ts
+#: ID: 76e5358551a0b827ed502e37ddcf917f
+msgctxt "SocialLinkingWindow"
+msgid "Skip"
+msgstr "Skip"
+
+#. Visit us on next social networks
+#: File: launcher_en.ts
+#: ID: b2951d32f01cc8803b4c7383a4ec785f
+msgctxt "SocialLinksComponent"
+msgid "Visit us on: "
+msgstr "Visit us on: "
+
+#. Find us in social networks groups
+#: File: launcher_en.ts
+#: ID: af0dd16363b560a89206834a63bbbd50
+msgctxt "SocialLinksWindow"
+msgid "Find us on Social Media"
+msgstr "Find us on social media"
+
+#: File: launcher_en.ts
+#: ID: c03b74d3875c59054798a3c4d9f59b53
+msgctxt "SocialLinksWindow"
+msgid "Search"
+msgstr "Search"
+
+#: File: launcher_en.ts
+#: ID: 29048e86f906139c9a8731af34c6af39
+msgctxt "SocialList"
+msgid "Search"
+msgstr "Search"
+
+#: File: launcher_en.ts
+#: ID: 7edf4bd3e2a4385eb55e744d56fba1b4
+msgctxt "SocialNetworkComponent"
+msgid "Search %1 friends by name"
+msgstr "Search %1 friends by name"
+
+#: File: launcher_en.ts
+#: ID: c876e026399d098be0c85d547c296938
+msgctxt "SocialNetworkComponent"
+msgid "Already playing"
+msgstr "Already playing"
+
+#: File: launcher_en.ts
+#: ID: ea8c4ea889f073dac94c7f2c70239d79
+msgctxt "SocialNetworkComponent"
+msgid "Invite"
+msgstr "Invite"
+
+#: File: launcher_en.ts
+#: ID: d47626b954c4130dc8a1ce7daecf6216
+msgctxt "SoundSection"
+msgid "Sound section"
+msgstr "Sound settings"
+
+#: File: launcher_en.ts
+#: ID: 9bad24bc6fa55f226b5695fd64d98985
+msgctxt "SteamLoginWindow"
+msgid "Enjoy the game"
+msgstr "Enjoy the game"
+
+#: File: launcher_en.ts
+#: ID: 1e18ed05a10d29a009d62e11c07c57ab
+msgctxt "SteamLoginWindow"
+msgid "Loading the list of regions - please wait"
+msgstr "Loading the list of regions — please wait"
+
+#: File: launcher_en.ts
+#: ID: bd80a8de6dd283b7956942eb55b7cf4a
+msgctxt "SteamLoginWindow"
+msgid "Loading..."
+msgstr "Loading..."
+
+#: File: launcher_en.ts
+#: ID: 21dd04da7b837ea5bff281fd9d34ea51
+msgctxt "SteamLoginWindow"
+msgid "Locate the game"
+msgstr "Locate the game"
+
+#: File: launcher_en.ts
+#: ID: 3f0a83709136f05d1e47941b0f026066
+msgctxt "SteamLoginWindow"
+msgid ""
+"Changing region will affect your in-game purchases, characters and game "
+"patches"
+msgstr "Changing the region will affect your in-game purchases, characters, and game patches"
+
+#: File: launcher_en.ts
+#: ID: 200825fafba709a27fd5b7a7f4634943
+msgctxt "SteamLoginWindow"
+msgid "Next"
+msgstr "Next"
+
+#: File: launcher_en.ts
+#: ID: 1010e6764f412ce3b7267c7e393a920f
+msgctxt "SteamLoginWindow"
+msgid "Enter your email address"
+msgstr "Enter your email address"
+
+#: File: launcher_en.ts
+#: ID: d73e3ee9cf22824d7356cb6b0cd8784e
+msgctxt "SteamLoginWindow"
+msgid "A confirmation email will be sent to the specified email address"
+msgstr "We’ll send a confirmation email to this address"
+
+#: File: launcher_en.ts
+#: ID: d0d372e63124ad9fcae3857a6b4d7062
+msgctxt "SteamLoginWindow"
+msgid "Send"
+msgstr "Send"
+
+#: File: launcher_en.ts
+#: ID: 4a2e4acdf95fd0be12da55da43bb2750
+msgctxt "SteamLoginWindow"
+msgid "Invalid email address"
+msgstr "Invalid email address"
+
+#: File: launcher_en.ts
+#: ID: b18b01ed68ae1806c11772d006a3d239
+msgctxt "SteamLoginWindow"
+msgid "Email was sent"
+msgstr "Email sent"
+
+#: File: launcher_en.ts
+#: ID: 1fc7e009b34616df3b9038813733161c
+msgctxt "SteamLoginWindow"
+msgid "Please check your email and confirm the registration"
+msgstr "Please check your email and confirm your registration"
+
+#: File: launcher_en.ts
+#: ID: 6b296e2a5296acfb522a5d27b5f145ac
+msgctxt "SteamLoginWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: b56e00fbb356f82a9a7dca89439cec28
+msgctxt "SteamLoginWindow"
+msgid "Authentication failed."
+msgstr "Authentication failed."
+
+#: File: launcher_en.ts
+#: ID: f848d7f909380136bec353ac64e3b371
+msgctxt "SteamLoginWindow"
+msgid "E-mail"
+msgstr "Email"
+
+#: File: launcher_en.ts
+#: ID: 6a2f0c9e0fff8c96936bb6ea3792b4c8
+msgctxt "SteamLoginWindow"
+msgid "Error"
+msgstr "Error"
+
+#: File: launcher_en.ts
+#: ID: 50e0ba9f6a3d6d343098e022176cf888
+msgctxt "StoneLoginWindow"
+msgid "Enjoy the game"
+msgstr "Enjoy the game"
+
+#: File: launcher_en.ts
+#: ID: f8b5325b5c0c775574442856ee690baa
+msgctxt "StoneLoginWindow"
+msgid "Loading the list of regions - please wait"
+msgstr "Loading the list of regions — please wait"
+
+#: File: launcher_en.ts
+#: ID: 69ee50a80f963fadd5d4b210b60953c0
+msgctxt "StoneLoginWindow"
+msgid "Loading..."
+msgstr "Loading..."
+
+#: File: launcher_en.ts
+#: ID: bdee124d562546efbc7250cc61aec0c5
+msgctxt "StoneLoginWindow"
+msgid "Locate the game"
+msgstr "Locate the game"
+
+#: File: launcher_en.ts
+#: ID: 439a46f57cef70447838488db6672133
+msgctxt "StoneLoginWindow"
+msgid ""
+"Changing region will affect your in-game purchases, characters and game "
+"patches"
+msgstr "Changing the region will affect your in-game purchases, characters, and game patches"
+
+#: File: launcher_en.ts
+#: ID: 67f8091bdc32cb5833b1b683232fd5e6
+msgctxt "StoneLoginWindow"
+msgid "Next"
+msgstr "Next"
+
+#: File: launcher_en.ts
+#: ID: c780610b6436f6e86a624de2c8cc0a76
+msgctxt "StoneLoginWindow"
+msgid "Enter your email address"
+msgstr "Enter your email address"
+
+#: File: launcher_en.ts
+#: ID: 37d614139d78706f4523f516ba1008e7
+msgctxt "StoneLoginWindow"
+msgid "A confirmation email will be sent to the specified email address"
+msgstr "We’ll send a confirmation email to this address"
+
+#: File: launcher_en.ts
+#: ID: 83bbc515fbdecd351fdf3c723382657a
+msgctxt "StoneLoginWindow"
+msgid "Send"
+msgstr "Send"
+
+#: File: launcher_en.ts
+#: ID: c166837815ae0f69d6728885e7367f50
+msgctxt "StoneLoginWindow"
+msgid "Invalid email address"
+msgstr "Invalid email address"
+
+#: File: launcher_en.ts
+#: ID: 0f22f722821f7b0a62c0cb04ec2d2446
+msgctxt "StoneLoginWindow"
+msgid "Email was sent"
+msgstr "Email sent"
+
+#: File: launcher_en.ts
+#: ID: 78a27f49bb350b36413ed465707b8670
+msgctxt "StoneLoginWindow"
+msgid "Please check your email and confirm the registration"
+msgstr "Please check your email and confirm your registration"
+
+#: File: launcher_en.ts
+#: ID: ace865080fa0eef525ed0777f21242b8
+msgctxt "StoneLoginWindow"
+msgid "Life is Feudal"
+msgstr "Life is Feudal"
+
+#: File: launcher_en.ts
+#: ID: 7d41ae6a88c933ae2f427fec72427405
+msgctxt "StoneLoginWindow"
+msgid "Authentication failed."
+msgstr "Authentication failed."
+
+#: File: launcher_en.ts
+#: ID: 1651ff953f01fa827e53139a511b7e7c
+msgctxt "StoneLoginWindow"
+msgid "E-mail"
+msgstr "Email"
+
+#: File: launcher_en.ts
+#: ID: 2b743bf1d251141faefd957557bdd96c
+msgctxt "StoneLoginWindow"
+msgid "Error"
+msgstr "Error"
+
+#: File: launcher_en.ts
+#: ID: ce0ad56171cb2c91bdb1f3ca499bf73c
+msgctxt "StoreScreen"
+msgid "Something goes wrong..."
+msgstr "Something went wrong..."
+
+#: File: launcher_en.ts
+#: ID: db9a2171e084ab856ff91fceba311e9e
+msgctxt "StoreScreen"
+msgid "Store loading failed"
+msgstr "Cannot load store"
+
+#: File: launcher_en.ts
+#: ID: 88a4025becaab8f111bf812d946c4251
+msgctxt "StoreScreen"
+msgid "Refresh page"
+msgstr "Refresh page"
+
+#: File: launcher_en.ts
+#: ID: f6ea1f70bcd5d3d4f7f9f9c2b3f8616f
+msgctxt "StoreScreen"
+msgid "Reopen store"
+msgstr "Reopen store"
+
+#: File: launcher_en.ts
+#: ID: 0f45e718148d31b322a61a4c2f6ac2b5
+msgctxt "StoreScreen"
+msgid "Steam overlay loading failed"
+msgstr "Cannot load Steam overlay"
+
+#: File: launcher_en.ts
+#: ID: 001c5a51c45193586fdc7f74ad53e98c
+msgctxt "StoreScreen"
+msgid "Please wait, now the store will open without using Steam overlay"
+msgstr "Please wait — the store will now open without using Steam overlay"
+
+#. "Refresh web page"
+#: File: launcher_en.ts
+#: ID: 6ec722a5bfd62a869880592d510954b0
+msgctxt "StoreScreen"
+msgid "Refresh"
+msgstr "Refresh"
+
+#. "Go to forward web page"
+#: File: launcher_en.ts
+#: ID: eb2f19548016aea756834044371f9776
+msgctxt "StoreScreen"
+msgid "Forward"
+msgstr "Next"
+
+#. "Go to previous web page"
+#: File: launcher_en.ts
+#: ID: 98689656d662e464c7a0a34f63222604
+msgctxt "StoreScreen"
+msgid "Back"
+msgstr "Back"
+
+#: File: launcher_en.ts
+#: ID: 977584ea93a368893c12466d42f5a4db
+msgctxt "VideoItem"
+msgid "Share"
+msgstr "Share"
+
+#: File: launcher_en.ts
+#: ID: c05eb8fa6e6ee079b634553a732a114d
+msgctxt "WorldLoadingWindow"
+msgid "Downloading assets..."
+msgstr "Downloading assets..."
+
+#: File: launcher_en.ts
+#: ID: 50c707b17807b53739c9eacbed99b0ea
+msgctxt "WorldLoadingWindow"
+msgid "Unpacking assets..."
+msgstr "Unpacking assets..."
+
+#: File: launcher_en.ts
+#: ID: c35cbd253902c16c868799909d54282e
+msgctxt "WorldLoadingWindow"
+msgid "World is loading"
+msgstr "Loading the world..."
+
+#: File: launcher_en.ts
+#: ID: 47c0675b061910ba3a5f60552d22b7bf
+msgctxt "WorldLoadingWindow"
+msgid "Close"
+msgstr "Close"
+
+#: File: launcher_en.ts
+#: ID: 420a4fdf81b0fd5500e8eca7f549a543
+msgctxt "main"
+msgid "Life is Feudal: launcher"
+msgstr "Life is Feudal: launcher"
+
