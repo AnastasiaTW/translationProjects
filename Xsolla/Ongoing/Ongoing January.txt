@@ -1,0 +1,3 @@
+The item is not enabled. It cannot be given to users
+This item can be bought only once. It cannot be given to one user twice
+The chosen payment method cannot be used to make a purchase for the specified amount. Please edit the purchase or choose another payment method.

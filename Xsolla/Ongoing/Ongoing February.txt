@@ -1,0 +1,14 @@
+Could not complete the registration process. Most likely, you logged in to your mail.ru account via your Google or Yahoo account. At the moment, the mail.ru game server does not support such kind of authorization. Please try logging in to another account or contact Xsolla support.
+
+Could not complete the registration process — please wait until the window closes and try once again.
+
+'Please fill in all the fields for the {accountTypeName} payout method.'
+'Please choose another payout method or contact Xsolla support.'
+'Please double-check the fields for the {accountTypeName} payout method or contact Xsolla support.'
+
+Edit:
+
+Pay with Google is available only on Android device with Chrome for Android version 59 or higher, running Google Play services version 11.4.x or higher.
+
+PDF Library is a document repository that contains reports, studies, presentations, and other relevant information received from partners/companies or found in the Internet. If you have such information and want to share it with the Xsolla team, feel free to send an email to pdf@xsolla.com with a PDF file attached. Your document will be automatically added to the Library.
+Note that the name of the file should be self-explanatory, to make searching for documents in the Library easy and convenient.

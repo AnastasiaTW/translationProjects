@@ -1,0 +1,23 @@
+To search for transactions, indicate at least one of the following:
+* Phone number
+* Email
+* User details
+* Transaction ID
+* External ID
+
+Unique Paysafecard ID set in the Service Center. A string with the format of "psc_<name>".
+
+Editing:
+Dear Sir/Madam,
+
+Please find the previous month's Software Usage Report attached for your review.
+
+If you agree with the information contained in the report, please send us back signed copies. Please provide us with the signed report within 5 (five) business days as it is required for us to transfer the licensing fees payable under the agreement. A failure to submit the report within the above time frame could result in a delayed payout.
+
+Thank you for your cooperation.
+
+1. Отсутствует прикрепленный профиль социальной сети.  -> No linked social profile.
+2. Значение параметру login_url не передано.  ->  No value passed for the login_url parameter.
+3. Неверный login_url проекта.  -> Project login_url is incorrect.
+4. Невозможно отправить данные пользователя. Возникает при аутентификации через социальную сеть. -> Unable to send user data. Applicable for social network authentication.
+5. Запрос к провайдеру социальной сети не выполнен. -> Request to social network provider failed. 

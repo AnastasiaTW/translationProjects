@@ -1,0 +1,25 @@
+Xsolla has recently partnered with Amazon Pay Europe. As you know, Amazon Pay is by far one of the most well-known online payment methods in the USA and it has recently gone to Europe giving its users the opportunity to pay in euro. And now this feature is available through Xsolla. 
+
+…% of your users who make payments with Amazon Pay come from Europe, so now they can:
+Pay for ingame purchases in euros, so no conversion fee will be charged from a player reducing the overall cost of a product. 
+Save several credit and debit cards, which are safely stored and complete  purchases just in one-click in a more than thousands stores available all over the world.
+Enjoy safe, easy and convenient payment flow.
+
+The best news for you is that the fee for Amazon Pay EU is also much cheaper and is only 1.2% + 0.35 EUR, if the user chooses to pay from Amazon EU account (I will send you the instructions for the users upon your approval).
+
+Feel free to let your users know about this opportunity and I will be happy to guide you through the process if needed.
+
+Thank you!
+
+Please indicate the address to send bitcoins to. Bitcoin transfers are subject to Xsolla and network commissions.
+Address to send funds to (excluding the commissions)
+
+Trial period in days. Used only when creating a subscription and only for plans without a trial period defined.
+
+Can access support tickets; search, view, and cancel transactions; and export reports.
+
+Can access support tickets; search and view transactions. Cannot cancel transactions or export reports.
+
+Вывод списка групп виртуальных товаров либо в виде вертикально меню, либо над окном в виде горизонтального меню. Принимает значения 'horizontal_navigation' или 'vertical' (по умолчанию).
+
+Error while generating a link to the license agreement. Please try signing the document once again or contact us at <a href=“mailto:onboarding@xsolla.com”>onboarding@xsolla.com</a>

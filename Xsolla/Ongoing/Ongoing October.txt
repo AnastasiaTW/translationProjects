@@ -1,0 +1,30 @@
+<p><b>Внимание!</b> Операции в каналах банка проводятся по регламенту с 10:00 до 16:00 по Киеву в будние дни. В выходные и праздничные дни оплата в терминальных сетях Приватбанка недоступна.</p>
+
+I hereby authorize Xsolla to automatically charge me the recurring payment and applicable tax until I cancel. I may change or cancel this operation anytime by contacting Xsolla Customer Support at help.xsolla.com. No partial refunds.
+
+New Xsolla Launcher version
+What’s new:
+
+Chat;
+Friends: Find and add friends in the game;
+Instant Steam authorization: The user is automatically signed up with their Steam account, provided Xsolla Launcher was downloaded from Steam;
+Purchasing games via Xsolla Launcher;
+Region: Choosing the region allows the user to start the game on the fastest server.
+
+Payment widget. Can be 'paybycash' or 'giftcard'. If the parameter is set, the user is redirected to the Pay by Cash or Gift Cards widget, respectively.
+
+0004-0001 - Token expired or incorrect
+0004-0008 - Wrong URL (trying to access sandbox mode at secure.xsolla.com or live mode at sandbox-secure.xsolla.com)
+0002-0004 - Agreement not signed
+0004-0010 - Serverless integration prohibited
+0010-0001 - Digital content not found
+0010-0003 - Digital content has no DRM configured
+1000-0003 - No payment modules turned on for the project
+
+merchant.client_pay2play_demo_unavailable_title: "Unfortunately, the widget code is not available in the demo."
+merchant.client_pay2play_demo_unavailable_description: "To obtain the widget code, <a data-bypass=\"true\" href=\"https://publisher.xsolla.com/signup\">register</a> your Xsolla publisher account."
+
+Senior developer
+Can set up projects, create/edit/enable/launch campaigns, and create coupons. Can also view financial data, including reports, analytics, and dashboard metrics.
+Junior developer
+Can set up projects, create/edit/enable/launch campaigns, and create coupons. Cannot view financial data.

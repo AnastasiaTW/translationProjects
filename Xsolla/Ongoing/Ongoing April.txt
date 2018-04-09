@@ -1,0 +1,9 @@
+You’re trying to turn a descendant group into a parent
+List of parameters required to complete the registration, e.g. 'email'. If some parameters cannot be obtained from the social network, the user will be asked to specify them in the sign-up form.
+
+Comments for User Inventory Changes
+We added the Comment field to the user management section in Xsolla Publisher Account. The field is required when adding, removing, or changing the number of virtual items in the inventory. The comment is displayed in the user operation history in Pay Station.
+
+Whether the partner can accept real payments. "True" if there is a signed agreement in force and at least one enabled project. "True" by default.
+
+New payments_available parameter in the Project settings group of methods. The parameters indicates whether a project is ready to accept real payments. The parameter is "true" if the partner has an active signed agreement and at least one active project 
