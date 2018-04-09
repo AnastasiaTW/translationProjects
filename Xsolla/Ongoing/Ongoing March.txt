@@ -16,8 +16,8 @@ If you agree with the information contained in the report, please send us back s
 
 Thank you for your cooperation.
 
-1. Отсутствует прикрепленный профиль социальной сети.  -> No linked social profile.
-2. Значение параметру login_url не передано.  ->  No value passed for the login_url parameter.
-3. Неверный login_url проекта.  -> Project login_url is incorrect.
-4. Невозможно отправить данные пользователя. Возникает при аутентификации через социальную сеть. -> Unable to send user data. Applicable for social network authentication.
-5. Запрос к провайдеру социальной сети не выполнен. -> Request to social network provider failed. 
+1. Отсутствует прикрепленный профиль социальной сети
+2. Значение параметру login_url не передано.
+3. Неверный login_url проекта.t.
+4. Невозможно отправить данные пользователя. Возникает при аутентификации через социальную сеть. 
+5. Запрос к провайдеру социальной сети не выполнен.
