@@ -1,730 +1,730 @@
 <?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2"><file datatype="plaintext" date="2018-04-09T07:36:04.8136665Z" original="2148616_1038" source-language="en" target-language="hu"><header><tool tool-name="Smartcat.ai" tool-id="40c7d5b2-da26-4b36-84f1-8305b3aadb03" tool-version="2.66.1.1350" /></header><body>
 <trans-unit id="1046667" approved="yes">
 <source xml:space="preserve">Username</source>
-<target state="translated" xml:space="preserve">Felhasználónév</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046668" approved="yes">
 <source xml:space="preserve">Edit</source>
-<target state="translated" xml:space="preserve">Szerkesztés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046669" approved="yes">
 <source xml:space="preserve">Disconnect</source>
-<target state="translated" xml:space="preserve">Szétkapcsolás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046670" approved="yes">
 <source xml:space="preserve">Add another network</source>
-<target state="translated" xml:space="preserve">Közösségi hálózat hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046671" approved="yes">
 <source xml:space="preserve">Add users</source>
-<target state="translated" xml:space="preserve">Felhasználók hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046672" approved="yes">
 <source xml:space="preserve">Invite friends to group</source>
-<target state="translated" xml:space="preserve">Barátok meghívása csoportba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046673" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="translated" xml:space="preserve">Barátok keresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046674" approved="yes">
 <source xml:space="preserve">Add</source>
-<target state="translated" xml:space="preserve">Hozzáadás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046675" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046676" approved="yes">
 <source xml:space="preserve">Game Servers Problem</source>
-<target state="translated" xml:space="preserve">Játék szerver probléma</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046677" approved="yes">
 <source xml:space="preserve">We're experiencing technical problem with game servers. Please click Reload to check status.</source>
-<target state="translated" xml:space="preserve">Technikai problémát tapasztalunk a játék szervereinknél. Kattints az újratöltés gombra az állapot ellenőrzéséhez.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046678" approved="yes">
 <source xml:space="preserve">Loading characters:</source>
-<target state="translated" xml:space="preserve">Karakterek betöltése:</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046679" approved="yes">
 <source xml:space="preserve">Loading regions:</source>
-<target state="translated" xml:space="preserve">Régiók betöltése:</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046680" approved="no">
 <source xml:space="preserve">Game ownership:</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046681" approved="yes">
 <source xml:space="preserve">Reload servers</source>
-<target state="translated" xml:space="preserve">Szerverek újratöltése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046682" approved="yes">
 <source xml:space="preserve">email</source>
-<target state="translated" xml:space="preserve">Email</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046683" approved="yes">
 <source xml:space="preserve">Password</source>
-<target state="translated" xml:space="preserve">Jelszó</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046684" approved="yes">
 <source xml:space="preserve">Remember me</source>
-<target state="translated" xml:space="preserve">Emlékezzen rám</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046685" approved="yes">
 <source xml:space="preserve">LOADING</source>
-<target state="translated" xml:space="preserve">BETÖLTÉS</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046686" approved="yes">
 <source xml:space="preserve">SIGN IN</source>
-<target state="translated" xml:space="preserve">BEJELENTKEZÉS</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046687" approved="yes">
 <source xml:space="preserve">players</source>
-<target state="translated" xml:space="preserve">játékosok</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046688" approved="yes">
 <source xml:space="preserve">Change character</source>
-<target state="translated" xml:space="preserve">Karakter váltása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046689" approved="yes">
 <source xml:space="preserve">Edit chat title</source>
-<target state="translated" xml:space="preserve">Beszélgetés címének szerkesztése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046690" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">Kérlek, 5–20 karaktert használj</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046691" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046692" approved="yes">
 <source xml:space="preserve">Save</source>
-<target state="translated" xml:space="preserve">Mentés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046693" approved="yes">
 <source xml:space="preserve">Edit username</source>
-<target state="translated" xml:space="preserve">Felhasználónév szerkesztése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046694" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">Kérlek, 5–20 karaktert használj</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046695" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046696" approved="yes">
 <source xml:space="preserve">Save</source>
-<target state="translated" xml:space="preserve">Mentés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046697" approved="yes">
 <source xml:space="preserve">Character Selection</source>
-<target state="translated" xml:space="preserve">Karakter kiválasztása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046698" approved="yes">
 <source xml:space="preserve">Name</source>
-<target state="translated" xml:space="preserve">Név</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046699" approved="yes">
 <source xml:space="preserve">World</source>
-<target state="translated" xml:space="preserve">Világ</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046700" approved="yes">
 <source xml:space="preserve">Workload</source>
-<target state="translated" xml:space="preserve">Terhelés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046701" approved="yes">
 <source xml:space="preserve">Status</source>
-<target state="translated" xml:space="preserve">Állapot</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046702" approved="yes">
 <source xml:space="preserve">+ Add character</source>
-<target state="translated" xml:space="preserve">+ Karakter hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046703" approved="yes">
 <source xml:space="preserve">Done</source>
-<target state="translated" xml:space="preserve">Kész</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046704" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046705" approved="yes">
 <source xml:space="preserve">Available</source>
-<target state="translated" xml:space="preserve">Elérhető</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046706" approved="yes">
 <source xml:space="preserve">Unavailable</source>
-<target state="translated" xml:space="preserve">Nem elérhető</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046707" approved="yes">
 <source xml:space="preserve">World is full</source>
-<target state="translated" xml:space="preserve">Tele van a világ</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046708" approved="yes">
 <source xml:space="preserve">Online</source>
-<target state="translated" xml:space="preserve">Online</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046709" approved="yes">
 <source xml:space="preserve">In game</source>
-<target state="translated" xml:space="preserve">Játékban</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046710" approved="yes">
 <source xml:space="preserve">Away</source>
-<target state="translated" xml:space="preserve">Távol</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046711" approved="yes">
 <source xml:space="preserve">Offline</source>
-<target state="translated" xml:space="preserve">Offline</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046712" approved="yes">
 <source xml:space="preserve">Chat</source>
-<target state="translated" xml:space="preserve">Beszélgetés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046713" approved="yes">
 <source xml:space="preserve">No users found</source>
-<target state="translated" xml:space="preserve">Nincs felhasználó</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046714" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="translated" xml:space="preserve">Keresés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046715" approved="yes">
 <source xml:space="preserve">Enable notifications</source>
-<target state="translated" xml:space="preserve">Értesítések engedélyezése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046716" approved="yes">
 <source xml:space="preserve">Disable notifications</source>
-<target state="translated" xml:space="preserve">Értesítések letiltása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046717" approved="yes">
 <source xml:space="preserve">Settings</source>
-<target state="translated" xml:space="preserve">Beállítások</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046718" approved="yes">
 <source xml:space="preserve">Leave group</source>
-<target state="translated" xml:space="preserve">Kilépés a csoportból</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046719" approved="yes">
 <source xml:space="preserve">+ Create chat</source>
-<target state="translated" xml:space="preserve">Beszélgetés létrehozása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046720" approved="yes">
 <source xml:space="preserve">+ Create channel</source>
-<target state="translated" xml:space="preserve">+ Csatorna létrehozása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046721" approved="yes">
 <source xml:space="preserve">Please select chat to start messaging</source>
-<target state="translated" xml:space="preserve">Kérlek, válassz ki egy beszélgetést az üzenetküldéshez</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046722" approved="yes">
 <source xml:space="preserve">Connect your social networks and find friends to play with</source>
-<target state="translated" xml:space="preserve">Csatlakoztasd a közösségi hálózataidat és keress barátokat a játékhoz</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046723" approved="yes">
 <source xml:space="preserve">Connect Facebook</source>
-<target state="translated" xml:space="preserve">Facebook csatlakoztatása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046724" approved="no">
 <source xml:space="preserve">Connect VK</source>
-<target state="translated" xml:space="preserve">VKontakte csatlakoztatása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046725" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="translated" xml:space="preserve">Keresés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046726" approved="yes">
 <source xml:space="preserve">Never show this window again</source>
-<target state="translated" xml:space="preserve">Többé ne mutassa ezt az ablakot</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046727" approved="yes">
 <source xml:space="preserve">Skip</source>
-<target state="translated" xml:space="preserve">Kihagyás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046728" approved="yes">
 <source xml:space="preserve">Back to chat</source>
-<target state="translated" xml:space="preserve">Vissza a beszélgetéshez</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046729" approved="yes">
 <source xml:space="preserve">members: <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="translated" xml:space="preserve">tagok: <ph id="ph1" ctype="x-smartcat">%1</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046730" approved="yes">
 <source xml:space="preserve">Edit</source>
-<target state="translated" xml:space="preserve">Szerkesztés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046731" approved="yes">
 <source xml:space="preserve">Members</source>
-<target state="translated" xml:space="preserve">Tagok</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046732" approved="yes">
 <source xml:space="preserve">+ Add members</source>
-<target state="translated" xml:space="preserve">Tagok hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046733" approved="yes">
 <source xml:space="preserve">Remove</source>
-<target state="translated" xml:space="preserve">Eltávolítás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046734" approved="yes">
 <source xml:space="preserve">Create chat</source>
-<target state="translated" xml:space="preserve">Beszélgetés létrehozása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046735" approved="yes">
 <source xml:space="preserve">Invite your friends to chat</source>
-<target state="translated" xml:space="preserve">Hívd meg barátaidat a beszélgetésbe</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046736" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="translated" xml:space="preserve">Barátok keresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046737" approved="yes">
 <source xml:space="preserve">New group</source>
-<target state="translated" xml:space="preserve">Új csoport</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046738" approved="yes">
 <source xml:space="preserve">New group</source>
-<target state="translated" xml:space="preserve">Új csoport</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046739" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046740" approved="yes">
 <source xml:space="preserve">Add friends</source>
-<target state="translated" xml:space="preserve">Barátok hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046741" approved="yes">
 <source xml:space="preserve">Back</source>
-<target state="translated" xml:space="preserve">Vissza</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046742" approved="yes">
 <source xml:space="preserve">Step <ph id="ph1" ctype="x-smartcat">%1</ph>/<ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph><ph id="ph2" ctype="x-smartcat">%2</ph> lépés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046743" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">Tovább</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046744" approved="yes">
 <source xml:space="preserve">Set your group name. Start with a latter. Name should not be longer that 20 characters.</source>
-<target state="translated" xml:space="preserve">Kezdd betűvel. A név nem lehet hosszabb 20 karakternél.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046745" approved="yes">
 <source xml:space="preserve">Group chat name</source>
-<target state="translated" xml:space="preserve">Csoportos beszélgetés neve</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046746" approved="yes">
 <source xml:space="preserve">Please use 5 to 20 characters</source>
-<target state="translated" xml:space="preserve">Kérlek, 5–20 karaktert használj</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046747" approved="yes">
 <source xml:space="preserve">Invite friends to group</source>
-<target state="translated" xml:space="preserve">Barátok meghívása csoportba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046748" approved="yes">
 <source xml:space="preserve">Search friends</source>
-<target state="translated" xml:space="preserve">Barátok keresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046749" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046750" approved="yes">
 <source xml:space="preserve">Error Report</source>
-<target state="translated" xml:space="preserve">Hibajelentés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046751" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="translated" xml:space="preserve">Hiba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046752" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Application will be closed.</source>
-<target state="translated" xml:space="preserve">Végzetes hiba történt. Az alkalmazás kilép.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046753" approved="yes">
 <source xml:space="preserve">Sending error data</source>
-<target state="translated" xml:space="preserve">Hiba adatainak küldése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046754" approved="yes">
 <source xml:space="preserve">Report problem</source>
-<target state="translated" xml:space="preserve">Probléma jelentése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046755" approved="yes">
 <source xml:space="preserve">OK</source>
-<target state="translated" xml:space="preserve">OK</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046756" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046757" approved="yes">
 <source xml:space="preserve">A fatal error has occured. Thy limbs are weak and sight is blurred. Forget thy dreams and run in terror. Extraction error.</source>
-<target state="translated" xml:space="preserve">Végzetes hiba történt. Erőm elhagy, szememre köd borul. Felejts álmaid, s fejvesztve menekülj!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046758" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="translated" xml:space="preserve">Hiba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046759" approved="yes">
 <source xml:space="preserve">OK</source>
-<target state="translated" xml:space="preserve">OK</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046760" approved="yes">
 <source xml:space="preserve">Search friends by nickname</source>
-<target state="translated" xml:space="preserve">Barát keresése becenév alapján</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046761" approved="yes">
 <source xml:space="preserve">No users found</source>
-<target state="translated" xml:space="preserve">Nincs felhasználó</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046762" approved="yes">
 <source xml:space="preserve">Request sent</source>
-<target state="translated" xml:space="preserve">Kérelem elküldve</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046763" approved="yes">
 <source xml:space="preserve">Send request</source>
-<target state="translated" xml:space="preserve">Kérelem elküldése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046764" approved="yes">
 <source xml:space="preserve">Send request</source>
-<target state="translated" xml:space="preserve">Kérelem elküldése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046765" approved="yes">
 <source xml:space="preserve">Request send</source>
-<target state="translated" xml:space="preserve">Kérelem elküldve</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046766" approved="yes">
 <source xml:space="preserve">Invite</source>
-<target state="translated" xml:space="preserve">Meghívás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046767" approved="yes">
 <source xml:space="preserve">Invited</source>
-<target state="translated" xml:space="preserve">Meghívás elküldve</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046768" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="translated" xml:space="preserve">Törlés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046769" approved="yes">
 <source xml:space="preserve">Confirm</source>
-<target state="translated" xml:space="preserve">Megerősítés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046770" approved="yes">
 <source xml:space="preserve">Cancel request</source>
-<target state="translated" xml:space="preserve">Visszavonás kérelmezése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046771" approved="yes">
 <source xml:space="preserve">Playing <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve">Éppen a <ph id="ph1" ctype="x-smartcat">Life is Feudal</ph> játékot játssza</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046772" approved="yes">
 <source xml:space="preserve">Last online: <ph id="ph1" ctype="x-smartcat">%1</ph> hours ago</source>
-<target state="translated" xml:space="preserve">Utoljára online: <ph id="ph1" ctype="x-smartcat">%1</ph> órája</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046773" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friend</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> közös barát</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046774" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> mutual friends</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> közös barát</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046775" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="translated" xml:space="preserve">Törlés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046776" approved="yes">
 <source xml:space="preserve">Block</source>
-<target state="translated" xml:space="preserve">Tiltás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046777" approved="yes">
 <source xml:space="preserve">Start chat</source>
-<target state="translated" xml:space="preserve">Beszélgetés megkezdése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046778" approved="yes">
 <source xml:space="preserve">Unblock</source>
-<target state="translated" xml:space="preserve">Tiltás feloldása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046779" approved="yes">
 <source xml:space="preserve">Add a Friend</source>
-<target state="translated" xml:space="preserve">Barát hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046780" approved="yes">
 <source xml:space="preserve">Friends</source>
-<target state="translated" xml:space="preserve">Barátok</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046781" approved="yes">
 <source xml:space="preserve">+ Find friends</source>
-<target state="translated" xml:space="preserve">Barátok keresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046782" approved="yes">
 <source xml:space="preserve">Requests</source>
-<target state="translated" xml:space="preserve">Kérelmek</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046783" approved="yes">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s</source>
-<target state="translated" xml:space="preserve">Letöltés: <ph id="ph1" ctype="x-smartcat">%1</ph>Mb a <ph id="ph2" ctype="x-smartcat">%2</ph> Mb-ból, <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/mp sebességgel</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046784" approved="yes">
 <source xml:space="preserve">Extracting: <ph id="ph1" ctype="x-smartcat">%1</ph>% <ph id="ph2" ctype="x-smartcat">%2</ph> Mb remaining</source>
-<target state="translated" xml:space="preserve">Kitömörítés: <ph id="ph1" ctype="x-smartcat">%1</ph>% még <ph id="ph2" ctype="x-smartcat">%2</ph> hátravan</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046785" approved="yes">
 <source xml:space="preserve">Uninstalling: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="translated" xml:space="preserve">Eltávolítás: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046786" approved="yes">
 <source xml:space="preserve">PLAY</source>
-<target state="translated" xml:space="preserve">JÁTÉK</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046787" approved="yes">
 <source xml:space="preserve">INSTALL</source>
-<target state="translated" xml:space="preserve">TELEPÍTÉS</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046788" approved="yes">
 <source xml:space="preserve">Buy</source>
-<target state="translated" xml:space="preserve">Vásárlás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046789" approved="no">
 <source xml:space="preserve">Downloading: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb from <ph id="ph2" ctype="x-smartcat">%2</ph> Mb, at <ph id="ph3" ctype="x-smartcat">%3</ph> Kb/s, peers <ph id="ph4" ctype="x-smartcat">%4</ph>, seeds <ph id="ph5" ctype="x-smartcat">%5</ph></source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046790" approved="yes">
 <source xml:space="preserve">Repairing data: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb remaining</source>
-<target state="translated" xml:space="preserve">Adatok javítása: <ph id="ph1" ctype="x-smartcat">%1</ph> Mb van hátra</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046791" approved="yes">
 <source xml:space="preserve">Nothing here. King is at loss</source>
-<target state="translated" xml:space="preserve">Üres a mező. A Király veszít</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046792" approved="yes">
 <source xml:space="preserve">Support</source>
-<target state="translated" xml:space="preserve">Támogatás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046793" approved="yes">
 <source xml:space="preserve">If the game is already installed</source>
-<target state="translated" xml:space="preserve">Ha a játék már telepítve van</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046794" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Játék megkeresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046795" approved="yes">
 <source xml:space="preserve">Install</source>
-<target state="translated" xml:space="preserve">Telepítés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046796" approved="yes">
 <source xml:space="preserve">Community</source>
-<target state="translated" xml:space="preserve">Közösség</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046797" approved="yes">
 <source xml:space="preserve">Repair</source>
-<target state="translated" xml:space="preserve">Javítás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046798" approved="yes">
 <source xml:space="preserve">Uninstall</source>
-<target state="translated" xml:space="preserve">Eltávolítás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046799" approved="yes">
 <source xml:space="preserve">Options</source>
-<target state="translated" xml:space="preserve">Beállítások</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046800" approved="yes">
 <source xml:space="preserve">Can't find game in selected folder.</source>
-<target state="translated" xml:space="preserve">A játék nem található a kiválasztott mappában.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046801" approved="yes">
 <source xml:space="preserve">You cannot use selected game for the current region.</source>
-<target state="translated" xml:space="preserve">A kiválasztott játék nem játszható a jelenlegi régióban.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046802" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046803" approved="yes">
 <source xml:space="preserve">Install Directory</source>
-<target state="translated" xml:space="preserve">Könyvtár Telepítése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046804" approved="yes">
 <source xml:space="preserve">Change</source>
-<target state="translated" xml:space="preserve">Váltás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046805" approved="yes">
 <source xml:space="preserve">Disk Space</source>
-<target state="translated" xml:space="preserve">Lemez hely</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046806" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046807" approved="yes">
 <source xml:space="preserve">Install</source>
-<target state="translated" xml:space="preserve">Telepítés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046808" approved="yes">
 <source xml:space="preserve">Select path for install..</source>
-<target state="translated" xml:space="preserve">Válassza ki a telepítési útvonalat..</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046809" approved="yes">
 <source xml:space="preserve">You cannot use directory to install the game. Please select a different directory for installation.</source>
-<target state="translated" xml:space="preserve">Ezt a mappát nem használhatod a játék telepítésére. Kérlek, válassz másik mappát a telepítéshez.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046810" approved="yes">
 <source xml:space="preserve">Language</source>
-<target state="translated" xml:space="preserve">Nyelv</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046811" approved="yes">
 <source xml:space="preserve">Account</source>
-<target state="translated" xml:space="preserve">Fiók</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046812" approved="yes">
 <source xml:space="preserve">Remember me</source>
-<target state="translated" xml:space="preserve">Emlékezzen rám</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046813" approved="yes">
 <source xml:space="preserve">Downloads</source>
-<target state="translated" xml:space="preserve">Letöltések</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046814" approved="yes">
 <source xml:space="preserve">Use p2p connection</source>
-<target state="translated" xml:space="preserve">P2P-kapcsolat használata</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046815" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> időképek</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046816" approved="yes">
 <source xml:space="preserve">Time Lapse Collection</source>
-<target state="translated" xml:space="preserve">Időkép-gyűjtemény</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046817" approved="yes">
 <source xml:space="preserve">Last update:</source>
-<target state="translated" xml:space="preserve">Utoljára frissítve:</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046818" approved="yes">
 <source xml:space="preserve">Update</source>
-<target state="translated" xml:space="preserve">Frissítés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046819" approved="yes">
 <source xml:space="preserve">Progress: <ph id="ph1" ctype="x-smartcat">%1</ph>%</source>
-<target state="translated" xml:space="preserve">Állapot: <ph id="ph1" ctype="x-smartcat">%1</ph>%</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046820" approved="yes">
 <source xml:space="preserve">Checking updates</source>
-<target state="translated" xml:space="preserve">Frissítések ellenőrzése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046821" approved="yes">
 <source xml:space="preserve">Downloading launcher update</source>
-<target state="translated" xml:space="preserve">Indító frissítésének letöltése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046822" approved="yes">
 <source xml:space="preserve">Unpacking launcher update</source>
-<target state="translated" xml:space="preserve">Indító frissítésének kibontása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046823" approved="yes">
 <source xml:space="preserve">Online</source>
-<target state="translated" xml:space="preserve">Online</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046824" approved="yes">
 <source xml:space="preserve">Away</source>
-<target state="translated" xml:space="preserve">Távol</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046825" approved="yes">
 <source xml:space="preserve">Settings</source>
-<target state="translated" xml:space="preserve">Beállítások</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046826" approved="yes">
 <source xml:space="preserve">Log Out</source>
-<target state="translated" xml:space="preserve">Odhlásit se</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046827" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046828" approved="yes">
 <source xml:space="preserve">Error! Network list is empty!</source>
-<target state="translated" xml:space="preserve">Hiba!  A hálózati lista üres!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046829" approved="yes">
 <source xml:space="preserve">Sign in with VK</source>
-<target state="translated" xml:space="preserve">Bejelentkezés VK-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046830" approved="yes">
 <source xml:space="preserve">Sign in with Facebook</source>
-<target state="translated" xml:space="preserve">Bejelentkezés Facebook-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046831" approved="yes">
 <source xml:space="preserve">Sign in with Google</source>
-<target state="translated" xml:space="preserve">Bejelentkezés Google-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046832" approved="yes">
 <source xml:space="preserve">Sign in with Steam</source>
-<target state="translated" xml:space="preserve">Bejelentkezés Steam-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046833" approved="yes">
 <source xml:space="preserve">Sign in with Twitter</source>
-<target state="translated" xml:space="preserve">Bejelentkezés Twitter-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046834" approved="yes">
 <source xml:space="preserve">Sign in with Naver</source>
-<target state="translated" xml:space="preserve">Bejelentkezés Nave-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046835" approved="yes">
 <source xml:space="preserve">Sign in with Baidu</source>
-<target state="translated" xml:space="preserve">Bejelentkezés Baidu-fiókkal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046836" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="translated" xml:space="preserve">Hiba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046837" approved="yes">
 <source xml:space="preserve">Failed loading social providers</source>
-<target state="translated" xml:space="preserve">Közösségi szolgáltatók betöltése sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046838" approved="yes">
 <source xml:space="preserve">Social auth failed.</source>
-<target state="translated" xml:space="preserve">Közösségi azonosítás sikertelen.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046839" approved="yes">
 <source xml:space="preserve">There was a problem with your request. Please try again.</source>
-<target state="translated" xml:space="preserve">Kérésével átmeneti probléma adódott. Kérjük, próbálja meg újra később.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046840" approved="yes">
 <source xml:space="preserve">Forgot password?</source>
-<target state="translated" xml:space="preserve">Elfelejtetted a jelszót?</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046841" approved="yes">
 <source xml:space="preserve">Create an account</source>
-<target state="translated" xml:space="preserve">Fiók létrehozása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046842" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046843" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Régiók listájának betöltése folyamatban - Kérem, várjon</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046844" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">Betöltés...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046845" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Játék megkeresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046846" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">A régió módosítása befolyásolja a játékon belüli vásárlásokat, karaktereket és a játék javítócsomagokat</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046847" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">Tovább</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046848" approved="yes">
 <source xml:space="preserve">Failed gettings characters information</source>
-<target state="translated" xml:space="preserve">Karakterinformációk betöltése sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046849" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046850" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">Azonosítás sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046851" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="translated" xml:space="preserve">Hiba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046852" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046853" approved="yes">
 <source xml:space="preserve">Game installation failed with error<ph id="ph1" ctype="x-smartcat">\n</ph></source>
-<target state="translated" xml:space="preserve">A játék telepítése nem sikerült<ph id="ph1" ctype="x-smartcat">\n</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046854" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph> Please, try again.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">\n</ph>                            Próbálkozz újra!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046855" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> time lapse is aviable!</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph>-időképek érhetők el!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046856" approved="yes">
 <source xml:space="preserve">Game</source>
-<target state="translated" xml:space="preserve">Játék</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046857" approved="yes">
 <source xml:space="preserve">News</source>
-<target state="translated" xml:space="preserve">Hírek</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046858" approved="yes">
 <source xml:space="preserve">Highlights</source>
-<target state="translated" xml:space="preserve">Főbb hírek</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046859" approved="yes">
 <source xml:space="preserve">Store</source>
-<target state="translated" xml:space="preserve">Tárolás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046860" approved="yes">
 <source xml:space="preserve">Extracting</source>
-<target state="translated" xml:space="preserve">Kibontás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046861" approved="yes">
 <source xml:space="preserve">Repairing</source>
-<target state="translated" xml:space="preserve">Javítás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046862" approved="yes">
 <source xml:space="preserve">Downloading</source>
-<target state="translated" xml:space="preserve">Letöltés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046863" approved="yes">
 <source xml:space="preserve">Can't close launcher, while game is running</source>
-<target state="translated" xml:space="preserve">Az indítóprogramot nem lehet bezárni a játék futása közben</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046864" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> invited to chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> felhasználót <ph id="ph2" ctype="x-smartcat">%2</ph> hívta meg csevegésre</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046865" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> leaved  from chat</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> felhasználó kilépett a csevegésből</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046866" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> removed from chat by <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> felhasználót <ph id="ph2" ctype="x-smartcat">%2</ph> eltávolította a csevegésből</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046867" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> created chat <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> felhasználó létrehozta a <ph id="ph2" ctype="x-smartcat">%2</ph> csevegést</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046868" approved="yes">
 <source xml:space="preserve">User <ph id="ph1" ctype="x-smartcat">%1</ph> changed chat title to <ph id="ph2" ctype="x-smartcat">%2</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> felhasználó erre módosította a csevegés címét: <ph id="ph2" ctype="x-smartcat">%2</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046869" approved="yes">
 <source xml:space="preserve">Type a message</source>
-<target state="translated" xml:space="preserve">Írj üzenetet</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046870" approved="yes">
 <source xml:space="preserve">Send</source>
-<target state="translated" xml:space="preserve">Küldés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046871" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> has added you to his friend list. Add him to your list and proceed to chat.</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">&lt;font color="#ffffff"&gt;</ph><ph id="ph2" ctype="x-smartcat">&lt;b&gt;</ph><ph id="ph3" ctype="x-smartcat">%1</ph><ph id="ph4" ctype="x-smartcat">&lt;/b&gt;</ph><ph id="ph5" ctype="x-smartcat">&lt;/font&gt;</ph> hozzáadott a barátai listájához. Add hozzá a te listádhoz a csevegéshez.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046872" approved="yes">
 <source xml:space="preserve">Confirm</source>
-<target state="translated" xml:space="preserve">Megerősítés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046873" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="translated" xml:space="preserve">Törlés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046874" approved="yes">
 <source xml:space="preserve">Please select chat to start messaging</source>
-<target state="translated" xml:space="preserve">Kérlek, válassz ki egy beszélgetést az üzenetküldéshez</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046875" approved="yes">
 <source xml:space="preserve">Oops! Something is missing. Looks like your news is in another castle!</source>
-<target state="translated" xml:space="preserve">Upsz! Valami hiányzik. Úgy tűnik, a hírei másik kastélyban vannak!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046876" approved="yes">
 <source xml:space="preserve">We’re off to repair our medieval power generator (aka water wheel) but try again soon!</source>
-<target state="translated" xml:space="preserve">Épp javítjuk a középkori energia generátorunkat (vagyis vízi malmunkat), de próbálja újra később!</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046877" approved="yes">
 <source xml:space="preserve">All News</source>
-<target state="translated" xml:space="preserve">Az összes hír</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046878" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">Betöltés...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046879" approved="yes">
 <source xml:space="preserve">Region</source>
-<target state="translated" xml:space="preserve">Régió</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046880" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">A régió módosítása befolyásolja a játékon belüli vásárlásokat, karaktereket és a játék javítócsomagokat</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046881" approved="yes">
 <source xml:space="preserve">New friend requests</source>
-<target state="translated" xml:space="preserve">Új barátkérelem</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046882" approved="yes">
 <source xml:space="preserve">Confirm</source>
-<target state="translated" xml:space="preserve">Megerősítés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046883" approved="yes">
 <source xml:space="preserve">Delete</source>
-<target state="translated" xml:space="preserve">Törlés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046884" approved="yes">
 <source xml:space="preserve">sent requests</source>
-<target state="translated" xml:space="preserve">Elküldött kérelmek</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046885" approved="yes">
 <source xml:space="preserve">Cancel request</source>
-<target state="translated" xml:space="preserve">Visszavonás kérelmezése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046886" approved="yes">
 <source xml:space="preserve">Create username</source>
-<target state="translated" xml:space="preserve">Felhasználónév létrehozása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046887" approved="yes">
 <source xml:space="preserve">Step 1/2</source>
-<target state="translated" xml:space="preserve">1./2 lépés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046888" approved="yes">
 <source xml:space="preserve">Welcome to chat. Set your username so your friends can find you.</source>
-<target state="translated" xml:space="preserve">Üdvözöllek a beszélgetésben. Állítsd be a felhasználóneved, hogy a barátaid megtaláljanak.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046889" approved="yes">
 <source xml:space="preserve">Add a friend</source>
-<target state="translated" xml:space="preserve">Barát hozzáadása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046890" approved="yes">
 <source xml:space="preserve">Step 2/2</source>
-<target state="translated" xml:space="preserve">2./2 lépés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046891" approved="yes">
 <source xml:space="preserve">Add friend to start messaging. Search by typing email or nickname.</source>
-<target state="translated" xml:space="preserve">Adj hozzá egy barátot a beszélgetéshez. Keress rájuk az emailcímük vagy becenevük beírásával.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046892" approved="yes">
 <source xml:space="preserve">+ Add</source>
-<target state="translated" xml:space="preserve">Hozzáadás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046893" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">Tovább</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046894" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046895" approved="yes">
 <source xml:space="preserve">Settings</source>
-<target state="translated" xml:space="preserve">Beállítások</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046896" approved="yes">
 <source xml:space="preserve">General</source>
-<target state="translated" xml:space="preserve">Általános</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046897" approved="yes">
 <source xml:space="preserve">Sound</source>
-<target state="translated" xml:space="preserve">Hang</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046898" approved="yes">
 <source xml:space="preserve">Chat</source>
-<target state="translated" xml:space="preserve">Beszélgetés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046899" approved="yes">
 <source xml:space="preserve">Account</source>
-<target state="translated" xml:space="preserve">Fiók</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046900" approved="yes">
 <source xml:space="preserve">Reset to Defaults</source>
-<target state="translated" xml:space="preserve">Alapértékek visszaállítása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046901" approved="yes">
 <source xml:space="preserve">Cancel</source>
-<target state="translated" xml:space="preserve">Visszavonás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046902" approved="yes">
 <source xml:space="preserve">Done</source>
-<target state="translated" xml:space="preserve">Kész</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046903" approved="yes">
 <source xml:space="preserve">Share</source>
-<target state="translated" xml:space="preserve">Megosztás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046904" approved="yes">
 <source xml:space="preserve">Direct link</source>
-<target state="translated" xml:space="preserve">Közvetlen hivatkozás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046905" approved="yes">
 <source xml:space="preserve">Connect your social networks<ph id="ph1" ctype="x-smartcat">\n</ph> and find friends to play with</source>
-<target state="translated" xml:space="preserve">Csatlakozz a közösségi portállal <ph id="ph1" ctype="x-smartcat">\n</ph>                            és játsz a barátaiddal</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046906" approved="yes">
 <source xml:space="preserve">Connect <ph id="ph1" ctype="x-smartcat">%1</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> csatlakozás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046907" approved="yes">
 <source xml:space="preserve">Never show this window again</source>
-<target state="translated" xml:space="preserve">Többé ne mutassa ezt az ablakot</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046908" approved="yes">
 <source xml:space="preserve">Skip</source>
-<target state="translated" xml:space="preserve">Kihagyás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046909" approved="no">
 <source xml:space="preserve">Visit us on:</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit>
@@ -733,136 +733,136 @@
 <target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046911" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="translated" xml:space="preserve">Keresés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046912" approved="yes">
 <source xml:space="preserve">Search</source>
-<target state="translated" xml:space="preserve">Keresés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046913" approved="yes">
 <source xml:space="preserve">Search <ph id="ph1" ctype="x-smartcat">%1</ph> friends by name</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">%1</ph> barátok keresése becenév alapján</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046914" approved="yes">
 <source xml:space="preserve">Already playing</source>
-<target state="translated" xml:space="preserve">Már játékban van</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046915" approved="yes">
 <source xml:space="preserve">Invite</source>
-<target state="translated" xml:space="preserve">Meghívás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046916" approved="yes">
 <source xml:space="preserve">Sound section</source>
-<target state="translated" xml:space="preserve">Hang beállítása</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046917" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046918" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Régiók listájának betöltése folyamatban - Kérem, várjon</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046919" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">Betöltés...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046920" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Játék megkeresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046921" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">A régió módosítása befolyásolja a játékon belüli vásárlásokat, karaktereket és a játék javítócsomagokat</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046922" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">Tovább</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046923" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">Adja meg az e-mail címét</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046924" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">A megadott e-mail címre egy visszaigazoló e-mailt fogunk küldeni</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046925" approved="yes">
 <source xml:space="preserve">Send</source>
-<target state="translated" xml:space="preserve">Küldés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046926" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="translated" xml:space="preserve">Érvénytelen e-mail cím</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046927" approved="yes">
 <source xml:space="preserve">Email was sent</source>
-<target state="translated" xml:space="preserve">E-mail elküldve</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046928" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">Kérjük, ellenőrizze az e-mail címét és erősítse meg a regisztrációt</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046929" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046930" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">Azonosítás sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046931" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046932" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="translated" xml:space="preserve">Hiba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046933" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Enjoy the game</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046934" approved="yes">
 <source xml:space="preserve">Loading the list of regions - please wait</source>
-<target state="translated" xml:space="preserve">Régiók listájának betöltése folyamatban - Kérem, várjon</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046935" approved="yes">
 <source xml:space="preserve">Loading...</source>
-<target state="translated" xml:space="preserve">Betöltés...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046936" approved="yes">
 <source xml:space="preserve">Locate the game</source>
-<target state="translated" xml:space="preserve">Játék megkeresése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046937" approved="yes">
 <source xml:space="preserve">Changing region will affect your in-game purchases, characters and game patches</source>
-<target state="translated" xml:space="preserve">A régió módosítása befolyásolja a játékon belüli vásárlásokat, karaktereket és a játék javítócsomagokat</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046938" approved="yes">
 <source xml:space="preserve">Next</source>
-<target state="translated" xml:space="preserve">Tovább</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046939" approved="yes">
 <source xml:space="preserve">Enter your email address</source>
-<target state="translated" xml:space="preserve">Adja meg az e-mail címét</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046940" approved="yes">
 <source xml:space="preserve">A confirmation email will be sent to the specified email address</source>
-<target state="translated" xml:space="preserve">A megadott e-mail címre egy visszaigazoló e-mailt fogunk küldeni</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046941" approved="yes">
 <source xml:space="preserve">Send</source>
-<target state="translated" xml:space="preserve">Küldés</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046942" approved="yes">
 <source xml:space="preserve">Invalid email address</source>
-<target state="translated" xml:space="preserve">Érvénytelen e-mail cím</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046943" approved="yes">
 <source xml:space="preserve">Email was sent</source>
-<target state="translated" xml:space="preserve">E-mail elküldve</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046944" approved="yes">
 <source xml:space="preserve">Please check your email and confirm the registration</source>
-<target state="translated" xml:space="preserve">Kérjük, ellenőrizze az e-mail címét és erősítse meg a regisztrációt</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046945" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046946" approved="yes">
 <source xml:space="preserve">Authentication failed.</source>
-<target state="translated" xml:space="preserve">Azonosítás sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046947" approved="yes">
 <source xml:space="preserve">E-mail</source>
-<target state="translated" xml:space="preserve">E-mail</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046948" approved="yes">
 <source xml:space="preserve">Error</source>
-<target state="translated" xml:space="preserve">Hiba</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046949" approved="yes">
 <source xml:space="preserve">Something goes wrong...</source>
-<target state="translated" xml:space="preserve">Hiba történt...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046950" approved="yes">
 <source xml:space="preserve">Store loading failed</source>
-<target state="translated" xml:space="preserve">Tárolás betöltése sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046951" approved="yes">
 <source xml:space="preserve">Refresh page</source>
-<target state="translated" xml:space="preserve">Oldal frissítése</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046952" approved="yes">
 <source xml:space="preserve">Reopen store</source>
-<target state="translated" xml:space="preserve">Üzlet megnyitása újra</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046953" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph> loading failed</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Steam overlay</ph> betöltése sikertelen</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046954" approved="yes">
 <source xml:space="preserve">Please wait, now the store will open without using <ph id="ph1" ctype="x-smartcat">Steam overlay</ph></source>
-<target state="translated" xml:space="preserve">Kérlek várj! Az üzlet <ph id="ph1" ctype="x-smartcat">Steam overlay</ph> használata nélkül nyílik meg.</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046955" approved="no">
 <source xml:space="preserve">Refresh</source>
 <target state="needs-translation" xml:space="preserve"></target></trans-unit>
@@ -871,22 +871,22 @@
 <target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046957" approved="yes">
 <source xml:space="preserve">Back</source>
-<target state="translated" xml:space="preserve">Vissza</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046958" approved="yes">
 <source xml:space="preserve">Share</source>
-<target state="translated" xml:space="preserve">Megosztás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046959" approved="yes">
 <source xml:space="preserve">Downloading assets...</source>
-<target state="translated" xml:space="preserve">Kellékek letöltése...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046960" approved="yes">
 <source xml:space="preserve">Unpacking assets...</source>
-<target state="translated" xml:space="preserve">Kellékek kibontása...</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046961" approved="yes">
 <source xml:space="preserve">World is loading</source>
-<target state="translated" xml:space="preserve">Világ betöltése folyamatban</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046962" approved="yes">
 <source xml:space="preserve">Close</source>
-<target state="translated" xml:space="preserve">Bezárás</target></trans-unit>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit>
 <trans-unit id="1046963" approved="yes">
 <source xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph>: launcher</source>
-<target state="translated" xml:space="preserve"><ph id="ph1" ctype="x-smartcat">Life is Feudal</ph></target></trans-unit></body></file></xliff>
+<target state="needs-translation" xml:space="preserve"></target></trans-unit></body></file></xliff>
