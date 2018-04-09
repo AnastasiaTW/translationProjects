@@ -1,0 +1,494 @@
+Xsolla PHP SDK
+
+Введение
+
+Xsolla PHP SDK — это открытая библиотека для работы с [Xsolla API](1). По [ссылке](1) вы можете найти этот проект на Github.
+
+Особенности
+
+1.  Настройка платежного интерфейса при помощи нескольких методов получения токена.
+2.  Клиент для всех методов API, с помощью которого процесс интеграции будет простым и понятным. Вы можете использовать SDK для создания и обновления пакетов виртуальной валюты, товаров и рекуррентных планов, для управления балансом пользователя, для сверки финансовых данных при помощи API Отчетов и т.д.
+3.  Удобный webhook сервер:
+    1.  Чтобы начать работу, вам понадобится только одна callback функция.
+    2.  В SDK уже реализованы методы проверки безопасности запросов: подписи и IP.
+    3.  Если стандартный класс сервера вам не подходит, вы можете при помощи готовых классов создать свой, с собственной логикой обработки оповещений.
+
+Начало работы
+
+Для начала работы, пожалуйста, пройдите процесс регистрации в [Личном Кабинете](1) и создайте проект. Для использования PHP SDK вам понадобятся следующие параметры:
+
+1.  MERCHANT_ID
+2.  API_KEY
+3.  PROJECT_ID
+4.  PROJECT_KEY
+
+Эти параметры можно найти в [Информации о компании](1) и [Настройках проекта](1).
+
+Требования
+
+1.  PHP 5.3.9+
+2.  Необходимы следующие PHP расширения:
+    1.  curl
+    2.  json
+
+Установка
+
+Рекомендуемый способ установки Xsolla SDK — Composer.
+
+    $ cd /path/to/your/project
+    $ composer require xsolla/xsolla-sdk-php
+
+На странице нашего [Github аккаунта](1) есть информация о других способах установки.
+
+Использование
+
+Получение токена
+
+Для интеграции платежного интерфейса в вашей игре необходимо получить токен. Токен — это строка, в которой содержится информация об игре, пользователе и параметрах платежа.
+
+Есть несколько способов получения токена. Наиболее простым среди них является использование метода _createCommonPaymentUIToken_, вам нужно будет указать только ID проекта в системе Xsolla и ID пользователя в вашей игре:
+
+    use Xsolla\SDK\API\XsollaClient;
+
+    $client = XsollaClient::factory(array(
+        'merchant_id' => MERCHANT_ID,
+        'api_key' => API_KEY
+    ));
+    $paymentUIToken = $client->createCommonPaymentUIToken(PROJECT_ID, USER_ID,
+    $sandboxMode = true);
+
+Вы можете использовать другие параметры:
+
+    <?php
+
+    use Xsolla\SDK\API\XsollaClient;
+    use Xsolla\SDK\API\PaymentUI\TokenRequest;
+
+    $tokenRequest = new TokenRequest($projectId, $userId);
+    $tokenRequest->setUserEmail('email@example.com')
+        ->setExternalPaymentId('12345')
+        ->setSandboxMode(true)
+        ->setUserName('USER_NAME')
+        ->setCustomParameters(array('key1' => 'value1', 'key2' => 'value2'));
+
+    $xsollaClient = XsollaClient::factory(array(
+        'merchant_id' => MERCHANT_ID,
+        'api_key' => API_KEY
+    ));
+    $token = $xsollaClient->createPaymentUITokenFromRequest($tokenRequest);
+
+Если вы хотите использовать дополнительные параметры для открытия интерфейса оплаты (например, "settings.ui.theme"), вы можете использовать следующий пример:
+
+    <?php
+
+    use Xsolla\SDK\API\XsollaClient;
+
+    $tokenContent = array (
+        'user' =>
+            array (
+                'id' =>
+                    array (
+                        'value' => '1234567',
+                        'hidden' => true,
+                    )
+            ),
+        'settings' =>
+            array (
+                'project_id' => 14004,
+                'ui' =>
+                    array(
+                        'theme' => 'dark'
+                    )
+            )
+    );
+
+    $xsollaClient = XsollaClient::factory(array(
+        'merchant_id' => MERCHANT_ID,
+        'api_key' => API_KEY
+    ));
+    $response = $xsollaClient->CreatePaymentUIToken(array('request' => $tokenContent));
+    $token = $response['token'];
+
+Открытие платежного интерфейса (Pay Station)
+
+Вы можете использовать следующий код для добавления платежного интерфейса в вашу игру:
+
+    <html>
+    <head lang="en">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <button data-xpaystation-widget-open>Купить монеты</button>
+
+        <?php \Xsolla\SDK\API\PaymentUI\PaymentUIScriptRenderer::send($paymentUIToken, $isSandbox = true); ?>
+    </body>
+    </html>
+
+Больше информации и примеров вы можете найти по [ссылке](1).
+
+Обработка Webhook-ов
+
+Готовый класс сервера для обработки оповещений.
+
+    <?php
+
+    use Xsolla\SDK\Webhook\WebhookServer;
+    use Xsolla\SDK\Webhook\Message\Message;
+    use Xsolla\SDK\Exception\Webhook\XsollaWebhookException;
+
+    $callback = function (Message $message) {
+        switch ($message->getNotificationType()) {
+            case Message::USER_VALIDATION:
+                /** @var Xsolla\SDK\Webhook\Message\UserValidationMessage $message */
+                // TODO если пользователь не найден, сгенерируйте Xsolla\SDK\Exception\Webhook\InvalidUserException
+                break;
+            case Message::PAYMENT:
+                /** @var Xsolla\SDK\Webhook\Message\PaymentMessage $message */
+                // TODO если проведение платежа невозможно по каким-либо причинам, сгенерируйте Xsolla\SDK\Exception\Webhook\XsollaWebhookException
+                break;
+            case Message::REFUND:
+                /** @var Xsolla\SDK\Webhook\Message\RefundMessage $message */
+                // TODO если рефанд невозможен, сгенерируйте Xsolla\SDK\Exception\Webhook\XsollaWebhookException
+                break;
+            default:
+                throw new XsollaWebhookException('Notification type not implemented');
+        }
+    };
+
+    $webhookServer = WebhookServer::create($callback, PROJECT_KEY);
+    $webhookServer->start();
+
+Если стандартный класс сервера вам не подходит, вы можете создать свой:
+
+    <?php
+
+    use Xsolla\SDK\Webhook\WebhookRequest;
+    use Xsolla\SDK\Webhook\Message\Message;
+    use Xsolla\SDK\Webhook\WebhookResponse;
+    use Xsolla\SDK\Exception\Webhook\XsollaWebhookException;
+
+    $httpHeaders = array();//TODO fetch HTTP request headers from $_SERVER or apache_request_headers()
+    $httpRequestBody = file_get_contents('php://input');
+    $clientIPv4 = $_SERVER['REMOTE_ADDR'];
+    $request = new WebhookRequest($httpHeaders, $httpRequestBody, $clientIPv4);
+    //or $request = WebhookRequest::fromGlobals();
+
+    $this->webhookAuthenticator->authenticate($request, $authenticateClientIp = true);// throws Xsolla\SDK\Exception\Webhook\XsollaWebhookException
+
+    $requestArray = $request->toArray();
+
+    $message = Message::fromArray($requestArray);
+    switch ($message->getNotificationType()) {
+        case Message::USER_VALIDATION:
+            /** @var Xsolla\SDK\Webhook\Message\UserValidationMessage $message */
+            $userArray = $message->getUser();
+            $userId = $message->getUserId();
+            $messageArray = $message->toArray();
+            // TODO если пользователь не найден, сгенерируйте Xsolla\SDK\Exception\Webhook\InvalidUserException
+            break;
+        case Message::PAYMENT:
+            /** @var Xsolla\SDK\Webhook\Message\PaymentMessage $message */
+            $userArray = $message->getUser();
+            $paymentArray = $message->getTransaction();
+            $paymentId = $message->getPaymentId();
+            $externalPaymentId = $message->getExternalPaymentId();
+            $paymentDetailsArray = $message->getPaymentDetails();
+            $customParametersArray = $message->getCustomParameters();
+            $isDryRun = $message->isDryRun();
+            $messageArray = $message->toArray();
+            // TODO если проведение платежа невозможно по каким-либо причинам, сгенерируйте Xsolla\SDK\Exception\Webhook\XsollaWebhookException
+            break;
+        case Message::REFUND:
+            /** @var Xsolla\SDK\Webhook\Message\RefundMessage $message */
+            $userArray = $message->getUser();
+            $paymentArray = $message->getTransaction();
+            $paymentId = $message->getPaymentId();
+            $externalPaymentId = $message->getExternalPaymentId();
+            $paymentDetailsArray = $message->getPaymentDetails();
+            $customParametersArray = $message->getCustomParameters();
+            $isDryRun = $message->isDryRun();
+            $refundArray = $message->getRefundDetails();
+            $messageArray = $message->toArray();
+            // TODO если рефанд невозможен, сгенерируйте Xsolla\SDK\Exception\Webhook\XsollaWebhookException
+            break;
+        default:
+            throw new XsollaWebhookException('Notification type not implemented');
+    }
+
+Как только вы завершите обработку оповещений на вашем сервере, пожалуйста, добавьте URL обработки оповещений, который будет принимать webhook, на странице Настройки для вашего проекта.
+
+После успешного прохождения тестов в разделе Тестирование можно запускать проект в Live. Пожалуйста не забудьте удалить sandbox параметры из кода, если вы их использовали.
+
+Troubleshooting
+
+Здесь вы найдете советы по обработке и профилактике наиболее часто встречающихся ошибок, возвращаемых Xsolla Php SDK.
+
+[curl
+
+Вы можете увидеть такой вид ошибки, когда отправляете запрос на наш сервер, используя Xsolla PHP SDK, к примеру, при получении токена.
+
+По умолчанию, мы включаем SSL проверку сертификата и используем сертификаты, предоставленные операционной системой. Однако не все системы имеют сертификаты на диске. К примеру, Windows и OS X не имеют единого расположения для цепочек сертификатов.
+
+Есть несколько путей решения данной проблемы.
+
+**1) Разработка**
+
+Вы можете отключить проверку сертификата, если вы в находитесь в режиме разработики. Пожалуйста, обратите внимание, что вам будет необходимо дополнительно тестировать данную задачу в боевом режиме.
+
+    use Xsolla\SDK\API\XsollaClient;
+
+    $client = XsollaClient::factory(array(
+        'merchant_id' => MERCHANT_ID,
+        'api_key' => API_KEY
+    ));
+    $client->setDefaultOption('ssl.certificate_authority', false);
+
+**2) Production**
+
+Наиболее безопасный и надежный способ — это предоставление корректного сертификата. Вы можете указывать путь к сертификату, используя следующий код:
+
+    use Xsolla\SDK\API\XsollaClient;
+
+    $client = XsollaClient::factory(array(
+        'merchant_id' => MERCHANT_ID,
+        'api_key' => API_KEY
+    ));
+    $сlient->setDefaultOption('ssl.certificate_authority', '/path/to/file');
+
+В Windows этот файл может находиться в:
+
+1.  C:\windows\system32\curl-ca-bundle.crt
+2.  C:\windows\curl-ca-bundle.crt
+
+Пожалуйста, убедитесь, что файлы существуют и установите соответствующие пути к сертификатам.
+
+Если вы не имеете данного сертификата в указанных местах, вы можете использовать сертификат, предоставленных mozilla, который можно скачать [здесь](1).
+
+В некоторых версиях php на Windows существует проблема с настройкой путей к сертификатам через код. Для её решения необходимо скачать файл [https://curl.haxx.se/ca/cacert.pem](1) и прописать путь к этому файлу непосредственно в php.ini: curl.cainfo=c:/cacert.pem.
+
+* * *
+
+Код ошибки "INVALID_SIGNATURE" с сообщением "Authorization header not found in Xsolla webhook request"
+
+php-cgi под Apache не проходит HTTP Basic user/pass to PHP по умолчанию.
+
+Чтобы это заработало, вам необходимо добавить следующую строку в .htaccess или httpd.conf файла Apache:
+
+    RewriteEngine On
+    RewriteCond %{HTTP:Authorization} ^(.+)$
+    RewriteRule .* — [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+* * *
+
+"INVALID_CLIENT_IP" код ошибки в вашем Webhook сервере
+
+По умолчанию, из соображений безопасности, Xsolla PHP SDK проверяет IP-адреса с которых были отправлен webhook.
+
+Код ошибки "INVALID_CLIENT_IP" может быть возвращен если вы тестировали ваш webhook-сервер локально, в среде разработки, или сервер вашего приложения работает через некий прокси-серевер — к примеру, балансировщик нагрузки — в боевом режиме. Если вы используете прокси, вы можете вручную добавить ваш прокси в белый лист.
+
+Если вы находитесь в среде разработки, то отключить проверку IP можно используя следующий код:
+
+    use Xsolla\SDK\Webhook\WebhookServer;
+
+    $webhookServer = WebhookServer::create($callback, PROJECT_KEY);
+    $webhookServer->start($webhookRequest = null, $authenticateClientIp = false);
+
+Наиболее безопасный и надежный способ — это добавить ваш обратный прокси IP-адрес на webhook сервер:
+
+    use Xsolla\SDK\Webhook\WebhookServer;
+    use Symfony\Component\HttpFoundation\Request;
+
+    $request = Request::createFromGlobals();
+    $request->setTrustedProxies(array('YOUR_PROXY_SERVER_IP_OR_CIDR'));
+
+    $webhookServer = WebhookServer::create($callback, PROJECT_KEY);
+    $webhookServer->start();
+
+Больше информации доступно в [документации Symfony](1).
+
+Xsolla Android SDK
+
+Введение
+
+Команда Xsolla разработала Android Client SDK для проведения платежей в вашем приложении. Вы можете увидеть возможности SDK в [демо apk](1).
+
+Для начала выберите один из модулей, представленных в [документации](1), создайте скрипт, обрабатывающий webhook и сгенерируйте [токен](1).
+
+Требования
+
+1.  Минимальная версия Android OS: 4.0.
+2.  Для работы с Xsolla Android SDK обязателен доступ в интернет.
+
+Загрузка
+
+  Загрузка при помощи Jcentral:  
+
+     <dependency> 
+    <groupId>com.xsolla.android</groupId> 
+    <artifactId>xsollasdk</artifactId> 
+    <version>2.2.2</version>
+     </dependency>
+
+ или Gradle:
+
+ `compile 'com.xsolla.android:xsollasdk:2.2.2'` 
+
+Установка
+
+Вы можете добавить Xsolla Android SDK в Android Studio. Для этого нужно выполнить следующие действия:
+
+1.  импортируйте модуль: File > Import Module > xsollasdk
+2.  добавьте зависимости: File > Project Structure > Your App Module > Dependency > + > Module Dependency > xsollasdk
+3.  добавьте в блок gradlew следующее:
+
+         packagingOptions {
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/NOTICE'
+         }
+
+[По ссылке](1) вы можете найти наш проект на Github.
+
+Процесс оплаты
+
+Для корректной работы с SDK необходим токен. Более подробная информация о получении токена доступна по [ссылке](1).
+
+Xsolla интерфейс
+
+В качестве примера рассмотрим простое приложение с кнопкой оплаты, при нажатии на которую открывается наш интерфейс.
+
+    public class MainActivity extends Activity {
+
+     public void openShop(String token, boolean isTestPayment) {
+        XsollaSDK.createPaymentForm(this, token, isTestPayment);
+     }
+
+     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+       switch (requestCode){
+         case XsollaActivity.REQUEST_CODE:
+           if(data != null) {
+             long objectId = data.getExtras().getLong(XsollaActivity.EXTRA_OBJECT_ID);
+             if (resultCode == RESULT_OK) {
+               XStatus statusData = (XStatus) XsollaObject.getRegisteredObject(objectId);
+               Toast.makeText(this, statusData.toString(), Toast.LENGTH_LONG).show();
+             } else {
+               XError error = (XError) XsollaObject.getRegisteredObject(objectId);
+               Toast.makeText(this, error.toString(), Toast.LENGTH_LONG).show();
+             }
+           }
+       }
+     }
+    }
+
+Когда платеж был совершен, ваше приложение получает результат проведения платежа в OnActivityResult. Также мы отправим вам оповещение о платеже, даже если приложение было закрыто.
+
+Xsolla Unity SDK
+
+Введение
+
+Команда Xsolla разработала Unity SDK для приема платежей в Unity-приложениях.
+
+**Вы можете загрузить последнюю версию Xsolla Unity SDK на [GitHub.](1)**
+
+Требования
+
+Xsolla Unity SDK работает на версии Unity 5.0 и выше.
+
+Интеграция
+
+Особенности:
+
+*   Сохраненные способы оплаты;
+
+*   Покупка пакетов виртуальной валюты;
+
+*   Покупка виртуальных товаров
+
+*   Покупка подписок;
+
+*   Акции;
+
+*   Погашение купонов;
+
+*   История платежей пользователя.
+
+Если вы хотите принимать платежи через интерфейс Xsolla, выполните следующие действия:
+
+1.  Настройте обработку webhook: [http://developers.xsolla.com/api_v2.html#webhooks](1)
+2.  Сгенерируйте токен для максимально безопасного проведения платежей. Документация по созданию токена доступна по ссылке: [http://developers.xsolla.com/api_v2.html#payment_ui](1)
+3.  Добавьте XsollaSDK скрипт или используйте готовый префаб из папки 'Resources -> Prefabs'
+4.  Вызовите метод _XsollaSDK(instance)_ для генерации готового платежного интерфейса
+5.  Вызовите метод _CreatePaymentForm(token, actionOk(XsollaStatusData), actionError(XsollaError), actionMore(string))_
+
+<table class="different-table">
+
+<thead>
+
+<tr>
+
+<th>Параметр</th>
+
+<th>Описание</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>token</td>
+
+<td>Ваш токен, полученный с использованием метода [Get token](1)</td>
+
+</tr>
+
+<tr>
+
+<td>actionOk</td>
+
+<td>Вызывается после успешного завершения процесса оплаты. Добавьте сюда вашу функцию зачисления платежа.</td>
+
+</tr>
+
+<tr>
+
+<td>actionError</td>
+
+<td>Вызывается, если процесс оплаты отменен или при появлении каких-либо проблем при проведении платежа. Добавьте сюда вашу функцию, обрабатывающую данную ситуацию.</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+1.  Также вы можете использовать метод _XsollaSDK.InitPaystation(string token)_ для открытия платежного интерфейса во встроенном браузере.
+
+Если вы хотите использовать собственный платежный интерфейс, вам необходимо написать класс, наследуемый от XsollaPaystation.
+
+В качестве примера можно использовать XsollaPaystationController.
+
+SDK Response Objects:
+
+    public class XsollaResult {
+
+        public string invoice{ get; set;}
+
+        public Status status{ get; set;}
+
+        public Dictionary<string, object> purchases;
+
+    }
+
+Попробуйте!
+
+Пожалуйста, посмотрите наш [демо пример](1).
+
+Мы также подготовили тестовые сценарии в "XsollaUnitySDK" -> "Resources" -> "_Scenes":
+
+1.  XsollaFarmFreshScene — моделирует магазин товаров.
+
+2.  XollaTokenTestScene — тестирование токена.
+
+</div>
