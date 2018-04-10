@@ -86,18 +86,18 @@ XL.init({
 </code>
 </pre>
 <table> <thead> <tr> <th style="text-align:left">
-<strong>Название</strong>
+**Название**
 </th> <th style="text-align:left">
-<strong>Тип</strong>
+**Тип**
 </th> <th style="text-align:left">
-<strong>Описание</strong>
-</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">projectId</td> <td style="text-align:left">string</td> <td style="text-align:left">Идентификатор приложения. <strong>Обязательный</strong>.</td> </tr> <tr> <td style="text-align:left">locale</td> <td style="text-align:left">string</td> <td style="text-align:left">Локаль пользователя в формате &lt;language code&gt;_&lt;country code&gt;, где: <ul>
+**Описание**
+</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">projectId</td> <td style="text-align:left">string</td> <td style="text-align:left">Идентификатор приложения. **Обязательный**.</td> </tr> <tr> <td style="text-align:left">locale</td> <td style="text-align:left">string</td> <td style="text-align:left">Локаль пользователя в формате &lt;language code&gt;_&lt;country code&gt;, где: <ul>
 <li> <em>language code:</em> код языка в формате [ISO 639 alpha-2](1);</li>
 <li>
 <em>country code:</em> код страны (региона) в формате [ISO 3166-1 alpha-2](1).</li>
 </ul>
 </td> </tr> <tr> <td style="text-align:left">redirectUrl</td> <td style="text-align:left">string</td> <td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](1)
-</td> </tr> <tr> <td style="text-align:left">onlyWidgets</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td> </tr> <tr> <td style="text-align:left">preloader</td> <td style="text-align:left">string</td> <td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td> </tr> <tr> <td style="text-align:left">fields</td> <td style="text-align:left">string</td> <td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. <strong>Обязательный</strong>
+</td> </tr> <tr> <td style="text-align:left">onlyWidgets</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td> </tr> <tr> <td style="text-align:left">preloader</td> <td style="text-align:left">string</td> <td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td> </tr> <tr> <td style="text-align:left">fields</td> <td style="text-align:left">string</td> <td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. **Обязательный**
 </td> </tr> </tbody> </table>
 <ol> <li value="3"> Добавьте элемент DIV, в котором будет отображаться виджет, задайте ему уникальный id, и добавьте после него код инициализации виджета. </li> </ol>
 <pre>
@@ -117,12 +117,12 @@ XL.AuthWidget(element_id, options);
 </code>
 </pre>
 <table> <thead> <tr> <th style="text-align:left">
-<strong>Название</strong>
+**Название**
 </th> <th style="text-align:left">
-<strong>Тип</strong>
+**Тип**
 </th> <th style="text-align:left">
-<strong>Описание</strong>
-</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">element_id</td> <td style="text-align:left">string</td> <td style="text-align:left">id элемента-контейнера для блока аутентификации. <strong>Обязательный</strong>
+**Описание**
+</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">element_id</td> <td style="text-align:left">string</td> <td style="text-align:left">id элемента-контейнера для блока аутентификации. **Обязательный**
 </td> </tr> <tr> <td style="text-align:left">options</td> <td style="text-align:left">object</td> <td style="text-align:left">Настройки блока с виджетом.</td> </tr> <tr> <td style="text-align:left">options.width</td> <td style="text-align:left">string</td> <td style="text-align:left">Ширина блока.</td> </tr> <tr> <td style="text-align:left">options.height</td> <td style="text-align:left">string</td> <td style="text-align:left">Высота блока.</td> </tr> </tbody> </table>
 </div>
 <div class="section-code">
@@ -168,7 +168,7 @@ XL.AuthWidget(element_id, options);
 </h3>
 <p>В случае успеха пользователь будет переадресован на Ваш callback URL со следующим параметром:</p>
 <p>
-<strong>HTTP запрос</strong>
+**HTTP запрос**
 </p>
 <p>
 <code>GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ</code>
@@ -220,7 +220,7 @@ XL.AuthWidget(element_id, options);
 <p>В случае ошибки, пользователь будет перенаправлен на Ваш callback URL со следующими [параметрами:](1)
 </p>
 <p>
-<strong>HTTP запрос</strong>
+**HTTP запрос**
 </p>
 <p>
 <code>GET https://callBackUrl.php?error=003-002&amp;error_description=User+not+found&amp;redirect_url=https://site.com/fail_url</code>
@@ -315,7 +315,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Фильтры</a>
 </h2>
-<p>Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным [измерениям](1). Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре <strong>User Country</strong> выбрать <em>United States</em>, то на дашборде будут показаны данные о платежах только из <em>United States</em>. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.</p>
+<p>Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным [измерениям](1). Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре **User Country** выбрать <em>United States</em>, то на дашборде будут показаны данные о платежах только из <em>United States</em>. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.</p>
 </div>
 <div class="section-code">
 </div>
@@ -339,7 +339,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Значения по выбранному периоду</a>
 </h2>
-<p>В отличие от значений, которые показывают лишь агрегированные данные за выбранный период, эти значения корректируются на основе периода времени, установленного в фильтре <strong>Date</strong>. Используйте этот фильтр для изменения агрегированного периода времени на дашборде, и эти значения также изменятся.</p>
+<p>В отличие от значений, которые показывают лишь агрегированные данные за выбранный период, эти значения корректируются на основе периода времени, установленного в фильтре **Date**. Используйте этот фильтр для изменения агрегированного периода времени на дашборде, и эти значения также изменятся.</p>
 </div>
 <div class="section-code">
 </div>
@@ -351,7 +351,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Среднесуточные значения</a>
 </h2>
-<p>В отличие от обычных значений, среднесуточные значения не будут увеличиваться при увеличении периода. Например, <strong>ARPPU</strong> будет расти при увеличении периода, потому что те же пользователи будут продолжать платить. Усредненный доход на платящего ежедневно активного пользователя (ARPPDAU) не будет расти, так как это среднее значение от всех средних значений за период, а не от общего количества платежей и среднего количества платящих пользователей.</p>
+<p>В отличие от обычных значений, среднесуточные значения не будут увеличиваться при увеличении периода. Например, **ARPPU** будет расти при увеличении периода, потому что те же пользователи будут продолжать платить. Усредненный доход на платящего ежедневно активного пользователя (ARPPDAU) не будет расти, так как это среднее значение от всех средних значений за период, а не от общего количества платежей и среднего количества платящих пользователей.</p>
 </div>
 <div class="section-code">
 </div>
@@ -363,7 +363,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Агрегация по неделям и месяцам</a>
 </h2>
-<p>Если вы выберите определенный период в фильтре <strong>Date</strong>, например 4 недели, то данные будут показаны, разделенные по неделям и показывать 4 недели. Агрегация данных за эти недели будет на основе всей активности за эти недели, а не средней от средних данных за день, которая будет показана, когда выбран фильтр по дням.</p>
+<p>Если вы выберите определенный период в фильтре **Date**, например 4 недели, то данные будут показаны, разделенные по неделям и показывать 4 недели. Агрегация данных за эти недели будет на основе всей активности за эти недели, а не средней от средних данных за день, которая будет показана, когда выбран фильтр по дням.</p>
 </div>
 <div class="section-code">
 </div>
@@ -423,7 +423,7 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">Обзорный </a>
 [(demo)](1)
 </h2>
-<p>Обзорный дашборд содержит KPI вашей игры, идеален для ежедневного анализа, а также для показа на вашем офисном TV. Включает <strong>Gross Revenue</strong>, <strong>Payments</strong>, <strong>Paying Users</strong>, <strong>ARPPU</strong>, <strong>Paid Invoices</strong> и <strong>Average Payment Amount</strong>.</p>
+<p>Обзорный дашборд содержит KPI вашей игры, идеален для ежедневного анализа, а также для показа на вашем офисном TV. Включает **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices** и **Average Payment Amount**.</p>
 </div>
 <div class="section-code">
 </div>
@@ -488,7 +488,7 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">Платящие пользователи </a>
 [(demo)](1)
 </h2>
-<p>Paying Users дашборд — это способ понять характеристики вашего <strong>Revenue</strong>. Если <strong>Revenue</strong> увеличивается вы можете задать вопрос: новые пользователи становятся <strong>Paying Users</strong> или <strong>Existing Paying Users</strong> платят больше?</p>
+<p>Paying Users дашборд — это способ понять характеристики вашего **Revenue**. Если **Revenue** увеличивается вы можете задать вопрос: новые пользователи становятся **Paying Users** или **Existing Paying Users** платят больше?</p>
 </div>
 <div class="section-code">
 </div>
@@ -527,7 +527,7 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">География </a>
 [(demo)](1)
 </h2>
-<p>Дашборд поможет понять разницу между платежными привычками пользователей в зависимости от их местоположения. Каждый лист сгруппирован по различным признакам, включая такие как: <strong>Countries</strong>, <strong>Regions</strong>, <strong>Languages</strong>, <strong>Business Regions</strong> и <strong>Timezones</strong>.</p>
+<p>Дашборд поможет понять разницу между платежными привычками пользователей в зависимости от их местоположения. Каждый лист сгруппирован по различным признакам, включая такие как: **Countries**, **Regions**, **Languages**, **Business Regions** и **Timezones**.</p>
 </div>
 <div class="section-code">
 </div>
@@ -553,7 +553,7 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">Отмены </a>
 [(demo)](1)
 </h2>
-<p>Дашборд позволит вам следить за фродом в вашей игре. Обзор листов будет показывать число отмен в <strong>Cancellation Date</strong>, <strong>Payment Date</strong>, как в процентах, так и географически. Список причин даст вам возможность увидеть распределение причин отмены для каждой отмены.</p>
+<p>Дашборд позволит вам следить за фродом в вашей игре. Обзор листов будет показывать число отмен в **Cancellation Date**, **Payment Date**, как в процентах, так и географически. Список причин даст вам возможность увидеть распределение причин отмены для каждой отмены.</p>
 </div>
 <div class="section-code">
 </div>
@@ -578,191 +578,191 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#dataset_dimensions">Измерения </a>
 </h1>
 <p>Измерения отличаются от данных. Это не сами значения, но определенные категории значений. Всякий раз, когда вы используете фильтр, вы фильтруете данные по измерению.</p>
-<p>Примеры измерений: <strong>Countr</strong>y, <strong>Credit Card Type</strong>, <strong>Date</strong>, и.т.д.</p>
+<p>Примеры измерений: **Countr**y, **Credit Card Type**, **Date**, и.т.д.</p>
 <table> <thead> <tr> <th>Группа</th> <th>Название</th> <th>Описание</th> </tr> </thead> <tbody> <tr> <td>DateTime</td> <td>
 <nobr>
-<strong>Date</strong>
+**Date**
 </nobr>
 </td> <td>Дата по умолчанию для всех графиков в часовом поясе формата UTC. Данная дата основывается на последнем обновлении платежного статуса (invoice, payment, cancellation). Пример: когда вы хотите добавить платежи или отмены на единую временную шкалу, платежи будут агрегироваться по дате платежа, отмены — по дате отмены.</td> </tr> <tr> <td>DateTime</td> <td>
 <nobr>
-<strong>Invoice Date</strong>
+**Invoice Date**
 </nobr>
 </td> <td>Дата создания заявки в UTC .</td> </tr> <tr> <td>DateTime</td> <td>
 <nobr>
-<strong>Payment Date</strong>
+**Payment Date**
 </nobr>
 </td> <td>Дата подтверждения платежа в UTC. Данная дата доступна только для завершенных платежей и не доступна для неоплаченных заявок.</td> </tr> <tr> <td>DateTime</td> <td>
 <nobr>
-<strong>Cancellation Date</strong>
+**Cancellation Date**
 </nobr>
 </td> <td>Дата отмены платежа в UTC. Данные доступны для отмененных платежей.</td> </tr> <tr> <td>Projects</td> <td>
 <nobr>
-<strong>Project</strong>
+**Project**
 </nobr>
 </td> <td>ID пректа и название проекта</td> </tr> <tr> <td>Payment System</td> <td>
 <nobr>
-<strong>Payment System Group</strong>
+**Payment System Group**
 </nobr>
 </td> <td>Группа платежных систем, например: <em>Cash Payments</em>, <em>Bank Transfer</em>
 </td> </tr> <tr> <td>Payment System</td> <td>
 <nobr>
-<strong>Payment System</strong>
+**Payment System**
 </nobr>
 </td> <td>ID платежной системы и название, например: <em>24. Paypal</em>, <em>57. PaySafeCard</em>
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>User Country</strong>
+**User Country**
 </nobr>
 </td> <td>Страна пользователя, определена системой Xsolla. Вычисленная страна является наиболее точной и подходящей. IP-адрес пользователя, страна мобильного оператора, страна банка, выпустившего кредитную карту и другие атрибуты используются для определения страны. Данная страна используется для внутренних вычислений VAT.</td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>Language</strong>
+**Language**
 </nobr>
 </td> <td>Язык. Используется 2-буквенный код, вида <em>EN</em>, <em>PT</em>, <em>RU</em>
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>IP Address Geography</strong>
+**IP Address Geography**
 </nobr>
 </td> <td>Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о <em>Region</em> и <em>Country</em> с <em>Country Subdivision</em> и <em>City</em>.</td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>Timezone</strong>
+**Timezone**
 </nobr>
 </td> <td>Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: <em>Europe/Berlin</em>, <em>America/Chicago</em>
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>Business Region</strong>
+**Business Region**
 </nobr>
-</td> <td>Бизнес-регион в <strong>User Country</strong>, например: <em>European Union</em>, <em>Latin America</em>
+</td> <td>Бизнес-регион в **User Country**, например: <em>European Union</em>, <em>Latin America</em>
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>Payment System Country</strong>
+**Payment System Country**
 </nobr>
 </td> <td>Страна происхождения платежной системы</td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
-<strong>Issuing Bank Country</strong>
+**Issuing Bank Country**
 </nobr>
 </td> <td>Страна банка, выпустившего карту польззователя</td> </tr> <tr> <td>Currencies</td> <td>
 <nobr>
-<strong>Payment Currency</strong>
+**Payment Currency**
 </nobr>
 </td> <td>Валюта платежа пользователя, 3-буквенное обозначение, вида: <em>USD</em>, <em>EUR</em>
 </td> </tr> <tr> <td>Currencies</td> <td>
 <nobr>
-<strong>Payout Currency</strong>
+**Payout Currency**
 </nobr>
 </td> <td>Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: <em>USD</em>, <em>EUR</em>
 </td> </tr> <tr> <td>Purchase</td> <td>
 <nobr>
-<strong>Purchase Type</strong>
+**Purchase Type**
 </nobr>
 </td> <td>Модуль Xsolla, использованный для совершения платежа: <em>Virtual Items</em>, <em>Virtual Currency</em>
 </td> </tr> <tr> <td>Purchase</td> <td>
 <nobr>
-<strong>Is First Payment</strong>
+**Is First Payment**
 </nobr>
 </td> <td>
 <em>True</em>, если это первый платеж для данного юзера, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Is Credit Card</strong>
+**Is Credit Card**
 </nobr>
 </td> <td>
 <em>True</em>, если платеж совершен через кредитную карту, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Issuing Bank</strong>
+**Issuing Bank**
 </nobr>
 </td> <td>Банк, выпустивший кредитную карту</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Credit Card Brand</strong>
+**Credit Card Brand**
 </nobr>
 </td> <td>e.g <em>VISA</em>, <em>MasterCard</em>
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Credit Card Type</strong>
+**Credit Card Type**
 </nobr>
 </td> <td>e.g. <em>CREDIT</em>, <em>DEBIT</em>
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Credit Card Category</strong>
+**Credit Card Category**
 </nobr>
 </td> <td>e.g. <em>CLASSIC</em>, <em>GOLD</em>, <em>PLATINUM</em>
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Is Payment Account Saved</strong>
+**Is Payment Account Saved**
 </nobr>
 </td> <td>
 <em>True</em> если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Is Payment From Saved Account</strong>
+**Is Payment From Saved Account**
 </nobr>
 </td> <td>
 <em>True</em>, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Is Credit Card Rejected</strong>
+**Is Credit Card Rejected**
 </nobr>
 </td> <td>
-<em>True</em>, если кредитная карта была отклонена во время процесса оплаты, <em>false</em> в противном случае. Причину отмены можно найти в измерении <strong>Credit Card Reject Reason</strong>
+<em>True</em>, если кредитная карта была отклонена во время процесса оплаты, <em>false</em> в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
-<strong>Credit Card Reject Reason</strong>
+**Credit Card Reject Reason**
 </nobr>
 </td> <td>e.g. <em>Insufficient Funds</em>, <em>Did not pass validation 3D-secure</em>
 </td> </tr> <tr> <td>Recurring Payments</td> <td>
 <nobr>
-<strong>Is Recurrent Plan Created</strong>
+**Is Recurrent Plan Created**
 </nobr>
 </td> <td>
 <em>True</em>, если из платежа была создана рекуррентная подписка, <em>false</em> в противном случае</td> </tr> <tr> <td>Recurring Payments</td> <td>
 <nobr>
-<strong>Is Recurrent Payment</strong>
+**Is Recurrent Payment**
 </nobr>
 </td> <td>
 <em>True</em>, если списание с карты было совершено для оплаты рекуррентной подписки, <em>false</em> в противном случае</td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
-<strong>OS</strong>
+**OS**
 </nobr>
 </td> <td>Операционная система на девайсе пользователя, например: <em>Windows 8</em>, <em>MacOS</em>, <em>Android</em>
 </td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
-<strong>Browser</strong>
+**Browser**
 </nobr>
 </td> <td>Браузер пользователя, например: <em>Firefox</em>, <em>Chrome Mobile</em>
 </td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
-<strong>Device</strong>
+**Device**
 </nobr>
 </td> <td>Модель мобильного устройства пользователя, например: <em>IPhone</em>, <em>Nokia Lumia</em>
 </td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
-<strong>Screen Size</strong>
+**Screen Size**
 </nobr>
 </td> <td>Разрешение экрана девайса пользователя</td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
-<strong>UI</strong>
+**UI**
 </nobr>
 </td> <td>Интерфейс Xsolla, через который был совершен платеж, например: <em>PayStation</em>, <em>Smartphone Version</em>
 </td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
-<strong>Payment Notification Delivery</strong>
+**Payment Notification Delivery**
 </nobr>
 </td> <td>Продолжительность обработки платежа на стороне Xsolla, например: <em>1-3 seconds</em>, <em>1-10 minutes</em>
 </td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
-<strong>Payment System Delay</strong>
+**Payment System Delay**
 </nobr>
 </td> <td>Продолжительность обработки платежа на стороне платежной системы, например: <em>1-3 seconds</em>, <em>1-10 minutes</em>
 </td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
-<strong>Payment Flow</strong>
+**Payment Flow**
 </nobr>
 </td> <td>Общая продолжительностьобработки платежа, например: <em>1-3 seconds</em>, <em>1-10 minutes</em>
 </td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
-<strong>Is Cancelled</strong>
+**Is Cancelled**
 </nobr>
 </td> <td>
-<em>True</em>, если платеж отменен, <em>false</em> в противном случае. Причины отмены можно найти в измерении <strong>Cancellation Type</strong>
+<em>True</em>, если платеж отменен, <em>false</em> в противном случае. Причины отмены можно найти в измерении **Cancellation Type**
 </td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
-<strong>Cancellation Type</strong>
+**Cancellation Type**
 </nobr>
 </td> <td>Причины отмены транзакции, например: <em>Refund</em>, <em>Chargeback</em>
 </td> </tr> </tbody> </table>
@@ -777,130 +777,130 @@ XL.AuthWidget(element_id, options);
 <h1 data-headings="dataset_measures">
 <a class="anchor" href="#dataset_measures">Метрики </a>
 </h1>
-<p>Метрики, в отличие измерений, представляют собой значения, которые отображаются на графиках. Примеры метрик: <strong>Revenue</strong>, <strong>Paying Users</strong>, <strong>Conversion</strong>, <strong>Average Payments Amount</strong>.</p>
+<p>Метрики, в отличие измерений, представляют собой значения, которые отображаются на графиках. Примеры метрик: **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.</p>
 <table> <thead> <tr> <th>Группа</th> <th>Название</th> <th>Описание</th> </tr> </thead> <tbody> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Revenue</strong>
+**Revenue**
 </nobr>
 </td> <td>Сумма до вычета комиссий. Сумма конвертируется в валюту метрики по актуальному на дату уведомления проекта курсу .</td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Average Payment Amount</strong>
+**Average Payment Amount**
 </nobr>
 </td> <td>
-<strong>Revenue</strong>, деленное количество <strong>Payments</strong>
+**Revenue**, деленное количество **Payments**
 </td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Gross Revenue</strong>
+**Gross Revenue**
 </nobr>
-</td> <td>Сумма дохода <strong>Revenue</strong> без учета <strong>Cancellations Revenue</strong> за текущий период</td> </tr> <tr> <td>Measures</td> <td>
+</td> <td>Сумма дохода **Revenue** без учета **Cancellations Revenue** за текущий период</td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Payments</strong>
+**Payments**
 </nobr>
 </td> <td>Общая сумма завершенных платежей. Платежи могут быть отменены в будущих периодах.</td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Virtual Currency Amount</strong>
+**Virtual Currency Amount**
 </nobr>
 </td> <td>Количество приобретенной виртуальной валюты. Доступно в модуле <em>Virtual Currency</em>
 </td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>ARPPU</strong>
+**ARPPU**
 </nobr>
-</td> <td>Average Revenue Per Paying User: <strong>Revenue</strong>, деленное на количество уникальных <strong>Paying Users</strong>. При использовании недельной или месячной агрегации <strong>ARPPU</strong> значительно возрастает, так как один пользователь может иметь несколько <strong>Payments</strong> за один период.</td> </tr> <tr> <td>Measures</td> <td>
+</td> <td>Average Revenue Per Paying User: **Revenue**, деленное на количество уникальных **Paying Users**. При использовании недельной или месячной агрегации **ARPPU** значительно возрастает, так как один пользователь может иметь несколько **Payments** за один период.</td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Payments per Paying User</strong>
+**Payments per Paying User**
 </nobr>
-</td> <td>Общее количество <strong>Payments</strong>, деленное на количество уникальных <strong>Paying users</strong>. Используется в еженедельных и ежемесячных агрегациях для аналитики частоты платежей.</td> </tr> <tr> <td>Conversion</td> <td>
+</td> <td>Общее количество **Payments**, деленное на количество уникальных **Paying users**. Используется в еженедельных и ежемесячных агрегациях для аналитики частоты платежей.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Invoices</strong>
+**Invoices**
 </nobr>
 </td> <td>Общее количество созданных заявок.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Users</strong>
+**Users**
 </nobr>
-</td> <td>Общее количество пользователей, создавших <strong>Invoice</strong>. Пользователи, не завершившие платеж, также включены.</td> </tr> <tr> <td>Measures</td> <td>
+</td> <td>Общее количество пользователей, создавших **Invoice**. Пользователи, не завершившие платеж, также включены.</td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
-<strong>Paying Users</strong>
+**Paying Users**
 </nobr>
-</td> <td>Количество уникальных пользователей, совершивших как минимум один <strong>Payment</strong>в рассматриваемый период</td> </tr> <tr> <td>Conversion</td> <td>
+</td> <td>Количество уникальных пользователей, совершивших как минимум один **Payment**в рассматриваемый период</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Paying Users Percent</strong>
+**Paying Users Percent**
 </nobr>
-</td> <td>Процент пользователей, завершивших платеж от общего числа пользователей, создавших заявку. <strong>Paying Users Percent</strong> более точное преобразование метрики (по сравнению с <strong>Paid Invoices Percent</strong>), так как пользователь может попробовать несколько способов оплаты, прежде чем завершит платеж.</td> </tr> <tr> <td>Conversion</td> <td>
+</td> <td>Процент пользователей, завершивших платеж от общего числа пользователей, создавших заявку. **Paying Users Percent** более точное преобразование метрики (по сравнению с **Paid Invoices Percent**), так как пользователь может попробовать несколько способов оплаты, прежде чем завершит платеж.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Paid Invoices Percent</strong>
+**Paid Invoices Percent**
 </nobr>
-</td> <td>Процент завершенных <strong>Payments</strong> по отношению к общему числу <strong>Invoices</strong>
+</td> <td>Процент завершенных **Payments** по отношению к общему числу **Invoices**
 </td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Churn Users</strong>
+**Churn Users**
 </nobr>
 </td> <td>Количество пользователей создавших, но не оплативших заявку.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Churn Users Percent</strong>
+**Churn Users Percent**
 </nobr>
 </td> <td>Процент пользователей создавших, но не оплативших заявку.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Unpaid Invoices</strong>
+**Unpaid Invoices**
 </nobr>
 </td> <td>Количество заявок, которые не были завершены пользователем и не подтверждены платежной системой.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Unpaid Invoices Percent</strong>
+**Unpaid Invoices Percent**
 </nobr>
-</td> <td>Процент <strong>Unpaid Invoices</strong> по отношению к общему количеству заявок</td> </tr> <tr> <td>Conversion</td> <td>
+</td> <td>Процент **Unpaid Invoices** по отношению к общему количеству заявок</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>New Paying Users</strong>
+**New Paying Users**
 </nobr>
-</td> <td>Количество уникальных <strong>Paying users</strong>, совершивших первый платеж в рассматриваемый период.</td> </tr> <tr> <td>Conversion</td> <td>
+</td> <td>Количество уникальных **Paying users**, совершивших первый платеж в рассматриваемый период.</td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>New Paying Users Percent</strong>
+**New Paying Users Percent**
 </nobr>
-</td> <td>Процент <strong>New Paying Users</strong> по отношению к общему числу <strong>Paying Users</strong>
+</td> <td>Процент **New Paying Users** по отношению к общему числу **Paying Users**
 </td> </tr> <tr> <td>Conversion</td> <td>
 <nobr>
-<strong>Existing Paying Users</strong>
+**Existing Paying Users**
 </nobr>
-</td> <td>Количество уникальных <strong>Paying Users</strong>, совершивших не первый платеж</td> </tr> <tr> <td>Cancellations</td> <td>
+</td> <td>Количество уникальных **Paying Users**, совершивших не первый платеж</td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
-<strong>Cancellations</strong>
+**Cancellations**
 </nobr>
-</td> <td>Количество <strong>Payments</strong> которые были возвращены или отменены</td> </tr> <tr> <td>Cancellations</td> <td>
+</td> <td>Количество **Payments** которые были возвращены или отменены</td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
-<strong>Cancellations Percent</strong>
+**Cancellations Percent**
 </nobr>
-</td> <td>Процент <strong>Cancellations</strong> по отношению к общему числу <strong>Payments</strong>.</td> </tr> <tr> <td>Cancellations</td> <td>
+</td> <td>Процент **Cancellations** по отношению к общему числу **Payments**.</td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
-<strong>Cancellations Revenue</strong>
+**Cancellations Revenue**
 </nobr>
-</td> <td>Количество отмененных <strong>Payments</strong>.</td> </tr> <tr> <td>Cancellations</td> <td>
+</td> <td>Количество отмененных **Payments**.</td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
-<strong>Cancellations Revenue Percent</strong>
+**Cancellations Revenue Percent**
 </nobr>
-</td> <td>Процент <strong>Cancellations Revenue</strong> по отношению к общему <strong>Revenue</strong>.</td> </tr> <tr> <td>Developers</td> <td>
+</td> <td>Процент **Cancellations Revenue** по отношению к общему **Revenue**.</td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
-<strong>Payment Notification Delivery, Seconds</strong>
+**Payment Notification Delivery, Seconds**
 </nobr>
 </td> <td>Продолжительность обработки платежа на стороне Xsolla</td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
-<strong>Payment System Delay, Seconds</strong>
+**Payment System Delay, Seconds**
 </nobr>
 </td> <td>Продолжительность обработки платежа на стороне платежной системы</td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
-<strong>Payment Flow, Seconds</strong>
+**Payment Flow, Seconds**
 </nobr>
 </td> <td>Общая продолжительность обработки платежа</td> </tr> </tbody> </table>
 <p>Метрики могут быть агрегированы различными способами. Ниже приведено описание каждого типа агрегации, который вы увидите на ваших дашбордах:</p>
 <table> <thead> <tr> <th>
 </th> <th>
 </th> </tr> </thead> <tbody> <tr> <td>
-<strong>Count</strong>
-</td> <td>Сколько раз произошло отслеживаемое событие. По умолчанию используется для <strong>Invoices</strong>, <strong>Paying Users</strong>, и.т.д.</td> </tr> <tr> <td>
-<strong>Sum</strong>
-</td> <td>Какова общая сумма числовых значений, связанных с отслеживаемым событием. По умолчанию используется для <strong>Gross Revenue</strong>, <strong>Virtual Currency Amount</strong>, и.т.д.</td> </tr> <tr> <td>
-<strong>Average</strong>
-</td> <td>Каково среднее значение метрики. Это будет использоваться для метрик, содержащих процентные отношения, поэтому не имеет смысла использовать такую агрегацию для метрик вида <strong>Sum</strong>. По умолчанию используется для <strong>Average Payment Amount</strong>, <strong>Churn Users Percent</strong>, и.т.д.</td> </tr> <tr> <td>
-<strong>Maximum</strong>
+**Count**
+</td> <td>Сколько раз произошло отслеживаемое событие. По умолчанию используется для **Invoices**, **Paying Users**, и.т.д.</td> </tr> <tr> <td>
+**Sum**
+</td> <td>Какова общая сумма числовых значений, связанных с отслеживаемым событием. По умолчанию используется для **Gross Revenue**, **Virtual Currency Amount**, и.т.д.</td> </tr> <tr> <td>
+**Average**
+</td> <td>Каково среднее значение метрики. Это будет использоваться для метрик, содержащих процентные отношения, поэтому не имеет смысла использовать такую агрегацию для метрик вида **Sum**. По умолчанию используется для **Average Payment Amount**, **Churn Users Percent**, и.т.д.</td> </tr> <tr> <td>
+**Maximum**
 </td> <td>Каково было максимальное значение данной метрики</td> </tr> <tr> <td>
-<strong>Minimum</strong>
+**Minimum**
 </td> <td>Каково было минимальное значение данной метрики</td> </tr> </tbody> </table>
 </div>
 <div class="section-code">
@@ -919,93 +919,93 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#faq_data_portal">FAQ </a>
 </h1>
 <p>
-<strong>Q.</strong> Сколько это стоит?</p>
+**Q.** Сколько это стоит?</p>
 <p>
-<strong>A.</strong> Для партнеров Xsolla это бесплатно.</p>
+**A.** Для партнеров Xsolla это бесплатно.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как я могу активировать data portal для моего аккаунта?</p>
+**Q.** Как я могу активировать data portal для моего аккаунта?</p>
 <p>
-<strong>A.</strong> Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](1)
+**A.** Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](1)
 </p>
 <hr>
 <p>
-<strong>Q.</strong> В каких валютах данные?</p>
+**Q.** В каких валютах данные?</p>
 <p>
-<strong>A.</strong> Доступно три валюты: Доллары США, Евро и российские Рубли. Также существует возможность фильтровать данные по валюте платежа.</p>
+**A.** Доступно три валюты: Доллары США, Евро и российские Рубли. Также существует возможность фильтровать данные по валюте платежа.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как я могу загрузить свои собственные данные в [Slemma](1)?</p>
+**Q.** Как я могу загрузить свои собственные данные в [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](1)
+**A.** Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](1)
 </p>
 <hr>
 <p>
-<strong>Q.</strong> Я обеспокоен конфиденциальностью и сохранностью моих данных.</p>
+**Q.** Я обеспокоен конфиденциальностью и сохранностью моих данных.</p>
 <p>
-<strong>A.</strong> Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service. Все данные передаются в/из хранилища через зашифрованное соединение TLC. Необработанные платежные данные недоступны в [Slemma](1). Доступны только агреггированные данные, без персональной пользовательской информации. Мы применяем принципы наименьших привилегий, файерволлы, шифрования и других технологические и эксплуатационные подходы, чтобы сохранить ваши данные в безопасности.</p>
+**A.** Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service. Все данные передаются в/из хранилища через зашифрованное соединение TLC. Необработанные платежные данные недоступны в [Slemma](1). Доступны только агреггированные данные, без персональной пользовательской информации. Мы применяем принципы наименьших привилегий, файерволлы, шифрования и других технологические и эксплуатационные подходы, чтобы сохранить ваши данные в безопасности.</p>
 <hr>
 <p>
-<strong>Q.</strong> В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1). Как я могу получить их в [Slemma](1)?</p>
+**Q.** В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1). Как я могу получить их в [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Отправьте запрос на email [dataportal@xsolla.com](1)
+**A.** Отправьте запрос на email [dataportal@xsolla.com](1)
 </p>
 <hr>
 <p>
-<strong>Q.</strong> Возможна ли выгрузка данных из [Slemma](1)?</p>
+**Q.** Возможна ли выгрузка данных из [Slemma](1)?</p>
 <p>
-<strong>A.</strong>Вы можете скачивать графики и их данные в различных форматах из [Slemma](1), кликнув правой кнопкой мыши по объекту и выбрав тип файла. Также вы можете скачать дашборд целиком в PDF или PNG формате. Если вам нужны необработанные данные вы можете использовать [Xsolla Reports API](1).</p>
+**A.**Вы можете скачивать графики и их данные в различных форматах из [Slemma](1), кликнув правой кнопкой мыши по объекту и выбрав тип файла. Также вы можете скачать дашборд целиком в PDF или PNG формате. Если вам нужны необработанные данные вы можете использовать [Xsolla Reports API](1).</p>
 <hr>
 <p>
-<strong>Q.</strong> Могу ли я использовать данную аналитику для проверки финансовых отчетов?</p>
+**Q.** Могу ли я использовать данную аналитику для проверки финансовых отчетов?</p>
 <p>
-<strong>A.</strong> Нет, данные могут быть точны не на 100%, так как они используют среднесуточный обменных курс.</p>
+**A.** Нет, данные могут быть точны не на 100%, так как они используют среднесуточный обменных курс.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как часто обновляются данные?</p>
+**Q.** Как часто обновляются данные?</p>
 <p>
-<strong>A.</strong> Данные обновляются ежедневно в 2:00 AM UTC</p>
+**A.** Данные обновляются ежедневно в 2:00 AM UTC</p>
 <hr>
 <p>
-<strong>Q.</strong> Насколько точны метики?</p>
+**Q.** Насколько точны метики?</p>
 <p>
-<strong>A.</strong> Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных. Данный подход гарантирует точность для метрик с любой комбинацией группировки или фильтрации, особенно для подсчета количества уникальных значений или среднего метрик, к примеру, <strong>Paying Users</strong> и <strong>Average Payment Amount</strong>. Однако, мы не может предоставлять абсолютно точные финансовые данные, так как мы конвертируем платежные суммы в различный валютах со среднесуточным обменным курсом и используем округление до двух знаков после разделителя. Это означает, что разница редко превышает значение в $0.01.</p>
+**A.** Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных. Данный подход гарантирует точность для метрик с любой комбинацией группировки или фильтрации, особенно для подсчета количества уникальных значений или среднего метрик, к примеру, **Paying Users** и **Average Payment Amount**. Однако, мы не может предоставлять абсолютно точные финансовые данные, так как мы конвертируем платежные суммы в различный валютах со среднесуточным обменным курсом и используем округление до двух знаков после разделителя. Это означает, что разница редко превышает значение в $0.01.</p>
 <hr>
 <p>
-<strong>Q.</strong> [Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения. Почему?</p>
+**Q.** [Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения. Почему?</p>
 <p>
-<strong>A.</strong> Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне. В будущем мы собираемся убрать такое поведение и показывать все данные в UTC таймзоне.</p>
+**A.** Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне. В будущем мы собираемся убрать такое поведение и показывать все данные в UTC таймзоне.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как я могу пригласить другого пользователя для сотрудничества?</p>
+**Q.** Как я могу пригласить другого пользователя для сотрудничества?</p>
 <p>
-<strong>A.</strong> Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи). После регистрации в [Slemma](1), вы можете пригласить нового пользователя в настройках [Users and groups](1) .</p>
+**A.** Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи). После регистрации в [Slemma](1), вы можете пригласить нового пользователя в настройках [Users and groups](1) .</p>
 <hr>
 <p>
-<strong>Q.</strong> Как я могу создать свой собственный отчет?</p>
+**Q.** Как я могу создать свой собственный отчет?</p>
 <p>
-<strong>A.</strong> Да, вы действительно можете сделать это!</p>
+**A.** Да, вы действительно можете сделать это!</p>
 <hr>
 <p>
-<strong>Q.</strong> Какие функции обеспечивает [Slemma](1)?</p>
+**Q.** Какие функции обеспечивает [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</p>
+**A.** Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</p>
 <hr>
 <p>
-<strong>Q.</strong> У меня есть другие вопросы о [Slemma](1)…</p>
+**Q.** У меня есть другие вопросы о [Slemma](1)…</p>
 <p>
-<strong>A.</strong> Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</p>
+**A.** Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?</p>
+**Q.** Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Свяжитесь с [dataportal@xsolla.com](1)
+**A.** Свяжитесь с [dataportal@xsolla.com](1)
 </p>
 <hr>
 <p>
-<strong>Q.</strong> Я не могу найти свой вопрос в данном списке…</p>
+**Q.** Я не могу найти свой вопрос в данном списке…</p>
 <p>
-<strong>A.</strong> Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)
+**A.** Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)
 </p>
 </div>
 <div class="section-code">
@@ -1802,7 +1802,7 @@ user_register/{tracking_id}' \
 </div>
 <h2 data-headings="advanced_testing">
 <a class="anchor" href="#advanced_testing">Тестирование процесса оплаты </a>
-</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"mode" = "sandbox"</i> при [получении токена](1).</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты <strong>Банковские карты</strong>.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
+</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"mode" = "sandbox"</i> при [получении токена](1).</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты **Банковские карты**.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
 [Список банковских карт для тестирования](1)
 </p> <p>
 **Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p> <div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
@@ -2276,15 +2276,15 @@ user_register/{tracking_id}' \
 <h1 data-headings="paystation_domain">
 <a class="anchor" href="#paystation_domain">Запуск Pay Station на домене игры </a>
 </h1>
-<ol> <li>Зарегистрировать новое доменное имя вида <strong>secure.yourdomain.com</strong>. При регистрации следует указать текущий IP-адрес домена <strong>secure.xsolla.com</strong> (запись типа A), либо указать алиас на <strong>secure.xsolla.com</strong> (запись типа CNAME).</li> <li>Выпустить валидный сертификат SSL для данного домена — <strong>secure.yourdomain.com</strong>.</li> <li>
+<ol> <li>Зарегистрировать новое доменное имя вида **secure.yourdomain.com**. При регистрации следует указать текущий IP-адрес домена **secure.xsolla.com** (запись типа A), либо указать алиас на **secure.xsolla.com** (запись типа CNAME).</li> <li>Выпустить валидный сертификат SSL для данного домена — **secure.yourdomain.com**.</li> <li>
 <p>Генерация ключа и запроса на подпись сертификата (CSR) с использованием пакета openssl. В командной строке выполните следующие инструкции:</p> <ul> <li>
-<strong>Генерация ключа:</strong> <em>openssl genrsa -out server.key 2048</em>
+**Генерация ключа:** <em>openssl genrsa -out server.key 2048</em>
 </li> <li>
 <p>
-<strong>Генерация CSR:</strong> <em>openssl req -new -key server.key -out server.csr</em>
+**Генерация CSR:** <em>openssl req -new -key server.key -out server.csr</em>
 </p> <p>Во время генерации следует отвечать на вопросы в интерактивном режиме.</p> <p>
-<strong>Важно!</strong> В поле <strong>Common Name</strong> нужно указать имя вашего домена (<strong>secure.yourdomain.com</strong>).</p> </li> </ul> </li> <li>
-<p>Далее, на любом сайте, выдающем сертификаты (например, [GoDaddy](1)) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла <strong>server.csr</strong>.</p> <p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</p> </li> <li>Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](1) с темой письма: <strong>[Ваша игра]: SSL Certificate</strong>.</li> <li>При интеграции через <strong>Pay Station Embed</strong> необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li> </ol>
+**Важно!** В поле **Common Name** нужно указать имя вашего домена (**secure.yourdomain.com**).</p> </li> </ul> </li> <li>
+<p>Далее, на любом сайте, выдающем сертификаты (например, [GoDaddy](1)) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла **server.csr**.</p> <p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</p> </li> <li>Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](1) с темой письма: **[Ваша игра]: SSL Certificate**.</li> <li>При интеграции через **Pay Station Embed** необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li> </ol>
 </div>
 <div class="section-code">
 </div>
