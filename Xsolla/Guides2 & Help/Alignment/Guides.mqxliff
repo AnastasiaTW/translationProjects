@@ -415,8 +415,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="42" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.08892822" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>App id. **Required**.</source>
-<target>Идентификатор приложения. **Обязательный**.</target>
+<source>App id.</source>
+<target>Идентификатор приложения.</target>
 <mq:sourcemeta mq:id="e46e668d-9bd7-415f-a014-708b026b1a9f" mq:firstlabel="34" mq:lastlabel="34" mq:structpos="div / div#4 / div#1 / table#1 / tbody#1 / tr#1 / td#3"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -605,8 +605,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="61" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.05975342" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>Allowed value: 'email'. **Required.**<x id="1" />Step 3</source>
-<target>Допустимое значение: email. **Обязательный**</target>
+<source>Allowed value: 'email'.<x id="1" />Step 3</source>
+<target>Допустимое значение: email.</target>
 <mq:sourcemeta mq:id="43288e8d-26a2-4afe-af67-48cac90a746f" mq:firstlabel="51" mq:lastlabel="52" mq:structpos="div / div#4 / div#1 / table#1 / tbody#1 / tr#6 / td#3"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -675,8 +675,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="68" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.1070557" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>Id of the authentication container element. **Required.**</source>
-<target>id элемента-контейнера для блока аутентификации. **Обязательный**</target>
+<source>Id of the authentication container element.</source>
+<target>id элемента-контейнера для блока аутентификации.</target>
 <mq:sourcemeta mq:id="53ea0053-f7b6-4c61-843c-a7d365a9f7e7" mq:firstlabel="59" mq:lastlabel="59" mq:structpos="div / div#4 / div#1 / table#2 / tbody#1 / tr#1 / td#3"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
