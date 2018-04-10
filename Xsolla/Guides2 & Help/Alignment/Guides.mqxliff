@@ -5293,8 +5293,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="531" mq:modifyingusername="Vova" mq:lastmodificationtime="2018-04-10T07:44:58.2418426Z" mq:confidence="0.9976807" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How much is it?</source>
-<target>**Q.** Сколько это стоит?</target>
+<source>**How much is it?**</source>
+<target>**Сколько это стоит?**</target>
 <mq:sourcemeta mq:id="9fc5a9c1-2f8e-4ccf-b225-3fab1f8ddcef" mq:firstlabel="428" mq:lastlabel="428" mq:structpos="div / div#27 / div#1 / p#1"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5303,8 +5303,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="532" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="1" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** It's free for all Xsolla customers.</source>
-<target>**A.** Для партнеров Xsolla это бесплатно.</target>
+<source>It's free for all Xsolla customers.</source>
+<target>Для партнеров Xsolla это бесплатно.</target>
 <mq:sourcemeta mq:id="ef99341a-e183-4b32-91fc-60e76cc0ce6f" mq:firstlabel="429" mq:lastlabel="429" mq:structpos="div / div#27 / div#1 / p#2"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5313,8 +5313,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="533" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9951782" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How can I activate data portal for my account?</source>
-<target>**Q.** Как я могу активировать data portal для моего аккаунта?</target>
+<source>**How can I activate data portal for my account?**</source>
+<target>**Как я могу активировать data portal для моего аккаунта?**</target>
 <mq:sourcemeta mq:id="53c41b41-0caa-4d43-9c2e-e5507513a7d0" mq:firstlabel="430" mq:lastlabel="430" mq:structpos="div / div#27 / div#1 / p#3"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5323,8 +5323,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="534" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9986877" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** You need to have an active project with completed payments.</source>
-<target>**A.** Вам необходимо иметь активный проект с завершенными платежами.</target>
+<source>You need to have an active project with completed payments.</source>
+<target>Вам необходимо иметь активный проект с завершенными платежами.</target>
 <mq:sourcemeta mq:id="46303592-f074-4547-a074-9139d6b0d091" mq:firstlabel="431" mq:lastlabel="431" mq:structpos="div / div#27 / div#1 / p#4"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5343,8 +5343,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="536" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9958496" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** What currency is the data in?</source>
-<target>**Q.** В каких валютах данные?</target>
+<source>**What currency is the data in?**</source>
+<target>**В каких валютах данные?**</target>
 <mq:sourcemeta mq:id="7210ece6-7f8c-4075-9ca9-5f55310dfb05" mq:firstlabel="432" mq:lastlabel="432" mq:structpos="div / div#27 / div#1 / p#5"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5353,8 +5353,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="537" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9855957" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** There are three currencies available:</source>
-<target>**A.** Доступно три валюты:</target>
+<source>There are three currencies available:</source>
+<target>Доступно три валюты:</target>
 <mq:sourcemeta mq:id="370ac846-1d08-477e-bf81-bdb804aa0b68" mq:firstlabel="433" mq:lastlabel="433" mq:structpos="div / div#27 / div#1 / p#6"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5383,8 +5383,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="540" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9911499" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How can I upload my own data to [Slemma](1)?</source>
-<target>**Q.** Как я могу загрузить свои собственные данные в [Slemma](1)?</target>
+<source>**How can I upload my own data to [Slemma](1)?**</source>
+<target>**Как я могу загрузить свои собственные данные в [Slemma](1)?**</target>
 <mq:sourcemeta mq:id="0dae0888-de97-406a-8d02-da9c05bfe883" mq:firstlabel="434" mq:lastlabel="434" mq:structpos="div / div#27 / div#1 / p#7"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5393,8 +5393,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="541" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9901428" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database.</source>
-<target>**A.** Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД.</target>
+<source>You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database.</source>
+<target>Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД.</target>
 <mq:sourcemeta mq:id="aa95e693-792a-4b8b-995e-31591e7cf28a" mq:firstlabel="435" mq:lastlabel="435" mq:structpos="div / div#27 / div#1 / p#8"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5413,8 +5413,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="543" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9941406" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** I'm concerned about my data privacy and security.</source>
-<target>**Q.** Я обеспокоен конфиденциальностью и сохранностью моих данных.</target>
+<source>**I'm concerned about my data privacy and security.**</source>
+<target>**Я обеспокоен конфиденциальностью и сохранностью моих данных.**</target>
 <mq:sourcemeta mq:id="f614c8b3-6036-4a47-8779-4db9c6c8d103" mq:firstlabel="436" mq:lastlabel="436" mq:structpos="div / div#27 / div#1 / p#9"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5423,8 +5423,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="544" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9900513" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud.</source>
-<target>**A.** Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service.</target>
+<source>We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud.</source>
+<target>Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service.</target>
 <mq:sourcemeta mq:id="9ddcec12-23c4-486e-ab2a-d642f039ff00" mq:firstlabel="437" mq:lastlabel="437" mq:structpos="div / div#27 / div#1 / p#10"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5473,8 +5473,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="549" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9898682" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** This analytics lacks some data available in [Publisher Account](1).</source>
-<target>**Q.** В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1).</target>
+<source>**This analytics lacks some data available in [Publisher Account](1).**</source>
+<target>**В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1).**</target>
 <mq:sourcemeta mq:id="85320f27-e73f-46bb-8b5c-1d8bbad45ce1" mq:firstlabel="438" mq:lastlabel="438" mq:structpos="div / div#27 / div#1 / p#11"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5493,8 +5493,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="551" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.994873" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** Send us a feature request via email [dataportal@xsolla.com](1)</source>
-<target>**A.** Отправьте запрос на email [dataportal@xsolla.com](1)</target>
+<source>Send us a feature request via email [dataportal@xsolla.com](1)</source>
+<target>Отправьте запрос на email [dataportal@xsolla.com](1)</target>
 <mq:sourcemeta mq:id="6f17388b-165e-41bc-8d69-cbe0af8cd563" mq:firstlabel="439" mq:lastlabel="439" mq:structpos="div / div#27 / div#1 / p#12"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5503,8 +5503,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="552" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9968262" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** Is it possible to download data from [Slemma](1)?</source>
-<target>**Q.** Возможна ли выгрузка данных из [Slemma](1)?</target>
+<source>**Is it possible to download data from [Slemma](1)?**</source>
+<target>**Возможна ли выгрузка данных из [Slemma](1)?**</target>
 <mq:sourcemeta mq:id="ce7436a9-9dee-4896-95b4-6c78375752a3" mq:firstlabel="440" mq:lastlabel="440" mq:structpos="div / div#27 / div#1 / p#13"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5513,7 +5513,7 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="553" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9990845" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** You can download charts and their data in different formats from [Slemma](1) by right clicking on the object and selecting the file type.</source>
+<source>You can download charts and their data in different formats from [Slemma](1) by right clicking on the object and selecting the file type.</source>
 <target>**A.**Вы можете скачивать графики и их данные в различных форматах из [Slemma](1), кликнув правой кнопкой мыши по объекту и выбрав тип файла.</target>
 <mq:sourcemeta mq:id="11548320-1d2e-4feb-895d-543a7b31dc08" mq:firstlabel="441" mq:lastlabel="441" mq:structpos="div / div#27 / div#1 / p#14"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
@@ -5543,8 +5543,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="556" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9941101" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** Can I use this analytics for verifying or financial reports?</source>
-<target>**Q.** Могу ли я использовать данную аналитику для проверки финансовых отчетов?</target>
+<source>**Can I use this analytics for verifying or financial reports?**</source>
+<target>**Могу ли я использовать данную аналитику для проверки финансовых отчетов?**</target>
 <mq:sourcemeta mq:id="afe99a0e-1495-4cc0-9cba-09bbb4f56e07" mq:firstlabel="442" mq:lastlabel="442" mq:structpos="div / div#27 / div#1 / p#15"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5553,8 +5553,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="557" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9972839" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** No, the data might be not 100% accurate since it's using average daily exchange rates.</source>
-<target>**A.** Нет, данные могут быть точны не на 100%, так как они используют среднесуточный обменных курс.</target>
+<source>No, the data might be not 100% accurate since it's using average daily exchange rates.</source>
+<target>Нет, данные могут быть точны не на 100%, так как они используют среднесуточный обменных курс.</target>
 <mq:sourcemeta mq:id="7185a426-c26c-428f-9632-a41f9f671838" mq:firstlabel="443" mq:lastlabel="443" mq:structpos="div / div#27 / div#1 / p#16"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5563,8 +5563,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="558" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9994202" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How often is the data updated?</source>
-<target>**Q.** Как часто обновляются данные?</target>
+<source>**How often is the data updated?**</source>
+<target>**Как часто обновляются данные?**</target>
 <mq:sourcemeta mq:id="9fac5753-a077-4b29-a819-f279f3c66365" mq:firstlabel="444" mq:lastlabel="444" mq:structpos="div / div#27 / div#1 / p#17"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5573,8 +5573,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="559" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="1" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** The data gets updated daily at 2:00 AM UTC</source>
-<target>**A.** Данные обновляются ежедневно в 2:00 AM UTC</target>
+<source>The data gets updated daily at 2:00 AM UTC</source>
+<target>Данные обновляются ежедневно в 2:00 AM UTC</target>
 <mq:sourcemeta mq:id="10bfa3c7-1034-46cb-9efa-d473e5959e4a" mq:firstlabel="445" mq:lastlabel="445" mq:structpos="div / div#27 / div#1 / p#18"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5583,8 +5583,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="560" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.996582" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How precise are the metrics?</source>
-<target>**Q.** Насколько точны метики?</target>
+<source>**How precise are the metrics?**</source>
+<target>**Насколько точны метики?**</target>
 <mq:sourcemeta mq:id="6bc66b23-bdae-4b49-9ceb-d96a44b5b5f6" mq:firstlabel="446" mq:lastlabel="446" mq:structpos="div / div#27 / div#1 / p#19"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5593,8 +5593,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="561" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9961853" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** We fetch all metrics on-the-fly from raw data stored in our data warehouse.</source>
-<target>**A.** Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных.</target>
+<source>We fetch all metrics on-the-fly from raw data stored in our data warehouse.</source>
+<target>Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных.</target>
 <mq:sourcemeta mq:id="b807d52b-a935-4a1a-a67b-8c455c17eecf" mq:firstlabel="447" mq:lastlabel="447" mq:structpos="div / div#27 / div#1 / p#20"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5633,8 +5633,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="565" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9961243" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** [Slemma](1) and analytics [Publisher Account](1) show different numbers.</source>
-<target>**Q.** [Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения.</target>
+<source>**[Slemma](1) and analytics [Publisher Account](1) show different numbers.**</source>
+<target>**[Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения.**</target>
 <mq:sourcemeta mq:id="34297e25-6619-4a9e-a1d7-5bb0dd056f73" mq:firstlabel="448" mq:lastlabel="448" mq:structpos="div / div#27 / div#1 / p#21"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5653,8 +5653,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="567" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9950562" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** The data in [Slemma](1) is in the UTC timezone, while the data in [Publisher Account](1) is in the UTC+3 timezone.</source>
-<target>**A.** Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне.</target>
+<source>The data in [Slemma](1) is in the UTC timezone, while the data in [Publisher Account](1) is in the UTC+3 timezone.</source>
+<target>Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне.</target>
 <mq:sourcemeta mq:id="8244ab3e-2bff-4d37-8f69-d63920f29039" mq:firstlabel="449" mq:lastlabel="449" mq:structpos="div / div#27 / div#1 / p#22"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5673,8 +5673,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="569" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9914246" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How can I invite other users for collaboration?</source>
-<target>**Q.** Как я могу пригласить другого пользователя для сотрудничества?</target>
+<source>**How can I invite other users for collaboration?**</source>
+<target>**Как я могу пригласить другого пользователя для сотрудничества?**</target>
 <mq:sourcemeta mq:id="ea2d0bd0-200c-48bb-b9a0-a712ac2f6404" mq:firstlabel="450" mq:lastlabel="450" mq:structpos="div / div#27 / div#1 / p#23"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5683,8 +5683,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="570" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9892578" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** When you activate the analytics in [Publisher Account](1) you can choose members of your team to invite (all members by default).</source>
-<target>**A.** Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи).</target>
+<source>When you activate the analytics in [Publisher Account](1) you can choose members of your team to invite (all members by default).</source>
+<target>Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи).</target>
 <mq:sourcemeta mq:id="b3e05962-4456-4729-86b4-58e25760d228" mq:firstlabel="451" mq:lastlabel="451" mq:structpos="div / div#27 / div#1 / p#24"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve"> </mq:endingws>
 <mq:splitposlist /></mq:sourcemeta>
@@ -5703,8 +5703,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="572" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9900208" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** Can I create my own reports?</source>
-<target>**Q.** Как я могу создать свой собственный отчет?</target>
+<source>**Can I create my own reports?**</source>
+<target>**Как я могу создать свой собственный отчет?**</target>
 <mq:sourcemeta mq:id="056d3f62-ed36-4a56-bef4-5713ebe0224b" mq:firstlabel="452" mq:lastlabel="452" mq:structpos="div / div#27 / div#1 / p#25"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5713,8 +5713,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="573" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9863586" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** Yes you definitely can!</source>
-<target>**A.** Да, вы действительно можете сделать это!</target>
+<source>Yes you definitely can!</source>
+<target>Да, вы действительно можете сделать это!</target>
 <mq:sourcemeta mq:id="b2d04f72-b1ea-41ff-ac01-0ad2c6727dca" mq:firstlabel="453" mq:lastlabel="453" mq:structpos="div / div#27 / div#1 / p#26"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5723,8 +5723,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="574" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9972534" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** What team features does [Slemma](1) provide?</source>
-<target>**Q.** Какие функции обеспечивает [Slemma](1)?</target>
+<source>**What team features does [Slemma](1) provide?**</source>
+<target>**Какие функции обеспечивает [Slemma](1)?**</target>
 <mq:sourcemeta mq:id="31df8fa5-d023-4773-a4db-02e069f40d3c" mq:firstlabel="454" mq:lastlabel="454" mq:structpos="div / div#27 / div#1 / p#27"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5733,8 +5733,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="575" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.993042" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** Team sharing of dashboards, commenting, annotations, permission control, and dashboard automated deliveries.</source>
-<target>**A.** Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</target>
+<source>Team sharing of dashboards, commenting, annotations, permission control, and dashboard automated deliveries.</source>
+<target>Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</target>
 <mq:sourcemeta mq:id="b5a19e75-d3b4-43db-99d5-2bf1542602cc" mq:firstlabel="455" mq:lastlabel="455" mq:structpos="div / div#27 / div#1 / p#28"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5743,8 +5743,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="576" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9994812" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** I have another question about [Slemma](1)…</source>
-<target>**Q.** У меня есть другие вопросы о [Slemma](1)…</target>
+<source>**I have another question about [Slemma](1)…**</source>
+<target>**У меня есть другие вопросы о [Slemma](1)…**</target>
 <mq:sourcemeta mq:id="7c93bf82-c4c2-41a3-b07d-0ffa3e1f9147" mq:firstlabel="456" mq:lastlabel="456" mq:structpos="div / div#27 / div#1 / p#29"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5753,8 +5753,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="577" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9944763" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** Use the ‘Click here for help' widget on the left bottom side in [Slemma](1) to access their knowledge base or contact support with the same widget.</source>
-<target>**A.** Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</target>
+<source>Use the ‘Click here for help' widget on the left bottom side in [Slemma](1) to access their knowledge base or contact support with the same widget.</source>
+<target>Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</target>
 <mq:sourcemeta mq:id="d727faaf-24a8-4254-be59-999ce10f1350" mq:firstlabel="457" mq:lastlabel="457" mq:structpos="div / div#27 / div#1 / p#30"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5763,8 +5763,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="578" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9987793" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** How do I to link several xsolla publisher accounts together in [Slemma](1)?</source>
-<target>**Q.** Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?</target>
+<source>**How do I to link several xsolla publisher accounts together in [Slemma](1)?**</source>
+<target>**Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?**</target>
 <mq:sourcemeta mq:id="6507942c-19ac-40d5-a40f-d9192cae36d4" mq:firstlabel="458" mq:lastlabel="458" mq:structpos="div / div#27 / div#1 / p#31"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5773,8 +5773,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="579" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9989319" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** Contact us at [dataportal@xsolla.com](1)</source>
-<target>**A.** Свяжитесь с [dataportal@xsolla.com](1)</target>
+<source>Contact us at [dataportal@xsolla.com](1)</source>
+<target>Свяжитесь с [dataportal@xsolla.com](1)</target>
 <mq:sourcemeta mq:id="c71d5e3b-4f8a-4a8a-94ac-ff3329ce4953" mq:firstlabel="459" mq:lastlabel="459" mq:structpos="div / div#27 / div#1 / p#32"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5783,8 +5783,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="580" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9972534" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**Q.** I didn't find my question in this list…</source>
-<target>**Q.** Я не могу найти свой вопрос в данном списке…</target>
+<source>**I didn't find my question in this list…**</source>
+<target>**Я не могу найти свой вопрос в данном списке…**</target>
 <mq:sourcemeta mq:id="e9535750-8520-445a-b6db-b2fb410e2ff3" mq:firstlabel="460" mq:lastlabel="460" mq:structpos="div / div#27 / div#1 / p#33"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
@@ -5793,8 +5793,8 @@
 <mq:splitposlist /></mq:targetmeta>
 </trans-unit>
 <trans-unit id="581" mq:lastmodificationtime="2018-04-10T07:39:48.3561181Z" mq:confidence="0.9941101" mq:splitjoinbyuser="false" mq:type="Auto">
-<source>**A.** Feel free to contact us with any questions at [dataportal@xsolla.com](1)</source>
-<target>**A.** Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)</target>
+<source>Feel free to contact us with any questions at [dataportal@xsolla.com](1)</source>
+<target>Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)</target>
 <mq:sourcemeta mq:id="a0184762-9796-4dc5-b2b4-a4f17d4f4815" mq:firstlabel="461" mq:lastlabel="461" mq:structpos="div / div#27 / div#1 / p#34"><mq:startingws xml:space="preserve" />
 <mq:endingws xml:space="preserve" />
 <mq:splitposlist /></mq:sourcemeta>
