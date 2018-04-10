@@ -1,5 +1,5 @@
 <div class="content">
-        <div class="section-content">
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="xsolla_login" data-headings="xsolla_login">
 </div>
@@ -31,10 +31,20 @@
 </h2>
 <p>Для начала работы необходимо зарегистрировать приложение, написав письмо на [bizdev@xsolla.com](1).</p>
 <p>В письме необходимо указать:</p>
-<ul> <li>
-**Сайт** — адрес сайта игры, к которому планируется подключить Xsolla Login, например http://mysite.com.</li> <li>
-**Базовый домен** — базовый домен сайта, например, mysite.com. Можно указать несколько доменных имен, и, если есть необходимость, использовать один *projectId* на разных доменах.</li> <li>
-**Список способов аутентификации** — список возможных способов аутентификации. Доступные варианты:<ul> <li>аутентификация через логин/пароль,</li> <li>через SMS,</li> <li>социальные сети ((Facebook, Twitter, Steam, Twitch, VK, Naver, и т.д.),</li> <li>i-pin (BETA),</li> <li>многофакторная аутентификация (BETA),</li> <li>сертификат (BETA)</li> <li>локальные социальные сети (BETA).</li> </ul> </li> </ul>
+<ul>
+<li>**Сайт** — адрес сайта игры, к которому планируется подключить Xsolla Login, например http://mysite.com.</li>
+<li>**Базовый домен** — базовый домен сайта, например, mysite.com. Можно указать несколько доменных имен, и, если есть необходимость, использовать один *projectId* на разных доменах.</li>
+<li>**Список способов аутентификации** — список возможных способов аутентификации. Доступные варианты:<ul>
+<li>аутентификация через логин/пароль,</li>
+<li>через SMS,</li>
+<li>социальные сети ((Facebook, Twitter, Steam, Twitch, VK, Naver, и т.д.),</li>
+<li>i-pin (BETA),</li>
+<li>многофакторная аутентификация (BETA),</li>
+<li>сертификат (BETA)</li>
+<li>локальные социальные сети (BETA).</li>
+</ul>
+</li>
+</ul>
 <p>Также необходимо указать список социальных сетей, через которые должна быть доступна аутентификация.</p>
 <p>В ответном письме мы пришлем вам *projectId* и *secretKey*.</p>
 <aside class="warning"> Обратите внимание, вызовы методов Xsolla Login можно осуществлять только на страницах с URL, принадлежащим базовому домену. </aside>
@@ -52,7 +62,15 @@
 <p>Рассмотренный ниже пример добавляет виджет аутентификации стандартного вида. Вы можете настроить внешний вид блоков при помощи css. Шаблон SCSS доступен для скачивания по [ссылке](1).</p>
 <p>По умолчанию ширина блока 400px, высота зависит от аутентификационных опций.</p>
 <p>
-<a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png" title="Example of a default design"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.e7fde1b10c@2x.png" alt="Example of a default design"> </a> <a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png" title="Example of a custom design"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.14e399bbdb@2x.png" alt="Example of a custom design"> </a> <a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png" title="Example of a custom design"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.2bfa5d3bba@2x.png" alt="Example of a custom design"> </a>
+<a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png" title="Example of a default design">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.e7fde1b10c@2x.png" alt="Example of a default design">
+</a>
+<a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png" title="Example of a custom design">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.14e399bbdb@2x.png" alt="Example of a custom design">
+</a>
+<a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png" title="Example of a custom design">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.2bfa5d3bba@2x.png" alt="Example of a custom design">
+</a>
 </p>
 <h3 id="-">
 <a class="anchor" href="#xlwidget_подключение-виджета">Подключение виджета</a>
@@ -60,70 +78,140 @@
 </div>
 </h3>
 <p>Для добавления виджета аутентификации Xsolla Login в игру, выполните следующие шаги:</p>
-<ol> <li>В тег &lt;head&gt; добавьте подключение js-sdk.js: </li> </ol>
+<ol>
+<li>В тег &lt;head&gt; добавьте подключение js-sdk.js: </li>
+</ol>
 <pre>
 <code>
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"https://static.xsolla.com/xsolla-login/1.1.1/xl.min.js"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>
+<span class="hljs-attribute">src</span>=<span class="hljs-value">"https://static.xsolla.com/xsolla-login/1.1.1/xl.min.js"</span>&gt;</span>
 <span class="javascript">
 </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
 </pre>
-<ol> <li value="2"> В тег &lt;body&gt; добавьте код для инициализации: </li> </ol>
+<ol>
+<li value="2"> В тег &lt;body&gt; добавьте код для инициализации: </li>
+</ol>
 <pre>
 <code>
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/javascript"</span>&gt;</span>
-<span class="javascript">
-XL.init({
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>
+<span class="hljs-attribute">type</span>=<span class="hljs-value">"text/javascript"</span>&gt;</span>
+<span class="javascript">XL.init({
          projectId: <span class="hljs-string">'40db2ea4-5p47-11e6-a3ff-005056a0e04a'</span>,
          locale: <span class="hljs-string">'en_US'</span>,
          onlyWidgets: <span class="hljs-literal">true</span>,
          redirectUrl: <span class="hljs-string">'&lt;your redirect url&gt;'</span>,
-         fields: <span class="hljs-string">'email'</span>
-     });
+         fields: <span class="hljs-string">'email'</span>     });
 </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
 </pre>
-<table> <thead> <tr> <th style="text-align:left">
-**Название**
-</th> <th style="text-align:left">
-**Тип**
-</th> <th style="text-align:left">
-**Описание**
-</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">projectId</td> <td style="text-align:left">string</td> <td style="text-align:left">Идентификатор приложения. **Обязательный**.</td> </tr> <tr> <td style="text-align:left">locale</td> <td style="text-align:left">string</td> <td style="text-align:left">Локаль пользователя в формате &lt;language code&gt;_&lt;country code&gt;, где: <ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">**Название**
+</th>
+<th style="text-align:left">**Тип**
+</th>
+<th style="text-align:left">**Описание**
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">projectId</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Идентификатор приложения. **Обязательный**.</td>
+</tr>
+<tr>
+<td style="text-align:left">locale</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Локаль пользователя в формате &lt;language code&gt;_&lt;country code&gt;, где: <ul>
 <li> *language code:* код языка в формате [ISO 639 alpha-2](1);</li>
-<li>
-*country code:* код страны (региона) в формате [ISO 3166-1 alpha-2](1).</li>
+<li>*country code:* код страны (региона) в формате [ISO 3166-1 alpha-2](1).</li>
 </ul>
-</td> </tr> <tr> <td style="text-align:left">redirectUrl</td> <td style="text-align:left">string</td> <td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](1)
-</td> </tr> <tr> <td style="text-align:left">onlyWidgets</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td> </tr> <tr> <td style="text-align:left">preloader</td> <td style="text-align:left">string</td> <td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td> </tr> <tr> <td style="text-align:left">fields</td> <td style="text-align:left">string</td> <td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. **Обязательный**
-</td> </tr> </tbody> </table>
-<ol> <li value="3"> Добавьте элемент DIV, в котором будет отображаться виджет, задайте ему уникальный id, и добавьте после него код инициализации виджета. </li> </ol>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">redirectUrl</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](1)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">onlyWidgets</td>
+<td style="text-align:left">boolean</td>
+<td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td>
+</tr>
+<tr>
+<td style="text-align:left">preloader</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td>
+</tr>
+<tr>
+<td style="text-align:left">fields</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. **Обязательный**
+</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li value="3"> Добавьте элемент DIV, в котором будет отображаться виджет, задайте ему уникальный id, и добавьте после него код инициализации виджета. </li>
+</ol>
 <pre>
 <code>
-<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"xl_auth"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span>
+<span class="hljs-attribute">id</span>=<span class="hljs-value">"xl_auth"</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/javascript"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>
+<span class="hljs-attribute">type</span>=<span class="hljs-value">"text/javascript"</span>&gt;</span>
 <span class="javascript">
 <span class="hljs-keyword">var</span> element_id = <span class="hljs-string">'xl_auth'</span>;
 <span class="hljs-keyword">var</span> options = {
     width: <span class="hljs-string">'200px'</span>,
-    height: <span class="hljs-string">'200px'</span>
-};
+    height: <span class="hljs-string">'200px'</span>};
 XL.AuthWidget(element_id, options);
 </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
 </pre>
-<table> <thead> <tr> <th style="text-align:left">
-**Название**
-</th> <th style="text-align:left">
-**Тип**
-</th> <th style="text-align:left">
-**Описание**
-</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">element_id</td> <td style="text-align:left">string</td> <td style="text-align:left">id элемента-контейнера для блока аутентификации. **Обязательный**
-</td> </tr> <tr> <td style="text-align:left">options</td> <td style="text-align:left">object</td> <td style="text-align:left">Настройки блока с виджетом.</td> </tr> <tr> <td style="text-align:left">options.width</td> <td style="text-align:left">string</td> <td style="text-align:left">Ширина блока.</td> </tr> <tr> <td style="text-align:left">options.height</td> <td style="text-align:left">string</td> <td style="text-align:left">Высота блока.</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">**Название**
+</th>
+<th style="text-align:left">**Тип**
+</th>
+<th style="text-align:left">**Описание**
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">element_id</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">id элемента-контейнера для блока аутентификации. **Обязательный**
+</td>
+</tr>
+<tr>
+<td style="text-align:left">options</td>
+<td style="text-align:left">object</td>
+<td style="text-align:left">Настройки блока с виджетом.</td>
+</tr>
+<tr>
+<td style="text-align:left">options.width</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Ширина блока.</td>
+</tr>
+<tr>
+<td style="text-align:left">options.height</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Высота блока.</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section-code">
 </div>
@@ -140,21 +228,113 @@ XL.AuthWidget(element_id, options);
 <div class="header-anchor" id="server_side_схема-взаимодействия">
 </div>
 </h3>
-<div class="scheme login"> <div class="left-side"> <div class="block_1 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.3bce9008a7.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.7a65b69f72@2x.png"> <span class="xsolla-login-title">user redirected to redirecUrl</span> <div class="arrow"> <div>
-</div> </div> </div> <button class="scheme-toggler" id="scheme_toggler">Показать всю схему</button> <div class="scheme-wrapper"> <div class="block_2 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.f3e1760e13.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.1533e13b07@2x.png"> <span class="xsolla-login-title">redirectUrl?token=&lt;token&gt;</span> <div class="arrow"> <div>
-</div> </div> </div> <div class="block_3 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png"> <span class="xsolla-login-title">token exist?</span> <div class="arrow"> <div>
-</div> </div> <span class="true-text">true</span> <div class="line line-right">
-</div> <span class="false-text">false</span> <div class="line line-down"> <div>
-</div> </div> </div> <div class="block_4 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png"> <span class="xsolla-login-title">token valid?</span> <div class="arrow"> <div>
-</div> </div> <span class="true-text">true</span> <span class="false-text">false</span> <div class="line line-right">
-</div> </div> <div class="block_5 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png"> <span class="xsolla-login-title">user exist?</span> <div class="arrow"> <div>
-</div> </div> <span class="true-text">true</span> <span class="false-text">false</span> <div class="line line-right"> <div>
-</div> </div> <div class="create-user"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png"> <span class="xsolla-login-title">create user</span> </div> <div class="form-error"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png"> <span class="xsolla-login-title">form errorUrl</span> </div> <div class="line line-down"> <div>
-</div> </div> </div> <div class="block_6 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png"> <span class="xsolla-login-title">create successUrl</span> <div class="arrow"> <div>
-</div> </div> <div class="line line-right"> <div>
-</div> </div> <div class="arrow spec">
-</div> </div> <div class="block_7 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png"> <span class="xsolla-login-title">create domain specific user session</span> <div class="arrow"> <div>
-</div> </div> </div> <div class="block_8 blocks"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.862a7ba28e@2x.png"> <span class="xsolla-login-title">redirect user to successUrl</span> <div class="redirect-error"> <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.c98e3ebd52.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.0e7efdac7a@2x.png"> <span class="xsolla-login-title">redirect user to errorUrl</span> </div> </div> </div> </div> </div>
+<div class="scheme login">
+<div class="left-side">
+<div class="block_1 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.3bce9008a7.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.7a65b69f72@2x.png">
+<span class="xsolla-login-title">user redirected to redirecUrl</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+</div>
+<button class="scheme-toggler" id="scheme_toggler">Показать всю схему</button>
+<div class="scheme-wrapper">
+<div class="block_2 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.f3e1760e13.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.1533e13b07@2x.png">
+<span class="xsolla-login-title">redirectUrl?token=&lt;token&gt;</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+</div>
+<div class="block_3 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png">
+<span class="xsolla-login-title">token exist?</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+<span class="true-text">true</span>
+<div class="line line-right">
+</div>
+<span class="false-text">false</span>
+<div class="line line-down">
+<div>
+</div>
+</div>
+</div>
+<div class="block_4 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png">
+<span class="xsolla-login-title">token valid?</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+<span class="true-text">true</span>
+<span class="false-text">false</span>
+<div class="line line-right">
+</div>
+</div>
+<div class="block_5 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png">
+<span class="xsolla-login-title">user exist?</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+<span class="true-text">true</span>
+<span class="false-text">false</span>
+<div class="line line-right">
+<div>
+</div>
+</div>
+<div class="create-user">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
+<span class="xsolla-login-title">create user</span>
+</div>
+<div class="form-error">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
+<span class="xsolla-login-title">form errorUrl</span>
+</div>
+<div class="line line-down">
+<div>
+</div>
+</div>
+</div>
+<div class="block_6 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
+<span class="xsolla-login-title">create successUrl</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+<div class="line line-right">
+<div>
+</div>
+</div>
+<div class="arrow spec">
+</div>
+</div>
+<div class="block_7 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
+<span class="xsolla-login-title">create domain specific user session</span>
+<div class="arrow">
+<div>
+</div>
+</div>
+</div>
+<div class="block_8 blocks">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.862a7ba28e@2x.png">
+<span class="xsolla-login-title">redirect user to successUrl</span>
+<div class="redirect-error">
+<img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.c98e3ebd52.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.0e7efdac7a@2x.png">
+<span class="xsolla-login-title">redirect user to errorUrl</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 <h3 id="callback-url">
 <a class="anchor" href="#server_side_callback-url">Callback URL</a>
 <div class="header-anchor" id="server_side_callback-url">
@@ -167,14 +347,32 @@ XL.AuthWidget(element_id, options);
 </div>
 </h3>
 <p>В случае успеха пользователь будет переадресован на Ваш callback URL со следующим параметром:</p>
-<p>
-**HTTP запрос**
+<p>**HTTP запрос**
 </p>
 <p>
 <code>GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ</code>
 </p>
-<table> <thead> <tr> <th style="text-align:left">Параметр</th> <th style="text-align:left">Тип</th> <th style="text-align:left">Описание</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">token</td> <td style="text-align:left">string</td> <td style="text-align:left">
-[JWT-token](1). Вы можете [дешифровать его](1), используя секретный ключ.</td> </tr> <tr> <td style="text-align:left">is_linking</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Пользователь прилинковал аккаунт.</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Параметр</th>
+<th style="text-align:left">Тип</th>
+<th style="text-align:left">Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">token</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">[JWT-token](1). Вы можете [дешифровать его](1), используя секретный ключ.</td>
+</tr>
+<tr>
+<td style="text-align:left">is_linking</td>
+<td style="text-align:left">boolean</td>
+<td style="text-align:left">Пользователь прилинковал аккаунт.</td>
+</tr>
+</tbody>
+</table>
 <h4 id="-">
 <a class="anchor" href="#server_side_пример-дешифрованного-токена">Пример дешифрованного токена</a>
 <div class="header-anchor" id="server_side_пример-дешифрованного-токена">
@@ -211,7 +409,62 @@ XL.AuthWidget(element_id, options);
 </span>}
 </code>
 </pre>
-<table> <thead> <tr> <th style="text-align:left">Параметр</th> <th style="text-align:left">Тип</th> <th style="text-align:left">Описание</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">exp</td> <td style="text-align:left">string</td> <td style="text-align:left">Дата окончания действия токена. (Unix time)</td> </tr> <tr> <td style="text-align:left">iss</td> <td style="text-align:left">string</td> <td style="text-align:left">Указание, кто выдал JWT-token.</td> </tr> <tr> <td style="text-align:left">iat</td> <td style="text-align:left">string</td> <td style="text-align:left">Дата создания. (Unix time)</td> </tr> <tr> <td style="text-align:left">id</td> <td style="text-align:left">string</td> <td style="text-align:left">Идентификатор пользователя.</td> </tr> <tr> <td style="text-align:left">name</td> <td style="text-align:left">string</td> <td style="text-align:left">Полное имя пользователя.</td> </tr> <tr> <td style="text-align:left">email</td> <td style="text-align:left">string</td> <td style="text-align:left">email пользователя.</td> </tr> <tr> <td style="text-align:left">type</td> <td style="text-align:left">string</td> <td style="text-align:left">Тип аутентификации. Допустимые значения: "proxy" — проксированная аутентификация; "social" — вход через социальную сеть.</td> </tr> <tr> <td style="text-align:left">provider</td> <td style="text-align:left">string</td> <td style="text-align:left">Название социальной сети. Список допустимых значений: "vk", "facebook", "twitter", "steam", "baidu", "naver", "qq", "github", "microsoft", "linkedin", "google".</td> </tr> <tr> <td style="text-align:left">xsolla_login_access_key</td> <td style="text-align:left">string</td> <td style="text-align:left">Ключ доступа для вызова методов от имени пользователя.</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Параметр</th>
+<th style="text-align:left">Тип</th>
+<th style="text-align:left">Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">exp</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Дата окончания действия токена. (Unix time)</td>
+</tr>
+<tr>
+<td style="text-align:left">iss</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Указание, кто выдал JWT-token.</td>
+</tr>
+<tr>
+<td style="text-align:left">iat</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Дата создания. (Unix time)</td>
+</tr>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Идентификатор пользователя.</td>
+</tr>
+<tr>
+<td style="text-align:left">name</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Полное имя пользователя.</td>
+</tr>
+<tr>
+<td style="text-align:left">email</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">email пользователя.</td>
+</tr>
+<tr>
+<td style="text-align:left">type</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Тип аутентификации. Допустимые значения: "proxy" — проксированная аутентификация; "social" — вход через социальную сеть.</td>
+</tr>
+<tr>
+<td style="text-align:left">provider</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Название социальной сети. Список допустимых значений: "vk", "facebook", "twitter", "steam", "baidu", "naver", "qq", "github", "microsoft", "linkedin", "google".</td>
+</tr>
+<tr>
+<td style="text-align:left">xsolla_login_access_key</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Ключ доступа для вызова методов от имени пользователя.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="-">
 <a class="anchor" href="#server_side_прохождение-аутентификации.-ошибка">Прохождение аутентификации. Ошибка</a>
 <div class="header-anchor" id="server_side_прохождение-аутентификации.-ошибка">
@@ -219,13 +472,37 @@ XL.AuthWidget(element_id, options);
 </h3>
 <p>В случае ошибки, пользователь будет перенаправлен на Ваш callback URL со следующими [параметрами:](1)
 </p>
-<p>
-**HTTP запрос**
+<p>**HTTP запрос**
 </p>
 <p>
 <code>GET https://callBackUrl.php?error=003-002&amp;error_description=User+not+found&amp;redirect_url=https://site.com/fail_url</code>
 </p>
-<table> <thead> <tr> <th style="text-align:left">Параметр</th> <th style="text-align:left">Тип</th> <th style="text-align:left">Описание</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">error</td> <td style="text-align:left">string</td> <td style="text-align:left">Группа кодов ошибок.</td> </tr> <tr> <td style="text-align:left">error_description</td> <td style="text-align:left">string</td> <td style="text-align:left">Описание ошибки.</td> </tr> <tr> <td style="text-align:left">redirect_url</td> <td style="text-align:left">string</td> <td style="text-align:left">Callback URL проекта.</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Параметр</th>
+<th style="text-align:left">Тип</th>
+<th style="text-align:left">Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">error</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Группа кодов ошибок.</td>
+</tr>
+<tr>
+<td style="text-align:left">error_description</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Описание ошибки.</td>
+</tr>
+<tr>
+<td style="text-align:left">redirect_url</td>
+<td style="text-align:left">string</td>
+<td style="text-align:left">Callback URL проекта.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="-api">
 <a class="anchor" href="#server_side_дополнительные-методы-api">Дополнительные методы API</a>
 <div class="header-anchor" id="server_side_дополнительные-методы-api">
@@ -239,36 +516,53 @@ XL.AuthWidget(element_id, options);
 <div class="header-anchor" id="server_side_проверка-логина-пароля">
 </div>
 </h4>
-<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: *{"username":"ХХХХ", "password":"ХХХХ"}*
-</li> <li>Успех: *{Ok 200}*
-</li> <li>Неудачный запрос: *{"error": {"code": “003-001”, "description": "" }}*
-</li> </ul>
+<ul>
+<li>Тип: POST</li>
+<li>Content-type: application/json</li>
+<li>Тело запроса: *{"username":"ХХХХ", "password":"ХХХХ"}*
+</li>
+<li>Успех: *{Ok 200}*
+</li>
+<li>Неудачный запрос: *{"error": {"code": “003-001”, "description": "" }}*
+</li>
+</ul>
 <h4 id="-">
 <a class="anchor" href="#server_side_регистрация">Регистрация</a>
 <div class="header-anchor" id="server_side_регистрация">
 </div>
 </h4>
-<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: *{"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}*
-</li> <li>Успех: *{Ok 200}*
-</li> <li>Неудачный запрос: *{error: {code: “003-003|004”, description: “” }}*
-</li> </ul>
+<ul>
+<li>Тип: POST</li>
+<li>Content-type: application/json</li>
+<li>Тело запроса: *{"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}*
+</li>
+<li>Успех: *{Ok 200}*
+</li>
+<li>Неудачный запрос: *{error: {code: “003-003|004”, description: “” }}*
+</li>
+</ul>
 <h4 id="-">
 <a class="anchor" href="#server_side_сброс-пароля">Сброс пароля</a>
 <div class="header-anchor" id="server_side_сброс-пароля">
 </div>
 </h4>
-<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: *{"email":"ХХХХ"}*
-</li> <li>Успех: *{Ok 200}*
-</li> <li>Неудачный запрос: *{"error": {"code": “003-002”, "description": ""}}*
-</li> </ul>
+<ul>
+<li>Тип: POST</li>
+<li>Content-type: application/json</li>
+<li>Тело запроса: *{"email":"ХХХХ"}*
+</li>
+<li>Успех: *{Ok 200}*
+</li>
+<li>Неудачный запрос: *{"error": {"code": “003-002”, "description": ""}}*
+</li>
+</ul>
 </div>
 <div class="section-code">
 </div>
 </div>
-    </div>
-
-	<div class="content">
-        <div class="section-content">
+</div>
+<div class="content">
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="data-portal-intro" data-headings="data-portal-intro">
 </div>
@@ -276,8 +570,10 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#data-portal-intro">Xsolla Data Portal на базе Slemma </a>
 </h1>
 <p>Этот гайд поможет вам ориентироваться в нашем [демо-примере](1), и лучше понимать, как вы можете использовать данные отчеты при работе с вашей платежной аналитикой в [Личном Кабинете](1). Ниже представлена информация о том как анализировать [дашборды](1), описания ко всем разделам, определения для различных [метрик](1) и [измерений](1), а также список [Вопросов](1). Если у вас возникнут вопросы, напишите нам на [dataportal@xsolla.com](1)!</p>
-<div class="video-container"> <iframe src="https://www.youtube.com/embed/JSoLff-hv4A" frameborder="0" allowfullscreen="" class="video">
-</iframe> </div>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/JSoLff-hv4A" frameborder="0" allowfullscreen="" class="video">
+</iframe>
+</div>
 </div>
 <div class="section-code">
 </div>
@@ -291,7 +587,42 @@ XL.AuthWidget(element_id, options);
 </h1>
 <p>Дашборд — это набор графиков и диаграмм, дающих вам возможность глубже анализировать конкретную проблему. Каждый из дашбордов позволит вам увеличить значения о какой-либо области деятельности вашей компании и принимать решения на основе анализируемых данных.</p>
 <p>
-<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png" title="Общая информаци"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview.6fffd7990b.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview.cd1871d505@2x.png" alt="Общая информаци"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png" title="Банки-эмитенты"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks.2b9cf765ca.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks.ce05292c7a@2x.png" alt="Банки-эмитенты"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png" title="Информация о доходе и трендах"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends.56c78e2f03.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends.4a98083f3f@2x.png" alt="Информация о доходе и трендах"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png" title="Данные о способах оплаты"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue.63fb89cbeb.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue.15b656b58a@2x.png" alt="Данные о способах оплаты"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png" title="Диаграмма платящих пользователей"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users.46cd6a1f7c.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users.d59b23f58d@2x.png" alt="Диаграмма платящих пользователей"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png" title="Доход в разрезе валют"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies.e3b123289f.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies.66c2affd53@2x.png" alt="Доход в разрезе валют"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png" title="Конверсия кредитных карт"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion.7f5cce99c0.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion.4733ea32b3@2x.png" alt="Конверсия кредитных карт"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png" title="Причины отмен платежей"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons.5d5b82ea61.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons.d687c34658@2x.png" alt="Причины отмен платежей"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png" title="Платящие пользователи в разрезе операционных систем"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users.3b99bfe06e.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users.e5c8ec6dd1@2x.png" alt="Платящие пользователи в разрезе операционных систем"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png" title="Пузырьковая диаграмма по странам"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles.cbf6168677.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles.794a660528@2x.png" alt="Пузырьковая диаграмма по странам"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png" title="Данные о кредитных картах"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights.83a176fbe8.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights.8436f169d2@2x.png" alt="Данные о кредитных картах"> </a> <a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png" title="Конверсия способов оплаты"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion.8f9d26abe3.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion.139c3f945f@2x.png" alt="Конверсия способов оплаты"> </a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png" title="Общая информаци">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview.6fffd7990b.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview.cd1871d505@2x.png" alt="Общая информаци">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png" title="Банки-эмитенты">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks.2b9cf765ca.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks.ce05292c7a@2x.png" alt="Банки-эмитенты">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png" title="Информация о доходе и трендах">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends.56c78e2f03.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends.4a98083f3f@2x.png" alt="Информация о доходе и трендах">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png" title="Данные о способах оплаты">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue.63fb89cbeb.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue.15b656b58a@2x.png" alt="Данные о способах оплаты">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png" title="Диаграмма платящих пользователей">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users.46cd6a1f7c.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users.d59b23f58d@2x.png" alt="Диаграмма платящих пользователей">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png" title="Доход в разрезе валют">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies.e3b123289f.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies.66c2affd53@2x.png" alt="Доход в разрезе валют">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png" title="Конверсия кредитных карт">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion.7f5cce99c0.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion.4733ea32b3@2x.png" alt="Конверсия кредитных карт">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png" title="Причины отмен платежей">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons.5d5b82ea61.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons.d687c34658@2x.png" alt="Причины отмен платежей">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png" title="Платящие пользователи в разрезе операционных систем">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users.3b99bfe06e.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users.e5c8ec6dd1@2x.png" alt="Платящие пользователи в разрезе операционных систем">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png" title="Пузырьковая диаграмма по странам">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles.cbf6168677.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles.794a660528@2x.png" alt="Пузырьковая диаграмма по странам">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png" title="Данные о кредитных картах">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights.83a176fbe8.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights.8436f169d2@2x.png" alt="Данные о кредитных картах">
+</a>
+<a class="fancybox" rel="gallery_data-portal data-portal-block-1" href="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png" title="Конверсия способов оплаты">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion.8f9d26abe3.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion.139c3f945f@2x.png" alt="Конверсия способов оплаты">
+</a>
 </p>
 </div>
 <div class="section-code">
@@ -420,8 +751,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">Обзорный </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">Обзорный </a>[(demo)](1)
 </h2>
 <p>Обзорный дашборд содержит KPI вашей игры, идеален для ежедневного анализа, а также для показа на вашем офисном TV. Включает **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices** и **Average Payment Amount**.</p>
 </div>
@@ -433,8 +763,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-">Игры </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-">Игры </a>[(demo)](1)
 </h2>
 <p>Игровой дашборд создан для анализа различных платежных ситуаций в ваших играх. Метрики заложены вместе с регулярными фильтрами, так что вы можете определить приоритеты и оценить разницу между вашими проектами. </p>
 </div>
@@ -446,8 +775,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-">Платежные системы </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-">Платежные системы </a>[(demo)](1)
 </h2>
 <p>Понимание того, как платят ваши пользователи может быть столь же важным, как и ответ на вопрос: "почему?". Данный дашборд должен помочь вам понять как различные подгруппы ваших пользователей совершают платежи и как вы можете оптимизировать свой сайт, показывая наиболее подходящие и наиболее популярные платежные системы.</p>
 </div>
@@ -459,8 +787,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-">Кредитные карты </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-">Кредитные карты </a>[(demo)](1)
 </h2>
 <p>Дашборд кредитных карт полностью посвящен данным о кредитных картах. Анализ конверсии, причины отказа, а также информация о том как много пользователей разрешили Xsolla сохранить их платежные данные для будущих покупок (надежный индикатор их намерения еще вернуться в игру)!</p>
 </div>
@@ -472,8 +799,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-" data-headings="revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-">
 </div>
 <h2 data-headings="revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-">
-<a class="anchor" href="#revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-">Revenue </a>
-[(demo)](1)
+<a class="anchor" href="#revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-">Revenue </a>[(demo)](1)
 </h2>
 <p>Revenue-дашборд предлагает несколько различных способов анализа тенденций. В данный дашборд включены параллельные периоды, средняя скользящая и диаграммы роста, все они могут помочь вам строить прогнозы. Также дашборд содержит лист валют; вы можете убедиться, что предлагаете все валюты, соответствующие областям присутствия ваших проектов.</p>
 </div>
@@ -485,8 +811,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">Платящие пользователи </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">Платящие пользователи </a>[(demo)](1)
 </h2>
 <p>Paying Users дашборд — это способ понять характеристики вашего **Revenue**. Если **Revenue** увеличивается вы можете задать вопрос: новые пользователи становятся **Paying Users** или **Existing Paying Users** платят больше?</p>
 </div>
@@ -498,8 +823,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-" data-headings="arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-">
 </div>
 <h2 data-headings="arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-">
-<a class="anchor" href="#arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-">ARPPU </a>
-[(demo)](1)
+<a class="anchor" href="#arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-">ARPPU </a>[(demo)](1)
 </h2>
 <p>Average Revenue Per Paying User (ARPPU) это еще один способ увидеть характерное платежное поведение ваших пользователей. Данный дашборд также включает единичные значения Average Revenue Per Paying Daily Active User, который не увеличивается с течением времени от пользователей, совершивших единичный платеж.</p>
 </div>
@@ -511,8 +835,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-">Виртуальная валюта </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-">Виртуальная валюта </a>[(demo)](1)
 </h2>
 <p>Дашборд виртуальной валюты будет информировать вас о том как много пользователей совершили покупки, расплатившись внутриигровой валютой. Также вы можете загрузить ваши внутриигровые данные о потраченной игровой валюте, создать сравнительный дашборд и проверить здоровье вашей внутриигровой экономики.</p>
 </div>
@@ -524,8 +847,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">География </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">География </a>[(demo)](1)
 </h2>
 <p>Дашборд поможет понять разницу между платежными привычками пользователей в зависимости от их местоположения. Каждый лист сгруппирован по различным признакам, включая такие как: **Countries**, **Regions**, **Languages**, **Business Regions** и **Timezones**.</p>
 </div>
@@ -537,8 +859,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-">Девайсы </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-">Девайсы </a>[(demo)](1)
 </h2>
 <p>Дашборд включает информацию об опыте пользователя в вашем интерфейсе. Вы можете использовать данную информацию для оптимизации вашего сайта для наиболее популярных девайсов и быть уверенным, что он работает в самых распространенных браузерах.</p>
 </div>
@@ -550,8 +871,7 @@ XL.AuthWidget(element_id, options);
 <div class="section-anchor" id="-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-" data-headings="-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">
-<a class="anchor" href="#-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">Отмены </a>
-[(demo)](1)
+<a class="anchor" href="#-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">Отмены </a>[(demo)](1)
 </h2>
 <p>Дашборд позволит вам следить за фродом в вашей игре. Обзор листов будет показывать число отмен в **Cancellation Date**, **Payment Date**, как в процентах, так и географически. Список причин даст вам возможность увидеть распределение причин отмены для каждой отмены.</p>
 </div>
@@ -579,193 +899,351 @@ XL.AuthWidget(element_id, options);
 </h1>
 <p>Измерения отличаются от данных. Это не сами значения, но определенные категории значений. Всякий раз, когда вы используете фильтр, вы фильтруете данные по измерению.</p>
 <p>Примеры измерений: **Countr**y, **Credit Card Type**, **Date**, и.т.д.</p>
-<table> <thead> <tr> <th>Группа</th> <th>Название</th> <th>Описание</th> </tr> </thead> <tbody> <tr> <td>DateTime</td> <td>
-<nobr>
-**Date**
+<table>
+<thead>
+<tr>
+<th>Группа</th>
+<th>Название</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DateTime</td>
+<td>
+<nobr>**Date**
 </nobr>
-</td> <td>Дата по умолчанию для всех графиков в часовом поясе формата UTC. Данная дата основывается на последнем обновлении платежного статуса (invoice, payment, cancellation). Пример: когда вы хотите добавить платежи или отмены на единую временную шкалу, платежи будут агрегироваться по дате платежа, отмены — по дате отмены.</td> </tr> <tr> <td>DateTime</td> <td>
-<nobr>
-**Invoice Date**
+</td>
+<td>Дата по умолчанию для всех графиков в часовом поясе формата UTC. Данная дата основывается на последнем обновлении платежного статуса (invoice, payment, cancellation). Пример: когда вы хотите добавить платежи или отмены на единую временную шкалу, платежи будут агрегироваться по дате платежа, отмены — по дате отмены.</td>
+</tr>
+<tr>
+<td>DateTime</td>
+<td>
+<nobr>**Invoice Date**
 </nobr>
-</td> <td>Дата создания заявки в UTC .</td> </tr> <tr> <td>DateTime</td> <td>
-<nobr>
-**Payment Date**
+</td>
+<td>Дата создания заявки в UTC .</td>
+</tr>
+<tr>
+<td>DateTime</td>
+<td>
+<nobr>**Payment Date**
 </nobr>
-</td> <td>Дата подтверждения платежа в UTC. Данная дата доступна только для завершенных платежей и не доступна для неоплаченных заявок.</td> </tr> <tr> <td>DateTime</td> <td>
-<nobr>
-**Cancellation Date**
+</td>
+<td>Дата подтверждения платежа в UTC. Данная дата доступна только для завершенных платежей и не доступна для неоплаченных заявок.</td>
+</tr>
+<tr>
+<td>DateTime</td>
+<td>
+<nobr>**Cancellation Date**
 </nobr>
-</td> <td>Дата отмены платежа в UTC. Данные доступны для отмененных платежей.</td> </tr> <tr> <td>Projects</td> <td>
-<nobr>
-**Project**
+</td>
+<td>Дата отмены платежа в UTC. Данные доступны для отмененных платежей.</td>
+</tr>
+<tr>
+<td>Projects</td>
+<td>
+<nobr>**Project**
 </nobr>
-</td> <td>ID пректа и название проекта</td> </tr> <tr> <td>Payment System</td> <td>
-<nobr>
-**Payment System Group**
+</td>
+<td>ID пректа и название проекта</td>
+</tr>
+<tr>
+<td>Payment System</td>
+<td>
+<nobr>**Payment System Group**
 </nobr>
-</td> <td>Группа платежных систем, например: *Cash Payments*, *Bank Transfer*
-</td> </tr> <tr> <td>Payment System</td> <td>
-<nobr>
-**Payment System**
+</td>
+<td>Группа платежных систем, например: *Cash Payments*, *Bank Transfer*
+</td>
+</tr>
+<tr>
+<td>Payment System</td>
+<td>
+<nobr>**Payment System**
 </nobr>
-</td> <td>ID платежной системы и название, например: *24. Paypal*, *57. PaySafeCard*
-</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**User Country**
+</td>
+<td>ID платежной системы и название, например: *24. Paypal*, *57. PaySafeCard*
+</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**User Country**
 </nobr>
-</td> <td>Страна пользователя, определена системой Xsolla. Вычисленная страна является наиболее точной и подходящей. IP-адрес пользователя, страна мобильного оператора, страна банка, выпустившего кредитную карту и другие атрибуты используются для определения страны. Данная страна используется для внутренних вычислений VAT.</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**Language**
+</td>
+<td>Страна пользователя, определена системой Xsolla. Вычисленная страна является наиболее точной и подходящей. IP-адрес пользователя, страна мобильного оператора, страна банка, выпустившего кредитную карту и другие атрибуты используются для определения страны. Данная страна используется для внутренних вычислений VAT.</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**Language**
 </nobr>
-</td> <td>Язык. Используется 2-буквенный код, вида *EN*, *PT*, *RU*
-</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**IP Address Geography**
+</td>
+<td>Язык. Используется 2-буквенный код, вида *EN*, *PT*, *RU*
+</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**IP Address Geography**
 </nobr>
-</td> <td>Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о *Region* и *Country* с *Country Subdivision* и *City*.</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**Timezone**
+</td>
+<td>Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о *Region* и *Country* с *Country Subdivision* и *City*.</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**Timezone**
 </nobr>
-</td> <td>Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: *Europe/Berlin*, *America/Chicago*
-</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**Business Region**
+</td>
+<td>Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: *Europe/Berlin*, *America/Chicago*
+</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**Business Region**
 </nobr>
-</td> <td>Бизнес-регион в **User Country**, например: *European Union*, *Latin America*
-</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**Payment System Country**
+</td>
+<td>Бизнес-регион в **User Country**, например: *European Union*, *Latin America*
+</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**Payment System Country**
 </nobr>
-</td> <td>Страна происхождения платежной системы</td> </tr> <tr> <td>Geography</td> <td>
-<nobr>
-**Issuing Bank Country**
+</td>
+<td>Страна происхождения платежной системы</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>
+<nobr>**Issuing Bank Country**
 </nobr>
-</td> <td>Страна банка, выпустившего карту польззователя</td> </tr> <tr> <td>Currencies</td> <td>
-<nobr>
-**Payment Currency**
+</td>
+<td>Страна банка, выпустившего карту польззователя</td>
+</tr>
+<tr>
+<td>Currencies</td>
+<td>
+<nobr>**Payment Currency**
 </nobr>
-</td> <td>Валюта платежа пользователя, 3-буквенное обозначение, вида: *USD*, *EUR*
-</td> </tr> <tr> <td>Currencies</td> <td>
-<nobr>
-**Payout Currency**
+</td>
+<td>Валюта платежа пользователя, 3-буквенное обозначение, вида: *USD*, *EUR*
+</td>
+</tr>
+<tr>
+<td>Currencies</td>
+<td>
+<nobr>**Payout Currency**
 </nobr>
-</td> <td>Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: *USD*, *EUR*
-</td> </tr> <tr> <td>Purchase</td> <td>
-<nobr>
-**Purchase Type**
+</td>
+<td>Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: *USD*, *EUR*
+</td>
+</tr>
+<tr>
+<td>Purchase</td>
+<td>
+<nobr>**Purchase Type**
 </nobr>
-</td> <td>Модуль Xsolla, использованный для совершения платежа: *Virtual Items*, *Virtual Currency*
-</td> </tr> <tr> <td>Purchase</td> <td>
-<nobr>
-**Is First Payment**
+</td>
+<td>Модуль Xsolla, использованный для совершения платежа: *Virtual Items*, *Virtual Currency*
+</td>
+</tr>
+<tr>
+<td>Purchase</td>
+<td>
+<nobr>**Is First Payment**
 </nobr>
-</td> <td>
-*True*, если это первый платеж для данного юзера, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Is Credit Card**
+</td>
+<td>*True*, если это первый платеж для данного юзера, *false* в противном случае</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Is Credit Card**
 </nobr>
-</td> <td>
-*True*, если платеж совершен через кредитную карту, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Issuing Bank**
+</td>
+<td>*True*, если платеж совершен через кредитную карту, *false* в противном случае</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Issuing Bank**
 </nobr>
-</td> <td>Банк, выпустивший кредитную карту</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Credit Card Brand**
+</td>
+<td>Банк, выпустивший кредитную карту</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Credit Card Brand**
 </nobr>
-</td> <td>e.g *VISA*, *MasterCard*
-</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Credit Card Type**
+</td>
+<td>e.g *VISA*, *MasterCard*
+</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Credit Card Type**
 </nobr>
-</td> <td>e.g. *CREDIT*, *DEBIT*
-</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Credit Card Category**
+</td>
+<td>e.g. *CREDIT*, *DEBIT*
+</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Credit Card Category**
 </nobr>
-</td> <td>e.g. *CLASSIC*, *GOLD*, *PLATINUM*
-</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Is Payment Account Saved**
+</td>
+<td>e.g. *CLASSIC*, *GOLD*, *PLATINUM*
+</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Is Payment Account Saved**
 </nobr>
-</td> <td>
-*True* если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Is Payment From Saved Account**
+</td>
+<td>*True* если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, *false* в противном случае</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Is Payment From Saved Account**
 </nobr>
-</td> <td>
-*True*, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Is Credit Card Rejected**
+</td>
+<td>*True*, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, *false* в противном случае</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Is Credit Card Rejected**
 </nobr>
-</td> <td>
-*True*, если кредитная карта была отклонена во время процесса оплаты, *false* в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**
-</td> </tr> <tr> <td>Credit Cards</td> <td>
-<nobr>
-**Credit Card Reject Reason**
+</td>
+<td>*True*, если кредитная карта была отклонена во время процесса оплаты, *false* в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**
+</td>
+</tr>
+<tr>
+<td>Credit Cards</td>
+<td>
+<nobr>**Credit Card Reject Reason**
 </nobr>
-</td> <td>e.g. *Insufficient Funds*, *Did not pass validation 3D-secure*
-</td> </tr> <tr> <td>Recurring Payments</td> <td>
-<nobr>
-**Is Recurrent Plan Created**
+</td>
+<td>e.g. *Insufficient Funds*, *Did not pass validation 3D-secure*
+</td>
+</tr>
+<tr>
+<td>Recurring Payments</td>
+<td>
+<nobr>**Is Recurrent Plan Created**
 </nobr>
-</td> <td>
-*True*, если из платежа была создана рекуррентная подписка, *false* в противном случае</td> </tr> <tr> <td>Recurring Payments</td> <td>
-<nobr>
-**Is Recurrent Payment**
+</td>
+<td>*True*, если из платежа была создана рекуррентная подписка, *false* в противном случае</td>
+</tr>
+<tr>
+<td>Recurring Payments</td>
+<td>
+<nobr>**Is Recurrent Payment**
 </nobr>
-</td> <td>
-*True*, если списание с карты было совершено для оплаты рекуррентной подписки, *false* в противном случае</td> </tr> <tr> <td>User Agent</td> <td>
-<nobr>
-**OS**
+</td>
+<td>*True*, если списание с карты было совершено для оплаты рекуррентной подписки, *false* в противном случае</td>
+</tr>
+<tr>
+<td>User Agent</td>
+<td>
+<nobr>**OS**
 </nobr>
-</td> <td>Операционная система на девайсе пользователя, например: *Windows 8*, *MacOS*, *Android*
-</td> </tr> <tr> <td>User Agent</td> <td>
-<nobr>
-**Browser**
+</td>
+<td>Операционная система на девайсе пользователя, например: *Windows 8*, *MacOS*, *Android*
+</td>
+</tr>
+<tr>
+<td>User Agent</td>
+<td>
+<nobr>**Browser**
 </nobr>
-</td> <td>Браузер пользователя, например: *Firefox*, *Chrome Mobile*
-</td> </tr> <tr> <td>User Agent</td> <td>
-<nobr>
-**Device**
+</td>
+<td>Браузер пользователя, например: *Firefox*, *Chrome Mobile*
+</td>
+</tr>
+<tr>
+<td>User Agent</td>
+<td>
+<nobr>**Device**
 </nobr>
-</td> <td>Модель мобильного устройства пользователя, например: *IPhone*, *Nokia Lumia*
-</td> </tr> <tr> <td>User Agent</td> <td>
-<nobr>
-**Screen Size**
+</td>
+<td>Модель мобильного устройства пользователя, например: *IPhone*, *Nokia Lumia*
+</td>
+</tr>
+<tr>
+<td>User Agent</td>
+<td>
+<nobr>**Screen Size**
 </nobr>
-</td> <td>Разрешение экрана девайса пользователя</td> </tr> <tr> <td>User Agent</td> <td>
-<nobr>
-**UI**
+</td>
+<td>Разрешение экрана девайса пользователя</td>
+</tr>
+<tr>
+<td>User Agent</td>
+<td>
+<nobr>**UI**
 </nobr>
-</td> <td>Интерфейс Xsolla, через который был совершен платеж, например: *PayStation*, *Smartphone Version*
-</td> </tr> <tr> <td>Developers</td> <td>
-<nobr>
-**Payment Notification Delivery**
+</td>
+<td>Интерфейс Xsolla, через который был совершен платеж, например: *PayStation*, *Smartphone Version*
+</td>
+</tr>
+<tr>
+<td>Developers</td>
+<td>
+<nobr>**Payment Notification Delivery**
 </nobr>
-</td> <td>Продолжительность обработки платежа на стороне Xsolla, например: *1-3 seconds*, *1-10 minutes*
-</td> </tr> <tr> <td>Developers</td> <td>
-<nobr>
-**Payment System Delay**
+</td>
+<td>Продолжительность обработки платежа на стороне Xsolla, например: *1-3 seconds*, *1-10 minutes*
+</td>
+</tr>
+<tr>
+<td>Developers</td>
+<td>
+<nobr>**Payment System Delay**
 </nobr>
-</td> <td>Продолжительность обработки платежа на стороне платежной системы, например: *1-3 seconds*, *1-10 minutes*
-</td> </tr> <tr> <td>Developers</td> <td>
-<nobr>
-**Payment Flow**
+</td>
+<td>Продолжительность обработки платежа на стороне платежной системы, например: *1-3 seconds*, *1-10 minutes*
+</td>
+</tr>
+<tr>
+<td>Developers</td>
+<td>
+<nobr>**Payment Flow**
 </nobr>
-</td> <td>Общая продолжительностьобработки платежа, например: *1-3 seconds*, *1-10 minutes*
-</td> </tr> <tr> <td>Cancellations</td> <td>
-<nobr>
-**Is Cancelled**
+</td>
+<td>Общая продолжительностьобработки платежа, например: *1-3 seconds*, *1-10 minutes*
+</td>
+</tr>
+<tr>
+<td>Cancellations</td>
+<td>
+<nobr>**Is Cancelled**
 </nobr>
-</td> <td>
-*True*, если платеж отменен, *false* в противном случае. Причины отмены можно найти в измерении **Cancellation Type**
-</td> </tr> <tr> <td>Cancellations</td> <td>
-<nobr>
-**Cancellation Type**
+</td>
+<td>*True*, если платеж отменен, *false* в противном случае. Причины отмены можно найти в измерении **Cancellation Type**
+</td>
+</tr>
+<tr>
+<td>Cancellations</td>
+<td>
+<nobr>**Cancellation Type**
 </nobr>
-</td> <td>Причины отмены транзакции, например: *Refund*, *Chargeback*
-</td> </tr> </tbody> </table>
+</td>
+<td>Причины отмены транзакции, например: *Refund*, *Chargeback*
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section-code">
 </div>
@@ -778,130 +1256,267 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#dataset_measures">Метрики </a>
 </h1>
 <p>Метрики, в отличие измерений, представляют собой значения, которые отображаются на графиках. Примеры метрик: **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.</p>
-<table> <thead> <tr> <th>Группа</th> <th>Название</th> <th>Описание</th> </tr> </thead> <tbody> <tr> <td>Measures</td> <td>
-<nobr>
-**Revenue**
+<table>
+<thead>
+<tr>
+<th>Группа</th>
+<th>Название</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Revenue**
 </nobr>
-</td> <td>Сумма до вычета комиссий. Сумма конвертируется в валюту метрики по актуальному на дату уведомления проекта курсу .</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**Average Payment Amount**
+</td>
+<td>Сумма до вычета комиссий. Сумма конвертируется в валюту метрики по актуальному на дату уведомления проекта курсу .</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Average Payment Amount**
 </nobr>
-</td> <td>
-**Revenue**, деленное количество **Payments**
-</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**Gross Revenue**
+</td>
+<td>**Revenue**, деленное количество **Payments**
+</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Gross Revenue**
 </nobr>
-</td> <td>Сумма дохода **Revenue** без учета **Cancellations Revenue** за текущий период</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**Payments**
+</td>
+<td>Сумма дохода **Revenue** без учета **Cancellations Revenue** за текущий период</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Payments**
 </nobr>
-</td> <td>Общая сумма завершенных платежей. Платежи могут быть отменены в будущих периодах.</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**Virtual Currency Amount**
+</td>
+<td>Общая сумма завершенных платежей. Платежи могут быть отменены в будущих периодах.</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Virtual Currency Amount**
 </nobr>
-</td> <td>Количество приобретенной виртуальной валюты. Доступно в модуле *Virtual Currency*
-</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**ARPPU**
+</td>
+<td>Количество приобретенной виртуальной валюты. Доступно в модуле *Virtual Currency*
+</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**ARPPU**
 </nobr>
-</td> <td>Average Revenue Per Paying User: **Revenue**, деленное на количество уникальных **Paying Users**. При использовании недельной или месячной агрегации **ARPPU** значительно возрастает, так как один пользователь может иметь несколько **Payments** за один период.</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**Payments per Paying User**
+</td>
+<td>Average Revenue Per Paying User: **Revenue**, деленное на количество уникальных **Paying Users**. При использовании недельной или месячной агрегации **ARPPU** значительно возрастает, так как один пользователь может иметь несколько **Payments** за один период.</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Payments per Paying User**
 </nobr>
-</td> <td>Общее количество **Payments**, деленное на количество уникальных **Paying users**. Используется в еженедельных и ежемесячных агрегациях для аналитики частоты платежей.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Invoices**
+</td>
+<td>Общее количество **Payments**, деленное на количество уникальных **Paying users**. Используется в еженедельных и ежемесячных агрегациях для аналитики частоты платежей.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Invoices**
 </nobr>
-</td> <td>Общее количество созданных заявок.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Users**
+</td>
+<td>Общее количество созданных заявок.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Users**
 </nobr>
-</td> <td>Общее количество пользователей, создавших **Invoice**. Пользователи, не завершившие платеж, также включены.</td> </tr> <tr> <td>Measures</td> <td>
-<nobr>
-**Paying Users**
+</td>
+<td>Общее количество пользователей, создавших **Invoice**. Пользователи, не завершившие платеж, также включены.</td>
+</tr>
+<tr>
+<td>Measures</td>
+<td>
+<nobr>**Paying Users**
 </nobr>
-</td> <td>Количество уникальных пользователей, совершивших как минимум один **Payment**в рассматриваемый период</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Paying Users Percent**
+</td>
+<td>Количество уникальных пользователей, совершивших как минимум один **Payment**в рассматриваемый период</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Paying Users Percent**
 </nobr>
-</td> <td>Процент пользователей, завершивших платеж от общего числа пользователей, создавших заявку. **Paying Users Percent** более точное преобразование метрики (по сравнению с **Paid Invoices Percent**), так как пользователь может попробовать несколько способов оплаты, прежде чем завершит платеж.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Paid Invoices Percent**
+</td>
+<td>Процент пользователей, завершивших платеж от общего числа пользователей, создавших заявку. **Paying Users Percent** более точное преобразование метрики (по сравнению с **Paid Invoices Percent**), так как пользователь может попробовать несколько способов оплаты, прежде чем завершит платеж.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Paid Invoices Percent**
 </nobr>
-</td> <td>Процент завершенных **Payments** по отношению к общему числу **Invoices**
-</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Churn Users**
+</td>
+<td>Процент завершенных **Payments** по отношению к общему числу **Invoices**
+</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Churn Users**
 </nobr>
-</td> <td>Количество пользователей создавших, но не оплативших заявку.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Churn Users Percent**
+</td>
+<td>Количество пользователей создавших, но не оплативших заявку.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Churn Users Percent**
 </nobr>
-</td> <td>Процент пользователей создавших, но не оплативших заявку.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Unpaid Invoices**
+</td>
+<td>Процент пользователей создавших, но не оплативших заявку.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Unpaid Invoices**
 </nobr>
-</td> <td>Количество заявок, которые не были завершены пользователем и не подтверждены платежной системой.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Unpaid Invoices Percent**
+</td>
+<td>Количество заявок, которые не были завершены пользователем и не подтверждены платежной системой.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Unpaid Invoices Percent**
 </nobr>
-</td> <td>Процент **Unpaid Invoices** по отношению к общему количеству заявок</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**New Paying Users**
+</td>
+<td>Процент **Unpaid Invoices** по отношению к общему количеству заявок</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**New Paying Users**
 </nobr>
-</td> <td>Количество уникальных **Paying users**, совершивших первый платеж в рассматриваемый период.</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**New Paying Users Percent**
+</td>
+<td>Количество уникальных **Paying users**, совершивших первый платеж в рассматриваемый период.</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**New Paying Users Percent**
 </nobr>
-</td> <td>Процент **New Paying Users** по отношению к общему числу **Paying Users**
-</td> </tr> <tr> <td>Conversion</td> <td>
-<nobr>
-**Existing Paying Users**
+</td>
+<td>Процент **New Paying Users** по отношению к общему числу **Paying Users**
+</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>
+<nobr>**Existing Paying Users**
 </nobr>
-</td> <td>Количество уникальных **Paying Users**, совершивших не первый платеж</td> </tr> <tr> <td>Cancellations</td> <td>
-<nobr>
-**Cancellations**
+</td>
+<td>Количество уникальных **Paying Users**, совершивших не первый платеж</td>
+</tr>
+<tr>
+<td>Cancellations</td>
+<td>
+<nobr>**Cancellations**
 </nobr>
-</td> <td>Количество **Payments** которые были возвращены или отменены</td> </tr> <tr> <td>Cancellations</td> <td>
-<nobr>
-**Cancellations Percent**
+</td>
+<td>Количество **Payments** которые были возвращены или отменены</td>
+</tr>
+<tr>
+<td>Cancellations</td>
+<td>
+<nobr>**Cancellations Percent**
 </nobr>
-</td> <td>Процент **Cancellations** по отношению к общему числу **Payments**.</td> </tr> <tr> <td>Cancellations</td> <td>
-<nobr>
-**Cancellations Revenue**
+</td>
+<td>Процент **Cancellations** по отношению к общему числу **Payments**.</td>
+</tr>
+<tr>
+<td>Cancellations</td>
+<td>
+<nobr>**Cancellations Revenue**
 </nobr>
-</td> <td>Количество отмененных **Payments**.</td> </tr> <tr> <td>Cancellations</td> <td>
-<nobr>
-**Cancellations Revenue Percent**
+</td>
+<td>Количество отмененных **Payments**.</td>
+</tr>
+<tr>
+<td>Cancellations</td>
+<td>
+<nobr>**Cancellations Revenue Percent**
 </nobr>
-</td> <td>Процент **Cancellations Revenue** по отношению к общему **Revenue**.</td> </tr> <tr> <td>Developers</td> <td>
-<nobr>
-**Payment Notification Delivery, Seconds**
+</td>
+<td>Процент **Cancellations Revenue** по отношению к общему **Revenue**.</td>
+</tr>
+<tr>
+<td>Developers</td>
+<td>
+<nobr>**Payment Notification Delivery, Seconds**
 </nobr>
-</td> <td>Продолжительность обработки платежа на стороне Xsolla</td> </tr> <tr> <td>Developers</td> <td>
-<nobr>
-**Payment System Delay, Seconds**
+</td>
+<td>Продолжительность обработки платежа на стороне Xsolla</td>
+</tr>
+<tr>
+<td>Developers</td>
+<td>
+<nobr>**Payment System Delay, Seconds**
 </nobr>
-</td> <td>Продолжительность обработки платежа на стороне платежной системы</td> </tr> <tr> <td>Developers</td> <td>
-<nobr>
-**Payment Flow, Seconds**
+</td>
+<td>Продолжительность обработки платежа на стороне платежной системы</td>
+</tr>
+<tr>
+<td>Developers</td>
+<td>
+<nobr>**Payment Flow, Seconds**
 </nobr>
-</td> <td>Общая продолжительность обработки платежа</td> </tr> </tbody> </table>
+</td>
+<td>Общая продолжительность обработки платежа</td>
+</tr>
+</tbody>
+</table>
 <p>Метрики могут быть агрегированы различными способами. Ниже приведено описание каждого типа агрегации, который вы увидите на ваших дашбордах:</p>
-<table> <thead> <tr> <th>
-</th> <th>
-</th> </tr> </thead> <tbody> <tr> <td>
-**Count**
-</td> <td>Сколько раз произошло отслеживаемое событие. По умолчанию используется для **Invoices**, **Paying Users**, и.т.д.</td> </tr> <tr> <td>
-**Sum**
-</td> <td>Какова общая сумма числовых значений, связанных с отслеживаемым событием. По умолчанию используется для **Gross Revenue**, **Virtual Currency Amount**, и.т.д.</td> </tr> <tr> <td>
-**Average**
-</td> <td>Каково среднее значение метрики. Это будет использоваться для метрик, содержащих процентные отношения, поэтому не имеет смысла использовать такую агрегацию для метрик вида **Sum**. По умолчанию используется для **Average Payment Amount**, **Churn Users Percent**, и.т.д.</td> </tr> <tr> <td>
-**Maximum**
-</td> <td>Каково было максимальное значение данной метрики</td> </tr> <tr> <td>
-**Minimum**
-</td> <td>Каково было минимальное значение данной метрики</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr>
+<th>
+</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**Count**
+</td>
+<td>Сколько раз произошло отслеживаемое событие. По умолчанию используется для **Invoices**, **Paying Users**, и.т.д.</td>
+</tr>
+<tr>
+<td>**Sum**
+</td>
+<td>Какова общая сумма числовых значений, связанных с отслеживаемым событием. По умолчанию используется для **Gross Revenue**, **Virtual Currency Amount**, и.т.д.</td>
+</tr>
+<tr>
+<td>**Average**
+</td>
+<td>Каково среднее значение метрики. Это будет использоваться для метрик, содержащих процентные отношения, поэтому не имеет смысла использовать такую агрегацию для метрик вида **Sum**. По умолчанию используется для **Average Payment Amount**, **Churn Users Percent**, и.т.д.</td>
+</tr>
+<tr>
+<td>**Maximum**
+</td>
+<td>Каково было максимальное значение данной метрики</td>
+</tr>
+<tr>
+<td>**Minimum**
+</td>
+<td>Каково было минимальное значение данной метрики</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section-code">
 </div>
@@ -911,110 +1526,76 @@ XL.AuthWidget(element_id, options);
 
 **A.** Да. Мы имеем специальное решение для игровой аналитики. Узнать больше о [Xsolla Analytics API](1)
 
-***--> <div class="section-content">
+***-->
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="faq_data_portal" data-headings="faq_data_portal">
 </div>
 <h1 data-headings="faq_data_portal">
 <a class="anchor" href="#faq_data_portal">FAQ </a>
 </h1>
-<p>
-**Q.** Сколько это стоит?</p>
-<p>
-**A.** Для партнеров Xsolla это бесплатно.</p>
+<p>**Q.** Сколько это стоит?</p>
+<p>**A.** Для партнеров Xsolla это бесплатно.</p>
 <hr>
-<p>
-**Q.** Как я могу активировать data portal для моего аккаунта?</p>
-<p>
-**A.** Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](1)
+<p>**Q.** Как я могу активировать data portal для моего аккаунта?</p>
+<p>**A.** Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](1)
 </p>
 <hr>
-<p>
-**Q.** В каких валютах данные?</p>
-<p>
-**A.** Доступно три валюты: Доллары США, Евро и российские Рубли. Также существует возможность фильтровать данные по валюте платежа.</p>
+<p>**Q.** В каких валютах данные?</p>
+<p>**A.** Доступно три валюты: Доллары США, Евро и российские Рубли. Также существует возможность фильтровать данные по валюте платежа.</p>
 <hr>
-<p>
-**Q.** Как я могу загрузить свои собственные данные в [Slemma](1)?</p>
-<p>
-**A.** Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](1)
+<p>**Q.** Как я могу загрузить свои собственные данные в [Slemma](1)?</p>
+<p>**A.** Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](1)
 </p>
 <hr>
-<p>
-**Q.** Я обеспокоен конфиденциальностью и сохранностью моих данных.</p>
-<p>
-**A.** Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service. Все данные передаются в/из хранилища через зашифрованное соединение TLC. Необработанные платежные данные недоступны в [Slemma](1). Доступны только агреггированные данные, без персональной пользовательской информации. Мы применяем принципы наименьших привилегий, файерволлы, шифрования и других технологические и эксплуатационные подходы, чтобы сохранить ваши данные в безопасности.</p>
+<p>**Q.** Я обеспокоен конфиденциальностью и сохранностью моих данных.</p>
+<p>**A.** Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service. Все данные передаются в/из хранилища через зашифрованное соединение TLC. Необработанные платежные данные недоступны в [Slemma](1). Доступны только агреггированные данные, без персональной пользовательской информации. Мы применяем принципы наименьших привилегий, файерволлы, шифрования и других технологические и эксплуатационные подходы, чтобы сохранить ваши данные в безопасности.</p>
 <hr>
-<p>
-**Q.** В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1). Как я могу получить их в [Slemma](1)?</p>
-<p>
-**A.** Отправьте запрос на email [dataportal@xsolla.com](1)
+<p>**Q.** В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1). Как я могу получить их в [Slemma](1)?</p>
+<p>**A.** Отправьте запрос на email [dataportal@xsolla.com](1)
 </p>
 <hr>
-<p>
-**Q.** Возможна ли выгрузка данных из [Slemma](1)?</p>
-<p>
-**A.**Вы можете скачивать графики и их данные в различных форматах из [Slemma](1), кликнув правой кнопкой мыши по объекту и выбрав тип файла. Также вы можете скачать дашборд целиком в PDF или PNG формате. Если вам нужны необработанные данные вы можете использовать [Xsolla Reports API](1).</p>
+<p>**Q.** Возможна ли выгрузка данных из [Slemma](1)?</p>
+<p>**A.**Вы можете скачивать графики и их данные в различных форматах из [Slemma](1), кликнув правой кнопкой мыши по объекту и выбрав тип файла. Также вы можете скачать дашборд целиком в PDF или PNG формате. Если вам нужны необработанные данные вы можете использовать [Xsolla Reports API](1).</p>
 <hr>
-<p>
-**Q.** Могу ли я использовать данную аналитику для проверки финансовых отчетов?</p>
-<p>
-**A.** Нет, данные могут быть точны не на 100%, так как они используют среднесуточный обменных курс.</p>
+<p>**Q.** Могу ли я использовать данную аналитику для проверки финансовых отчетов?</p>
+<p>**A.** Нет, данные могут быть точны не на 100%, так как они используют среднесуточный обменных курс.</p>
 <hr>
-<p>
-**Q.** Как часто обновляются данные?</p>
-<p>
-**A.** Данные обновляются ежедневно в 2:00 AM UTC</p>
+<p>**Q.** Как часто обновляются данные?</p>
+<p>**A.** Данные обновляются ежедневно в 2:00 AM UTC</p>
 <hr>
-<p>
-**Q.** Насколько точны метики?</p>
-<p>
-**A.** Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных. Данный подход гарантирует точность для метрик с любой комбинацией группировки или фильтрации, особенно для подсчета количества уникальных значений или среднего метрик, к примеру, **Paying Users** и **Average Payment Amount**. Однако, мы не может предоставлять абсолютно точные финансовые данные, так как мы конвертируем платежные суммы в различный валютах со среднесуточным обменным курсом и используем округление до двух знаков после разделителя. Это означает, что разница редко превышает значение в $0.01.</p>
+<p>**Q.** Насколько точны метики?</p>
+<p>**A.** Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных. Данный подход гарантирует точность для метрик с любой комбинацией группировки или фильтрации, особенно для подсчета количества уникальных значений или среднего метрик, к примеру, **Paying Users** и **Average Payment Amount**. Однако, мы не может предоставлять абсолютно точные финансовые данные, так как мы конвертируем платежные суммы в различный валютах со среднесуточным обменным курсом и используем округление до двух знаков после разделителя. Это означает, что разница редко превышает значение в $0.01.</p>
 <hr>
-<p>
-**Q.** [Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения. Почему?</p>
-<p>
-**A.** Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне. В будущем мы собираемся убрать такое поведение и показывать все данные в UTC таймзоне.</p>
+<p>**Q.** [Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения. Почему?</p>
+<p>**A.** Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне. В будущем мы собираемся убрать такое поведение и показывать все данные в UTC таймзоне.</p>
 <hr>
-<p>
-**Q.** Как я могу пригласить другого пользователя для сотрудничества?</p>
-<p>
-**A.** Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи). После регистрации в [Slemma](1), вы можете пригласить нового пользователя в настройках [Users and groups](1) .</p>
+<p>**Q.** Как я могу пригласить другого пользователя для сотрудничества?</p>
+<p>**A.** Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи). После регистрации в [Slemma](1), вы можете пригласить нового пользователя в настройках [Users and groups](1) .</p>
 <hr>
-<p>
-**Q.** Как я могу создать свой собственный отчет?</p>
-<p>
-**A.** Да, вы действительно можете сделать это!</p>
+<p>**Q.** Как я могу создать свой собственный отчет?</p>
+<p>**A.** Да, вы действительно можете сделать это!</p>
 <hr>
-<p>
-**Q.** Какие функции обеспечивает [Slemma](1)?</p>
-<p>
-**A.** Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</p>
+<p>**Q.** Какие функции обеспечивает [Slemma](1)?</p>
+<p>**A.** Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</p>
 <hr>
-<p>
-**Q.** У меня есть другие вопросы о [Slemma](1)…</p>
-<p>
-**A.** Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</p>
+<p>**Q.** У меня есть другие вопросы о [Slemma](1)…</p>
+<p>**A.** Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</p>
 <hr>
-<p>
-**Q.** Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?</p>
-<p>
-**A.** Свяжитесь с [dataportal@xsolla.com](1)
+<p>**Q.** Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?</p>
+<p>**A.** Свяжитесь с [dataportal@xsolla.com](1)
 </p>
 <hr>
-<p>
-**Q.** Я не могу найти свой вопрос в данном списке…</p>
-<p>
-**A.** Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)
+<p>**Q.** Я не могу найти свой вопрос в данном списке…</p>
+<p>**A.** Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)
 </p>
 </div>
 <div class="section-code">
 </div>
 </div>
-    </div>
-	
+</div>
 <div class="content">
-        <div class="section-content">
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="xsolla_network" data-headings="xsolla_network">
 </div>
@@ -1022,7 +1603,16 @@ XL.AuthWidget(element_id, options);
 <a class="anchor" href="#xsolla_network">Xsolla Network </a>
 </h1>
 <p>Xsolla Network — глобальное решение, которое помогает создать бренд игры, найти новых пользователей и распространить игру через доступ к десяткам аффилированных сетей, миллионам инфлюенсеров и сотням игровых медиа-порталов из одного места. Revenue Share или кампании, основанные на CPA легко настраиваются и запускаются за несколько минут, и, поскольку Xsolla интегрирована со всеми аффилированными лицами, разработчику игры не требуется дополнительно интегрироваться. Разработчик игр могут распространять свои предложения или сообщения для инфлюенсеров и игровых платформ и платить прямо из Личного Кабинета Xsolla, без необходимости подписания соглашения с каждым из них, экономя время, деньги и ресурсы R&amp;D.</p>
-<ul> <li>Привлечение новых пользователей без предварительной оплаты;</li> <li>Вы можете сами определять уровень рекламы, в зависимости от процента, который вы готовы платить;</li> <li>Xsolla Network была протестирована с Life is Feudal, и показала себя эффективной;</li> <li>4M инфлюенсеров на более чем 10 самых популярных платформах;</li> <li>До 100 аффилированных сетей;</li> <li>Распространение новостей во всех игровых медиа;</li> <li>Инструменты отслеживания производительности и аналитики позволяют оценивать эффективность кампании по приобретению пользователей с помощью отслеживаемых ссылок, рекламных кодов или ключей активации продукта.</li> <li>Базовая интеграция не обязательна, если уже интегрирован Xsolla Login.</li> </ul>
+<ul>
+<li>Привлечение новых пользователей без предварительной оплаты;</li>
+<li>Вы можете сами определять уровень рекламы, в зависимости от процента, который вы готовы платить;</li>
+<li>Xsolla Network была протестирована с Life is Feudal, и показала себя эффективной;</li>
+<li>4M инфлюенсеров на более чем 10 самых популярных платформах;</li>
+<li>До 100 аффилированных сетей;</li>
+<li>Распространение новостей во всех игровых медиа;</li>
+<li>Инструменты отслеживания производительности и аналитики позволяют оценивать эффективность кампании по приобретению пользователей с помощью отслеживаемых ссылок, рекламных кодов или ключей активации продукта.</li>
+<li>Базовая интеграция не обязательна, если уже интегрирован Xsolla Login.</li>
+</ul>
 <p>Xsolla Network — это часть продуктовой линейки Xsolla, и может быть использована вместе с Pay Station, Mobile Pay Station и/или Pay2Play. Для использования данного продукта необходимо реализовать подключение с одним из [модулей](1).</p>
 </div>
 <div class="section-code">
@@ -1035,7 +1625,9 @@ XL.AuthWidget(element_id, options);
 <h1 data-headings="interaction_diagram">
 <a class="anchor" href="#interaction_diagram">Схема взаимодействия </a>
 </h1>
-<div class="getting-started"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/network_scheme.4b806ebea8.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/network_scheme.4b806ebea8.png" alt="Xsolla Network"> </div>
+<div class="getting-started">
+<img src="https://cdn.xsolla.net/developers.xsolla.com/images/network_scheme.4b806ebea8.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/network_scheme.4b806ebea8.png" alt="Xsolla Network">
+</div>
 <p>1) Пользователь кликает на рекламный баннер и переходит на прокси-страницу в Xsolla, на которую передается информация об игре. Xsolla сохраняет utm-параметры из URL, включая уникальный ID события (например, Click ID), и создает универсальный параметр Tracking ID для дальнейшего взаимодействия.</p>
 <p>2) Tracking ID сохраняется в cookie-файлах пользователя, пользователь автоматически перенаправляется на промо-страницу игры.</p>
 <p>3) Пользователь начинает процесс регистрации в игре. Игра должна сохранить Tracking ID данного пользователя вместе с его данными в базе данных игры.</p>
@@ -1071,8 +1663,7 @@ XL.AuthWidget(element_id, options);
 </div>
 </h3>
 <pre>
-<code class="lang-shell">    curl -v https:<span class="hljs-comment">//api.xsolla.com/merchant/merchants/{merchant_id}/token \</span>
-    -X <span class="hljs-keyword">POST</span> \
+<code class="lang-shell">    curl -v https:<span class="hljs-comment">//api.xsolla.com/merchant/merchants/{merchant_id}/token \</span>    -X <span class="hljs-keyword">POST</span> \
     -<span class="hljs-keyword">u</span> your_merchant_id:merchant_api_key \
     -<span class="hljs-keyword">H</span> 'Content-<span class="hljs-keyword">Type</span>:application/json' \
     -<span class="hljs-keyword">H</span> 'Accept: application/json' \
@@ -1080,11 +1671,9 @@ XL.AuthWidget(element_id, options);
     {
         <span class="hljs-string">"user"</span>: {
             <span class="hljs-string">"id"</span>: {
-                <span class="hljs-string">"value": "1234567"</span>
-            },
+                <span class="hljs-string">"value": "1234567"</span>            },
             <span class="hljs-string">"tracking_id"</span>: {
-                <span class="hljs-string">"value": "trackingID"</span>
-            }
+                <span class="hljs-string">"value": "trackingID"</span>            }
         },
         <span class="hljs-string">"settings"</span>: {
             <span class="hljs-string">"project_id"</span>: 14004
@@ -1114,11 +1703,32 @@ XL.AuthWidget(element_id, options);
 <code class="lang-shell">curl -v 'https://api.xsolla.com/merchant/merchants/{merchant_id}/xsolla_network/
 user_register/{tracking_id}' \
 -<span class="ruby">
-<span class="hljs-constant">X</span> <span class="hljs-constant">PUT</span> \
+<span class="hljs-constant">X</span>
+<span class="hljs-constant">PUT</span> \
 </span>-<span class="ruby">u <span class="hljs-symbol">merchant_id:</span>merchant_api_key</span>
 </code>
 </pre>
-<table> <thead> <tr> <th>Параметр</th> <th>Тип</th> <th>Описание</th> </tr> </thead> <tbody> <tr> <td>merchant_id</td> <td>int</td> <td>ID мерчанта.</td> </tr> <tr> <td>tracking_id</td> <td>string</td> <td>Tracking ID.</td> </tr> </tbody> </table>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Тип</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>merchant_id</td>
+<td>int</td>
+<td>ID мерчанта.</td>
+</tr>
+<tr>
+<td>tracking_id</td>
+<td>string</td>
+<td>Tracking ID.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="-">
 <a class="anchor" href="#new_api_method_пример-успешного-ответа">Пример успешного ответа</a>
 <div class="header-anchor" id="new_api_method_пример-успешного-ответа">
@@ -1133,10 +1743,9 @@ user_register/{tracking_id}' \
 <div class="section-code">
 </div>
 </div>
-    </div>
-	
-	<div class="content">
-        <div class="section-content">
+</div>
+<div class="content">
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="pay2play" data-headings="pay2play">
 </div>
@@ -1144,7 +1753,12 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#pay2play">Pay2Play </a>
 </h1>
 <p>Модуль **Pay2Play** позволяет разработчикам игр продавать пин-коды напрямую с сайта игры. Для перехода в магазин используется виджет Pay2Play. Модуль имеет несколько вариантов интеграции и предлагает следующие возможности:</p>
-<ul> <li>Выбор платформы для каждой DRM</li> <li>Разные цены для разных DRM</li> <li>Выбор размера и цветовой темы виджета</li> <li>Чаевые разработчику</li> </ul>
+<ul>
+<li>Выбор платформы для каждой DRM</li>
+<li>Разные цены для разных DRM</li>
+<li>Выбор размера и цветовой темы виджета</li>
+<li>Чаевые разработчику</li>
+</ul>
 </div>
 <div class="section-code">
 </div>
@@ -1180,7 +1794,11 @@ user_register/{tracking_id}' \
 <img src="https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_basic.6fbae1f6dc.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_basic.7cf3e6d494@2x.png" width="730px" class="m-t m-b">
 </p>
 <p>Особенности базовой интеграции:</p>
-<ul> <li>Быстрый запуск модуля</li> <li>Не требует генерации токена и наличия серверной части</li> <li>Подходит для продажи игры без предварительной авторизации пользователя</li> </ul>
+<ul>
+<li>Быстрый запуск модуля</li>
+<li>Не требует генерации токена и наличия серверной части</li>
+<li>Подходит для продажи игры без предварительной авторизации пользователя</li>
+</ul>
 <h3 id="-span-advanced_integration-span-">
 <a class="anchor" href="#integration_types_расширенная-интеграция-advanced_integration">Расширенная интеграция </a>
 <div class="header-anchor" id="integration_types_расширенная-интеграция-advanced_integration">
@@ -1190,7 +1808,10 @@ user_register/{tracking_id}' \
 <img src="https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_adv.1bfcc4e872.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_adv.f36a898873@2x.png" width="730px" class="m-t m-b">
 </p>
 <p>Особенности расширенной интеграции:</p>
-<ul> <li>Позволяет безопасно передать данные пользователя для дальнейшей привязки покупки на стороне игры</li> <li>Требует реализации серверной части</li> </ul>
+<ul>
+<li>Позволяет безопасно передать данные пользователя для дальнейшей привязки покупки на стороне игры</li>
+<li>Требует реализации серверной части</li>
+</ul>
 </div>
 <div class="section-code">
 </div>
@@ -1203,13 +1824,18 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#basic_integration_guide">Руководство по базовой интеграции </a>
 </h1>
 <p>Для базовой интеграции модуля необходимо:</p>
-<ol> <li>Зарегистрироваться в [Личном Кабинете Xsolla](1).</li> <li>
-[Создать проект](1).</li> <li>
-[Настроить модуль](1).</li> <li>
-[Протестировать](1) процесс оплаты.</li> <li>Добавить на страницу игры [виджет Pay2Play](1).</li> <li>Подписать договор.</li> </ol>
+<ol>
+<li>Зарегистрироваться в [Личном Кабинете Xsolla](1).</li>
+<li>[Создать проект](1).</li>
+<li>[Настроить модуль](1).</li>
+<li>[Протестировать](1) процесс оплаты.</li>
+<li>Добавить на страницу игры [виджет Pay2Play](1).</li>
+<li>Подписать договор.</li>
+</ol>
 <p>В процессе интеграции понадобятся следующие параметры:</p>
-<ul> <li>ID проекта. Отображается в URL Личного Кабинета при переходе в настройки проекта — <i>
-https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul>
+<ul>
+<li>ID проекта. Отображается в URL Личного Кабинета при переходе в настройки проекта — <i>https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li>
+</ul>
 <aside class="notise2"> Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в [справочнике API](1). Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта. </aside>
 </div>
 <div class="section-code">
@@ -1222,10 +1848,18 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul
 <h2 data-headings="basic_create_project">
 <a class="anchor" href="#basic_create_project">Создание проекта </a>
 </h2>
-<ol> <li>Перейдите в раздел **Проекты** и нажмите кнопку **Создать проект**.</li> <li>В настройках проекта:<br>
-<ul> <li>Установите переключатель **HTTP оповещения** в положение **Выкл.**
-</li> <li>Установите переключатель **Беcсерверная интеграция** в положение **Вкл.**
-</li> <li>Включите модуль **Pay2Play**.</li> </ul> </li> </ol>
+<ol>
+<li>Перейдите в раздел **Проекты** и нажмите кнопку **Создать проект**.</li>
+<li>В настройках проекта:<br>
+<ul>
+<li>Установите переключатель **HTTP оповещения** в положение **Выкл.**
+</li>
+<li>Установите переключатель **Беcсерверная интеграция** в положение **Вкл.**
+</li>
+<li>Включите модуль **Pay2Play**.</li>
+</ul>
+</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
@@ -1237,8 +1871,24 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul
 <h2 data-headings="basic_create_module">
 <a class="anchor" href="#basic_create_module">Настройка модуля </a>
 </h2>
-<ol> <li>Перейдите в настройки модуля **Pay2Play** и задайте базовые настройки игры:<ul> <li>Название. </li> <li>Описание.</li> <li>Системные требования.</li> <li>SKU - уникальный идентификатор.</li> <li>Дата релиза.</li> <li>Изображение.</li> <li>DRM.</li> <li>Платформы, которые поддерживаются выбранными DRM.</li> </ul> </li> <li>Нажмите кнопку **Далее**.</li> <li>Настройте цены для выбранных DRM. Нажмите кнопку **Далее**.</li> <li>Установите переключатель **Загруженные коды** в положение **Вкл.**
-</li> <li>Загрузите пин-коды для выбранных DRM.</li> </ol>
+<ol>
+<li>Перейдите в настройки модуля **Pay2Play** и задайте базовые настройки игры:<ul>
+<li>Название. </li>
+<li>Описание.</li>
+<li>Системные требования.</li>
+<li>SKU - уникальный идентификатор.</li>
+<li>Дата релиза.</li>
+<li>Изображение.</li>
+<li>DRM.</li>
+<li>Платформы, которые поддерживаются выбранными DRM.</li>
+</ul>
+</li>
+<li>Нажмите кнопку **Далее**.</li>
+<li>Настройте цены для выбранных DRM. Нажмите кнопку **Далее**.</li>
+<li>Установите переключатель **Загруженные коды** в положение **Вкл.**
+</li>
+<li>Загрузите пин-коды для выбранных DRM.</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
@@ -1253,12 +1903,15 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul
 <p>Xsolla Sandbox (“песочница”) — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр *"settings.mode" = "sandbox"* в объекте **access_data**. Параметры и структура JSON внутри объекта **access_data** идентичны JSON в запросе на получение [токена](1).</p>
 <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside>
 <p>Тестирование оплаты банковской картой:</p>
-<ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты **Банковские карты**.</li> <li>Введите реквизиты тестовой карты. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol>
-<p>
-[Список банковских карт для тестирования](1)
+<ol>
+<li>Откройте магазин в sandbox-режиме.</li>
+<li>Выберите предмет покупки.</li>
+<li>Выберите группу способов оплаты **Банковские карты**.</li>
+<li>Введите реквизиты тестовой карты. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li>
+</ol>
+<p>[Список банковских карт для тестирования](1)
 </p>
-<p>
-**Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p>
+<p>**Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p>
 </div>
 <div class="section-code">
 </div>
@@ -1270,20 +1923,28 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul
 <h2 data-headings="basic_widget">
 <a class="anchor" href="#basic_widget">Интеграция виджета Pay2Play </a>
 </h2>
-<p>
-[Виджет Pay2Play](1) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку **Опубликовать**. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p>
+<p>[Виджет Pay2Play](1) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку **Опубликовать**. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p>
 <p>Пример асинхронной загрузки</p>
-<div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
-<code class="lang-html"> <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
+<div class="content-code">
+<div class="language-switcher">
+<div class="languages">
+<div class="lang" data-lang="html">HTML</div>
+</div>
+</div>
+<pre>
+<code class="lang-html">
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
 <span class="javascript">
-     <span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
+<span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
      <span class="hljs-keyword">var</span> target_element = <span class="hljs-string">"#widget-example-element"</span>;
      <span class="hljs-keyword">var</span> s = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'script'</span>);
      s.type = <span class="hljs-string">"text/javascript"</span>;
      s.async = <span class="hljs-literal">true</span>;
      s.src = <span class="hljs-string">"//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js"</span>;
      s.addEventListener(<span class="hljs-string">'load'</span>, <span class="hljs-function">
-<span class="hljs-keyword">function</span> <span class="hljs-params">(e)</span> </span>{
+<span class="hljs-keyword">function</span>
+<span class="hljs-params">(e)</span>
+</span>{
          <span class="hljs-keyword">var</span> widgetInstance = XPay2PlayWidget.create(access_data,target_element);
      }, <span class="hljs-literal">false</span>);
      <span class="hljs-keyword">var</span> head = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'head'</span>)[<span class="hljs-number">0</span>];
@@ -1291,7 +1952,10 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul
  </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
-</pre> <p>Полный список параметров инициализации виджета доступен в [справочнике API](1), инструкция по добавлению виджета — в [проекте Github](1).</p> <aside class="notise2"> **Обратите внимание!** Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside> </div>
+</pre>
+<p>Полный список параметров инициализации виджета доступен в [справочнике API](1), инструкция по добавлению виджета — в [проекте Github](1).</p>
+<aside class="notise2"> **Обратите внимание!** Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside>
+</div>
 </div>
 <div class="section-code">
 </div>
@@ -1304,16 +1968,22 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul
 <a class="anchor" href="#advanced_integration_guide">Руководство по расширенной интеграции </a>
 </h1>
 <p>Для расширенной интеграции модуля необходимо:</p>
-<ol> <li>Зарегистрироваться в [Личном Кабинете Xsolla](1).</li> <li>
-[Создать проект](1).</li> <li>
-[Настроить модуль](1).</li> <li>
-[Получить токен](1).</li> <li>
-[Настроить обработку оповещений](1).</li> <li>
-[Протестировать](1) процесс оплаты.</li> <li>Добавить на страницу игры [виджет Pay2Play](1) и подписать договор.</li> </ol>
+<ol>
+<li>Зарегистрироваться в [Личном Кабинете Xsolla](1).</li>
+<li>[Создать проект](1).</li>
+<li>[Настроить модуль](1).</li>
+<li>[Получить токен](1).</li>
+<li>[Настроить обработку оповещений](1).</li>
+<li>[Протестировать](1) процесс оплаты.</li>
+<li>Добавить на страницу игры [виджет Pay2Play](1) и подписать договор.</li>
+</ol>
 <p>В процессе интеграции понадобятся следующие параметры:</p>
-<ul> <li>ID мерчанта. Отображается в URL Личного Кабинета — <i>
-https://publisher.xsolla.com/{merchant_id}/</i>.</li> <li>Ключ API. Генерируется в Личном Кабинете в разделе **Настройки -&gt; Компания**.</li> <li>ID проекта. Отображается в URL Личного Кабинета при переходе в настройки проекта — <i>
-https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>Секретный ключ проекта. Генерируется на странице настройки проекта.</li> </ul>
+<ul>
+<li>ID мерчанта. Отображается в URL Личного Кабинета — <i>https://publisher.xsolla.com/{merchant_id}/</i>.</li>
+<li>Ключ API. Генерируется в Личном Кабинете в разделе **Настройки -&gt; Компания**.</li>
+<li>ID проекта. Отображается в URL Личного Кабинета при переходе в настройки проекта — <i>https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li>
+<li>Секретный ключ проекта. Генерируется на странице настройки проекта.</li>
+</ul>
 <aside class="notise2"> Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в [справочнике API](1). Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта. </aside>
 </div>
 <div class="section-code">
@@ -1326,9 +1996,19 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <h2 data-headings="advanced_create_project">
 <a class="anchor" href="#advanced_create_project">Создание проекта </a>
 </h2>
-<ol> <li>Перейдите в раздел **Проекты** и нажмите кнопку **Создать проект**.</li> <li>В настройках проекта:<ul> <li>Установите переключатель **HTTP оповещения** в положение **Вкл.**
-</li> <li>Укажите URL оповещений.</li> <li>Сгенерируйте секретный ключ проекта для подписи оповещений.</li> <li>Установите переключатель **Беcсерверная интеграция** в положение **Выкл.**
-</li> <li>Включите модуль **Pay2Play**.</li> </ul> </li> </ol>
+<ol>
+<li>Перейдите в раздел **Проекты** и нажмите кнопку **Создать проект**.</li>
+<li>В настройках проекта:<ul>
+<li>Установите переключатель **HTTP оповещения** в положение **Вкл.**
+</li>
+<li>Укажите URL оповещений.</li>
+<li>Сгенерируйте секретный ключ проекта для подписи оповещений.</li>
+<li>Установите переключатель **Беcсерверная интеграция** в положение **Выкл.**
+</li>
+<li>Включите модуль **Pay2Play**.</li>
+</ul>
+</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
@@ -1340,8 +2020,24 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <h2 data-headings="advanced_create_module">
 <a class="anchor" href="#advanced_create_module">Настройка модуля </a>
 </h2>
-<ol> <li>Перейдите в настройки модуля **Pay2Play** и задайте базовые настройки игры:<ul> <li>Название. </li> <li>Описание.</li> <li>Системные требования.</li> <li>SKU - уникальный идентификатор.</li> <li>Дата релиза.</li> <li>Изображение.</li> <li>DRM.</li> <li>Платформы, которые поддерживаются выбранными DRM.</li> </ul> </li> <li>Нажмите кнопку **Далее**.</li> <li>Настройте цены для выбранных DRM. Нажмите кнопку **Далее**.</li> <li>Установите переключатель **Загруженные коды** в положение **Вкл.**
-</li> <li>Загрузите пин-коды для выбранных DRM.</li> </ol>
+<ol>
+<li>Перейдите в настройки модуля **Pay2Play** и задайте базовые настройки игры:<ul>
+<li>Название. </li>
+<li>Описание.</li>
+<li>Системные требования.</li>
+<li>SKU - уникальный идентификатор.</li>
+<li>Дата релиза.</li>
+<li>Изображение.</li>
+<li>DRM.</li>
+<li>Платформы, которые поддерживаются выбранными DRM.</li>
+</ul>
+</li>
+<li>Нажмите кнопку **Далее**.</li>
+<li>Настройте цены для выбранных DRM. Нажмите кнопку **Далее**.</li>
+<li>Установите переключатель **Загруженные коды** в положение **Вкл.**
+</li>
+<li>Загрузите пин-коды для выбранных DRM.</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
@@ -1362,13 +2058,21 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 </p>
 <p>В HTTP POST запросе вы можете указать параметры, которые нужно передать на платежный интерфейс. Запрос и ответ передаются в JSON формате.</p>
 <p>Ниже указан пример получения токена на PHP с использованием [Xsolla PHP SDK](1). Если вы разрабатываете на другом языке, можно использовать *CURL* пример (нажмите на кнопку CURL).</p>
-<div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang active" data-lang="php">PHP</div> <div class="lang" data-lang="shell">CURL</div> </div> </div> <pre>
+<div class="content-code">
+<div class="language-switcher">
+<div class="languages">
+<div class="lang active" data-lang="php">PHP</div>
+<div class="lang" data-lang="shell">CURL</div>
+</div>
+</div>
+<pre>
 <code class="lang-php">
 <span class="php">
 <span class="hljs-preprocessor">&lt;?php</span>
-
-<span class="hljs-keyword">use</span> <span class="hljs-title">Xsolla</span>\<span class="hljs-title">SDK</span>\<span class="hljs-title">API</span>\<span class="hljs-title">XsollaClient</span>;
-<span class="hljs-keyword">use</span> <span class="hljs-title">Xsolla</span>\<span class="hljs-title">SDK</span>\<span class="hljs-title">API</span>\<span class="hljs-title">PaymentUI</span>\<span class="hljs-title">TokenRequest</span>;
+<span class="hljs-keyword">use</span>
+<span class="hljs-title">Xsolla</span>\<span class="hljs-title">SDK</span>\<span class="hljs-title">API</span>\<span class="hljs-title">XsollaClient</span>;
+<span class="hljs-keyword">use</span>
+<span class="hljs-title">Xsolla</span>\<span class="hljs-title">SDK</span>\<span class="hljs-title">API</span>\<span class="hljs-title">PaymentUI</span>\<span class="hljs-title">TokenRequest</span>;
 
 <span class="hljs-variable">$tokenRequest</span> = <span class="hljs-keyword">new</span> TokenRequest(<span class="hljs-variable">$projectId</span>, <span class="hljs-variable">$userId</span>);
 <span class="hljs-variable">$tokenRequest</span>-&gt;setUserEmail(<span class="hljs-string">'email@example.com'</span>)
@@ -1383,9 +2087,9 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 ));
 <span class="hljs-variable">$token</span> = <span class="hljs-variable">$xsollaClient</span>-&gt;createPaymentUITokenFromRequest(<span class="hljs-variable">$tokenRequest</span>);</span>
 </code>
-</pre> <pre>
-<code class="lang-shell">    curl -v https:<span class="hljs-comment">//api.xsolla.com/merchant/merchants/{merchant_id}/token \</span>
-    -X POST \
+</pre>
+<pre>
+<code class="lang-shell">    curl -v https:<span class="hljs-comment">//api.xsolla.com/merchant/merchants/{merchant_id}/token \</span>    -X POST \
     -u your_merchant_id:merchant_api_key \
     -H <span class="hljs-string">'Content-Type:application/json'</span> \
     -H <span class="hljs-string">'Accept: application/json'</span> \
@@ -1407,7 +2111,8 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
         }
     }'</span>
 </code>
-</pre> <p>
+</pre>
+<p>
 </p>
 </div>
 <p>
@@ -1425,7 +2130,11 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#advanced_setup_webhooks">Настройка оповещений </a>
 </h2>
 <p>Xsolla отправляет проекту следующие типы оповещений (webhooks):</p>
-<ul> <li>Проверка существования пользователя</li> <li>Успешный платеж</li> <li>Отмена платежа</li> </ul>
+<ul>
+<li>Проверка существования пользователя</li>
+<li>Успешный платеж</li>
+<li>Отмена платежа</li>
+</ul>
 <p>Чтобы подтвердить получение оповещения, ваш сервер должен вернуть 204 HTTP код без тела сообщения. Механизм работы оповещений с примерами обработки подробно описан в [справочнике API](1).</p>
 <h3 id="-span-create_signature-span-">
 <a class="anchor" href="#advanced_setup_webhooks_формирование-подписи">Формирование подписи </a>
@@ -1433,7 +2142,11 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 </div>
 </h3>
 <p>Процесс формирования подписи включает следующие шаги:</p>
-<ol> <li>Данные, переданные в запросе от сервера Xsolla, и секретный ключ проекта (генерируется на странице настройки проекта) конкатенируются в строку.</li> <li>Полученная строка хешируется с помощью SHA1 хеш-алгоритма.</li> <li>Подпись передается в Signature заголовке.</li> </ol>
+<ol>
+<li>Данные, переданные в запросе от сервера Xsolla, и секретный ключ проекта (генерируется на странице настройки проекта) конкатенируются в строку.</li>
+<li>Полученная строка хешируется с помощью SHA1 хеш-алгоритма.</li>
+<li>Подпись передается в Signature заголовке.</li>
+</ol>
 <p>При обработке оповещения необходимо проверить, что полученная подпись и подпись, переданная в Signature заголовке, совпадают.</p>
 <h3 id="-span-user_validation-span-">
 <a class="anchor" href="#advanced_setup_webhooks_проверка-существования-пользователя">Проверка существования пользователя </a>
@@ -1442,7 +2155,14 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 </h3>
 <p>Сервер Xsolla посылает запрос на URL оповещений проекта, чтобы проверить существование персонажа в игре.</p>
 <p>Пример запроса</p>
-<div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang active" data-lang="php">PHP</div> <div class="lang" data-lang="shell">CURL</div> </div> </div> <pre>
+<div class="content-code">
+<div class="language-switcher">
+<div class="languages">
+<div class="lang active" data-lang="php">PHP</div>
+<div class="lang" data-lang="shell">CURL</div>
+</div>
+</div>
+<pre>
 <code class="lang-php">
 <span class="hljs-variable">$request</span> = <span class="hljs-keyword">array</span>(
     <span class="hljs-string">'notification_type'</span> =&gt; <span class="hljs-string">'user_validation'</span>,
@@ -1451,13 +2171,12 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
         <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'18777976552'</span>,
         <span class="hljs-string">'email'</span>=&gt; <span class="hljs-string">'email@example.com'</span>,
         <span class="hljs-string">'id'</span>=&gt; <span class="hljs-string">'1234567'</span>,
-        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>
-    )
+        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>    )
 )
 </code>
-</pre> <pre>
-<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>
--X POST \
+</pre>
+<pre>
+<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>-X POST \
 -H <span class="hljs-string">'Content-Type:application/json'</span> \
 -H <span class="hljs-string">'Accept: application/json'</span> \
 -H <span class="hljs-string">'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f'</span> \
@@ -1481,11 +2200,23 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
     }
 }'</span>
 </code>
-</pre> <p>Полный список параметров доступен в [справочнике API](1).</p> <h3 id="-span-payment-span-">
+</pre>
+<p>Полный список параметров доступен в [справочнике API](1).</p>
+<h3 id="-span-payment-span-">
 <a class="anchor" href="#advanced_setup_webhooks_успешный-платеж">Успешный платеж </a>
 <div class="header-anchor" id="advanced_setup_webhooks_успешный-платеж">
 </div>
-</h3> <p>Когда пользователь завершает процесс оплаты, сервер Xsolla отправляет проекту оповещение с информацией о платеже.</p> <p>Пример запроса</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang active" data-lang="php">PHP</div> <div class="lang" data-lang="shell">CURL</div> </div> </div> <pre>
+</h3>
+<p>Когда пользователь завершает процесс оплаты, сервер Xsolla отправляет проекту оповещение с информацией о платеже.</p>
+<p>Пример запроса</p>
+<div class="content-code">
+<div class="language-switcher">
+<div class="languages">
+<div class="lang active" data-lang="php">PHP</div>
+<div class="lang" data-lang="shell">CURL</div>
+</div>
+</div>
+<pre>
 <code class="lang-php">
 <span class="hljs-variable">$request</span> = <span class="hljs-keyword">array</span>(
     <span class="hljs-string">'notification_type'</span> =&gt; <span class="hljs-string">'payment'</span>,
@@ -1508,50 +2239,42 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
         ),
         <span class="hljs-string">'total'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>
-        )
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        )
     ),
     <span class="hljs-string">'user'</span> =&gt; <span class="hljs-keyword">array</span>(
         <span class="hljs-string">'ip'</span> =&gt; <span class="hljs-string">'127.0.0.1'</span>,
         <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'18777976552'</span>,
         <span class="hljs-string">'email'</span> =&gt; <span class="hljs-string">'email@example.com'</span>,
         <span class="hljs-string">'id'</span> =&gt; <span class="hljs-string">'1234567'</span>,
-        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>
-    ),
+        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>    ),
     <span class="hljs-string">'transaction'</span> =&gt; <span class="hljs-keyword">array</span>(
         <span class="hljs-string">'id'</span> =&gt; <span class="hljs-number">87654321</span>,
         <span class="hljs-string">'payment_date'</span> =&gt; <span class="hljs-string">'2014-09-23T19:25:25+04:00'</span>,
         <span class="hljs-string">'payment_method'</span> =&gt; <span class="hljs-number">1380</span>,
-        <span class="hljs-string">'dry_run'</span> =&gt; <span class="hljs-number">1</span>
-    ),
+        <span class="hljs-string">'dry_run'</span> =&gt; <span class="hljs-number">1</span>    ),
     <span class="hljs-string">'payment_details'</span> =&gt; <span class="hljs-keyword">array</span>(
         <span class="hljs-string">'payment'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        ),
         <span class="hljs-string">'vat'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0</span>        ),
         <span class="hljs-string">'payout_currency_rate'</span> =&gt; <span class="hljs-number">1</span>,
         <span class="hljs-string">'payout'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.49</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.49</span>        ),
         <span class="hljs-string">'xsolla_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.19</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.19</span>        ),
         <span class="hljs-string">'payment_method_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.31</span>
-        )
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.31</span>        )
     )
 )
 </code>
-</pre> <pre>
-<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>
--X POST \
+</pre>
+<pre>
+<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>-X POST \
 -H <span class="hljs-string">'Content-Type:application/json'</span> \
 -H <span class="hljs-string">'Accept: application/json'</span> \
 -H <span class="hljs-string">'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f'</span> \
@@ -1628,11 +2351,23 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
     }
 }'</span>
 </code>
-</pre> <p>Полный список параметров доступен в [справочнике API](1).</p> <h3 id="-span-refund-span-">
+</pre>
+<p>Полный список параметров доступен в [справочнике API](1).</p>
+<h3 id="-span-refund-span-">
 <a class="anchor" href="#advanced_setup_webhooks_отмена-платежа">Отмена платежа </a>
 <div class="header-anchor" id="advanced_setup_webhooks_отмена-платежа">
 </div>
-</h3> <p>Если пользователь отменяет платеж, сервер Xsolla отправляет проекту оповещение с информацией о платеже.</p> <p>Пример запроса</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang active" data-lang="php">PHP</div> <div class="lang" data-lang="shell">CURL</div> </div> </div> <pre>
+</h3>
+<p>Если пользователь отменяет платеж, сервер Xsolla отправляет проекту оповещение с информацией о платеже.</p>
+<p>Пример запроса</p>
+<div class="content-code">
+<div class="language-switcher">
+<div class="languages">
+<div class="lang active" data-lang="php">PHP</div>
+<div class="lang" data-lang="shell">CURL</div>
+</div>
+</div>
+<pre>
 <code class="lang-php">
 <span class="hljs-variable">$request</span> = <span class="hljs-keyword">array</span>(
     <span class="hljs-string">'notification_type'</span> =&gt; <span class="hljs-string">'refund'</span>,
@@ -1641,58 +2376,48 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
             <span class="hljs-string">'name'</span> =&gt; <span class="hljs-string">'Coins'</span>,
             <span class="hljs-string">'quantity'</span> =&gt; <span class="hljs-number">100</span>,
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        ),
         <span class="hljs-string">'total'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>
-        )
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        )
     ),
     <span class="hljs-string">'user'</span> =&gt; <span class="hljs-keyword">array</span>(
         <span class="hljs-string">'ip'</span> =&gt; <span class="hljs-string">'127.0.0.1'</span>,
         <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'18777976552'</span>,
         <span class="hljs-string">'email'</span> =&gt; <span class="hljs-string">'email@example.com'</span>,
         <span class="hljs-string">'id'</span> =&gt; <span class="hljs-string">'1234567'</span>,
-        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>
-    ),
+        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>    ),
     <span class="hljs-string">'transaction'</span> =&gt; <span class="hljs-keyword">array</span>(
         <span class="hljs-string">'id'</span> =&gt; <span class="hljs-number">87654321</span>,
         <span class="hljs-string">'payment_date'</span> =&gt; <span class="hljs-string">'2014-09-23T19:25:25+04:00'</span>,
         <span class="hljs-string">'payment_method'</span> =&gt; <span class="hljs-number">1380</span>,
-        <span class="hljs-string">'dry_run'</span> =&gt; <span class="hljs-number">1</span>
-    ),
+        <span class="hljs-string">'dry_run'</span> =&gt; <span class="hljs-number">1</span>    ),
     <span class="hljs-string">'refund_details'</span> =&gt; (
             <span class="hljs-string">'code'</span> =&gt; <span class="hljs-number">1</span>,
-            <span class="hljs-string">'reason'</span> =&gt; <span class="hljs-string">'Fraud'</span>
-    ),
+            <span class="hljs-string">'reason'</span> =&gt; <span class="hljs-string">'Fraud'</span>    ),
     <span class="hljs-string">'payment_details'</span> =&gt; <span class="hljs-keyword">array</span>(
         <span class="hljs-string">'payment'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        ),
         <span class="hljs-string">'vat'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0</span>        ),
         <span class="hljs-string">'payout_currency_rate'</span> =&gt; <span class="hljs-number">1</span>,
         <span class="hljs-string">'payout'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.49</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.49</span>        ),
         <span class="hljs-string">'xsolla_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.19</span>
-        ),
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.19</span>        ),
         <span class="hljs-string">'payment_method_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
             <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.31</span>
-        )
+            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.31</span>        )
     )
 );
 </code>
-</pre> <pre>
-<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>
--X POST \
+</pre>
+<pre>
+<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>-X POST \
 -H <span class="hljs-string">'Content-Type:application/json'</span> \
 -H <span class="hljs-string">'Accept: application/json'</span> \
 -H <span class="hljs-string">'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f'</span> \
@@ -1790,37 +2515,69 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
     }
 }'</span>
 </code>
-</pre> <p>
+</pre>
+<p>
 </p>
 </div>
 <p>
-</p> <p>Полный список параметров доступен в [справочнике API](1).</p> <h3 id="-span-advanced_test_webhooks-span-">
+</p>
+<p>Полный список параметров доступен в [справочнике API](1).</p>
+<h3 id="-span-advanced_test_webhooks-span-">
 <a class="anchor" href="#advanced_setup_webhooks_тестирование-оповещений">Тестирование оповещений </a>
 <div class="header-anchor" id="advanced_setup_webhooks_тестирование-оповещений">
 </div>
-</h3> <p>Чтобы протестировать обработчик оповещений:</p> <ol> <li>Откройте настройки модуля в Личном Кабинете.</li> <li>Перейдите на вкладку **Тестирование**.</li> <li>Введите тестовые данные и нажмите кнопку **Запустить тесты**: сервер Xsolla отправит все типы оповещений.</li> <li>Если скрипт вернул корректный ответ, тест помечается зеленым цветом, в случае ошибки — красным.</li> </ol> <div class="section-anchor" id="advanced_testing" data-headings="advanced_testing">
+</h3>
+<p>Чтобы протестировать обработчик оповещений:</p>
+<ol>
+<li>Откройте настройки модуля в Личном Кабинете.</li>
+<li>Перейдите на вкладку **Тестирование**.</li>
+<li>Введите тестовые данные и нажмите кнопку **Запустить тесты**: сервер Xsolla отправит все типы оповещений.</li>
+<li>Если скрипт вернул корректный ответ, тест помечается зеленым цветом, в случае ошибки — красным.</li>
+</ol>
+<div class="section-anchor" id="advanced_testing" data-headings="advanced_testing">
 </div>
 <h2 data-headings="advanced_testing">
 <a class="anchor" href="#advanced_testing">Тестирование процесса оплаты </a>
-</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр *"mode" = "sandbox"* при [получении токена](1).</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты **Банковские карты**.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
-[Список банковских карт для тестирования](1)
-</p> <p>
-**Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p> <div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
+</h2>
+<p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр *"mode" = "sandbox"* при [получении токена](1).</p>
+<aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside>
+<p>Тестирование оплаты банковской картой:</p>
+<ol>
+<li>Откройте магазин в sandbox-режиме.</li>
+<li>Выберите предмет покупки.</li>
+<li>Выберите группу способов оплаты **Банковские карты**.</li>
+<li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li>
+</ol>
+<p>[Список банковских карт для тестирования](1)
+</p>
+<p>**Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p>
+<div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
 </div>
 <h2 data-headings="advanced_widget">
 <a class="anchor" href="#advanced_widget">Интеграция виджета Pay2Play </a>
-</h2> <p>
-[Виджет Pay2Play](1) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку **Опубликовать**. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p> <p>Пример асинхронной загрузки</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
-<code class="lang-html"> <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
+</h2>
+<p>[Виджет Pay2Play](1) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку **Опубликовать**. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p>
+<p>Пример асинхронной загрузки</p>
+<div class="content-code">
+<div class="language-switcher">
+<div class="languages">
+<div class="lang" data-lang="html">HTML</div>
+</div>
+</div>
+<pre>
+<code class="lang-html">
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
 <span class="javascript">
-     <span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
+<span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
      <span class="hljs-keyword">var</span> target_element = <span class="hljs-string">"#widget-example-element"</span>;
      <span class="hljs-keyword">var</span> s = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'script'</span>);
      s.type = <span class="hljs-string">"text/javascript"</span>;
      s.async = <span class="hljs-literal">true</span>;
      s.src = <span class="hljs-string">"//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js"</span>;
      s.addEventListener(<span class="hljs-string">'load'</span>, <span class="hljs-function">
-<span class="hljs-keyword">function</span> <span class="hljs-params">(e)</span> </span>{
+<span class="hljs-keyword">function</span>
+<span class="hljs-params">(e)</span>
+</span>{
          <span class="hljs-keyword">var</span> widgetInstance = XPay2PlayWidget.create(access_data,target_element);
      }, <span class="hljs-literal">false</span>);
      <span class="hljs-keyword">var</span> head = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'head'</span>)[<span class="hljs-number">0</span>];
@@ -1828,7 +2585,10 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
  </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
-</pre> <p>Полный список параметров инициализации виджета доступен в [справочнике API](1), инструкция по добавлению виджета — в [проекте Github](1).</p> <aside class="notise2"> **Обратите внимание!** Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside> </div>
+</pre>
+<p>Полный список параметров инициализации виджета доступен в [справочнике API](1), инструкция по добавлению виджета — в [проекте Github](1).</p>
+<aside class="notise2"> **Обратите внимание!** Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside>
+</div>
 </div>
 </div>
 </div>
@@ -1867,8 +2627,11 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#api_pin_codes">Доставка пин-кодов пользователю по API </a>
 </h2>
 <p>Вы можете отправлять пин-коды при каждой покупке игры вместо загрузки файла с пин-кодами. Для включения опции необходимо:</p>
-<ul> <li>реализовать обработку оповещения [Получение пин-кода](1);</li> <li>в настройках аддона на вкладке **Загрузка кодов** установить переключатель **По требованию** в положение **Вкл.**, переключатель **Загруженные коды** — в положение **Выкл.**
-</li> </ul>
+<ul>
+<li>реализовать обработку оповещения [Получение пин-кода](1);</li>
+<li>в настройках аддона на вкладке **Загрузка кодов** установить переключатель **По требованию** в положение **Вкл.**, переключатель **Загруженные коды** — в положение **Выкл.**
+</li>
+</ul>
 </div>
 <div class="section-code">
 </div>
@@ -1896,24 +2659,41 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#regional_sale_restrictions">Региональные ограничения продаж </a>
 </h2>
 <p>Модуль **Pay2Play** позволяет настроить региональные ограничения продажи пин-кодов:</p>
-<ul> <li>задать различную стоимость для отдельных стран или групп стран;</li> <li>запретить продажу в определенных странах.</li> </ul>
+<ul>
+<li>задать различную стоимость для отдельных стран или групп стран;</li>
+<li>запретить продажу в определенных странах.</li>
+</ul>
 <p>После выполнения необходимых настроек при покупке пин-кода пользователь увидит предупреждение (если страна пользователя попадает под заданные ограничения). В странах, для которых продажа пин-кодов запрещена, проведение платежа блокируется.</p>
 <p>
 <img src="https://cdn.xsolla.net/developers.xsolla.com/images/reglock.4effd3ed91.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/reglock.a1fe6f0316@2x.png" width="730px" class="m-t m-b">
 </p>
 <p>Для подключения опции обратитесь к аккаунт-менеджеру проекта. По каждой платформе, для которой необходимо настроить региональные ограничения, вам потребуется следующая информация:</p>
-<ul> <li>Тип ограничения:<ul> <li>на активацию — пин-код может быть активирован только в определенных странах;</li> <li>на запуск — пин-код может быть активирован в любой стране, игра может быть запущена только в определенных странах;</li> <li>на активацию и на запуск — активация пин-кода и запуск игры могут быть выполнены только в определенных странах.</li> </ul> </li> <li>Список групп стран, для которых стоимость пин-кодов будет отличаться от базовых настроек модуля.</li> <li>Настройки для каждой группы стран:<ul> <li>Название группы.</li> <li>SKU — уникальный идентификатор группы.</li> <li>Список цен в разных валютах. Обязательно укажите цену в валюте, выбранной в настройках модуля по умолчанию.</li> <li>Список стран, входящих в группу.</li> </ul> </li> <li>Список стран, для которых продажа пин-кодов должна быть запрещена (при необходимости).</li> </ul>
+<ul>
+<li>Тип ограничения:<ul>
+<li>на активацию — пин-код может быть активирован только в определенных странах;</li>
+<li>на запуск — пин-код может быть активирован в любой стране, игра может быть запущена только в определенных странах;</li>
+<li>на активацию и на запуск — активация пин-кода и запуск игры могут быть выполнены только в определенных странах.</li>
+</ul>
+</li>
+<li>Список групп стран, для которых стоимость пин-кодов будет отличаться от базовых настроек модуля.</li>
+<li>Настройки для каждой группы стран:<ul>
+<li>Название группы.</li>
+<li>SKU — уникальный идентификатор группы.</li>
+<li>Список цен в разных валютах. Обязательно укажите цену в валюте, выбранной в настройках модуля по умолчанию.</li>
+<li>Список стран, входящих в группу.</li>
+</ul>
+</li>
+<li>Список стран, для которых продажа пин-кодов должна быть запрещена (при необходимости).</li>
+</ul>
 <p>В рамках одной платформы страна может входить только в одну из групп с настройками цен или в список стран с запретом продажи. В странах, не вошедших ни в один из списков, продажа пин-кодов будет осуществляться без каких-либо ограничений и по ценам, указанным в базовых настройках модуля.</p>
-<p>
-**Обратите внимание!** Если активация пин-кодов и запуск игры выполняются на вашей стороне или на стороне платформы, в день релиза игры необходимо загружать пин-коды с уже настроенными региональными ограничениями.</p>
+<p>**Обратите внимание!** Если активация пин-кодов и запуск игры выполняются на вашей стороне или на стороне платформы, в день релиза игры необходимо загружать пин-коды с уже настроенными региональными ограничениями.</p>
 </div>
 <div class="section-code">
 </div>
 </div>
-    </div>
-	
-	<div class="content">
-        <div class="section-content">
+</div>
+<div class="content">
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="gifting" data-headings="gifting">
 </div>
@@ -1922,7 +2702,11 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 </h1>
 <p>Вы можете дать возможность пользователям приобретать пакеты виртуальной валюты, виртуальные товары или ключи доступа в качестве подарка друзьям в игре. После успешной оплаты покупателю отправляется чек, получателю - письмо с информацией о подарке. Покупатель подарка также может скрыть свои данные и отправить подарок анонимно.</p>
 <p>Опция имеет несколько вариантов интеграции и предлагает игровым проектам следующие варианты покупок подарка:</p>
-<ul> <li>Покупка пакета виртуальной валюты</li> <li>Покупка виртуальных товаров</li> <li>Покупка ключа активации игры</li> </ul>
+<ul>
+<li>Покупка пакета виртуальной валюты</li>
+<li>Покупка виртуальных товаров</li>
+<li>Покупка ключа активации игры</li>
+</ul>
 <p>Опция доступна только для проектов, у которых отключено хранение данных пользователей на стороне Xsolla. </p>
 </div>
 <div class="section-code">
@@ -1987,8 +2771,10 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#pay2play_module">Модуль Pay2Play </a>
 </h2>
 <p>Для подключения модуля необходимо:</p>
-<ol> <li>
-[Настроить](1) модуль Pay2Play.</li> <li>Связаться с аккаунт-менеджером проекта для включения опции.</li> </ol>
+<ol>
+<li>[Настроить](1) модуль Pay2Play.</li>
+<li>Связаться с аккаунт-менеджером проекта для включения опции.</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
@@ -2001,7 +2787,12 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#virtual_items_virtual_currency_payment_wall_modules">Модуль виртуальной валюты, модуль виртуальных товаров или модуль реальной валюты </a>
 </h2>
 <p>Для подключения опции необходимо:</p>
-<ol> <li>Настроить модуль [виртуальной валюты](1), [виртуальных товаров](1) или модуль [реальной валюты](1).</li> <li>Реализовать [метод API](1) для передачи списка друзей в Xsolla или добавить объект с данными о друзьях в [запрос на получение токена](1).</li> <li>Реализовать [обработку оповещения](1) об успешной оплате с добавленными данными о подарке.</li> <li>Связаться с аккаунт-менеджером проекта для включения опции.</li> </ol>
+<ol>
+<li>Настроить модуль [виртуальной валюты](1), [виртуальных товаров](1) или модуль [реальной валюты](1).</li>
+<li>Реализовать [метод API](1) для передачи списка друзей в Xsolla или добавить объект с данными о друзьях в [запрос на получение токена](1).</li>
+<li>Реализовать [обработку оповещения](1) об успешной оплате с добавленными данными о подарке.</li>
+<li>Связаться с аккаунт-менеджером проекта для включения опции.</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
@@ -2026,8 +2817,7 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#friend_via_token">Передача списка друзей в токене </a>
 </h2>
 <p>При необходимости в запрос можно добавить массив со списком друзей пользователя. Если массив содержит всего один элемент, переданный друг автоматически определяется как получатель подарка. В [запросе на получение токена](1) можно передавать не более 100 друзей. В запрос также можно включить объект с данными о подарке.</p>
-<p>
-**Пример запроса**
+<p>**Пример запроса**
 </p>
 <pre>
 <code class="lang-json">
@@ -2035,15 +2825,11 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 
    <span class="hljs-string">"virtual_currency"</span>:{
 
-       <span class="hljs-string">"quantity"</span>:<span class="hljs-number">100</span>
-
-   },
+       <span class="hljs-string">"quantity"</span>:<span class="hljs-number">100</span>   },
 
    <span class="hljs-string">"description"</span>:{
 
-       <span class="hljs-string">"value"</span>:<span class="hljs-string">"Test Purchase"</span>
-
-   },
+       <span class="hljs-string">"value"</span>:<span class="hljs-string">"Test Purchase"</span>   },
 
    <span class="hljs-string">"gift"</span>:{
 
@@ -2061,9 +2847,7 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 
         <span class="hljs-string">"name"</span>: <span class="hljs-string">"captain"</span>,
 
-        <span class="hljs-string">"email"</span>: <span class="hljs-string">"captain@ship.com"</span>
-
-       }]
+        <span class="hljs-string">"email"</span>: <span class="hljs-string">"captain@ship.com"</span>       }]
 
    }
 
@@ -2082,19 +2866,22 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#friend_via_api">Передача списка друзей по запросу к API </a>
 </h2>
 <p>Xsolla отправляет проекту [запрос на получение списка друзей](1) по адресу, указанному в качестве webhook URL в настройках проекта.</p>
-<p>
-**Формирование подписи**
+<p>**Формирование подписи**
 </p>
 <p>Процесс формирования подписи включает следующие шаги:</p>
-<ol> <li>Параметры, переданные в запросе от сервера Xsolla, сортируются в алфавитном порядке.</li> <li>Значения параметров и секретный ключ проекта (генерируется на странице настройки проекта) конкатенируются в строку.</li> <li>Полученная строка хешируется с помощью SHA1 хеш-алгоритма.</li> <li>Подпись передается в параметре sign.</li> </ol>
+<ol>
+<li>Параметры, переданные в запросе от сервера Xsolla, сортируются в алфавитном порядке.</li>
+<li>Значения параметров и секретный ключ проекта (генерируется на странице настройки проекта) конкатенируются в строку.</li>
+<li>Полученная строка хешируется с помощью SHA1 хеш-алгоритма.</li>
+<li>Подпись передается в параметре sign.</li>
+</ol>
 <p>При обработке запроса к API необходимо проверить, что полученная подпись и подпись, переданная в параметре sign, совпадают.</p>
 <h3 id="-span-getting_list_friends-span-">
 <a class="anchor" href="#friend_via_api_получение-списка-друзей">Получение списка друзей </a>
 <div class="header-anchor" id="friend_via_api_получение-списка-друзей">
 </div>
 </h3>
-<p>
-**Пример запроса**
+<p>**Пример запроса**
 </p>
 <pre>
 <code class="lang-http">$ curl -v 'https://your.webhook.url?<span class="hljs-variable">notification_type=</span>friends_list&amp;<span class="hljs-variable">user=</span>user_id&amp;<span class="hljs-variable">query=</span>frien&amp;<span class="hljs-variable">offset=</span>
@@ -2105,8 +2892,7 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 -u merchant_id:merchant_api_key
 </code>
 </pre>
-<p>
-**Пример ответа**
+<p>**Пример ответа**
 </p>
 <pre>
 <code class="lang-json">[
@@ -2124,7 +2910,7 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 </span>,
         "<span class="hljs-attribute">image_url</span>": <span class="hljs-value">
 <span class="hljs-string">"https://partner/link/doctor.jpg"</span>
-      </span>},
+</span>},
       {
         "<span class="hljs-attribute">id</span>": <span class="hljs-value">
 <span class="hljs-string">"2"</span>
@@ -2137,11 +2923,11 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 </span>,
         "<span class="hljs-attribute">image_url</span>": <span class="hljs-value">
 <span class="hljs-string">"https://partner/link/cook.jpg"</span>
-      </span>}
+</span>}
     ]</span>,
   "<span class="hljs-attribute">total</span>": <span class="hljs-value">
 <span class="hljs-number">10</span>
-  </span>}
+</span>}
 ]
 </code>
 </pre>
@@ -2157,12 +2943,10 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <a class="anchor" href="#setup_webhooks">Настройка оповещений </a>
 </h2>
 <p>При включении модулей виртуальной валюты и виртуальных товаров обязательным шагом является обработка [оповещения Payments](1). При включении опции Подарок другу в JSON оповещения добавляется новый объект gift.purchase.</p>
-<p>
-**Пример запроса**
+<p>**Пример запроса**
 </p>
 <pre>
-<code class="lang-json">$curl -v 'https:<span class="hljs-comment">//your.hostname/your/uri' \</span>
--X POST \
+<code class="lang-json">$curl -v 'https:<span class="hljs-comment">//your.hostname/your/uri' \</span>-X POST \
 -d '{
     <span class="hljs-string">"notification_type"</span>:<span class="hljs-string">"payment"</span>,
     <span class="hljs-string">"purchase"</span>:{
@@ -2171,8 +2955,7 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
             <span class="hljs-string">"sku"</span>:<span class="hljs-string">"test_package1"</span>,
             <span class="hljs-string">"quantity"</span>:<span class="hljs-number">10</span>,
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">100</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">100</span>        },
         <span class="hljs-string">"subscription"</span>:{
             <span class="hljs-string">"plan_id"</span>: <span class="hljs-string">"b5dac9c8"</span>,
             <span class="hljs-string">"subscription_id"</span>: <span class="hljs-string">"10"</span>,
@@ -2180,41 +2963,33 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
             <span class="hljs-string">"date_create"</span>: <span class="hljs-string">"2014-09-22T19:25:25+04:00"</span>,
             <span class="hljs-string">"date_next_charge"</span>: <span class="hljs-string">"2014-10-22T19:25:25+04:00"</span>,
             <span class="hljs-string">"currency"</span>: <span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>: <span class="hljs-number">9.99</span>
-        },
+            <span class="hljs-string">"amount"</span>: <span class="hljs-number">9.99</span>        },
         <span class="hljs-string">"checkout"</span>:{
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">50</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">50</span>        },
         <span class="hljs-string">"virtual_items"</span>:{
             <span class="hljs-string">"items"</span>:[
                 {
                     <span class="hljs-string">"sku"</span>: <span class="hljs-string">"test_item1"</span>,
-                    <span class="hljs-string">"amount"</span>:<span class="hljs-number">1</span>
-                }
+                    <span class="hljs-string">"amount"</span>:<span class="hljs-number">1</span>                }
             ],
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">50</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">50</span>        },
         <span class="hljs-string">"gift"</span>:{
              <span class="hljs-string">"giver_ID"</span>:<span class="hljs-string">"John Smith"</span>,
              <span class="hljs-string">"receiver_ID"</span>:<span class="hljs-string">"Ivan Ivanov"</span>,
              <span class="hljs-string">"receiver_email"</span>:<span class="hljs-string">"example@example.com"</span>,
              <span class="hljs-string">"message"</span>:<span class="hljs-string">"GG WP"</span>,
-             <span class="hljs-string">"hide_giver_from_receiver"</span>: <span class="hljs-keyword">true</span>
-        },
+             <span class="hljs-string">"hide_giver_from_receiver"</span>: <span class="hljs-keyword">true</span>        },
         <span class="hljs-string">"total"</span>:{
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">200</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">200</span>        },
         <span class="hljs-string">"promotions"</span>:[{
             <span class="hljs-string">"technical_name"</span>:<span class="hljs-string">"Demo Promotion"</span>,
-            <span class="hljs-string">"id"</span>:<span class="hljs-string">"853"</span>
-        }],
+            <span class="hljs-string">"id"</span>:<span class="hljs-string">"853"</span>        }],
         <span class="hljs-string">"coupon"</span>:{
              <span class="hljs-string">"coupon_code"</span>:<span class="hljs-string">"ICvj45S4FUOyy"</span>,
-             <span class="hljs-string">"campaign_code"</span>:<span class="hljs-string">"1507"</span>
-        }
+             <span class="hljs-string">"campaign_code"</span>:<span class="hljs-string">"1507"</span>        }
     },
     <span class="hljs-string">"user"</span>: {
         <span class="hljs-string">"ip"</span>: <span class="hljs-string">"127.0.0.1"</span>,
@@ -2222,43 +2997,35 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
         <span class="hljs-string">"email"</span>: <span class="hljs-string">"email@example.com"</span>,
         <span class="hljs-string">"id"</span>: <span class="hljs-string">"1234567"</span>,
         <span class="hljs-string">"name"</span>: <span class="hljs-string">"Xsolla User"</span>,
-        <span class="hljs-string">"country"</span>: <span class="hljs-string">"US"</span>
-    },
+        <span class="hljs-string">"country"</span>: <span class="hljs-string">"US"</span>    },
     <span class="hljs-string">"transaction"</span>:{
         <span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>,
         <span class="hljs-string">"external_id"</span>:<span class="hljs-number">1</span>,
         <span class="hljs-string">"payment_date"</span>:<span class="hljs-string">"2014-09-24T20:38:16+04:00"</span>,
         <span class="hljs-string">"payment_method"</span>:<span class="hljs-number">1</span>,
         <span class="hljs-string">"dry_run"</span>:<span class="hljs-number">1</span>,
-        <span class="hljs-string">"agreement"</span>:<span class="hljs-number">1</span>
-    },
+        <span class="hljs-string">"agreement"</span>:<span class="hljs-number">1</span>    },
     <span class="hljs-string">"payment_details"</span>:{
         <span class="hljs-string">"payment"</span>:{
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">230</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">230</span>        },
         <span class="hljs-string">"vat"</span>: {
             <span class="hljs-string">"currency"</span>: <span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>: <span class="hljs-number">0</span>
-        },
+            <span class="hljs-string">"amount"</span>: <span class="hljs-number">0</span>        },
         <span class="hljs-string">"payout_currency_rate"</span>: <span class="hljs-number">1</span>,
         <span class="hljs-string">"payout"</span>:{
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">200</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">200</span>        },
         <span class="hljs-string">"xsolla_fee"</span>:{
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">10</span>
-        },
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">10</span>        },
         <span class="hljs-string">"payment_method_fee"</span>:{
             <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">20</span>
-        }
+            <span class="hljs-string">"amount"</span>:<span class="hljs-number">20</span>        }
     },
     <span class="hljs-string">"custom_parameters"</span>:{
         <span class="hljs-string">"parameter1"</span>:<span class="hljs-string">"value1"</span>,
-        <span class="hljs-string">"parameter2"</span>:<span class="hljs-string">"value2"</span>
-    }
+        <span class="hljs-string">"parameter2"</span>:<span class="hljs-string">"value2"</span>    }
 }'
 </code>
 </pre>
@@ -2266,24 +3033,35 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <div class="section-code">
 </div>
 </div>
-    </div>
-	
-	<div class="content">
-        <div class="section-content">
+</div>
+<div class="content">
+<div class="section-content">
 <div class="section-description">
 <div class="section-anchor" id="paystation_domain" data-headings="paystation_domain">
 </div>
 <h1 data-headings="paystation_domain">
 <a class="anchor" href="#paystation_domain">Запуск Pay Station на домене игры </a>
 </h1>
-<ol> <li>Зарегистрировать новое доменное имя вида **secure.yourdomain.com**. При регистрации следует указать текущий IP-адрес домена **secure.xsolla.com** (запись типа A), либо указать алиас на **secure.xsolla.com** (запись типа CNAME).</li> <li>Выпустить валидный сертификат SSL для данного домена — **secure.yourdomain.com**.</li> <li>Генерация ключа и запроса на подпись сертификата (CSR) с использованием пакета openssl. В командной строке выполните следующие инструкции:</p> <ul> <li>
-**Генерация ключа:** *openssl genrsa -out server.key 2048*
-</li> <li>
-**Генерация CSR:** *openssl req -new -key server.key -out server.csr*
-</p> <p>Во время генерации следует отвечать на вопросы в интерактивном режиме.</p> <p>
-**Важно!** В поле **Common Name** нужно указать имя вашего домена (**secure.yourdomain.com**).</li> </ul> </li> <li>Далее, на любом сайте, выдающем сертификаты (например, [GoDaddy](1)) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла **server.csr**.</p> <p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</li> <li>Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](1) с темой письма: **[Ваша игра]: SSL Certificate**.</li> <li>При интеграции через **Pay Station Embed** необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li> </ol>
+<ol>
+<li>Зарегистрировать новое доменное имя вида **secure.yourdomain.com**. При регистрации следует указать текущий IP-адрес домена **secure.xsolla.com** (запись типа A), либо указать алиас на **secure.xsolla.com** (запись типа CNAME).</li>
+<li>Выпустить валидный сертификат SSL для данного домена — **secure.yourdomain.com**.</li>
+<li>Генерация ключа и запроса на подпись сертификата (CSR) с использованием пакета openssl. В командной строке выполните следующие инструкции:</p>
+<ul>
+<li>**Генерация ключа:** *openssl genrsa -out server.key 2048*
+</li>
+<li>**Генерация CSR:** *openssl req -new -key server.key -out server.csr*
+</p>
+<p>Во время генерации следует отвечать на вопросы в интерактивном режиме.</p>
+<p>**Важно!** В поле **Common Name** нужно указать имя вашего домена (**secure.yourdomain.com**).</li>
+</ul>
+</li>
+<li>Далее, на любом сайте, выдающем сертификаты (например, [GoDaddy](1)) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла **server.csr**.</p>
+<p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</li>
+<li>Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](1) с темой письма: **[Ваша игра]: SSL Certificate**.</li>
+<li>При интеграции через **Pay Station Embed** необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li>
+</ol>
 </div>
 <div class="section-code">
 </div>
 </div>
-    </div>
+</div>
