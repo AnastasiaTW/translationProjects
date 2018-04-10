@@ -4,19 +4,9 @@
 
 <div class="section-description">
 
-Xsolla Login<br>
+Xsolla Login
 
-Xsolla Login lets players log into any game using their social network accounts. Allowing them to start playing instantly and easily. In addition, Xsolla Login stores players’ payment data enabling convenient one-click purchases in future. Developers can completely customize Xsolla Login to make it appear as a part of their game.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Integration Guide<br>
+Xsolla Login lets players log into any game using their social network accounts. Allowing them to start playing instantly and easily. In addition, Xsolla Login stores players’ payment data enabling convenient one-click purchases in future. Developers can completely customize Xsolla Login to make it appear as a part of their game.
 
 </div>
 
@@ -26,29 +16,7 @@ Integration Guide<br>
 
 <div class="section-description">
 
-Getting Started<br>
-
-Register your app by emailing us at [bizdev@xsolla.com](1)<br>
-
-With the following info:<br>
-
-*   **Site** - The website to connect to Xsolla Login (e.g. http://mysite.com).<br>
-
-*   **Domain** - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same _projectID_ .<br>
-
-*   **Supported authentication methods are:**:<br>
-
-    *   Login/password,<br>
-    *   SMS,<br>
-    *   Social networks (Facebook, Twitter, Steam, Twitch, VK, Naver, etc),<br>
-    *   i-PIN (BETA),<br>
-    *   Multi-factor authentication (BETA),<br>
-    *   Certificate (BETA)<br>
-    *   Local social network authentication (BETA).<br>
-
-In the last case, let us know which social networks you want to use for authentication.<br>
-
-We’ll reply with your _projectID_ and _secretKey_.<br>
+Integration Guide
 
 </div>
 
@@ -58,36 +26,68 @@ We’ll reply with your _projectID_ and _secretKey_.<br>
 
 <div class="section-description">
 
-Authentication Widget<br>
+Getting Started
 
-Using the example below, add a standard authentication widget to your project. Download the SCSS template [here](1).<br>
+Register your app by emailing us at [bizdev@xsolla.com](1)
 
-The default block width is 400 px; the height depends on the authentication options.<br>
+With the following info:
 
-[![Example of a default design](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png "Example of a default design") [ ![Example of a custom design](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png "Example of a custom design") [ ![Example of a custom design](1)](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png "Example of a custom design")<br>
+*   **Site** - The website to connect to Xsolla Login (e.g. http://mysite.com).
 
-Installing the Widget<br>
+*   **Domain** - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same _projectID_ .
 
-To add an Xsolla Login widget to your game, follow these steps:<br>
+*   **Supported authentication methods are:**:
 
-Step 1<br>
+    *   Login/password,
+    *   SMS,
+    *   Social networks (Facebook, Twitter, Steam, Twitch, VK, Naver, etc),
+    *   i-PIN (BETA),
+    *   Multi-factor authentication (BETA),
+    *   Certificate (BETA)
+    *   Local social network authentication (BETA).
 
-Enable xl.min.js in the <head> tag:<br>
+In the last case, let us know which social networks you want to use for authentication.
+
+We’ll reply with your _projectID_ and _secretKey_.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Authentication Widget
+
+Using the example below, add a standard authentication widget to your project. Download the SCSS template [here](1).
+
+The default block width is 400 px; the height depends on the authentication options.
+
+[![Example of a default design](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png "Example of a default design") [ ![Example of a custom design](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png "Example of a custom design") [ ![Example of a custom design](1)](https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png "Example of a custom design")
+
+Installing the Widget
+
+To add an Xsolla Login widget to your game, follow these steps:
+
+Step 1
+
+Enable xl.min.js in the <head> tag:
 
     <script src="https://static.xsolla.com/xsolla-login/1.1.1/xl.min.js"></script>
 
-Step 2<br>
+Step 2
 
-Add the initialization code in the <body> tag:<br>
+Add the initialization code in the <body> tag:
 
     <script type="text/javascript">
-    XL.init({<br>
-             projectId: '40db2ea4-5p47-11e6-a3ff-005056a0e04a',<br>
-             locale: 'en_US',<br>
-             onlyWidgets: true,<br>
-             redirectUrl: '<your redirect url>',<br>
-             fields: 'email'<br>
-         });<br>
+    XL.init({
+             projectId: '40db2ea4-5p47-11e6-a3ff-005056a0e04a',
+             locale: 'en_US',
+             onlyWidgets: true,
+             redirectUrl: '<your redirect url>',
+             fields: 'email'
+         });
     </script>
 
 <table>
@@ -124,10 +124,10 @@ Add the initialization code in the <body> tag:<br>
 
 <td style="text-align:left">string</td>
 
-<td style="text-align:left">User locale specified as <language code>_<country code>, where:<br>
+<td style="text-align:left">User locale specified as <language code>_<country code>, where:
 
-*   _language code_ is the language code according to [ISO 639 alpha-2](1);<br>
-*   _country code_ is the country (region) code according to [ISO 3166-1 alpha-2](1).<br>
+*   _language code_ is the language code according to [ISO 639 alpha-2](1);
+*   _country code_ is the country (region) code according to [ISO 3166-1 alpha-2](1).
 
 </td>
 
@@ -177,18 +177,18 @@ Add the initialization code in the <body> tag:<br>
 
 </table>
 
-Step 3<br>
+Step 3
 
-Add a DIV element to contain the widget, give it a unique id, and add the widget initialization code after it.<br>
+Add a DIV element to contain the widget, give it a unique id, and add the widget initialization code after it.
 
     <div id="xl_auth"></div>
     <script type="text/javascript">
-    var element_id = 'xl_auth';<br>
-    var options = {<br>
-        width: '200px',<br>
-        height: '200px'<br>
-    };<br>
-    XL.AuthWidget(element_id, options);<br>
+    var element_id = 'xl_auth';
+    var options = {
+        width: '200px',
+        height: '200px'
+    };
+    XL.AuthWidget(element_id, options);
     </script>
 
 <table>
@@ -261,9 +261,9 @@ Add a DIV element to contain the widget, give it a unique id, and add the widget
 
 <div class="section-description">
 
-Xsolla Login Server Side<br>
+Xsolla Login Server Side
 
-How it Works<br>
+How it Works
 
 <div class="scheme login">
 
@@ -281,7 +281,7 @@ How it Works<br>
 
 <div class="block_4 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">token valid?<span class="true-text">true <span class="false-text">false</div>
 
-<div class="block_5 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">user exist?<span class="true-text">true <span class="false-text">false<br>
+<div class="block_5 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png) <span class="xsolla-login-title">user exist?<span class="true-text">true <span class="false-text">false
 
 <div class="create-user">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create user</div>
 
@@ -293,7 +293,7 @@ How it Works<br>
 
 <div class="block_7 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png) <span class="xsolla-login-title">create domain specific user session</div>
 
-<div class="block_8 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png) <span class="xsolla-login-title">redirect user to successUrl<br>
+<div class="block_8 blocks">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png) <span class="xsolla-login-title">redirect user to successUrl
 
 <div class="redirect-error">![](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.c98e3ebd52.png) <span class="xsolla-login-title">redirect user to errorUrl</div>
 
@@ -305,17 +305,17 @@ How it Works<br>
 
 </div>
 
-Callback URL<br>
+Callback URL
 
-Redirects the user to this URL after authentication.<br>
+Redirects the user to this URL after authentication.
 
-Successful Authentication<br>
+Successful Authentication
 
-If the authentication is successful, we’ll redirect the user to your callback URL with the following parameters:<br>
+If the authentication is successful, we’ll redirect the user to your callback URL with the following parameters:
 
-**HTTP Request**<br>
+**HTTP Request**
 
-`GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`<br>
+`GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`
 
 <table>
 
@@ -359,19 +359,19 @@ If the authentication is successful, we’ll redirect the user to your callback 
 
 </table>
 
-Decrypted token (example)<br>
+Decrypted token (example)
 
-    {<br>
-      "exp": 1471071785,<br>
-      "iss": "https://login.xsolla.com",<br>
-      "iat": 1470985385,<br>
-      "id": "11111111",<br>
-      "name": "John Carter",<br>
-      "email": "john@example.com",<br>
-      "type": "social",<br>
-      "provider": "social_network",<br>
-      "xsolla_login_access_key": "s4dGNSPKinUxkSRI8rhPhZRElHj2yusqEeqgLIgn"<br>
-    }<br>
+    {
+      "exp": 1471071785,
+      "iss": "https://login.xsolla.com",
+      "iat": 1470985385,
+      "id": "11111111",
+      "name": "John Carter",
+      "email": "john@example.com",
+      "type": "social",
+      "provider": "social_network",
+      "xsolla_login_access_key": "s4dGNSPKinUxkSRI8rhPhZRElHj2yusqEeqgLIgn"
+    }
 
 <table>
 
@@ -485,13 +485,13 @@ Decrypted token (example)<br>
 
 </table>
 
-Failed Authentication<br>
+Failed Authentication
 
-If the authentication fails, we’ll redirect the user to your callback URL with the following [parameters:](1)<br>
+If the authentication fails, we’ll redirect the user to your callback URL with the following [parameters:](1)
 
-**HTTP Request**<br>
+**HTTP Request**
 
-`GET https://callBackUrl.php?error=003-002&error_description=User+not+found&redirect_url=https://site.com/fail_url`<br>
+`GET https://callBackUrl.php?error=003-002&error_description=User+not+found&redirect_url=https://site.com/fail_url`
 
 <table>
 
@@ -545,35 +545,35 @@ If the authentication fails, we’ll redirect the user to your callback URL with
 
 </table>
 
-Additional API Methods<br>
+Additional API Methods
 
-If you already have users, you can use authentication via proxy. In this case, implement the following methods:<br>
+If you already have users, you can use authentication via proxy. In this case, implement the following methods:
 
-Xsolla Login calls the methods from [https://login.xsolla.com/](1) and [https://test-login.xsolla.com/](1)<br>
+Xsolla Login calls the methods from [https://login.xsolla.com/](1) and [https://test-login.xsolla.com/](1)
 
-Login/Password Check<br>
+Login/Password Check
 
-*   Type: POST<br>
-*   Content-type: application/json<br>
-*   Request body: _{"username":"ХХХХ", "password":"ХХХХ"}_<br>
-*   Success: _{Ok 200}_<br>
-*   Failure: _{"error": {"code": "003-001", "description": "" }}_<br>
+*   Type: POST
+*   Content-type: application/json
+*   Request body: _{"username":"ХХХХ", "password":"ХХХХ"}_
+*   Success: _{Ok 200}_
+*   Failure: _{"error": {"code": "003-001", "description": "" }}_
 
-Signup<br>
+Signup
 
-*   Type: POST<br>
-*   Content-type: application/json<br>
-*   Request body: _{"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}_<br>
-*   Success: _{Ok 200}_<br>
-*   Failure: _{error: {code: "003-003|004", description: "" }}_<br>
+*   Type: POST
+*   Content-type: application/json
+*   Request body: _{"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}_
+*   Success: _{Ok 200}_
+*   Failure: _{error: {code: "003-003|004", description: "" }}_
 
-Password Reset<br>
+Password Reset
 
-*   Type: POST<br>
-*   Content-type: application/json<br>
-*   Request body: _{"email":"ХХХХ"}_<br>
-*   Success: _{Ok 200}_<br>
-*   Failure: _{"error": {"code": "003-002", "description": ""}}_<br>
+*   Type: POST
+*   Content-type: application/json
+*   Request body: _{"email":"ХХХХ"}_
+*   Success: _{Ok 200}_
+*   Failure: _{"error": {"code": "003-002", "description": ""}}_
 
 </div>
 
@@ -587,9 +587,9 @@ Password Reset<br>
 
 <div class="section-description">
 
-Xsolla Data Portal Powered by Slemma<br>
+Xsolla Data Portal Powered by Slemma
 
-This guide will help you navigate through our [demo](1), and understand how you can use these reports when you activate your own payment analytics in [Publisher Account](1). Below is information on how to read the [dashboards](1), description of each of their contents, definitions for the different [metrics](1) and [dimensions](1), and a list of [FAQ](1). If you have any further questions, ask us to clarify at [dataportal@xsolla.com](1)!<br>
+This guide will help you navigate through our [demo](1), and understand how you can use these reports when you activate your own payment analytics in [Publisher Account](1). Below is information on how to read the [dashboards](1), description of each of their contents, definitions for the different [metrics](1) and [dimensions](1), and a list of [FAQ](1). If you have any further questions, ask us to clarify at [dataportal@xsolla.com](1)!
 
 <div class="video-container"><iframe src="https://www.youtube.com/embed/JSoLff-hv4A" frameborder="0" allowfullscreen="" class="video"></iframe></div>
 
@@ -601,21 +601,11 @@ This guide will help you navigate through our [demo](1), and understand how you 
 
 <div class="section-description">
 
-Dashboards<br>
+Dashboards
 
-A dashboard is a collection of charts and graphs that give you insights into a specific topic. Each one will allow you to increase awareness on a different part of your company and help you make data-driven decisions.<br>
+A dashboard is a collection of charts and graphs that give you insights into a specific topic. Each one will allow you to increase awareness on a different part of your company and help you make data-driven decisions.
 
-[![Overview dashboard](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png "Overview dashboard") [ ![Banks issued user credit cards](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png "Banks issued user credit cards") [ ![Revenue single values and trends charts](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png "Revenue single values and trends charts") [ ![Payment methods groups columns and heatmap](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png "Payment methods groups columns and heatmap") [ ![Paying users charts](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png "Paying users charts") [ ![Revenue by currencies](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png "Revenue by currencies") [ ![Credit cards conversion rate](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png "Credit cards conversion rate") [ ![Payment cancellations reasons](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png "Payment cancellations reasons") [ ![Paying users by operating systems](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png "Paying users by operating systems") [ ![Countries bubble chart](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png "Countries bubble chart") [ ![Credit cards insights](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png "Credit cards insights") [ ![Payment systems conversion](1)](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png "Payment systems conversion")<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Main concepts<br>
+[![Overview dashboard](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_overview_real.7a176f7234.png "Overview dashboard") [ ![Banks issued user credit cards](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_banks_real.e406e8c539.png "Banks issued user credit cards") [ ![Revenue single values and trends charts](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_trends_real.6520500024.png "Revenue single values and trends charts") [ ![Payment methods groups columns and heatmap](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_revenue_real.100e11768d.png "Payment methods groups columns and heatmap") [ ![Paying users charts](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_paying_users_real.fbfabd4e46.png "Paying users charts") [ ![Revenue by currencies](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_revenue_currencies_real.95a276f72c.png "Revenue by currencies") [ ![Credit cards conversion rate](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_conversion_real.92d5b03bc3.png "Credit cards conversion rate") [ ![Payment cancellations reasons](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_cancellations_reasons_real.e0fad6e649.png "Payment cancellations reasons") [ ![Paying users by operating systems](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_devices_operating_systems_paying_users_real.c3ab2080a4.png "Paying users by operating systems") [ ![Countries bubble chart](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_geography_countries_bubbles_real.f234bfaf21.png "Countries bubble chart") [ ![Credit cards insights](1) ](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_credit_cards_insights_real.0ef2022684.png "Credit cards insights") [ ![Payment systems conversion](1)](https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/data-portal_payment_systems_conversion_real.2443c0ce2c.png "Payment systems conversion")
 
 </div>
 
@@ -625,9 +615,7 @@ Main concepts<br>
 
 <div class="section-description">
 
-Filters<br>
-
-Each dashboard has several filters, located at the top, to allow you to filter your data through the many [dimensions](1). To utilize these filters, select one and check the boxes of the dimensions through which you would like to limit the data. For instance, under a **User Country** Filter you could select the _United States_ so the data of the dashboard will only include that which came from users located in the _United States_. You can switch to ‘Exclude' by pressing the three dots to the right of the filter name when hovering. Be sure to take advantage of these filters to dig deeper into your games' data.<br>
+Main concepts
 
 </div>
 
@@ -637,21 +625,9 @@ Each dashboard has several filters, located at the top, to allow you to filter y
 
 <div class="section-description">
 
-Single values growth indicators<br>
+Filters
 
-Growth indicators will compare the current status of the shown [metric](1) with that of the previous period of the same length. Green and upward-facing arrows indicate a rise from the previous period while red, downward-facing arrows indicate a drop.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Selected period single values<br>
-
-Unlike some values which will only display the aggregation of the indicated period, these values will adjust based on the length of time set in the **Date** filter. Use this filter to change the aggregated time period of the dashboard and these values will adjust as well.<br>
+Each dashboard has several filters, located at the top, to allow you to filter your data through the many [dimensions](1). To utilize these filters, select one and check the boxes of the dimensions through which you would like to limit the data. For instance, under a **User Country** Filter you could select the _United States_ so the data of the dashboard will only include that which came from users located in the _United States_. You can switch to ‘Exclude' by pressing the three dots to the right of the filter name when hovering. Be sure to take advantage of these filters to dig deeper into your games' data.
 
 </div>
 
@@ -661,21 +637,9 @@ Unlike some values which will only display the aggregation of the indicated peri
 
 <div class="section-description">
 
-Daily average single values<br>
+Single values growth indicators
 
-In contrast to regular single values, daily average single values will not increase as the period increases. For example, **ARPPU** will rise as the period rises because of the same users making repeated payments. Average Revenue Per Paying Daily Average User (ARPPDAU) will not because it is the average of all the daily averages of the period, not the total payments and total paying users.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Aggregation by weeks and months<br>
-
-If you select a certain period, such as four weeks, with the **Date** filter, the data will show up segmented by weeks and display four. The aggregation for these weeks will be for all activity in that week, not the average of all the daily averages that are displayed when the graph is showing daily.<br>
+Growth indicators will compare the current status of the shown [metric](1) with that of the previous period of the same length. Green and upward-facing arrows indicate a rise from the previous period while red, downward-facing arrows indicate a drop.
 
 </div>
 
@@ -685,21 +649,9 @@ If you select a certain period, such as four weeks, with the **Date** filter, th
 
 <div class="section-description">
 
-Parallel period<br>
+Selected period single values
 
-Parallel Period graphs will allow you to do trend analysis. If the x-axis is displaying days, then the 28D ago line will be the value recorded 28D ago. The same goes for 14D ago and 7D ago. The lighter the line, the farther back the period.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Moving average<br>
-
-Moving averages are another way to conduct trend analysis. The time frame used in the calculations is displayed in the metric name. Understandably, longer timeframes will show a less volatility and show you the overall trend of the period. We use a simple moving average.<br>
+Unlike some values which will only display the aggregation of the indicated period, these values will adjust based on the length of time set in the **Date** filter. Use this filter to change the aggregated time period of the dashboard and these values will adjust as well.
 
 </div>
 
@@ -709,19 +661,9 @@ Moving averages are another way to conduct trend analysis. The time frame used i
 
 <div class="section-description">
 
-Download any chart to excel<br>
+Daily average single values
 
-If you would like to download data directly from charts you may do so. Simply right click on the chart and you can download the data as CSV, XLS, and for use in presentations, PNG.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Dashboards Reference<br>
+In contrast to regular single values, daily average single values will not increase as the period increases. For example, **ARPPU** will rise as the period rises because of the same users making repeated payments. Average Revenue Per Paying Daily Average User (ARPPDAU) will not because it is the average of all the daily averages of the period, not the total payments and total paying users.
 
 </div>
 
@@ -731,21 +673,9 @@ Dashboards Reference<br>
 
 <div class="section-description">
 
-Overview<br>
+Aggregation by weeks and months
 
-The Overview dashboard contains KPI's for your game and is perfect for daily analysis and to be displayed on your office TV. It includes **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices**, and **Average Payment Amount**.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Games<br>
-
-The Games dashboard is built for you to analyze the different payment situations of your different games. The metrics are laid side by side with all of the regular filters so you can prioritize your efforts and understand the differences between your projects.<br>
+If you select a certain period, such as four weeks, with the **Date** filter, the data will show up segmented by weeks and display four. The aggregation for these weeks will be for all activity in that week, not the average of all the daily averages that are displayed when the graph is showing daily.
 
 </div>
 
@@ -755,21 +685,9 @@ The Games dashboard is built for you to analyze the different payment situations
 
 <div class="section-description">
 
-Payment Systems<br>
+Parallel period
 
-Understanding how your users are paying can be just as valuable as knowing why. This dashboard will help you understand how different subgroups of your payers pay so you can optimize your site with the most popular payment systems displayed most conveniently.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Credit Cards<br>
-
-The Credit Cards dashboard is entirely devoted to the payment data from credit cards. Analyze conversion, reasons for rejections, and how many users asked Xsolla to save their payment data for a later purchase (hopefully indicating their intent to make another for your game)!<br>
+Parallel Period graphs will allow you to do trend analysis. If the x-axis is displaying days, then the 28D ago line will be the value recorded 28D ago. The same goes for 14D ago and 7D ago. The lighter the line, the farther back the period.
 
 </div>
 
@@ -779,21 +697,9 @@ The Credit Cards dashboard is entirely devoted to the payment data from credit c
 
 <div class="section-description">
 
-Revenue<br>
+Moving average
 
-The Revenue dashboards offers several different ways to perform trend analysis. Included in this dashboard are parallel period, moving average, and growth charts which can all help you understand where the data is going. It also contains a currencies sheet so you can make sure you are offering all of the currencies for the areas in which you operate.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Paying Users<br>
-
-The Paying Users dashboard is a way to understand the characteristics of your **Revenue**. If **Revenue** increases you can answer the question: Are new users converting to **Paying Users**, or are **Existing Paying Users** paying more?<br>
+Moving averages are another way to conduct trend analysis. The time frame used in the calculations is displayed in the metric name. Understandably, longer timeframes will show a less volatility and show you the overall trend of the period. We use a simple moving average.
 
 </div>
 
@@ -803,21 +709,9 @@ The Paying Users dashboard is a way to understand the characteristics of your **
 
 <div class="section-description">
 
-ARPPU<br>
+Download any chart to excel
 
-Average Revenue Per Paying User is yet another way to look at the paying habits of your users. This dashboard also contains single values of Average Revenue Per Paying Daily Active User which does not increase over time from single users making more than one payment.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Virtual Currency<br>
-
-The Virtual Currency dashboard will inform you on how many users have purchased your in game currency. Also you can upload your in-game data of spent game currency, create comparison dashboards, and check health of your in-game economy.<br>
+If you would like to download data directly from charts you may do so. Simply right click on the chart and you can download the data as CSV, XLS, and for use in presentations, PNG.
 
 </div>
 
@@ -827,9 +721,7 @@ The Virtual Currency dashboard will inform you on how many users have purchased 
 
 <div class="section-description">
 
-Geography<br>
-
-The Geography dashboard will help provide insights into the different paying habits of users depending on their location. Each sheet divides by a different grouping including: **Countries**, **Regions**, **Languages**, **Business Regions**, and **Timezones**.<br>
+Dashboards Reference
 
 </div>
 
@@ -839,21 +731,9 @@ The Geography dashboard will help provide insights into the different paying hab
 
 <div class="section-description">
 
-Devices<br>
+Overview
 
-The Devices dashboard contains information on your users frontend experience. You can use this information to optimize your site for the most appropriate devices and makes sure that it works on the most common browsers.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Cancellations<br>
-
-The Cancellations dashboard will allow you to keep tabs on fraud in your game. The overview sheet will show the number of cancellations by **Cancellation Date**, **Payment Date**, as a percent, and geographically. The reasons sheet gives you the ability to see the distribution of reasons for each cancellation.<br>
+The Overview dashboard contains KPI's for your game and is perfect for daily analysis and to be displayed on your office TV. It includes **Gross Revenue**, **Payments**, **Paying Users**, **ARPPU**, **Paid Invoices**, and **Average Payment Amount**.
 
 </div>
 
@@ -863,9 +743,9 @@ The Cancellations dashboard will allow you to keep tabs on fraud in your game. T
 
 <div class="section-description">
 
-Xsolla Dataset<br>
+Games
 
-All of these pre-defined dashboards are great, but what if you want to create your own? You can do this with the provided Xsolla Dataset! You can create an unlimited amount of dashboards with your [Slemma](1) account around your data; build any chart with any of the dimensions and measures.<br>
+The Games dashboard is built for you to analyze the different payment situations of your different games. The metrics are laid side by side with all of the regular filters so you can prioritize your efforts and understand the differences between your projects.
 
 </div>
 
@@ -875,9 +755,129 @@ All of these pre-defined dashboards are great, but what if you want to create yo
 
 <div class="section-description">
 
-Dimensions<br>
+Payment Systems
 
-Dimensions are how data is separated. These are not the values themselves, but a certain category of values. Every time you use a filter you are filtering by a dimension of the data. Examples of dimensions are **Countr**y, **Credit Card Type**, **Date**, etc.<br>
+Understanding how your users are paying can be just as valuable as knowing why. This dashboard will help you understand how different subgroups of your payers pay so you can optimize your site with the most popular payment systems displayed most conveniently.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Credit Cards
+
+The Credit Cards dashboard is entirely devoted to the payment data from credit cards. Analyze conversion, reasons for rejections, and how many users asked Xsolla to save their payment data for a later purchase (hopefully indicating their intent to make another for your game)!
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Revenue
+
+The Revenue dashboards offers several different ways to perform trend analysis. Included in this dashboard are parallel period, moving average, and growth charts which can all help you understand where the data is going. It also contains a currencies sheet so you can make sure you are offering all of the currencies for the areas in which you operate.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Paying Users
+
+The Paying Users dashboard is a way to understand the characteristics of your **Revenue**. If **Revenue** increases you can answer the question: Are new users converting to **Paying Users**, or are **Existing Paying Users** paying more?
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+ARPPU
+
+Average Revenue Per Paying User is yet another way to look at the paying habits of your users. This dashboard also contains single values of Average Revenue Per Paying Daily Active User which does not increase over time from single users making more than one payment.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Virtual Currency
+
+The Virtual Currency dashboard will inform you on how many users have purchased your in game currency. Also you can upload your in-game data of spent game currency, create comparison dashboards, and check health of your in-game economy.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Geography
+
+The Geography dashboard will help provide insights into the different paying habits of users depending on their location. Each sheet divides by a different grouping including: **Countries**, **Regions**, **Languages**, **Business Regions**, and **Timezones**.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Devices
+
+The Devices dashboard contains information on your users frontend experience. You can use this information to optimize your site for the most appropriate devices and makes sure that it works on the most common browsers.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Cancellations
+
+The Cancellations dashboard will allow you to keep tabs on fraud in your game. The overview sheet will show the number of cancellations by **Cancellation Date**, **Payment Date**, as a percent, and geographically. The reasons sheet gives you the ability to see the distribution of reasons for each cancellation.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Xsolla Dataset
+
+All of these pre-defined dashboards are great, but what if you want to create your own? You can do this with the provided Xsolla Dataset! You can create an unlimited amount of dashboards with your [Slemma](1) account around your data; build any chart with any of the dimensions and measures.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Dimensions
+
+Dimensions are how data is separated. These are not the values themselves, but a certain category of values. Every time you use a filter you are filtering by a dimension of the data. Examples of dimensions are **Countr**y, **Credit Card Type**, **Date**, etc.
 
 <table>
 
@@ -1299,9 +1299,9 @@ Dimensions are how data is separated. These are not the values themselves, but a
 
 <div class="section-description">
 
-Measures<br>
+Measures
 
-Measures, in contrast to dimensions, are the values that are actually graphed on your charts. Examples of measures are **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.<br>
+Measures, in contrast to dimensions, are the values that are actually graphed on your charts. Examples of measures are **Revenue**, **Paying Users**, **Conversion**, **Average Payments Amount**.
 
 <table>
 
@@ -1585,7 +1585,7 @@ Measures, in contrast to dimensions, are the values that are actually graphed on
 
 </table>
 
-Measures can be aggregated in different ways. Here are descriptions of each type of aggregation you will see when viewing your dashboards:<br>
+Measures can be aggregated in different ways. Here are descriptions of each type of aggregation you will see when viewing your dashboards:
 
 <table>
 
@@ -1655,107 +1655,107 @@ Measures can be aggregated in different ways. Here are descriptions of each type
 
 <div class="section-description">
 
-FAQ<br>
+FAQ
 
-**Q.** How much is it?<br>
+**Q.** How much is it?
 
-**A.** It's free for all Xsolla customers.<br>
+**A.** It's free for all Xsolla customers.
 
-* * *<br>
+* * *
 
-**Q.** How can I activate data portal for my account?<br>
+**Q.** How can I activate data portal for my account?
 
-**A.** You need to have an active project with completed payments. You can activate the data portal in [Publisher Account](1)<br>
+**A.** You need to have an active project with completed payments. You can activate the data portal in [Publisher Account](1)
 
-* * *<br>
+* * *
 
-**Q.** What currency is the data in?<br>
+**Q.** What currency is the data in?
 
-**A.** There are three currencies available: US dollar, Euro and Russian ruble. There is also an option to filter data in the payment currency.<br>
+**A.** There are three currencies available: US dollar, Euro and Russian ruble. There is also an option to filter data in the payment currency.
 
-* * *<br>
+* * *
 
-**Q.** How can I upload my own data to [Slemma](1)?<br>
+**Q.** How can I upload my own data to [Slemma](1)?
 
-**A.** You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database. You can learn more at the [Slemma knowledge base](1)<br>
+**A.** You have several options to upload additional data: upload files from your computer or cloud storage, or connect directly to your database. You can learn more at the [Slemma knowledge base](1)
 
-* * *<br>
+* * *
 
-**Q.** I'm concerned about my data privacy and security.<br>
+**Q.** I'm concerned about my data privacy and security.
 
-**A.** We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud. All data transferred in and out of the warehouse is through TLS encrypted connections. Raw payments data is not available in [Slemma](1). Only aggregated data without personal user information is available. We applied principles of least privilege, firewalls, encryption, and other technical and operating approaches to keep your data safe.<br>
+**A.** We store all data in our secure Xsolla data warehouse inside Amazon Web Service's isolated private cloud. All data transferred in and out of the warehouse is through TLS encrypted connections. Raw payments data is not available in [Slemma](1). Only aggregated data without personal user information is available. We applied principles of least privilege, firewalls, encryption, and other technical and operating approaches to keep your data safe.
 
-* * *<br>
+* * *
 
-**Q.** This analytics lacks some data available in [Publisher Account](1). How can I get it in [Slemma](1)?<br>
+**Q.** This analytics lacks some data available in [Publisher Account](1). How can I get it in [Slemma](1)?
 
-**A.** Send us a feature request via email [dataportal@xsolla.com](1)<br>
+**A.** Send us a feature request via email [dataportal@xsolla.com](1)
 
-* * *<br>
+* * *
 
-**Q.** Is it possible to download data from [Slemma](1)?<br>
+**Q.** Is it possible to download data from [Slemma](1)?
 
-**A.** You can download charts and their data in different formats from [Slemma](1) by right clicking on the object and selecting the file type. You can also download entire dashboards as PDFs and PNGs. If you need raw data, you can use [Xsolla Reports API](1)<br>
+**A.** You can download charts and their data in different formats from [Slemma](1) by right clicking on the object and selecting the file type. You can also download entire dashboards as PDFs and PNGs. If you need raw data, you can use [Xsolla Reports API](1)
 
-* * *<br>
+* * *
 
-**Q.** Can I use this analytics for verifying or financial reports?<br>
+**Q.** Can I use this analytics for verifying or financial reports?
 
-**A.** No, the data might be not 100% accurate since it's using average daily exchange rates.<br>
+**A.** No, the data might be not 100% accurate since it's using average daily exchange rates.
 
-* * *<br>
+* * *
 
-**Q.** How often is the data updated?<br>
+**Q.** How often is the data updated?
 
-**A.** The data gets updated daily at 2:00 AM UTC<br>
+**A.** The data gets updated daily at 2:00 AM UTC
 
-* * *<br>
+* * *
 
-**Q.** How precise are the metrics?<br>
+**Q.** How precise are the metrics?
 
-**A.** We fetch all metrics on-the-fly from raw data stored in our data warehouse. This approach guarantees accuracy for metrics with any combination of grouping and filtering, especially for distinct-count and average metrics, for instance **Paying Users** and **Average Payment Amount**. However, we don't provide totally accurate finance data because we convert payment amounts to different currencies with daily average exchange rates and apply two digit rounding to resulting values. That being said, the end difference is rarely greater than $0.01.<br>
+**A.** We fetch all metrics on-the-fly from raw data stored in our data warehouse. This approach guarantees accuracy for metrics with any combination of grouping and filtering, especially for distinct-count and average metrics, for instance **Paying Users** and **Average Payment Amount**. However, we don't provide totally accurate finance data because we convert payment amounts to different currencies with daily average exchange rates and apply two digit rounding to resulting values. That being said, the end difference is rarely greater than $0.01.
 
-* * *<br>
+* * *
 
-**Q.** [Slemma](1) and analytics [Publisher Account](1) show different numbers. Why?<br>
+**Q.** [Slemma](1) and analytics [Publisher Account](1) show different numbers. Why?
 
-**A.** The data in [Slemma](1) is in the UTC timezone, while the data in [Publisher Account](1) is in the UTC+3 timezone. We are going to change this behavior in future and show all data in the UTC timezone.<br>
+**A.** The data in [Slemma](1) is in the UTC timezone, while the data in [Publisher Account](1) is in the UTC+3 timezone. We are going to change this behavior in future and show all data in the UTC timezone.
 
-* * *<br>
+* * *
 
-**Q.** How can I invite other users for collaboration?<br>
+**Q.** How can I invite other users for collaboration?
 
-**A.** When you activate the analytics in [Publisher Account](1) you can choose members of your team to invite (all members by default). When logged in to [Slemma](1), you can invite new users in [Users and groups](1) settings.<br>
+**A.** When you activate the analytics in [Publisher Account](1) you can choose members of your team to invite (all members by default). When logged in to [Slemma](1), you can invite new users in [Users and groups](1) settings.
 
-* * *<br>
+* * *
 
-**Q.** Can I create my own reports?<br>
+**Q.** Can I create my own reports?
 
-**A.** Yes you definitely can!<br>
+**A.** Yes you definitely can!
 
-* * *<br>
+* * *
 
-**Q.** What team features does [Slemma](1) provide?<br>
+**Q.** What team features does [Slemma](1) provide?
 
-**A.** Team sharing of dashboards, commenting, annotations, permission control, and dashboard automated deliveries.<br>
+**A.** Team sharing of dashboards, commenting, annotations, permission control, and dashboard automated deliveries.
 
-* * *<br>
+* * *
 
-**Q.** I have another question about [Slemma](1)…<br>
+**Q.** I have another question about [Slemma](1)…
 
-**A.** Use the ‘Click here for help' widget on the left bottom side in [Slemma](1) to access their knowledge base or contact support with the same widget.<br>
+**A.** Use the ‘Click here for help' widget on the left bottom side in [Slemma](1) to access their knowledge base or contact support with the same widget.
 
-* * *<br>
+* * *
 
-**Q.** How do I to link several xsolla publisher accounts together in [Slemma](1)?<br>
+**Q.** How do I to link several xsolla publisher accounts together in [Slemma](1)?
 
-**A.** Contact us at [dataportal@xsolla.com](1)<br>
+**A.** Contact us at [dataportal@xsolla.com](1)
 
-* * *<br>
+* * *
 
-**Q.** I didn't find my question in this list…<br>
+**Q.** I didn't find my question in this list…
 
-**A.** Feel free to contact us with any questions at [dataportal@xsolla.com](1)<br>
+**A.** Feel free to contact us with any questions at [dataportal@xsolla.com](1)
 
 </div>
 
@@ -1769,20 +1769,20 @@ FAQ<br>
 
 <div class="section-description">
 
-Xsolla Network<br>
+Xsolla Network
 
-Xsolla Network is a global solution that helps build a game’s brand, acquire new users, and distribute the game through dozens affiliate networks, millions influencers, and hundreds of gaming media portals from one place. Game developers can easily configure and start revenue-sharing or CPA-based campaigns in mere minutes, and, since Xsolla is integrated with all the affiliates, they don’t need to make all those integrations from scratch. Game developers can distribute their offers or messages to influencers and gaming platforms, and pay them right from their Xsolla publisher account, without signing agreements with each of them, thus saving time, money, and R&D resources.<br>
+Xsolla Network is a global solution that helps build a game’s brand, acquire new users, and distribute the game through dozens affiliate networks, millions influencers, and hundreds of gaming media portals from one place. Game developers can easily configure and start revenue-sharing or CPA-based campaigns in mere minutes, and, since Xsolla is integrated with all the affiliates, they don’t need to make all those integrations from scratch. Game developers can distribute their offers or messages to influencers and gaming platforms, and pay them right from their Xsolla publisher account, without signing agreements with each of them, thus saving time, money, and R&D resources.
 
-*   User acquisition at no up-front charge<br>
-*   You can set the level of advertising at your own discretion, depending on the percentage you’re willing to pay.<br>
-*   Xsolla Network has already proven effective in the Life is Feudal success story.<br>
-*   4M Influencers on over 10 the most popular influencing platforms<br>
-*   Up to 100 Affiliate Networks<br>
-*   News Distribution over all Gaming Media<br>
-*   Performance tracking and analytics allow you to analyze your user acquisition campaigns using trackable links, promotional codes, and product activation keys.<br>
-*   If you are already integrated with Xsolla Login, you can go without the basic integration offering.<br>
+*   User acquisition at no up-front charge
+*   You can set the level of advertising at your own discretion, depending on the percentage you’re willing to pay.
+*   Xsolla Network has already proven effective in the Life is Feudal success story.
+*   4M Influencers on over 10 the most popular influencing platforms
+*   Up to 100 Affiliate Networks
+*   News Distribution over all Gaming Media
+*   Performance tracking and analytics allow you to analyze your user acquisition campaigns using trackable links, promotional codes, and product activation keys.
+*   If you are already integrated with Xsolla Login, you can go without the basic integration offering.
 
-Xsolla Network is a part of Xsolla product ecosystem and can be used alongside Pay Station, Mobile Pay Station and/or Pay2Play. Before start please implement our [billing and payments solution](1).<br>
+Xsolla Network is a part of Xsolla product ecosystem and can be used alongside Pay Station, Mobile Pay Station and/or Pay2Play. Before start please implement our [billing and payments solution](1).
 
 </div>
 
@@ -1792,31 +1792,21 @@ Xsolla Network is a part of Xsolla product ecosystem and can be used alongside P
 
 <div class="section-description">
 
-Interaction Diagram<br>
+Interaction Diagram
 
 <div class="getting-started">![Xsolla Network](1)</div>
 
-1) The user clicks on the advertising banner and is taken to the Xsolla Proxy page with the information about the game. Xsolla collects all utm parameters from url, including unique event ID (such as Click ID), and generate universal Tracking ID parameter for further communications.<br>
+1) The user clicks on the advertising banner and is taken to the Xsolla Proxy page with the information about the game. Xsolla collects all utm parameters from url, including unique event ID (such as Click ID), and generate universal Tracking ID parameter for further communications.
 
-2) With the Tracking ID, saved in users' cookie, the user goes on the Game Landing page.<br>
+2) With the Tracking ID, saved in users' cookie, the user goes on the Game Landing page.
 
-3) The user starts the registration process in the game. You should save the users' Tracking ID in the game database.<br>
+3) The user starts the registration process in the game. You should save the users' Tracking ID in the game database.
 
-4) You send the information about user registration into Xsolla via API.<br>
+4) You send the information about user registration into Xsolla via API.
 
-5) You should send the users' Tracking ID in the parameters for getting token. When the payment is completed, we save this information in our database.<br>
+5) You should send the users' Tracking ID in the parameters for getting token. When the payment is completed, we save this information in our database.
 
-6) The information that was kept on the first step is sent back with unique user action.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Integration Guide<br>
+6) The information that was kept on the first step is sent back with unique user action.
 
 </div>
 
@@ -1826,15 +1816,7 @@ Integration Guide<br>
 
 <div class="section-description">
 
-Changes in token request<br>
-
-You should additionally send the information about Tracking ID in the JSON for getting token. Tracking ID is the part of "user" object.<br>
-
-Example request<br>
-
-        <br>
-
-All parameters, which are already included in your JSON for token, should remain the same.<br>
+Integration Guide
 
 </div>
 
@@ -1844,15 +1826,33 @@ All parameters, which are already included in your JSON for token, should remain
 
 <div class="section-description">
 
-New API request<br>
+Changes in token request
 
-When the user with a Tracking ID completes the registration process, you should send us the request via API.<br>
+You should additionally send the information about Tracking ID in the JSON for getting token. Tracking ID is the part of "user" object.
 
-Example request<br>
+Example request
 
-     \<br>
-    -X PUT \<br>
-    -u merchant_id:merchant_api_key<br>
+        
+
+All parameters, which are already included in your JSON for token, should remain the same.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+New API request
+
+When the user with a Tracking ID completes the registration process, you should send us the request via API.
+
+Example request
+
+     \
+    -X PUT \
+    -u merchant_id:merchant_api_key
 
 <table>
 
@@ -1896,9 +1896,9 @@ Example request<br>
 
 </table>
 
-Example response<br>
+Example response
 
-    HTTP/1.1 204 No Content<br>
+    HTTP/1.1 204 No Content
 
 </div>
 
@@ -1912,26 +1912,14 @@ Example response<br>
 
 <div class="section-description">
 
-Pay2Play<br>
+Pay2Play
 
-The **Pay2Play** module allows game developers to sell PIN codes directly from a game's website. Users can access the store using the Pay2Play widget. The module has several integration options and allows developers to:<br>
+The **Pay2Play** module allows game developers to sell PIN codes directly from a game's website. Users can access the store using the Pay2Play widget. The module has several integration options and allows developers to:
 
-*   Choose different DRM platforms<br>
-*   Set different prices for different DRM platforms<br>
-*   Configure widget size and color theme<br>
-*   Pay tips to the developer<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-User Flow<br>
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_userflow.5827dbc490.png)<br>
+*   Choose different DRM platforms
+*   Set different prices for different DRM platforms
+*   Configure widget size and color theme
+*   Pay tips to the developer
 
 </div>
 
@@ -1941,28 +1929,9 @@ User Flow<br>
 
 <div class="section-description">
 
-Integration Options<br>
+User Flow
 
-You can integrate the module in either advanced or basic mode.<br>
-
-Basic Integration<br>
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_basic.6fbae1f6dc.png)<br>
-
-Basic integration:<br>
-
-*   Is quick to implement,<br>
-*   Does not require token generation or server implementation, and<br>
-*   Works well for games not requiring user pre-authorization.<br>
-
-Advanced Integration<br>
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_adv.1bfcc4e872.png)<br>
-
-Advanced integration:<br>
-
-*   Allows you to securely transfer user and purchase data for its further linking on the game side, and<br>
-*   Requires server-side implementation.<br>
+![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_userflow.5827dbc490.png)
 
 </div>
 
@@ -1972,20 +1941,51 @@ Advanced integration:<br>
 
 <div class="section-description">
 
-Basic Integration Guide<br>
+Integration Options
 
-To implement basic integration:<br>
+You can integrate the module in either advanced or basic mode.
 
-1.  Register an [Xsolla Publisher Account](1).<br>
-2.  [Create a project](1).<br>
-3.  [Set up the module](1).<br>
-4.  [Test](1) the payment process.<br>
-5.  Add the [Pay2Play widget](1) to the game page.<br>
-6.  Sign an agreement.<br>
+Basic Integration
 
-The following parameters are required for the integration:<br>
+![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_basic.6fbae1f6dc.png)
 
-*   **Project ID** — shown in the Publisher Account URL when viewing project settings: _https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/_.<br>
+Basic integration:
+
+*   Is quick to implement,
+*   Does not require token generation or server implementation, and
+*   Works well for games not requiring user pre-authorization.
+
+Advanced Integration
+
+![](https://cdn.xsolla.net/developers.xsolla.com/images/Pay2Play_partnerflow_adv.1bfcc4e872.png)
+
+Advanced integration:
+
+*   Allows you to securely transfer user and purchase data for its further linking on the game side, and
+*   Requires server-side implementation.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Basic Integration Guide
+
+To implement basic integration:
+
+1.  Register an [Xsolla Publisher Account](1).
+2.  [Create a project](1).
+3.  [Set up the module](1).
+4.  [Test](1) the payment process.
+5.  Add the [Pay2Play widget](1) to the game page.
+6.  Sign an agreement.
+
+The following parameters are required for the integration:
+
+*   **Project ID** — shown in the Publisher Account URL when viewing project settings: _https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/_.
 
 <aside class="notise2">This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](1). In case of any questions, please contact your account manager.</aside>
 
@@ -1997,38 +1997,14 @@ The following parameters are required for the integration:<br>
 
 <div class="section-description">
 
-Creating a Project<br>
+Creating a Project
 
-1.  Go to **Projects** and click **Create new project**.<br>
-2.  In set up mode:  <br>
+1.  Go to **Projects** and click **Create new project**.
+2.  In set up mode:  
 
-    *   Set **Webhooks** to **Off**.<br>
-    *   Set **Serverless integration** to **On**.<br>
-    *   Turn on the **Pay2Play** module.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Setting Up the Module<br>
-
-1.  Go to the **Pay2Play** module settings and configure the following parameters for the game:<br>
-    *   Name.<br>
-    *   Description.<br>
-    *   System requirements.<br>
-    *   SKU — a unique identifier.<br>
-    *   Release date.<br>
-    *   Image.<br>
-    *   DRM platform.<br>
-    *   Operating systems/game console versions for the selected DRM platforms.<br>
-2.  Click **Next**.<br>
-3.  Configure prices for the selected DRM platforms. Click **Next**.<br>
-4.  Set **Uploaded codes** to **On**.<br>
-5.  Upload PIN codes for the selected DRM platforms.<br>
+    *   Set **Webhooks** to **Off**.
+    *   Set **Serverless integration** to **On**.
+    *   Turn on the **Pay2Play** module.
 
 </div>
 
@@ -2038,22 +2014,46 @@ Setting Up the Module<br>
 
 <div class="section-description">
 
-Testing Payment Process<br>
+Setting Up the Module
 
-Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"settings.mode" = "sandbox"_ within the _access_data_ object. The JSON structure and parameters in _access_data_ are the same as in the [Token](1) request.<br>
+1.  Go to the **Pay2Play** module settings and configure the following parameters for the game:
+    *   Name.
+    *   Description.
+    *   System requirements.
+    *   SKU — a unique identifier.
+    *   Release date.
+    *   Image.
+    *   DRM platform.
+    *   Operating systems/game console versions for the selected DRM platforms.
+2.  Click **Next**.
+3.  Configure prices for the selected DRM platforms. Click **Next**.
+4.  Set **Uploaded codes** to **On**.
+5.  Upload PIN codes for the selected DRM platforms.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Testing Payment Process
+
+Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"settings.mode" = "sandbox"_ within the _access_data_ object. The JSON structure and parameters in _access_data_ are the same as in the [Token](1) request.
 
 <aside class="notise2">Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment.</aside>
 
-To test a bank card payment:<br>
+To test a bank card payment:
 
-1.  Open the store in sandbox mode.<br>
-2.  Choose the item to purchase.<br>
-3.  Choose the **Credit/debit cards** group of payment methods.<br>
-4.  Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.<br>
+1.  Open the store in sandbox mode.
+2.  Choose the item to purchase.
+3.  Choose the **Credit/debit cards** group of payment methods.
+4.  Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.
 
-[List of bank cards to be used for testing](1)<br>
+[List of bank cards to be used for testing](1)
 
-**Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.<br>
+**Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.
 
 </div>
 
@@ -2063,11 +2063,11 @@ To test a bank card payment:<br>
 
 <div class="section-description">
 
-Integrating the Pay2Play Widget<br>
+Integrating the Pay2Play Widget
 
-The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.<br>
+The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.
 
-Asynchronous loading example<br>
+Asynchronous loading example
 
 <div class="content-code">
 
@@ -2082,20 +2082,20 @@ Asynchronous loading example<br>
 </div>
 
      <script>
-         var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};<br>
-         var target_element = "#widget-example-element";<br>
-         var s = document.createElement('script');<br>
-         s.type = "text/javascript";<br>
-         s.async = true;<br>
-         s.src = "//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js";<br>
-         s.addEventListener('load', function (e) {<br>
-             var widgetInstance = XPay2PlayWidget.create(access_data,target_element);<br>
-         }, false);<br>
-         var head = document.getElementsByTagName('head')[0];<br>
-         head.appendChild(s);<br>
+         var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};
+         var target_element = "#widget-example-element";
+         var s = document.createElement('script');
+         s.type = "text/javascript";
+         s.async = true;
+         s.src = "//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js";
+         s.addEventListener('load', function (e) {
+             var widgetInstance = XPay2PlayWidget.create(access_data,target_element);
+         }, false);
+         var head = document.getElementsByTagName('head')[0];
+         head.appendChild(s);
      </script>
 
-You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).<br>
+You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).
 
 <aside class="notise2">**Important!** You need to sign an agreement before you can accept real payments.</aside>
 
@@ -2109,24 +2109,24 @@ You can find the complete list of widget initialization parameters in the [API R
 
 <div class="section-description">
 
-Advanced Integration Guide<br>
+Advanced Integration Guide
 
-To implement advanced integration:<br>
+To implement advanced integration:
 
-1.  Register an [Xsolla Publisher Account](1).<br>
-2.  [Create a project](1).<br>
-3.  [Set up the module](1).<br>
-4.  [Get a token](1).<br>
-5.  [Set up webhook handling](1).<br>
-6.  [Test](1) the payment process.<br>
-7.  Add the [Pay2Play widget](1) to the game page and sign the agreement.<br>
+1.  Register an [Xsolla Publisher Account](1).
+2.  [Create a project](1).
+3.  [Set up the module](1).
+4.  [Get a token](1).
+5.  [Set up webhook handling](1).
+6.  [Test](1) the payment process.
+7.  Add the [Pay2Play widget](1) to the game page and sign the agreement.
 
-The following parameters are required for the integration:<br>
+The following parameters are required for the integration:
 
-*   **Merchant ID** — shown in the Publisher Account URL: _https://publisher.xsolla.com/{merchant_id}/_.<br>
-*   **API Key** — generated in **Publisher Account > Settings > Company**.<br>
-*   **Project ID** — shown in the Publisher Account URL when viewing project settings: _https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/_.<br>
-*   **Project secret key** — generated in project settings.<br>
+*   **Merchant ID** — shown in the Publisher Account URL: _https://publisher.xsolla.com/{merchant_id}/_.
+*   **API Key** — generated in **Publisher Account > Settings > Company**.
+*   **Project ID** — shown in the Publisher Account URL when viewing project settings: _https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/_.
+*   **Project secret key** — generated in project settings.
 
 <aside class="notise2">This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](1). In case of any questions, please contact your account manager.</aside>
 
@@ -2138,39 +2138,15 @@ The following parameters are required for the integration:<br>
 
 <div class="section-description">
 
-Creating a Project<br>
+Creating a Project
 
-1.  Go to **Projects** and click **Create new project**.<br>
-2.  In the project settings:<br>
-    *   Set **Webhooks** to **On**.<br>
-    *   Specify the webhook URL.<br>
-    *   Generate a secret key to sign project webhooks.<br>
-    *   Set **Serverless integration** to **Off**.<br>
-    *   Turn on the **Pay2Play** module.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Setting Up the Module<br>
-
-1.  Go to the **Pay2Play** module settings and configure the following parameters for the game:<br>
-    *   Name.<br>
-    *   Description.<br>
-    *   System requirements.<br>
-    *   SKU — a unique identifier.<br>
-    *   Release date.<br>
-    *   Image.<br>
-    *   DRM platform.<br>
-    *   Operating systems/game console versions for the selected DRM platforms.<br>
-2.  Click **Next**.<br>
-3.  Configure prices for the selected DRM platforms. Click **Next**.<br>
-4.  Set **Uploaded codes** to **On**.<br>
-5.  Upload PIN codes for the selected DRM platforms.<br>
+1.  Go to **Projects** and click **Create new project**.
+2.  In the project settings:
+    *   Set **Webhooks** to **On**.
+    *   Specify the webhook URL.
+    *   Generate a secret key to sign project webhooks.
+    *   Set **Serverless integration** to **Off**.
+    *   Turn on the **Pay2Play** module.
 
 </div>
 
@@ -2180,61 +2156,21 @@ Setting Up the Module<br>
 
 <div class="section-description">
 
-Get Token to Open Store<br>
+Setting Up the Module
 
-To integrate the store UI into your game, you will need an access token. An access token is a string that identifies the game, user and purchase parameters.<br>
-
-Xsolla API uses HTTP Basic Authentication. Provide your Merchant ID as the basic auth username and the API key as your password.<br>
-
-Set the value to "mode":"sandbox" to test the payment process.<br>
-
-Token endpoint URL:<br>
-
-`[https://api.xsolla.com/merchant/merchants/{merchant_id}/token](1)`<br>
-
-In an HTTP POST request, you can use parameters for store UI. Request and response payloads are formatted as JSON.<br>
-
-Example Request<br>
-
-Below you can find sample code of how to get a token in PHP with the help of [Xsolla PHP SDK](1). If you're using another programming language, please take a look at the _CURL_ example by clicking on the CURL tab.<br>
-
-<div class="content-code">
-
-<div class="language-switcher">
-
-<div class="languages">
-
-<div class="lang active" data-lang="php">PHP</div>
-
-<div class="lang" data-lang="shell">CURL</div>
-
-</div>
-
-</div>
-
-    <?php<br>
-
-    use Xsolla\SDK\API\XsollaClient;<br>
-    use Xsolla\SDK\API\PaymentUI\TokenRequest;<br>
-
-    $tokenRequest = new TokenRequest($projectId, $userId);<br>
-    $tokenRequest->setUserEmail('email@example.com')<br>
-        ->setExternalPaymentId('12345')<br>
-        ->setSandboxMode(true)<br>
-        ->setUserName('USER_NAME')<br>
-        ->setCustomParameters(array('key1' => 'value1', 'key2' => 'value2'));<br>
-
-    $xsollaClient = XsollaClient::factory(array(<br>
-        'merchant_id' => MERCHANT_ID,<br>
-        'api_key' => API_KEY<br>
-    ));<br>
-    $token = $xsollaClient->createPaymentUITokenFromRequest($tokenRequest);<br>
-
-        <br>
-
-</div>
-
-You can find the full list of parameters in the [API Reference](1).<br>
+1.  Go to the **Pay2Play** module settings and configure the following parameters for the game:
+    *   Name.
+    *   Description.
+    *   System requirements.
+    *   SKU — a unique identifier.
+    *   Release date.
+    *   Image.
+    *   DRM platform.
+    *   Operating systems/game console versions for the selected DRM platforms.
+2.  Click **Next**.
+3.  Configure prices for the selected DRM platforms. Click **Next**.
+4.  Set **Uploaded codes** to **On**.
+5.  Upload PIN codes for the selected DRM platforms.
 
 </div>
 
@@ -2244,31 +2180,23 @@ You can find the full list of parameters in the [API Reference](1).<br>
 
 <div class="section-description">
 
-Setting up Webhooks<br>
+Get Token to Open Store
 
-Xsolla sends the following webhooks to your project:<br>
+To integrate the store UI into your game, you will need an access token. An access token is a string that identifies the game, user and purchase parameters.
 
-*   User Validation<br>
-*   Payment<br>
-*   Refund<br>
+Xsolla API uses HTTP Basic Authentication. Provide your Merchant ID as the basic auth username and the API key as your password.
 
-To acknowledge that you received webhook notifications without any problem, your server should return a 204 HTTP status code without body. The full description of webhook mechanism with samples is described in detail in the [API Reference](1).<br>
+Set the value to "mode":"sandbox" to test the payment process.
 
-Creating a Signature<br>
+Token endpoint URL:
 
-To create a signature:<br>
+`[https://api.xsolla.com/merchant/merchants/{merchant_id}/token](1)`
 
-1.  Concatenate the data sent in the Xsolla server’s request and the project’s secret key (generated in project settings).<br>
-2.  Hash the string using the SHA1 algorithm.<br>
-3.  Send the signature in the Signature header.<br>
+In an HTTP POST request, you can use parameters for store UI. Request and response payloads are formatted as JSON.
 
-When handling a webhook, make sure that the signature received matches the one set in the Signature header.<br>
+Example Request
 
-User Validation<br>
-
-The Xsolla server sends a request to the project’s webhook URL to verify that a user exists in the game.<br>
-
-Request example<br>
+Below you can find sample code of how to get a token in PHP with the help of [Xsolla PHP SDK](1). If you're using another programming language, please take a look at the _CURL_ example by clicking on the CURL tab.
 
 <div class="content-code">
 
@@ -2284,26 +2212,63 @@ Request example<br>
 
 </div>
 
-    $request = array(<br>
-        'notification_type' => 'user_validation',<br>
-        'user' => array(<br>
-            'ip' => '127.0.0.1',<br>
-            'phone' => '18777976552',<br>
-            'email'=> 'email@example.com',<br>
-            'id'=> '1234567',<br>
-            'country' => 'US'<br>
-        )<br>
-    )<br>
+    <?php
 
-    <br>
+    use Xsolla\SDK\API\XsollaClient;
+    use Xsolla\SDK\API\PaymentUI\TokenRequest;
 
-You can find the full list of parameters in the [API Reference](1).<br>
+    $tokenRequest = new TokenRequest($projectId, $userId);
+    $tokenRequest->setUserEmail('email@example.com')
+        ->setExternalPaymentId('12345')
+        ->setSandboxMode(true)
+        ->setUserName('USER_NAME')
+        ->setCustomParameters(array('key1' => 'value1', 'key2' => 'value2'));
 
-Payment<br>
+    $xsollaClient = XsollaClient::factory(array(
+        'merchant_id' => MERCHANT_ID,
+        'api_key' => API_KEY
+    ));
+    $token = $xsollaClient->createPaymentUITokenFromRequest($tokenRequest);
 
-The Xsolla server sends a webhook including payment details whenever a user completes a payment.<br>
+        
 
-Request example<br>
+</div>
+
+You can find the full list of parameters in the [API Reference](1).
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Setting up Webhooks
+
+Xsolla sends the following webhooks to your project:
+
+*   User Validation
+*   Payment
+*   Refund
+
+To acknowledge that you received webhook notifications without any problem, your server should return a 204 HTTP status code without body. The full description of webhook mechanism with samples is described in detail in the [API Reference](1).
+
+Creating a Signature
+
+To create a signature:
+
+1.  Concatenate the data sent in the Xsolla server’s request and the project’s secret key (generated in project settings).
+2.  Hash the string using the SHA1 algorithm.
+3.  Send the signature in the Signature header.
+
+When handling a webhook, make sure that the signature received matches the one set in the Signature header.
+
+User Validation
+
+The Xsolla server sends a request to the project’s webhook URL to verify that a user exists in the game.
+
+Request example
 
 <div class="content-code">
 
@@ -2319,77 +2284,26 @@ Request example<br>
 
 </div>
 
-    $request = array(<br>
-        'notification_type' => 'payment',<br>
-        'purchase' => array(<br>
-            'virtual_items' => array(<br>
-                'items' => array(<br>
-                    0 => array(<br>
-                        'sku' => 'test_item1',<br>
-                        'amount' => 1,<br>
-                        ),<br>
-                    1 => array(<br>
-                        'sku' => 'test_item2',<br>
-                        'amount' => 1,<br>
-                        ),<br>
-                    2 => array(<br>
-                        'sku' => 'test_item3',<br>
-                        'amount' => 1,<br>
-                        ),<br>
-                )<br>
-            ),<br>
-            'total' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.99<br>
-            )<br>
-        ),<br>
-        'user' => array(<br>
-            'ip' => '127.0.0.1',<br>
-            'phone' => '18777976552',<br>
-            'email' => 'email@example.com',<br>
-            'id' => '1234567',<br>
-            'country' => 'US'<br>
-        ),<br>
-        'transaction' => array(<br>
-            'id' => 87654321,<br>
-            'payment_date' => '2014-09-23T19:25:25+04:00',<br>
-            'payment_method' => 1380,<br>
-            'dry_run' => 1<br>
-        ),<br>
-        'payment_details' => array(<br>
-            'payment' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.99<br>
-            ),<br>
-            'vat' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 0<br>
-            ),<br>
-            'payout_currency_rate' => 1,<br>
-            'payout' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.49<br>
-            ),<br>
-            'xsolla_fee' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 0.19<br>
-            ),<br>
-            'payment_method_fee' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 0.31<br>
-            )<br>
-        )<br>
-    )<br>
+    $request = array(
+        'notification_type' => 'user_validation',
+        'user' => array(
+            'ip' => '127.0.0.1',
+            'phone' => '18777976552',
+            'email'=> 'email@example.com',
+            'id'=> '1234567',
+            'country' => 'US'
+        )
+    )
 
-    <br>
+    
 
-You can find the full list of parameters in the [API Reference](1).<br>
+You can find the full list of parameters in the [API Reference](1).
 
-Refund<br>
+Payment
 
-If the user cancels the payment, the Xsolla server sends a webhook notification with information about the payment.<br>
+The Xsolla server sends a webhook including payment details whenever a user completes a payment.
 
-Request example<br>
+Request example
 
 <div class="content-code">
 
@@ -2405,97 +2319,183 @@ Request example<br>
 
 </div>
 
-    $request = array(<br>
-        'notification_type' => 'refund',<br>
-        'purchase' => array(<br>
-            'virtual_currency' => array(<br>
-                'name' => 'Coins',<br>
-                'quantity' => 100,<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.99<br>
-            ),<br>
-            'total' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.99<br>
-            )<br>
-        ),<br>
-        'user' => array(<br>
-            'ip' => '127.0.0.1',<br>
-            'phone' => '18777976552',<br>
-            'email' => 'email@example.com',<br>
-            'id' => '1234567',<br>
-            'country' => 'US'<br>
-        ),<br>
-        'transaction' => array(<br>
-            'id' => 87654321,<br>
-            'payment_date' => '2014-09-23T19:25:25+04:00',<br>
-            'payment_method' => 1380,<br>
-            'dry_run' => 1<br>
-        ),<br>
-        'refund_details' => (<br>
-                'code' => 1,<br>
-                'reason' => 'Fraud'<br>
-        ),<br>
-        'payment_details' => array(<br>
-            'payment' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.99<br>
-            ),<br>
-            'vat' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 0<br>
-            ),<br>
-            'payout_currency_rate' => 1,<br>
-            'payout' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 9.49<br>
-            ),<br>
-            'xsolla_fee' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 0.19<br>
-            ),<br>
-            'payment_method_fee' => array(<br>
-                'currency' => 'USD',<br>
-                'amount' => 0.31<br>
-            )<br>
-        )<br>
-    );<br>
+    $request = array(
+        'notification_type' => 'payment',
+        'purchase' => array(
+            'virtual_items' => array(
+                'items' => array(
+                    0 => array(
+                        'sku' => 'test_item1',
+                        'amount' => 1,
+                        ),
+                    1 => array(
+                        'sku' => 'test_item2',
+                        'amount' => 1,
+                        ),
+                    2 => array(
+                        'sku' => 'test_item3',
+                        'amount' => 1,
+                        ),
+                )
+            ),
+            'total' => array(
+                'currency' => 'USD',
+                'amount' => 9.99
+            )
+        ),
+        'user' => array(
+            'ip' => '127.0.0.1',
+            'phone' => '18777976552',
+            'email' => 'email@example.com',
+            'id' => '1234567',
+            'country' => 'US'
+        ),
+        'transaction' => array(
+            'id' => 87654321,
+            'payment_date' => '2014-09-23T19:25:25+04:00',
+            'payment_method' => 1380,
+            'dry_run' => 1
+        ),
+        'payment_details' => array(
+            'payment' => array(
+                'currency' => 'USD',
+                'amount' => 9.99
+            ),
+            'vat' => array(
+                'currency' => 'USD',
+                'amount' => 0
+            ),
+            'payout_currency_rate' => 1,
+            'payout' => array(
+                'currency' => 'USD',
+                'amount' => 9.49
+            ),
+            'xsolla_fee' => array(
+                'currency' => 'USD',
+                'amount' => 0.19
+            ),
+            'payment_method_fee' => array(
+                'currency' => 'USD',
+                'amount' => 0.31
+            )
+        )
+    )
 
-    <br>
+    
 
-You can find the full list of parameters in the [API Reference](1).<br>
+You can find the full list of parameters in the [API Reference](1).
 
-Testing Webhooks<br>
+Refund
 
-To test the webhook handler:<br>
+If the user cancels the payment, the Xsolla server sends a webhook notification with information about the payment.
 
-1.  In the Publisher Account, open the module settings.<br>
-2.  Go to the **Testing** tab.<br>
-3.  Enter the test data and click **Test**. The Xsolla server will send all possible webhooks.<br>
-4.  The test is marked green in case of a valid response and red in case of an error.<br>
+Request example
 
-Testing Payment Process<br>
+<div class="content-code">
 
-Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"mode" = "sandbox"_ when [getting the token](1).<br>
+<div class="language-switcher">
+
+<div class="languages">
+
+<div class="lang active" data-lang="php">PHP</div>
+
+<div class="lang" data-lang="shell">CURL</div>
+
+</div>
+
+</div>
+
+    $request = array(
+        'notification_type' => 'refund',
+        'purchase' => array(
+            'virtual_currency' => array(
+                'name' => 'Coins',
+                'quantity' => 100,
+                'currency' => 'USD',
+                'amount' => 9.99
+            ),
+            'total' => array(
+                'currency' => 'USD',
+                'amount' => 9.99
+            )
+        ),
+        'user' => array(
+            'ip' => '127.0.0.1',
+            'phone' => '18777976552',
+            'email' => 'email@example.com',
+            'id' => '1234567',
+            'country' => 'US'
+        ),
+        'transaction' => array(
+            'id' => 87654321,
+            'payment_date' => '2014-09-23T19:25:25+04:00',
+            'payment_method' => 1380,
+            'dry_run' => 1
+        ),
+        'refund_details' => (
+                'code' => 1,
+                'reason' => 'Fraud'
+        ),
+        'payment_details' => array(
+            'payment' => array(
+                'currency' => 'USD',
+                'amount' => 9.99
+            ),
+            'vat' => array(
+                'currency' => 'USD',
+                'amount' => 0
+            ),
+            'payout_currency_rate' => 1,
+            'payout' => array(
+                'currency' => 'USD',
+                'amount' => 9.49
+            ),
+            'xsolla_fee' => array(
+                'currency' => 'USD',
+                'amount' => 0.19
+            ),
+            'payment_method_fee' => array(
+                'currency' => 'USD',
+                'amount' => 0.31
+            )
+        )
+    );
+
+    
+
+You can find the full list of parameters in the [API Reference](1).
+
+Testing Webhooks
+
+To test the webhook handler:
+
+1.  In the Publisher Account, open the module settings.
+2.  Go to the **Testing** tab.
+3.  Enter the test data and click **Test**. The Xsolla server will send all possible webhooks.
+4.  The test is marked green in case of a valid response and red in case of an error.
+
+Testing Payment Process
+
+Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending _"mode" = "sandbox"_ when [getting the token](1).
 
 <aside class="notise2">Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment.</aside>
 
-To test a bank card payment:<br>
+To test a bank card payment:
 
-1.  Open the store in sandbox mode.<br>
-2.  Choose the item to purchase.<br>
-3.  Click **Credit/debit cards**.<br>
-4.  Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.<br>
+1.  Open the store in sandbox mode.
+2.  Choose the item to purchase.
+3.  Click **Credit/debit cards**.
+4.  Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.
 
-[List of bank cards to be used for testing](1)<br>
+[List of bank cards to be used for testing](1)
 
-**Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.<br>
+**Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.
 
-Integrating the Pay2Play Widget<br>
+Integrating the Pay2Play Widget
 
-The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.<br>
+The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.
 
-Asynchronous loading example<br>
+Asynchronous loading example
 
 <div class="content-code">
 
@@ -2510,20 +2510,20 @@ Asynchronous loading example<br>
 </div>
 
      <script>
-         var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};<br>
-         var target_element = "#widget-example-element";<br>
-         var s = document.createElement('script');<br>
-         s.type = "text/javascript";<br>
-         s.async = true;<br>
-         s.src = "//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js";<br>
-         s.addEventListener('load', function (e) {<br>
-             var widgetInstance = XPay2PlayWidget.create(access_data,target_element);<br>
-         }, false);<br>
-         var head = document.getElementsByTagName('head')[0];<br>
-         head.appendChild(s);<br>
+         var access_data = {"settings":{"project_id":14004},"purchase":{"pin_codes":{"codes":[{"digital_content":"game_sku"}]}}};
+         var target_element = "#widget-example-element";
+         var s = document.createElement('script');
+         s.type = "text/javascript";
+         s.async = true;
+         s.src = "//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js";
+         s.addEventListener('load', function (e) {
+             var widgetInstance = XPay2PlayWidget.create(access_data,target_element);
+         }, false);
+         var head = document.getElementsByTagName('head')[0];
+         head.appendChild(s);
      </script>
 
-You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).<br>
+You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).
 
 <aside class="notise2">**Important!** You need to sign an agreement before you can accept real payments.</aside>
 
@@ -2543,7 +2543,7 @@ You can find the complete list of widget initialization parameters in the [API R
 
 <div class="section-description">
 
-Additional Features<br>
+Additional Features
 
 </div>
 
@@ -2553,26 +2553,11 @@ Additional Features<br>
 
 <div class="section-description">
 
-Tips to the Developer<br>
+Tips to the Developer
 
-A project can receive tips from each purchase. To enable the option, open Pay2Play price settings and set **Use Tips in the Pay2Play widget** to **On**. Three pre-defined tip amounts are available for each currency you add.<br>
+A project can receive tips from each purchase. To enable the option, open Pay2Play price settings and set **Use Tips in the Pay2Play widget** to **On**. Three pre-defined tip amounts are available for each currency you add.
 
-The user will be able to choose the tip amount before entering the store. The tips will be added to the purchase price.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Delivering PIN Codes via API<br>
-
-You can send PIN codes after each purchase instead of uploading the list of PIN codes in a file. To enable the feature:<br>
-
-*   Implement the [Get PIN code](1) webhook.<br>
-*   In Pay2Play settings, go to **Upload codes**, set **On demand** to **On** and **Uploaded codes** to **Off**.<br>
+The user will be able to choose the tip amount before entering the store. The tips will be added to the purchase price.
 
 </div>
 
@@ -2582,11 +2567,12 @@ You can send PIN codes after each purchase instead of uploading the list of PIN 
 
 <div class="section-description">
 
-Restricting PIN Code Sales<br>
+Delivering PIN Codes via API
 
-You can limit the number of PIN codes that can be sold for a project. You will get two email notifications: one when 100 or fewer PIN codes are left, and another one when none are. If the limit is exceeded, users won’t be able to execute payment.<br>
+You can send PIN codes after each purchase instead of uploading the list of PIN codes in a file. To enable the feature:
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/sold_out.58a2e21c8c.png)<br>
+*   Implement the [Get PIN code](1) webhook.
+*   In Pay2Play settings, go to **Upload codes**, set **On demand** to **On** and **Uploaded codes** to **Off**.
 
 </div>
 
@@ -2596,34 +2582,48 @@ You can limit the number of PIN codes that can be sold for a project. You will g
 
 <div class="section-description">
 
-Restricting Sales by Regions<br>
+Restricting PIN Code Sales
 
-The **Pay2Play** module allows you to configure regional restrictions on PIN code sales. In particular, you can:<br>
+You can limit the number of PIN codes that can be sold for a project. You will get two email notifications: one when 100 or fewer PIN codes are left, and another one when none are. If the limit is exceeded, users won’t be able to execute payment.
 
-*   Set different prices for individual countries or groups of countries;<br>
-*   Prohibit sales in certain countries.<br>
+![](https://cdn.xsolla.net/developers.xsolla.com/images/sold_out.58a2e21c8c.png)
 
-Once you have properly configured the project, a user trying to purchase a PIN code in a restricted country will see a corresponding warning. In countries for which PIN code sales are prohibited, payment is not possible.<br>
+</div>
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/reglock.4effd3ed91.png)<br>
+</div>
 
-To enable the feature, contact your account manager. We will need the following information for each platform that you want to be subject to regional restrictions:<br>
+<div class="section-content">
 
-*   Restriction type:<br>
-    *   Activation: A PIN code can be activated in certain countries only.<br>
-    *   Launch: A PIN code can be activated in any country, but the game can be launched in certain countries only;<br>
-    *   Activation and launch: A PIN code can be activated and the game can be launched in certain countries only.<br>
-*   List of country groups with different PIN code prices.<br>
-*   Settings for each group of countries:<br>
-    *   Group name.<br>
-    *   SKU — a unique group identifier.<br>
-    *   List of prices in different currencies. Make sure to include the price in the default currency set in module settings.<br>
-    *   List of countries within each group.<br>
-*   List of countries where PIN codes are disabled (if any).<br>
+<div class="section-description">
 
-For any single platform, a country can belong either to a different-price group or to the preorders-disabled group. If a country is not listed in any of the groups, PIN codes can be sold without any restrictions, at the prices set in default module settings.<br>
+Restricting Sales by Regions
 
-**Important!** If PIN code activation and game launching are made on your or the DRM platform’s side, then, on the release date, make sure to upload PIN codes with regional restrictions already configured.<br>
+The **Pay2Play** module allows you to configure regional restrictions on PIN code sales. In particular, you can:
+
+*   Set different prices for individual countries or groups of countries;
+*   Prohibit sales in certain countries.
+
+Once you have properly configured the project, a user trying to purchase a PIN code in a restricted country will see a corresponding warning. In countries for which PIN code sales are prohibited, payment is not possible.
+
+![](https://cdn.xsolla.net/developers.xsolla.com/images/reglock.4effd3ed91.png)
+
+To enable the feature, contact your account manager. We will need the following information for each platform that you want to be subject to regional restrictions:
+
+*   Restriction type:
+    *   Activation: A PIN code can be activated in certain countries only.
+    *   Launch: A PIN code can be activated in any country, but the game can be launched in certain countries only;
+    *   Activation and launch: A PIN code can be activated and the game can be launched in certain countries only.
+*   List of country groups with different PIN code prices.
+*   Settings for each group of countries:
+    *   Group name.
+    *   SKU — a unique group identifier.
+    *   List of prices in different currencies. Make sure to include the price in the default currency set in module settings.
+    *   List of countries within each group.
+*   List of countries where PIN codes are disabled (if any).
+
+For any single platform, a country can belong either to a different-price group or to the preorders-disabled group. If a country is not listed in any of the groups, PIN codes can be sold without any restrictions, at the prices set in default module settings.
+
+**Important!** If PIN code activation and game launching are made on your or the DRM platform’s side, then, on the release date, make sure to upload PIN codes with regional restrictions already configured.
 
 </div>
 
@@ -2637,27 +2637,17 @@ For any single platform, a country can belong either to a different-price group 
 
 <div class="section-description">
 
-Gifting<br>
+Gifting
 
-With in-game gifting, you can enable players to purchase in-game items as gifts for their friends & family who may enjoy playing a new game. Recipients of a gift will get an email with gift information and gift givers will get a receipt. They can also opt to hide their identity to send the gift anonymously. In either case, enabling gifting can drive both re-engagement and incremental revenue.<br>
+With in-game gifting, you can enable players to purchase in-game items as gifts for their friends & family who may enjoy playing a new game. Recipients of a gift will get an email with gift information and gift givers will get a receipt. They can also opt to hide their identity to send the gift anonymously. In either case, enabling gifting can drive both re-engagement and incremental revenue.
 
-This feature has various integration options and allows game projects to sell the following in-game items as gifts:<br>
+This feature has various integration options and allows game projects to sell the following in-game items as gifts:
 
-*   Virtual currency packages<br>
-*   Virtual items<br>
-*   Game activation keys<br>
+*   Virtual currency packages
+*   Virtual items
+*   Game activation keys
 
-The option is only available for projects that have disabled Xsolla-side storage of user-data. Go to your [Publisher Account](1) to configure and manage user-data storage settings.<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Interaction Scenarios<br>
+The option is only available for projects that have disabled Xsolla-side storage of user-data. Go to your [Publisher Account](1) to configure and manage user-data storage settings.
 
 </div>
 
@@ -2667,9 +2657,7 @@ Interaction Scenarios<br>
 
 <div class="section-description">
 
-Sending the Friend List in a Token<br>
-
-![](https://cdn.xsolla.net/developers.xsolla.com/images/type1_03.140efdf180.png)<br>
+Interaction Scenarios
 
 </div>
 
@@ -2679,21 +2667,9 @@ Sending the Friend List in a Token<br>
 
 <div class="section-description">
 
-Sending Friends via the API<br>
+Sending the Friend List in a Token
 
-![](https://cdn.xsolla.net/developers.xsolla.com/images/type2_03.166b51efde.png)<br>
-
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Integration Guide<br>
-
-The following integration options are available depending on the modules enabled for your project:<br>
+![](https://cdn.xsolla.net/developers.xsolla.com/images/type1_03.140efdf180.png)
 
 </div>
 
@@ -2703,12 +2679,9 @@ The following integration options are available depending on the modules enabled
 
 <div class="section-description">
 
-Pay2Play Module<br>
+Sending Friends via the API
 
-To enable the feature:<br>
-
-1.  [Set up](1) the Pay2Play module.<br>
-2.  Contact your account manager to enable the feature.<br>
+![](https://cdn.xsolla.net/developers.xsolla.com/images/type2_03.166b51efde.png)
 
 </div>
 
@@ -2718,14 +2691,9 @@ To enable the feature:<br>
 
 <div class="section-description">
 
-Virtual Items, Virtual Currency, or Payment Wall Modules<br>
+Integration Guide
 
-To enable the feature:<br>
-
-1.  Set up the [Virtual Items](1), [Virtual Currency](1), or [Payment Wall](1) module(s), respectively.<br>
-2.  Implement the [API method](1) to send the friend list to Xsolla, or add an object with friend data to the [token](1) request.<br>
-3.  Implement the [handling of the webhook](1) confirming a successful payment and containing the gift data.<br>
-4.  Contact your account manager to enable the feature.<br>
+The following integration options are available depending on the modules enabled for your project:
 
 </div>
 
@@ -2735,61 +2703,12 @@ To enable the feature:<br>
 
 <div class="section-description">
 
-Setting up the Module<br>
+Pay2Play Module
 
-To enable the feature, you must have the Virtual Items, Virtual Currency, or Payment Wall module(s) set up and turned on.<br>
+To enable the feature:
 
-</div>
-
-</div>
-
-<div class="section-content">
-
-<div class="section-description">
-
-Sending the Friend List in the Token Request<br>
-
-If necessary, you can add an array with the user’s friend list to the [request for token](1). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.<br>
-
-**Request example**<br>
-
-    "purchase":{<br>
-
-       "virtual_currency":{<br>
-
-           "quantity":100<br>
-
-       },<br>
-
-       "description":{<br>
-
-           "value":"Test Purchase"<br>
-
-       },<br>
-
-       "gift":{<br>
-
-           "giver_id":"John Smith",<br>
-
-           "message":"GG WP",<br>
-
-           "hide_giver_from_receiver" : true,<br>
-
-           "friends": [<br>
-
-           {<br>
-
-            "id": "123",<br>
-
-            "name": "captain",<br>
-
-            "email": "captain@ship.com"<br>
-
-           }]<br>
-
-       }<br>
-
-    }<br>
+1.  [Set up](1) the Pay2Play module.
+2.  Contact your account manager to enable the feature.
 
 </div>
 
@@ -2799,26 +2718,107 @@ If necessary, you can add an array with the user’s friend list to the [request
 
 <div class="section-description">
 
-Sending the Friend List via the API<br>
+Virtual Items, Virtual Currency, or Payment Wall Modules
 
-In this case, Xsolla sends a [request for the friend list](1) to the project’s webhook URL, which is configured in project settings.<br>
+To enable the feature:
 
-**Creating a signature**<br>
+1.  Set up the [Virtual Items](1), [Virtual Currency](1), or [Payment Wall](1) module(s), respectively.
+2.  Implement the [API method](1) to send the friend list to Xsolla, or add an object with friend data to the [token](1) request.
+3.  Implement the [handling of the webhook](1) confirming a successful payment and containing the gift data.
+4.  Contact your account manager to enable the feature.
 
-To create a signature:<br>
+</div>
 
-1.  Order the parameters received from the Xsolla server in alphabetic order.<br>
-2.  Concatenate the parameter values and the project’s secret key, as generated in project settings.<br>
-3.  Hash the resulting string using the SHA1 algorithm.<br>
-4.  Send the result in the 'sign' parameter.<br>
+</div>
 
-When processing the API request, make sure that the received signature matches the one sent in the 'sign' parameter.<br>
+<div class="section-content">
 
-Getting the List of Friends<br>
+<div class="section-description">
 
-**Request example**<br>
+Setting up the Module
 
-    $ <br>
+To enable the feature, you must have the Virtual Items, Virtual Currency, or Payment Wall module(s) set up and turned on.
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Sending the Friend List in the Token Request
+
+If necessary, you can add an array with the user’s friend list to the [request for token](1). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.
+
+**Request example**
+
+    "purchase":{
+
+       "virtual_currency":{
+
+           "quantity":100
+
+       },
+
+       "description":{
+
+           "value":"Test Purchase"
+
+       },
+
+       "gift":{
+
+           "giver_id":"John Smith",
+
+           "message":"GG WP",
+
+           "hide_giver_from_receiver" : true,
+
+           "friends": [
+
+           {
+
+            "id": "123",
+
+            "name": "captain",
+
+            "email": "captain@ship.com"
+
+           }]
+
+       }
+
+    }
+
+</div>
+
+</div>
+
+<div class="section-content">
+
+<div class="section-description">
+
+Sending the Friend List via the API
+
+In this case, Xsolla sends a [request for the friend list](1) to the project’s webhook URL, which is configured in project settings.
+
+**Creating a signature**
+
+To create a signature:
+
+1.  Order the parameters received from the Xsolla server in alphabetic order.
+2.  Concatenate the parameter values and the project’s secret key, as generated in project settings.
+3.  Hash the resulting string using the SHA1 algorithm.
+4.  Send the result in the 'sign' parameter.
+
+When processing the API request, make sure that the received signature matches the one sent in the 'sign' parameter.
+
+Getting the List of Friends
+
+**Request example**
+
+    $ 
 
 </div>
 
@@ -2832,25 +2832,25 @@ Getting the List of Friends<br>
 
 <div class="section-description">
 
-Launch Pay Station on your game domain<br>
+Launch Pay Station on your game domain
 
-1.  Register a new domain name of **secure.yourdomain.com**, where **yourdomain.com** is your domain name. Then specify either the current IP address of **secure.xsolla.com** as an A record or an alias to **secure.xsolla.com** as a CNAME record.<br>
-2.  Issue a new valid SSL certificate for your domain name (**secure.yourdomain.com**).<br>
-3.  Generate a new key and Certificate Signing Request (CSR) by running openssl in the command line:<br>
+1.  Register a new domain name of **secure.yourdomain.com**, where **yourdomain.com** is your domain name. Then specify either the current IP address of **secure.xsolla.com** as an A record or an alias to **secure.xsolla.com** as a CNAME record.
+2.  Issue a new valid SSL certificate for your domain name (**secure.yourdomain.com**).
+3.  Generate a new key and Certificate Signing Request (CSR) by running openssl in the command line:
 
-    *   **Generate a new key:** _openssl genrsa -out server.key 2048_<br>
-    *   **Generate a new CSR:** _openssl req -new -key server.key -out server.csr_<br>
+    *   **Generate a new key:** _openssl genrsa -out server.key 2048_
+    *   **Generate a new CSR:** _openssl req -new -key server.key -out server.csr_
 
-    Answer the questions the system asks in the process.<br>
+    Answer the questions the system asks in the process.
 
-    **Important!** Make sure to specify your domain name (**secure.yourdomain.com**) in the **Common Name** field.<br>
+    **Important!** Make sure to specify your domain name (**secure.yourdomain.com**) in the **Common Name** field.
 
-4.  Go to any website that issues certificates (e.g. [GoDaddy](1)) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.<br>
+4.  Go to any website that issues certificates (e.g. [GoDaddy](1)) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.
 
-    After the registrar verifies the domain owner, you will receive a signed certificate.<br>
+    After the registrar verifies the domain owner, you will receive a signed certificate.
 
-5.  Send your key and certificate to Xsolla at [sysadmins@xsolla.com](1) with the following email subject: **[Your game]: SSL Certificate**.<br>
-6.  While setting up the integration via **Pay Station Embed**, make sure to specify the link to your payment UI in the "host" parameter.<br>
+5.  Send your key and certificate to Xsolla at [sysadmins@xsolla.com](1) with the following email subject: **[Your game]: SSL Certificate**.
+6.  While setting up the integration via **Pay Station Embed**, make sure to specify the link to your payment UI in the "host" parameter.
 
 </div>
 
