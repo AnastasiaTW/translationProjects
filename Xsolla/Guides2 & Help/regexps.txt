@@ -8,8 +8,12 @@
 **\2**
 <(i|em)>(.*?)</(i|em)>
 *\2*
+<(code|pre)>(.*?)</(code|pre)>
+
 <span>(.*?)</span>
 \1
+<span.*?>.*?</span>
+
 <li>* \s*<p>
 <li>
 </p>\s*</li>

@@ -85,35 +85,14 @@ Step 1
 </div>
 </h4>
 <p>Enable xl.min.js in the &lt;head&gt; tag:</p>
-<pre>
-<code>
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span>
-<span class="hljs-attribute">src</span>=<span class="hljs-value">"https://static.xsolla.com/xsolla-login/1.1.1/xl.min.js"</span>&gt;</span>
-<span class="javascript">
-</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-</code>
-</pre>
+
 <h4 id="step-2">
 Step 2
 <div class="header-anchor" id="xlwidget_step-2">
 </div>
 </h4>
 <p>Add the initialization code in the &lt;body&gt; tag:</p>
-<pre>
-<code>
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span>
-<span class="hljs-attribute">type</span>=<span class="hljs-value">"text/javascript"</span>&gt;</span>
-<span class="javascript">XL.init({
-         projectId: <span class="hljs-string">'40db2ea4-5p47-11e6-a3ff-005056a0e04a'</span>,
-         locale: <span class="hljs-string">'en_US'</span>,
-         onlyWidgets: <span class="hljs-literal">true</span>,
-         redirectUrl: <span class="hljs-string">'&lt;your redirect url&gt;'</span>,
-         fields: <span class="hljs-string">'email'</span>     });
-</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-</code>
-</pre>
+
 <table>
 <thead>
 <tr>
@@ -170,23 +149,7 @@ Step 3
 </div>
 </h4>
 <p>Add a DIV element to contain the widget, give it a unique id, and add the widget initialization code after it.</p>
-<pre>
-<code>
-<span class="hljs-tag">&lt;<span class="hljs-title">div</span>
-<span class="hljs-attribute">id</span>=<span class="hljs-value">"xl_auth"</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span>
-<span class="hljs-attribute">type</span>=<span class="hljs-value">"text/javascript"</span>&gt;</span>
-<span class="javascript">
-<span class="hljs-keyword">var</span> element_id = <span class="hljs-string">'xl_auth'</span>;
-<span class="hljs-keyword">var</span> options = {
-    width: <span class="hljs-string">'200px'</span>,
-    height: <span class="hljs-string">'200px'</span>};
-XL.AuthWidget(element_id, options);
-</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-</code>
-</pre>
+
 <table>
 <thead>
 <tr>
@@ -242,7 +205,7 @@ How it Works
 <div class="left-side">
 <div class="block_1 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.3bce9008a7.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-start.7a65b69f72@2x.png">
-<span class="xsolla-login-title">user redirected to redirectURL</span>
+
 <div class="arrow">
 <div>
 </div>
@@ -252,7 +215,7 @@ How it Works
 <div class="scheme-wrapper">
 <div class="block_2 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.f3e1760e13.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-data.1533e13b07@2x.png">
-<span class="xsolla-login-title">redirectUrl?token=&lt;token&gt;</span>
+
 <div class="arrow">
 <div>
 </div>
@@ -260,15 +223,15 @@ How it Works
 </div>
 <div class="block_3 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png">
-<span class="xsolla-login-title">token exist?</span>
+
 <div class="arrow">
 <div>
 </div>
 </div>
-<span class="true-text">true</span>
+
 <div class="line line-right">
 </div>
-<span class="false-text">false</span>
+
 <div class="line line-down">
 <div>
 </div>
@@ -276,36 +239,36 @@ How it Works
 </div>
 <div class="block_4 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png">
-<span class="xsolla-login-title">token valid?</span>
+
 <div class="arrow">
 <div>
 </div>
 </div>
-<span class="true-text">true</span>
-<span class="false-text">false</span>
+
+
 <div class="line line-right">
 </div>
 </div>
 <div class="block_5 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.9f7e4cf29d.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-if.2da829ce3f@2x.png">
-<span class="xsolla-login-title">user exist?</span>
+
 <div class="arrow">
 <div>
 </div>
 </div>
-<span class="true-text">true</span>
-<span class="false-text">false</span>
+
+
 <div class="line line-right">
 <div>
 </div>
 </div>
 <div class="create-user">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
-<span class="xsolla-login-title">create user</span>
+
 </div>
 <div class="form-error">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
-<span class="xsolla-login-title">form errorUrl</span>
+
 </div>
 <div class="line line-down">
 <div>
@@ -314,7 +277,7 @@ How it Works
 </div>
 <div class="block_6 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
-<span class="xsolla-login-title">create successUrl</span>
+
 <div class="arrow">
 <div>
 </div>
@@ -328,7 +291,7 @@ How it Works
 </div>
 <div class="block_7 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.4710b04b36.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-fun.3b56d02843@2x.png">
-<span class="xsolla-login-title">create domain specific user session</span>
+
 <div class="arrow">
 <div>
 </div>
@@ -336,10 +299,10 @@ How it Works
 </div>
 <div class="block_8 blocks">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.238586eb98.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-yes.862a7ba28e@2x.png">
-<span class="xsolla-login-title">redirect user to successUrl</span>
+
 <div class="redirect-error">
 <img class="xsolla-login-img" src="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.c98e3ebd52.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/data-portal/xsolla_login/xsolla-login-no.0e7efdac7a@2x.png">
-<span class="xsolla-login-title">redirect user to errorUrl</span>
+
 </div>
 </div>
 </div>
@@ -360,7 +323,7 @@ Successful Authentication
 <p>**HTTP Request**
 </p>
 <p>
-<code>GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ</code>
+
 </p>
 <table>
 <thead>
@@ -388,37 +351,7 @@ Decrypted token (example)
 <div class="header-anchor" id="server_side_decrypted-token-example">
 </div>
 </h3>
-<pre>
-<code>{
-  "<span class="hljs-attribute">exp</span>": <span class="hljs-value">
-<span class="hljs-number">1471071785</span>
-</span>,
-  "<span class="hljs-attribute">iss</span>": <span class="hljs-value">
-<span class="hljs-string">"https://login.xsolla.com"</span>
-</span>,
-  "<span class="hljs-attribute">iat</span>": <span class="hljs-value">
-<span class="hljs-number">1470985385</span>
-</span>,
-  "<span class="hljs-attribute">id</span>": <span class="hljs-value">
-<span class="hljs-string">"11111111"</span>
-</span>,
-  "<span class="hljs-attribute">name</span>": <span class="hljs-value">
-<span class="hljs-string">"John Carter"</span>
-</span>,
-  "<span class="hljs-attribute">email</span>": <span class="hljs-value">
-<span class="hljs-string">"john@example.com"</span>
-</span>,
-  "<span class="hljs-attribute">type</span>": <span class="hljs-value">
-<span class="hljs-string">"social"</span>
-</span>,
-  "<span class="hljs-attribute">provider</span>": <span class="hljs-value">
-<span class="hljs-string">"social_network"</span>
-</span>,
-  "<span class="hljs-attribute">xsolla_login_access_key</span>": <span class="hljs-value">
-<span class="hljs-string">"s4dGNSPKinUxkSRI8rhPhZRElHj2yusqEeqgLIgn"</span>
-</span>}
-</code>
-</pre>
+
 <table>
 <thead>
 <tr>
@@ -485,7 +418,7 @@ Failed Authentication
 <p>**HTTP Request**
 </p>
 <p>
-<code>GET https://callBackUrl.php?error=003-002&amp;error_description=User+not+found&amp;redirect_url=https://site.com/fail_url</code>
+
 </p>
 <table>
 <thead>
@@ -1668,24 +1601,7 @@ Example request
 <div class="header-anchor" id="token_receipt_changes_example-request">
 </div>
 </h3>
-<pre>
-<code class="lang-shell">    curl -v https:<span class="hljs-comment">//api.xsolla.com/merchant/merchants/{merchant_id}/token \</span>    -X <span class="hljs-keyword">POST</span> \
-    -<span class="hljs-keyword">u</span> your_merchant_id:merchant_api_key \
-    -<span class="hljs-keyword">H</span> 'Content-<span class="hljs-keyword">Type</span>:application/json' \
-    -<span class="hljs-keyword">H</span> 'Accept: application/json' \
-    -<span class="hljs-keyword">d</span> '
-    {
-        <span class="hljs-string">"user"</span>: {
-            <span class="hljs-string">"id"</span>: {
-                <span class="hljs-string">"value": "1234567"</span>            },
-            <span class="hljs-string">"tracking_id"</span>: {
-                <span class="hljs-string">"value": "trackingID"</span>            }
-        },
-        <span class="hljs-string">"settings"</span>: {
-            <span class="hljs-string">"project_id"</span>: 14004
-        }
-    }'
-</code>
+
 </pre>
 <p>All parameters, which are already included in your JSON for token, should remain the same.</p>
 </div>
@@ -1705,14 +1621,7 @@ Example request
 <div class="header-anchor" id="new_api_method_example-request">
 </div>
 </h3>
-<pre>
-<code class="lang-shell">curl -v 'https://api.xsolla.com/merchant/merchants/{merchant_id}/xsolla_network/
-user_register/{tracking_id}' \
--<span class="ruby">
-<span class="hljs-constant">X</span>
-<span class="hljs-constant">PUT</span> \
-</span>-<span class="ruby">u <span class="hljs-symbol">merchant_id:</span>merchant_api_key</span>
-</code>
+
 </pre>
 <table>
 <thead>
@@ -1740,10 +1649,7 @@ Example response
 <div class="header-anchor" id="new_api_method_example-response">
 </div>
 </h3>
-<pre>
-<code class="lang-http">
-<span class="hljs-status">HTTP/1.1 <span class="hljs-number">204</span> No Content</span>
-</code>
+
 </pre>
 </div>
 <div class="section-code">
@@ -1934,27 +1840,7 @@ Integrating the Pay2Play Widget
 <div class="lang" data-lang="html">HTML</div>
 </div>
 </div>
-<pre>
-<code class="lang-html">
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
-<span class="javascript">
-<span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
-     <span class="hljs-keyword">var</span> target_element = <span class="hljs-string">"#widget-example-element"</span>;
-     <span class="hljs-keyword">var</span> s = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'script'</span>);
-     s.type = <span class="hljs-string">"text/javascript"</span>;
-     s.async = <span class="hljs-literal">true</span>;
-     s.src = <span class="hljs-string">"//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js"</span>;
-     s.addEventListener(<span class="hljs-string">'load'</span>, <span class="hljs-function">
-<span class="hljs-keyword">function</span>
-<span class="hljs-params">(e)</span>
-</span>{
-         <span class="hljs-keyword">var</span> widgetInstance = XPay2PlayWidget.create(access_data,target_element);
-     }, <span class="hljs-literal">false</span>);
-     <span class="hljs-keyword">var</span> head = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'head'</span>)[<span class="hljs-number">0</span>];
-     head.appendChild(s);
- </span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-</code>
+
 </pre>
 <p>You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).</p>
 <aside class="notise2"> **Important!** You need to sign an agreement before you can accept real payments. </aside>
@@ -2054,8 +1940,7 @@ Get Token to Open Store
 <p>Set the value to "mode":"sandbox" to test the payment process.</p>
 <p>Token endpoint URL:</p>
 <p>
-<code>[https://api.xsolla.com/merchant/merchants/{merchant_id}/token](1)
-</code>
+
 </p>
 <p>In an HTTP POST request, you can use parameters for store UI. Request and response payloads are formatted as JSON.</p>
 <p>Example Request</p>
@@ -2067,52 +1952,9 @@ Get Token to Open Store
 <div class="lang" data-lang="shell">CURL</div>
 </div>
 </div>
-<pre>
-<code class="lang-php">
-<span class="php">
-<span class="hljs-preprocessor">&lt;?php</span>
-<span class="hljs-keyword">use</span>
-<span class="hljs-title">Xsolla</span>\<span class="hljs-title">SDK</span>\<span class="hljs-title">API</span>\<span class="hljs-title">XsollaClient</span>;
-<span class="hljs-keyword">use</span>
-<span class="hljs-title">Xsolla</span>\<span class="hljs-title">SDK</span>\<span class="hljs-title">API</span>\<span class="hljs-title">PaymentUI</span>\<span class="hljs-title">TokenRequest</span>;
 
-<span class="hljs-variable">$tokenRequest</span> = <span class="hljs-keyword">new</span> TokenRequest(<span class="hljs-variable">$projectId</span>, <span class="hljs-variable">$userId</span>);
-<span class="hljs-variable">$tokenRequest</span>-&gt;setUserEmail(<span class="hljs-string">'email@example.com'</span>)
-    -&gt;setExternalPaymentId(<span class="hljs-string">'12345'</span>)
-    -&gt;setSandboxMode(<span class="hljs-keyword">true</span>)
-    -&gt;setUserName(<span class="hljs-string">'USER_NAME'</span>)
-    -&gt;setCustomParameters(<span class="hljs-keyword">array</span>(<span class="hljs-string">'key1'</span> =&gt; <span class="hljs-string">'value1'</span>, <span class="hljs-string">'key2'</span> =&gt; <span class="hljs-string">'value2'</span>));
-
-<span class="hljs-variable">$xsollaClient</span> = XsollaClient::factory(<span class="hljs-keyword">array</span>(
-    <span class="hljs-string">'merchant_id'</span> =&gt; MERCHANT_ID,
-    <span class="hljs-string">'api_key'</span> =&gt; API_KEY
-));
-<span class="hljs-variable">$token</span> = <span class="hljs-variable">$xsollaClient</span>-&gt;createPaymentUITokenFromRequest(<span class="hljs-variable">$tokenRequest</span>);</span>
-</code>
 </pre>
-<pre>
-<code class="lang-shell">    curl -v https:<span class="hljs-comment">//api.xsolla.com/merchant/merchants/{merchant_id}/token \</span>    -X POST \
-    -u your_merchant_id:merchant_api_key \
-    -H <span class="hljs-string">'Content-Type:application/json'</span> \
-    -H <span class="hljs-string">'Accept: application/json'</span> \
-    -d <span class="hljs-string">'
-    {
-        "</span>user<span class="hljs-string">": {
-            "</span>id<span class="hljs-string">": {
-                "</span>value<span class="hljs-string">": "</span>
-<span class="hljs-number">1234567</span>
-<span class="hljs-string">"
-            },
-            "</span>email<span class="hljs-string">": {
-                "</span>value<span class="hljs-string">": "</span>email@<span class="hljs-transposed_variable">example.</span>com<span class="hljs-string">"
-            }
-        },
-        "</span>settings<span class="hljs-string">": {
-            "</span>project_id<span class="hljs-string">": 14004,
-            "</span>mode<span class="hljs-string">": "</span>sandbox<span class="hljs-string">"
-        }
-    }'</span>
-</code>
+
 </pre>
 <p>
 </p>
@@ -2164,44 +2006,9 @@ User Validation
 <div class="lang" data-lang="shell">CURL</div>
 </div>
 </div>
-<pre>
-<code class="lang-php">
-<span class="hljs-variable">$request</span> = <span class="hljs-keyword">array</span>(
-    <span class="hljs-string">'notification_type'</span> =&gt; <span class="hljs-string">'user_validation'</span>,
-    <span class="hljs-string">'user'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'ip'</span> =&gt; <span class="hljs-string">'127.0.0.1'</span>,
-        <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'18777976552'</span>,
-        <span class="hljs-string">'email'</span>=&gt; <span class="hljs-string">'email@example.com'</span>,
-        <span class="hljs-string">'id'</span>=&gt; <span class="hljs-string">'1234567'</span>,
-        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>    )
-)
-</code>
+
 </pre>
-<pre>
-<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>-X POST \
--H <span class="hljs-string">'Content-Type:application/json'</span> \
--H <span class="hljs-string">'Accept: application/json'</span> \
--H <span class="hljs-string">'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f'</span> \
--d <span class="hljs-string">'
-{
-    "</span>notification_type<span class="hljs-string">": "</span>user_validation<span class="hljs-string">",
-    "</span>user<span class="hljs-string">": {
-        "</span>ip<span class="hljs-string">": "</span>
-<span class="hljs-number">127.0</span>
-<span class="hljs-number">.0</span>
-<span class="hljs-number">.1</span>
-<span class="hljs-string">",
-        "</span>phone<span class="hljs-string">": "</span>
-<span class="hljs-number">18777976552</span>
-<span class="hljs-string">",
-        "</span>email<span class="hljs-string">": "</span>email@<span class="hljs-transposed_variable">example.</span>com<span class="hljs-string">",
-        "</span>id<span class="hljs-string">": "</span>
-<span class="hljs-number">1234567</span>
-<span class="hljs-string">",
-        "</span>country<span class="hljs-string">": "</span>US<span class="hljs-string">"
-    }
-}'</span>
-</code>
+
 </pre>
 <p>You can find the full list of parameters in the [API Reference](1).</p>
 <h3 id="payment-span-payment-span-">
@@ -2218,141 +2025,9 @@ Payment
 <div class="lang" data-lang="shell">CURL</div>
 </div>
 </div>
-<pre>
-<code class="lang-php">
-<span class="hljs-variable">$request</span> = <span class="hljs-keyword">array</span>(
-    <span class="hljs-string">'notification_type'</span> =&gt; <span class="hljs-string">'payment'</span>,
-    <span class="hljs-string">'purchase'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'virtual_items'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'items'</span> =&gt; <span class="hljs-keyword">array</span>(
-                <span class="hljs-number">0</span> =&gt; <span class="hljs-keyword">array</span>(
-                    <span class="hljs-string">'sku'</span> =&gt; <span class="hljs-string">'test_item1'</span>,
-                    <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">1</span>,
-                    ),
-                <span class="hljs-number">1</span> =&gt; <span class="hljs-keyword">array</span>(
-                    <span class="hljs-string">'sku'</span> =&gt; <span class="hljs-string">'test_item2'</span>,
-                    <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">1</span>,
-                    ),
-                <span class="hljs-number">2</span> =&gt; <span class="hljs-keyword">array</span>(
-                    <span class="hljs-string">'sku'</span> =&gt; <span class="hljs-string">'test_item3'</span>,
-                    <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">1</span>,
-                    ),
-            )
-        ),
-        <span class="hljs-string">'total'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        )
-    ),
-    <span class="hljs-string">'user'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'ip'</span> =&gt; <span class="hljs-string">'127.0.0.1'</span>,
-        <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'18777976552'</span>,
-        <span class="hljs-string">'email'</span> =&gt; <span class="hljs-string">'email@example.com'</span>,
-        <span class="hljs-string">'id'</span> =&gt; <span class="hljs-string">'1234567'</span>,
-        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>    ),
-    <span class="hljs-string">'transaction'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'id'</span> =&gt; <span class="hljs-number">87654321</span>,
-        <span class="hljs-string">'payment_date'</span> =&gt; <span class="hljs-string">'2014-09-23T19:25:25+04:00'</span>,
-        <span class="hljs-string">'payment_method'</span> =&gt; <span class="hljs-number">1380</span>,
-        <span class="hljs-string">'dry_run'</span> =&gt; <span class="hljs-number">1</span>    ),
-    <span class="hljs-string">'payment_details'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'payment'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        ),
-        <span class="hljs-string">'vat'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0</span>        ),
-        <span class="hljs-string">'payout_currency_rate'</span> =&gt; <span class="hljs-number">1</span>,
-        <span class="hljs-string">'payout'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.49</span>        ),
-        <span class="hljs-string">'xsolla_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.19</span>        ),
-        <span class="hljs-string">'payment_method_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.31</span>        )
-    )
-)
-</code>
+
 </pre>
-<pre>
-<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>-X POST \
--H <span class="hljs-string">'Content-Type:application/json'</span> \
--H <span class="hljs-string">'Accept: application/json'</span> \
--H <span class="hljs-string">'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f'</span> \
--d <span class="hljs-string">'
-{
-    "</span>notification_type<span class="hljs-string">": "</span>payment<span class="hljs-string">",
-    "</span>purchase<span class="hljs-string">": {
-        "</span>virtual_items<span class="hljs-string">": {
-            "</span>items<span class="hljs-string">": [
-                {
-                    "</span>sku<span class="hljs-string">": "</span>test_item1<span class="hljs-string">",
-                    "</span>amount<span class="hljs-string">": 1
-                },
-                {
-                    "</span>sku<span class="hljs-string">": "</span>test_item2<span class="hljs-string">",
-                    "</span>amount<span class="hljs-string">": 1
-                },
-                {
-                    "</span>sku<span class="hljs-string">": "</span>test_item3<span class="hljs-string">",
-                    "</span>amount<span class="hljs-string">": 2
-                },
-            ]
-        },
-        "</span>total<span class="hljs-string">": {
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 9.99
-        }
-    },
-    "</span>user<span class="hljs-string">": {
-        "</span>ip<span class="hljs-string">": "</span>
-<span class="hljs-number">127.0</span>
-<span class="hljs-number">.0</span>
-<span class="hljs-number">.1</span>
-<span class="hljs-string">",
-        "</span>phone<span class="hljs-string">": "</span>
-<span class="hljs-number">18777976552</span>
-<span class="hljs-string">",
-        "</span>email<span class="hljs-string">": "</span>email@<span class="hljs-transposed_variable">example.</span>com<span class="hljs-string">",
-        "</span>id<span class="hljs-string">": "</span>
-<span class="hljs-number">1234567</span>
-<span class="hljs-string">",
-        "</span>country<span class="hljs-string">": "</span>US<span class="hljs-string">"
-    },
-    "</span>transaction<span class="hljs-string">": {
-        "</span>id<span class="hljs-string">": 87654321,
-        "</span>payment_date<span class="hljs-string">": "</span>
-<span class="hljs-number">2014</span>-<span class="hljs-number">09</span>-<span class="hljs-number">23</span>T19:<span class="hljs-number">25</span>:<span class="hljs-number">25</span>+<span class="hljs-number">04</span>:<span class="hljs-number">00</span>
-<span class="hljs-string">",
-        "</span>payment_method<span class="hljs-string">": 1380,
-        "</span>dry_run<span class="hljs-string">": 1
-    },
-    "</span>payment_details<span class="hljs-string">": {
-        "</span>payment<span class="hljs-string">": {
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 9.99
-        },
-        "</span>vat<span class="hljs-string">": {
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 0
-        },
-        "</span>payout_currency_rate<span class="hljs-string">": 1,
-        "</span>payout<span class="hljs-string">": {
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 9.49
-        },
-        "</span>xsolla_fee<span class="hljs-string">": {
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 0.19
-        },
-        "</span>payment_method_fee<span class="hljs-string">": {
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 0.31
-        }
-    }
-}'</span>
-</code>
+
 </pre>
 <p>You can find the full list of parameters in the [API Reference](1).</p>
 <h3 id="refund-span-refund-span-">
@@ -2369,154 +2044,9 @@ Refund
 <div class="lang" data-lang="shell">CURL</div>
 </div>
 </div>
-<pre>
-<code class="lang-php">
-<span class="hljs-variable">$request</span> = <span class="hljs-keyword">array</span>(
-    <span class="hljs-string">'notification_type'</span> =&gt; <span class="hljs-string">'refund'</span>,
-    <span class="hljs-string">'purchase'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'virtual_currency'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'name'</span> =&gt; <span class="hljs-string">'Coins'</span>,
-            <span class="hljs-string">'quantity'</span> =&gt; <span class="hljs-number">100</span>,
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        ),
-        <span class="hljs-string">'total'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        )
-    ),
-    <span class="hljs-string">'user'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'ip'</span> =&gt; <span class="hljs-string">'127.0.0.1'</span>,
-        <span class="hljs-string">'phone'</span> =&gt; <span class="hljs-string">'18777976552'</span>,
-        <span class="hljs-string">'email'</span> =&gt; <span class="hljs-string">'email@example.com'</span>,
-        <span class="hljs-string">'id'</span> =&gt; <span class="hljs-string">'1234567'</span>,
-        <span class="hljs-string">'country'</span> =&gt; <span class="hljs-string">'US'</span>    ),
-    <span class="hljs-string">'transaction'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'id'</span> =&gt; <span class="hljs-number">87654321</span>,
-        <span class="hljs-string">'payment_date'</span> =&gt; <span class="hljs-string">'2014-09-23T19:25:25+04:00'</span>,
-        <span class="hljs-string">'payment_method'</span> =&gt; <span class="hljs-number">1380</span>,
-        <span class="hljs-string">'dry_run'</span> =&gt; <span class="hljs-number">1</span>    ),
-    <span class="hljs-string">'refund_details'</span> =&gt; (
-            <span class="hljs-string">'code'</span> =&gt; <span class="hljs-number">1</span>,
-            <span class="hljs-string">'reason'</span> =&gt; <span class="hljs-string">'Fraud'</span>    ),
-    <span class="hljs-string">'payment_details'</span> =&gt; <span class="hljs-keyword">array</span>(
-        <span class="hljs-string">'payment'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.99</span>        ),
-        <span class="hljs-string">'vat'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0</span>        ),
-        <span class="hljs-string">'payout_currency_rate'</span> =&gt; <span class="hljs-number">1</span>,
-        <span class="hljs-string">'payout'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">9.49</span>        ),
-        <span class="hljs-string">'xsolla_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.19</span>        ),
-        <span class="hljs-string">'payment_method_fee'</span> =&gt; <span class="hljs-keyword">array</span>(
-            <span class="hljs-string">'currency'</span> =&gt; <span class="hljs-string">'USD'</span>,
-            <span class="hljs-string">'amount'</span> =&gt; <span class="hljs-number">0.31</span>        )
-    )
-);
-</code>
+
 </pre>
-<pre>
-<code class="lang-shell">curl -v https:<span class="hljs-comment">//example.com/ \</span>-X POST \
--H <span class="hljs-string">'Content-Type:application/json'</span> \
--H <span class="hljs-string">'Accept: application/json'</span> \
--H <span class="hljs-string">'Authorization: Signature 13342703ccaca5064ad33ba451d800c5e823db8f'</span> \
--d <span class="hljs-string">'
-{
-    "</span>notification_type<span class="hljs-string">":"</span>refund<span class="hljs-string">",
-    "</span>purchase<span class="hljs-string">":{
-        "</span>virtual_currency<span class="hljs-string">":{
-            "</span>name<span class="hljs-string">": "</span>Coins<span class="hljs-string">",
-            "</span>quantity<span class="hljs-string">":10,
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":100
-        },
-        "</span>subscription<span class="hljs-string">":{
-            "</span>plan_id<span class="hljs-string">": "</span>b5dac9c8<span class="hljs-string">",
-            "</span>subscription_id<span class="hljs-string">": "</span>
-<span class="hljs-number">10</span>
-<span class="hljs-string">",
-            "</span>date_create<span class="hljs-string">": "</span>
-<span class="hljs-number">2014</span>-<span class="hljs-number">09</span>-<span class="hljs-number">22</span>T19:<span class="hljs-number">25</span>:<span class="hljs-number">25</span>+<span class="hljs-number">04</span>:<span class="hljs-number">00</span>
-<span class="hljs-string">",
-            "</span>currency<span class="hljs-string">": "</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">": 9.99
-        },
-        "</span>checkout<span class="hljs-string">":{
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":50
-        },
-        "</span>virtual_items<span class="hljs-string">":{
-            "</span>items<span class="hljs-string">":[
-                {
-                    "</span>sku<span class="hljs-string">": "</span>test_item1<span class="hljs-string">",
-                    "</span>amount<span class="hljs-string">":1
-                }
-            ],
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":50
-        },
-        "</span>total<span class="hljs-string">":{
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":200
-        }
-    },
-    "</span>user<span class="hljs-string">": {
-        "</span>ip<span class="hljs-string">": "</span>
-<span class="hljs-number">127.0</span>
-<span class="hljs-number">.0</span>
-<span class="hljs-number">.1</span>
-<span class="hljs-string">",
-        "</span>phone<span class="hljs-string">": "</span>
-<span class="hljs-number">18777976552</span>
-<span class="hljs-string">",
-        "</span>email<span class="hljs-string">": "</span>email@<span class="hljs-transposed_variable">example.</span>com<span class="hljs-string">",
-        "</span>id<span class="hljs-string">": "</span>
-<span class="hljs-number">1234567</span>
-<span class="hljs-string">",
-        "</span>name<span class="hljs-string">": "</span>Xsolla User<span class="hljs-string">",
-        "</span>country<span class="hljs-string">": "</span>US<span class="hljs-string">"
-    },
-    "</span>transaction<span class="hljs-string">":{
-        "</span>id<span class="hljs-string">":1,
-        "</span>external_id<span class="hljs-string">":1,
-        "</span>dry_run<span class="hljs-string">":1,
-        "</span>agreement<span class="hljs-string">":1
-    },
-    "</span>refund_details<span class="hljs-string">":{
-        "</span>code<span class="hljs-string">":1,
-        "</span>reason<span class="hljs-string">":"</span>Fraud<span class="hljs-string">"
-    },
-    "</span>payment_details<span class="hljs-string">":{
-        "</span>xsolla_fee<span class="hljs-string">":{
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":"</span>
-<span class="hljs-number">10</span>
-<span class="hljs-string">"
-        },
-        "</span>payout<span class="hljs-string">":{
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":"</span>
-<span class="hljs-number">200</span>
-<span class="hljs-string">"
-        },
-        "</span>payment_method_fee<span class="hljs-string">":{
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-            "</span>amount<span class="hljs-string">":"</span>
-<span class="hljs-number">20</span>
-<span class="hljs-string">"
-        },
-        "</span>payment<span class="hljs-string">":{
-            "</span>currency<span class="hljs-string">":"</span>USD<span class="hljs-string">",
-           "</span>amount<span class="hljs-string">":"</span>
-<span class="hljs-number">230</span>
-<span class="hljs-string">"
-        }
-    }
-}'</span>
-</code>
+
 </pre>
 <p>You can find the full list of parameters in the [API Reference](1).</p>
 <h3 id="testing-webhooks-span-test_webhooks-span-">
@@ -2561,27 +2091,7 @@ Integrating the Pay2Play Widget
 <div class="lang" data-lang="html">HTML</div>
 </div>
 </div>
-<pre>
-<code class="lang-html">
-<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
-<span class="javascript">
-<span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
-     <span class="hljs-keyword">var</span> target_element = <span class="hljs-string">"#widget-example-element"</span>;
-     <span class="hljs-keyword">var</span> s = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'script'</span>);
-     s.type = <span class="hljs-string">"text/javascript"</span>;
-     s.async = <span class="hljs-literal">true</span>;
-     s.src = <span class="hljs-string">"//static.xsolla.com/embed/pay2play/2.1.0/widget.min.js"</span>;
-     s.addEventListener(<span class="hljs-string">'load'</span>, <span class="hljs-function">
-<span class="hljs-keyword">function</span>
-<span class="hljs-params">(e)</span>
-</span>{
-         <span class="hljs-keyword">var</span> widgetInstance = XPay2PlayWidget.create(access_data,target_element);
-     }, <span class="hljs-literal">false</span>);
-     <span class="hljs-keyword">var</span> head = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'head'</span>)[<span class="hljs-number">0</span>];
-     head.appendChild(s);
- </span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-</code>
+
 </pre>
 <p>You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).</p>
 <aside class="notise2"> **Important!** You need to sign an agreement before you can accept real payments. </aside>
@@ -2816,40 +2326,7 @@ Sending the Friend List in the Token Request
 <p>If necessary, you can add an array with the user’s friend list to the [request for token](1). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.</p>
 <p>**Request example**
 </p>
-<pre>
-<code class="lang-json">
-<span class="hljs-string">"purchase"</span>:{
 
-   <span class="hljs-string">"virtual_currency"</span>:{
-
-       <span class="hljs-string">"quantity"</span>:<span class="hljs-number">100</span>   },
-
-   <span class="hljs-string">"description"</span>:{
-
-       <span class="hljs-string">"value"</span>:<span class="hljs-string">"Test Purchase"</span>   },
-
-   <span class="hljs-string">"gift"</span>:{
-
-       <span class="hljs-string">"giver_id"</span>:<span class="hljs-string">"John Smith"</span>,
-
-       <span class="hljs-string">"message"</span>:<span class="hljs-string">"GG WP"</span>,
-
-       <span class="hljs-string">"hide_giver_from_receiver"</span> : <span class="hljs-literal">true</span>,
-
-       <span class="hljs-string">"friends"</span>: [
-
-       {
-
-        <span class="hljs-string">"id"</span>: <span class="hljs-string">"123"</span>,
-
-        <span class="hljs-string">"name"</span>: <span class="hljs-string">"captain"</span>,
-
-        <span class="hljs-string">"email"</span>: <span class="hljs-string">"captain@ship.com"</span>       }]
-
-   }
-
-}
-</code>
 </pre>
 </div>
 <div class="section-code">
@@ -2880,53 +2357,11 @@ Getting the List of Friends
 </h3>
 <p>**Request example**
 </p>
-<pre>
-<code class="lang-http">$ curl -v 'https://your.webhook.url?<span class="hljs-variable">notification_type=</span>friends_list&amp;<span class="hljs-variable">user=</span>user_id&amp;<span class="hljs-variable">query=</span>frien&amp;<span class="hljs-variable">offset=</span>
-<span class="hljs-number">10</span>&amp;<span class="hljs-variable">limit=</span>
-<span class="hljs-number">20</span>&amp;<span class="hljs-variable">sign=</span>
-<span class="hljs-number">12</span>dfg3f5gdsf4g5s6dfg2sdg1' \
--X GET \
--u merchant_id:merchant_api_key
-</code>
+
 </pre>
 <p>**Response example**
 </p>
-<pre>
-<code class="lang-json">[
-  {
-  "<span class="hljs-attribute">friends</span>": <span class="hljs-value">[
-      {
-        "<span class="hljs-attribute">id</span>": <span class="hljs-value">
-<span class="hljs-string">"1"</span>
-</span>,
-        "<span class="hljs-attribute">name</span>": <span class="hljs-value">
-<span class="hljs-string">"John Carter"</span>
-</span>,
-        "<span class="hljs-attribute">email</span>": <span class="hljs-value">
-<span class="hljs-string">"carter@xsolla.com"</span>
-</span>,
-        "<span class="hljs-attribute">image_url</span>": <span class="hljs-value">
-<span class="hljs-string">"https://partner/link/doctor.jpg"</span>
-</span>},
-      {
-        "<span class="hljs-attribute">id</span>": <span class="hljs-value">
-<span class="hljs-string">"2"</span>
-</span>,
-        "<span class="hljs-attribute">name</span>": <span class="hljs-value">
-<span class="hljs-string">"John Smith"</span>
-</span>,
-        "<span class="hljs-attribute">email</span>": <span class="hljs-value">
-<span class="hljs-string">"smith@xsolla.com"</span>
-</span>,
-        "<span class="hljs-attribute">image_url</span>": <span class="hljs-value">
-<span class="hljs-string">"https://partner/link/cook.jpg"</span>
-</span>}
-    ]</span>,
-  "<span class="hljs-attribute">total</span>": <span class="hljs-value">
-<span class="hljs-number">10</span>
-</span>}
-]
-</code>
+
 </pre>
 </div>
 <div class="section-code">
@@ -2942,89 +2377,7 @@ Setting up Webhooks
 <p>Make sure to update the handling of the [Payment webhook](1), which will now pass the new gift.purchase object in its JSON.</p>
 <p>**Request example**
 </p>
-<pre>
-<code class="lang-json">$curl -v 'https:<span class="hljs-comment">//your.hostname/your/uri' \</span>-X POST \
--d '{
-    <span class="hljs-string">"notification_type"</span>:<span class="hljs-string">"payment"</span>,
-    <span class="hljs-string">"purchase"</span>:{
-        <span class="hljs-string">"virtual_currency"</span>:{
-            <span class="hljs-string">"name"</span>:<span class="hljs-string">"Coins"</span>,
-            <span class="hljs-string">"sku"</span>:<span class="hljs-string">"test_package1"</span>,
-            <span class="hljs-string">"quantity"</span>:<span class="hljs-number">10</span>,
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">100</span>        },
-        <span class="hljs-string">"subscription"</span>:{
-            <span class="hljs-string">"plan_id"</span>: <span class="hljs-string">"b5dac9c8"</span>,
-            <span class="hljs-string">"subscription_id"</span>: <span class="hljs-string">"10"</span>,
-            <span class="hljs-string">"product_id"</span>: <span class="hljs-string">"Demo Product"</span>,
-            <span class="hljs-string">"date_create"</span>: <span class="hljs-string">"2014-09-22T19:25:25+04:00"</span>,
-            <span class="hljs-string">"date_next_charge"</span>: <span class="hljs-string">"2014-10-22T19:25:25+04:00"</span>,
-            <span class="hljs-string">"currency"</span>: <span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>: <span class="hljs-number">9.99</span>        },
-        <span class="hljs-string">"checkout"</span>:{
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">50</span>        },
-        <span class="hljs-string">"virtual_items"</span>:{
-            <span class="hljs-string">"items"</span>:[
-                {
-                    <span class="hljs-string">"sku"</span>: <span class="hljs-string">"test_item1"</span>,
-                    <span class="hljs-string">"amount"</span>:<span class="hljs-number">1</span>                }
-            ],
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">50</span>        },
-        <span class="hljs-string">"gift"</span>:{
-             <span class="hljs-string">"giver_ID"</span>:<span class="hljs-string">"John Smith"</span>,
-             <span class="hljs-string">"receiver_ID"</span>:<span class="hljs-string">"Ivan Ivanov"</span>,
-             <span class="hljs-string">"receiver_email"</span>:<span class="hljs-string">"example@example.com"</span>,
-             <span class="hljs-string">"message"</span>:<span class="hljs-string">"GG WP"</span>,
-             <span class="hljs-string">"hide_giver_from_receiver"</span>: <span class="hljs-keyword">true</span>        },
-        <span class="hljs-string">"total"</span>:{
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">200</span>        },
-        <span class="hljs-string">"promotions"</span>:[{
-            <span class="hljs-string">"technical_name"</span>:<span class="hljs-string">"Demo Promotion"</span>,
-            <span class="hljs-string">"id"</span>:<span class="hljs-string">"853"</span>        }],
-        <span class="hljs-string">"coupon"</span>:{
-             <span class="hljs-string">"coupon_code"</span>:<span class="hljs-string">"ICvj45S4FUOyy"</span>,
-             <span class="hljs-string">"campaign_code"</span>:<span class="hljs-string">"1507"</span>        }
-    },
-    <span class="hljs-string">"user"</span>: {
-        <span class="hljs-string">"ip"</span>: <span class="hljs-string">"127.0.0.1"</span>,
-        <span class="hljs-string">"phone"</span>: <span class="hljs-string">"18777976552"</span>,
-        <span class="hljs-string">"email"</span>: <span class="hljs-string">"email@example.com"</span>,
-        <span class="hljs-string">"id"</span>: <span class="hljs-string">"1234567"</span>,
-        <span class="hljs-string">"name"</span>: <span class="hljs-string">"Xsolla User"</span>,
-        <span class="hljs-string">"country"</span>: <span class="hljs-string">"US"</span>    },
-    <span class="hljs-string">"transaction"</span>:{
-        <span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>,
-        <span class="hljs-string">"external_id"</span>:<span class="hljs-number">1</span>,
-        <span class="hljs-string">"payment_date"</span>:<span class="hljs-string">"2014-09-24T20:38:16+04:00"</span>,
-        <span class="hljs-string">"payment_method"</span>:<span class="hljs-number">1</span>,
-        <span class="hljs-string">"dry_run"</span>:<span class="hljs-number">1</span>,
-        <span class="hljs-string">"agreement"</span>:<span class="hljs-number">1</span>    },
-    <span class="hljs-string">"payment_details"</span>:{
-        <span class="hljs-string">"payment"</span>:{
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">230</span>        },
-        <span class="hljs-string">"vat"</span>: {
-            <span class="hljs-string">"currency"</span>: <span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>: <span class="hljs-number">0</span>        },
-        <span class="hljs-string">"payout_currency_rate"</span>: <span class="hljs-number">1</span>,
-        <span class="hljs-string">"payout"</span>:{
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">200</span>        },
-        <span class="hljs-string">"xsolla_fee"</span>:{
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">10</span>        },
-        <span class="hljs-string">"payment_method_fee"</span>:{
-            <span class="hljs-string">"currency"</span>:<span class="hljs-string">"USD"</span>,
-            <span class="hljs-string">"amount"</span>:<span class="hljs-number">20</span>        }
-    },
-    <span class="hljs-string">"custom_parameters"</span>:{
-        <span class="hljs-string">"parameter1"</span>:<span class="hljs-string">"value1"</span>,
-        <span class="hljs-string">"parameter2"</span>:<span class="hljs-string">"value2"</span>    }
-}'
-</code>
+
 </pre>
 </div>
 <div class="section-code">
