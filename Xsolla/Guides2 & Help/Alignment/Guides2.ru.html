@@ -33,10 +33,10 @@
 <p>В письме необходимо указать:</p>
 <ul> <li>
 **Сайт** — адрес сайта игры, к которому планируется подключить Xsolla Login, например ht<span>tp://mysite.com</span>.</li> <li>
-**Базовый домен** — базовый домен сайта, например, mysite.com. Можно указать несколько доменных имен, и, если есть необходимость, использовать один <em>projectId</em> на разных доменах.</li> <li>
+**Базовый домен** — базовый домен сайта, например, mysite.com. Можно указать несколько доменных имен, и, если есть необходимость, использовать один *projectId* на разных доменах.</li> <li>
 **Список способов аутентификации** — список возможных способов аутентификации. Доступные варианты:<ul> <li>аутентификация через логин/пароль,</li> <li>через SMS,</li> <li>социальные сети ((Facebook, Twitter, Steam, Twitch, VK, Naver, и т.д.),</li> <li>i-pin (BETA),</li> <li>многофакторная аутентификация (BETA),</li> <li>сертификат (BETA)</li> <li>локальные социальные сети (BETA).</li> </ul> </li> </ul>
 <p>Также необходимо указать список социальных сетей, через которые должна быть доступна аутентификация.</p>
-<p>В ответном письме мы пришлем вам <em>projectId</em> и <em>secretKey</em>.</p>
+<p>В ответном письме мы пришлем вам *projectId* и *secretKey*.</p>
 <aside class="warning"> Обратите внимание, вызовы методов Xsolla Login можно осуществлять только на страницах с URL, принадлежащим базовому домену. </aside>
 </div>
 <div class="section-code">
@@ -92,9 +92,9 @@ XL.init({
 </th> <th style="text-align:left">
 **Описание**
 </th> </tr> </thead> <tbody> <tr> <td style="text-align:left">projectId</td> <td style="text-align:left">string</td> <td style="text-align:left">Идентификатор приложения. **Обязательный**.</td> </tr> <tr> <td style="text-align:left">locale</td> <td style="text-align:left">string</td> <td style="text-align:left">Локаль пользователя в формате &lt;language code&gt;_&lt;country code&gt;, где: <ul>
-<li> <em>language code:</em> код языка в формате [ISO 639 alpha-2](1);</li>
+<li> *language code:* код языка в формате [ISO 639 alpha-2](1);</li>
 <li>
-<em>country code:</em> код страны (региона) в формате [ISO 3166-1 alpha-2](1).</li>
+*country code:* код страны (региона) в формате [ISO 3166-1 alpha-2](1).</li>
 </ul>
 </td> </tr> <tr> <td style="text-align:left">redirectUrl</td> <td style="text-align:left">string</td> <td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](1)
 </td> </tr> <tr> <td style="text-align:left">onlyWidgets</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td> </tr> <tr> <td style="text-align:left">preloader</td> <td style="text-align:left">string</td> <td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td> </tr> <tr> <td style="text-align:left">fields</td> <td style="text-align:left">string</td> <td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. **Обязательный**
@@ -239,27 +239,27 @@ XL.AuthWidget(element_id, options);
 <div class="header-anchor" id="server_side_проверка-логина-пароля">
 </div>
 </h4>
-<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: <em>{"username":"ХХХХ", "password":"ХХХХ"}</em>
-</li> <li>Успех: <em>{Ok 200}</em>
-</li> <li>Неудачный запрос: <em>{"error": {"code": “003-001”, "description": "" }}</em>
+<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: *{"username":"ХХХХ", "password":"ХХХХ"}*
+</li> <li>Успех: *{Ok 200}*
+</li> <li>Неудачный запрос: *{"error": {"code": “003-001”, "description": "" }}*
 </li> </ul>
 <h4 id="-">
 <a class="anchor" href="#server_side_регистрация">Регистрация</a>
 <div class="header-anchor" id="server_side_регистрация">
 </div>
 </h4>
-<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: <em>{"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}</em>
-</li> <li>Успех: <em>{Ok 200}</em>
-</li> <li>Неудачный запрос: <em>{error: {code: “003-003|004”, description: “” }}</em>
+<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: *{"username":"ХХХХ", "password":"ХХХХ", "email":"ХХХХ"}*
+</li> <li>Успех: *{Ok 200}*
+</li> <li>Неудачный запрос: *{error: {code: “003-003|004”, description: “” }}*
 </li> </ul>
 <h4 id="-">
 <a class="anchor" href="#server_side_сброс-пароля">Сброс пароля</a>
 <div class="header-anchor" id="server_side_сброс-пароля">
 </div>
 </h4>
-<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: <em>{"email":"ХХХХ"}</em>
-</li> <li>Успех: <em>{Ok 200}</em>
-</li> <li>Неудачный запрос: <em>{"error": {"code": “003-002”, "description": ""}}</em>
+<ul> <li>Тип: POST</li> <li>Content-type: application/json</li> <li>Тело запроса: *{"email":"ХХХХ"}*
+</li> <li>Успех: *{Ok 200}*
+</li> <li>Неудачный запрос: *{"error": {"code": “003-002”, "description": ""}}*
 </li> </ul>
 </div>
 <div class="section-code">
@@ -315,7 +315,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Фильтры</a>
 </h2>
-<p>Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным [измерениям](1). Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре **User Country** выбрать <em>United States</em>, то на дашборде будут показаны данные о платежах только из <em>United States</em>. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.</p>
+<p>Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным [измерениям](1). Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре **User Country** выбрать *United States*, то на дашборде будут показаны данные о платежах только из *United States*. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.</p>
 </div>
 <div class="section-code">
 </div>
@@ -603,12 +603,12 @@ XL.AuthWidget(element_id, options);
 <nobr>
 **Payment System Group**
 </nobr>
-</td> <td>Группа платежных систем, например: <em>Cash Payments</em>, <em>Bank Transfer</em>
+</td> <td>Группа платежных систем, например: *Cash Payments*, *Bank Transfer*
 </td> </tr> <tr> <td>Payment System</td> <td>
 <nobr>
 **Payment System**
 </nobr>
-</td> <td>ID платежной системы и название, например: <em>24. Paypal</em>, <em>57. PaySafeCard</em>
+</td> <td>ID платежной системы и название, например: *24. Paypal*, *57. PaySafeCard*
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
 **User Country**
@@ -617,21 +617,21 @@ XL.AuthWidget(element_id, options);
 <nobr>
 **Language**
 </nobr>
-</td> <td>Язык. Используется 2-буквенный код, вида <em>EN</em>, <em>PT</em>, <em>RU</em>
+</td> <td>Язык. Используется 2-буквенный код, вида *EN*, *PT*, *RU*
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
 **IP Address Geography**
 </nobr>
-</td> <td>Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о <em>Region</em> и <em>Country</em> с <em>Country Subdivision</em> и <em>City</em>.</td> </tr> <tr> <td>Geography</td> <td>
+</td> <td>Местоположение пользователя, вычисляется на основании IP-адреса. Данная иерархия содержит точную географическую информацию о *Region* и *Country* с *Country Subdivision* и *City*.</td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
 **Timezone**
 </nobr>
-</td> <td>Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: <em>Europe/Berlin</em>, <em>America/Chicago</em>
+</td> <td>Часовой пояс пользователя, определяется на основе IP-адреса пользователя, например: *Europe/Berlin*, *America/Chicago*
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
 **Business Region**
 </nobr>
-</td> <td>Бизнес-регион в **User Country**, например: <em>European Union</em>, <em>Latin America</em>
+</td> <td>Бизнес-регион в **User Country**, например: *European Union*, *Latin America*
 </td> </tr> <tr> <td>Geography</td> <td>
 <nobr>
 **Payment System Country**
@@ -644,28 +644,28 @@ XL.AuthWidget(element_id, options);
 <nobr>
 **Payment Currency**
 </nobr>
-</td> <td>Валюта платежа пользователя, 3-буквенное обозначение, вида: <em>USD</em>, <em>EUR</em>
+</td> <td>Валюта платежа пользователя, 3-буквенное обозначение, вида: *USD*, *EUR*
 </td> </tr> <tr> <td>Currencies</td> <td>
 <nobr>
 **Payout Currency**
 </nobr>
-</td> <td>Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: <em>USD</em>, <em>EUR</em>
+</td> <td>Валюта выплаты банку-партнеру, 3-буквенное обозначение, вида: *USD*, *EUR*
 </td> </tr> <tr> <td>Purchase</td> <td>
 <nobr>
 **Purchase Type**
 </nobr>
-</td> <td>Модуль Xsolla, использованный для совершения платежа: <em>Virtual Items</em>, <em>Virtual Currency</em>
+</td> <td>Модуль Xsolla, использованный для совершения платежа: *Virtual Items*, *Virtual Currency*
 </td> </tr> <tr> <td>Purchase</td> <td>
 <nobr>
 **Is First Payment**
 </nobr>
 </td> <td>
-<em>True</em>, если это первый платеж для данного юзера, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
+*True*, если это первый платеж для данного юзера, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Is Credit Card**
 </nobr>
 </td> <td>
-<em>True</em>, если платеж совершен через кредитную карту, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
+*True*, если платеж совершен через кредитную карту, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Issuing Bank**
 </nobr>
@@ -673,63 +673,63 @@ XL.AuthWidget(element_id, options);
 <nobr>
 **Credit Card Brand**
 </nobr>
-</td> <td>e.g <em>VISA</em>, <em>MasterCard</em>
+</td> <td>e.g *VISA*, *MasterCard*
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Credit Card Type**
 </nobr>
-</td> <td>e.g. <em>CREDIT</em>, <em>DEBIT</em>
+</td> <td>e.g. *CREDIT*, *DEBIT*
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Credit Card Category**
 </nobr>
-</td> <td>e.g. <em>CLASSIC</em>, <em>GOLD</em>, <em>PLATINUM</em>
+</td> <td>e.g. *CLASSIC*, *GOLD*, *PLATINUM*
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Is Payment Account Saved**
 </nobr>
 </td> <td>
-<em>True</em> если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
+*True* если пользователь позволил Xsolla сохранить его платежную информацию для будущих покупок, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Is Payment From Saved Account**
 </nobr>
 </td> <td>
-<em>True</em>, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, <em>false</em> в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
+*True*, если платеж был совершен с использованием сохраненной ранее платежной информации пользователя, *false* в противном случае</td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Is Credit Card Rejected**
 </nobr>
 </td> <td>
-<em>True</em>, если кредитная карта была отклонена во время процесса оплаты, <em>false</em> в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**
+*True*, если кредитная карта была отклонена во время процесса оплаты, *false* в противном случае. Причину отмены можно найти в измерении **Credit Card Reject Reason**
 </td> </tr> <tr> <td>Credit Cards</td> <td>
 <nobr>
 **Credit Card Reject Reason**
 </nobr>
-</td> <td>e.g. <em>Insufficient Funds</em>, <em>Did not pass validation 3D-secure</em>
+</td> <td>e.g. *Insufficient Funds*, *Did not pass validation 3D-secure*
 </td> </tr> <tr> <td>Recurring Payments</td> <td>
 <nobr>
 **Is Recurrent Plan Created**
 </nobr>
 </td> <td>
-<em>True</em>, если из платежа была создана рекуррентная подписка, <em>false</em> в противном случае</td> </tr> <tr> <td>Recurring Payments</td> <td>
+*True*, если из платежа была создана рекуррентная подписка, *false* в противном случае</td> </tr> <tr> <td>Recurring Payments</td> <td>
 <nobr>
 **Is Recurrent Payment**
 </nobr>
 </td> <td>
-<em>True</em>, если списание с карты было совершено для оплаты рекуррентной подписки, <em>false</em> в противном случае</td> </tr> <tr> <td>User Agent</td> <td>
+*True*, если списание с карты было совершено для оплаты рекуррентной подписки, *false* в противном случае</td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
 **OS**
 </nobr>
-</td> <td>Операционная система на девайсе пользователя, например: <em>Windows 8</em>, <em>MacOS</em>, <em>Android</em>
+</td> <td>Операционная система на девайсе пользователя, например: *Windows 8*, *MacOS*, *Android*
 </td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
 **Browser**
 </nobr>
-</td> <td>Браузер пользователя, например: <em>Firefox</em>, <em>Chrome Mobile</em>
+</td> <td>Браузер пользователя, например: *Firefox*, *Chrome Mobile*
 </td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
 **Device**
 </nobr>
-</td> <td>Модель мобильного устройства пользователя, например: <em>IPhone</em>, <em>Nokia Lumia</em>
+</td> <td>Модель мобильного устройства пользователя, например: *IPhone*, *Nokia Lumia*
 </td> </tr> <tr> <td>User Agent</td> <td>
 <nobr>
 **Screen Size**
@@ -738,33 +738,33 @@ XL.AuthWidget(element_id, options);
 <nobr>
 **UI**
 </nobr>
-</td> <td>Интерфейс Xsolla, через который был совершен платеж, например: <em>PayStation</em>, <em>Smartphone Version</em>
+</td> <td>Интерфейс Xsolla, через который был совершен платеж, например: *PayStation*, *Smartphone Version*
 </td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
 **Payment Notification Delivery**
 </nobr>
-</td> <td>Продолжительность обработки платежа на стороне Xsolla, например: <em>1-3 seconds</em>, <em>1-10 minutes</em>
+</td> <td>Продолжительность обработки платежа на стороне Xsolla, например: *1-3 seconds*, *1-10 minutes*
 </td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
 **Payment System Delay**
 </nobr>
-</td> <td>Продолжительность обработки платежа на стороне платежной системы, например: <em>1-3 seconds</em>, <em>1-10 minutes</em>
+</td> <td>Продолжительность обработки платежа на стороне платежной системы, например: *1-3 seconds*, *1-10 minutes*
 </td> </tr> <tr> <td>Developers</td> <td>
 <nobr>
 **Payment Flow**
 </nobr>
-</td> <td>Общая продолжительностьобработки платежа, например: <em>1-3 seconds</em>, <em>1-10 minutes</em>
+</td> <td>Общая продолжительностьобработки платежа, например: *1-3 seconds*, *1-10 minutes*
 </td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
 **Is Cancelled**
 </nobr>
 </td> <td>
-<em>True</em>, если платеж отменен, <em>false</em> в противном случае. Причины отмены можно найти в измерении **Cancellation Type**
+*True*, если платеж отменен, *false* в противном случае. Причины отмены можно найти в измерении **Cancellation Type**
 </td> </tr> <tr> <td>Cancellations</td> <td>
 <nobr>
 **Cancellation Type**
 </nobr>
-</td> <td>Причины отмены транзакции, например: <em>Refund</em>, <em>Chargeback</em>
+</td> <td>Причины отмены транзакции, например: *Refund*, *Chargeback*
 </td> </tr> </tbody> </table>
 </div>
 <div class="section-code">
@@ -800,7 +800,7 @@ XL.AuthWidget(element_id, options);
 <nobr>
 **Virtual Currency Amount**
 </nobr>
-</td> <td>Количество приобретенной виртуальной валюты. Доступно в модуле <em>Virtual Currency</em>
+</td> <td>Количество приобретенной виртуальной валюты. Доступно в модуле *Virtual Currency*
 </td> </tr> <tr> <td>Measures</td> <td>
 <nobr>
 **ARPPU**
@@ -1250,7 +1250,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="basic_testing">
 <a class="anchor" href="#basic_testing">Тестирование процесса оплаты </a>
 </h2>
-<p>Xsolla Sandbox (“песочница”) — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"settings.mode" = "sandbox"</i> в объекте **access_data**. Параметры и структура JSON внутри объекта **access_data** идентичны JSON в запросе на получение [токена](1).</p>
+<p>Xsolla Sandbox (“песочница”) — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр *"settings.mode" = "sandbox"* в объекте **access_data**. Параметры и структура JSON внутри объекта **access_data** идентичны JSON в запросе на получение [токена](1).</p>
 <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside>
 <p>Тестирование оплаты банковской картой:</p>
 <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты **Банковские карты**.</li> <li>Введите реквизиты тестовой карты. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol>
@@ -1361,7 +1361,7 @@ user_register/{tracking_id}' \
 </code>
 </p>
 <p>В HTTP POST запросе вы можете указать параметры, которые нужно передать на платежный интерфейс. Запрос и ответ передаются в JSON формате.</p>
-<p>Ниже указан пример получения токена на PHP с использованием [Xsolla PHP SDK](1). Если вы разрабатываете на другом языке, можно использовать <em>CURL</em> пример (нажмите на кнопку CURL).</p>
+<p>Ниже указан пример получения токена на PHP с использованием [Xsolla PHP SDK](1). Если вы разрабатываете на другом языке, можно использовать *CURL* пример (нажмите на кнопку CURL).</p>
 <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang active" data-lang="php">PHP</div> <div class="lang" data-lang="shell">CURL</div> </div> </div> <pre>
 <code class="lang-php">
 <span class="php">
@@ -1802,7 +1802,7 @@ user_register/{tracking_id}' \
 </div>
 <h2 data-headings="advanced_testing">
 <a class="anchor" href="#advanced_testing">Тестирование процесса оплаты </a>
-</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"mode" = "sandbox"</i> при [получении токена](1).</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты **Банковские карты**.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
+</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр *"mode" = "sandbox"* при [получении токена](1).</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты **Банковские карты**.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
 [Список банковских карт для тестирования](1)
 </p> <p>
 **Обратите внимание!** Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p> <div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
@@ -2278,10 +2278,10 @@ user_register/{tracking_id}' \
 </h1>
 <ol> <li>Зарегистрировать новое доменное имя вида **secure.yourdomain.com**. При регистрации следует указать текущий IP-адрес домена **secure.xsolla.com** (запись типа A), либо указать алиас на **secure.xsolla.com** (запись типа CNAME).</li> <li>Выпустить валидный сертификат SSL для данного домена — **secure.yourdomain.com**.</li> <li>
 <p>Генерация ключа и запроса на подпись сертификата (CSR) с использованием пакета openssl. В командной строке выполните следующие инструкции:</p> <ul> <li>
-**Генерация ключа:** <em>openssl genrsa -out server.key 2048</em>
+**Генерация ключа:** *openssl genrsa -out server.key 2048*
 </li> <li>
 <p>
-**Генерация CSR:** <em>openssl req -new -key server.key -out server.csr</em>
+**Генерация CSR:** *openssl req -new -key server.key -out server.csr*
 </p> <p>Во время генерации следует отвечать на вопросы в интерактивном режиме.</p> <p>
 **Важно!** В поле **Common Name** нужно указать имя вашего домена (**secure.yourdomain.com**).</p> </li> </ul> </li> <li>
 <p>Далее, на любом сайте, выдающем сертификаты (например, [GoDaddy](1)) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла **server.csr**.</p> <p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</p> </li> <li>Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](1) с темой письма: **[Ваша игра]: SSL Certificate**.</li> <li>При интеграции через **Pay Station Embed** необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li> </ol>
