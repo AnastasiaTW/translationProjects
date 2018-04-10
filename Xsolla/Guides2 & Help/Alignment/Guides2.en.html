@@ -34,11 +34,11 @@
 <p>With the following info:</p>
 <ul> <li>
 <p>
-<b>Site</b> - The website to connect to Xsolla Login (e.g. ht<span>tp://mysite.com</span>).</p> </li> <li>
+**Site** - The website to connect to Xsolla Login (e.g. ht<span>tp://mysite.com</span>).</p> </li> <li>
 <p>
-<b>Domain</b> - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same <em>projectID</em> .</p> </li> <li>
+**Domain** - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same <em>projectID</em> .</p> </li> <li>
 <p>
-<b>Supported authentication methods are:</b>:</p> <ul> <li>Login/password,</li> <li>SMS,</li> <li>Social networks (Facebook, Twitter, Steam, Twitch, VK, Naver, etc),</li> <li>i-PIN (BETA),</li> <li>Multi-factor authentication (BETA),</li> <li>Certificate (BETA)</li> <li>Local social network authentication (BETA).</li> </ul> </li> </ul>
+**Supported authentication methods are:**:</p> <ul> <li>Login/password,</li> <li>SMS,</li> <li>Social networks (Facebook, Twitter, Steam, Twitch, VK, Naver, etc),</li> <li>i-PIN (BETA),</li> <li>Multi-factor authentication (BETA),</li> <li>Certificate (BETA)</li> <li>Local social network authentication (BETA).</li> </ul> </li> </ul>
 <p>In the last case, let us know which social networks you want to use for authentication.</p>
 <p>We’ll reply with your <em>projectID</em> and <em>secretKey</em>.</p>
 </div>
@@ -1157,7 +1157,7 @@ user_register/{tracking_id}' \
 <h1 data-headings="pay2play">
 <a class="anchor" href="#pay2play">Pay2Play </a>
 </h1>
-<p>The <b>Pay2Play</b> module allows game developers to sell PIN codes directly from a game's website. Users can access the store using the Pay2Play widget. The module has several integration options and allows developers to:</p>
+<p>The **Pay2Play** module allows game developers to sell PIN codes directly from a game's website. Users can access the store using the Pay2Play widget. The module has several integration options and allows developers to:</p>
 <ul> <li>Choose different DRM platforms</li> <li>Set different prices for different DRM platforms</li> <li>Configure widget size and color theme</li> <li>Pay tips to the developer</li> </ul>
 </div>
 <div class="section-code">
@@ -1223,7 +1223,7 @@ user_register/{tracking_id}' \
 [Test](1) the payment process.</li> <li>Add the [Pay2Play widget](1) to the game page.</li> <li>Sign an agreement.</li> </ol>
 <p>The following parameters are required for the integration:</p>
 <ul> <li>
-<b>Project ID</b> — shown in the Publisher Account URL when viewing project settings: <i>
+**Project ID** — shown in the Publisher Account URL when viewing project settings: <i>
 <span>ht</span>tps://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul>
 <aside class="notise2"> This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](1). In case of any questions, please contact your account manager. </aside>
 </div>
@@ -1237,8 +1237,8 @@ user_register/{tracking_id}' \
 <h2 data-headings="basic_create_project">
 <a class="anchor" href="#basic_create_project">Creating a Project </a>
 </h2>
-<ol> <li>Go to <b>Projects</b> and click <b>Create new project</b>.</li> <li>In set up mode:<br>
-<ul> <li>Set <b>Webhooks</b> to <b>Off</b>.</li> <li>Set <b>Serverless integration</b> to <b>On</b>.</li> <li>Turn on the <b>Pay2Play</b> module.</li> </ul> </li> </ol>
+<ol> <li>Go to **Projects** and click **Create new project**.</li> <li>In set up mode:<br>
+<ul> <li>Set **Webhooks** to **Off**.</li> <li>Set **Serverless integration** to **On**.</li> <li>Turn on the **Pay2Play** module.</li> </ul> </li> </ol>
 </div>
 <div class="section-code">
 </div>
@@ -1250,7 +1250,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="basic_create_module">
 <a class="anchor" href="#basic_create_module">Setting Up the Module </a>
 </h2>
-<ol> <li>Go to the <b>Pay2Play</b> module settings and configure the following parameters for the game:<ul> <li>Name.</li> <li>Description.</li> <li>System requirements.</li> <li>SKU — a unique identifier.</li> <li>Release date.</li> <li>Image.</li> <li>DRM platform.</li> <li>Operating systems/game console versions for the selected DRM platforms.</li> </ul> </li> <li>Click <b>Next</b>.</li> <li>Configure prices for the selected DRM platforms. Click <b>Next</b>.</li> <li>Set <b>Uploaded codes</b> to <b>On</b>.</li> <li>Upload PIN codes for the selected DRM platforms.</li> </ol>
+<ol> <li>Go to the **Pay2Play** module settings and configure the following parameters for the game:<ul> <li>Name.</li> <li>Description.</li> <li>System requirements.</li> <li>SKU — a unique identifier.</li> <li>Release date.</li> <li>Image.</li> <li>DRM platform.</li> <li>Operating systems/game console versions for the selected DRM platforms.</li> </ul> </li> <li>Click **Next**.</li> <li>Configure prices for the selected DRM platforms. Click **Next**.</li> <li>Set **Uploaded codes** to **On**.</li> <li>Upload PIN codes for the selected DRM platforms.</li> </ol>
 </div>
 <div class="section-code">
 </div>
@@ -1265,12 +1265,12 @@ user_register/{tracking_id}' \
 <p>Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending <i>"settings.mode" = "sandbox"</i> within the <i>access_data</i> object. The JSON structure and parameters in <i>access_data</i> are the same as in the [Token](1) request.</p>
 <aside class="notise2"> Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment. </aside>
 <p>To test a bank card payment:</p>
-<ol> <li>Open the store in sandbox mode.</li> <li>Choose the item to purchase.</li> <li>Choose the <b>Credit/debit cards</b> group of payment methods.</li> <li>Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.</li> </ol>
+<ol> <li>Open the store in sandbox mode.</li> <li>Choose the item to purchase.</li> <li>Choose the **Credit/debit cards** group of payment methods.</li> <li>Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.</li> </ol>
 <p>
 [List of bank cards to be used for testing](1)
 </p>
 <p>
-<b>Important!</b> Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.</p>
+**Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.</p>
 </div>
 <div class="section-code">
 </div>
@@ -1282,7 +1282,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="basic_widget">
 <a class="anchor" href="#basic_widget">Integrating the Pay2Play Widget </a>
 </h2>
-<p>The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the <b>Publish</b> tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.</p>
+<p>The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.</p>
 <p>Asynchronous loading example</p>
 <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
 <code class="lang-html"> <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
@@ -1302,7 +1302,7 @@ user_register/{tracking_id}' \
  </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
-</pre> <p>You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).</p> <aside class="notise2"> <b>Important!</b> You need to sign an agreement before you can accept real payments. </aside> </div>
+</pre> <p>You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).</p> <aside class="notise2"> **Important!** You need to sign an agreement before you can accept real payments. </aside> </div>
 </div>
 <div class="section-code">
 </div>
@@ -1323,12 +1323,12 @@ user_register/{tracking_id}' \
 [Test](1) the payment process.</li> <li>Add the [Pay2Play widget](1) to the game page and sign the agreement.</li> </ol>
 <p>The following parameters are required for the integration:</p>
 <ul> <li>
-<b>Merchant ID</b> — shown in the Publisher Account URL: <i>
+**Merchant ID** — shown in the Publisher Account URL: <i>
 <span>ht</span>tps://publisher.xsolla.com/{merchant_id}/</i>.</li> <li>
-<b>API Key</b> — generated in <b>Publisher Account &gt; Settings &gt; Company</b>.</li> <li>
-<b>Project ID</b> — shown in the Publisher Account URL when viewing project settings: <i>
+**API Key** — generated in **Publisher Account &gt; Settings &gt; Company**.</li> <li>
+**Project ID** — shown in the Publisher Account URL when viewing project settings: <i>
 <span>ht</span>tps://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
-<b>Project secret key</b> — generated in project settings.</li> </ul>
+**Project secret key** — generated in project settings.</li> </ul>
 <aside class="notise2"> This guide describes the minimum set of settings required to quick-start the module. You can find the full list of parameters in the [API Reference](1). In case of any questions, please contact your account manager. </aside>
 </div>
 <div class="section-code">
@@ -1341,7 +1341,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="advanced_create_project">
 <a class="anchor" href="#advanced_create_project">Creating a Project </a>
 </h2>
-<ol> <li>Go to <b>Projects</b> and click <b>Create new project</b>.</li> <li>In the project settings:<ul> <li>Set <b>Webhooks</b> to <b>On</b>.</li> <li>Specify the webhook URL.</li> <li>Generate a secret key to sign project webhooks.</li> <li>Set <b>Serverless integration</b> to <b>Off</b>.</li> <li>Turn on the <b>Pay2Play</b> module.</li> </ul> </li> </ol>
+<ol> <li>Go to **Projects** and click **Create new project**.</li> <li>In the project settings:<ul> <li>Set **Webhooks** to **On**.</li> <li>Specify the webhook URL.</li> <li>Generate a secret key to sign project webhooks.</li> <li>Set **Serverless integration** to **Off**.</li> <li>Turn on the **Pay2Play** module.</li> </ul> </li> </ol>
 </div>
 <div class="section-code">
 </div>
@@ -1353,7 +1353,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="advanced_create_module">
 <a class="anchor" href="#advanced_create_module">Setting Up the Module </a>
 </h2>
-<ol> <li>Go to the <b>Pay2Play</b> module settings and configure the following parameters for the game:<ul> <li>Name.</li> <li>Description.</li> <li>System requirements.</li> <li>SKU — a unique identifier.</li> <li>Release date.</li> <li>Image.</li> <li>DRM platform.</li> <li>Operating systems/game console versions for the selected DRM platforms.</li> </ul> </li> <li>Click <b>Next</b>.</li> <li>Configure prices for the selected DRM platforms. Click <b>Next</b>.</li> <li>Set <b>Uploaded codes</b> to <b>On</b>.</li> <li>Upload PIN codes for the selected DRM platforms.</li> </ol>
+<ol> <li>Go to the **Pay2Play** module settings and configure the following parameters for the game:<ul> <li>Name.</li> <li>Description.</li> <li>System requirements.</li> <li>SKU — a unique identifier.</li> <li>Release date.</li> <li>Image.</li> <li>DRM platform.</li> <li>Operating systems/game console versions for the selected DRM platforms.</li> </ul> </li> <li>Click **Next**.</li> <li>Configure prices for the selected DRM platforms. Click **Next**.</li> <li>Set **Uploaded codes** to **On**.</li> <li>Upload PIN codes for the selected DRM platforms.</li> </ol>
 </div>
 <div class="section-code">
 </div>
@@ -1809,18 +1809,18 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#advanced_setup_webhooks_testing-webhooks">Testing Webhooks </a>
 <div class="header-anchor" id="advanced_setup_webhooks_testing-webhooks">
 </div>
-</h3> <p>To test the webhook handler:</p> <ol> <li>In the Publisher Account, open the module settings.</li> <li>Go to the <b>Testing</b> tab.</li> <li>Enter the test data and click <b>Test</b>. The Xsolla server will send all possible webhooks.</li> <li>The test is marked green in case of a valid response and red in case of an error.</li> </ol> <div class="section-anchor" id="advanced_testing" data-headings="advanced_testing">
+</h3> <p>To test the webhook handler:</p> <ol> <li>In the Publisher Account, open the module settings.</li> <li>Go to the **Testing** tab.</li> <li>Enter the test data and click **Test**. The Xsolla server will send all possible webhooks.</li> <li>The test is marked green in case of a valid response and red in case of an error.</li> </ol> <div class="section-anchor" id="advanced_testing" data-headings="advanced_testing">
 </div>
 <h2 data-headings="advanced_testing">
 <a class="anchor" href="#advanced_testing">Testing Payment Process </a>
-</h2> <p>Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending <i>"mode" = "sandbox"</i> when [getting the token](1).</p> <aside class="notise2"> Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment. </aside> <p>To test a bank card payment:</p> <ol> <li>Open the store in sandbox mode.</li> <li>Choose the item to purchase.</li> <li>Click <b>Credit/debit cards</b>.</li> <li>Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.</li> </ol> <p>
+</h2> <p>Xsolla Sandbox is a standalone environment that supports all features of the live environment, except real payments. You can access the Sandbox by sending <i>"mode" = "sandbox"</i> when [getting the token](1).</p> <aside class="notise2"> Making a test payment does not claim a PIN code. To test if it is being claimed, you must do this in the live environment. </aside> <p>To test a bank card payment:</p> <ol> <li>Open the store in sandbox mode.</li> <li>Choose the item to purchase.</li> <li>Click **Credit/debit cards**.</li> <li>Enter the bank card details and any values in the remaining fields. You can also specify incorrect details (card number, expiration date, or CVV) in order to generate an error.</li> </ol> <p>
 [List of bank cards to be used for testing](1)
 </p> <p>
-<b>Important!</b> Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.</p> <div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
+**Important!** Sandbox bank card payments can only be made in USD, EUR, RUB, GBP, SGD, HKD, or THB.</p> <div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
 </div>
 <h2 data-headings="advanced_widget">
 <a class="anchor" href="#advanced_widget">Integrating the Pay2Play Widget </a>
-</h2> <p>The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the <b>Publish</b> tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.</p> <p>Asynchronous loading example</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
+</h2> <p>The [Pay2Play widget](1) opens your store in a lightbox (on desktop screens) or a new window (on mobile and tablet screens). The widget automatically determines the type of device. To get the widget code, open module settings in your Publisher Account and go to the **Publish** tab. Copy the code of the desired widget and add it to your game’s website. We recommend using asynchronous loading.</p> <p>Asynchronous loading example</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
 <code class="lang-html"> <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
 <span class="javascript">
      <span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
@@ -1838,7 +1838,7 @@ user_register/{tracking_id}' \
  </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
-</pre> <p>You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).</p> <aside class="notise2"> <b>Important!</b> You need to sign an agreement before you can accept real payments. </aside> </div>
+</pre> <p>You can find the complete list of widget initialization parameters in the [API Reference](1) and its installation instructions on [GitHub](1).</p> <aside class="notise2"> **Important!** You need to sign an agreement before you can accept real payments. </aside> </div>
 </div>
 </div>
 </div>
@@ -1864,7 +1864,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="tips">
 <a class="anchor" href="#tips">Tips to the Developer </a>
 </h2>
-<p>A project can receive tips from each purchase. To enable the option, open Pay2Play price settings and set <b>Use Tips in the Pay2Play widget</b> to <b>On</b>. Three pre-defined tip amounts are available for each currency you add.</p>
+<p>A project can receive tips from each purchase. To enable the option, open Pay2Play price settings and set **Use Tips in the Pay2Play widget** to **On**. Three pre-defined tip amounts are available for each currency you add.</p>
 <p>The user will be able to choose the tip amount before entering the store. The tips will be added to the purchase price.</p>
 </div>
 <div class="section-code">
@@ -1878,7 +1878,7 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#api_pin_codes">Delivering PIN Codes via API </a>
 </h2>
 <p>You can send PIN codes after each purchase instead of uploading the list of PIN codes in a file. To enable the feature:</p>
-<ul> <li>Implement the [Get PIN code](1) webhook.</li> <li>In Pay2Play settings, go to <b>Upload codes</b>, set <b>On demand</b> to <b>On</b> and <b>Uploaded codes</b> to <b>Off</b>.</li> </ul>
+<ul> <li>Implement the [Get PIN code](1) webhook.</li> <li>In Pay2Play settings, go to **Upload codes**, set **On demand** to **On** and **Uploaded codes** to **Off**.</li> </ul>
 </div>
 <div class="section-code">
 </div>
@@ -1905,7 +1905,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="regional_sale_restrictions">
 <a class="anchor" href="#regional_sale_restrictions">Restricting Sales by Regions </a>
 </h2>
-<p>The <b>Pay2Play</b> module allows you to configure regional restrictions on PIN code sales. In particular, you can:</p>
+<p>The **Pay2Play** module allows you to configure regional restrictions on PIN code sales. In particular, you can:</p>
 <ul> <li>Set different prices for individual countries or groups of countries;</li> <li>Prohibit sales in certain countries.</li> </ul>
 <p>Once you have properly configured the project, a user trying to purchase a PIN code in a restricted country will see a corresponding warning. In countries for which PIN code sales are prohibited, payment is not possible.</p>
 <p>
@@ -1915,7 +1915,7 @@ user_register/{tracking_id}' \
 <ul> <li>Restriction type:<ul> <li>Activation: A PIN code can be activated in certain countries only.</li> <li>Launch: A PIN code can be activated in any country, but the game can be launched in certain countries only;</li> <li>Activation and launch: A PIN code can be activated and the game can be launched in certain countries only.</li> </ul> </li> <li>List of country groups with different PIN code prices.</li> <li>Settings for each group of countries:<ul> <li>Group name.</li> <li>SKU — a unique group identifier.</li> <li>List of prices in different currencies. Make sure to include the price in the default currency set in module settings.</li> <li>List of countries within each group.</li> </ul> </li> <li>List of countries where PIN codes are disabled (if any).</li> </ul>
 <p>For any single platform, a country can belong either to a different-price group or to the preorders-disabled group. If a country is not listed in any of the groups, PIN codes can be sold without any restrictions, at the prices set in default module settings.</p>
 <p>
-<b>Important!</b> If PIN code activation and game launching are made on your or the DRM platform’s side, then, on the release date, make sure to upload PIN codes with regional restrictions already configured.</p>
+**Important!** If PIN code activation and game launching are made on your or the DRM platform’s side, then, on the release date, make sure to upload PIN codes with regional restrictions already configured.</p>
 </div>
 <div class="section-code">
 </div>
@@ -2037,7 +2037,7 @@ user_register/{tracking_id}' \
 </h2>
 <p>If necessary, you can add an array with the user’s friend list to the [request for token](1). If the array only contains one friend, they will be automatically identified as the gift recipient. The token request may not contain more than 100 friends. You can also add an object with the gift data to the request.</p>
 <p>
-<b>Request example</b>
+**Request example**
 </p>
 <pre>
 <code class="lang-json">
@@ -2093,7 +2093,7 @@ user_register/{tracking_id}' \
 </h2>
 <p>In this case, Xsolla sends a [request for the friend list](1) to the project’s webhook URL, which is configured in project settings.</p>
 <p>
-<b>Creating a signature</b>
+**Creating a signature**
 </p>
 <p>To create a signature:</p>
 <ol> <li>Order the parameters received from the Xsolla server in alphabetic order.</li> <li>Concatenate the parameter values and the project’s secret key, as generated in project settings.</li> <li>Hash the resulting string using the SHA1 algorithm.</li> <li>Send the result in the 'sign' parameter.</li> </ol>
@@ -2104,7 +2104,7 @@ user_register/{tracking_id}' \
 </div>
 </h3>
 <p>
-<b>Request example</b>
+**Request example**
 </p>
 <pre>
 <code class="lang-http">$ curl -v 'https://your.webhook.url?<span class="hljs-variable">notification_type=</span>friends_list&amp;<span class="hljs-variable">user=</span>user_id&amp;<span class="hljs-variable">query=</span>frien&amp;<span class="hljs-variable">offset=</span>
@@ -2116,7 +2116,7 @@ user_register/{tracking_id}' \
 </code>
 </pre>
 <p>
-<b>Response example</b>
+**Response example**
 </p>
 <pre>
 <code class="lang-json">[
@@ -2168,7 +2168,7 @@ user_register/{tracking_id}' \
 </h2>
 <p>Make sure to update the handling of the [Payment webhook](1), which will now pass the new gift.purchase object in its JSON.</p>
 <p>
-<b>Request example</b>
+**Request example**
 </p>
 <pre>
 <code class="lang-json">$curl -v 'https:<span class="hljs-comment">//your.hostname/your/uri' \</span>
