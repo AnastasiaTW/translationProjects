@@ -16,3 +16,5 @@
 </li>
 <li>
 <li>* 
+<a class="anchor".*?>(.*?)\s*</a>
+\1
