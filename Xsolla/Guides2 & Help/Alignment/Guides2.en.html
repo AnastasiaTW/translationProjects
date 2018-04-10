@@ -33,11 +33,8 @@
 </p>
 <p>With the following info:</p>
 <ul> <li>
-<p>
-**Site** - The website to connect to Xsolla Login (e.g. http://mysite.com).</p> </li> <li>
-<p>
-**Domain** - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same *projectID* .</p> </li> <li>
-<p>
+**Site** - The website to connect to Xsolla Login (e.g. http://mysite.com).</li> <li>
+**Domain** - The website’s main domain name (e.g. mysite.com). If you have multiple domain names, specify all of them — they will all have the same *projectID* .</li> <li>
 **Supported authentication methods are:**:</p> <ul> <li>Login/password,</li> <li>SMS,</li> <li>Social networks (Facebook, Twitter, Steam, Twitch, VK, Naver, etc),</li> <li>i-PIN (BETA),</li> <li>Multi-factor authentication (BETA),</li> <li>Certificate (BETA)</li> <li>Local social network authentication (BETA).</li> </ul> </li> </ul>
 <p>In the last case, let us know which social networks you want to use for authentication.</p>
 <p>We’ll reply with your *projectID* and *secretKey*.</p>
@@ -2286,14 +2283,12 @@ https://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>
 <h1 data-headings="paystation_domain">
 <a class="anchor" href="#paystation_domain">Launch Pay Station on your game domain </a>
 </h1>
-<ol> <li>Register a new domain name of **secure.yourdomain.com**, where **yourdomain.com** is your domain name. Then specify either the current IP address of **secure.xsolla.com** as an A record or an alias to **secure.xsolla.com** as a CNAME record.</li> <li>Issue a new valid SSL certificate for your domain name (**secure.yourdomain.com**).</li> <li>
-<p>Generate a new key and Certificate Signing Request (CSR) by running openssl in the command line:</p> <ul> <li>
+<ol> <li>Register a new domain name of **secure.yourdomain.com**, where **yourdomain.com** is your domain name. Then specify either the current IP address of **secure.xsolla.com** as an A record or an alias to **secure.xsolla.com** as a CNAME record.</li> <li>Issue a new valid SSL certificate for your domain name (**secure.yourdomain.com**).</li> <li>Generate a new key and Certificate Signing Request (CSR) by running openssl in the command line:</p> <ul> <li>
 **Generate a new key:** *openssl genrsa -out server.key 2048*
 </li> <li>
 **Generate a new CSR:** *openssl req -new -key server.key -out server.csr*
 </li> </ul> <p>Answer the questions the system asks in the process.</p> <p>
-**Important!** Make sure to specify your domain name (**secure.yourdomain.com**) in the **Common Name** field.</p> </li> <li>
-<p>Go to any website that issues certificates (e.g. [GoDaddy](1)) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.</p> <p>After the registrar verifies the domain owner, you will receive a signed certificate.</p> </li> <li>Send your key and certificate to Xsolla at [sysadmins@xsolla.com](1) with the following email subject: **[Your game]: SSL Certificate**.</li> <li>While setting up the integration via **Pay Station Embed**, make sure to specify the link to your payment UI in the "host" parameter.</li> </ol>
+**Important!** Make sure to specify your domain name (**secure.yourdomain.com**) in the **Common Name** field.</li> <li>Go to any website that issues certificates (e.g. [GoDaddy](1)) and issue a new certificate. When the website asks you to provide a CSR, copy and paste the contents of **server.csr** in the corresponding input field.</p> <p>After the registrar verifies the domain owner, you will receive a signed certificate.</li> <li>Send your key and certificate to Xsolla at [sysadmins@xsolla.com](1) with the following email subject: **[Your game]: SSL Certificate**.</li> <li>While setting up the integration via **Pay Station Embed**, make sure to specify the link to your payment UI in the "host" parameter.</li> </ol>
 </div>
 <div class="section-code">
 </div>
