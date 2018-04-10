@@ -29,7 +29,7 @@
 <h2 data-headings="getting_started">
 <a class="anchor" href="#getting_started">Подготовка к работе </a>
 </h2>
-<p>Для начала работы необходимо зарегистрировать приложение, написав письмо на <a href="mailto:bizdev@xsolla.com">bizdev@xsolla.com</a>.</p>
+<p>Для начала работы необходимо зарегистрировать приложение, написав письмо на [bizdev@xsolla.com](1).</p>
 <p>В письме необходимо указать:</p>
 <ul> <li>
 <b>Сайт</b> — адрес сайта игры, к которому планируется подключить Xsolla Login, например ht<span>tp://mysite.com</span>.</li> <li>
@@ -49,7 +49,7 @@
 <h2 data-headings="xlwidget">
 <a class="anchor" href="#xlwidget">Виджет аутентификации </a>
 </h2>
-<p>Рассмотренный ниже пример добавляет виджет аутентификации стандартного вида. Вы можете настроить внешний вид блоков при помощи css. Шаблон SCSS доступен для скачивания по <a href="../files/xl-scss.zip" download="">ссылке</a>.</p>
+<p>Рассмотренный ниже пример добавляет виджет аутентификации стандартного вида. Вы можете настроить внешний вид блоков при помощи css. Шаблон SCSS доступен для скачивания по [ссылке](1).</p>
 <p>По умолчанию ширина блока 400px, высота зависит от аутентификационных опций.</p>
 <p>
 <a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png" title="Example of a default design"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.c7be3b3cc6.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/developers_login_01.e7fde1b10c@2x.png" alt="Example of a default design"> </a> <a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png" title="Example of a custom design"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.af452a849d@1x.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/lif-login.14e399bbdb@2x.png" alt="Example of a custom design"> </a> <a class="fancybox" rel="gallery_vc xsolla_login" href="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png" title="Example of a custom design"> <img src="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.035af309f8@1x.png" data-at2x="https://cdn.xsolla.net/developers.xsolla.com/images/gallery/capital-login.2bfa5d3bba@2x.png" alt="Example of a custom design"> </a>
@@ -92,11 +92,11 @@ XL.init({
 </th> <th style="text-align:left">
 <strong>Описание</strong>
 </th> </tr> </thead> <tbody> <tr> <td style="text-align:left">projectId</td> <td style="text-align:left">string</td> <td style="text-align:left">Идентификатор приложения. <strong>Обязательный</strong>.</td> </tr> <tr> <td style="text-align:left">locale</td> <td style="text-align:left">string</td> <td style="text-align:left">Локаль пользователя в формате &lt;language code&gt;_&lt;country code&gt;, где: <ul>
-<li> <em>language code:</em> код языка в формате <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" target="_blank">ISO 639 alpha-2</a>;</li>
+<li> <em>language code:</em> код языка в формате [ISO 639 alpha-2](1);</li>
 <li>
-<em>country code:</em> код страны (региона) в формате <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166-1 alpha-2</a>.</li>
+<em>country code:</em> код страны (региона) в формате [ISO 3166-1 alpha-2](1).</li>
 </ul>
-</td> </tr> <tr> <td style="text-align:left">redirectUrl</td> <td style="text-align:left">string</td> <td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. <a href="#server_side">Передается в jwt-токене.</a>
+</td> </tr> <tr> <td style="text-align:left">redirectUrl</td> <td style="text-align:left">string</td> <td style="text-align:left">Адрес, на который следует перенаправить пользователя после аутентификации. [Передается в jwt-токене.](1)
 </td> </tr> <tr> <td style="text-align:left">onlyWidgets</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Инициализировать ли Xsolla Login только для подключения виджетов. 'true' по умолчанию.</td> </tr> <tr> <td style="text-align:left">preloader</td> <td style="text-align:left">string</td> <td style="text-align:left">Прелоадер, который будет показан до загрузки виджета. Необходимо указать html-код элемента.</td> </tr> <tr> <td style="text-align:left">fields</td> <td style="text-align:left">string</td> <td style="text-align:left">Данные, которые необходимо получить от пользователя. Допустимое значение: email. <strong>Обязательный</strong>
 </td> </tr> </tbody> </table>
 <ol> <li value="3"> Добавьте элемент DIV, в котором будет отображаться виджет, задайте ему уникальный id, и добавьте после него код инициализации виджета. </li> </ol>
@@ -174,7 +174,7 @@ XL.AuthWidget(element_id, options);
 <code>GET https://callBackUrl.php?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ</code>
 </p>
 <table> <thead> <tr> <th style="text-align:left">Параметр</th> <th style="text-align:left">Тип</th> <th style="text-align:left">Описание</th> </tr> </thead> <tbody> <tr> <td style="text-align:left">token</td> <td style="text-align:left">string</td> <td style="text-align:left">
-<a href="https://en.wikipedia.org/wiki/JSON_Web_Token" target="_blank">JWT-token</a>. Вы можете <a href="https://jwt.io" target="_blank">дешифровать его</a>, используя секретный ключ.</td> </tr> <tr> <td style="text-align:left">is_linking</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Пользователь прилинковал аккаунт.</td> </tr> </tbody> </table>
+[JWT-token](1). Вы можете [дешифровать его](1), используя секретный ключ.</td> </tr> <tr> <td style="text-align:left">is_linking</td> <td style="text-align:left">boolean</td> <td style="text-align:left">Пользователь прилинковал аккаунт.</td> </tr> </tbody> </table>
 <h4 id="-">
 <a class="anchor" href="#server_side_пример-дешифрованного-токена">Пример дешифрованного токена</a>
 <div class="header-anchor" id="server_side_пример-дешифрованного-токена">
@@ -217,7 +217,7 @@ XL.AuthWidget(element_id, options);
 <div class="header-anchor" id="server_side_прохождение-аутентификации.-ошибка">
 </div>
 </h3>
-<p>В случае ошибки, пользователь будет перенаправлен на Ваш callback URL со следующими <a href="../api_v2.html#login_error">параметрами:</a>
+<p>В случае ошибки, пользователь будет перенаправлен на Ваш callback URL со следующими [параметрами:](1)
 </p>
 <p>
 <strong>HTTP запрос</strong>
@@ -232,7 +232,7 @@ XL.AuthWidget(element_id, options);
 </div>
 </h3>
 <p>Проксированная аутентификация может быть использована в том случае, если у Вас уже есть база пользователей. В этом случае необходимо реализовать следующие методы:</p>
-<p>Xsolla Login будет вызывать методы с адресов <a href="https://login.xsolla.com/">https://login.xsolla.com/</a> и <a href="https://test-login.xsolla.com/">https://test-login.xsolla.com/</a>
+<p>Xsolla Login будет вызывать методы с адресов [https://login.xsolla.com/](1) и [https://test-login.xsolla.com/](1)
 </p>
 <h4 id="-">
 <a class="anchor" href="#server_side_проверка-логина-пароля">Проверка логина/пароля</a>
@@ -275,7 +275,7 @@ XL.AuthWidget(element_id, options);
 <h1 data-headings="data-portal-intro">
 <a class="anchor" href="#data-portal-intro">Xsolla Data Portal на базе Slemma </a>
 </h1>
-<p>Этот гайд поможет вам ориентироваться в нашем <a href="https://slemma.com/demo/xsolla-payments" target="_blank">демо-примере</a>, и лучше понимать, как вы можете использовать данные отчеты при работе с вашей платежной аналитикой в <a href="https://publisher.xsolla.com" target="_blank">Личном Кабинете</a>. Ниже представлена информация о том как анализировать <a href="#dashboards">дашборды</a>, описания ко всем разделам, определения для различных <a href="#dataset-measures">метрик</a> и <a href="#dataset_dimensions">измерений</a>, а также список <a href="#faq_data_portal">Вопросов</a>. Если у вас возникнут вопросы, напишите нам на <a href="mailto:dataportal@xsolla.com" target="_blank">dataportal@xsolla.com</a>!</p>
+<p>Этот гайд поможет вам ориентироваться в нашем [демо-примере](1), и лучше понимать, как вы можете использовать данные отчеты при работе с вашей платежной аналитикой в [Личном Кабинете](1). Ниже представлена информация о том как анализировать [дашборды](1), описания ко всем разделам, определения для различных [метрик](1) и [измерений](1), а также список [Вопросов](1). Если у вас возникнут вопросы, напишите нам на [dataportal@xsolla.com](1)!</p>
 <div class="video-container"> <iframe src="https://www.youtube.com/embed/JSoLff-hv4A" frameborder="0" allowfullscreen="" class="video">
 </iframe> </div>
 </div>
@@ -315,7 +315,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Фильтры</a>
 </h2>
-<p>Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным <a href="#dataset_dimensions">измерениям</a>. Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре <strong>User Country</strong> выбрать <em>United States</em>, то на дашборде будут показаны данные о платежах только из <em>United States</em>. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.</p>
+<p>Для каждого дашборда есть несколько фильтров, расположенных в верхней части страницы, которые позволяют вам фильтровать данные по разным [измерениям](1). Чтобы использовать эти фильтры, выберите один и установите флажки измерений, по которым вы бы хотели ограничить выборку. Например, если в фильтре <strong>User Country</strong> выбрать <em>United States</em>, то на дашборде будут показаны данные о платежах только из <em>United States</em>. Чтобы исключить данные из выборки, используйте режим 'Exclude' в меню фильтра (меню появляется при нажатии на три точки справа от названия фильтра). Используйте фильтры, чтобы "углубиться" в данные об игре.</p>
 </div>
 <div class="section-code">
 </div>
@@ -327,7 +327,7 @@ XL.AuthWidget(element_id, options);
 <h2 data-headings="-">
 <a class="anchor" href="#-">Значения показателей роста</a>
 </h2>
-<p>Показатели роста сравнивают текущее состояние выбранных <a href="#dataset_measures">метрик</a> с метриками за предыдущий период такой же длины. Зеленые, направленные вверх стрелки указывают на рост по сравнению с предыдущим периодом, а красные, направленные вниз стрелки означают падение.</p>
+<p>Показатели роста сравнивают текущее состояние выбранных [метрик](1) с метриками за предыдущий период такой же длины. Зеленые, направленные вверх стрелки указывают на рост по сравнению с предыдущим периодом, а красные, направленные вниз стрелки означают падение.</p>
 </div>
 <div class="section-code">
 </div>
@@ -421,7 +421,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-3c42a1225b24aed8882b23874b8b827c4e8811b6-target-_blank-demo-a-">Обзорный </a>
-<a href="https://slemma.com/share/3c42a1225b24aed8882b23874b8b827c4e8811b6" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Обзорный дашборд содержит KPI вашей игры, идеален для ежедневного анализа, а также для показа на вашем офисном TV. Включает <strong>Gross Revenue</strong>, <strong>Payments</strong>, <strong>Paying Users</strong>, <strong>ARPPU</strong>, <strong>Paid Invoices</strong> и <strong>Average Payment Amount</strong>.</p>
 </div>
@@ -434,7 +434,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-57107d069f10200b7cc0fae2a514052350b9dbec-target-_blank-demo-a-">Игры </a>
-<a href="https://slemma.com/share/57107d069f10200b7cc0fae2a514052350b9dbec" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Игровой дашборд создан для анализа различных платежных ситуаций в ваших играх. Метрики заложены вместе с регулярными фильтрами, так что вы можете определить приоритеты и оценить разницу между вашими проектами. </p>
 </div>
@@ -447,7 +447,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-d761565a4d0a355ac3be414e5c3330f8f98f792f-target-_blank-demo-a-">Платежные системы </a>
-<a href="https://slemma.com/share/d761565a4d0a355ac3be414e5c3330f8f98f792f" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Понимание того, как платят ваши пользователи может быть столь же важным, как и ответ на вопрос: "почему?". Данный дашборд должен помочь вам понять как различные подгруппы ваших пользователей совершают платежи и как вы можете оптимизировать свой сайт, показывая наиболее подходящие и наиболее популярные платежные системы.</p>
 </div>
@@ -460,7 +460,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc-target-_blank-demo-a-">Кредитные карты </a>
-<a href="https://slemma.com/share/b7cdfeab7e5d08c88b51b2c1d10b8c6c584f18cc" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Дашборд кредитных карт полностью посвящен данным о кредитных картах. Анализ конверсии, причины отказа, а также информация о том как много пользователей разрешили Xsolla сохранить их платежные данные для будущих покупок (надежный индикатор их намерения еще вернуться в игру)!</p>
 </div>
@@ -473,7 +473,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-">
 <a class="anchor" href="#revenue-a-href-https-slemma-com-share-279ee8a542f1f79b6d637d28ebcd0228bacc2869-target-_blank-demo-a-">Revenue </a>
-<a href="https://slemma.com/share/279ee8a542f1f79b6d637d28ebcd0228bacc2869" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Revenue-дашборд предлагает несколько различных способов анализа тенденций. В данный дашборд включены параллельные периоды, средняя скользящая и диаграммы роста, все они могут помочь вам строить прогнозы. Также дашборд содержит лист валют; вы можете убедиться, что предлагаете все валюты, соответствующие областям присутствия ваших проектов.</p>
 </div>
@@ -486,7 +486,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-63c1084fc0efc9dd57e95bd7ce1050015e93fe4d-target-_blank-demo-a-">Платящие пользователи </a>
-<a href="https://slemma.com/share/63c1084fc0efc9dd57e95bd7ce1050015e93fe4d" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Paying Users дашборд — это способ понять характеристики вашего <strong>Revenue</strong>. Если <strong>Revenue</strong> увеличивается вы можете задать вопрос: новые пользователи становятся <strong>Paying Users</strong> или <strong>Existing Paying Users</strong> платят больше?</p>
 </div>
@@ -499,7 +499,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-">
 <a class="anchor" href="#arppu-a-href-https-slemma-com-share-504433146eb4d07cbcb67ad2f0467f29aed6f17e-target-_blank-demo-a-">ARPPU </a>
-<a href="https://slemma.com/share/504433146eb4d07cbcb67ad2f0467f29aed6f17e" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Average Revenue Per Paying User (ARPPU) это еще один способ увидеть характерное платежное поведение ваших пользователей. Данный дашборд также включает единичные значения Average Revenue Per Paying Daily Active User, который не увеличивается с течением времени от пользователей, совершивших единичный платеж.</p>
 </div>
@@ -512,7 +512,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-d185809a81a17fa74c872926a2cb66367ecd636c-target-_blank-demo-a-">Виртуальная валюта </a>
-<a href="https://slemma.com/share/d185809a81a17fa74c872926a2cb66367ecd636c" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Дашборд виртуальной валюты будет информировать вас о том как много пользователей совершили покупки, расплатившись внутриигровой валютой. Также вы можете загрузить ваши внутриигровые данные о потраченной игровой валюте, создать сравнительный дашборд и проверить здоровье вашей внутриигровой экономики.</p>
 </div>
@@ -525,7 +525,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-1e3730294de65cf1904c2985dd815f836a6d2a77-target-_blank-demo-a-">География </a>
-<a href="https://slemma.com/share/1e3730294de65cf1904c2985dd815f836a6d2a77" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Дашборд поможет понять разницу между платежными привычками пользователей в зависимости от их местоположения. Каждый лист сгруппирован по различным признакам, включая такие как: <strong>Countries</strong>, <strong>Regions</strong>, <strong>Languages</strong>, <strong>Business Regions</strong> и <strong>Timezones</strong>.</p>
 </div>
@@ -538,7 +538,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8-target-_blank-demo-a-">Девайсы </a>
-<a href="https://slemma.com/share/e3e689debbec5a0a0d5ec4efd74a92eee8ffa6d8" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Дашборд включает информацию об опыте пользователя в вашем интерфейсе. Вы можете использовать данную информацию для оптимизации вашего сайта для наиболее популярных девайсов и быть уверенным, что он работает в самых распространенных браузерах.</p>
 </div>
@@ -551,7 +551,7 @@ XL.AuthWidget(element_id, options);
 </div>
 <h2 data-headings="-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">
 <a class="anchor" href="#-a-href-https-slemma-com-share-4ba43a6b1671d29c9004991fe337ec62c82aaa0b-target-_blank-demo-a-">Отмены </a>
-<a href="https://slemma.com/share/4ba43a6b1671d29c9004991fe337ec62c82aaa0b" target="_blank">(demo)</a>
+[(demo)](1)
 </h2>
 <p>Дашборд позволит вам следить за фродом в вашей игре. Обзор листов будет показывать число отмен в <strong>Cancellation Date</strong>, <strong>Payment Date</strong>, как в процентах, так и географически. Список причин даст вам возможность увидеть распределение причин отмены для каждой отмены.</p>
 </div>
@@ -565,7 +565,7 @@ XL.AuthWidget(element_id, options);
 <h1 data-headings="xsolla-dataset">
 <a class="anchor" href="#xsolla-dataset">Xsolla Dataset</a>
 </h1>
-<p>Все эти предустановленные дашборды действительно хороши, но что если вы хотите создать свой собственный? Вы можете сделать это с помощью предоставленного Xsolla Dataset! Вы можете создать неограниченное количество дашбордов с вашим <a href="https://slemma.com" target="_blank">Slemma</a>-аккаунтом и вашими данными; постройте любой график с любыми метриками или измерениями.</p>
+<p>Все эти предустановленные дашборды действительно хороши, но что если вы хотите создать свой собственный? Вы можете сделать это с помощью предоставленного Xsolla Dataset! Вы можете создать неограниченное количество дашбордов с вашим [Slemma](1)-аккаунтом и вашими данными; постройте любой график с любыми метриками или измерениями.</p>
 </div>
 <div class="section-code">
 </div>
@@ -909,7 +909,7 @@ XL.AuthWidget(element_id, options);
 <!--
 **Q.** Есть ли возможность расширить отчеты моими собственными внутриигровыми данными?
 
-**A.** Да. Мы имеем специальное решение для игровой аналитики. Узнать больше о <a href="http://developers.xsolla.com/analytics.html" target="_blank">Xsolla Analytics API</a>
+**A.** Да. Мы имеем специальное решение для игровой аналитики. Узнать больше о [Xsolla Analytics API](1)
 
 ***--> <div class="section-content">
 <div class="section-description">
@@ -926,7 +926,7 @@ XL.AuthWidget(element_id, options);
 <p>
 <strong>Q.</strong> Как я могу активировать data portal для моего аккаунта?</p>
 <p>
-<strong>A.</strong> Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в <a href="https://publisher.xsolla.com" target="_blank">личном кабинете Xsolla</a>
+<strong>A.</strong> Вам необходимо иметь активный проект с завершенными платежами. Вы можете активировать data portal в [личном кабинете Xsolla](1)
 </p>
 <hr>
 <p>
@@ -935,26 +935,26 @@ XL.AuthWidget(element_id, options);
 <strong>A.</strong> Доступно три валюты: Доллары США, Евро и российские Рубли. Также существует возможность фильтровать данные по валюте платежа.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как я могу загрузить свои собственные данные в <a href="https://slemma.com" target="_blank">Slemma</a>?</p>
+<strong>Q.</strong> Как я могу загрузить свои собственные данные в [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в <a href="http://support.slemma.com" target="_blank">базе знаний Slemma</a>
+<strong>A.</strong> Вы имеете несколько возможностей для загрузки дополнительных данных: загрузка файла с вашего компьютера или облачного хранилища, или напрямую подключиться к вашей БД. Подробная информация расположена в [базе знаний Slemma](1)
 </p>
 <hr>
 <p>
 <strong>Q.</strong> Я обеспокоен конфиденциальностью и сохранностью моих данных.</p>
 <p>
-<strong>A.</strong> Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service. Все данные передаются в/из хранилища через зашифрованное соединение TLC. Необработанные платежные данные недоступны в <a href="https://slemma.com" target="_blank">Slemma</a>. Доступны только агреггированные данные, без персональной пользовательской информации. Мы применяем принципы наименьших привилегий, файерволлы, шифрования и других технологические и эксплуатационные подходы, чтобы сохранить ваши данные в безопасности.</p>
+<strong>A.</strong> Мы храним все данные в собственном защищенном хранилище данных Xsolla внутри изолированного приватного облака Amazon Web Service. Все данные передаются в/из хранилища через зашифрованное соединение TLC. Необработанные платежные данные недоступны в [Slemma](1). Доступны только агреггированные данные, без персональной пользовательской информации. Мы применяем принципы наименьших привилегий, файерволлы, шифрования и других технологические и эксплуатационные подходы, чтобы сохранить ваши данные в безопасности.</p>
 <hr>
 <p>
-<strong>Q.</strong> В данной аналитике не хватает некотрых данных, доступных в <a href="https://publisher.xsolla.com" target="_blank">личном кабинете Xsolla</a>. Как я могу получить их в <a href="https://slemma.com" target="_blank">Slemma</a>?</p>
+<strong>Q.</strong> В данной аналитике не хватает некотрых данных, доступных в [личном кабинете Xsolla](1). Как я могу получить их в [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Отправьте запрос на email <a href="mailto:dataportal@xsolla.com" target="_blank">dataportal@xsolla.com</a>
+<strong>A.</strong> Отправьте запрос на email [dataportal@xsolla.com](1)
 </p>
 <hr>
 <p>
-<strong>Q.</strong> Возможна ли выгрузка данных из <a href="https://slemma.com" target="_blank">Slemma</a>?</p>
+<strong>Q.</strong> Возможна ли выгрузка данных из [Slemma](1)?</p>
 <p>
-<strong>A.</strong>Вы можете скачивать графики и их данные в различных форматах из <a href="https://slemma.com" target="_blank">Slemma</a>, кликнув правой кнопкой мыши по объекту и выбрав тип файла. Также вы можете скачать дашборд целиком в PDF или PNG формате. Если вам нужны необработанные данные вы можете использовать <a href="http://developers.xsolla.com/api_v2.html#reports" target="_blank">Xsolla Reports API</a>.</p>
+<strong>A.</strong>Вы можете скачивать графики и их данные в различных форматах из [Slemma](1), кликнув правой кнопкой мыши по объекту и выбрав тип файла. Также вы можете скачать дашборд целиком в PDF или PNG формате. Если вам нужны необработанные данные вы можете использовать [Xsolla Reports API](1).</p>
 <hr>
 <p>
 <strong>Q.</strong> Могу ли я использовать данную аналитику для проверки финансовых отчетов?</p>
@@ -972,14 +972,14 @@ XL.AuthWidget(element_id, options);
 <strong>A.</strong> Мы получаем все метрики "на лету" из необработанных данных в нашем хранилище данных. Данный подход гарантирует точность для метрик с любой комбинацией группировки или фильтрации, особенно для подсчета количества уникальных значений или среднего метрик, к примеру, <strong>Paying Users</strong> и <strong>Average Payment Amount</strong>. Однако, мы не может предоставлять абсолютно точные финансовые данные, так как мы конвертируем платежные суммы в различный валютах со среднесуточным обменным курсом и используем округление до двух знаков после разделителя. Это означает, что разница редко превышает значение в $0.01.</p>
 <hr>
 <p>
-<strong>Q.</strong> <a href="https://slemma.com" target="_blank">Slemma</a> и аналитика в <a href="https://publisher.xsolla.com" target="_blank">личном кабинете Xsolla</a> показывают разные значения. Почему?</p>
+<strong>Q.</strong> [Slemma](1) и аналитика в [личном кабинете Xsolla](1) показывают разные значения. Почему?</p>
 <p>
-<strong>A.</strong> Данные в <a href="https://slemma.com" target="_blank">Slemma</a> в UTC таймзоне, тогда как данные в <a href="https://publisher.xsolla.com" target="_blank">личном кабинете Xsolla</a> в UTC+3 таймзоне. В будущем мы собираемся убрать такое поведение и показывать все данные в UTC таймзоне.</p>
+<strong>A.</strong> Данные в [Slemma](1) в UTC таймзоне, тогда как данные в [личном кабинете Xsolla](1) в UTC+3 таймзоне. В будущем мы собираемся убрать такое поведение и показывать все данные в UTC таймзоне.</p>
 <hr>
 <p>
 <strong>Q.</strong> Как я могу пригласить другого пользователя для сотрудничества?</p>
 <p>
-<strong>A.</strong> Когда вы активируете аналитику в <a href="https://publisher.xsolla.com" target="_blank">личном кабинете Xsolla</a> вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи). После регистрации в <a href="https://slemma.com" target="_blank">Slemma</a>, вы можете пригласить нового пользователя в настройках <a href="https://slemma.com/team" target="_blank">Users and groups</a> .</p>
+<strong>A.</strong> Когда вы активируете аналитику в [личном кабинете Xsolla](1) вы можете выбрать членов вашей команды и выслать им приглашение (по умолчанию все пользователи). После регистрации в [Slemma](1), вы можете пригласить нового пользователя в настройках [Users and groups](1) .</p>
 <hr>
 <p>
 <strong>Q.</strong> Как я могу создать свой собственный отчет?</p>
@@ -987,25 +987,25 @@ XL.AuthWidget(element_id, options);
 <strong>A.</strong> Да, вы действительно можете сделать это!</p>
 <hr>
 <p>
-<strong>Q.</strong> Какие функции обеспечивает <a href="https://slemma.com" target="_blank">Slemma</a>?</p>
+<strong>Q.</strong> Какие функции обеспечивает [Slemma](1)?</p>
 <p>
 <strong>A.</strong> Командный совместный доступ к дашбордам, комментирование, аннотации, управление доступом и дашборды автоматически обновляются.</p>
 <hr>
 <p>
-<strong>Q.</strong> У меня есть другие вопросы о <a href="https://slemma.com" target="_blank">Slemma</a>…</p>
+<strong>Q.</strong> У меня есть другие вопросы о [Slemma](1)…</p>
 <p>
-<strong>A.</strong> Используйте ‘Click here for help'-виджет в левой нижней стороне <a href="https://slemma.com" target="_blank">Slemma</a> для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</p>
+<strong>A.</strong> Используйте ‘Click here for help'-виджет в левой нижней стороне [Slemma](1) для получения доступа к базе знаний или контакта с саппортом при прмощи того же виджета.</p>
 <hr>
 <p>
-<strong>Q.</strong> Как связать несколько аккаунтов в личном кабинете Xsolla со <a href="https://slemma.com" target="_blank">Slemma</a>?</p>
+<strong>Q.</strong> Как связать несколько аккаунтов в личном кабинете Xsolla со [Slemma](1)?</p>
 <p>
-<strong>A.</strong> Свяжитесь с <a href="mailto:dataportal@xsolla.com" target="_blank">dataportal@xsolla.com</a>
+<strong>A.</strong> Свяжитесь с [dataportal@xsolla.com](1)
 </p>
 <hr>
 <p>
 <strong>Q.</strong> Я не могу найти свой вопрос в данном списке…</p>
 <p>
-<strong>A.</strong> Не стесняйтесь обращатьс к нам по любым вопросам по адресу <a href="mailto:dataportal@xsolla.com" target="_blank">dataportal@xsolla.com</a>
+<strong>A.</strong> Не стесняйтесь обращатьс к нам по любым вопросам по адресу [dataportal@xsolla.com](1)
 </p>
 </div>
 <div class="section-code">
@@ -1023,7 +1023,7 @@ XL.AuthWidget(element_id, options);
 </h1>
 <p>Xsolla Network — глобальное решение, которое помогает создать бренд игры, найти новых пользователей и распространить игру через доступ к десяткам аффилированных сетей, миллионам инфлюенсеров и сотням игровых медиа-порталов из одного места. Revenue Share или кампании, основанные на CPA легко настраиваются и запускаются за несколько минут, и, поскольку Xsolla интегрирована со всеми аффилированными лицами, разработчику игры не требуется дополнительно интегрироваться. Разработчик игр могут распространять свои предложения или сообщения для инфлюенсеров и игровых платформ и платить прямо из Личного Кабинета Xsolla, без необходимости подписания соглашения с каждым из них, экономя время, деньги и ресурсы R&amp;D.</p>
 <ul> <li>Привлечение новых пользователей без предварительной оплаты;</li> <li>Вы можете сами определять уровень рекламы, в зависимости от процента, который вы готовы платить;</li> <li>Xsolla Network была протестирована с Life is Feudal, и показала себя эффективной;</li> <li>4M инфлюенсеров на более чем 10 самых популярных платформах;</li> <li>До 100 аффилированных сетей;</li> <li>Распространение новостей во всех игровых медиа;</li> <li>Инструменты отслеживания производительности и аналитики позволяют оценивать эффективность кампании по приобретению пользователей с помощью отслеживаемых ссылок, рекламных кодов или ключей активации продукта.</li> <li>Базовая интеграция не обязательна, если уже интегрирован Xsolla Login.</li> </ul>
-<p>Xsolla Network — это часть продуктовой линейки Xsolla, и может быть использована вместе с Pay Station, Mobile Pay Station и/или Pay2Play. Для использования данного продукта необходимо реализовать подключение с одним из <a href="http://developers.xsolla.com/">модулей</a>.</p>
+<p>Xsolla Network — это часть продуктовой линейки Xsolla, и может быть использована вместе с Pay Station, Mobile Pay Station и/или Pay2Play. Для использования данного продукта необходимо реализовать подключение с одним из [модулей](1).</p>
 </div>
 <div class="section-code">
 </div>
@@ -1203,14 +1203,14 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#basic_integration_guide">Руководство по базовой интеграции </a>
 </h1>
 <p>Для базовой интеграции модуля необходимо:</p>
-<ol> <li>Зарегистрироваться в <a href="https://publisher.xsolla.com/" target="_blank">Личном Кабинете Xsolla</a>.</li> <li>
-<a href="../pay2play.html#basic_create_project">Создать проект</a>.</li> <li>
-<a href="../pay2play.html#basic_create_module">Настроить модуль</a>.</li> <li>
-<a href="../pay2play.html#basic_testing">Протестировать</a> процесс оплаты.</li> <li>Добавить на страницу игры <a href="../pay2play.html#basic_widget">виджет Pay2Play</a>.</li> <li>Подписать договор.</li> </ol>
+<ol> <li>Зарегистрироваться в [Личном Кабинете Xsolla](1).</li> <li>
+[Создать проект](1).</li> <li>
+[Настроить модуль](1).</li> <li>
+[Протестировать](1) процесс оплаты.</li> <li>Добавить на страницу игры [виджет Pay2Play](1).</li> <li>Подписать договор.</li> </ol>
 <p>В процессе интеграции понадобятся следующие параметры:</p>
 <ul> <li>ID проекта. Отображается в URL Личного Кабинета при переходе в настройки проекта — <i>
 <span>htt</span>ps://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> </ul>
-<aside class="notise2"> Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в <a href="../api_v2.html" target="_blank">справочнике API</a>. Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта. </aside>
+<aside class="notise2"> Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в [справочнике API](1). Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта. </aside>
 </div>
 <div class="section-code">
 </div>
@@ -1250,12 +1250,12 @@ user_register/{tracking_id}' \
 <h2 data-headings="basic_testing">
 <a class="anchor" href="#basic_testing">Тестирование процесса оплаты </a>
 </h2>
-<p>Xsolla Sandbox (“песочница”) — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"settings.mode" = "sandbox"</i> в объекте <b>access_data</b>. Параметры и структура JSON внутри объекта <b>access_data</b> идентичны JSON в запросе на получение <a href="../api_v2.html#token" target="_blank">токена</a>.</p>
+<p>Xsolla Sandbox (“песочница”) — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"settings.mode" = "sandbox"</i> в объекте <b>access_data</b>. Параметры и структура JSON внутри объекта <b>access_data</b> идентичны JSON в запросе на получение [токена](1).</p>
 <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside>
 <p>Тестирование оплаты банковской картой:</p>
 <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты <b>Банковские карты</b>.</li> <li>Введите реквизиты тестовой карты. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol>
 <p>
-<a href="../api_v2.html#test_cards" target="_blank">Список банковских карт для тестирования</a>
+[Список банковских карт для тестирования](1)
 </p>
 <p>
 <b>Обратите внимание!</b> Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p>
@@ -1271,7 +1271,7 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#basic_widget">Интеграция виджета Pay2Play </a>
 </h2>
 <p>
-<a href="https://github.com/xsolla/pay2play-widget" target="_blank">Виджет Pay2Play</a> открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку <b>Опубликовать</b>. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p>
+[Виджет Pay2Play](1) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку <b>Опубликовать</b>. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p>
 <p>Пример асинхронной загрузки</p>
 <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
 <code class="lang-html"> <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
@@ -1291,7 +1291,7 @@ user_register/{tracking_id}' \
  </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
-</pre> <p>Полный список параметров инициализации виджета доступен в <a href="../api_v2.html#pay2play_widget" target="_blank">справочнике API</a>, инструкция по добавлению виджета — в <a href="https://github.com/xsolla/pay2play-widget" target="_blank">проекте Github</a>.</p> <aside class="notise2"> <b>Обратите внимание!</b> Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside> </div>
+</pre> <p>Полный список параметров инициализации виджета доступен в [справочнике API](1), инструкция по добавлению виджета — в [проекте Github](1).</p> <aside class="notise2"> <b>Обратите внимание!</b> Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside> </div>
 </div>
 <div class="section-code">
 </div>
@@ -1304,17 +1304,17 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#advanced_integration_guide">Руководство по расширенной интеграции </a>
 </h1>
 <p>Для расширенной интеграции модуля необходимо:</p>
-<ol> <li>Зарегистрироваться в <a href="https://publisher.xsolla.com/" target="_blank">Личном Кабинете Xsolla</a>.</li> <li>
-<a href="../pay2play.html#advanced_create_project">Создать проект</a>.</li> <li>
-<a href="../pay2play.html#advanced_create_module">Настроить модуль</a>.</li> <li>
-<a href="../pay2play.html#advanced_get_token">Получить токен</a>.</li> <li>
-<a href="../pay2play.html#advanced_setup_webhooks">Настроить обработку оповещений</a>.</li> <li>
-<a href="../pay2play.html#advanced_testing">Протестировать</a> процесс оплаты.</li> <li>Добавить на страницу игры <a href="../pay2play.html#advanced_widget">виджет Pay2Play</a> и подписать договор.</li> </ol>
+<ol> <li>Зарегистрироваться в [Личном Кабинете Xsolla](1).</li> <li>
+[Создать проект](1).</li> <li>
+[Настроить модуль](1).</li> <li>
+[Получить токен](1).</li> <li>
+[Настроить обработку оповещений](1).</li> <li>
+[Протестировать](1) процесс оплаты.</li> <li>Добавить на страницу игры [виджет Pay2Play](1) и подписать договор.</li> </ol>
 <p>В процессе интеграции понадобятся следующие параметры:</p>
 <ul> <li>ID мерчанта. Отображается в URL Личного Кабинета — <i>
 <span>ht</span>tps://publisher.xsolla.com/{merchant_id}/</i>.</li> <li>Ключ API. Генерируется в Личном Кабинете в разделе <b>Настройки -&gt; Компания</b>.</li> <li>ID проекта. Отображается в URL Личного Кабинета при переходе в настройки проекта — <i>
 <span>htt</span>ps://publisher.xsolla.com/{merchant_id}/projects/{project_id}/</i>.</li> <li>Секретный ключ проекта. Генерируется на странице настройки проекта.</li> </ul>
-<aside class="notise2"> Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в <a href="../api_v2.html" target="_blank">справочнике API</a>. Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта. </aside>
+<aside class="notise2"> Данное руководство включает в себя минимальный набор настроек для быстрого запуска модуля. Полный список параметров описан в [справочнике API](1). Если у вас возникли вопросы по подключению, пожалуйста, обратитесь к аккаунт-менеджеру проекта. </aside>
 </div>
 <div class="section-code">
 </div>
@@ -1361,7 +1361,7 @@ user_register/{tracking_id}' \
 </code>
 </p>
 <p>В HTTP POST запросе вы можете указать параметры, которые нужно передать на платежный интерфейс. Запрос и ответ передаются в JSON формате.</p>
-<p>Ниже указан пример получения токена на PHP с использованием <a href="../sdk.html">Xsolla PHP SDK</a>. Если вы разрабатываете на другом языке, можно использовать <em>CURL</em> пример (нажмите на кнопку CURL).</p>
+<p>Ниже указан пример получения токена на PHP с использованием [Xsolla PHP SDK](1). Если вы разрабатываете на другом языке, можно использовать <em>CURL</em> пример (нажмите на кнопку CURL).</p>
 <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang active" data-lang="php">PHP</div> <div class="lang" data-lang="shell">CURL</div> </div> </div> <pre>
 <code class="lang-php">
 <span class="php">
@@ -1412,7 +1412,7 @@ user_register/{tracking_id}' \
 </div>
 <p>
 </p>
-<p>Полный список параметров доступен в <a href="../api_v2.html#token" target="_blank">справочнике API</a>.</p>
+<p>Полный список параметров доступен в [справочнике API](1).</p>
 </div>
 <div class="section-code">
 </div>
@@ -1426,7 +1426,7 @@ user_register/{tracking_id}' \
 </h2>
 <p>Xsolla отправляет проекту следующие типы оповещений (webhooks):</p>
 <ul> <li>Проверка существования пользователя</li> <li>Успешный платеж</li> <li>Отмена платежа</li> </ul>
-<p>Чтобы подтвердить получение оповещения, ваш сервер должен вернуть 204 HTTP код без тела сообщения. Механизм работы оповещений с примерами обработки подробно описан в <a href="../api_v2.html#webhooks" target="_blank">справочнике API</a>.</p>
+<p>Чтобы подтвердить получение оповещения, ваш сервер должен вернуть 204 HTTP код без тела сообщения. Механизм работы оповещений с примерами обработки подробно описан в [справочнике API](1).</p>
 <h3 id="-span-create_signature-span-">
 <a class="anchor" href="#advanced_setup_webhooks_формирование-подписи">Формирование подписи </a>
 <div class="header-anchor" id="advanced_setup_webhooks_формирование-подписи">
@@ -1481,7 +1481,7 @@ user_register/{tracking_id}' \
     }
 }'</span>
 </code>
-</pre> <p>Полный список параметров доступен в <a href="../api_v2.html#validate_user" target="_blank">справочнике API</a>.</p> <h3 id="-span-payment-span-">
+</pre> <p>Полный список параметров доступен в [справочнике API](1).</p> <h3 id="-span-payment-span-">
 <a class="anchor" href="#advanced_setup_webhooks_успешный-платеж">Успешный платеж </a>
 <div class="header-anchor" id="advanced_setup_webhooks_успешный-платеж">
 </div>
@@ -1628,7 +1628,7 @@ user_register/{tracking_id}' \
     }
 }'</span>
 </code>
-</pre> <p>Полный список параметров доступен в <a href="../api_v2.html#payment" target="_blank">справочнике API</a>.</p> <h3 id="-span-refund-span-">
+</pre> <p>Полный список параметров доступен в [справочнике API](1).</p> <h3 id="-span-refund-span-">
 <a class="anchor" href="#advanced_setup_webhooks_отмена-платежа">Отмена платежа </a>
 <div class="header-anchor" id="advanced_setup_webhooks_отмена-платежа">
 </div>
@@ -1794,7 +1794,7 @@ user_register/{tracking_id}' \
 </p>
 </div>
 <p>
-</p> <p>Полный список параметров доступен в <a href="../api_v2.html#refund" target="_blank">справочнике API</a>.</p> <h3 id="-span-advanced_test_webhooks-span-">
+</p> <p>Полный список параметров доступен в [справочнике API](1).</p> <h3 id="-span-advanced_test_webhooks-span-">
 <a class="anchor" href="#advanced_setup_webhooks_тестирование-оповещений">Тестирование оповещений </a>
 <div class="header-anchor" id="advanced_setup_webhooks_тестирование-оповещений">
 </div>
@@ -1802,15 +1802,15 @@ user_register/{tracking_id}' \
 </div>
 <h2 data-headings="advanced_testing">
 <a class="anchor" href="#advanced_testing">Тестирование процесса оплаты </a>
-</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"mode" = "sandbox"</i> при <a href="../api_v2.html#token" target="_blank">получении токена</a>.</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты <strong>Банковские карты</strong>.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
-<a href="../api_v2.html#test_cards" target="_blank">Список банковских карт для тестирования</a>
+</h2> <p>Xsolla Sandbox ("песочница") — это автономная рабочая среда, в которой доступны все функции Live режима, кроме проведения реальных платежей. Вы можете получить доступ к Sandbox, отправив параметр <i>"mode" = "sandbox"</i> при [получении токена](1).</p> <aside class="notise2"> Для проведения тестового платежа не нужен пинкод. Если вы хотите провести платеж с погашением пинкода, эту операцию необходимо выполнять в Live режиме. </aside> <p>Тестирование оплаты банковской картой:</p> <ol> <li>Откройте магазин в sandbox-режиме.</li> <li>Выберите предмет покупки.</li> <li>Выберите группу способов оплаты <strong>Банковские карты</strong>.</li> <li>Введите реквизиты карты из таблицы ниже. Остальные поля могут быть заполнены любыми данными. Вы также можете указать неверные реквизиты (номер карты, срок действия или CVV) для генерации ошибки.</li> </ol> <p>
+[Список банковских карт для тестирования](1)
 </p> <p>
 <b>Обратите внимание!</b> Платежи банковской картой в sandbox-режиме могут быть проведены только в валюте USD, EUR, RUB, GBP, SGD, HKD или THB.</p> <div class="section-anchor" id="advanced_widget" data-headings="advanced_widget">
 </div>
 <h2 data-headings="advanced_widget">
 <a class="anchor" href="#advanced_widget">Интеграция виджета Pay2Play </a>
 </h2> <p>
-<a href="https://github.com/xsolla/pay2play-widget" target="_blank">Виджет Pay2Play</a> открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку <b>Опубликовать</b>. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p> <p>Пример асинхронной загрузки</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
+[Виджет Pay2Play](1) открывает магазин в lightbox (для полноэкранной версии) или в новом окне (для мобильных устройств и планшетов). Тип устройства определяется автоматически. Для получения кода виджета откройте настройки модуля в Личном Кабинете и перейдите на вкладку <b>Опубликовать</b>. Скопируйте код нужного виджета и добавьте его на сайт игры. Рекомендуется использовать асинхронную загрузку.</p> <p>Пример асинхронной загрузки</p> <div class="content-code"> <div class="language-switcher"> <div class="languages"> <div class="lang" data-lang="html">HTML</div> </div> </div> <pre>
 <code class="lang-html"> <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>
 <span class="javascript">
      <span class="hljs-keyword">var</span> access_data = {<span class="hljs-string">"settings"</span>:{<span class="hljs-string">"project_id"</span>:<span class="hljs-number">14004</span>},<span class="hljs-string">"purchase"</span>:{<span class="hljs-string">"pin_codes"</span>:{<span class="hljs-string">"codes"</span>:[{<span class="hljs-string">"digital_content"</span>:<span class="hljs-string">"game_sku"</span>}]}}};
@@ -1828,7 +1828,7 @@ user_register/{tracking_id}' \
  </span>
 <span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
 </code>
-</pre> <p>Полный список параметров инициализации виджета доступен в <a href="../api_v2.html#pay2play_widget" target="_blank">справочнике API</a>, инструкция по добавлению виджета — в <a href="https://github.com/xsolla/pay2play-widget" target="_blank">проекте Github</a>.</p> <aside class="notise2"> <b>Обратите внимание!</b> Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside> </div>
+</pre> <p>Полный список параметров инициализации виджета доступен в [справочнике API](1), инструкция по добавлению виджета — в [проекте Github](1).</p> <aside class="notise2"> <b>Обратите внимание!</b> Чтобы начать принимать реальные платежи, необходимо подписать договор. </aside> </div>
 </div>
 </div>
 </div>
@@ -1867,7 +1867,7 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#api_pin_codes">Доставка пин-кодов пользователю по API </a>
 </h2>
 <p>Вы можете отправлять пин-коды при каждой покупке игры вместо загрузки файла с пин-кодами. Для включения опции необходимо:</p>
-<ul> <li>реализовать обработку оповещения <a href="../api_v2.html#get_pin_code" target="_blank">Получение пин-кода</a>;</li> <li>в настройках аддона на вкладке <b>Загрузка кодов</b> установить переключатель <b>По требованию</b> в положение <b>Вкл.</b>, переключатель <b>Загруженные коды</b> — в положение <b>Выкл.</b>
+<ul> <li>реализовать обработку оповещения [Получение пин-кода](1);</li> <li>в настройках аддона на вкладке <b>Загрузка кодов</b> установить переключатель <b>По требованию</b> в положение <b>Вкл.</b>, переключатель <b>Загруженные коды</b> — в положение <b>Выкл.</b>
 </li> </ul>
 </div>
 <div class="section-code">
@@ -1988,7 +1988,7 @@ user_register/{tracking_id}' \
 </h2>
 <p>Для подключения модуля необходимо:</p>
 <ol> <li>
-<a href="./pay2play.html">Настроить</a> модуль Pay2Play.</li> <li>Связаться с аккаунт-менеджером проекта для включения опции.</li> </ol>
+[Настроить](1) модуль Pay2Play.</li> <li>Связаться с аккаунт-менеджером проекта для включения опции.</li> </ol>
 </div>
 <div class="section-code">
 </div>
@@ -2001,7 +2001,7 @@ user_register/{tracking_id}' \
 <a class="anchor" href="#virtual_items_virtual_currency_payment_wall_modules">Модуль виртуальной валюты, модуль виртуальных товаров или модуль реальной валюты </a>
 </h2>
 <p>Для подключения опции необходимо:</p>
-<ol> <li>Настроить модуль <a href="./virtual_currency.html">виртуальной валюты</a>, <a href="./virtual_items.html">виртуальных товаров</a> или модуль <a href="./payment_wall.html">реальной валюты</a>.</li> <li>Реализовать <a href="#friend_via_api">метод API</a> для передачи списка друзей в Xsolla или добавить объект с данными о друзьях в <a href="#friend_via_token">запрос на получение токена</a>.</li> <li>Реализовать <a href="#setup_webhooks">обработку оповещения</a> об успешной оплате с добавленными данными о подарке.</li> <li>Связаться с аккаунт-менеджером проекта для включения опции.</li> </ol>
+<ol> <li>Настроить модуль [виртуальной валюты](1), [виртуальных товаров](1) или модуль [реальной валюты](1).</li> <li>Реализовать [метод API](1) для передачи списка друзей в Xsolla или добавить объект с данными о друзьях в [запрос на получение токена](1).</li> <li>Реализовать [обработку оповещения](1) об успешной оплате с добавленными данными о подарке.</li> <li>Связаться с аккаунт-менеджером проекта для включения опции.</li> </ol>
 </div>
 <div class="section-code">
 </div>
@@ -2025,7 +2025,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="friend_via_token">
 <a class="anchor" href="#friend_via_token">Передача списка друзей в токене </a>
 </h2>
-<p>При необходимости в запрос можно добавить массив со списком друзей пользователя. Если массив содержит всего один элемент, переданный друг автоматически определяется как получатель подарка. В <a href="./api_v2.html#token">запросе на получение токена</a> можно передавать не более 100 друзей. В запрос также можно включить объект с данными о подарке.</p>
+<p>При необходимости в запрос можно добавить массив со списком друзей пользователя. Если массив содержит всего один элемент, переданный друг автоматически определяется как получатель подарка. В [запросе на получение токена](1) можно передавать не более 100 друзей. В запрос также можно включить объект с данными о подарке.</p>
 <p>
 <b>Пример запроса</b>
 </p>
@@ -2081,7 +2081,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="friend_via_api">
 <a class="anchor" href="#friend_via_api">Передача списка друзей по запросу к API </a>
 </h2>
-<p>Xsolla отправляет проекту <a href="./api_v2.html#friends_list">запрос на получение списка друзей</a> по адресу, указанному в качестве webhook URL в настройках проекта.</p>
+<p>Xsolla отправляет проекту [запрос на получение списка друзей](1) по адресу, указанному в качестве webhook URL в настройках проекта.</p>
 <p>
 <b>Формирование подписи</b>
 </p>
@@ -2156,7 +2156,7 @@ user_register/{tracking_id}' \
 <h2 data-headings="setup_webhooks">
 <a class="anchor" href="#setup_webhooks">Настройка оповещений </a>
 </h2>
-<p>При включении модулей виртуальной валюты и виртуальных товаров обязательным шагом является обработка <a href="./api_v2.html#payment">оповещения Payments</a>. При включении опции Подарок другу в JSON оповещения добавляется новый объект gift.purchase.</p>
+<p>При включении модулей виртуальной валюты и виртуальных товаров обязательным шагом является обработка [оповещения Payments](1). При включении опции Подарок другу в JSON оповещения добавляется новый объект gift.purchase.</p>
 <p>
 <b>Пример запроса</b>
 </p>
@@ -2284,7 +2284,7 @@ user_register/{tracking_id}' \
 <strong>Генерация CSR:</strong> <em>openssl req -new -key server.key -out server.csr</em>
 </p> <p>Во время генерации следует отвечать на вопросы в интерактивном режиме.</p> <p>
 <strong>Важно!</strong> В поле <strong>Common Name</strong> нужно указать имя вашего домена (<strong>secure.yourdomain.com</strong>).</p> </li> </ul> </li> <li>
-<p>Далее, на любом сайте, выдающем сертификаты (например, <a href="https://www.godaddy.com/web-security/ssl-certificate" target="_blank">GoDaddy</a>) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла <strong>server.csr</strong>.</p> <p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</p> </li> <li>Выслать Xsolla ключ и сертификат на электронную почту <a href="mailto:sysadmins@xsolla.com">sysadmins@xsolla.com</a> с темой письма: <strong>[Ваша игра]: SSL Certificate</strong>.</li> <li>При интеграции через <strong>Pay Station Embed</strong> необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li> </ol>
+<p>Далее, на любом сайте, выдающем сертификаты (например, [GoDaddy](1)) оформляется сертификат. В процессе оформления будет запрошен CSR — следует скопировать в поле ввода содержимое файла <strong>server.csr</strong>.</p> <p>После проверки принадлежности домена регистратор высылает подписанный сертификат.</p> </li> <li>Выслать Xsolla ключ и сертификат на электронную почту [sysadmins@xsolla.com](1) с темой письма: <strong>[Ваша игра]: SSL Certificate</strong>.</li> <li>При интеграции через <strong>Pay Station Embed</strong> необходимо указать в параметре "host" ссылку на интерфейс оплаты.</li> </ol>
 </div>
 <div class="section-code">
 </div>
